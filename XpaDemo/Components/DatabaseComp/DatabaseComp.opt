@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <MobileDesignMode Val="N"/>
+
+  <DebugMode Val="Y"/>
+
+  <RIAExecutionPlatform Val="Android"/>
+
+  <WatchListItems>
+    <RestData/>
+  </WatchListItems>
+
+</Application>

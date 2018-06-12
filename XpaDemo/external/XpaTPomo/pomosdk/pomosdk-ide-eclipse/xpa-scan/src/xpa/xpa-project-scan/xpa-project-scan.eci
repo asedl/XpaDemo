@@ -1,0 +1,28 @@
+       // Magic ECI Generator                                          //
+       // Created by   :----No User logged in----         //
+       // Created Date :03/06/2018 Time :14:45:25              //
+       // File Name    :C:\magic\samples\xpaxmltest\XPATests\external\XpaTPomo\pomosdk\pomosdk-ide-ecli
+COMPID = 175473761-52033-19813-95CBC2F3
+NAME = "xpa-project-scan"
+DESC = "xpa-project-scan"
+COMPTYPE = "Magic xpa"
+IMMED = "N"
+PROJECTFILE = "C:\magic\samples\xpaxmltest\XPATests\external\XpaTPomo\pomosdk\pomosdk-ide-eclipse\xpa-scan\src\xpa\xpa-project-scan\xpa-project-scan.edp"
+CABINETFILE = "xpa-project-scan.ecf"
+VRSN = 0.1.0
+HLPFILE = ""
+HLPKEY = ""
+
+File=PUBLIC="xpa_projectfiles" RMK="" HELPKEY=""
+File=PUBLIC="xpa_schemas" RMK="" HELPKEY=""
+File=PUBLIC="xpa_tools_components" RMK="" HELPKEY=""
+PRG=PUBLIC="BPOML001_ScanXpaProject" RMK="" HELPKEY=""
+PRG=PUBLIC="OPOML002_ShowXpaProject" RMK="" HELPKEY=""
+PRG=PUBLIC="OPOML003_ShowXpaProjectComps" RMK="" HELPKEY=""
+PRG=PUBLIC="OPOML004_ValidateXml" RMK="" HELPKEY=""
+PRG=PUBLIC="BPOML050_CreateAutoprocSeqF" RMK="" HELPKEY=""
+PRG=PUBLIC="BPOML002_ScanXpaProject_Comp_C" RMK="" HELPKEY=""
+PRG=PUBLIC="BPOML002_ScanXpaProject_Comp_P" RMK="" HELPKEY=""
+PRG=PUBLIC="OPOMO100_ToolsUI" RMK="" HELPKEY=""
+
+[ENVIRONMENT]

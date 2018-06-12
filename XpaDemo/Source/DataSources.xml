@@ -1,0 +1,251 @@
+ <Application>
+ 
+<Header>
+
+  <Version val="13030.00"/>
+
+  <WithIsn val="Y"/>
+
+  <Exe comp="-1"/>
+
+  <LastIsn val="21"/>
+
+  <LastIsnFolder val="3"/>
+
+  <Folders>
+    <Folder id="3">
+      <Name val="Memory Tables"/>
+    </Folder>
+  </Folders>
+
+</Header>
+ <DataSourceRepository>
+  <DataObjects>
+ 
+<DataObject PhysicalName="Filelist" Resident="N" UniqueISNConvState="12" data_source="Memory" id="20" name="Filelist">
+
+  <Encrypt val="N"/>
+
+  <Cache val="D"/>
+
+  <IdentifyRowModifications val="P"/>
+
+  <HasHint val="Y"/>
+
+  <Cursor val="D"/>
+
+  <CheckExistence val="D"/>
+
+  <ObjectType val="T"/>
+
+  <PositionIndex val="-1"/>
+
+  <IndexesLastIsn val="1"/>
+
+  <MetaTreeRTIndex val="-1"/>
+
+  <Columns>
+    <Column id="1" name="id">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Picture id="157" valUnicode="9"/>
+        <StoredAs id="173" val="4"/>
+        <Size id="174" val="4"/>
+        <Definition id="175" val="2"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="9"/>
+        <_Negative id="192"/>
+        <_Flip id="194"/>
+        <_FieldPhysical PIC_U="9" Size="4" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+        <DefaultStorage id="274" val="Y"/>
+        <_FieldStyle id="276" val="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="2" name="filename">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_UNICODE" comp="-1" id="1" obj="12"/>
+        <StoredAs id="173" val="31"/>
+        <Size id="174" val="510"/>
+        <Definition id="175" val="1"/>
+        <DbColumnName id="178"/>
+        <Type id="179"/>
+        <UserType id="180"/>
+        <_Flip id="194"/>
+        <_FieldPhysical PIC_U="255" Size="510" allowed_null="N" attribute="U" context_cookies="Y" database_definition="1" id="231" storage="31" translate="3"/>
+        <DefaultStorage id="274" val="Y"/>
+      </PropertyList>
+    </Column>
+  </Columns>
+
+  <Indexes>
+    <Index id="1" name="pk_filelist">
+      <Mode val="S"/>
+      <Order val="T"/>
+      <Range val="Q"/>
+      <IndexType val="R"/>
+      <HasHint val="Y"/>
+      <Clustered val="N"/>
+      <DropOnReindex val="N"/>
+      <Primary val="N"/>
+      <Segments>
+        <Segment>
+          <Size val="4"/>
+          <Column val="1"/>
+          <Order val="A"/>
+        </Segment>
+      </Segments>
+    </Index>
+  </Indexes>
+
+  <ForeignKeys/>
+
+  <WebS/>
+
+</DataObject> 
+<DataObject Comment="/* This contains the &quot;tree mode&quot; menu used for these programs */" FolderIsn="3" PhysicalName="Generic_Tree" Resident="N" UniqueISNConvState="12" data_source="Memory" id="21" name="Generic Tree">
+
+  <Encrypt val="N"/>
+
+  <Cache val="D"/>
+
+  <IdentifyRowModifications val="P"/>
+
+  <HasHint val="Y"/>
+
+  <CheckExistence val="D"/>
+
+  <ObjectType val="T"/>
+
+  <IndexesLastIsn val="5"/>
+
+  <Columns>
+    <Column id="5" name="Node ID">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Picture id="157" valUnicode="5"/>
+        <StoredAs id="173" val="4"/>
+        <Size id="174" val="4"/>
+        <Definition id="175" val="2"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="5"/>
+        <_Negative id="192"/>
+        <_Flip id="194"/>
+        <_FieldPhysical PIC_U="5" Size="4" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+        <_FieldStyle id="276" val="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="4" name="Parent ID">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Picture id="157" valUnicode="5"/>
+        <StoredAs id="173" val="4"/>
+        <Size id="174" val="4"/>
+        <Definition id="175" val="2"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="5"/>
+        <_Negative id="192"/>
+        <_Flip id="194"/>
+        <_FieldPhysical PIC_U="5" Size="4" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+        <_FieldStyle id="276" val="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="1" name="Description">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_ALPHA" id="1"/>
+        <Picture id="157" valUnicode="30"/>
+        <StoredAs id="173" val="1"/>
+        <Size id="174" val="30"/>
+        <Definition id="175" val="2"/>
+        <_Flip id="194"/>
+        <_FieldPhysical PIC_U="30" Size="30" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="1" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="2" name="Link to record">
+      <Comment val="/* This field would be used to link to some other data table, in this case, the Generic Test Table */"/>
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Picture id="157" valUnicode="6"/>
+        <StoredAs id="173" val="4"/>
+        <Size id="174" val="4"/>
+        <Definition id="175" val="2"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="6"/>
+        <_Negative id="192"/>
+        <_Flip id="194"/>
+        <_FieldPhysical PIC_U="6" Size="4" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+        <_FieldStyle id="276" val="1"/>
+      </PropertyList>
+    </Column>
+  </Columns>
+
+  <Indexes>
+    <Index id="2" name="Node_Parent">
+      <Mode val="S"/>
+      <Order val="T"/>
+      <Range val="Q"/>
+      <IndexType val="R"/>
+      <HasHint val="Y"/>
+      <Clustered val="N"/>
+      <DropOnReindex val="N"/>
+      <Primary val="N"/>
+      <Segments>
+        <Segment>
+          <Size val="4"/>
+          <Column val="5"/>
+          <Order val="A"/>
+        </Segment>
+        <Segment>
+          <Size val="4"/>
+          <Column val="4"/>
+          <Order val="A"/>
+        </Segment>
+      </Segments>
+    </Index>
+    <Index id="4" name="Parent_Node">
+      <Mode val="N"/>
+      <Order val="T"/>
+      <Range val="Q"/>
+      <IndexType val="R"/>
+      <HasHint val="Y"/>
+      <Clustered val="N"/>
+      <DropOnReindex val="N"/>
+      <Primary val="N"/>
+      <Segments>
+        <Segment>
+          <Size val="4"/>
+          <Column val="4"/>
+          <Order val="A"/>
+        </Segment>
+        <Segment>
+          <Size val="4"/>
+          <Column val="5"/>
+          <Order val="A"/>
+        </Segment>
+      </Segments>
+    </Index>
+    <Index id="5" name="Description">
+      <Mode val="N"/>
+      <Order val="T"/>
+      <Range val="Q"/>
+      <IndexType val="R"/>
+      <HasHint val="Y"/>
+      <Clustered val="N"/>
+      <DropOnReindex val="N"/>
+      <Primary val="N"/>
+      <Segments>
+        <Segment>
+          <Size val="30"/>
+          <Column val="1"/>
+          <Order val="A"/>
+        </Segment>
+      </Segments>
+    </Index>
+  </Indexes>
+
+  <ForeignKeys/>
+
+  <WebS/>
+
+</DataObject>  </DataObjects>
+ </DataSourceRepository>
+  </Application>

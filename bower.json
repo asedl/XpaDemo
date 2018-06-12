@@ -1,0 +1,21 @@
+{
+  "name": "xpaxmltest",
+  "homepage": "https://github.com/asedl/xpaxmltest",
+  "authors": [
+    "Andreas Sedlmeier <sedlmeier@hotmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,41 @@
+       // Magic ECI Generator                                          //
+       // Created by   :----No User logged in----         //
+       // Created Date :07/06/2018 Time :03:06:11              //
+       // File Name    :C:\magic\samples\xpaxmltest\XPATests\Components\_UserFunctionality\_UserFunctio
+COMPID = 3902674675-36743-19037-9421D7318
+NAME = "_UserFunctionality"
+DESC = ""
+COMPTYPE = "Magic xpa"
+IMMED = "Y"
+PROJECTFILE = "C:\magic\samples\xpaxmltest\XPATests\Components\_UserFunctionality\_UserFunctionality.edp"
+CABINETFILE = "%Components%_UserFunctionality.ecf"
+VRSN =
+HLPFILE = ""
+HLPKEY = ""
+
+PRG=PUBLIC="OnlineManageScreen" RMK="" HELPKEY=""
+PRG=PUBLIC="OnlineColumnSelection" RMK="" HELPKEY=""
+PRG=PUBLIC="OnlineDelimiters" RMK="" HELPKEY=""
+PRG=PUBLIC="ManageScreen" RMK="" HELPKEY=""
+PRG=PUBLIC="PrintData" RMK="" HELPKEY=""
+PRG=PUBLIC="ColumnSelection" RMK="" HELPKEY=""
+PRG=PUBLIC="Delimiters" RMK="" HELPKEY=""
+PRG=PUBLIC="OnlineRangeManager" RMK="" HELPKEY=""
+PRG=PUBLIC="OnlineRange" RMK="" HELPKEY=""
+PRG=PUBLIC="OnlineRangeExpression" RMK="" HELPKEY=""
+PRG=PUBLIC="OnlineLocate" RMK="" HELPKEY=""
+PRG=PUBLIC="OnlineSort" RMK="" HELPKEY=""
+PRG=PUBLIC="OnlineRangeFilter" RMK="" HELPKEY=""
+PRG=PUBLIC="ViewByKey" RMK="" HELPKEY=""
+PRG=PUBLIC="RCRangeManager" RMK="" HELPKEY=""
+PRG=PUBLIC="RCRange" RMK="" HELPKEY=""
+PRG=PUBLIC="RCRangeExpression" RMK="" HELPKEY=""
+PRG=PUBLIC="RCLocate" RMK="" HELPKEY=""
+PRG=PUBLIC="RCSort" RMK="" HELPKEY=""
+PRG=PUBLIC="RCRangeFilter" RMK="" HELPKEY=""
+PRG=PUBLIC="RCViewByKey" RMK="" HELPKEY=""
+PRG=PUBLIC="OnlineExcelPreview" RMK="" HELPKEY=""
+PRG=PUBLIC="RCExcelPreview" RMK="" HELPKEY=""
+EVNT=PUBLIC="RangeLocateSort" RMK="" HELPKEY=""
+
+[ENVIRONMENT]

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="CheckerResult">
+		<xs:annotation>
+			<xs:documentation>Root element for the Checker results.</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence maxOccurs="unbounded">
+				<xs:element name="Model" type="MessageType" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element name="Table" type="MessageType" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element name="Task" type="MessageType" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element name="Help" type="MessageType" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element name="Right" type="MessageType" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element name="Menu" type="MessageType" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="MessageType">
+		<xs:annotation>
+			<xs:documentation>Type of the Message</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Error" type="MessageDetails" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="Warning" type="MessageDetails" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="UnUsedExpression" type="MessageDetails" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="Recommendation" type="MessageDetails" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="ID"/>
+		<xs:attribute name="Name"/>
+	</xs:complexType>
+	<xs:complexType name="MessageDetails">
+		<xs:annotation>
+			<xs:documentation>Mesage Details.</xs:documentation>
+		</xs:annotation>
+		<xs:attribute name="Desc" type="xs:string"/>
+		<xs:attribute name="ID" type="xs:string"/>
+		<xs:attribute name="Location" type="xs:string"/>
+	</xs:complexType>
+</xs:schema>

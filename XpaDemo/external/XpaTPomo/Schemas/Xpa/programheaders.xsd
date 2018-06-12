@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2007 sp2 (http://www.altova.com) by XMLSpy 2007 Enterprise Ed., Installed for 5 users (with SMP from 2007-03-09 to 2009-03-09) (private) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<!--eDeveloper 10 Program headers-->
+	<xs:include schemaLocation="properties.xsd"/>
+	<xs:element name="Application">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Header">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Version">
+								<xs:complexType>
+									<xs:attribute name="val" use="required">
+										<xs:simpleType>
+											<xs:restriction base="xs:double">
+												<xs:enumeration value="13030"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="WithIsn">
+								<xs:complexType>
+									<xs:attribute name="val" use="required">
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:enumeration value="Y"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="ProgramsRepositoryHeaders">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Program" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Header">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="Comment" type="VAL_STRING_TYPE" minOccurs="0"/>
+													<xs:element name="Public" type="VAL_STRING_TYPE" minOccurs="0"/>
+													<xs:element name="ExecutionRight" type="PUBLIC_OBJECT_TYPE" minOccurs="0"/>
+													<xs:element name="Resident" minOccurs="0">
+														<xs:complexType>
+															<xs:simpleContent>
+																<xs:extension base="xs:string">
+																	<xs:attribute name="val" type="xs:string"/>
+																</xs:extension>
+															</xs:simpleContent>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="SQL" minOccurs="0">
+														<xs:complexType>
+															<xs:simpleContent>
+																<xs:extension base="xs:string">
+																	<xs:attribute name="val" type="xs:string"/>
+																</xs:extension>
+															</xs:simpleContent>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="ReturnValue">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="ReturnValueAttr" minOccurs="0">
+																	<xs:complexType>
+																		<xs:attribute name="val" type="xs:string" use="optional"/>
+																		<xs:attribute name="DNType" type="xs:string" use="optional"/>
+																		<xs:attribute name="MgAttr" type="xs:string" use="optional"/>
+																	</xs:complexType>
+																</xs:element>
+																<xs:element name="TSK_PARAMS" type="VAL_INT_TYPE" minOccurs="0"/>
+																<xs:element name="ParametersCount" type="VAL_INT_TYPE" minOccurs="0"/>
+																<xs:element name="ParametersAttributes" minOccurs="0">
+																	<xs:complexType>
+																		<xs:sequence>
+																			<xs:element name="Attr" minOccurs="0" maxOccurs="unbounded">
+																				<xs:complexType>
+																					<xs:attribute name="DNType" type="xs:string" use="optional"/>
+																					 <xs:attribute name="JavaType" type="xs:string" use="optional"/>
+																					<xs:attribute name="MgAttr" type="xs:string" use="optional"/>
+																				</xs:complexType>
+																			</xs:element>
+																		</xs:sequence>
+																		<xs:attribute name="ParametersAttributes" type="xs:string" use="optional"/>
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="PARALLEL_EXECUTION" minOccurs="0">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="INITIATE_MAIN_PROG" type="VAL_STRING_TYPE" minOccurs="0"/>
+																<xs:element name="COPY_GLOBAL_PARAMS" type="VAL_STRING_TYPE" minOccurs="0"/>
+																<xs:element name="SingleInstance" type="VAL_STRING_TYPE" minOccurs="0"/>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="SqlWhereExist" type="VAL_Y_N_TYPE" minOccurs="0"/>
+													<xs:element name="TaskType" minOccurs="0">
+														<xs:complexType>
+															<xs:attribute name="val" use="required">
+																<xs:simpleType>
+																	<xs:restriction base="xs:string">
+																		<xs:enumeration value="B"/>
+																		<xs:enumeration value="O"/>
+																		<xs:enumeration value="C"/>
+																		<xs:enumeration value="R"/>
+																		<xs:enumeration value="W"/>
+																	</xs:restriction>
+																</xs:simpleType>
+															</xs:attribute>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="Interactive" type="VAL_Y_N_TYPE" minOccurs="0"/>
+													<xs:element name="TaskID" type="VAL_STRING_TYPE" minOccurs="0"/>
+													<xs:element name="External" type="VAL_Y_N_TYPE" minOccurs="0"/>
+													<xs:element name="Offline" type="VAL_Y_N_TYPE" minOccurs="0"/>
+													<xs:element name="Closeopentasks" type="VAL_Y_N_TYPE" minOccurs="0"/>
+													<xs:element name="RunProjectAs" type="VAL_EXP_TYPE" minOccurs="0"/>
+													<xs:element name="FormType" minOccurs="0">
+														<xs:complexType>
+															<xs:attribute name="val" use="required">
+																<xs:simpleType>
+																	<xs:restriction base="xs:string">
+																		<xs:enumeration value="M"/>
+																		<xs:enumeration value="N"/>
+																		<xs:enumeration value="U"/>
+																		<xs:enumeration value="D"/>
+																	</xs:restriction>
+																</xs:simpleType>
+															</xs:attribute>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="DotNetObjectExists" type="VAL_Y_N_TYPE" minOccurs="0"/>
+													<xs:element name="ToBeMigrated" type="VAL_Y_N_TYPE" minOccurs="0"/>
+                          <xs:element name="ToBeMigratedFrom1x" type="VAL_Y_N_TYPE" minOccurs="0"/>                          
+                          <xs:element name="LastModified">
+														<xs:complexType>
+															<xs:attribute name="time" type="xs:time" use="required"/>
+															<xs:attribute name="date" type="xs:string" use="required"/>
+															<xs:attribute name="_time" type="xs:int"/>
+															<xs:attribute name="_date" type="xs:int"/>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+												<xs:attribute name="id" type="xs:int"/>
+												<xs:attribute name="LastIsn" type="xs:int"/>
+												<xs:attribute name="ISN_2" type="xs:int"/>
+												<xs:attribute name="ISEMPTY_TSK" type="xs:int"/>
+												<xs:attribute name="Description" type="xs:string"/>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="SourceFileTimeStamp">
+											<xs:complexType>
+												<xs:attribute name="time" type="xs:time" use="required"/>
+												<xs:attribute name="date" type="xs:string" use="required"/>
+												<xs:attribute name="_time" type="xs:int"/>
+												<xs:attribute name="_date" type="xs:int"/>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

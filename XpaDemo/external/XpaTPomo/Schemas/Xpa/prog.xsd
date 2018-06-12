@@ -1,0 +1,1350 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.3 U (http://www.xmlspy.com) by Moshe Levy (MIS) -->
+<!-- edited with XMLSpy v2008 (http://www.altova.com) by avi (private) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<!--eDeveloper 10 Program entry-->
+	<xs:include schemaLocation="properties.xsd"/>
+	<xs:element name="Application">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Header" type="ApplicationHeaderType"/>
+				<xs:element name="ProgramsRepository">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Programs">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Task" type="TaskType"/>
+										<xs:element name="SubTaskNumber" type="VAL_INT_TYPE" minOccurs="0"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="TaskType">
+		<xs:sequence>
+			<xs:element name="Header" type="ProgramHeaderType" minOccurs="0"/>
+			<xs:element name="DISPLAY" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="ReturnValueExpression" type="VAL_INT_TYPE" minOccurs="0"/>
+			<xs:element name="Menu" type="VAL_INT_TYPE" minOccurs="0"/>
+			<xs:element name="MAGIC_SQL" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="CHUNK" type="VAL_STRING_TYPE" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>
+                   There might be a sequence problem if this element apears anywhere else in the sequence      
+               </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ItemIsn" type="VAL_INT_TYPE" minOccurs="0"/>
+			<xs:element name="Resource" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element ref="DB" minOccurs="0" maxOccurs="unbounded"/>
+						<xs:element ref="IO" minOccurs="0" maxOccurs="unbounded"/>
+						<xs:element name="Columns">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="Column" type="ColumnType" minOccurs="0" maxOccurs="unbounded"/>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+						<xs:element name="ColumnsLastIsn" type="VAL_INT_TYPE" minOccurs="0"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Information" minOccurs="0">
+				<xs:complexType>
+					<xs:all>
+						<xs:element name="Key">
+							<xs:complexType>
+								<xs:all>
+									<xs:element name="Column" type="ColumnType" minOccurs="0"/>
+									<xs:element name="Mode" type="VAL_STRING_TYPE" minOccurs="0"/>
+									<xs:element name="Exp" type="VAL_INT_TYPE" minOccurs="0"/>
+									<xs:element name="Modify" type="VAL_STRING_TYPE" minOccurs="0"/>
+								</xs:all>
+							</xs:complexType>
+						</xs:element>
+						<xs:element ref="DB"/>
+						<xs:element name="Sort">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="CLS" type="VAL_STRING_TYPE" minOccurs="0"/>
+									<xs:element name="Segment" minOccurs="0" maxOccurs="unbounded">
+										<xs:complexType>
+											<xs:sequence>
+												<xs:element name="Field" type="VAL_INT_TYPE" minOccurs="0"/>
+												<xs:element ref="Size" minOccurs="0"/>
+												<xs:element ref="Direction"/>
+											</xs:sequence>
+										</xs:complexType>
+									</xs:element>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+						<xs:element name="ForceRecordDelete">
+							<xs:complexType>
+								<xs:attribute name="Exp" type="xs:int" use="optional"/>
+								<xs:attribute name="DEL" type="xs:string" use="optional"/>
+							</xs:complexType>
+						</xs:element>
+						<xs:element name="EndTaskCondition" type="VAL_EXP_TYPE" minOccurs="0"/>
+						<xs:element name="EvaluateEndCondition" type="VAL_STRING_TYPE" minOccurs="0"/>
+						<xs:element name="REC_EVT_I" type="VAL_INT_TYPE" minOccurs="0"/>
+						<xs:element name="InitialMode" type="VAL_EXP_TYPE" minOccurs="0"/>
+						<xs:element ref="Locate"/>
+						<xs:element ref="Range"/>
+						<xs:element name="VarRange" minOccurs="0">
+							<xs:complexType>
+								<xs:simpleContent>
+									<xs:extension base="xs:string">
+										<xs:attribute name="LastIsn" type="xs:int"/>
+									</xs:extension>
+								</xs:simpleContent>
+							</xs:complexType>
+						</xs:element>
+						<xs:element name="TaskProperties">
+							<xs:complexType>
+								<xs:all>
+									<xs:element name="SelectionTable" type="VAL_EXP_TYPE" minOccurs="0"/>
+									<xs:element name="ConfirmUpdate" minOccurs="0">
+										<xs:complexType>
+											<xs:attribute name="Exp"/>
+											<xs:attribute name="CNFU" type="xs:string"/>
+										</xs:complexType>
+									</xs:element>
+									<xs:element name="ConfirmCancel" type="VAL_EXP_TYPE" minOccurs="0"/>
+									<xs:element name="ErrorStrategy" type="VAL_STRING_TYPE" minOccurs="0"/>
+									<xs:element name="LockingStrategy" type="VAL_STRING_TYPE" minOccurs="0"/>
+									<xs:element name="CacheStrategy" type="VAL_STRING_TYPE" minOccurs="0"/>
+									<xs:element name="ForceRecordSuffix" type="VAL_EXP_TYPE" minOccurs="0"/>
+									<xs:element name="TransactionMode" type="VAL_STRING_TYPE" minOccurs="0"/>
+									<xs:element name="TransactionBegin" type="VAL_STRING_TYPE" minOccurs="0"/>
+									<xs:element name="PreloadView" type="VAL_EXP_TYPE" minOccurs="0"/>
+									<xs:element name="AllowEmptyDataview" type="Y_N_EXP_TYPE" minOccurs="0"/>
+									<xs:element name="KeepCreatedContext" type="Y_N_EXP_TYPE" minOccurs="0"/>
+								</xs:all>
+								<xs:attribute name="FieldID" type="xs:int"/>
+							</xs:complexType>
+						</xs:element>
+						<xs:element name="SIDE_WIN">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="PreloadView" type="VAL_EXP_TYPE" minOccurs="0"/>
+									<xs:element name="AllowOptions" type="VAL_EXP_TYPE" minOccurs="0"/>
+									<xs:element name="AllowQuery" type="VAL_EXP_TYPE" minOccurs="0"/>
+									<xs:element name="AllowModify" type="VAL_EXP_TYPE" minOccurs="0"/>
+									<xs:element name="AllowCreate" type="VAL_EXP_TYPE" minOccurs="0"/>
+									<xs:element name="AllowDelete" type="VAL_EXP_TYPE" minOccurs="0"/>
+									<xs:element name="AllowLocate" type="VAL_EXP_TYPE" minOccurs="0"/>
+									<xs:element name="AllowRange" type="VAL_EXP_TYPE" minOccurs="0"/>
+									<xs:element name="AllowIndexChange" type="VAL_EXP_TYPE" minOccurs="0"/>
+									<xs:element name="AllowSorting" type="VAL_EXP_TYPE" minOccurs="0"/>
+									<xs:element name="AllowIOFiles" type="VAL_EXP_TYPE" minOccurs="0"/>
+									<xs:element name="RecordCycle" type="VAL_EXP_TYPE" minOccurs="0"/>
+									<xs:element name="TabbingCycle" type="VAL_STRING_TYPE" minOccurs="0"/>
+									<xs:element name="AllowEvents" type="VAL_EXP_TYPE" minOccurs="0"/>
+									<xs:element name="AllowIndexOptimization" type="VAL_EXP_TYPE" minOccurs="0"/>
+									<xs:element name="AllowLocationInQuery" type="VAL_EXP_TYPE" minOccurs="0"/>
+									<xs:element name="AllowPrintingData" type="VAL_EXP_TYPE" minOccurs="0"/>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+						<xs:element name="WIN">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="OpenTaskWindow" type="VAL_EXP_TYPE" minOccurs="0"/>
+									<xs:element name="CloseTaskWindow" type="VAL_EXP_TYPE" minOccurs="0"/>
+									<xs:element name="ForegroundWindow" type="VAL_EXP_TYPE" minOccurs="0"/>
+									<xs:element name="FlipFld" type="VAL_EXP_TYPE" minOccurs="0"/>
+									<xs:element name="RefreshTaskWindow">
+										<xs:complexType>
+											<xs:attribute name="Exp" type="xs:int"/>
+											<xs:attribute name="ReturnValue" type="xs:string"/>
+										</xs:complexType>
+									</xs:element>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+						<xs:element name="BOX">
+							<xs:complexType>
+								<xs:all>
+									<xs:element name="Top" type="VAL_STRING_TYPE" minOccurs="0"/>
+									<xs:element name="Right" type="VAL_STRING_TYPE" minOccurs="0"/>
+									<xs:element name="Bottom" type="VAL_STRING_TYPE" minOccurs="0"/>
+									<xs:element ref="Direction" minOccurs="0"/>
+									<xs:element ref="Format" minOccurs="0"/>
+									<xs:element ref="Left" minOccurs="0"/>
+								</xs:all>
+							</xs:complexType>
+						</xs:element>
+						<xs:element name="HeadersVariableParent" type="VAL_STRING_TYPE" minOccurs="0"/>
+						<xs:element name="HeadersVariable" type="VAL_INT_TYPE" minOccurs="0"/>
+					</xs:all>
+					<xs:attribute name="Comment" type="xs:string" use="optional"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="RL_POS" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="POS_EXP" type="VAL_INT_TYPE" minOccurs="0"/>
+						<xs:element name="USAGE" type="VAL_STRING_TYPE" minOccurs="0"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="SQL_WHERE_U" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="TOKEN" maxOccurs="unbounded">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="CODE" type="VAL_INT_TYPE" minOccurs="0"/>
+									<xs:element name="SqlWhereFlags" type="VAL_STRING_TYPE" minOccurs="0"/>
+									<xs:element name="Parent" type="VAL_INT_TYPE" minOccurs="0"/>
+									<xs:element name="VAR_ISN" type="VAL_INT_TYPE" minOccurs="0"/>
+									<xs:element name="STR_U_LEN" type="VAL_INT_TYPE" minOccurs="0"/>
+									<xs:element name="STR_U" type="VAL_EXP_TYPE" minOccurs="0"/>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+					<xs:attribute name="val" type="xs:string"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="SQL_FORM" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="SQL_STMT_U" type="VAL_STRING_TYPE" minOccurs="0"/>
+						<xs:element name="INARG" minOccurs="0">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="Arguments">
+										<xs:complexType>
+											<xs:sequence>
+												<xs:element name="Argument" maxOccurs="unbounded">
+													<xs:complexType>
+														<xs:sequence>
+															<xs:element ref="id" minOccurs="0"/>
+															<xs:element name="Exp" type="VAL_INT_TYPE" minOccurs="0"/>
+														</xs:sequence>
+														<xs:attribute name="Variable" type="xs:int"/>
+														<xs:attribute name="Parent" type="xs:int"/>
+													</xs:complexType>
+												</xs:element>
+											</xs:sequence>
+										</xs:complexType>
+									</xs:element>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+						<xs:element name="OUTARG" minOccurs="0">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="Arguments">
+										<xs:complexType>
+											<xs:sequence>
+												<xs:element name="Argument" maxOccurs="unbounded">
+													<xs:complexType>
+														<xs:sequence>
+															<xs:element ref="id" minOccurs="0"/>
+														</xs:sequence>
+														<xs:attribute name="Variable" type="xs:int"/>
+													</xs:complexType>
+												</xs:element>
+											</xs:sequence>
+										</xs:complexType>
+									</xs:element>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+						<xs:element name="RETARG" minOccurs="0">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="Arguments">
+										<xs:complexType>
+											<xs:sequence>
+												<xs:element name="Argument" maxOccurs="unbounded">
+													<xs:complexType>
+														<xs:sequence>
+															<xs:element ref="id" minOccurs="0"/>
+														</xs:sequence>
+														<xs:attribute name="Variable" type="xs:int"/>
+														<xs:attribute name="Parent" type="xs:int"/>
+													</xs:complexType>
+												</xs:element>
+											</xs:sequence>
+										</xs:complexType>
+									</xs:element>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+					<xs:attribute name="Comment" type="xs:string"/>
+					<xs:attribute name="DB" type="xs:string"/>
+					<xs:attribute name="RESTAB" type="xs:string"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="INT_RECOMP_INFO" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="v" type="xs:string" maxOccurs="unbounded"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="INT_CMP_LIST_INFO" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="v" type="xs:string" maxOccurs="unbounded"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="TaskLogic" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element ref="LogicUnit" maxOccurs="unbounded"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element ref="TaskForms" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="Expressions" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element ref="Expression" maxOccurs="unbounded"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element ref="EVNT" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element ref="VarRangeInfo" minOccurs="0" maxOccurs="unbounded"/>
+         <xs:sequence>
+            <xs:element ref="FLD_RNG" minOccurs="0" maxOccurs="unbounded"/>
+         </xs:sequence>
+         <xs:element name="Task" type="TaskType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="Icon" type="xs:string"/>
+		<xs:attribute name="MainProgram" use="optional" default="N">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="N"/>
+					<xs:enumeration value="Y"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="VersionType">
+		<xs:attribute name="val" type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="ApplicationHeaderType">
+		<xs:all>
+			<xs:element name="Version" type="VersionType" minOccurs="0"/>
+			<xs:element name="APPLICATION" type="Y_N_EXP_TYPE" minOccurs="0"/>
+			<xs:element name="WithIsn" type="Y_N_EXP_TYPE" minOccurs="0"/>
+			<xs:element name="Exe" minOccurs="0">
+				<xs:complexType>
+					<xs:attribute name="comp" type="xs:string"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_InternalTask" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="IsRoot" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="InIndex" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="UniqueISNConvState" type="VAL_INT_TYPE" minOccurs="0"/>
+			<xs:element name="WITH_MODELS" type="Y_N_EXP_TYPE" minOccurs="0"/>
+			<xs:element name="MAIN_PRG_VARS" type="VAL_INT_TYPE" minOccurs="0"/>
+			<xs:element name="MAIN_PRG_DSPS" type="VAL_INT_TYPE" minOccurs="0"/>
+			<xs:element name="Arguments" minOccurs="0">
+				<xs:complexType>
+					<xs:attribute name="END" type="xs:positiveInteger"/>
+					<xs:attribute name="START" type="xs:positiveInteger"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element ref="LNK" minOccurs="0"/>
+		</xs:all>
+	</xs:complexType>
+	<xs:complexType name="ProgramHeaderType">
+		<xs:all>
+			<xs:element name="WithIsn" type="Y_N_EXP_TYPE" minOccurs="0"/>
+			<xs:element name="_InternalTask" minOccurs="0">
+				<xs:complexType>
+					<xs:attribute name="val" use="required">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:enumeration value="N"/>
+								<xs:enumeration value="Y"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:attribute>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="IsRoot" minOccurs="0">
+				<xs:complexType>
+					<xs:attribute name="val" use="required">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:enumeration value="N"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:attribute>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="InIndex" minOccurs="0">
+				<xs:complexType>
+					<xs:attribute name="val" use="required">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:enumeration value="N"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:attribute>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Public" type="VAL_EXP_TYPE" minOccurs="0"/>
+			<xs:element name="Comment" type="VAL_EXP_TYPE" minOccurs="0"/>
+			<xs:element name="ExecutionRight" type="PUBLIC_OBJECT_TYPE" minOccurs="0"/>
+			<xs:element name="Resident" type="Y_N_EXP_TYPE" minOccurs="0"/>
+			<xs:element name="SQL" type="Y_N_EXP_TYPE" minOccurs="0"/>
+			<xs:element ref="ReturnValue" minOccurs="0"/>
+			<xs:element name="PARALLEL_EXECUTION" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="INITIATE_MAIN_PROG" type="VAL_STRING_TYPE" minOccurs="0"/>
+						<xs:element name="COPY_GLOBAL_PARAMS" type="VAL_STRING_TYPE" minOccurs="0"/>
+						<xs:element name="SingleInstance" type="VAL_STRING_TYPE" minOccurs="0"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="SqlWhereExist" type="Y_N_EXP_TYPE" minOccurs="0"/>
+			<xs:element name="TaskType" type="VAL_EXP_TYPE" minOccurs="0"/>
+			<xs:element name="Interactive" type="Y_N_EXP_TYPE" minOccurs="0"/>
+			<xs:element ref="TaskID" minOccurs="0"/>
+			<xs:element name="External" type="Y_N_EXP_TYPE" minOccurs="0"/>
+         <xs:element name="Offline" type="Y_N_EXP_TYPE" minOccurs="0"/>
+			<xs:element name="FormType" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="DotNetObjectExists" type="Y_N_EXP_TYPE" minOccurs="0"/>
+			<xs:element name="ApgExec" type="Y_N_EXP_TYPE" minOccurs="0"/>
+			<xs:element name="Closeopentasks" type="Y_N_EXP_TYPE" minOccurs="0"/>
+			<xs:element name="RunProjectAs" type="VAL_EXP_TYPE" minOccurs="0"/>
+			<xs:element name="ToBeMigrated" type="Y_N_EXP_TYPE" minOccurs="0"/>
+      <xs:element name="ToBeMigratedFrom1x" type="Y_N_EXP_TYPE" minOccurs="0"/>      
+      <xs:element name="LastModified" minOccurs="0">
+				<xs:complexType>
+					<xs:attribute name="_date" type="xs:string"/>
+					<xs:attribute name="_time" type="xs:string"/>
+					<xs:attribute name="date" type="xs:string" use="optional"/>
+					<xs:attribute name="time" type="xs:string" use="optional"/>
+				</xs:complexType>
+			</xs:element>
+		</xs:all>
+		<xs:attribute name="Description" type="xs:string"/>
+		<xs:attribute name="Folder" type="xs:string"/>
+		<xs:attribute name="ISN_2" type="xs:int"/>
+		<xs:attribute name="ISEMPTY_TSK" type="xs:int"/>
+		<xs:attribute name="LastIsn" type="xs:int"/>
+		<xs:attribute name="id" type="xs:int"/>
+	</xs:complexType>
+	<xs:element name="LogicUnit">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Level" minOccurs="0"/>
+				<xs:element ref="Type" minOccurs="0"/>
+				<xs:element name="Comment" type="VAL_STRING_TYPE" minOccurs="0"/>
+				<xs:element ref="ControlName" minOccurs="0"/>
+				<xs:element ref="_DspTemplate" minOccurs="0"/>
+				<xs:element ref="FieldID" minOccurs="0"/>
+				<xs:element ref="_HeaderPosition" minOccurs="0"/>
+				<xs:element ref="Scope" minOccurs="0"/>
+				<xs:element ref="EngineDirective" minOccurs="0"/>
+				<xs:element ref="ShowMessage" minOccurs="0"/>
+				<xs:element ref="Condition" minOccurs="0"/>
+				<xs:element name="_TotalVariabls" type="VAL_INT_TYPE" minOccurs="0"/>
+				<xs:element name="_TotalVirtuals" type="VAL_INT_TYPE" minOccurs="0"/>
+				<xs:element name="PRM_LEN" type="VAL_INT_TYPE" minOccurs="0"/>
+				<xs:element name="EXECON_CLIENT" type="VAL_STRING_TYPE" minOccurs="0"/>
+				<xs:element ref="Event" minOccurs="0"/>
+				<xs:element name="TXT" type="VAL_STRING_TYPE" minOccurs="0"/>
+				<xs:element name="ReturnValueExpression" type="VAL_INT_TYPE" minOccurs="0"/>
+				<xs:element ref="Expanded" minOccurs="0"/>
+				<xs:element name="Disabled" type="VAL_INT_TYPE" minOccurs="0"/>
+				<xs:element name="ExecuteOn_" type="VAL_STRING_TYPE" minOccurs="0"/>
+				<xs:element ref="LogicLines" minOccurs="0"/>
+			</xs:sequence>
+			<xs:attribute name="id" type="xs:int" use="optional"/>
+			<xs:attribute name="propagate" type="xs:int" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="LogicLines">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="LogicLine" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:choice>
+							<xs:element ref="DATAVIEW_SRC"/>
+							<xs:element ref="Select"/>
+							<xs:element ref="Remark"/>
+							<xs:element ref="LNK"/>
+							<xs:element ref="END_LINK"/>
+							<xs:element ref="BLOCK"/>
+							<xs:element name="CallTask">
+								<xs:complexType>
+									<xs:all>
+										<xs:element ref="OperationType" minOccurs="0"/>
+										<xs:element ref="TaskID" minOccurs="0"/>
+										<xs:element name="Form" type="VAL_INT_TYPE" minOccurs="0"/>
+										<xs:element ref="Lock" minOccurs="0"/>
+										<xs:element name="Arguments" type="ArgumentsType" minOccurs="0"/>
+										<xs:element name="Service" type="VAL_STRING_TYPE" minOccurs="0"/>
+										<xs:element name="Operation" type="VAL_STRING_TYPE" minOccurs="0"/>
+										<xs:element ref="Wait" minOccurs="0"/>
+										<xs:element ref="SyncData" minOccurs="0"/>
+										<xs:element name="RetainFocus" type="VAL_EXP_TYPE" minOccurs="0"/>
+										<xs:element name="DEST_FRAME_EXP" type="VAL_EXP_TYPE" minOccurs="0"/>
+										<xs:element name="RetRefVar" type="VAL_EXP_TYPE" minOccurs="0"/>
+										<xs:element name="REMOTE_FILE" type="VAL_STRING_TYPE" minOccurs="0"/>
+										<xs:element name="RETDVAL_PARENT" type="VAL_INT_TYPE" minOccurs="0"/>
+										<xs:element name="Destination" type="VAL_STRING_TYPE" minOccurs="0"/>
+										<xs:element ref="ReturnValue" minOccurs="0"/>
+										<xs:element ref="Condition" minOccurs="0"/>
+										<xs:element ref="Modifier" minOccurs="0"/>
+										<xs:element ref="Direction" minOccurs="0"/>
+										<xs:element name="EXECON_CLIENT" type="VAL_STRING_TYPE" minOccurs="0"/>
+										<xs:element name="DestSubformFormIsn" type="VAL_STRING_TYPE" minOccurs="0"/>
+										<xs:element name="DestSubformCtrlIsn" type="VAL_STRING_TYPE" minOccurs="0"/>
+										<xs:element name="DestSubformName" type="VAL_STRING_TYPE" minOccurs="0"/>
+										<xs:element name="Disabled" type="VAL_INT_TYPE" minOccurs="0"/>
+									</xs:all>
+									<xs:attribute name="FlowIsn" type="xs:int" use="optional"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element ref="END_BLK"/>
+							<xs:element name="Evaluate">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element ref="Expression" minOccurs="0"/>
+										<xs:element ref="Parent" minOccurs="0"/>
+										<xs:element ref="FieldID" minOccurs="0"/>
+										<xs:element name="Disabled" type="VAL_INT_TYPE" minOccurs="0"/>
+										<xs:element ref="Condition" minOccurs="0"/>
+										<xs:element ref="Modifier" minOccurs="0"/>
+										<xs:element ref="Direction" minOccurs="0"/>
+									</xs:sequence>
+									<xs:attribute name="FlowIsn" type="xs:int" use="optional"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="FormIO">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element ref="OperationType"/>
+										<xs:element name="Page" type="VAL_STRING_TYPE" minOccurs="0"/>
+										<xs:element name="Delimiter" minOccurs="0">
+											<xs:complexType>
+												<xs:attribute name="val" use="required">
+													<xs:simpleType>
+														<xs:restriction base="xs:string">
+															<xs:enumeration value="C"/>
+															<xs:enumeration value="S"/>
+														</xs:restriction>
+													</xs:simpleType>
+												</xs:attribute>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="IODeviceInfo">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="IoDeviceParent" type="VAL_INT_TYPE" minOccurs="0"/>
+													<xs:element name="IoDeviceIndex" type="VAL_INT_TYPE" minOccurs="0"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="FormEntryInfo">
+											<xs:complexType>
+												<xs:sequence minOccurs="0">
+													<xs:element name="FormEntryParent" type="VAL_INT_TYPE" minOccurs="0"/>
+													<xs:element name="FormEntryIndex" type="VAL_INT_TYPE" minOccurs="0"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="DelimiterChar" type="VAL_INT_TYPE" minOccurs="0"/>
+										<xs:element name="Disabled" type="VAL_INT_TYPE" minOccurs="0"/>
+										<xs:element ref="Condition"/>
+										<xs:element ref="Modifier"/>
+										<xs:element ref="Direction"/>
+									</xs:sequence>
+									<xs:attribute name="FlowIsn" type="xs:int" use="optional"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element ref="Invoke"/>
+							<xs:element ref="RaiseEvent"/>
+							<xs:element name="STP">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="AppendToErrorLog" type="Y_N_EXP_TYPE" minOccurs="0"/>
+										<xs:element name="RetValParent" type="VAL_INT_TYPE" minOccurs="0"/>
+										<xs:element name="RetValVar" type="VAL_INT_TYPE" minOccurs="0"/>
+										<xs:element name="RetRefName" type="VAL_INT_TYPE" minOccurs="0"/>
+										<xs:element name="Disabled" type="VAL_INT_TYPE" minOccurs="0"/>
+										<xs:element ref="Condition"/>
+										<xs:element ref="Modifier"/>
+										<xs:element ref="Direction"/>
+										<xs:element name="EXECON_CLIENT" type="VAL_STRING_TYPE" minOccurs="0"/>
+									</xs:sequence>
+									<xs:attribute name="Exp">
+										<xs:simpleType>
+											<xs:restriction base="xs:int"/>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="TitleExp">
+										<xs:simpleType>
+											<xs:restriction base="xs:int"/>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="DefaultButton">
+										<xs:simpleType>
+											<xs:restriction base="xs:int"/>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="DefaultButtonExp">
+										<xs:simpleType>
+											<xs:restriction base="xs:int"/>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="FlowIsn" use="optional">
+										<xs:simpleType>
+											<xs:restriction base="xs:int"/>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="Mode" use="required">
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:enumeration value="E"/>
+												<xs:enumeration value="W"/>
+												<xs:enumeration value="S"/>
+												<xs:enumeration value="R"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="VR_DISP" use="required">
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:enumeration value="B"/>
+												<xs:enumeration value="S"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="Image" use="optional">
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:enumeration value="E"/>
+												<xs:enumeration value="C"/>
+												<xs:enumeration value="Q"/>
+												<xs:enumeration value="I"/>
+												<xs:enumeration value="N"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="Buttons" use="optional">
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:enumeration value="O"/>
+												<xs:enumeration value="K"/>
+												<xs:enumeration value="A"/>
+												<xs:enumeration value="Y"/>
+												<xs:enumeration value="N"/>
+												<xs:enumeration value="R"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="ERR_LOG_DEF_CHG" use="optional">
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:enumeration value="Y"/>
+												<xs:enumeration value="N"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="IMG_DEF_CHG" use="optional">
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:enumeration value="Y"/>
+												<xs:enumeration value="N"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="TTL_DEF_CHG" use="optional">
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:enumeration value="Y"/>
+												<xs:enumeration value="N"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="TXT" type="xs:string"/>
+									<xs:attribute name="TitleTxt" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="Update">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Parent" type="VAL_STRING_TYPE" minOccurs="0"/>
+										<xs:element ref="FieldID" minOccurs="0"/>
+										<xs:element name="Variable" type="VAL_STRING_TYPE" minOccurs="0"/>
+										<xs:element name="WithValue" type="VAL_INT_TYPE" minOccurs="0"/>
+										<xs:element name="Incremental" type="VAL_STRING_TYPE" minOccurs="0"/>
+										<xs:element name="ForcedUpdate" type="Y_N_EXP_TYPE" minOccurs="0"/>
+										<xs:element name="Disabled" type="VAL_INT_TYPE" minOccurs="0"/>
+										<xs:element ref="Condition" minOccurs="0"/>
+										<xs:element ref="Modifier" minOccurs="0"/>
+										<xs:element ref="Direction" minOccurs="0"/>
+										<xs:element name="EXECON_CLIENT" type="VAL_STRING_TYPE" minOccurs="0"/>
+									</xs:sequence>
+									<xs:attribute name="FlowIsn" type="xs:int" use="optional"/>
+								</xs:complexType>
+							</xs:element>
+						</xs:choice>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="LNK">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="DB" minOccurs="0"/>
+				<xs:element name="DBNAME" type="VAL_STRING_TYPE" minOccurs="0"/>
+				<xs:element ref="Expanded" minOccurs="0"/>
+				<xs:element ref="Condition" minOccurs="0"/>
+			</xs:sequence>
+			<xs:attribute name="Direction" type="xs:string"/>
+			<xs:attribute name="EVL_CND" type="xs:string"/>
+			<xs:attribute name="FlowIsn" type="xs:int" use="optional"/>
+			<xs:attribute name="Key" type="xs:int" use="optional"/>
+			<xs:attribute name="Mode" type="xs:string"/>
+			<xs:attribute name="SortType" type="xs:int"/>
+			<xs:attribute name="VIEW" type="xs:int"/>
+			<xs:attribute name="VIEWS" type="xs:int"/>
+			<xs:attribute name="FieldID" type="xs:string"/>
+			<xs:attribute name="Parent" type="xs:string"/>
+			<xs:attribute name="END" type="xs:string"/>
+			<xs:attribute name="START" type="xs:string"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ASS" type="VAL_INT_TYPE"/>
+	<xs:element name="Access">
+		<xs:complexType>
+			<xs:attribute name="val" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="R"/>
+						<xs:enumeration value="W"/>
+						<xs:enumeration value="A"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="BLOCK">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Disabled" type="VAL_INT_TYPE" minOccurs="0"/>
+				<xs:element ref="Condition"/>
+				<xs:element ref="Modifier"/>
+				<xs:element ref="Direction"/>
+				<xs:element name="EXECON_CLIENT" type="VAL_STRING_TYPE" minOccurs="0"/>
+			</xs:sequence>
+			<xs:attribute name="EndBlock" type="xs:int" use="optional"/>
+			<xs:attribute name="EndBlockSegment" type="xs:int" use="optional"/>
+			<xs:attribute name="FlowIsn" type="xs:int" use="optional"/>
+			<xs:attribute name="Type">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="E"/>
+						<xs:enumeration value="I"/>
+						<xs:enumeration value="L"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="DSP" type="xs:string"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Cache" type="Y_N_EXP_TYPE"/>
+	<xs:element name="Control">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="PropertyList" type="PropertyListType"/>
+            <xs:element name="FieldRanges" minOccurs="0">
+               <xs:complexType>
+                  <xs:sequence>
+                     <xs:element ref="FLD_RNG" minOccurs="0" maxOccurs="unbounded"/>
+                  </xs:sequence>
+               </xs:complexType>
+            </xs:element>
+         </xs:sequence>
+			<xs:attribute name="Fe_CtrlId" type="xs:int"/>
+			<xs:attribute name="_test_id" type="xs:int" use="required"/>
+			<xs:attribute name="id" type="xs:int" use="optional"/>
+			<xs:attribute name="PDOD" type="xs:int"/>
+			<xs:attribute name="ISN_FATHER" type="xs:int"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Copies" type="VAL_INT_TYPE"/>
+	<xs:element name="DATAVIEW_SRC">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Condition"/>
+				<xs:element ref="Modifier"/>
+				<xs:element ref="Direction"/>
+				<xs:element name="EXECON_CLIENT" type="VAL_STRING_TYPE" minOccurs="0"/>
+			</xs:sequence>
+			<xs:attribute name="FlowIsn" type="xs:int" use="optional"/>
+			<xs:attribute name="IDX" type="xs:int" use="optional"/>
+			<xs:attribute name="Type" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="D"/>
+						<xs:enumeration value="M"/>
+						<xs:enumeration value="Q"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="DB">
+		<xs:complexType>
+			<xs:all>
+				<xs:element ref="DataObject" minOccurs="0"/>
+				<xs:element name="Exp" type="VAL_STRING_TYPE" minOccurs="0"/>
+				<xs:element ref="Access" minOccurs="0"/>
+				<xs:element ref="Share" minOccurs="0"/>
+				<xs:element ref="Open" minOccurs="0"/>
+				<xs:element ref="Cache" minOccurs="0"/>
+				<xs:element ref="IdentifyRowModifications" minOccurs="0"/>
+			</xs:all>
+			<xs:attribute name="id" type="xs:int" use="optional"/>
+			<xs:attribute name="comp" type="xs:int"/>
+			<xs:attribute name="obj" type="xs:int"/>
+			<xs:attribute name="FieldID" type="xs:int"/>
+			<xs:attribute name="Parent" type="xs:int"/>
+			<xs:attribute name="DBNAME" type="xs:string"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="DIFF_UPDATE">
+		<xs:complexType>
+			<xs:attribute name="val" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="T"/>
+						<xs:enumeration value="Y"/>
+						<xs:enumeration value="N"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="DataObject" type="PUBLIC_OBJECT_TYPE"/>
+	<xs:element name="Description" type="VAL_STRING_TYPE"/>
+	<xs:element name="END_BLK">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Disabled" type="VAL_INT_TYPE" minOccurs="0"/>
+			</xs:sequence>
+			<xs:attribute name="FlowIsn" type="xs:int" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="END_LINK">
+		<xs:complexType>
+			<xs:attribute name="FlowIsn" type="xs:int" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="EVENT_PARAMETER">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="MODEL"/>
+			</xs:sequence>
+			<xs:attribute name="ATTR" type="xs:string" use="required"/>
+			<xs:attribute name="Comment" type="xs:string" use="optional"/>
+			<xs:attribute name="NAME" type="xs:string" use="optional"/>
+			<xs:attribute name="PICT_U" type="xs:string" use="optional"/>
+			<xs:attribute name="id" type="xs:int" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="EVNT">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Event"/>
+				<xs:element ref="EVENT_PARAMETER" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:attribute name="Comment" type="xs:string"/>
+			<xs:attribute name="DESC" type="xs:string"/>
+			<xs:attribute name="EXPOSE" type="xs:string"/>
+			<xs:attribute name="FORCE_EXIT" type="xs:string" use="required"/>
+			<xs:attribute name="Public" type="xs:string"/>
+			<xs:attribute name="id" type="xs:int" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="EngineDirective" type="VAL_STRING_TYPE"/>
+	<xs:element name="Expanded" type="Y_N_EXP_TYPE"/>
+	<xs:element name="FieldID" type="VAL_INT_TYPE"/>
+	<xs:element name="FlipLines" type="VAL_STRING_TYPE"/>
+	<xs:element name="FormEntry">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="PropertyList" type="PropertyListType"/>
+				<xs:element ref="Control" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:attribute name="id" type="xs:int" use="optional"/>
+			<xs:attribute name="CLSS" type="xs:int"/>
+			<xs:attribute name="Fe_WinId" type="xs:int"/>
+			<xs:attribute name="_last_isn" type="xs:int"/>
+			<xs:attribute name="_last_test_id" type="xs:int"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Parent" type="VAL_INT_TYPE"/>
+	<xs:element name="IO">
+		<xs:complexType>
+			<xs:all>
+				<xs:element ref="Description" minOccurs="0"/>
+				<xs:element ref="IOExpression" minOccurs="0"/>
+				<xs:element ref="OpenPrintDialog" minOccurs="0"/>
+				<xs:element name="Bottom" type="VAL_INT_TYPE" minOccurs="0"/>
+				<xs:element ref="PaperSize" minOccurs="0"/>
+				<xs:element name="PageHeaderParent" type="VAL_INT_TYPE" minOccurs="0"/>
+				<xs:element name="PageHeaderFormParent" type="VAL_INT_TYPE" minOccurs="0"/>
+				<xs:element name="PageFooterFormParent" type="VAL_INT_TYPE" minOccurs="0"/>
+				<xs:element ref="Format"/>
+				<xs:element ref="Media"/>
+				<xs:element ref="Access"/>
+				<xs:element ref="MACH" minOccurs="0"/>
+				<xs:element ref="Copies" minOccurs="0"/>
+				<xs:element ref="Orientation" minOccurs="0"/>
+				<xs:element name="PrintPreview" type="VAL_EXP_TYPE" minOccurs="0"/>
+				<xs:element name="PrintingAllowed" type="VAL_EXP_TYPE" minOccurs="0"/>
+				<xs:element name="ChangesAllowed" type="VAL_EXP_TYPE" minOccurs="0"/>
+				<xs:element name="PageLayoutAllowed" type="VAL_EXP_TYPE" minOccurs="0"/>
+				<xs:element name="DocumentOpenPassword" type="VAL_EXP_TYPE" minOccurs="0"/>
+				<xs:element name="PDF" type="Y_N_EXP_TYPE" minOccurs="0"/>
+				<xs:element name="PermissionsPassword" type="VAL_INT_TYPE" minOccurs="0"/>
+				<xs:element name="ContentCopyingAllowed" type="VAL_EXP_TYPE" minOccurs="0"/>
+				<xs:element ref="Vis2LogTranslation"/>
+				<xs:element ref="FlipLines" minOccurs="0"/>
+				<xs:element name="PageHeaderForm" type="VAL_STRING_TYPE" minOccurs="0"/>
+				<xs:element name="PageFooterForm" type="VAL_STRING_TYPE" minOccurs="0"/>
+				<xs:element name="CHARSET" type="VAL_STRING_TYPE" minOccurs="0"/>
+				<xs:element name="IOTOUSE" type="VAL_STRING_TYPE" minOccurs="0"/>
+				<xs:element name="Comment" type="VAL_STRING_TYPE" minOccurs="0"/>
+				<xs:element name="IXPCOPIES" type="VAL_STRING_TYPE" minOccurs="0"/>
+			</xs:all>
+			<xs:attribute name="id" type="xs:int" use="optional"/>
+			<xs:attribute name="Parent" type="xs:string"/>
+			<xs:attribute name="FieldID" type="xs:int"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="IOExpression" type="VAL_EXP_TYPE"/>
+	<xs:element name="IdentifyRowModifications" type="VAL_EXP_TYPE"/>
+	<xs:element name="Invoke">
+		<xs:complexType>
+			<xs:all>
+				<xs:element ref="OperationType"/>
+				<xs:element ref="TaskID" minOccurs="0"/>
+				<xs:element name="Form" type="VAL_INT_TYPE" minOccurs="0"/>
+				<xs:element ref="Lock" minOccurs="0"/>
+				<xs:element ref="Arguments" minOccurs="0"/>
+				<xs:element name="Service" type="VAL_STRING_TYPE" minOccurs="0"/>
+				<xs:element name="REMOTE_PROGRAM_EXP" type="VAL_STRING_TYPE" minOccurs="0"/>
+				<xs:element name="Operation" type="VAL_STRING_TYPE" minOccurs="0"/>
+				<xs:element name="MethodName" type="VAL_STRING_TYPE" minOccurs="0"/>
+				<xs:element name="PropertyName" type="VAL_STRING_TYPE" minOccurs="0"/>
+				<xs:element name="Command" type="VAL_STRING_TYPE" minOccurs="0"/>
+				<xs:element ref="Wait" minOccurs="0"/>
+				<xs:element ref="SyncData" minOccurs="0"/>
+				<xs:element name="RetainFocus" type="VAL_EXP_TYPE" minOccurs="0"/>
+				<xs:element name="DestSubformFormIsn" type="VAL_STRING_TYPE" minOccurs="0"/>
+				<xs:element name="DestSubformCtrlIsn" type="VAL_STRING_TYPE" minOccurs="0"/>
+				<xs:element name="DestSubformName" type="VAL_STRING_TYPE" minOccurs="0"/>
+				<xs:element name="RetRefVar" type="VAL_EXP_TYPE" minOccurs="0"/>
+				<xs:element name="REMOTE_FILE" type="VAL_STRING_TYPE" minOccurs="0"/>
+				<xs:element name="REMOTE_PRIORITY" type="VAL_INT_TYPE" minOccurs="0"/>
+				<xs:element name="RETDVAL_PARENT" type="VAL_INT_TYPE" minOccurs="0"/>
+				<xs:element name="ReturnValue" type="VAL_INT_TYPE" minOccurs="0"/>
+				<xs:element name="Option" minOccurs="0">
+					<xs:complexType>
+						<xs:attribute name="val" use="required">
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+									<xs:enumeration value="M"/>
+									<xs:enumeration value="S"/>
+									<xs:enumeration value="G"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:attribute>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Show" type="VAL_INT_TYPE" minOccurs="0"/>
+				<xs:element name="Convention" minOccurs="0">
+					<xs:complexType>
+						<xs:attribute name="val" use="required">
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+									<xs:enumeration value="S"/>
+									<xs:enumeration value="C"/>
+									<xs:enumeration value="R"/>
+									<xs:enumeration value="D"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:attribute>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="UdpType" minOccurs="0">
+					<xs:complexType>
+						<xs:attribute name="val" use="required">
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+									<xs:enumeration value="B"/>
+									<xs:enumeration value="G"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:attribute>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="ExecuteOn_" minOccurs="0">
+					<xs:complexType>
+						<xs:simpleContent>
+							<xs:extension base="xs:string">
+								<xs:attribute name="val">
+									<xs:simpleType>
+										<xs:restriction base="xs:string">
+											<xs:enumeration value="C"/>
+											<xs:enumeration value="S"/>
+										</xs:restriction>
+									</xs:simpleType>
+								</xs:attribute>
+							</xs:extension>
+						</xs:simpleContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element ref="Condition" minOccurs="0"/>
+				<xs:element ref="Modifier" minOccurs="0"/>
+				<xs:element ref="Direction" minOccurs="0"/>
+				<xs:element name="EXECON_CLIENT" type="VAL_STRING_TYPE" minOccurs="0"/>
+				<xs:element ref="FieldID" minOccurs="0"/>
+				<xs:element name="ProgramName" type="VAL_EXP_TYPE" minOccurs="0"/>
+				<xs:element name="TXT" type="VAL_STRING_TYPE" minOccurs="0"/>
+				<xs:element name="CabinetName" type="VAL_EXP_TYPE" minOccurs="0"/>
+				<xs:element name="Disabled" type="VAL_INT_TYPE" minOccurs="0"/>
+				<xs:element name="FunctionName" type="VAL_STRING_TYPE" minOccurs="0"/>
+				<xs:element name="SnippetCode" type="VAL_STRING_TYPE" minOccurs="0"/>
+				<xs:element name="CompiledCode" type="VAL_STRING_TYPE" minOccurs="0"/>
+				<xs:element name="SnippetLanguage" type="VAL_STRING_TYPE" minOccurs="0"/>
+				<xs:element name="ForCompactFramework" type="Y_N_EXP_TYPE" minOccurs="0"/>
+				<xs:element name="isGuiThreadExecution" type="Y_N_EXP_TYPE" minOccurs="0"/>
+				<xs:element name="CompileTime" minOccurs="0">
+					<xs:complexType>
+						<xs:attribute name="HighDateTime" type="xs:long" use="optional"/>
+						<xs:attribute name="LowDateTime" type="xs:long" use="optional"/>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="AssemblyIds" type="VAL_STRING_TYPE" minOccurs="0"/>
+				<xs:element name="ServiceName_LT" type="VAL_STRING_TYPE" minOccurs="0"/>
+				<xs:element name="SoapAction_LT" type="VAL_STRING_TYPE" minOccurs="0"/>
+				<xs:element name="OperationName_LT" type="VAL_STRING_TYPE" minOccurs="0"/>
+				<xs:element name="Namespace_LT" type="VAL_STRING_TYPE" minOccurs="0"/>
+				<xs:element name="ReturnCode_LT" type="VAL_INT_TYPE" minOccurs="0"/>
+				<xs:element name="ReturnCodeParent_LT" type="VAL_INT_TYPE" minOccurs="0"/>
+				<xs:element name="StatusCode_LT" type="VAL_INT_TYPE" minOccurs="0"/>
+				<xs:element name="StatusParent_LT" type="VAL_INT_TYPE" minOccurs="0"/>
+				<xs:element name="FaultCode_LT" type="VAL_INT_TYPE" minOccurs="0"/>
+				<xs:element name="FaultCodeParent_LT" type="VAL_INT_TYPE" minOccurs="0"/>
+				<xs:element name="ReturnType" type="VAL_INT_TYPE" minOccurs="0"/>
+				<xs:element name="WSDL_URL" type="VAL_STRING_TYPE" minOccurs="0"/>
+				<xs:element name="OperationDirty" type="VAL_INT_TYPE" minOccurs="0"/>
+			</xs:all>
+			<xs:attribute name="FieldID3" type="xs:int"/>
+			<xs:attribute name="FlowIsn" type="xs:int" use="optional"/>
+			<xs:attribute name="HeadersVariable" type="xs:int"/>
+			<xs:attribute name="FieldID1" type="xs:int"/>
+			<xs:attribute name="FieldID2" type="xs:int"/>
+			<xs:attribute name="REMOTE_RETCODE_PARENT" type="xs:int"/>
+			<xs:attribute name="REMOTE_REASON_PARENT" type="xs:int"/>
+			<xs:attribute name="REMOTE_MSGID_PARENT" type="xs:string"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="IsParameter" type="Y_N_EXP_TYPE"/>
+	<xs:element name="Level">
+		<xs:complexType>
+			<xs:attribute name="val" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="R"/>
+						<xs:enumeration value="T"/>
+						<xs:enumeration value="H"/>
+						<xs:enumeration value="V"/>
+						<xs:enumeration value="C"/>
+						<xs:enumeration value="K"/>
+						<xs:enumeration value="F"/>
+						<xs:enumeration value="M"/>
+						<xs:enumeration value="G"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Locate">
+		<xs:complexType>
+			<xs:attribute name="Direction" type="xs:string"/>
+			<xs:attribute name="MAX" type="xs:int"/>
+			<xs:attribute name="MIN" type="xs:int"/>
+			<xs:attribute name="Exp" type="xs:int"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Lock" type="Y_N_EXP_TYPE"/>
+	<xs:element name="MACH" type="VAL_STRING_TYPE"/>
+	<xs:element name="MODEL">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="PublicObject"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Media">
+		<xs:complexType>
+			<xs:attribute name="val" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="C"/>
+						<xs:enumeration value="D"/>
+						<xs:enumeration value="G"/>
+						<xs:enumeration value="P"/>
+						<xs:enumeration value="R"/>
+						<xs:enumeration value="S"/>
+						<xs:enumeration value="V"/>
+						<xs:enumeration value="N"/>
+						<xs:enumeration value="F"/>
+						<xs:enumeration value="I"/>
+						<xs:enumeration value="T"/>
+						<xs:enumeration value="U"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Open" type="VAL_STRING_TYPE"/>
+	<xs:element name="OpenPrintDialog" type="VAL_EXP_TYPE"/>
+	<xs:element name="OperationType" type="VAL_STRING_TYPE"/>
+	<xs:element name="Orientation">
+		<xs:complexType>
+			<xs:attribute name="val" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="P"/>
+						<xs:enumeration value="L"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="PaperSize" type="VAL_INT_TYPE"/>
+	<xs:element name="Remark">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Type"/>
+				<xs:element ref="Text"/>
+				<xs:element name="Disabled" type="VAL_INT_TYPE" minOccurs="0"/>
+			</xs:sequence>
+			<xs:attribute name="FlowIsn" type="xs:int" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="REMOTE_FILE" type="VAL_STRING_TYPE"/>
+	<xs:element name="RETDVAL_PARENT" type="VAL_INT_TYPE"/>
+	<xs:element name="ReturnValue">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="ReturnValueAttr" minOccurs="0">
+					<xs:complexType>
+						<xs:attribute name="val" type="xs:string" use="optional"/>
+						<xs:attribute name="DNType" type="xs:string" use="optional"/>
+						<xs:attribute name="MgAttr" type="xs:string" use="optional"/>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="TSK_PARAMS" type="VAL_INT_TYPE" minOccurs="0"/>
+				<xs:element name="ParametersCount" type="VAL_INT_TYPE" minOccurs="0"/>
+				<xs:element name="ParametersAttributes" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Attr" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="DNType" type="xs:string" use="optional"/>
+									<xs:attribute name="JavaType" type="xs:string" use="optional"/>
+									<xs:attribute name="MgAttr" type="xs:string" use="optional"/>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="ParametersAttributes" type="xs:string" use="optional"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="val" type="xs:int"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Scope" type="VAL_STRING_TYPE"/>
+	<xs:element name="Select">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ASS" minOccurs="0"/>
+				<xs:element name="Column" type="ColumnType" minOccurs="0"/>
+				<xs:element ref="Type"/>
+				<xs:element ref="IsParameter"/>
+				<xs:element name="REAL_VNAME_TXT" type="VAL_STRING_TYPE" minOccurs="0"/>
+				<xs:element name="DisplayName" minOccurs="0">
+					<xs:complexType>
+						<xs:attribute name="val" type="xs:string"/>
+					</xs:complexType>
+				</xs:element>
+				<xs:element ref="Locate" minOccurs="0"/>
+				<xs:element ref="Range" minOccurs="0"/>
+				<xs:element name="INT_RCMP_INFO" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="v" type="xs:string" maxOccurs="unbounded"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="INT_DSP_INFO" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="v" type="xs:string" maxOccurs="unbounded"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="INT_DIT_INFO" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="v" type="xs:string" maxOccurs="unbounded"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="INT_OLESUBFORM_INFO" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="v" type="xs:string" maxOccurs="unbounded"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="INT_TABBING_ORDER_INFO" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="v" type="xs:string" maxOccurs="unbounded"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="_RecomputeLength" type="VAL_INT_TYPE" minOccurs="0"/>
+				<xs:element ref="_RecomputeIndex" minOccurs="0"/>
+				<xs:element name="_FormLength" type="VAL_INT_TYPE" minOccurs="0"/>
+				<xs:element ref="_FormIndex" minOccurs="0"/>
+				<xs:element name="_ControlLength" type="VAL_INT_TYPE" minOccurs="0"/>
+				<xs:element ref="_ControlIndex" minOccurs="0"/>
+				<xs:element name="_OleSubformLen" type="VAL_STRING_TYPE" minOccurs="0"/>
+				<xs:element ref="_OleSubformIdx" minOccurs="0"/>
+				<xs:element name="_TabbingOrderDspLength" type="VAL_STRING_TYPE" minOccurs="0"/>
+				<xs:element ref="_TabbingOrderDspIndex" minOccurs="0"/>
+				<xs:element name="_DitIndexForToolkit" type="VAL_STRING_TYPE" minOccurs="0"/>
+				<xs:element ref="DIFF_UPDATE" minOccurs="0"/>
+				<xs:element name="PartOfDataview" type="Y_N_EXP_TYPE" minOccurs="0"/>
+				<xs:element name="Disabled" type="VAL_INT_TYPE" minOccurs="0"/>
+				<xs:element ref="Condition" minOccurs="0"/>
+				<xs:element ref="Modifier"/>
+				<xs:element ref="Direction"/>
+				<xs:element name="EXECON_CLIENT" type="VAL_STRING_TYPE" minOccurs="0"/>
+			</xs:sequence>
+			<xs:attribute name="Name" type="xs:string" use="optional"/>
+			<xs:attribute name="FieldID" type="xs:int" use="optional"/>
+			<xs:attribute name="FlowIsn" type="xs:int" use="optional"/>
+			<xs:attribute name="id" type="xs:int" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Share">
+		<xs:complexType>
+			<xs:attribute name="val" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="W"/>
+						<xs:enumeration value="R"/>
+						<xs:enumeration value="N"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ShowMessage" type="Y_N_EXP_TYPE"/>
+	<xs:element name="SyncData" type="Y_N_EXP_TYPE"/>
+	<xs:element name="DEST_FRAME_EXP" type="VAL_EXP_TYPE"/>
+	<xs:element name="TaskForms">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="FormEntry"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="TaskID">
+		<xs:complexType>
+			<xs:attribute name="val" type="xs:string"/>
+			<xs:attribute name="comp" type="xs:int" use="optional"/>
+			<xs:attribute name="obj" type="xs:int"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="VarRangeInfo">
+		<xs:complexType>
+			<xs:attribute name="Mode" type="xs:string"/>
+			<xs:attribute name="VarRangeVeeIsn" type="xs:int"/>
+			<xs:attribute name="id" type="xs:int" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Vis2LogTranslation" type="VAL_EXP_TYPE"/>
+	<xs:element name="_ControlIndex" type="VAL_INT_TYPE"/>
+	<xs:element name="_DspTemplate" type="VAL_INT_TYPE"/>
+	<xs:element name="_FormIndex" type="VAL_INT_TYPE"/>
+	<xs:element name="_HeaderPosition" type="VAL_INT_TYPE"/>
+	<xs:element name="_OleSubformIdx" type="VAL_INT_TYPE"/>
+	<xs:element name="_RecomputeIndex" type="VAL_INT_TYPE"/>
+	<xs:element name="_TabbingOrderDspIndex" type="VAL_INT_TYPE"/>
+	<xs:complexType name="ArgumentsType">
+		<xs:sequence>
+			<xs:element name="Argument" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element ref="id" minOccurs="0"/>
+						<xs:element ref="Expression" minOccurs="0"/>
+						<xs:element name="Parent" type="VAL_INT_TYPE" minOccurs="0"/>
+						<xs:element name="Variable" type="VAL_INT_TYPE" minOccurs="0"/>
+						<xs:element ref="Skip"/>
+						<xs:element name="ENUMNAME" type="VAL_STRING_TYPE" minOccurs="0"/>
+						<xs:element name="Name" type="VAL_STRING_TYPE" minOccurs="0"/>
+						<xs:element name="Type" type="VAL_INT_TYPE" minOccurs="0"/>
+						<xs:element name="VT_Type" type="VAL_INT_TYPE" minOccurs="0"/>
+          </xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="INT_RECOMP_INFO" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="v" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:attributeGroup name="attgrExpVal">
+		<xs:attribute name="Exp" type="xs:string"/>
+		<xs:attribute name="val" type="xs:string"/>
+	</xs:attributeGroup>
+   <xs:element name="FLD_RNG">
+      <xs:complexType>
+         <xs:all>
+            <xs:element ref="id" minOccurs="0"/>
+            <xs:element name="Column" type="ColumnType" minOccurs="0"/>
+            <xs:element name="MIN" type="VAL_INT_TYPE" minOccurs="0"/>
+            <xs:element name="MAX" type="VAL_INT_TYPE" minOccurs="0"/>
+            <xs:element name="_Column" type="PUBLIC_OBJECT_TYPE" minOccurs="0"/>
+         </xs:all>
+      </xs:complexType>
+   </xs:element>
+</xs:schema>

@@ -1,0 +1,236 @@
+ <Application>
+ 
+<Header>
+
+  <Version val="11009"/>
+
+  <WithIsn val="Y"/>
+
+  <Exe comp="-1"/>
+
+  <LastIsn val="2"/>
+
+  <LastIsnFolder val="0"/>
+
+  <Folders/>
+
+</Header>
+ <DataSourceRepository>
+  <DataObjects>
+ 
+<DataObject PhysicalName="xpatest_uris" Resident="N" data_source="XPATest" id="1" name="xpatest_uris">
+
+  <Encrypt val="N"/>
+
+  <Cache val="D"/>
+
+  <IdentifyRowModifications val="U"/>
+
+  <HasHint val="N"/>
+
+  <Cursor val="D"/>
+
+  <CheckExistence val="D"/>
+
+  <ObjectType val="T"/>
+
+  <Position val="D"/>
+
+  <PositionIndex val="-2"/>
+
+  <RowLength val="451"/>
+
+  <ColumnsLastIsn val="2"/>
+
+  <IndexesLastIsn val="2"/>
+
+  <MetaTreeRTIndex val="-1"/>
+
+  <Columns>
+    <Column id="1" name="oid">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Modifiable id="53" val="Y"/>
+        <Range id="98" valUnicode="\-2147483648-2147483647"/>
+        <Picture id="157" valUnicode="N10"/>
+        <NullAllowed id="166"/>
+        <NullDefault id="169"/>
+        <DatabaseDefault id="171"/>
+        <CharSet id="172" val="1"/>
+        <StoredAs id="173" val="4"/>
+        <Size id="174" val="4"/>
+        <Definition id="175" val="2"/>
+        <DatabaseInformation id="177"/>
+        <DbColumnName id="178" val="oid"/>
+        <Type id="179" val="INT"/>
+        <UserType id="180"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="10"/>
+        <_Negative id="192" val="Y"/>
+        <PartOfDatetime id="244"/>
+      </PropertyList>
+    </Column>
+    <Column id="2" name="uri">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_UNICODE" id="1"/>
+        <Modifiable id="53" val="Y"/>
+        <Range id="98"/>
+        <Picture id="157" valUnicode="2048"/>
+        <NullAllowed id="166"/>
+        <NullDefault id="169"/>
+        <DatabaseDefault id="171"/>
+        <CharSet id="172"/>
+        <StoredAs id="173" val="32"/>
+        <Size id="174" val="4096"/>
+        <Definition id="175" val="1"/>
+        <DatabaseInformation id="177"/>
+        <DbColumnName id="178" val="uri"/>
+        <Type id="179" val="NVARCHAR(2048)"/>
+        <UserType id="180"/>
+        <PartOfDatetime id="244"/>
+      </PropertyList>
+    </Column>
+  </Columns>
+
+  <Indexes>
+    <Index id="1" name="sqlite_autoindex_xpatest_uris_1">
+      <Mode val="S"/>
+      <Order val="T"/>
+      <Range val="Q"/>
+      <IndexType val="R"/>
+      <PhysicalName val="sqlite_autoindex_xpatest_uris_1"/>
+      <HasHint val="N"/>
+      <Clustered val="N"/>
+      <DropOnReindex val="Y"/>
+      <Primary val="N"/>
+      <Segments>
+        <Segment>
+          <Size val="4"/>
+          <Column val="1"/>
+          <Order val="A"/>
+        </Segment>
+      </Segments>
+    </Index>
+    <Index id="2" name="AK_xpatest_uris_01">
+      <Mode val="S"/>
+      <Order val="T"/>
+      <Range val="Q"/>
+      <IndexType val="R"/>
+      <PhysicalName val="AK_xpatest_uris_01"/>
+      <HasHint val="N"/>
+      <Clustered val="N"/>
+      <DropOnReindex val="Y"/>
+      <Primary val="N"/>
+      <Segments>
+        <Segment>
+          <Size val="4096"/>
+          <Column val="2"/>
+          <Order val="A"/>
+        </Segment>
+      </Segments>
+    </Index>
+  </Indexes>
+
+  <ForeignKeys/>
+
+</DataObject> 
+<DataObject PhysicalName="xpatest_templates" Resident="N" data_source="XPATest" id="2" name="xpatest_templates">
+
+  <Encrypt val="N"/>
+
+  <Cache val="D"/>
+
+  <IdentifyRowModifications val="U"/>
+
+  <HasHint val="N"/>
+
+  <Cursor val="D"/>
+
+  <CheckExistence val="D"/>
+
+  <ObjectType val="T"/>
+
+  <Position val="D"/>
+
+  <PositionIndex val="-2"/>
+
+  <RowLength val="452"/>
+
+  <ColumnsLastIsn val="2"/>
+
+  <IndexesLastIsn val="1"/>
+
+  <MetaTreeRTIndex val="-1"/>
+
+  <Columns>
+    <Column id="1" name="id">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Modifiable id="53" val="Y"/>
+        <Range id="98" valUnicode="\-2147483648-2147483647"/>
+        <Picture id="157" valUnicode="N10"/>
+        <NullAllowed id="166"/>
+        <NullDefault id="169"/>
+        <DatabaseDefault id="171"/>
+        <CharSet id="172" val="1"/>
+        <StoredAs id="173" val="4"/>
+        <Size id="174" val="4"/>
+        <Definition id="175" val="2"/>
+        <DatabaseInformation id="177"/>
+        <DbColumnName id="178" val="id"/>
+        <Type id="179" val="INT"/>
+        <UserType id="180"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="10"/>
+        <_Negative id="192" val="Y"/>
+        <PartOfDatetime id="244"/>
+      </PropertyList>
+    </Column>
+    <Column id="2" name="location">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_UNICODE" id="1"/>
+        <Modifiable id="53" val="Y"/>
+        <Range id="98"/>
+        <Picture id="157" valUnicode="255"/>
+        <NullAllowed id="166"/>
+        <NullDefault id="169"/>
+        <DatabaseDefault id="171"/>
+        <CharSet id="172"/>
+        <StoredAs id="173" val="32"/>
+        <Size id="174" val="510"/>
+        <Definition id="175" val="2"/>
+        <DatabaseInformation id="177"/>
+        <DbColumnName id="178" val="location"/>
+        <Type id="179" val="NVARCHAR(255)"/>
+        <UserType id="180"/>
+        <PartOfDatetime id="244"/>
+      </PropertyList>
+    </Column>
+  </Columns>
+
+  <Indexes>
+    <Index id="1" name="sqlite_autoindex_xpatest_templa">
+      <Mode val="S"/>
+      <Order val="T"/>
+      <Range val="Q"/>
+      <IndexType val="R"/>
+      <PhysicalName val="sqlite_autoindex_xpatest_templates_1"/>
+      <HasHint val="N"/>
+      <Clustered val="N"/>
+      <DropOnReindex val="Y"/>
+      <Primary val="N"/>
+      <Segments>
+        <Segment>
+          <Size val="4"/>
+          <Column val="1"/>
+          <Order val="A"/>
+        </Segment>
+      </Segments>
+    </Index>
+  </Indexes>
+
+  <ForeignKeys/>
+
+</DataObject>  </DataObjects>
+ </DataSourceRepository>
+  </Application>

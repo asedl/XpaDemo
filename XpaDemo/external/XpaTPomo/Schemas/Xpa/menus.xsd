@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2008 (http://www.altova.com) by avi (private) -->
+ <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<!--eDeveloper 10 Menus repository-->
+	<xs:include schemaLocation="general.xsd"/>
+	<xs:element name="Application">
+	  <xs:complexType>
+		 <xs:sequence>
+			<xs:element ref="Header"/>
+			  <xs:element name="MenusRepository" minOccurs="0">
+				<xs:complexType>
+				   <xs:sequence>
+					  <xs:element name="Menus">
+						<xs:complexType>
+						   <xs:sequence>
+							  <xs:element name="Menu" type="MenuType" maxOccurs="unbounded"/>
+							</xs:sequence>
+						 </xs:complexType>
+					   </xs:element>
+					</xs:sequence>
+				 </xs:complexType>
+			  </xs:element>
+		   </xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="MenuType">
+		<xs:sequence>
+			<xs:element name="MenuType" type="VAL_INT_TYPE" minOccurs="0"/>
+			<xs:element name="ToolNumber" type="VAL_INT_TYPE" minOccurs="0"/>
+			<xs:element name="Name" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="Description_U" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="HelpScreens" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="LastIsn" type="VAL_INT_TYPE" minOccurs="0"/>
+			<xs:element name="Comment" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="MenuEntry" type="MenuEntryType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="MenuEntryType">
+		<xs:all>
+			<xs:element name="MenuType" type="VAL_INT_TYPE" minOccurs="0"/>
+			<xs:element name="Name" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="Flags" type="VAL_INT_TYPE" minOccurs="0"/>
+			<xs:element name="Description_U" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="Right" type="PUBLIC_OBJECT_TYPE" minOccurs="0"/>
+			<xs:element name="Help" type="PUBLIC_OBJECT_TYPE" minOccurs="0"/>
+			<xs:element name="Prompt" type="PUBLIC_OBJECT_TYPE" minOccurs="0"/>
+			<xs:element name="Comment" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="Menu" type="MenuType" minOccurs="0"/>
+			<xs:element name="Event" type="EventType" minOccurs="0"/>
+			<xs:element name="Program" type="PUBLIC_OBJECT_TYPE" minOccurs="0"/>
+			<xs:element name="AccessKeyID" type="VAL_INT_TYPE" minOccurs="0"/>
+			<xs:element name="Arguments" minOccurs="0">
+			  <xs:complexType>
+				 <xs:sequence>
+				    <xs:element name="Argument" minOccurs="0" maxOccurs="unbounded">
+					  <xs:complexType>
+						 <xs:sequence>
+							<xs:element name="id" type="VAL_STRING_TYPE" minOccurs="0"/>
+							<xs:element name="Parent" type="VAL_STRING_TYPE" minOccurs="0"/>
+							<xs:element name="Variable" type="VAL_STRING_TYPE" minOccurs="0"/>
+							<xs:element name="Skip" type="VAL_STRING_TYPE" minOccurs="0"/>
+						 </xs:sequence>
+						 <xs:attribute name="val" type="xs:string"/>
+					  </xs:complexType>
+					</xs:element>
+				 </xs:sequence>
+			  </xs:complexType>
+			</xs:element>
+			<xs:element name="SourceContext" type="VAL_INT_TYPE" minOccurs="0"/>
+			<xs:element name="Tool" minOccurs="0">
+				<xs:complexType>
+					<xs:all>
+						  <xs:element name="ToolNumber" type="VAL_INT_TYPE" minOccurs="0"/>
+						  <xs:element name="ToolGroup" type="VAL_INT_TYPE" minOccurs="0"/>
+						  <xs:element name="Icon" type="VAL_STRING_TYPE" minOccurs="0"/>
+						  <xs:element name="Tooltip_U" type="VAL_STRING_TYPE" minOccurs="0"/>
+					</xs:all>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Ext" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="Wait" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="Show" type="VAL_INT_TYPE" minOccurs="0"/>
+			<xs:element name="FieldID" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="DestinationContext" type="VAL_STRING_TYPE" minOccurs="0"/>
+		</xs:all>
+		<xs:attribute name="id" type="xs:int"/>
+	</xs:complexType>
+	<xs:complexType name="EventType">
+		<xs:sequence>
+            <xs:element name="EventType" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="InternalEventID" type="VAL_INT_TYPE" minOccurs="0"/>
+			<xs:element name="KeyCombinationID" type="VAL_INT_TYPE" minOccurs="0"/>
+			<xs:element name="Parent" type="VAL_INT_TYPE" minOccurs="0"/>
+			<xs:element name="PublicObject" type="PUBLIC_OBJECT_TYPE" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+ </xs:schema>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ActivityLog">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" name="Message">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Context" type="xs:long" />
+              <xs:element name="Time" type="xs:time" />
+              <xs:element name="Origin" type="xs:string" />
+              <xs:element name="ProgramPath" type="xs:string" />
+              <xs:element name="LogLevel" type="xs:string" />
+              <xs:element name="Text" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

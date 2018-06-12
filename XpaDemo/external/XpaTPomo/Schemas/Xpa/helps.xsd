@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2008 (http://www.altova.com) by avi (private) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<!--eDeveloper 10 Help repository-->
+	<xs:include schemaLocation="general.xsd"/>
+	<xs:include schemaLocation="properties.xsd"/>
+	<xs:element name="Application">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Header"/>
+				<xs:element name="HelpRepository" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="HelpScreens">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Help" maxOccurs="unbounded">
+										   <xs:complexType>
+												<xs:sequence>
+                                                  <xs:element name="Public" type="VAL_STRING_TYPE" minOccurs="0"/> 
+                                                  <xs:element name="Comment" type="VAL_STRING_TYPE" minOccurs="0"/> 
+                                                  <xs:element name="PropertyList" type="PropertyListType"/>
+                                                </xs:sequence>
+                                                <xs:attribute name="Type" type="xs:string"/>
+												<xs:attribute name="id" type="xs:int"/>
+												<xs:attribute name="name" type="xs:string"/>
+												<xs:attribute name="Folder" type="xs:string"/>
+                        <xs:attribute name="FolderIsn" type="xs:int" use="optional"/>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
+

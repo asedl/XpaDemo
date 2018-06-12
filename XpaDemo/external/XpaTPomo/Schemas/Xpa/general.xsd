@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2007 sp2 (http://www.altova.com) by a (private) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<!--eDeveloper 10 General definitions-->
+	<xs:element name="Header">
+		<xs:complexType>
+			<xs:all>
+				<xs:element name="Version" type="VAL_STRING_TYPE" minOccurs="0"/>
+				<xs:element name="WithIsn" type="VAL_Y_N_TYPE" minOccurs="0"/>
+				<xs:element name="Exe" minOccurs="0">
+					<xs:complexType>
+						<xs:attribute name="comp" type="xs:int"/>
+						<xs:attribute name="val" type="xs:string"/>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="LastIsn" type="VAL_STRING_TYPE" minOccurs="0"/>
+				<xs:element name="LastIsnFolder" type="VAL_STRING_TYPE" minOccurs="0"/>
+				<xs:element ref="Folders" minOccurs="0"/>
+				<xs:element name="APPLICATION" type="VAL_STRING_TYPE" minOccurs="0"/>
+				<xs:element name="WITH_MODELS" type="VAL_STRING_TYPE" minOccurs="0"/>
+				<xs:element name="MAIN_PRG_VARS" type="VAL_STRING_TYPE" minOccurs="0"/>
+				<xs:element name="MAIN_PRG_DSPS" type="VAL_STRING_TYPE" minOccurs="0"/>
+				<xs:element name="ConfirmCancel" minOccurs="0">
+					<xs:complexType>
+						<xs:attribute name="END" type="xs:string"/>
+						<xs:attribute name="START" type="xs:string"/>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="STP" minOccurs="0">
+					<xs:complexType>
+						<xs:attribute name="END" type="xs:string"/>
+						<xs:attribute name="START" type="xs:string"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:all>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Folders">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Folder" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Name" type="VAL_STRING_TYPE" minOccurs="0"/>
+							<xs:element name="StartsAt" type="VAL_STRING_TYPE" minOccurs="0"/>
+							<xs:element name="NumberOfEntries" type="VAL_STRING_TYPE" minOccurs="0"/>
+						</xs:sequence>
+						<xs:attribute name="id" type="xs:string" use="optional"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="VAL_STRING_TYPE">
+		<xs:attribute name="val" type="xs:string" use="optional"/>
+		<xs:attribute name="valUnicode" type="xs:string" use="optional"/>
+	</xs:complexType>
+	<xs:complexType name="VAL_EXP_TYPE">
+		<xs:attribute name="val" type="xs:string"/>
+		<xs:attribute name="valUnicode" type="xs:string"/>
+		<xs:attribute name="Exp" type="xs:string" use="optional"/>
+	</xs:complexType>
+	<xs:complexType name="VAL_INT_TYPE">
+		<xs:attribute name="val" type="xs:int"/>
+	</xs:complexType>
+	<xs:complexType name="VAL_LONG_TYPE">
+		<xs:attribute name="val" type="xs:long"/>
+	</xs:complexType>
+	<xs:complexType name="VAL_Y_N_TYPE">
+		<xs:attribute name="val" type="Y_N_TYPE" use="optional"/>
+	</xs:complexType>
+	<xs:complexType name="PUBLIC_OBJECT_TYPE">
+		<xs:attribute name="comp" type="xs:int"/>
+		<xs:attribute name="obj" type="xs:int"/>
+		<xs:attribute name="Exp" type="xs:int" use="optional"/>
+		<xs:attribute name="ObjIsn" type="xs:int" use="optional"/>
+		<xs:attribute name="CtlIndex" type="xs:int" use="optional"/>
+	</xs:complexType>
+	<xs:simpleType name="Y_N_TYPE">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="N" />
+			<xs:enumeration value="Y" />
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="Y_N_EXP_TYPE">
+		<xs:attribute name="val" use="optional">
+			<xs:simpleType>
+				<xs:union>
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="N" />
+							<xs:enumeration value="Y" />
+						</xs:restriction>
+					</xs:simpleType>
+					<xs:simpleType>
+						<xs:restriction base="xs:int">
+							<xs:minInclusive value="-1"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:union>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="Exp" type="xs:int" use="optional"/>
+	</xs:complexType>
+	<xs:complexType name="EXP_TYPE">
+		<xs:attribute name="Exp" type="xs:int" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="GENERIC_TYPE">
+		<xs:attribute name="name" type="xs:string" use="required"/>
+		<xs:attribute name="id" type="xs:int" use="required"/>
+		<xs:attribute name="DataType" type="xs:string" use="required"/>
+		<xs:attribute name="val" type="xs:string" use="optional"/>
+		<xs:attribute name="valUnicode" type="xs:string" use="optional"/>
+		<xs:attribute name="Exp" type="xs:string" use="optional"/>
+		<xs:attribute name="Format" type="xs:string" use="optional"/>
+		<xs:attribute name="HashCode" type="xs:int" use="optional"/>
+	</xs:complexType>
+</xs:schema>

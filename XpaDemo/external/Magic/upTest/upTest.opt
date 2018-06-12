@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <DebugMode Val="Y"/>
+
+  <Breakpoints>
+    <DelAll/>
+    <Breakpoint>
+      <Condition Val=""/>
+      <Location Val="CheckJava"/>
+      <HandlerId Val="5"/>
+      <OperationId Val="17"/>
+      <LineIndex Val="9"/>
+      <HandlerDesc Val="Record Suffix"/>
+      <Count Val="0"/>
+      <Enable Val="1"/>
+      <Component1 Val="614947876"/>
+      <Component2 Val="44372"/>
+      <Component3 Val="19291"/>
+      <Component4 Val="-461958753"/>
+      <Component5 Val="-1104976693"/>
+      <Prog Val="13"/>
+      <Subtask Val="1"/>
+      <Type Val="1"/>
+      <Operation Val="17"/>
+    </Breakpoint>
+    <Breakpoint>
+      <Condition/>
+      <Location Val="HttpGet(Magic)"/>
+      <HandlerId Val="3"/>
+      <OperationId Val="110"/>
+      <LineIndex Val="3"/>
+      <HandlerDesc Val="Record Suffix"/>
+      <Count Val="0"/>
+      <Enable Val="1"/>
+      <Component1 Val="614947876"/>
+      <Component2 Val="44372"/>
+      <Component3 Val="19291"/>
+      <Component4 Val="-461958753"/>
+      <Component5 Val="-1104976693"/>
+      <Prog Val="20"/>
+      <Subtask Val="1"/>
+      <Type Val="1"/>
+      <Operation Val="110"/>
+    </Breakpoint>
+  </Breakpoints>
+
+  <WatchListItems>
+    <RestData/>
+  </WatchListItems>
+
+</Application>

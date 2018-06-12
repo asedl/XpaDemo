@@ -1,0 +1,5 @@
+;# sample "pre" script for Magic XPA Tools infrastructure
+;# Exports components repository to XML and generates new .ecf for the application.  
+;# Before the tool is actually loaded when you select it fom "Tools" menu
+;Export, C:\magic\samples\xpaxmltest\XPATests\Temp\components.xml, Repository=C
+;ECF, C:\magic\samples\xpaxmltest\XPATests\Temp\output.ECF

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <_Project>
+    <ProjectName val="XpaTHelp"/>
+    <VCProjectID val="0"/>
+    <VCActive val="N"/>
+    <WorkOffline val="N"/>
+    <SourceDirectory val="Source"/>
+    <ExportsDirectory val="Exports"/>
+    <GUID val="{AF534A11-F28D-4CE9-926E-1721FA4524B7}"/>
+    <Version min="13020.10"/>
+    <SourceVersion val="13030.00"/>
+  </_Project>
+
+</Application>

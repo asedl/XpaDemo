@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2008 (http://www.altova.com) by avi (private) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <!--eDeveloper 10 Components repository-->
+  <xs:include schemaLocation="general.xsd"/>
+  <xs:element name="Application">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Header"/>
+        <xs:element name="ComponentsRepository" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Components">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Component" type="ComponentType" maxOccurs="unbounded"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Aliases" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Alias" type="Alias" maxOccurs="unbounded"/>
+                  </xs:sequence>
+                  <xs:attribute name="LastIsnAliases" type="xs:int"/>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="JavaAliases" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Alias" type="Alias" maxOccurs="unbounded"/>
+                  </xs:sequence>
+                  <xs:attribute name="LastIsnAliases" type="xs:int"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ItemIsn" type="VAL_INT_TYPE"/>
+  <xs:element name="Object">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="id" type="VAL_STRING_TYPE" minOccurs="0"/>
+        <xs:element ref="ItemIsn"/>
+        <xs:element ref="PublicName"/>
+        <xs:element name="HLP_KEY" type="VAL_STRING_TYPE" minOccurs="0"/>
+        <xs:element name="Remark" type="VAL_STRING_TYPE" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PublicName" type="VAL_STRING_TYPE"/>
+  <xs:complexType name="ComponentType">
+    <xs:all>
+      <xs:element name="Description" type="VAL_STRING_TYPE" minOccurs="0"/>
+      <xs:element name="CompId" type="VAL_STRING_TYPE" minOccurs="0"/>
+      <xs:element name="Revision" type="VAL_STRING_TYPE" minOccurs="0"/>
+      <xs:element name="MciFile" type="VAL_STRING_TYPE" minOccurs="0"/>
+      <xs:element name="ComponentType" type="VAL_STRING_TYPE" minOccurs="0"/>
+      <xs:element name="Type" type="VAL_STRING_TYPE" minOccurs="0"/>
+      <xs:element name="ProjectFile" type="VAL_STRING_TYPE" minOccurs="0"/>
+      <xs:element name="CABINET_FILE" type="VAL_STRING_TYPE" minOccurs="0"/>
+      <xs:element name="LoadImmediate" type="VAL_STRING_TYPE" minOccurs="0"/>
+      <xs:element name="HelpFile" type="VAL_STRING_TYPE" minOccurs="0"/>
+      <xs:element name="HLP_KEY" type="VAL_STRING_TYPE" minOccurs="0"/>
+      <xs:element name="CtlIndex" type="VAL_INT_TYPE" minOccurs="0"/>
+      <xs:element name="Comment" type="VAL_STRING_TYPE" minOccurs="0"/>
+      <xs:element name="LastISN" type="VAL_INT_TYPE" minOccurs="0"/>
+      <xs:element name="AssemblyName" type="VAL_STRING_TYPE" minOccurs="0"/>
+      <xs:element name="AssemblyPath" type="VAL_STRING_TYPE" minOccurs="0"/>
+      <xs:element name="AssemblyVersion" type="VAL_STRING_TYPE" minOccurs="0"/>
+      <xs:element name="UseSpecificVersion" type="VAL_STRING_TYPE" minOccurs="0"/>
+      <xs:element name="isGuiThreadExecution" type="VAL_STRING_TYPE" minOccurs="0"/>
+      <xs:element name="WCFServiceEndPointUrl" type="VAL_STRING_TYPE" minOccurs="0"/>
+      <xs:element name="WCFGenerateMessageContracts" type="VAL_STRING_TYPE" minOccurs="0"/>
+      <xs:element name="WCFClientAssembly" type="VAL_STRING_TYPE" minOccurs="0"/>
+      <xs:element name="WCFClientConfiguration" type="VAL_STRING_TYPE" minOccurs="0"/>
+      <xs:element name="JarFilePath" type="VAL_STRING_TYPE" minOccurs="0"/>   
+      <xs:element name="ServiceEndPointUrl" type="VAL_STRING_TYPE" minOccurs="0"/>
+      <xs:element name="ComponentModels" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element ref="Object" maxOccurs="unbounded"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ComponentDataObjects" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element ref="Object" maxOccurs="unbounded"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ComponentPrograms" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element ref="Object" maxOccurs="unbounded"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ComponentHelps" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element ref="Object" maxOccurs="unbounded"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ComponentRights" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element ref="Object" maxOccurs="unbounded"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ComponentEvents" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element ref="Object" maxOccurs="unbounded"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ComponentFuncs" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element ref="Object" maxOccurs="unbounded"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ComponentEnvSettings" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="Century" type="VAL_STRING_TYPE" minOccurs="0"/>
+            <xs:element name="BatchPaintTime" type="VAL_STRING_TYPE" minOccurs="0"/>
+            <xs:element name="AllowCreateInModify" type="VAL_STRING_TYPE" minOccurs="0"/>
+            <xs:element name="AllowUpdateInQuery" type="VAL_STRING_TYPE" minOccurs="0"/>
+            <xs:element name="ISAMTransaction" type="VAL_STRING_TYPE" minOccurs="0"/>
+            <xs:element name="IdleTime" type="VAL_STRING_TYPE" minOccurs="0"/>
+            <xs:element name="CenterScreenInOnline" type="VAL_STRING_TYPE" minOccurs="0"/>
+            <xs:element name="RepositionAfterModify" type="VAL_STRING_TYPE" minOccurs="0"/>
+            <xs:element name="DateMode" type="VAL_STRING_TYPE" minOccurs="0"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CRRData" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="PersistentDataSize" type="VAL_STRING_TYPE" minOccurs="0"/>
+            <xs:element name="PersistentData" minOccurs="0">
+              <xs:complexType>
+                <xs:attribute name="val" type="xs:base64Binary"/>
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ComponentHelpScreens" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element ref="Object" minOccurs="0" maxOccurs="unbounded"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:all>
+    <xs:attribute name="id" type="xs:int"/>
+    <xs:attribute name="name" type="xs:string"/>
+    <xs:attribute name="Folder" type="xs:string"/>
+    <xs:attribute name="FolderIsn" type="xs:int" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="Alias">
+    <xs:all>
+      <xs:element name="name" type="VAL_STRING_TYPE"/>
+      <xs:element name="DotNetType" type="VAL_STRING_TYPE" minOccurs="0"/>
+      <xs:element name="JavaType" type="VAL_STRING_TYPE" minOccurs="0"/>
+    </xs:all>
+    <xs:attribute name="id" type="xs:int"/>
+  </xs:complexType>
+</xs:schema>

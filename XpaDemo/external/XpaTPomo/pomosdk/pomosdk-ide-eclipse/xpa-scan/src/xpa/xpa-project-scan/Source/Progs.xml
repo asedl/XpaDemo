@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="13030.00"/>
+    <WithIsn val="Y"/>
+    <Exe comp="-1"/>
+    <LastIsn val="22"/>
+    <LastIsnFolder val="2"/>
+    <Folders>
+      <Folder id="2">
+        <Name val="Scan (Framework)"/>
+      </Folder>
+      <Folder id="1">
+        <Name val="DemoPrograms"/>
+      </Folder>
+    </Folders>
+  </Header>
+
+  <ProgramsRepositoryOutLine>
+    <Programs>
+      <Program id="1"/>
+      <Program id="2"/>
+      <Program id="3"/>
+      <Program id="6"/>
+      <Program id="14"/>
+      <Program id="15"/>
+      <Program id="17"/>
+      <Program id="19"/>
+      <Program id="18"/>
+      <Program id="7"/>
+      <Program id="8"/>
+      <Program id="13"/>
+      <Program id="16"/>
+      <Program id="9"/>
+      <Program id="10"/>
+      <Program FolderIsn="2" id="21"/>
+      <Program FolderIsn="2" id="22"/>
+      <Program FolderIsn="1" id="20"/>
+      <Program FolderIsn="1" id="4"/>
+      <Program FolderIsn="1" id="12"/>
+      <Program FolderIsn="1" id="5"/>
+    </Programs>
+  </ProgramsRepositoryOutLine>
+
+</Application>

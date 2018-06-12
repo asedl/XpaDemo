@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2008 (http://www.altova.com) by avi (private) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<!--eDeveloper 10 Models repository-->
+	<xs:include schemaLocation="properties.xsd"/>
+	<xs:element name="Application">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Header" minOccurs="0"/>
+				<xs:element name="ModelsRepository" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Models">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Object" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:all>
+													<xs:element name="PropertyList" type="PropertyListType"/>
+													<xs:element name="Comment" type="VAL_STRING_TYPE" minOccurs="0"/>
+												</xs:all>
+												<xs:attribute name="Public" type="xs:string"/>
+												<xs:attribute name="id" type="xs:string"/>
+												<xs:attribute name="name" type="xs:string"/>
+												<xs:attribute name="Folder" type="xs:string"/>
+												<xs:attribute name="FolderIsn" type="xs:int" use="optional"/>
+												<xs:attribute name="ToBeMigratedFrom1x" type="xs:string"/>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>  

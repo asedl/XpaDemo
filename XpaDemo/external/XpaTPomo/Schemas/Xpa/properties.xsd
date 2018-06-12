@@ -1,0 +1,3980 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.3 U (http://www.xmlspy.com) by Moshe Levy (MIS) -->
+<!-- edited with XMLSpy v2007 rel. 3 (http://www.altova.com) by Ehud (private) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<xs:include schemaLocation="general.xsd"/>
+	<xs:element name="TypeLibrary">
+		<xs:complexType>
+			<xs:attribute name="GUID" type="xs:string"/>
+			<xs:attribute name="MAJOR" type="xs:int"/>
+			<xs:attribute name="MINOR" type="xs:int"/>
+			<xs:attribute name="name" type="xs:string"/>
+			<xs:attribute name="id" type="xs:int" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ObjectName">
+		<xs:complexType>
+			<xs:attribute name="CanCreate" type="xs:int"/>
+			<xs:attribute name="GUID" type="xs:string"/>
+			<xs:attribute name="name" type="xs:string"/>
+			<xs:attribute name="id" type="xs:int" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+	<!--uniPaaS Properties-->
+	<xs:complexType name="PropertyListType">
+		<xs:all>
+			<xs:element name="Model" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="MODEL_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element ref="ContextVariables" minOccurs="0"/>
+			<xs:element name="CellModel" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="MODEL_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_PulldownMenu" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="PUBLIC_OBJECT_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element ref="Placement" minOccurs="0"/>
+			<xs:element name="RowPlacement" minOccurs="0">
+				<xs:complexType>
+					<xs:attribute name="val" type="xs:string"/>
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+					<xs:attribute name="Exp" type="xs:int"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element ref="ItemsList" minOccurs="0"/>
+			<xs:element name="VariableName" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_Y_N_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="UserStateIdentifier" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="TaskLogic" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Parent" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Comment" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Public" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_ChildWindow" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="ControlName" minOccurs="0">
+				<xs:complexType>
+					<xs:all minOccurs="0">
+						<xs:element name="TXT_STR_UUCTURE" minOccurs="0">
+							<xs:complexType>
+								<xs:attribute name="TXT" type="xs:string"/>
+								<xs:attribute name="TXT_LEN" type="xs:string"/>
+							</xs:complexType>
+						</xs:element>
+					</xs:all>
+					<xs:attribute name="val" type="xs:string"/>
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element ref="MustInput" minOccurs="0"/>
+			<xs:element ref="Modifiable" minOccurs="0"/>
+			<xs:element ref="GuiDisplay" minOccurs="0"/>
+			<xs:element ref="GuiDisplayTable" minOccurs="0"/>
+			<xs:element ref="GuiOutput" minOccurs="0"/>
+			<xs:element ref="GuiOutputTable" minOccurs="0"/>
+			<xs:element ref="Browser" minOccurs="0"/>
+			<xs:element ref="BrowserTable" minOccurs="0"/>
+			<xs:element ref="RichClient" minOccurs="0"/>
+			<xs:element ref="RichClientTable" minOccurs="0"/>
+			<xs:element ref="TextBased" minOccurs="0"/>
+			<xs:element name="NullAllowed" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="NullValue" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="NullDisplay" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="NullDefault" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="SubTaskNumber" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="DefaultValue" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="HelpCommand" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="URL" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Token" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="SelectMode" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="DatabaseDefault" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="CharSet" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_INT_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element ref="StoredAs" minOccurs="0"/>
+			<xs:element ref="Size" minOccurs="0"/>
+			<xs:element ref="_Flip" minOccurs="0"/>
+			<xs:element ref="ModifyInQuery" minOccurs="0"/>
+			<xs:element ref="Style" minOccurs="0"/>
+		        <xs:element ref="V11Style" minOccurs="0"/>
+		        <xs:element ref="V11HorizontalAlignment" minOccurs="0"/>
+			<xs:element ref="HorizontalAlignment" minOccurs="0"/>
+			<xs:element name="Multiline" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_VerticalScroll" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="ChoiceColumns" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="VerticalAlignment" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_INT_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_VerticalAlignment" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_INT_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="MultiLineEdit" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element ref="Format" minOccurs="0"/>
+			<xs:element ref="V11Format" minOccurs="0"/>
+			<xs:element ref="Attribute" minOccurs="0"/>
+			<xs:element name="TabControlSide" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_INT_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="ImageListFileName" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element ref="SourceTable" minOccurs="0"/>
+			<xs:element ref="DisplayField" minOccurs="0"/>
+			<xs:element ref="LinkedField" minOccurs="0"/>
+			<xs:element ref="Index" minOccurs="0"/>
+			<xs:element ref="_FieldRangePosition" minOccurs="0"/>
+			<xs:element ref="FieldRanges" minOccurs="0"/>
+			<xs:element name="Sort" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element ref="RaiseEvent" minOccurs="0"/>
+			<xs:element ref="TabInto" minOccurs="0"/>
+			<xs:element ref="_TabInto" minOccurs="0"/>
+			<xs:element ref="AllowDrag" minOccurs="0"/>
+			<xs:element name="SelectionMode" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_INT_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element ref="DisplayList" minOccurs="0"/>
+			<xs:element ref="VisibleLayersList" minOccurs="0"/>
+			<xs:element ref="_AllowParking" minOccurs="0"/>
+			<xs:element ref="AllowParking" minOccurs="0"/>
+			<xs:element ref="AllowedDirection" minOccurs="0"/>
+			<xs:element name="HotTrack" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="TabsWidth" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_INT_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="ImageListIndexes" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element ref="DefaultImageFile" minOccurs="0"/>
+			<xs:element ref="ImageStyle" minOccurs="0"/>
+			<xs:element ref="LoadImageFrom" minOccurs="0"/>
+			<xs:element name="_Dec" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_Whole" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_INT_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_Negative" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element ref="_FieldStyle" minOccurs="0"/>
+			<xs:element name="Content" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_INT_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="SubObjectName" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element ref="TypeLibrary" minOccurs="0"/>
+			<xs:element ref="ObjectName" minOccurs="0"/>
+			<xs:element name="ActivexDefault" minOccurs="0">
+				<xs:complexType>
+					<xs:attribute name="VAL" type="xs:string"/>
+					<xs:attribute name="LEN" type="xs:string"/>
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:complexType>
+			</xs:element>
+      <xs:element name="ActivexClass" minOccurs="0">
+        <xs:complexType>
+          <xs:attribute name="id" type="xs:int" use="optional"/>
+          <xs:attribute name="GUID" type="xs:string" use="optional"/>
+          <xs:attribute name="CanCreate" type="xs:int" use="optional"/>
+        </xs:complexType>
+      </xs:element>      
+			<xs:element name="_COMLicenseKey" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="DbColumnName" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Sortable" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="Y_N_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+		<xs:element name="AllowFiltering" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="Y_N_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="FillWidth" minOccurs="0">
+				<xs:complexType>
+					<xs:attribute name="val">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:enumeration value="Y"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:attribute>
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:complexType>
+			</xs:element>
+			
+			<xs:element name="MarkingColumn" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element ref="Type" minOccurs="0"/>
+			<xs:element name="UserType" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element ref="Text" minOccurs="0"/>
+			<xs:element ref="Left" minOccurs="0"/>
+			<xs:element name="Top" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Area" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="ExpandForm" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_INT_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element ref="Width" minOccurs="0"/>
+			<xs:element ref="Height" minOccurs="0"/>
+			<xs:element name="_ScrollBar" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_Font" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_INT_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="DescriptionVariable" minOccurs="0">
+				<xs:complexType>
+					<xs:attribute name="FieldID" type="xs:int"/>
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="MultiLine" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Visible" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="FileName" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="TagsTable" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element ref="MERGE_PARM" minOccurs="0" maxOccurs="unbounded"/>
+					</xs:sequence>
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="TitleBar" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="SystemMenu" minOccurs="0">
+				<xs:complexType>
+					<xs:attribute name="val">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:enumeration value="Y"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:attribute>
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="MinimizeButton" minOccurs="0">
+				<xs:complexType>
+					<xs:attribute name="val">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:enumeration value="Y"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:attribute>
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="MaximizeButton" minOccurs="0">
+				<xs:complexType>
+					<xs:attribute name="val">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:enumeration value="Y"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:attribute>
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element ref="FormUnits" minOccurs="0"/>
+			<xs:element ref="VerticalFactor" minOccurs="0"/>
+			<xs:element ref="HorizontalFactor" minOccurs="0"/>
+			<xs:element ref="ShowGrid" minOccurs="0"/>
+			<xs:element ref="GridX" minOccurs="0"/>
+			<xs:element ref="GridY" minOccurs="0"/>
+			<xs:element ref="AveragePalette" minOccurs="0"/>
+			<xs:element name="Wallpaper" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element ref="_Visual" minOccurs="0"/>
+			<xs:element ref="_Orientation" minOccurs="0"/>
+			<xs:element name="X1" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Y1" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="X2" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Y2" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_StaticType" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_INT_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_Style" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_INT_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_LineStyle" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_INT_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Font" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Color" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="V11Color" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+      <xs:element name="FocusColor" minOccurs="0">
+        <xs:complexType>
+          <xs:complexContent>
+            <xs:extension base="VAL_EXP_TYPE">
+              <xs:attribute name="id" type="xs:int" use="optional"/>
+            </xs:extension>
+          </xs:complexContent>
+        </xs:complexType>
+      </xs:element>
+
+      <xs:element name="DividerColor" minOccurs="0">
+        <xs:complexType>
+          <xs:complexContent>
+            <xs:extension base="VAL_EXP_TYPE">
+              <xs:attribute name="id" type="xs:int" use="optional"/>
+            </xs:extension>
+          </xs:complexContent>
+        </xs:complexType>
+      </xs:element>
+	  
+	<xs:element name="HintColor" minOccurs="0">
+        <xs:complexType>
+          <xs:complexContent>
+            <xs:extension base="VAL_EXP_TYPE">
+              <xs:attribute name="id" type="xs:int" use="optional"/>
+            </xs:extension>
+          </xs:complexContent>
+        </xs:complexType>
+      </xs:element>
+			<xs:element name="Hint" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+
+      <xs:element name="_Color" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element ref="HoveringColor" minOccurs="0"/>
+			<xs:element ref="VisitedColor" minOccurs="0"/>
+			<xs:element ref="HelpScreen" minOccurs="0"/>
+			<xs:element ref="BorderStyle" minOccurs="0"/>
+      			<xs:element ref="V11BorderStyle" minOccurs="0"/>
+			<xs:element name="FitToMdi" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="RepeatedLines" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="TitlePadding" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="HTMLFile" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_Hyperlink" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="_HyperlinkType">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_ArrangeTableOnLink" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_Y_N_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_Area" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element ref="_Comment" minOccurs="0"/>
+			<xs:element ref="_SplitterSet" minOccurs="0"/>
+			<xs:element name="StartupPosition" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_INT_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element ref="AllowDrop" minOccurs="0"/>
+			<xs:element name="SplitWindow" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_INT_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="PrimaryDisplay" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_INT_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_SplitWindowChild" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="XmlOutput" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="SplitterOffset" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="SplitterPlacement" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Data" minOccurs="0">
+				<xs:complexType>
+					<xs:attribute name="FieldID" type="xs:int"/>
+					<xs:attribute name="Parent" type="xs:int"/>
+					<xs:attribute name="Exp" type="xs:int"/>
+					<xs:attribute name="Column" type="xs:string"/>
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="DotnetObject" minOccurs="0">
+				<xs:complexType>
+					<xs:attribute name="FieldID" type="xs:int"/>
+					<xs:attribute name="Parent" type="xs:int"/>
+					<xs:attribute name="Exp" type="xs:int"/>
+					<xs:attribute name="Column" type="xs:string"/>
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element ref="FormName" minOccurs="0"/>
+			<xs:element name="_TabbingOrder" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="WindowType" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="PulldownMenu" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_INT_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="DisplayToolbar" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="DisplayStatusBar" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="StartupMode" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="DisplayMenu" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element ref="ContextMenu" minOccurs="0"/>
+			<xs:element name="PrimaryMinSize" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="SecondayMinSize" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_DefaultButton" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="SplitterStyle" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_INT_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="MinimumWidth" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="MinimumHeight" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="VerticalPlacement" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="Y_N_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="HorizontalPlacement" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="Y_N_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="ShowInWindowMenu" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+							<xs:attribute name="Exp" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_ContextMenu" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="PUBLIC_OBJECT_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element ref="Tooltip" minOccurs="0"/>
+			<xs:element ref="HelpPrompt" minOccurs="0"/>
+			<xs:element ref="SelectProgram" minOccurs="0"/>
+			<xs:element ref="Range" minOccurs="0"/>
+			<xs:element ref="Picture" minOccurs="0"/>
+			<xs:element ref="PartOfDataview" minOccurs="0"/>
+			<xs:element name="WithBorder" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="FrameSetSpacing" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="RelativeSize" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="TabOrder" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Definition" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="DefaultStorage" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="StaticType" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Line3D" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="LineWidth" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="ExpansionWindow" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="ControlLayer" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_INT_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="ColumnTitle" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Enabled" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="VerticalScroll" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="AllowCRInData" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="TitleHeight" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="RowHeight" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_INT_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="ShowTitle" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Elements" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="FixSizeTable" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_Y_N_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="TitleOnEveryPage" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_Y_N_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="MultiMarking" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="ShowEllipsis" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+         <xs:element name="MultiColumnDisplay" minOccurs="0">
+            <xs:complexType>
+               <xs:complexContent>
+                  <xs:extension base="VAL_STRING_TYPE">
+                     <xs:attribute name="id" type="xs:int" use="optional"/>
+                  </xs:extension>
+               </xs:complexContent>
+            </xs:complexType>
+         </xs:element>
+			<xs:element name="_WindowWidth" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_BottomPositionInterval" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_INT_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="KeepWidth" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_LastDivider" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_Y_N_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="AllowColumnResize" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_Before900Version" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_FieldPhysical" minOccurs="0">
+				<xs:complexType>
+					<xs:attribute name="DB_DEF_VAL_U" type="xs:string" use="optional"/>
+					<xs:attribute name="Name" type="xs:string" use="optional"/>
+					<xs:attribute name="PIC_U" type="xs:string" use="optional"/>
+					<xs:attribute name="Size" type="xs:string" use="optional"/>
+					<xs:attribute name="SqlType" type="xs:string" use="optional"/>
+					<xs:attribute name="SqlUserType" type="xs:string" use="optional"/>
+					<xs:attribute name="attribute" type="xs:string" use="optional"/>
+					<xs:attribute name="allowed_null" type="xs:string" use="optional"/>
+					<xs:attribute name="context_cookies" type="xs:string" use="optional"/>
+					<xs:attribute name="database_definition" type="xs:string" use="optional"/>
+					<xs:attribute name="storage" type="xs:string" use="optional"/>
+					<xs:attribute name="translate" type="xs:string" use="optional"/>
+					<xs:attribute name="Information" type="xs:string"/>
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="UpdateStyle" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="DatabaseInformation" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="ImageFileName" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="RadioButtonAppearance" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="PasswordEdit" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+              <xs:attribute name="Exp" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="PartOfDatetime" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_INT_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="XsdType" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_MaxOccurs" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_INT_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_XsdOptional" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="IsAttribute" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Name" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_XsdUnderViewCompound" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_FieldIndex" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_INT_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_Recursive" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_Compound" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_XSDAlias" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_XsdInView" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_XsdCanBeInView" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_XsdHasInViewSimples" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_XsdShouldTraverseDom" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_XsdRecursionFld" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_Data" minOccurs="0">
+				<xs:complexType>
+					<xs:attribute name="FieldID" type="xs:string"/>
+					<xs:attribute name="Parent" type="xs:string"/>
+					<xs:attribute name="Exp" type="xs:string"/>
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_ControlName" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Hyperlink" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>
+                        Used to be a STRING_TYPE so we might has some inconsistency here              
+                    </xs:documentation>
+				</xs:annotation>
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="_HyperlinkType">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Arguments" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element ref="Arguments" minOccurs="0"/>
+					</xs:sequence>
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="ConnectTo" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="TaskNumber" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="PUBLIC_OBJECT_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="LineDivider" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="ColumnDivider" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="TableInWindow" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="RowHighlightStyle" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="BottomPositionInterval" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="HorizontalScroll" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="ShowScrollBars" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="AutoWide" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="ButtonStyle" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_INT_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="V11ButtonStyle" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_INT_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+
+			<xs:element name="ParkOnClick" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="RowHighlight" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element ref="WallpaperStyle" minOccurs="0"/>
+			<xs:element ref="Border" minOccurs="0"/>
+			<xs:element ref="MultilineWordwrapScroll" minOccurs="0"/>
+			<xs:element name="SetTableColorBy" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_INT_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="AlternatingBgColor" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_INT_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="AutomaticRefresh" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="RefreshHidden" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="AutoFit" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_INT_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="RaiseAt" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_INT_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="RootValue" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="ShowRoot" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="Y_N_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="NodeId" minOccurs="0">
+				<xs:complexType>
+					<xs:attribute name="FieldID" type="xs:int"/>
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="ParentId" minOccurs="0">
+				<xs:complexType>
+					<xs:attribute name="FieldID" type="xs:int"/>
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_SingleExpand" minOccurs="0">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:string">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="NodePreload" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="CheckboxMainStyle" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_INT_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="ThreeStates" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="RowHighlightColor" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+         <xs:element name="InactiveRowHighlightColor" minOccurs="0">
+            <xs:complexType>
+               <xs:complexContent>
+                  <xs:extension base="VAL_EXP_TYPE">
+                     <xs:attribute name="id" type="xs:int" use="optional"/>
+                  </xs:extension>
+               </xs:complexContent>
+            </xs:complexType>
+         </xs:element>
+			<xs:element name="Instantiation" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="X" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Y" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_TitleHeight" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_AllowColumnReorder" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_TableInWindow" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_Sortable" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="DefaultButton" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_WindowSort" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_SnapToSize" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_Field_range_pos" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="StudioImageFile" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_DisplayField" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="PUBLIC_OBJECT_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_LinkField" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="PUBLIC_OBJECT_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_Index" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="PUBLIC_OBJECT_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="IsCached" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Hebrew" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="RightToLeft" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="MouseOverIndication" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="ExpandedImageIndex" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="KeepTreeView" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="DetailsLine" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="VisibleLines" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="LastDivider" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="ImageEffects" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="OleClass" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+							<xs:attribute name="GUID" type="xs:string" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="AutoLinkUpdate" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="AllowColumnReorder" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="ShowLines" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="CollapsedImageIndex" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="MagicRowHighlighting" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="DefaultClass" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="MouseoverClass" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="MousedownClass" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="EnableRTF" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="ScrollBar" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="TopBorder" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="DisplayOleAs" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="StoreOleAs" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="ParkedExpandedImageIndex" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="ParkedCollapsedImageIndex" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="UseOleFrameType" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="LineStyle" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="HelpFilename" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="LinesAtRoot" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_StoredData" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="FldDesc" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="ObjectType" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_RealObjectType" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_AssemblyId" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_LONG_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="DataviewControl" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+      <xs:element name="DataviewcontrolFields" minOccurs="0">
+        <xs:complexType>
+          <xs:complexContent>
+            <xs:extension base="VAL_STRING_TYPE">
+              <xs:attribute name="id" type="xs:int" use="optional"/>
+            </xs:extension>
+          </xs:complexContent>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ObjectProperties" minOccurs="0">
+        <xs:complexType>
+          <xs:complexContent>
+            <xs:extension base="ObjectProperties">
+              <xs:attribute name="id" type="xs:int" use="optional"/>
+            </xs:extension>
+          </xs:complexContent>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="_Repeatable" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="DNControlValueProperty" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="DNControlValueChangedEvent" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="DNControlDataSourceProperty" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="DNControlDisplayMemberProperty" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="DNControlValueMemberProperty" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="ShowButtons" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="AutoExpand" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="RightBorder" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_Width" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_Height" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_BorderWidth" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_FrameVertical" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_Left" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_Top" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="HtmlIntAttribute" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Scrollable" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+		         				<xs:attribute name="Exp" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Sizeable" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+                                                        <xs:attribute name="Exp" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="TokenSuffix" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="TokenPrefix" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_ExpandedImageIndex" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_CollapsedImageIndex" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="FrameName" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="DefaultStyles" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element ref="Arguments"/>
+					</xs:sequence>
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_ShowLines" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="PrgTskFrmNum" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="PUBLIC_OBJECT_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_FrameType" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="SliderStyle" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="SliderStep" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="_ModalWindow" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="HelpKey" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="IMEControl" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="GradientStyle" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_INT_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="GradientColor" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="PersistentFormState" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="PersistentFormStateVersion" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_INT_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="V11TableInWindow" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="AccessibilityText" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="AdditionalInformation" minOccurs="0">
+				<xs:complexType>
+					<xs:attribute name="valUnicode" type="xs:string"/>
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="DisplayName" minOccurs="0">
+				<xs:complexType>
+					<xs:attribute name="valUnicode" type="xs:string"/>
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="PopUp" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element ref="OrientationLock" minOccurs="0"/>
+			<xs:element ref="EnterAnimation" minOccurs="0"/>
+			<xs:element ref="ExitAnimation" minOccurs="0"/>
+			<xs:element name="NavigationDrawerMenu" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="PUBLIC_OBJECT_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="ActionBarMenu" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="PUBLIC_OBJECT_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="TitleBarColor" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="TitleColor" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+         <xs:element name="RowBgColor" minOccurs="0">
+            <xs:complexType>
+               <xs:complexContent>
+                  <xs:extension base="VAL_EXP_TYPE">
+                     <xs:attribute name="id" type="xs:int" use="optional"/>
+                  </xs:extension>
+               </xs:complexContent>
+            </xs:complexType>
+         </xs:element>
+         <xs:element name="HotTrackColor" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="SelectedTabColor" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element ref="MobileBorderWidth" minOccurs="0"/>
+			<xs:element name="BorderColor" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_EXP_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element ref="BorderFocusWidth" minOccurs="0"/>
+			<xs:element name="BorderFocusColor" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element ref="CornerRadius" minOccurs="0"/>
+			<xs:element name="OpenPicker" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="SwipeRefresh" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="TopBorderMargin" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element ref="OpenEditDialog" minOccurs="0"/>
+			<xs:element name="DefaultAlignment" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element ref="KeyboardType" minOccurs="0"/>
+			<xs:element ref="KeyboardReturnKey" minOccurs="0"/>	
+			<xs:element name="AllowSuggestions" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="KeyboardAutoComplete" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="VAL_STRING_TYPE">
+							<xs:attribute name="id" type="xs:int" use="optional"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>	
+			<xs:element ref="MobileImageListFileName" minOccurs="0"/>
+      <xs:element name="ScrollBarThumb" minOccurs="0">
+        <xs:complexType>
+          <xs:complexContent>
+            <xs:extension base="VAL_STRING_TYPE">
+              <xs:attribute name="id" type="xs:int" use="optional"/>
+            </xs:extension>
+          </xs:complexContent>
+        </xs:complexType>
+      </xs:element>
+		</xs:all>
+		<xs:attribute name="model" type="xs:string"/>
+		<xs:attribute name="FLD_FLAGS" type="xs:string"/>
+	</xs:complexType>
+  
+	<xs:complexType name="GenericPropertyListType">
+		<xs:sequence>
+			<xs:element name="Generic" type="GENERIC_TYPE" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="model" type="xs:string"/>
+	</xs:complexType>
+	<xs:complexType name="MODEL_TYPE">
+		<xs:sequence>
+			<xs:element name="Var" minOccurs="0">
+				<xs:complexType>
+					<xs:attribute name="Column" type="xs:int" use="optional"/>
+					<xs:attribute name="FieldID" type="xs:int" use="optional"/>
+					<xs:attribute name="Parent" type="xs:int"/>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="attr_obj">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="FIELD_UNICODE"/>
+					<xs:enumeration value="FIELD_ALPHA"/>
+					<xs:enumeration value="FIELD_BLOB"/>
+					<xs:enumeration value="FIELD_LOGICAL"/>
+					<xs:enumeration value="FIELD_NUMERIC"/>
+					<xs:enumeration value="FIELD_TIME"/>
+					<xs:enumeration value="FIELD_DATE"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="comp" type="xs:int"/>
+		<xs:attribute name="obj" type="xs:int"/>
+		<xs:attribute name="ID" type="xs:string"/>
+	</xs:complexType>
+	<xs:element name="Placement">
+		<xs:complexType>
+			<xs:attribute name="top" type="xs:int"/>
+			<xs:attribute name="bottom" type="xs:int"/>
+			<xs:attribute name="left" type="xs:int"/>
+			<xs:attribute name="right" type="xs:int"/>
+			<xs:attribute name="val" type="xs:string"/>
+			<xs:attribute name="id" type="xs:int" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ItemsList">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_EXP_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ControlName" type="VAL_STRING_TYPE"/>
+	<xs:element name="MustInput">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_EXP_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Modifiable">
+		<xs:complexType>
+			<xs:attribute name="val">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="Y"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="Exp" type="xs:int"/>
+			<xs:attribute name="id" type="xs:int" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="GuiDisplay">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="PropertyList" type="PropertyListType"/>
+			</xs:sequence>
+			<xs:attribute name="id" type="xs:int" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="GuiDisplayTable">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="PropertyList" type="PropertyListType"/>
+			</xs:sequence>
+			<xs:attribute name="id" type="xs:int" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="GuiOutput">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="PropertyList" type="PropertyListType"/>
+			</xs:sequence>
+			<xs:attribute name="id" type="xs:int" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="GuiOutputTable">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="PropertyList" type="PropertyListType"/>
+			</xs:sequence>
+			<xs:attribute name="id" type="xs:int" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Browser">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="PropertyList" type="PropertyListType"/>
+			</xs:sequence>
+			<xs:attribute name="id" type="xs:int" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="BrowserTable">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="PropertyList" type="PropertyListType"/>
+			</xs:sequence>
+			<xs:attribute name="id" type="xs:int" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="RichClient">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="PropertyList" type="PropertyListType"/>
+			</xs:sequence>
+			<xs:attribute name="id" type="xs:int" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="RichClientTable">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="PropertyList" type="PropertyListType"/>
+			</xs:sequence>
+			<xs:attribute name="id" type="xs:int" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="TextBased">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="PropertyList" type="PropertyListType"/>
+			</xs:sequence>
+			<xs:attribute name="id" type="xs:int" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="StoredAs">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_INT_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Size">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_INT_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="_Flip">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_STRING_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ModifyInQuery">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_STRING_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Style">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_EXP_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="V11Style">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_INT_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+        <xs:element name="V11HorizontalAlignment">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_INT_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="HorizontalAlignment">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_INT_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Format">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_EXP_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="V11Format">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_EXP_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="Attribute">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_INT_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="SourceTable">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="PUBLIC_OBJECT_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="DisplayField">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_STRING_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="LinkedField">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_STRING_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Index">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_STRING_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="_FieldRangePosition">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_STRING_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="FieldRanges">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_STRING_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="RaiseEvent">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="EventType" minOccurs="0"/>
+				<xs:element name="Parent" type="VAL_INT_TYPE" minOccurs="0"/>
+				<xs:element name="KeyCombinationID" type="VAL_INT_TYPE" minOccurs="0"/>
+				<xs:element name="InternalEventID" type="VAL_INT_TYPE" minOccurs="0"/>
+				<xs:element ref="PublicObject" minOccurs="0"/>
+				<xs:element ref="Event" minOccurs="0"/>
+				<xs:element name="DestinationContext" type="VAL_INT_TYPE" minOccurs="0"/>
+				<xs:element ref="Wait" minOccurs="0"/>
+				<xs:element ref="Arguments" minOccurs="0"/>
+				<xs:element name="Disabled" type="VAL_INT_TYPE" minOccurs="0"/>
+				<xs:element ref="Condition" minOccurs="0"/>
+				<xs:element ref="Modifier" minOccurs="0"/>
+				<xs:element ref="Direction" minOccurs="0"/>
+				<xs:element name="EXECON_CLIENT" type="VAL_STRING_TYPE" minOccurs="0"/>
+			</xs:sequence>
+			<xs:attribute name="FlowIsn" type="xs:int"/>
+			<xs:attribute name="id" type="xs:int" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="TabInto">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_EXP_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="_TabInto">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_EXP_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="AllowDrag">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_STRING_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+					<xs:attribute name="Exp" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="DisplayList">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_EXP_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="VisibleLayersList">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_EXP_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="_AllowParking">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_EXP_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="AllowParking">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_EXP_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="AllowedDirection">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_INT_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="DefaultImageFile">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_EXP_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ImageStyle">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_INT_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="LoadImageFrom">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_INT_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="_FieldStyle">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_INT_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Type">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_STRING_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Text">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_EXP_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Left">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_EXP_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Width">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_EXP_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Height">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_EXP_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="FormUnits">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_INT_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="VerticalFactor">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_INT_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="HorizontalFactor">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_INT_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ShowGrid">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_STRING_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="GridX">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_INT_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="GridY">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_INT_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="AveragePalette">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_STRING_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="_Visual">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_STRING_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="_Orientation">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_STRING_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="HoveringColor">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_EXP_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="VisitedColor">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_EXP_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Comment" type="VAL_EXP_TYPE"/>
+	<xs:element name="HelpScreen">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="PUBLIC_OBJECT_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="BorderStyle">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_INT_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+  	<xs:element name="V11BorderStyle">
+   	 	<xs:complexType>
+      			<xs:complexContent>
+       				 <xs:extension base="VAL_INT_TYPE">
+         				 <xs:attribute name="id" type="xs:int" use="optional"/>
+        			</xs:extension>
+     			 </xs:complexContent>
+   		 </xs:complexType>
+  	</xs:element>
+	<xs:element name="ContextVariables">
+		<xs:complexType>
+			<xs:sequence minOccurs="0">
+				<xs:element name="HTML_CONXT_VAR" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence minOccurs="0">
+							<xs:element name="Arguments">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Argument" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:all>
+													<xs:element name="id" type="VAL_STRING_TYPE" minOccurs="0"/>
+													<xs:element ref="Variable" minOccurs="0"/>
+													<xs:element name="Expression" type="VAL_STRING_TYPE" minOccurs="0"/>
+													<xs:element name="Skip" type="VAL_STRING_TYPE" minOccurs="0"/>
+												</xs:all>
+												<xs:attribute name="Name" type="xs:string"/>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="CNXT_DMNLIMT" type="xs:string"/>
+						<xs:attribute name="CNXT_EXP_DATE" type="xs:int"/>
+						<xs:attribute name="CNXT_EXP_TIME" type="xs:int"/>
+						<xs:attribute name="CNXT_SECURE" type="xs:string"/>
+						<xs:attribute name="context_cookies" type="xs:string"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="id" type="xs:int" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="_Comment">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_STRING_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="_SplitterSet">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_STRING_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="AllowDrop">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_STRING_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+					<xs:attribute name="Exp" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="FormName">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_EXP_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ContextMenu">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_STRING_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Tooltip">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="PUBLIC_OBJECT_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="HelpPrompt">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="PUBLIC_OBJECT_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="SelectProgram">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="PUBLIC_OBJECT_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Range">
+		<xs:complexType>
+			<xs:attribute name="Direction" type="xs:string"/>
+			<xs:attribute name="MAX" type="xs:int"/>
+			<xs:attribute name="MIN" type="xs:int"/>
+			<xs:attribute name="valUnicode" type="xs:string"/>
+			<xs:attribute name="val" type="xs:string"/>
+			<xs:attribute name="Exp" type="xs:string"/>
+			<xs:attribute name="id" type="xs:int" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Picture">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_STRING_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="MERGE_PARM">
+		<xs:complexType>
+			<xs:attribute name="FieldID" type="xs:int"/>
+			<xs:attribute name="PIC_U" type="xs:string"/>
+			<xs:attribute name="TXT_U" type="xs:string"/>
+			<xs:attribute name="id" type="xs:int"/>
+			<xs:attribute name="Exp" type="xs:int"/>
+			<xs:attribute name="TEXP" type="xs:int"/>
+			<xs:attribute name="CEXP" type="xs:int"/>
+			<xs:attribute name="Parent" type="xs:int"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="HYPER_INFOType">
+		<xs:sequence minOccurs="0">
+			<xs:element name="Arguments">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="Argument" maxOccurs="unbounded">
+							<xs:complexType>
+								<xs:all>
+									<xs:element name="id" type="VAL_STRING_TYPE" minOccurs="0"/>
+									<xs:element ref="Variable" minOccurs="0"/>
+									<xs:element name="Expression" type="VAL_STRING_TYPE" minOccurs="0"/>
+									<xs:element name="Skip" type="VAL_STRING_TYPE" minOccurs="0"/>
+								</xs:all>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="HYPER_FRAMENAME" type="xs:string"/>
+		<xs:attribute name="HYPER_PROG" type="xs:string"/>
+		<xs:attribute name="HYPER_TEXT" type="xs:string"/>
+		<xs:attribute name="HYPER_TYPE" type="xs:string"/>
+		<xs:attribute name="PRGEXP" type="xs:string"/>
+		<xs:attribute name="FRMEXP" type="xs:string"/>
+	</xs:complexType>
+	<xs:element name="Arguments">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Argument" maxOccurs="unbounded"/>
+        <xs:element name="INT_RECOMP_INFO" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="v" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="EventType" type="VAL_STRING_TYPE"/>
+	<xs:element name="PublicObject" type="PUBLIC_OBJECT_TYPE"/>
+	<xs:element name="Event">
+		<xs:complexType>
+			<xs:all>
+				<xs:element ref="EventType" minOccurs="0"/>
+				<xs:element name="ErrorTrigger" type="VAL_INT_TYPE" minOccurs="0"/>
+				<xs:element name="KeyCombinationID" type="VAL_INT_TYPE" minOccurs="0"/>
+				<xs:element name="InternalEventID" type="VAL_INT_TYPE" minOccurs="0"/>
+				<xs:element name="Time" type="VAL_INT_TYPE" minOccurs="0"/>
+				<xs:element name="Exp" type="VAL_INT_TYPE" minOccurs="0"/>
+				<xs:element name="CNXT_DMNLIMT" type="Y_N_EXP_TYPE" minOccurs="0"/>
+				<xs:element name="CNXT_EXP_DATE" type="VAL_EXP_TYPE" minOccurs="0"/>
+				<xs:element name="CNXT_SECURE" type="Y_N_EXP_TYPE" minOccurs="0"/>
+				<xs:element name="context_cookies" type="Y_N_EXP_TYPE" minOccurs="0"/>
+				<xs:element name="Parent" type="VAL_INT_TYPE" minOccurs="0"/>
+				<xs:element ref="PublicObject" minOccurs="0"/>
+				<xs:element name="EventId" type="VAL_STRING_TYPE" minOccurs="0"/>
+				<xs:element name="EventText" type="VAL_STRING_TYPE" minOccurs="0"/>
+				<xs:element ref="DotNetType" minOccurs="0"/>
+				<xs:element ref="RealObjectType" minOccurs="0"/>
+				<xs:element ref="_AssemblyId" minOccurs="0"/>
+			</xs:all>
+			<xs:attribute name="EVNT_VAR_P" type="xs:string"/>
+			<xs:attribute name="FieldID" type="xs:string"/>
+			<xs:attribute name="GUID" type="xs:string"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Wait" type="Y_N_EXP_TYPE"/>
+	<xs:element name="Condition" type="VAL_EXP_TYPE"/>
+	<xs:element name="Modifier" type="VAL_STRING_TYPE"/>
+	<xs:element name="Direction" type="VAL_STRING_TYPE"/>
+	<xs:element name="Argument">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="id" minOccurs="0"/>
+				<xs:element ref="Expression" minOccurs="0"/>
+				<xs:element name="Parent" type="VAL_INT_TYPE" minOccurs="0"/>
+				<xs:element ref="Variable" minOccurs="0"/>
+				<xs:element ref="Skip" minOccurs="0"/>
+				<xs:element ref="Name" minOccurs="0"/>
+				<xs:element ref="Type" minOccurs="0"/>
+				<xs:element ref="VT_Type" minOccurs="0"/>
+				<xs:element ref="TypeLibrary" minOccurs="0"/>
+				<xs:element ref="ObjectName" minOccurs="0"/>
+				<xs:element ref="ENUMNAME" minOccurs="0"/>
+				<xs:element ref="DotNetType" minOccurs="0"/>
+				<xs:element ref="RealObjectType" minOccurs="0"/>
+				<xs:element ref="_AssemblyId" minOccurs="0"/>
+			</xs:sequence>
+			<xs:attribute name="Name" type="xs:string"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="id" type="VAL_INT_TYPE"/>
+	<xs:element name="Expression">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ExpSyntax" minOccurs="0"/>
+				<xs:element ref="PolishExp" minOccurs="0"/>
+				<xs:element ref="ExpAttribute" minOccurs="0"/>
+				<xs:element ref="_ExeOnClient" minOccurs="0"/>
+			</xs:sequence>
+			<xs:attribute name="val" type="xs:int"/>
+			<xs:attribute name="id" type="xs:int"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ExpSyntax" type="VAL_STRING_TYPE"/>
+	<xs:element name="PolishExp" type="VAL_STRING_TYPE"/>
+	<xs:element name="ExpAttribute" type="VAL_STRING_TYPE"/>
+	<xs:element name="_ExeOnClient" type="VAL_INT_TYPE"/>
+	<xs:element name="Variable" type="VAL_INT_TYPE"/>
+	<xs:element name="Skip">
+		<xs:complexType>
+			<xs:attribute name="val" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="N"/>
+						<xs:enumeration value="Y"/>
+						<xs:enumeration value="1"/>
+						<xs:enumeration value="2"/>
+						<xs:enumeration value="3"/>
+						<xs:enumeration value="4"/>
+						<xs:enumeration value="5"/>
+						<xs:enumeration value="6"/>
+						<xs:enumeration value="7"/>
+						<xs:enumeration value="8"/>
+						<xs:enumeration value="9"/>
+						<xs:enumeration value="10"/>
+						<xs:enumeration value="11"/>
+						<xs:enumeration value="12"/>
+						<xs:enumeration value="13"/>
+						<xs:enumeration value="14"/>
+						<xs:enumeration value="15"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Name" type="VAL_STRING_TYPE"/>
+	<xs:element name="VT_Type" type="VAL_INT_TYPE"/>
+	<xs:element name="ENUMNAME" type="VAL_STRING_TYPE"/>
+	<xs:element name="DotNetType" type="VAL_STRING_TYPE"/>
+	<xs:element name="RealObjectType" type="VAL_STRING_TYPE"/>
+	<xs:element name="_AssemblyId" type="VAL_LONG_TYPE"/>
+	<xs:complexType name="ColumnType">
+		<xs:sequence>
+			<xs:element name="Comment" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="PropertyList" type="PropertyListType" minOccurs="0"/>
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:int"/>
+		<xs:attribute name="name" type="xs:string"/>
+		<xs:attribute name="val" type="xs:int"/>
+	</xs:complexType>
+	<xs:element name="WallpaperStyle">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_INT_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Border">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_EXP_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="MultilineWordwrapScroll">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_INT_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="_HyperlinkType">
+		<xs:sequence minOccurs="0">
+			<xs:element name="HYPER_LINK">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="HYPER_INFO">
+							<xs:complexType>
+								<xs:complexContent>
+									<xs:extension base="HYPER_INFOType">
+										<xs:attribute name="HYPER_URL_IXP" type="xs:string"/>
+										<xs:attribute name="SYSEXP" type="xs:string"/>
+									</xs:extension>
+								</xs:complexContent>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="PartOfDataview">
+		<xs:complexType>
+			<xs:attribute name="val">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="Y"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="Exp" type="xs:int"/>
+			<xs:attribute name="id" type="xs:int" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="ObjectProperties">
+		<xs:all>
+			<xs:element name="PropertyList" type="GenericPropertyListType" minOccurs="0"/>
+		</xs:all>
+	</xs:complexType>
+	<xs:element name="OrientationLock">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_INT_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="EnterAnimation">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_INT_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ExitAnimation">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_INT_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="MobileBorderWidth">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_STRING_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="BorderFocusWidth">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_STRING_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="CornerRadius">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_STRING_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="OpenEditDialog">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_INT_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="KeyboardType">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_INT_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="KeyboardReturnKey">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_INT_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="MobileImageListFileName">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="VAL_STRING_TYPE">
+					<xs:attribute name="id" type="xs:int" use="optional"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+</xs:schema>

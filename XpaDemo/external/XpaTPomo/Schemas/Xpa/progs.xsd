@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2008 (http://www.altova.com) by avi (private) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<!--eDeveloper 10 Progs-->
+	<xs:simpleType name="AT_16">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Y"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="AT_10">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="5"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="T_WithIsn">
+		<xs:attribute name="val" type="xs:string"/>
+	</xs:complexType>
+	<xs:complexType name="T_Version">
+		<xs:attribute name="val" type="xs:string"/>
+	</xs:complexType>
+	<xs:complexType name="T_StartsAt">
+		<xs:attribute name="val" type="xs:string"/>
+	</xs:complexType>
+	<xs:complexType name="T_ProgramsRepositoryOutLine">
+		<xs:sequence>
+			<xs:element ref="Programs" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="T_Programs">
+		<xs:sequence>
+			<xs:element ref="Program" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="T_Program">
+		<xs:attribute name="id" type="xs:string"/>
+    <xs:attribute name="FolderIsn" type="xs:string"/>
+  </xs:complexType>
+	<xs:complexType name="T_NumberOfEntries">
+		<xs:attribute name="val" type="xs:string"/>
+	</xs:complexType>
+	<xs:complexType name="T_Name">
+		<xs:attribute name="val" type="xs:string"/>
+	</xs:complexType>
+	<xs:complexType name="T_LastIsnFolder">
+		<xs:attribute name="val" type="xs:string"/>
+	</xs:complexType>
+	<xs:complexType name="T_LastIsn">
+		<xs:attribute name="val" type="xs:string"/>
+	</xs:complexType>
+	<xs:complexType name="T_Header">
+		<xs:all>
+			<xs:element ref="Version" minOccurs="0"/>
+			<xs:element ref="WithIsn" minOccurs="0"/>
+			<xs:element ref="Exe" minOccurs="0"/>
+			<xs:element ref="LastIsn" minOccurs="0"/>
+			<xs:element ref="LastIsnFolder" minOccurs="0"/>
+			<xs:element ref="Folders" minOccurs="0"/>
+            <xs:element name="_InternalTask" minOccurs="0">
+                <xs:complexType>
+                    <xs:attribute name="val" type="xs:string"/>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="IsRoot" minOccurs="0">
+                <xs:complexType>
+                    <xs:attribute name="val" type="xs:string"/>
+                </xs:complexType>
+            </xs:element>
+            
+            <xs:element name="InIndex" minOccurs="0">
+                <xs:complexType>
+                    <xs:attribute name="val" type="xs:string"/>
+                </xs:complexType>
+            </xs:element>				
+		</xs:all>
+	</xs:complexType>
+	<xs:complexType name="T_Folders">
+		<xs:sequence minOccurs="0">
+			<xs:element ref="Folder" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="T_Folder">
+		<xs:sequence minOccurs="0">
+			<xs:element ref="Name"/>
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:string"/>
+	</xs:complexType>
+	<xs:complexType name="T_Exe">
+		<xs:attribute name="comp" type="xs:string"/>
+		<xs:attribute name="obj" type="xs:string"/>
+	</xs:complexType>
+	<xs:complexType name="T_Application">
+		<xs:sequence>
+			<xs:element ref="Header" minOccurs="0"/>
+			<xs:element ref="ProgramsRepositoryOutLine" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="WithIsn" type="T_WithIsn"/>
+	<xs:element name="Version" type="T_Version"/>
+	<xs:element name="StartsAt" type="T_StartsAt"/>
+	<xs:element name="ProgramsRepositoryOutLine" type="T_ProgramsRepositoryOutLine"/>
+	<xs:element name="Programs" type="T_Programs"/>
+	<xs:element name="Program" type="T_Program"/>
+	<xs:element name="NumberOfEntries" type="T_NumberOfEntries"/>
+	<xs:element name="Name" type="T_Name"/>
+	<xs:element name="LastIsnFolder" type="T_LastIsnFolder"/>
+	<xs:element name="LastIsn" type="T_LastIsn"/>
+	<xs:element name="Header" type="T_Header"/>
+	<xs:element name="Folders" type="T_Folders"/>
+	<xs:element name="Folder" type="T_Folder"/>
+	<xs:element name="Exe" type="T_Exe"/>
+	<xs:element name="Application" type="T_Application"/>
+</xs:schema>

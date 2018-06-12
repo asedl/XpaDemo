@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2008 (http://www.altova.com) by avi (private) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<!--eDeveloper 10 Project properties information-->
+	<xs:include schemaLocation="general.xsd"/>
+	<xs:element name="Application">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Header"/>
+				<xs:element name="ProjectProperties">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ProjectData" type="ProjectDataType"/>
+              <xs:element name="WebClientData" type="WebClientDataType" minOccurs="0"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="ProjectDataType">
+		<xs:sequence>
+			<xs:element name="GUID" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="RemoteFlowMonitorRight" type="PUBLIC_OBJECT_TYPE" minOccurs="0"/>
+			<xs:element name="ColorDefinitionFile" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="FontDefinitionFile" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="Caption" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="Icon" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="KeyboardMappingFile" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="ApplColorDefinitionFile" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="RTInternalColorDefinitionFile" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="PrintAttrFile" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="ApplFontDefinitionFile" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="RTInternalFontDefinitionFile" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="HTMLStyles" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="ProjectAccessKey" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="PublicRightsAccessKey" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="SuperRightKey" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="NulArithmetic" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="WindowSortBy" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="_SystemPulldownMenu" type="PUBLIC_OBJECT_TYPE" minOccurs="0"/>
+			<xs:element name="_SystemContextMenu" type="PUBLIC_OBJECT_TYPE" minOccurs="0"/>
+			<xs:element name="SystemPulldownMenu" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="SystemContextMenu" type="VAL_INT_TYPE" minOccurs="0"/>
+			<xs:element name="ExposeComment" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="ProjectName" type="VAL_STRING_TYPE" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="WebClientDataType">
+	  <xs:sequence>
+      <xs:element name="OutputFolder" type="VAL_STRING_TYPE" minOccurs="0"/>
+      <xs:element name="SourceImagesFolder" type="VAL_STRING_TYPE" minOccurs="0" />
+      <xs:element name="Theme" type="VAL_STRING_TYPE" minOccurs="0" />
+      <xs:element name="AbsolutePosition" type="VAL_STRING_TYPE" minOccurs="0" />
+      <xs:element name="MultiLingualSupport" type="VAL_STRING_TYPE" minOccurs="0"/>
+      <xs:element name="BackupCurrent" type="VAL_STRING_TYPE" minOccurs="0" />
+    </xs:sequence>
+	</xs:complexType >
+</xs:schema>

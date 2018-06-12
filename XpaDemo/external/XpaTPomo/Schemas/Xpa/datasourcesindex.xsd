@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2008 (http://www.altova.com) by avi (private) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<!--eDeveloper 10 DataSources index-->
+	<xs:include schemaLocation="general.xsd"/>
+	<xs:element name="Application">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Header" minOccurs="0"/>
+				<xs:element name="DataSourceRepository" type="T_DataSourceRepository" minOccurs="0"/>
+				<xs:element name="LastModified" type="T_LastModified" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="T_DataSourceRepository">
+		<xs:sequence>
+			<xs:element name="DataObjects" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="DataObject" minOccurs="0" maxOccurs="unbounded">
+							<xs:complexType>
+								<xs:attribute name="Folder" type="xs:string"/>
+                <xs:attribute name="FolderIsn" type="xs:int" use="optional"/>
+								<xs:attribute name="offset" type="xs:string"/>
+								<xs:attribute name="name" type="xs:string"/>
+								<xs:attribute name="length" type="xs:string"/>
+								<xs:attribute name="id" type="xs:string"/>
+								<xs:attribute name="data_source" type="xs:string"/>
+								<xs:attribute name="Resident" type="xs:string"/>
+								<xs:attribute name="PhysicalName" type="xs:string"/>
+								<xs:attribute name="Public" type="xs:string"/>
+								<xs:attribute name="Comment" type="xs:string"/>
+                <xs:attribute name="ToBeMigratedFrom1x" type="xs:string"/>
+                <xs:attribute name="UniqueISNConvState" type="xs:int" use="optional"/>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="T_LastModified">
+		<xs:attribute name="val" type="xs:string"/>
+	</xs:complexType>
+</xs:schema>

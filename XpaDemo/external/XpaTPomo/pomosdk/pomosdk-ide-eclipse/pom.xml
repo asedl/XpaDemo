@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>pomosdk.xpa.examples</groupId>
+  <artifactId>pomosdk-ide-eclipse</artifactId>
+  <packaging>pom</packaging>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>XPATest XPA POMO-SDK Eclipse</name>
+  <modules>
+    <module>xpa-project-build</module>
+    <module>xpa-project-scan</module>
+    <module>xpa-scan</module>
+  </modules>  
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  <parent>
+  	<groupId>org.magicxpa.xpatest</groupId>
+  	<artifactId>xpatest-project</artifactId>
+  	<version>0.1-SNAPSHOT</version>
+  	<relativePath>../../../../maven/xpatest-project</relativePath>
+  </parent>
+</project>

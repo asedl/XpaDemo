@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="11009"/>
+    <WithIsn val="Y"/>
+    <Exe comp="-1"/>
+    <LastIsn val="21"/>
+    <LastIsnFolder val="1"/>
+    <Folders>
+      <Folder id="1">
+        <Name val="Java"/>
+        <StartsAt val="12"/>
+      </Folder>
+    </Folders>
+  </Header>
+
+  <ProgramsRepositoryOutLine>
+    <Programs>
+      <Program id="1"/>
+      <Program id="4"/>
+      <Program id="7"/>
+      <Program id="2"/>
+      <Program id="3"/>
+      <Program id="6"/>
+      <Program id="8"/>
+      <Program id="19"/>
+      <Program id="20"/>
+      <Program id="9"/>
+      <Program id="18"/>
+      <Program id="13"/>
+    </Programs>
+  </ProgramsRepositoryOutLine>
+
+</Application>

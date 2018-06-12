@@ -1,0 +1,24 @@
+ <Application>
+ 
+<Header>
+
+  <Version val="11009"/>
+
+  <WithIsn val="Y"/>
+
+  <Exe comp="-1"/>
+
+  <LastIsn val="2"/>
+
+  <LastIsnFolder val="0"/>
+
+  <Folders/>
+
+</Header>
+ <DataSourceRepository>
+  <DataObjects>
+ 
+<DataObject PhysicalName="xpatest_uris" Resident="N" data_source="XPATest" id="1" name="xpatest_uris" offset="210" length="3000"/> 
+<DataObject PhysicalName="xpatest_templates" Resident="N" data_source="XPATest" id="2" name="xpatest_templates" offset="3211" length="2556"/>  </DataObjects>
+ </DataSourceRepository>
+ <LastModified val="30665369-125803540"/>  </Application>

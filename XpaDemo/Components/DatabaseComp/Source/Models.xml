@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="13030.00"/>
+    <WithIsn val="Y"/>
+    <LastIsn val="63"/>
+    <LastIsnFolder val="0"/>
+    <Folders/>
+  </Header>
+
+  <ModelsRepository>
+    <Models>
+      <Object Public="Filename (Path)" id="31" name="Filename (Path)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_UNICODE" id="1"/>
+          <Picture id="157" valUnicode="255"/>
+          <Size id="174" val="510"/>
+          <_FieldStyle id="276" val="1"/>
+          <PartOfDataview id="449"/>
+        </PropertyList>
+      </Object>
+      <Object Public="CommandLine" id="32" name="CommandLine">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_UNICODE" id="1"/>
+          <Picture id="157" valUnicode="2048"/>
+          <Size id="174" val="4096"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="33">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Size id="174"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="34" name="Y/N_Null">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_UNICODE" id="1"/>
+          <Range id="98" valUnicode="Y,N"/>
+          <Picture id="157" valUnicode="1"/>
+          <NullAllowed id="166" val="Y"/>
+          <Size id="174" val="2"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="35">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Size id="174"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="36" name="=== Http functionality">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Size id="174"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object Public="Uri" id="37" name="Uri">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_UNICODE" id="1"/>
+          <Picture id="157" valUnicode="2048"/>
+          <Size id="174" val="4096"/>
+          <_FieldStyle id="276" val="1"/>
+          <PartOfDataview id="449"/>
+        </PropertyList>
+      </Object>
+      <Object Public="ResponseBody(Binary)" id="38" name="ResponseBody(Binary)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_BLOB" id="1"/>
+          <Size id="174" val="28"/>
+          <_FieldStyle id="276" val="1"/>
+          <PartOfDataview id="449"/>
+        </PropertyList>
+      </Object>
+      <Object Public="ResponseBody(Unicode)" id="39" name="ResponseBody(Unicode)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_BLOB" id="1"/>
+          <StoredAs id="173" val="34"/>
+          <Size id="174" val="28"/>
+          <_FieldStyle id="276" val="1"/>
+          <Content id="434" val="2"/>
+          <PartOfDataview id="449"/>
+        </PropertyList>
+      </Object>
+      <Object Public="ResponseBody(Ansi)" id="40" name="ResponseBody(Ansi)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_BLOB" id="1"/>
+          <StoredAs id="173" val="29"/>
+          <Size id="174" val="28"/>
+          <_FieldStyle id="276" val="1"/>
+          <Content id="434" val="3"/>
+          <PartOfDataview id="449"/>
+        </PropertyList>
+      </Object>
+      <Object id="41">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Size id="174"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="42" name="Element/Node Name">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_UNICODE" id="1"/>
+          <Picture id="157" valUnicode="255"/>
+          <Size id="174" val="510"/>
+          <_FieldStyle id="276" val="1"/>
+          <PartOfDataview id="449"/>
+        </PropertyList>
+      </Object>
+      <Object id="43" name="Element/Node Vector">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_BLOB" id="1"/>
+          <Size id="174" val="28"/>
+          <_FieldStyle id="276" val="4"/>
+          <CellModel attr_obj="FIELD_BLOB" comp="-1" id="287" obj="42"/>
+          <PartOfDataview id="449"/>
+        </PropertyList>
+      </Object>
+      <Object id="44" name="Element/Node List">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_UNICODE" id="1"/>
+          <Picture id="157" valUnicode="2000"/>
+          <Size id="174" val="4000"/>
+          <_FieldStyle id="276" val="1"/>
+          <PartOfDataview id="449"/>
+        </PropertyList>
+      </Object>
+      <Object id="45">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Size id="174"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="46" name="ParameterString">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_UNICODE" id="1"/>
+          <Picture id="157" valUnicode="1024"/>
+          <Size id="174" val="2048"/>
+          <_FieldStyle id="276" val="1"/>
+          <PartOfDataview id="449"/>
+        </PropertyList>
+      </Object>
+      <Object id="47" name="ParameterString(Java)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_BLOB" id="1"/>
+          <Size id="174" val="28"/>
+          <_FieldStyle id="276" val="6"/>
+          <PartOfDataview id="449"/>
+          <ObjectType id="478" val="java.lang.String"/>
+        </PropertyList>
+      </Object>
+      <Object id="48" name="ParameterArray">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_BLOB" id="1"/>
+          <Size id="174" val="28"/>
+          <_FieldStyle id="276" val="4"/>
+          <CellModel attr_obj="FIELD_BLOB" comp="-1" id="287" obj="46"/>
+          <PartOfDataview id="449"/>
+        </PropertyList>
+      </Object>
+      <Object id="49">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Size id="174"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="50" name="=== Workaround with MAXL=25">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Size id="174"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="51" name="Element/Node Name (maxl=25)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_UNICODE" id="1"/>
+          <Picture id="157" valUnicode="25"/>
+          <Size id="174" val="50"/>
+          <_FieldStyle id="276" val="1"/>
+          <PartOfDataview id="449"/>
+        </PropertyList>
+      </Object>
+      <Object id="52" name="Element/Node Vector (cells 25)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_BLOB" id="1"/>
+          <Size id="174" val="28"/>
+          <_FieldStyle id="276" val="4"/>
+          <CellModel attr_obj="FIELD_BLOB" comp="-1" id="287" obj="51"/>
+          <PartOfDataview id="449"/>
+        </PropertyList>
+      </Object>
+      <Object id="53">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Size id="174"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="54" name="===">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Size id="174"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object Public="objid" id="63" name="objid">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="9"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="9"/>
+          <_Negative id="192"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object Public="script_id" id="55" name="script_id">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="9"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="9"/>
+          <_Negative id="192"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object Public="script_source" id="56" name="script_source">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_UNICODE" id="1"/>
+          <Picture id="157" valUnicode="2000"/>
+          <Size id="174" val="4000"/>
+          <_FieldStyle id="276" val="1"/>
+          <PartOfDataview id="449"/>
+        </PropertyList>
+      </Object>
+      <Object Public="TemplateId" id="57" name="TemplateId">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="9"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="9"/>
+          <_Negative id="192"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object Public="TemplateSource" id="58" name="TemplateSource">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_BLOB" id="1"/>
+          <StoredAs id="173" val="34"/>
+          <Size id="174" val="28"/>
+          <_FieldStyle id="276" val="1"/>
+          <Content id="434" val="2"/>
+          <PartOfDataview id="449"/>
+        </PropertyList>
+      </Object>
+      <Object Public="Filename" id="59" name="Filename">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_UNICODE" id="1"/>
+          <Picture id="157" valUnicode="255"/>
+          <Size id="174" val="510"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object Public="Parameter(Blob)" id="60" name="Parameter(Blob)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_BLOB" id="1"/>
+          <Size id="174" val="28"/>
+          <_FieldStyle id="276" val="1"/>
+          <PartOfDataview id="449"/>
+        </PropertyList>
+      </Object>
+      <Object Public="Parameter(Unicode1000)" id="61" name="Parameter(Unicode1000)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_UNICODE" id="1"/>
+          <Picture id="157" valUnicode="1000"/>
+          <Size id="174" val="2000"/>
+          <_FieldStyle id="276" val="1"/>
+          <PartOfDataview id="449"/>
+        </PropertyList>
+      </Object>
+      <Object Public="Parameters(Vector)" id="62" name="Parameters(Vector)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_BLOB" id="1"/>
+          <Size id="174" val="28"/>
+          <_FieldStyle id="276" val="4"/>
+          <CellModel attr_obj="FIELD_BLOB" comp="-1" id="287" obj="61"/>
+          <PartOfDataview id="449"/>
+        </PropertyList>
+      </Object>
+    </Models>
+  </ModelsRepository>
+
+</Application>

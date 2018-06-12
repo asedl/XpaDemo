@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="13030.00"/>
+    <WithIsn val="Y"/>
+    <Exe comp="-1"/>
+    <LastIsn val="17"/>
+    <LastIsnFolder val="2"/>
+    <Folders>
+      <Folder id="2">
+        <Name val=".NET"/>
+      </Folder>
+      <Folder id="1">
+        <Name val="MagicXPA"/>
+      </Folder>
+    </Folders>
+  </Header>
+
+  <ComponentsRepository>
+    <Components>
+      <Component id="17" name="_UserFunctionality">
+        <ComponentType val="Magic xpa"/>
+        <Type val="U"/>
+        <LoadImmediate val="Y"/>
+        <LastISN val="24"/>
+        <CompId val="3902674675-36743-19037-9421D7318"/>
+        <MciFile val="C:\magic\samples\xpaxmltest\XPATests\Components\_UserFunctionality\_UserFunctionality.eci"/>
+        <ProjectFile val="C:\magic\samples\xpaxmltest\XPATests\Components\_UserFunctionality\_UserFunctionality.edp"/>
+        <CABINET_FILE val="%Components%_UserFunctionality.ecf"/>
+        <ComponentPrograms>
+          <Object>
+            <id val="9"/>
+            <ItemIsn val="1"/>
+            <PublicName val="OnlineManageScreen"/>
+          </Object>
+          <Object>
+            <id val="11"/>
+            <ItemIsn val="2"/>
+            <PublicName val="OnlineColumnSelection"/>
+          </Object>
+          <Object>
+            <id val="12"/>
+            <ItemIsn val="3"/>
+            <PublicName val="OnlineDelimiters"/>
+          </Object>
+          <Object>
+            <id val="14"/>
+            <ItemIsn val="4"/>
+            <PublicName val="ManageScreen"/>
+          </Object>
+          <Object>
+            <id val="15"/>
+            <ItemIsn val="5"/>
+            <PublicName val="PrintData"/>
+          </Object>
+          <Object>
+            <id val="16"/>
+            <ItemIsn val="6"/>
+            <PublicName val="ColumnSelection"/>
+          </Object>
+          <Object>
+            <id val="17"/>
+            <ItemIsn val="7"/>
+            <PublicName val="Delimiters"/>
+          </Object>
+          <Object>
+            <id val="19"/>
+            <ItemIsn val="8"/>
+            <PublicName val="OnlineRangeManager"/>
+          </Object>
+          <Object>
+            <id val="20"/>
+            <ItemIsn val="9"/>
+            <PublicName val="OnlineRange"/>
+          </Object>
+          <Object>
+            <id val="21"/>
+            <ItemIsn val="10"/>
+            <PublicName val="OnlineRangeExpression"/>
+          </Object>
+          <Object>
+            <id val="22"/>
+            <ItemIsn val="11"/>
+            <PublicName val="OnlineLocate"/>
+          </Object>
+          <Object>
+            <id val="23"/>
+            <ItemIsn val="12"/>
+            <PublicName val="OnlineSort"/>
+          </Object>
+          <Object>
+            <id val="24"/>
+            <ItemIsn val="13"/>
+            <PublicName val="OnlineRangeFilter"/>
+          </Object>
+          <Object>
+            <id val="25"/>
+            <ItemIsn val="14"/>
+            <PublicName val="ViewByKey"/>
+          </Object>
+          <Object>
+            <id val="31"/>
+            <ItemIsn val="15"/>
+            <PublicName val="RCRangeManager"/>
+          </Object>
+          <Object>
+            <id val="32"/>
+            <ItemIsn val="16"/>
+            <PublicName val="RCRange"/>
+          </Object>
+          <Object>
+            <id val="33"/>
+            <ItemIsn val="17"/>
+            <PublicName val="RCRangeExpression"/>
+          </Object>
+          <Object>
+            <id val="34"/>
+            <ItemIsn val="18"/>
+            <PublicName val="RCLocate"/>
+          </Object>
+          <Object>
+            <id val="35"/>
+            <ItemIsn val="19"/>
+            <PublicName val="RCSort"/>
+          </Object>
+          <Object>
+            <id val="36"/>
+            <ItemIsn val="20"/>
+            <PublicName val="RCRangeFilter"/>
+          </Object>
+          <Object>
+            <id val="37"/>
+            <ItemIsn val="21"/>
+            <PublicName val="RCViewByKey"/>
+          </Object>
+          <Object>
+            <id val="42"/>
+            <ItemIsn val="22"/>
+            <PublicName val="OnlineExcelPreview"/>
+          </Object>
+          <Object>
+            <id val="43"/>
+            <ItemIsn val="23"/>
+            <PublicName val="RCExcelPreview"/>
+          </Object>
+        </ComponentPrograms>
+        <ComponentEvents>
+          <Object>
+            <id val="7"/>
+            <ItemIsn val="24"/>
+            <PublicName val="RangeLocateSort"/>
+          </Object>
+        </ComponentEvents>
+      </Component>
+      <Component id="15" name="Utilities">
+        <Description val="Utilities component for XPATest demo project"/>
+        <ComponentType val="Magic xpa"/>
+        <Type val="U"/>
+        <LoadImmediate val="N"/>
+        <LastISN val="11"/>
+        <CompId val="1970479671-21276-18466-BD6A918D3"/>
+        <Revision val="0.1"/>
+        <MciFile val="C:\magic\samples\xpaxmltest\XPATests\Components\Utilities\Utilities.eci"/>
+        <ProjectFile val="C:\magic\samples\xpaxmltest\XPATests\Components\Utilities\Utilities.edp"/>
+        <CABINET_FILE val="%Components%Utilities.ecf"/>
+        <ComponentModels>
+          <Object>
+            <id val="1"/>
+            <ItemIsn val="1"/>
+            <PublicName val="Filename (Path)"/>
+          </Object>
+          <Object>
+            <id val="2"/>
+            <ItemIsn val="2"/>
+            <PublicName val="CommandLine"/>
+          </Object>
+          <Object>
+            <id val="7"/>
+            <ItemIsn val="3"/>
+            <PublicName val="Uri"/>
+          </Object>
+          <Object>
+            <id val="31"/>
+            <ItemIsn val="4"/>
+            <PublicName val="Parameter(Unicode1000)"/>
+          </Object>
+        </ComponentModels>
+        <ComponentPrograms>
+          <Object>
+            <id val="25"/>
+            <ItemIsn val="5"/>
+            <PublicName val="OUTIL001_About"/>
+          </Object>
+          <Object>
+            <id val="27"/>
+            <ItemIsn val="6"/>
+            <PublicName val="OUTIL002_Components"/>
+          </Object>
+          <Object>
+            <id val="28"/>
+            <ItemIsn val="7"/>
+            <PublicName val="OUTIL100_EmbeddedBrowser"/>
+          </Object>
+          <Object>
+            <id val="29"/>
+            <ItemIsn val="8"/>
+            <PublicName val="OUTIL101_EmbeddedBrowserFile"/>
+          </Object>
+          <Object>
+            <id val="30"/>
+            <ItemIsn val="9"/>
+            <PublicName val="OUTIL101_GetCommandline"/>
+          </Object>
+          <Object>
+            <id val="31"/>
+            <ItemIsn val="10"/>
+            <PublicName val="BUTIL200_CheckJava"/>
+          </Object>
+          <Object>
+            <id val="32"/>
+            <ItemIsn val="11"/>
+            <PublicName val="BUTIL201_CheckJavaVersion"/>
+          </Object>
+        </ComponentPrograms>
+      </Component>
+      <Component FolderIsn="2" id="7" name="System.Net">
+        <ComponentType val=".NET"/>
+        <Type val="D"/>
+        <LoadImmediate val="N"/>
+        <LastISN val="24"/>
+        <UseSpecificVersion val="N"/>
+        <isGuiThreadExecution val="N"/>
+      </Component>
+      <Component FolderIsn="2" id="9" name="System.Net.Http">
+        <Description val="System.Net.Http"/>
+        <ComponentType val=".NET"/>
+        <Type val="D"/>
+        <LoadImmediate val="Y"/>
+        <LastISN val="24"/>
+        <AssemblyName val="System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/>
+        <AssemblyPath val="C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Net.Http\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Net.Http.dll"/>
+        <UseSpecificVersion val="N"/>
+        <isGuiThreadExecution val="N"/>
+      </Component>
+      <Component FolderIsn="2" id="10" name="System.Windows.Forms">
+        <Description val="System.Windows.Forms"/>
+        <ComponentType val=".NET"/>
+        <Type val="D"/>
+        <LoadImmediate val="Y"/>
+        <LastISN val="24"/>
+        <AssemblyName val="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"/>
+        <AssemblyPath val="C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll"/>
+        <UseSpecificVersion val="N"/>
+        <isGuiThreadExecution val="Y"/>
+      </Component>
+      <Component FolderIsn="1" id="11" name="Roslyn">
+        <Description val="Magic XPA Componet for playing with Roslyn / .NET compiler"/>
+        <ComponentType val="Magic xpa"/>
+        <Type val="U"/>
+        <LoadImmediate val="N"/>
+        <LastISN val="8"/>
+        <CompId val="3924294558-31256-17545-B43CFB694"/>
+        <Revision val="0.1"/>
+        <MciFile val="%XPATEST_HOME%Components\Scripting\Roslyn\Roslyn.eci"/>
+        <ProjectFile val="%XPATEST_HOME%Components\Scripting\Roslyn\Roslyn.edp"/>
+        <CABINET_FILE val="%Components%Roslyn.ecf"/>
+        <ComponentModels>
+          <Object>
+            <id val="1"/>
+            <ItemIsn val="1"/>
+            <PublicName val="Pathname"/>
+          </Object>
+          <Object>
+            <id val="2"/>
+            <ItemIsn val="2"/>
+            <PublicName val="ErrorCode"/>
+          </Object>
+        </ComponentModels>
+        <ComponentPrograms>
+          <Object>
+            <id val="3"/>
+            <ItemIsn val="6"/>
+            <PublicName val="ROS001_AnalyzeScript"/>
+          </Object>
+          <Object>
+            <id val="7"/>
+            <ItemIsn val="7"/>
+            <PublicName val="ROS002_CompileScript"/>
+          </Object>
+          <Object>
+            <id val="4"/>
+            <ItemIsn val="8"/>
+            <PublicName val="ROS003_CheckFramerworkSDKs"/>
+          </Object>
+        </ComponentPrograms>
+      </Component>
+      <Component FolderIsn="1" id="12" name="DatabaseComponent">
+        <Description val="Database component for XPATEST project"/>
+        <ComponentType val="Magic xpa"/>
+        <Type val="U"/>
+        <LoadImmediate val="Y"/>
+        <LastISN val="32"/>
+        <CompId val="79462038-31045-19073-B8732FDD7"/>
+        <Revision val="0.1"/>
+        <MciFile val="%XPATEST_HOME%Components\DatabaseComp\DatabaseComp.eci"/>
+        <ProjectFile val="%XPATEST_HOME%Components\DatabaseComp\DatabaseComp.edp"/>
+        <CABINET_FILE val="%Components%DatabaseComp.ecf"/>
+        <ComponentModels>
+          <Object>
+            <id val="31"/>
+            <ItemIsn val="1"/>
+            <PublicName val="Filename (Path)"/>
+          </Object>
+          <Object>
+            <id val="32"/>
+            <ItemIsn val="2"/>
+            <PublicName val="CommandLine"/>
+          </Object>
+          <Object>
+            <id val="37"/>
+            <ItemIsn val="3"/>
+            <PublicName val="Uri"/>
+          </Object>
+          <Object>
+            <id val="38"/>
+            <ItemIsn val="4"/>
+            <PublicName val="ResponseBody(Binary)"/>
+          </Object>
+          <Object>
+            <id val="39"/>
+            <ItemIsn val="5"/>
+            <PublicName val="ResponseBody(Unicode)"/>
+          </Object>
+          <Object>
+            <id val="40"/>
+            <ItemIsn val="6"/>
+            <PublicName val="ResponseBody(Ansi)"/>
+          </Object>
+          <Object>
+            <id val="63"/>
+            <ItemIsn val="31"/>
+            <PublicName val="objid"/>
+          </Object>
+          <Object>
+            <id val="55"/>
+            <ItemIsn val="7"/>
+            <PublicName val="script_id"/>
+          </Object>
+          <Object>
+            <id val="56"/>
+            <ItemIsn val="8"/>
+            <PublicName val="script_source"/>
+          </Object>
+          <Object>
+            <id val="57"/>
+            <ItemIsn val="9"/>
+            <PublicName val="TemplateId"/>
+          </Object>
+          <Object>
+            <id val="58"/>
+            <ItemIsn val="10"/>
+            <PublicName val="TemplateSource"/>
+          </Object>
+          <Object>
+            <id val="59"/>
+            <ItemIsn val="11"/>
+            <PublicName val="Filename"/>
+          </Object>
+          <Object>
+            <id val="60"/>
+            <ItemIsn val="12"/>
+            <PublicName val="Parameter(Blob)"/>
+          </Object>
+          <Object>
+            <id val="61"/>
+            <ItemIsn val="13"/>
+            <PublicName val="Parameter(Unicode1000)"/>
+          </Object>
+          <Object>
+            <id val="62"/>
+            <ItemIsn val="14"/>
+            <PublicName val="Parameters(Vector)"/>
+          </Object>
+        </ComponentModels>
+        <ComponentDataObjects>
+          <Object>
+            <id val="16"/>
+            <ItemIsn val="15"/>
+            <PublicName val="xpatest_uris"/>
+          </Object>
+          <Object>
+            <id val="17"/>
+            <ItemIsn val="16"/>
+            <PublicName val="xpatest_templates"/>
+          </Object>
+          <Object>
+            <id val="18"/>
+            <ItemIsn val="17"/>
+            <PublicName val="xpatest_dotnet_locations"/>
+          </Object>
+          <Object>
+            <id val="33"/>
+            <ItemIsn val="32"/>
+            <PublicName val="xpatest_components"/>
+          </Object>
+          <Object>
+            <id val="20"/>
+            <ItemIsn val="18"/>
+            <PublicName val="Categories"/>
+          </Object>
+          <Object>
+            <id val="21"/>
+            <ItemIsn val="19"/>
+            <PublicName val="Tree"/>
+          </Object>
+          <Object>
+            <id val="22"/>
+            <ItemIsn val="20"/>
+            <PublicName val="OrderDetails"/>
+          </Object>
+          <Object>
+            <id val="23"/>
+            <ItemIsn val="21"/>
+            <PublicName val="Territories"/>
+          </Object>
+          <Object>
+            <id val="24"/>
+            <ItemIsn val="22"/>
+            <PublicName val="Region_"/>
+          </Object>
+          <Object>
+            <id val="25"/>
+            <ItemIsn val="23"/>
+            <PublicName val="Feedback"/>
+          </Object>
+          <Object>
+            <id val="26"/>
+            <ItemIsn val="24"/>
+            <PublicName val="Products"/>
+          </Object>
+          <Object>
+            <id val="27"/>
+            <ItemIsn val="25"/>
+            <PublicName val="Suppliers"/>
+          </Object>
+          <Object>
+            <id val="28"/>
+            <ItemIsn val="26"/>
+            <PublicName val="Customers"/>
+          </Object>
+          <Object>
+            <id val="29"/>
+            <ItemIsn val="27"/>
+            <PublicName val="Employees"/>
+          </Object>
+          <Object>
+            <id val="30"/>
+            <ItemIsn val="28"/>
+            <PublicName val="Invoices"/>
+          </Object>
+          <Object>
+            <id val="31"/>
+            <ItemIsn val="29"/>
+            <PublicName val="Shippers"/>
+          </Object>
+          <Object>
+            <id val="32"/>
+            <ItemIsn val="30"/>
+            <PublicName val="Orders"/>
+          </Object>
+        </ComponentDataObjects>
+      </Component>
+      <Component FolderIsn="1" id="14" name="xpa-project-scan">
+        <Description val="xpa-project-scan"/>
+        <ComponentType val="Magic xpa"/>
+        <Type val="U"/>
+        <LoadImmediate val="N"/>
+        <LastISN val="14"/>
+        <CompId val="175473761-52033-19813-95CBC2F3"/>
+        <Revision val="0.1.0"/>
+        <MciFile val="C:\magic\samples\xpaxmltest\XPATests\external\XpaTPomo\pomosdk\pomosdk-ide-eclipse\xpa-scan\src\xpa\xpa-project-scan\xpa-project-scan.eci"/>
+        <ProjectFile val="C:\magic\samples\xpaxmltest\XPATests\external\XpaTPomo\pomosdk\pomosdk-ide-eclipse\xpa-scan\src\xpa\xpa-project-scan\xpa-project-scan.edp"/>
+        <CABINET_FILE val="%Components%xpa-project-scan.ecf"/>
+        <ComponentDataObjects>
+          <Object>
+            <id val="1"/>
+            <ItemIsn val="1"/>
+            <PublicName val="xpa_projectfiles"/>
+          </Object>
+          <Object>
+            <id val="2"/>
+            <ItemIsn val="5"/>
+            <PublicName val="xpa_schemas"/>
+          </Object>
+          <Object>
+            <id val="6"/>
+            <ItemIsn val="10"/>
+            <PublicName val="xpa_tools_components"/>
+          </Object>
+        </ComponentDataObjects>
+        <ComponentPrograms>
+          <Object>
+            <id val="3"/>
+            <ItemIsn val="3"/>
+            <PublicName val="BPOML001_ScanXpaProject"/>
+          </Object>
+          <Object>
+            <id val="4"/>
+            <ItemIsn val="6"/>
+            <PublicName val="OPOML002_ShowXpaProject"/>
+          </Object>
+          <Object>
+            <id val="12"/>
+            <ItemIsn val="11"/>
+            <PublicName val="OPOML003_ShowXpaProjectComps"/>
+          </Object>
+          <Object>
+            <id val="5"/>
+            <ItemIsn val="14"/>
+            <PublicName val="OPOML004_ValidateXml"/>
+          </Object>
+          <Object>
+            <id val="6"/>
+            <ItemIsn val="8"/>
+            <PublicName val="BPOML050_CreateAutoprocSeqF"/>
+          </Object>
+          <Object>
+            <id val="17"/>
+            <ItemIsn val="12"/>
+            <PublicName val="BPOML002_ScanXpaProject_Comp_C"/>
+          </Object>
+          <Object>
+            <id val="19"/>
+            <ItemIsn val="13"/>
+            <PublicName val="BPOML002_ScanXpaProject_Comp_P"/>
+          </Object>
+          <Object>
+            <id val="10"/>
+            <ItemIsn val="9"/>
+            <PublicName val="OPOMO100_ToolsUI"/>
+          </Object>
+        </ComponentPrograms>
+      </Component>
+      <Component FolderIsn="1" id="16" name="XpaTHelp">
+        <Description val="XpaTest project help system / component"/>
+        <ComponentType val="Magic xpa"/>
+        <Type val="U"/>
+        <LoadImmediate val="Y"/>
+        <LastISN val="1"/>
+        <CompId val="3963158731-4198-16972-A38CCED11"/>
+        <Revision val="0.1.0"/>
+        <MciFile val="C:\magic\samples\xpaxmltest\XPATests\Components\XpaTHelp\XpaTHelp.eci"/>
+        <ProjectFile val="C:\magic\samples\xpaxmltest\XPATests\Components\XpaTHelp\XpaTHelp.edp"/>
+        <CABINET_FILE val="%Components%XpaTHelp.ecf"/>
+        <ComponentEvents>
+          <Object>
+            <id val="1"/>
+            <ItemIsn val="1"/>
+            <PublicName val="GlobalHelp"/>
+          </Object>
+        </ComponentEvents>
+      </Component>
+    </Components>
+    <Aliases LastIsnAliases="6">
+      <Alias id="5">
+        <name val="WebSockets"/>
+        <DotNetType val="System.Net.WebSockets"/>
+      </Alias>
+      <Alias id="6">
+        <name val="WebBrowser"/>
+        <DotNetType val="System.Windows.Forms.WebBrowser"/>
+      </Alias>
+    </Aliases>
+    <JavaAliases LastIsnAliases="6">
+      <Alias id="4">
+        <name val="XMLProcessor"/>
+        <JavaType val="com.magic.examples.xml.XMLProcessor"/>
+      </Alias>
+    </JavaAliases>
+  </ComponentsRepository>
+
+</Application>

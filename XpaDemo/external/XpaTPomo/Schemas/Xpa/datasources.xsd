@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2007 sp2 (http://www.altova.com) by XMLSpy 2007 Enterprise Ed., Installed for 5 users (with SMP from 2007-03-09 to 2009-03-09) (private) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<!--eDeveloper 10 DataSources repository-->
+	<xs:include schemaLocation="properties.xsd"/>
+	<xs:include schemaLocation="general.xsd"/>
+	<xs:element name="Application">
+		<xs:annotation>
+			<xs:documentation>Root element</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:all>
+				<xs:element ref="Header" minOccurs="0"/>
+				<xs:element name="DataSourceRepository" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="DataObjects">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="DataObject" type="DataObjectType" minOccurs="0" maxOccurs="unbounded">
+											<xs:annotation>
+												<xs:documentation>An entry in the Data Repository</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:all>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="HasHint" type="VAL_STRING_TYPE"/>
+	<xs:element name="Order" type="VAL_STRING_TYPE"/>
+	<xs:element name="Segments">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Segment" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element ref="Size" minOccurs="0"/>
+							<xs:element name="Column" type="VAL_STRING_TYPE" minOccurs="0"/>
+							<xs:element ref="Order" minOccurs="0"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="DataObjectType">
+		<xs:sequence>
+			<xs:element name="Info" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="AccessKey" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="Encrypt" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="Cache" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>P-Position, D-Pos. and Data, N-None</xs:documentation>
+				</xs:annotation>
+				<xs:complexType>
+					<xs:attribute name="val" use="required">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:enumeration value="P"/>
+								<xs:enumeration value="D"/>
+								<xs:enumeration value="N"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:attribute>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="IdentifyRowModifications" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>P-Position, S-Pos. and Sel., U-Pos and Upd.</xs:documentation>
+				</xs:annotation>
+				<xs:complexType>
+					<xs:attribute name="val" use="required">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:enumeration value="P"/>
+								<xs:enumeration value="S"/>
+								<xs:enumeration value="U"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:attribute>
+				</xs:complexType>
+			</xs:element>
+			<xs:element ref="HasHint" minOccurs="0"/>
+			<xs:element name="Hint" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="Cursor" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Y-Yes,N-No,D-Default</xs:documentation>
+				</xs:annotation>
+				<xs:complexType>
+					<xs:attribute name="val" use="required">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:enumeration value="Y"/>
+								<xs:enumeration value="N"/>
+								<xs:enumeration value="D"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:attribute>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="CheckExistence" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="ObjectType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>T-Table,V-XML View</xs:documentation>
+				</xs:annotation>
+				<xs:complexType>
+					<xs:attribute name="val" use="required">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:enumeration value="T"/>
+								<xs:enumeration value="V"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:attribute>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Owner" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="ArraySize" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="Position" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>U-Uniq. Ind., D-Default, R-RowID</xs:documentation>
+				</xs:annotation>
+				<xs:complexType>
+					<xs:attribute name="val" use="required">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:enumeration value="U"/>
+								<xs:enumeration value="D"/>
+								<xs:enumeration value="R"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:attribute>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="PositionIndex" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="SchemaDoc" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="RootName" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="SchemaLocation" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="RowLength" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="ColumnsLastIsn" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="IndexesLastIsn" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="ForkeysLastIsn" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="CompoundInViewIsn" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="MetaTreeRTIndex" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="MetaTreeBuffer" minOccurs="0">
+				<xs:complexType>
+					<xs:attribute name="val" type="xs:base64Binary"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Resource" minOccurs="0" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="name" type="VAL_STRING_TYPE" minOccurs="0"/>
+						<xs:element name="Comment" type="VAL_STRING_TYPE" minOccurs="0"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="SchemaPreFields" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="SchemaField" maxOccurs="unbounded">
+							<xs:complexType>
+								<xs:attribute name="FldType">
+									<xs:simpleType>
+										<xs:restriction base="xs:string">
+											<xs:enumeration value="1"/>
+											<xs:enumeration value="2"/>
+										</xs:restriction>
+									</xs:simpleType>
+								</xs:attribute>
+								<xs:attribute name="FldLength" type="xs:string"/>
+								<xs:attribute name="DataTypeIdx" type="xs:byte"/>
+								<xs:attribute name="DEF_VAL" type="xs:string"/>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="ViewFieldsMap" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="Field" maxOccurs="unbounded">
+							<xs:complexType>
+								<xs:attribute name="Index" type="xs:string" use="required"/>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Columns" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="Column" type="ColumnType" minOccurs="0" maxOccurs="unbounded"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Indexes" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="Index" type="IndexType" minOccurs="0" maxOccurs="unbounded"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="ForeignKeys" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="Key" type="KeyType" minOccurs="0" maxOccurs="unbounded"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="WebS" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="namespace" minOccurs="0">
+							<xs:complexType>
+								<xs:attribute name="val" type="xs:string"/>
+							</xs:complexType>
+						</xs:element>
+            <xs:element name="Read" minOccurs="0">
+              <xs:complexType>
+                <xs:attribute name="method" type="xs:string"/>
+                <xs:attribute name="endpoint" type="xs:string"/>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="Manipulate" minOccurs="0">                              
+              <xs:complexType>
+								<xs:attribute name="method" type="xs:string"/>
+								<xs:attribute name="endpoint" type="xs:string"/>
+							</xs:complexType>
+						</xs:element>
+            <xs:element name="CreateMember" minOccurs="0">
+              <xs:complexType>
+                <xs:attribute name="val" type="xs:string"/>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="UpdateMember" minOccurs="0">
+              <xs:complexType>
+                <xs:attribute name="val" type="xs:string"/>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="DeleteMember" minOccurs="0">
+              <xs:complexType>
+                <xs:attribute name="val" type="xs:string"/>
+              </xs:complexType>
+            </xs:element>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="PhysicalName" type="xs:string"/>
+		<xs:attribute name="Public" type="xs:string" use="optional"/>
+		<xs:attribute name="Resident" use="required">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="N"/>
+					<xs:enumeration value="I"/>
+					<xs:enumeration value="D"/>
+					<xs:enumeration value="C"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="data_source" type="xs:string" use="optional"/>
+		<xs:attribute name="id" type="xs:int"/>
+		<xs:attribute name="name" type="xs:string" use="optional"/>
+		<xs:attribute name="Comment" type="xs:string" use="optional"/>
+		<xs:attribute name="Folder" type="xs:string"/>
+    <xs:attribute name="FolderIsn" type="xs:int" use="optional"/>
+		<xs:attribute name="ToBeMigratedFrom1x" type="xs:string"/>
+    <xs:attribute name="UniqueISNConvState" type="xs:int" use="optional"/>
+	</xs:complexType>
+	<xs:complexType name="IndexType">
+		<xs:sequence>
+			<xs:element name="Comment" type="VAL_EXP_TYPE" minOccurs="0"/>
+			<xs:element name="Mode" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element ref="Order"/>
+			<xs:element ref="Range"/>
+			<xs:element name="IndexType" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="PhysicalName" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="Info" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element ref="HasHint"/>
+			<xs:element name="Hint" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="Clustered" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="DropOnReindex" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="Primary" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element ref="Segments"/>
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:int" use="required"/>
+		<xs:attribute name="name" type="xs:string" use="optional"/>
+	</xs:complexType>
+	<xs:complexType name="KeyType">
+		<xs:sequence>
+			<xs:element name="Comment" type="VAL_EXP_TYPE" minOccurs="0"/>
+			<xs:element name="Create" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="ReferencedTable" type="PUBLIC_OBJECT_TYPE" minOccurs="0"/>
+			<xs:element name="PrimaryKey" type="VAL_STRING_TYPE" minOccurs="0"/>
+			<xs:element name="Segments">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="Segment" minOccurs="0" maxOccurs="unbounded">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="Size" type="VAL_INT_TYPE" minOccurs="0"/>
+									<xs:element name="Column" type="VAL_EXP_TYPE" minOccurs="0"/>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:int" use="optional"/>
+		<xs:attribute name="name" type="xs:string" use="required"/>
+	</xs:complexType>
+</xs:schema>

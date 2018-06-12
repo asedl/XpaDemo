@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="11009"/>
+    <WithIsn val="Y"/>
+    <LastIsn val="7"/>
+    <LastIsnFolder val="0"/>
+    <Folders/>
+  </Header>
+
+  <ModelsRepository>
+    <Models>
+      <Object id="1" name="TemplateId">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="9"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="9"/>
+          <_Negative id="192"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="2" name="TemplateSource">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_BLOB" id="1"/>
+          <StoredAs id="173" val="34"/>
+          <_FieldStyle id="276" val="1"/>
+          <Content id="434" val="2"/>
+          <PartOfDataview id="449"/>
+        </PropertyList>
+      </Object>
+      <Object id="3" name="Filename">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_UNICODE" id="1"/>
+          <Picture id="157" valUnicode="255"/>
+          <Size id="174" val="510"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="5" name="Parameter(Blob)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_BLOB" id="1"/>
+          <_FieldStyle id="276" val="1"/>
+          <PartOfDataview id="449"/>
+        </PropertyList>
+      </Object>
+      <Object id="7" name="Parameter(Unicode1000)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_UNICODE" id="1"/>
+          <Picture id="157" valUnicode="1000"/>
+          <Size id="174" val="2000"/>
+          <_FieldStyle id="276" val="1"/>
+          <PartOfDataview id="449"/>
+        </PropertyList>
+      </Object>
+      <Object id="6" name="Parameters(Vector)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_BLOB" id="1"/>
+          <_FieldStyle id="276" val="4"/>
+          <CellModel comp="-1" id="287" obj="7"/>
+          <PartOfDataview id="449"/>
+        </PropertyList>
+      </Object>
+    </Models>
+  </ModelsRepository>
+
+</Application>

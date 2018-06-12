@@ -1,0 +1,30 @@
+<!-- edited with XMLSpy v2007 sp2 (http://www.altova.com) by XMLSpy 2007 Enterprise Ed., Installed for 5 users (with SMP from 2007-03-09 to 2009-03-09) (private) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+   <xs:simpleType name="CTX_ID_TYPE">
+      <xs:restriction base="xs:nonNegativeInteger"/>
+   </xs:simpleType>
+   <xs:simpleType name="ADDRESS_TYPE">
+      <xs:restriction base="xs:string">
+         <xs:maxLength value="128"/>
+      </xs:restriction>
+   </xs:simpleType>
+   <xs:element name="CONTEXTS">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element name="CTX" minOccurs="0" maxOccurs="unbounded">
+               <xs:complexType>
+                  <xs:sequence>
+                     <xs:element name="USER" type="xs:string" minOccurs="0"/>
+                     <xs:element name="CTX_GRP" type="CTX_ID_TYPE"/>
+                     <xs:element name="START" type="xs:dateTime"/>
+                     <xs:element name="CLIENT" type="ADDRESS_TYPE"/>
+                     <xs:element name="SERVER" type="ADDRESS_TYPE"/>
+                     <xs:element name="APPLICATION" type="xs:string"/>
+                  </xs:sequence>
+                  <xs:attribute name="ID" type="CTX_ID_TYPE" use="required"/>
+               </xs:complexType>
+            </xs:element>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+</xs:schema>

@@ -1,0 +1,27 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+
+group = 'XPATest'
+version = '0.0.1-SNAPSHOT'
+
+description = """"""
+
+sourceCompatibility = 1.5
+targetCompatibility = 1.5
+
+
+
+repositories {
+        
+     maven { url "http://maven.repository.redhat.com/techpreview/all" }
+     maven { url "http://repo.maven.apache.org/maven2" }
+}
+dependencies {
+    compile group: 'org.apache.logging.log4j', name: 'log4j-api', version:'2.11.0'
+    compile group: 'org.apache.logging.log4j', name: 'log4j-core', version:'2.11.0'
+    compile group: 'net.sf.saxon', name: 'Saxon-HE', version:'9.8.0-12'
+    compile group: 'net.sf.jopt-simple', name: 'jopt-simple', version:'4.9'
+    compile group: 'org.apache.poi', name: 'poi', version:'3.17'
+	compile 'org.apache.xmlbeans:xmlbeans:2.6.0'
+	compile 'org.apache.commons:commons-collections4:4.1'
+}
