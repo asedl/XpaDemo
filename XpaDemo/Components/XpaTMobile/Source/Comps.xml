@@ -19,8 +19,8 @@
         <LastISN val="24"/>
         <Comment val="This component provides an interface for the user to perform Range, Locate, Sort and Print Data.The component does not expose any object. It has logic units for handling the Range, Locate, Sort and Print Data internal events.The source code for this component is available in the Add_On\UserFunctionality directory, so you can customize the screens of the component as you wish."/>
         <CompId val="3902674675-36743-19037-9421D7318"/>
-        <MciFile val="C:\magic\samples\xpaxmltest\XPATests\Components\_UserFunctionality\_UserFunctionality.eci"/>
-        <ProjectFile val="C:\magic\samples\xpaxmltest\XPATests\Components\_UserFunctionality\_UserFunctionality.edp"/>
+        <MciFile val="C:\magic\samples\XpaDemo\XPATests\Components\_UserFunctionality\_UserFunctionality.eci"/>
+        <ProjectFile val="C:\magic\samples\XpaDemo\XPATests\Components\_UserFunctionality\_UserFunctionality.edp"/>
         <CABINET_FILE val="%Components%_UserFunctionality.ecf"/>
         <ComponentPrograms>
           <Object>
@@ -155,8 +155,8 @@
         <LastISN val="32"/>
         <CompId val="79462038-31045-19073-B8732FDD7"/>
         <Revision val="0.1"/>
-        <MciFile val="C:\magic\samples\xpaxmltest\XPATests\Components\DatabaseComp\DatabaseComp.eci"/>
-        <ProjectFile val="C:\magic\samples\xpaxmltest\XPATests\Components\DatabaseComp\DatabaseComp.edp"/>
+        <MciFile val="C:\magic\samples\XpaDemo\XPATests\Components\DatabaseComp\DatabaseComp.eci"/>
+        <ProjectFile val="C:\magic\samples\XpaDemo\XPATests\Components\DatabaseComp\DatabaseComp.edp"/>
         <CABINET_FILE val="%Components%DatabaseComp.ecf"/>
         <ComponentModels>
           <Object>

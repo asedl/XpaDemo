@@ -1601,7 +1601,7 @@
               <ExpAttribute val="N"/>
             </Expression>
             <Expression id="21">
-              <ExpSyntax val="'https://github.com/asedl/xpaxmltest/blob/master/XPATests/Doc/Samples/XpaTHttp/OWCLN001_xpatest_uris.md'"/>
+              <ExpSyntax val="'https://github.com/asedl/XpaDemo/blob/master/XPATests/Doc/Samples/XpaTHttp/OWCLN001_xpatest_uris.md'"/>
               <ExpAttribute val="A"/>
             </Expression>
             <Expression id="17">

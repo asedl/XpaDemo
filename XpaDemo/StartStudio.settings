@@ -1,6 +1,6 @@
 xparun_exe=C:\magic\Magic XPA 3.3\MgxpaStudio.exe
 xparun_workingdir=C:\magic\Magic XPA 3.3
-xparun_parameters=@C:\magic\samples\xpaxmltest\XPATests\XPATests.ini
+xparun_parameters=@C:\magic\samples\XpaDemo\XPATests\XPATests.ini
 xparun_envexpand=Y
 xparun_inidir=%TEMP%\
 xparun_wait=E

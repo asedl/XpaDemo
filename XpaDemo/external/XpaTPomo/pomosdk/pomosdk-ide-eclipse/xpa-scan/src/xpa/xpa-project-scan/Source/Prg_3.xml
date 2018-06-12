@@ -422,7 +422,7 @@
             <ExpAttribute val="B"/>
           </Expression>
           <Expression id="3">
-            <ExpSyntax val="'C:\magic\samples\xpaxmltest\XPATests\XPATests.edp'"/>
+            <ExpSyntax val="'C:\magic\samples\XpaDemo\XPATests\XPATests.edp'"/>
             <ExpAttribute val="A"/>
           </Expression>
           <Expression id="4">

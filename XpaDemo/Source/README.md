@@ -17,7 +17,7 @@ Concurrent development where developers do their changes in parallel (offline) a
 
 For this demo-project we do version the complete project with git on github. Push requests and forges will result in Merge conflicts which are very hard to resolve with Magic XPA due to the thing with the "indexes" explained above. Meanwhile there is some third party products  which do help a lttle with these issues a bit (Magic Optimizer / Magic Compare).  
 
-Also in this project it's planned to add some tools which do work on "Magic sources" in order to be able to refactor them. Check the [XpaTPomo](https://github.com/asedl/xpaxmltest/tree/master/XPATests/external/XpaTPomo) project.
+Also in this project it's planned to add some tools which do work on "Magic sources" in order to be able to refactor them. Check the [XpaTPomo](https://github.com/asedl/XpaDemo/tree/master/XPATests/external/XpaTPomo) project.
 
 # Magic XPA (source) Repositories and -files
 ## \<your project\>.edp

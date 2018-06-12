@@ -1,13 +1,13 @@
        // Magic ECI Generator                                          //
        // Created by   :----No User logged in----         //
        // Created Date :05/06/2018 Time :19:47:53              //
-       // File Name    :C:\magic\samples\xpaxmltest\XPATests\Components\DatabaseComp\DatabaseComp.eci
+       // File Name    :C:\magic\samples\XpaDemo\XPATests\Components\DatabaseComp\DatabaseComp.eci
 COMPID = 79462038-31045-19073-B8732FDD7
 NAME = "DatabaseComponent"
 DESC = "Database component for XPATEST project"
 COMPTYPE = "Magic xpa"
 IMMED = "Y"
-PROJECTFILE = "C:\magic\samples\xpaxmltest\XPATests\Components\DatabaseComp\DatabaseComp.edp"
+PROJECTFILE = "C:\magic\samples\XpaDemo\XPATests\Components\DatabaseComp\DatabaseComp.edp"
 CABINETFILE = "%Components%DatabaseComp.ecf"
 VRSN = 0.1
 HLPFILE = ""
@@ -49,4 +49,4 @@ File=PUBLIC="Orders" RMK="" HELPKEY=""
 [ENVIRONMENT]
 
 [DATABASES]
-"XPATest=DBMS, 10, XPATest, C:\magic\projects\xpaxmltest\XPATests\Data\XPATest.sqlite, , , , , NoMagicRecordLock, ChangeFileInToolkit, CheckDefinition, NoCheckKey, FileLocks, , , CheckExist, 0, , NoAS400SrvrSort,"
+"XPATest=DBMS, 10, XPATest, C:\magic\projects\XpaDemo\XPATests\Data\XPATest.sqlite, , , , , NoMagicRecordLock, ChangeFileInToolkit, CheckDefinition, NoCheckKey, FileLocks, , , CheckExist, 0, , NoAS400SrvrSort,"

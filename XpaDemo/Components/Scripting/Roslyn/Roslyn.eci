@@ -1,7 +1,7 @@
        // Magic ECI Generator                                          //
        // Created by   :----No User logged in----         //
        // Created Date :07/06/2018 Time :02:27:17              //
-       // File Name    :C:\magic\samples\xpaxmltest\XPATests\Components\Scripting\Roslyn\Roslyn.eci
+       // File Name    :C:\magic\samples\XpaDemo\XPATests\Components\Scripting\Roslyn\Roslyn.eci
 COMPID = 3924294558-31256-17545-B43CFB694
 NAME = "Roslyn"
 DESC = "Magic XPA Componet for playing with Roslyn / .NET compiler"

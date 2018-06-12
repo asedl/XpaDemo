@@ -314,7 +314,7 @@
         </TaskForms>
         <Expressions>
           <Expression id="1">
-            <ExpSyntax val="'https://github.com/asedl/xpaxmltest/blob/master/XPATests/Doc/Samples/XpaTPomo/OPOML003_ShowXpaProjectComps.md'"/>
+            <ExpSyntax val="'https://github.com/asedl/XpaDemo/blob/master/XPATests/Doc/Samples/XpaTPomo/OPOML003_ShowXpaProjectComps.md'"/>
             <ExpAttribute val="A"/>
           </Expression>
           <Expression id="2">

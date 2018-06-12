@@ -5,7 +5,7 @@ Reason: Magic XPA is very limited when it comes to what is required here, "Refle
 
 __Until Magic v8 there was a "Magic control file API" which is, to some extend, exactly what we do need, that was however discontinued in some Magic 8.3 version. Part of the XpaTPomo project is therefore exactly that: A "Magic XPA control file API" based on the projects XML sources.__
 
-XpaTPomo project is in a very early stage and maintained as a Eclipse based SDK in order to use that infrastructure for installation/configuration of the single components and maybe for some plugins. Eclipse you have to download and install seperately. The Eclipse project named Pomo_SDK you can find here: https://github.com/asedl/xpaxmltest/tree/master/XPATests/external/XpaTPomo/Pomo_SDK/  
+XpaTPomo project is in a very early stage and maintained as a Eclipse based SDK in order to use that infrastructure for installation/configuration of the single components and maybe for some plugins. Eclipse you have to download and install seperately. The Eclipse project named Pomo_SDK you can find here: https://github.com/asedl/XpaDemo/tree/master/XPATests/external/XpaTPomo/Pomo_SDK/  
 
 ## Directory Structure
 | --- | --- |

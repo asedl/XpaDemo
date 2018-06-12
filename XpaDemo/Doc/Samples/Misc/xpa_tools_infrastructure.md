@@ -8,14 +8,14 @@ This component is loaded as a TOOL in the Studio by specifying it in the Magic.i
 ```Magic.ini
 [TOOLS_MENU]
 Compile=A,xpa_project_scan,,+
-C:\magic\samples\xpaxmltest\XPATests\xpa_project_scan.ecf,,+
-C:\magic\samples\xpaxmltest\XPATests\Templates\scripts\xpaps\compile_before.xpts,+
-C:\magic\samples\xpaxmltest\XPATests\Templates\scripts\xpaps\compile_after.xpts,
+C:\magic\samples\XpaDemo\XPATests\xpa_project_scan.ecf,,+
+C:\magic\samples\XpaDemo\XPATests\Templates\scripts\xpaps\compile_before.xpts,+
+C:\magic\samples\XpaDemo\XPATests\Templates\scripts\xpaps\compile_after.xpts,
 ```
 
-Above will add a Manu named "Tools" to your Studio. First entry in that menu will be an item named "xpa_project_scan". When you select that menu entry it will load the component C:\magic\samples\xpaxmltest\XPATests\xpa_project_scan.ecf and thereby execute program main in that component.  
+Above will add a Manu named "Tools" to your Studio. First entry in that menu will be an item named "xpa_project_scan". When you select that menu entry it will load the component C:\magic\samples\XpaDemo\XPATests\xpa_project_scan.ecf and thereby execute program main in that component.  
 
-Before the component is actually loaded Magic tools infrastructure will execute the operations in C:\magic\samples\xpaxmltest\XPATests\Templates\scripts\xpaps\compile_before.xpts and when you close the tool application it will execute the operations in C:\magic\samples\xpaxmltest\XPATests\Templates\scripts\xpaps\compile_after.xpts.   
+Before the component is actually loaded Magic tools infrastructure will execute the operations in C:\magic\samples\XpaDemo\XPATests\Templates\scripts\xpaps\compile_before.xpts and when you close the tool application it will execute the operations in C:\magic\samples\XpaDemo\XPATests\Templates\scripts\xpaps\compile_after.xpts.   
 
 When you close the tool application (which might have a UI) Magic Studio re-opens the host application, that's the one which was closed when you selected "xpa_project_scan" from Tools menu.  
 

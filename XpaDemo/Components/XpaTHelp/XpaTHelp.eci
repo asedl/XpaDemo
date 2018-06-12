@@ -1,13 +1,13 @@
        // Magic ECI Generator                                          //
        // Created by   :----No User logged in----         //
        // Created Date :07/06/2018 Time :02:29:17              //
-       // File Name    :C:\magic\samples\xpaxmltest\XPATests\Components\XpaTHelp\XpaTHelp.eci         /
+       // File Name    :C:\magic\samples\XpaDemo\XPATests\Components\XpaTHelp\XpaTHelp.eci         /
 COMPID = 3963158731-4198-16972-A38CCED11
 NAME = "XpaTHelp"
 DESC = "XpaTest project help system / component"
 COMPTYPE = "Magic xpa"
 IMMED = "Y"
-PROJECTFILE = "C:\magic\samples\xpaxmltest\XPATests\Components\XpaTHelp\XpaTHelp.edp"
+PROJECTFILE = "C:\magic\samples\XpaDemo\XPATests\Components\XpaTHelp\XpaTHelp.edp"
 CABINETFILE = "%Components%XpaTHelp.ecf"
 VRSN = 0.1.0
 HLPFILE = ""

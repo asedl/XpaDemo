@@ -9,7 +9,7 @@ Note: During Startup the Magic Runtime scans all directories in System PATH envi
   
 [MAGIC_JAVA]  
 JAVA_HOME=*C:\Java\jdk1.8.x86  
-CLASSPATH=*.;Support\*;Libraries\*;C:\magic\samples\xpaxmltest\XPATests\ext+  
+CLASSPATH=*.;Support\*;Libraries\*;C:\magic\samples\XpaDemo\XPATests\ext+  
 ernal\Java\XPATest\target\XPATest-0.0.1-SNAPSHOT-jar-with-dependencies.jar
 
 If you don't have a Java 8 32-Bit on your machine you need to download and install it from Oracle and put the installtion path into [MAGIC_JAVA]JAVA_HOME (without an trailling backslash!). You should rather not modify the system environment variable JAVA_HOME, that may have an impact on other applications which require a Java VM too. You should also not modify the PATH variable, for the same reason.  

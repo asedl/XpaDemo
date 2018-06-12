@@ -2,7 +2,7 @@
 This is about installing and running the XpaDemo project(s) from a release, which is what you should start with because, if you clone the git repository or download the zipped sources, you end up with something which won't run because the binaries need to be compiled first, they are not part of a source distribution. Following is a walkthrough to get such a release working.
 
 The released versions of the XpaDemo project(s) you find on github too: 
-https://github.com/asedl/xpaxmltest/releases 
+https://github.com/asedl/XpaDemo/releases 
 
 # Download and unzip the release
 The releases are PKZIP archives at the moment. Download the latest version and unzip to a new directory like c:\magic\xpa\samples\xpademo-0.1.3 
