@@ -1919,7 +1919,7 @@
               <ExpAttribute val="A"/>
             </Expression>
             <Expression id="22">
-              <ExpSyntax val="Trim(Translate('%WorkingDir%XpaTests.ini'))"/>
+              <ExpSyntax val="Trim(Translate('%WorkingDir%XpaDemo.ini'))"/>
               <ExpAttribute val="A"/>
             </Expression>
             <Expression id="17">
@@ -1947,11 +1947,11 @@
               <ExpAttribute val="A"/>
             </Expression>
             <Expression id="5">
-              <ExpSyntax val="'Start XPA Studio (XpaTests).lnk'"/>
+              <ExpSyntax val="'Start XPA Studio (XpaDemo).lnk'"/>
               <ExpAttribute val="A"/>
             </Expression>
             <Expression id="14">
-              <ExpSyntax val="'Start XPA Runtime (XpaTests).lnk'"/>
+              <ExpSyntax val="'Start XPA Runtime (XpaDemo).lnk'"/>
               <ExpAttribute val="A"/>
             </Expression>
             <Expression id="6">
@@ -2620,7 +2620,7 @@
           <TaskForms>
             <FormEntry CLSS="1" id="2">
               <PropertyList model="FORM_MERGE">
-                <FileName id="4" val="%WorkingDir%Templates\ini\XpaTests.ini"/>
+                <FileName id="4" val="%WorkingDir%Templates\ini\XpaDemo.ini"/>
                 <TagsTable id="7">
                   <MERGE_PARM Exp="1" PIC_U="255" TXT_U="XPATEST_HOME" id="1"/>
                 </TagsTable>

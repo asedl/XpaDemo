@@ -1,1 +1,1 @@
-# XPATest Java class library for XPATests project
+# XPATest Java class library for XpaDemo project

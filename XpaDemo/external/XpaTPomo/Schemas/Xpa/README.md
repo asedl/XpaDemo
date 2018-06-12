@@ -4,4 +4,4 @@ a Magic installation. I copied them here for reference purposes. The schemas are
 files - against their xsd schema definition.  
 
 ## Demo program(s) using these schemas:  
-- [OPOMO002_ShowXpaProject](/XPATests/Doc/Samples/XpaTPomo/OPOMO002_ShowXpaProject.md)
+- [OPOMO002_ShowXpaProject](/XpaDemo/Doc/Samples/XpaTPomo/OPOMO002_ShowXpaProject.md)

@@ -17,13 +17,13 @@ You can disable execution of this program during startup by putting following va
 Default behaviour (or if entry is missing) is CHECKCONFIG=Y 
 
 Templates for @Ini and .vbs scripts:
-- [XpaTests.ini](/XPATests/Templates/ini/XpaTests.ini)
-- [CreateShortcut.vbs](/XPATests/Templates/scripts/wsh/CreateShortcut.vbs)  
+- [XpaDemo.ini](/XpaDemo/Templates/ini/XpaDemo.ini)
+- [CreateShortcut.vbs](/XpaDemo/Templates/scripts/wsh/CreateShortcut.vbs)  
 Rememeber to update these templates if you add .INI settings.  
 
 The .vbs scrripts are executed with wscript.exe. In some environments this wont work, there's Antivirus which is configured to detect and disallow "script activity". You then have to create the shortcuts manually or execute the scripts by double-click (which then might work or might still not work).  
 
-The name "XpaTests" is not hardcoded in this application but is fetched by invocation of XPAs AppName() function. If you rename your application or if you use the program in another application (by import or as a component), it should still work.
+The name "XpaDemo" is not hardcoded in this application but is fetched by invocation of XPAs AppName() function. If you rename your application or if you use the program in another application (by import or as a component), it should still work.
 
 
 - 

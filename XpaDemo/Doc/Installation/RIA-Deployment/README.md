@@ -2,12 +2,12 @@
 
 Following is about the trouble I had to get a simple Magic XPA RIA program deployed to Android (SDK) and finally loaded into an emulator of a Andoid phone (I dont have one). Much (if not all) of these problems were because I reinstalled Android SDK on Windows 8.1 just recently and now have Android platform SDKs 27 & 28 there - just no version 25 and that it seems, is what current Magic XPA 3.3 needs in order to get deployment of RIA components to Android seamless.  
 
-The Magic Xpa RIA component used for testing the features and the installation is part of XpaDemo project. It's one of it's Xpa components, in this specific case actually rather a separate / stand-alone Magic Xpa (RIA) project named [XpaTMobile](/XPATests/Components/XpaTMobile/).  
+The Magic Xpa RIA component used for testing the features and the installation is part of XpaDemo project. It's one of it's Xpa components, in this specific case actually rather a separate / stand-alone Magic Xpa (RIA) project named [XpaTMobile](/XpaDemo/Components/XpaTMobile/).  
 
 # Steps to deploy Magic XPA RIA programs(s) to Android (SDK) on Windows and run there in an emulator
 
 ## Create your RIA (Rich CLient) program / application
-In order to be able to deploy something to Android we first need to have something which we can deploy to there. In Magic Xpa this is easy, just create a "Rich client" program and give it a public name. You can CTRL-G this, so its a matter of seconds. If you want something with a bit of functionality you can also do all this with the "Magic RIA" samples from your Xpa distibution samples project folder or with [XpaTMobile](/XPATests/Components/XpaTMobile/) from this demo project. Just start Magic XPA and open the project files.  
+In order to be able to deploy something to Android we first need to have something which we can deploy to there. In Magic Xpa this is easy, just create a "Rich client" program and give it a public name. You can CTRL-G this, so its a matter of seconds. If you want something with a bit of functionality you can also do all this with the "Magic RIA" samples from your Xpa distibution samples project folder or with [XpaTMobile](/XpaDemo/Components/XpaTMobile/) from this demo project. Just start Magic XPA and open the project files.  
 
 ## Rich Client interface builder
 When you are ready to deploy the first version of your Magic Xpa application containing Rich client (RIA) programs to Android you do this by starting the Rich client interface builder which is available in Xpa Studio, *menu: Options/Interface builder/Rich client deployment*  
@@ -30,7 +30,7 @@ That raises already two issues in my environment:
 
 Execution of "powershell" you need to get work before being able to deploy RIA to Android, Magic Xpa needs it for the build. Check [here](powershell.md) for some information and the internet for more.  
 
-_Note: XpaDemo project has functionality / demo program which allows you to specify required components. If you add "gradle.exe" and "powershell.exe" there it will show you some information about the installation and (if it's "known" modules/components) maybe even additional information. Check the demo doc for details:  [OUTIL002_Components](/XPATests/Doc/Samples/XpaTUtils/OUTIL002_Components.md). Also [OUTIL001_About](/XPATests/Doc/Samples/XpaTUtils/OUTIL001_About.md) which has some more information regarding the Java installation on your machine_
+_Note: XpaDemo project has functionality / demo program which allows you to specify required components. If you add "gradle.exe" and "powershell.exe" there it will show you some information about the installation and (if it's "known" modules/components) maybe even additional information. Check the demo doc for details:  [OUTIL002_Components](/XpaDemo/Doc/Samples/XpaTUtils/OUTIL002_Components.md). Also [OUTIL001_About](/XpaDemo/Doc/Samples/XpaTUtils/OUTIL001_About.md) which has some more information regarding the Java installation on your machine_
 
 Adding powershell to the PATH fixed my first issue with the build. It did start now and it created a subdirectory TEMP_BUILD_FOLDER in PublishedApplications (first screen below). Logfiles I did still not find any and the build was against a Android Platform SDK 25, while 27 was selected in RIA Builder. Gradle build did start did however hang and freeze Magic at the end (second screen below).  
 

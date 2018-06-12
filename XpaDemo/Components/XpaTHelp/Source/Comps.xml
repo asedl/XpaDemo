@@ -20,8 +20,8 @@
         <LastISN val="32"/>
         <CompId val="79462038-31045-19073-B8732FDD7"/>
         <Revision val="0.1"/>
-        <MciFile val="C:\magic\samples\XpaDemo\XPATests\Components\DatabaseComp\DatabaseComp.eci"/>
-        <ProjectFile val="C:\magic\samples\XpaDemo\XPATests\Components\DatabaseComp\DatabaseComp.edp"/>
+        <MciFile val="C:\xpa\samples\XpaDemo\XpaDemo\Components\DatabaseComp\DatabaseComp.eci"/>
+        <ProjectFile val="C:\xpa\samples\XpaDemo\XpaDemo\Components\DatabaseComp\DatabaseComp.edp"/>
         <CABINET_FILE val="%Components%DatabaseComp.ecf"/>
         <ComponentModels>
           <Object>

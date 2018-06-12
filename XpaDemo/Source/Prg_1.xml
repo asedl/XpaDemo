@@ -307,7 +307,7 @@
               <Color id="51" val="3"/>
               <_Comment id="218"/>
               <StartupPosition id="275" val="1"/>
-              <FormName id="311" valUnicode="XPATests"/>
+              <FormName id="311" valUnicode="XpaDemo"/>
               <WindowType id="358" val="11"/>
               <StartupMode id="362" val="2"/>
               <_PulldownMenu comp="-1" id="441" obj="1"/>

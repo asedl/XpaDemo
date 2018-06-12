@@ -364,7 +364,7 @@
             <ExpAttribute val="B"/>
           </Expression>
           <Expression id="4">
-            <ExpSyntax val="Translate('%XPATEST_HOME%XPATests.edp')"/>
+            <ExpSyntax val="Translate('%XPATEST_HOME%XpaDemo.edp')"/>
             <ExpAttribute val="A"/>
           </Expression>
         </Expressions>

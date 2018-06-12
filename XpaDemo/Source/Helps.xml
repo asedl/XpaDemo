@@ -14,13 +14,13 @@
       <Help Type="U" id="1" name="XPATest on Github (Docroot)">
         <Public val="XPATest on Github (Docroot)"/>
         <PropertyList model="HELP_URL">
-          <URL id="19" valUnicode="https://github.com/asedl/XpaDemo/tree/master/XPATests/Doc"/>
+          <URL id="19" valUnicode="https://github.com/asedl/XpaDemo/tree/master/XpaDemo/Doc"/>
         </PropertyList>
       </Help>
       <Help Type="U" id="2" name="OWCLN001_xpatest_uris">
         <Public val="OWCLN001_xpatest_uris"/>
         <PropertyList model="HELP_URL">
-          <URL id="19" valUnicode="https://github.com/asedl/XpaDemo/blob/master/XPATests/Doc/Samples/XpaTHttp/OWCLN001_xpatest_uris.md"/>
+          <URL id="19" valUnicode="https://github.com/asedl/XpaDemo/blob/master/XpaDemo/Doc/Samples/XpaTHttp/OWCLN001_xpatest_uris.md"/>
         </PropertyList>
       </Help>
     </HelpScreens>

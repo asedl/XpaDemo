@@ -9,12 +9,12 @@ Note: During Startup the Magic Runtime scans all directories in System PATH envi
   
 [MAGIC_JAVA]  
 JAVA_HOME=*C:\Java\jdk1.8.x86  
-CLASSPATH=*.;Support\*;Libraries\*;C:\magic\samples\XpaDemo\XPATests\ext+  
+CLASSPATH=*.;Support\*;Libraries\*;C:\xpa\samples\XpaDemo\XpaDemo\ext+  
 ernal\Java\XPATest\target\XPATest-0.0.1-SNAPSHOT-jar-with-dependencies.jar
 
 If you don't have a Java 8 32-Bit on your machine you need to download and install it from Oracle and put the installtion path into [MAGIC_JAVA]JAVA_HOME (without an trailling backslash!). You should rather not modify the system environment variable JAVA_HOME, that may have an impact on other applications which require a Java VM too. You should also not modify the PATH variable, for the same reason.  
   
-Note: XPATests project has an embedded project which is only uniPaaS 1.9. Wehn you want to get Java stuff working inside there you will need a Java 7 32-Bit. The .INI you would then alter like above, just with the path to Java 7.  
+Note: XpaDemo project has an embedded project which is only uniPaaS 1.9. Wehn you want to get Java stuff working inside there you will need a Java 7 32-Bit. The .INI you would then alter like above, just with the path to Java 7.  
   
 The Java library which is part of this project (and which is referenced in the .INI above in CLASSPATH setting as XPATest-0.0.1-SNAPSHOT-jar-with-dependencies.jar is however compiled for Java 8 and later. If you want to get it work with uniPaaS and Java 7 you will need to recompile and that will raise issues for those parts there which use Java 8 stuff. So: Basically this project requires Java 8 or later, No support for previous Java versions.  
   

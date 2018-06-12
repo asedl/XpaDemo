@@ -404,7 +404,7 @@
         </TaskForms>
         <Expressions>
           <Expression id="1">
-            <ExpSyntax val="'https://github.com/asedl/XpaDemo/tree/master/XPATests/Doc'"/>
+            <ExpSyntax val="'https://github.com/asedl/XpaDemo/tree/master/XpaDemo/Doc'"/>
             <ExpAttribute val="A"/>
           </Expression>
         </Expressions>

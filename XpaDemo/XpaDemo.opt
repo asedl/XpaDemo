@@ -3,7 +3,7 @@
 
   <MobileDesignMode Val="N"/>
 
-  <DebugMode Val="Y"/>
+  <DebugMode Val="N"/>
 
   <RIAExecutionPlatform Val="Desktop"/>
 

@@ -2,7 +2,7 @@
 
 This is a Magic XPA "Source" directory. Magic XPA creates such a source directory (collection of XML files) whenever you create a XPA project
 (XPA application). Location of this source directory is specified in the application's .edp (eDeveloper project file), which typically resides 
-in the parent folder. [XPATests.edp](/XPATests/XPATests.edp) - in our case (see value "SourceDirectory" there).  
+in the parent folder. [XpaDemo.edp](/XpaDemo/XpaDemo.edp) - in our case (see value "SourceDirectory" there).  
 
 The format of the sources is proprietary and may change with every version of Magic XPA. Magic XPA ships with XML schema files for the sources 
 which do describe their content.  
@@ -17,50 +17,50 @@ Concurrent development where developers do their changes in parallel (offline) a
 
 For this demo-project we do version the complete project with git on github. Push requests and forges will result in Merge conflicts which are very hard to resolve with Magic XPA due to the thing with the "indexes" explained above. Meanwhile there is some third party products  which do help a lttle with these issues a bit (Magic Optimizer / Magic Compare).  
 
-Also in this project it's planned to add some tools which do work on "Magic sources" in order to be able to refactor them. Check the [XpaTPomo](https://github.com/asedl/XpaDemo/tree/master/XPATests/external/XpaTPomo) project.
+Also in this project it's planned to add some tools which do work on "Magic sources" in order to be able to refactor them. Check the [XpaTPomo](https://github.com/asedl/XpaDemo/tree/master/XpaDemo/external/XpaTPomo) project.
 
 # Magic XPA (source) Repositories and -files
 ## \<your project\>.edp
-Sample: [XPATests.edp](/XPATests/XPATests.edp)
+Sample: [XpaDemo.edp](/XpaDemo/XpaDemo.edp)
 
 ## \<your project\>.opt
-Sample: [XPATests.opt](/XPATests/XPATests.opt)
+Sample: [XpaDemo.opt](/XpaDemo/XpaDemo.opt)
 
 ## [Components](Comps.xml)
-Sample: [XPATests.Comps.xml](/XPATests/Comps.xml)
+Sample: [XpaDemo.Comps.xml](/XpaDemo/Comps.xml)
 
 ## [Data Sources](DataSources.xml)
-Sample: [XPATests.DataSources.xml](/XPATests/DataSources.xml)
+Sample: [XpaDemo.DataSources.xml](/XpaDemo/DataSources.xml)
 
 ## [Data Sources Indexes](DataSourcesIndex.xml)
-Sample: [XPATests.DataSourcesIndex.xml](/XPATests/DataSourcesIndex.xml)
+Sample: [XpaDemo.DataSourcesIndex.xml](/XpaDemo/DataSourcesIndex.xml)
 
 ## [Helps](Helps.xml)
-Sample: [XPATests.Helps.xml](/XPATests/Helps.xml)
+Sample: [XpaDemo.Helps.xml](/XpaDemo/Helps.xml)
 
 ## [Menues](Menues.xml)
-Sample: [XPATests.Menus.xml](/XPATests/Menus.xml)
+Sample: [XpaDemo.Menus.xml](/XpaDemo/Menus.xml)
 
 ## [Models](Models.xml)
-Sample: [XPATests.Models.xml](/XPATests/Models.xml)
+Sample: [XpaDemo.Models.xml](/XpaDemo/Models.xml)
 
 ## [Program Headers](ProgramHeaders.xml)
-Sample: [XPATests.ProgramHeaders.xml](/XPATests/ProgramHeaders.xml)
+Sample: [XpaDemo.ProgramHeaders.xml](/XpaDemo/ProgramHeaders.xml)
 
 ## [Programs](Progs.xml)
-Sample: [XPATests.Progs.xml](/XPATests/Progs.xml)
+Sample: [XpaDemo.Progs.xml](/XpaDemo/Progs.xml)
 
 ## [Project properties](ProjProps.xml)
-Sample: [XPATests.ProjProps.xml](/XPATests/ProjProps.xml)
+Sample: [XpaDemo.ProjProps.xml](/XpaDemo/ProjProps.xml)
 
 ## [Rights](Rights.xml)
-Sample: [XPATests.Rights.xml](/XPATests/Rights.xml)
+Sample: [XpaDemo.Rights.xml](/XpaDemo/Rights.xml)
   
   
 # Visual Studio solution / project files
 ## \<your project\>.sln
-[XPATests.sln](/XPATests/XPATests.sln)
+[XpaDemo.sln](/XpaDemo/XpaDemo.sln)
 
 ## \<your project\>.xpaproj
-[XPATests.xpaproj](/XPATests/XPATests.xpaproj)
+[XpaDemo.xpaproj](/XpaDemo/XpaDemo.xpaproj)
 

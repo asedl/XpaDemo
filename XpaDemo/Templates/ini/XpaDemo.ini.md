@@ -1,8 +1,8 @@
-# Templates/ini/XpaTests.ini
+# Templates/ini/XpaDemo.ini
 
-[XpaTests.ini](XpaTests.ini)  
+[XpaDemo.ini](XpaDemo.ini)  
   
-XpaTests.ini in folder /Templates/ini is a (Magic merge) template used in program [OUTIL003_CheckConfiguration](XPATests\Doc\Samples\XpaTDemo\OUTIL003_CheckConfiguration.md) to generate a Magic @INI named XpaTests.ini which it will put in the application root directory and which then can used on command line of a Magic XPA Runtime or -Studio in order to add the settings from this file to the configuration.  
+XpaDemo.ini in folder /Templates/ini is a (Magic merge) template used in program [OUTIL003_CheckConfiguration](XpaDemo\Doc\Samples\XpaTDemo\OUTIL003_CheckConfiguration.md) to generate a Magic @INI named XpaDemo.ini which it will put in the application root directory and which then can used on command line of a Magic XPA Runtime or -Studio in order to add the settings from this file to the configuration.  
 
 It is a "Magic Merge template" so it (can) contain Magic Merge variables (tags) which will be expanded when OUTIL003_CheckConfiguration runs. You cannot simply add aarbitrary Magic merge tags to this file but only those which actually are handled in that Magic program. If you add or rename tags you need to adjust that program.  
 

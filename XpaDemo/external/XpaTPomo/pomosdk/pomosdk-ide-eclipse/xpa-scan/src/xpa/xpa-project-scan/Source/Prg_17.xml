@@ -799,7 +799,7 @@
             <ExpAttribute val="*"/>
           </Expression>
           <Expression id="29">
-            <ExpSyntax val="'C:\magic\samples\XpaDemo\XPATests\temp\components.xml'"/>
+            <ExpSyntax val="'C:\xpa\samples\XpaDemo\XpaDemo\temp\components.xml'"/>
             <ExpAttribute val="A"/>
           </Expression>
           <Expression id="30">

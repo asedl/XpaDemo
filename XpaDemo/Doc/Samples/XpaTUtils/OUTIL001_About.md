@@ -11,7 +11,7 @@ Here the value of logical name %XPATEST_HOME% gets displayed. That's the logical
 
 Before the value is actually displayed, the program checks if it contains a value. If its empty it will be set to %WorkingDir% (the logical name Magic Runtime injects and which should point to the directory where the applicarion's .ecf resides)
 
-Afterwards it's checked if the file %XAPATEST_HOME%XPATests.ecf exists.  
+Afterwards it's checked if the file %XAPATEST_HOME%XpaDemo.ecf exists.  
   
 ### Commandline
 That's the commandline which was used to start the application (either the Runtime or the Studio). Program OUTIL101_GetCommandline gets executed to fetch this information.

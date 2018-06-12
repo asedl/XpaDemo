@@ -3,9 +3,9 @@
 This is a uniPaaS 1.9 sample application. Before you can run it, you need to:
 
 ## Adjust your magic.ini
-Add following two logical names and adjust them to your installation of XPATests project:
-AppPath = C:\magic\projects\XpaDemo\XPATests\external\Magic\upTest\
-XPATEST_HOME = C:\magic\projects\XpaDemo\XPATests\
+Add following two logical names and adjust them to your installation of XpaDemo project:
+AppPath = C:\magic\projects\XpaDemo\XpaDemo\external\Magic\upTest\
+XPATEST_HOME = C:\magic\projects\XpaDemo\XpaDemo\
 
 ## scriptcs
 In order to get those parts of the application running which do execute C# scripts from command line you need to download and install scriptcs [scriptcs](http://scriptcs.net/)

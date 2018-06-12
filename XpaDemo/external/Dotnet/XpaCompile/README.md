@@ -5,7 +5,7 @@ XpaCompile is a command line "compiler" for Magic XPA projects. It uses the [Mag
 Status: **Not done**
 
 # Usage / command line parameters
-XpaCompile.exe -project=c:\magic\samples\XpaDemo\xpatest\xpatest.edp
+XpaCompile.exe -project=C:\xpa\samples\XpaDemo\xpatest\xpatest.edp
 
 ## Parameter: project
 Allows you to specify a Magic XPA project file (.edp).

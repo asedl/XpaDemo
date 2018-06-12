@@ -25,8 +25,8 @@
         <LoadImmediate val="Y"/>
         <LastISN val="24"/>
         <CompId val="3902674675-36743-19037-9421D7318"/>
-        <MciFile val="C:\magic\samples\XpaDemo\XPATests\Components\_UserFunctionality\_UserFunctionality.eci"/>
-        <ProjectFile val="C:\magic\samples\XpaDemo\XPATests\Components\_UserFunctionality\_UserFunctionality.edp"/>
+        <MciFile val="C:\xpa\samples\XpaDemo\XpaDemo\Components\_UserFunctionality\_UserFunctionality.eci"/>
+        <ProjectFile val="C:\xpa\samples\XpaDemo\XpaDemo\Components\_UserFunctionality\_UserFunctionality.edp"/>
         <CABINET_FILE val="%Components%_UserFunctionality.ecf"/>
         <ComponentPrograms>
           <Object>
@@ -161,8 +161,8 @@
         <LastISN val="11"/>
         <CompId val="1970479671-21276-18466-BD6A918D3"/>
         <Revision val="0.1"/>
-        <MciFile val="C:\magic\samples\XpaDemo\XPATests\Components\Utilities\Utilities.eci"/>
-        <ProjectFile val="C:\magic\samples\XpaDemo\XPATests\Components\Utilities\Utilities.edp"/>
+        <MciFile val="C:\xpa\samples\XpaDemo\XpaDemo\Components\Utilities\Utilities.eci"/>
+        <ProjectFile val="C:\xpa\samples\XpaDemo\XpaDemo\Components\Utilities\Utilities.edp"/>
         <CABINET_FILE val="%Components%Utilities.ecf"/>
         <ComponentModels>
           <Object>
@@ -479,8 +479,8 @@
         <LastISN val="14"/>
         <CompId val="175473761-52033-19813-95CBC2F3"/>
         <Revision val="0.1.0"/>
-        <MciFile val="C:\magic\samples\XpaDemo\XPATests\external\XpaTPomo\pomosdk\pomosdk-ide-eclipse\xpa-scan\src\xpa\xpa-project-scan\xpa-project-scan.eci"/>
-        <ProjectFile val="C:\magic\samples\XpaDemo\XPATests\external\XpaTPomo\pomosdk\pomosdk-ide-eclipse\xpa-scan\src\xpa\xpa-project-scan\xpa-project-scan.edp"/>
+        <MciFile val="C:\xpa\samples\XpaDemo\XpaDemo\external\XpaTPomo\pomosdk\pomosdk-ide-eclipse\xpa-scan\src\xpa\xpa-project-scan\xpa-project-scan.eci"/>
+        <ProjectFile val="C:\xpa\samples\XpaDemo\XpaDemo\external\XpaTPomo\pomosdk\pomosdk-ide-eclipse\xpa-scan\src\xpa\xpa-project-scan\xpa-project-scan.edp"/>
         <CABINET_FILE val="%Components%xpa-project-scan.ecf"/>
         <ComponentDataObjects>
           <Object>
@@ -550,8 +550,8 @@
         <LastISN val="1"/>
         <CompId val="3963158731-4198-16972-A38CCED11"/>
         <Revision val="0.1.0"/>
-        <MciFile val="C:\magic\samples\XpaDemo\XPATests\Components\XpaTHelp\XpaTHelp.eci"/>
-        <ProjectFile val="C:\magic\samples\XpaDemo\XPATests\Components\XpaTHelp\XpaTHelp.edp"/>
+        <MciFile val="C:\xpa\samples\XpaDemo\XpaDemo\Components\XpaTHelp\XpaTHelp.eci"/>
+        <ProjectFile val="C:\xpa\samples\XpaDemo\XpaDemo\Components\XpaTHelp\XpaTHelp.edp"/>
         <CABINET_FILE val="%Components%XpaTHelp.ecf"/>
         <ComponentEvents>
           <Object>

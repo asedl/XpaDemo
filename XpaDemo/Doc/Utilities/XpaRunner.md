@@ -3,7 +3,7 @@
 XpaRunner is a little utility which can be used to start a Magic XPA Runtime or Magic XPA Studio in order to be able to prepare the environment before 
 the Magic XPA Runtime / Engine takes over control. Sometimes there is a requirement to do this - esp. then if you need system / user specific 
 settings available in your .INI for path diversion - before the application is actually started so that you could modify the settings from inside Magic.
-Check following document for some more details: [altering-the-configuration-of-a-magic-application-before-its-actually-started](/XPATests/Doc/Installation/Magic.md#altering-the-configuration-of-a-magic-application-before-its-actually-started)  
+Check following document for some more details: [altering-the-configuration-of-a-magic-application-before-its-actually-started](/XpaDemo/Doc/Installation/Magic.md#altering-the-configuration-of-a-magic-application-before-its-actually-started)  
 
 _XpaRunner is implemented as a (C#) .NET application. A script or Java application is not a good option here because we need, in this specific case, an .exe or 
 command file in order to be able to set the "Run As Administrator" flag for the executable file - because the Magic setup sets this flag for

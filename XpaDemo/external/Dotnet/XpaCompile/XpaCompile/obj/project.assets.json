@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\magic\\samples\\XpaDemo\\XPATests\\external\\Dotnet\\XpaCompile\\XpaCompile\\XpaCompile.csproj",
+      "projectUniqueName": "C:\\magic\\samples\\XpaDemo\\XpaDemo\\external\\Dotnet\\XpaCompile\\XpaCompile\\XpaCompile.csproj",
       "projectName": "XpaCompile",
-      "projectPath": "C:\\magic\\samples\\XpaDemo\\XPATests\\external\\Dotnet\\XpaCompile\\XpaCompile\\XpaCompile.csproj",
+      "projectPath": "C:\\magic\\samples\\XpaDemo\\XpaDemo\\external\\Dotnet\\XpaCompile\\XpaCompile\\XpaCompile.csproj",
       "packagesPath": "C:\\Users\\Andreas\\.nuget\\packages\\",
-      "outputPath": "C:\\magic\\samples\\XpaDemo\\XPATests\\external\\Dotnet\\XpaCompile\\XpaCompile\\obj\\",
+      "outputPath": "C:\\magic\\samples\\XpaDemo\\XpaDemo\\external\\Dotnet\\XpaCompile\\XpaCompile\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
