@@ -1,4 +1,4 @@
-> **This is a fork of the original "xpaxmltest" repository which has been created to change that name to "XpaDemo". Its not yet tested at all. Once that's done the original repository will be archived and development continues on this one**
+> **This is a fork of the original [xpaxmltest repository](https://github.com/asedl/xpaxmltest) which has been renamed to "XpaDemo". Its not yet tested at all. Once that's done the original repository will be archived and development continues on this one**
 # Magic XPA (SingleUser) demo project XPATests
 
 This is a repository with a growing collection of Magic XPA demos / samples with a strong focus on the exotic stuff. If you do want demos / samples in order to actually learn "Magic" you should download and install (latest version) of Magic XPA and first have a look into the samples and demo applications which do ship with that (also exotic) development tool.
