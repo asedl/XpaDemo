@@ -25,7 +25,7 @@
       <Operation Val="17"/>
     </Breakpoint>
     <Breakpoint>
-      <Condition/>
+      <Condition Val=""/>
       <Location Val="HttpGet(Magic)"/>
       <HandlerId Val="3"/>
       <OperationId Val="110"/>

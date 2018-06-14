@@ -6,4 +6,13 @@ When you deploy a RIA application to a device (emulator) you do actually only de
 
 A "Magic XPA RIA Server" is a http server (Apache or IIS) + A Magic XPA Internet requester + Magic Xpa (enterprise) server. For test/development Magic XPA Studio can act as a Magic XPA server too. 
 
+## Starting an emulator
+Open a command prompt and change directory to the "emulator" directory in your Android SDK directory (should be c:\users\<your username>\Local\Android\Sdk\emulator) 
+You can start an emulator with: 
+emulator -avd <emulator name> -partition-size 128
 
+If you forgot the emulator name(s) you can get a reminder with: 
+emulator -list-avds 
+
+
+ 
