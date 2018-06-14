@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+  <external-path name="external_files" path="."/> <!--/storage/emulated/0 -->
+  <cache-path name="cache_path" path="."/> <!--/data/user/0/[Package Name]/cache -->
+  <cache-path name="app_cache" path="../app_cache"/> <!--/data/user/0/[Package Name]/app_cache -->
+</paths>

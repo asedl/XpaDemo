@@ -1,0 +1,12 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="General Settings" />
+    <PreferenceScreen android:key="account_settings"
+            android:title="Account Settings"
+            android:summary="Sets the application location">
+        <intent android:action="xpa.xpatest.xpatmobile.ACCOUNT_SETUP"
+            android:targetPackage="@string/app_id"
+            android:targetClass="xpa.xpatest.xpatmobile.SettingsActivity" />
+    </PreferenceScreen>
+</PreferenceScreen>
+
+<!-- This file is required for a generic application (empty URL) -->

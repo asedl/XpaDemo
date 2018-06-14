@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" package="xpa.xpatest.xpatmobile" android:versionCode="1" android:versionName="1.0">
+  <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="21" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <uses-permission android:name="android.permission.SEND_SMS" />
+  <uses-permission android:name="android.permission.CALL_PHONE" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <!-- The following permission is required for a generic application (empty URL) to allow changing the URL via the android Accounts mechanism -->
+  <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+  <uses-permission android:name="android.permission.WAKE_LOCK" />
+  <uses-feature android:name="android.hardware.camera" android:required="false" />
+  <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
+  <uses-feature android:name="android.hardware.location" android:required="false" />
+  <uses-feature android:name="android.hardware.location.gps" android:required="false" />
+  <uses-feature android:name="android.hardware.telephony" android:required="false" />
+  <supports-screens android:xlargeScreens="true" />
+  <application tools:replace="android:label, android:name" android:icon="@drawable/icon" android:label="@string/app_name" android:name="MainApplication" android:hardwareAccelerated="true" android:theme="@style/AppTheme" android:allowBackup="true">
+    <provider android:name="android.support.v4.content.FileProvider" android:authorities="${applicationId}.provider" android:exported="false" android:grantUriPermissions="true">
+      <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/provider_paths" />
+    </provider>
+    <activity android:name="MainActivity" android:theme="@style/AppThemeNoTitle" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateHidden">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+      <!-- The following intent allows launching the app from an email using the following convention: 'scheme://host:port/path' (the path should start with '/')
+			For example: 'http://xpa.xpatest.xpatmobile?parameter' or 'http://xpa.xpatest.xpatmobile/app?parameter'. 
+			The parameter can be retrieve from the magic application. -->
+      <intent-filter>
+        <data android:scheme="http" android:host="xpa.xpatest.xpatmobile" android:path="/" />
+        <action android:name="android.intent.action.VIEW" />
+        <category android:name="android.intent.category.BROWSABLE" />
+        <category android:name="android.intent.category.DEFAULT" />
+      </intent-filter>
+    </activity>
+    <activity android:name="DevActivity" android:theme="@style/AppThemeNoTitle" android:configChanges="keyboard|keyboardHidden|orientation|screenSize">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+      </intent-filter>
+    </activity>
+    <activity tools:replace="android:configChanges" android:name="com.magicsoftware.core.startact" android:configChanges="keyboard|keyboardHidden|orientation|screenSize">
+    </activity>
+    <activity tools:replace="android:configChanges" android:name="com.magicsoftware.core.DialogHandler" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:configChanges="keyboard|keyboardHidden|orientation|screenSize">
+    </activity>
+    <activity tools:replace="android:configChanges" android:name="com.magicsoftware.core.EmptyWindow" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustPan|stateHidden" android:theme="@style/Popup">
+    </activity>
+    <activity android:name="com.magicsoftware.core.GCPrintDialog">
+    </activity>
+    <activity android:name="com.soundcloud.android.crop.CropImageActivity" />
+    <!-- The following service is required for a generic application (empty URL) -->
+    <!-- The following activity is required for a generic application (empty URL) -->
+    <!-- [START firebase_service] -->
+    <service android:name=".MyFirebaseMessagingService">
+      <intent-filter>
+        <action android:name="com.google.firebase.MESSAGING_EVENT" />
+      </intent-filter>
+    </service>
+    <receiver android:name=".MyFirebaseNotificationDismissReceiver" android:exported="false">
+    </receiver>
+    <receiver android:name=".MyFirebaseNotificationClickReceiver" android:exported="false">
+    </receiver>
+    <!-- [END firebase_service] -->
+    <!-- [START firebase_iid_service] -->
+    <service android:name=".MyFirebaseInstanceIDService">
+      <intent-filter>
+        <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+      </intent-filter>
+    </service>
+    <!-- [END firebase_iid_service] -->
+  </application>
+</manifest>

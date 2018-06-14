@@ -85,6 +85,44 @@
       <SourceFileTimeStamp _date="736857" _time="5488" date="12/06/2018" time="01:31:28"/>
     </Program>
     <Program>
+      <Header Description="External Browser" ISN_2="1" LastIsn="2" id="106">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="B"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="736859" _time="81114" date="14/06/2018" time="22:31:54"/>
+      </Header>
+      <SourceFileTimeStamp _date="736859" _time="73914" date="14/06/2018" time="20:31:54"/>
+    </Program>
+    <Program>
+      <Header Description="External Browser_short" ISN_2="1" LastIsn="2" id="107">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="B"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="736859" _time="85819" date="14/06/2018" time="23:50:19"/>
+      </Header>
+      <SourceFileTimeStamp _date="736859" _time="78619" date="14/06/2018" time="21:50:19"/>
+    </Program>
+    <Program>
       <Header Description="Rich Client - DatabaseComponen" ISN_2="1" LastIsn="1" id="105">
         <ExecutionRight comp="-1"/>
         <Resident val="N"/>
@@ -121,9 +159,9 @@
         <Offline val="N"/>
         <FormType val="N"/>
         <DotNetObjectExists val="Y"/>
-        <LastModified _date="736848" _time="46007" date="03/06/2018" time="12:46:47"/>
+        <LastModified _date="736860" _time="92" date="15/06/2018" time="00:01:32"/>
       </Header>
-      <SourceFileTimeStamp _date="736857" _time="79113" date="12/06/2018" time="21:58:33"/>
+      <SourceFileTimeStamp _date="736859" _time="79292" date="14/06/2018" time="22:01:32"/>
     </Program>
     <Program>
       <Header Description="BWCLN002_HttpGet (Apache)" ISN_2="1" LastIsn="1" id="33">

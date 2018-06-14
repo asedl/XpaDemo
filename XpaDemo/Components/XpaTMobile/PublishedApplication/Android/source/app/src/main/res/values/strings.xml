@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MagicDev</string>
+    <string name="app_id">com.magicsoftware.magicdev</string>
+    <string name="app_account">com.magicsoftware.magicdev.account</string>
+</resources>

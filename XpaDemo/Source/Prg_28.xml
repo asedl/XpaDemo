@@ -29,7 +29,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="Y"/>
-          <LastModified _date="736848" _time="46007" date="03/06/2018" time="12:46:47"/>
+          <LastModified _date="736860" _time="92" date="15/06/2018" time="00:01:32"/>
         </Header>
         <ItemIsn val="4"/>
         <Resource>
@@ -283,9 +283,9 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="Y"/>
-            <LastModified _date="736848" _time="46007" date="03/06/2018" time="12:46:47"/>
+            <LastModified _date="736860" _time="92" date="15/06/2018" time="00:01:32"/>
           </Header>
-          <ItemIsn val="15"/>
+          <ItemIsn val="16"/>
           <Resource>
             <DB id="1">
               <DataObject comp="12" obj="15"/>
@@ -329,6 +329,14 @@
                   <DbColumnName id="178"/>
                   <Type id="179"/>
                   <UserType id="180"/>
+                </PropertyList>
+              </Column>
+              <Column id="11" name="Url">
+                <PropertyList model="FIELD">
+                  <Model attr_obj="FIELD_UNICODE" comp="-1" id="1" obj="11"/>
+                  <Picture id="157" valUnicode="2048"/>
+                  <StoredAs id="173" val="1"/>
+                  <Size id="174" val="4096"/>
                 </PropertyList>
               </Column>
               <Column id="1" name="Filename">
@@ -574,6 +582,68 @@
                 </LogicLine>
               </LogicLines>
             </LogicUnit>
+            <LogicUnit id="42" propagate="78">
+              <Level val="H"/>
+              <Type val="U"/>
+              <Scope val="S"/>
+              <EngineDirective val="S"/>
+              <ShowMessage val="Y"/>
+              <Condition val="89"/>
+              <Event>
+                <EventType val="U"/>
+                <PublicObject comp="-1" obj="10"/>
+              </Event>
+              <Expanded val="1"/>
+              <LogicLines>
+                <LogicLine>
+                  <Select FieldID="16" FlowIsn="496" id="16">
+                    <Column val="11"/>
+                    <Type val="V"/>
+                    <IsParameter val="Y"/>
+                    <DIFF_UPDATE val="T"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </Select>
+                </LogicLine>
+                <LogicLine>
+                  <BLOCK EndBlock="498" EndBlockSegment="501" FlowIsn="497" Type="I">
+                    <Condition Exp="22"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </BLOCK>
+                </LogicLine>
+                <LogicLine>
+                  <Invoke FlowIsn="499">
+                    <OperationType val="O"/>
+                    <Command val="23"/>
+                    <Wait val="N"/>
+                    <Show val="2"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </Invoke>
+                </LogicLine>
+                <LogicLine>
+                  <BLOCK EndBlock="498" EndBlockSegment="498" FlowIsn="501" Type="E">
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </BLOCK>
+                </LogicLine>
+                <LogicLine>
+                  <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="500" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TXT="invalid URL" TitleTxt="Warning" VR_DISP="S">
+                    <AppendToErrorLog val="N"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </STP>
+                </LogicLine>
+                <LogicLine>
+                  <END_BLK FlowIsn="498"/>
+                </LogicLine>
+              </LogicLines>
+            </LogicUnit>
             <LogicUnit id="10" propagate="78">
               <Level val="H"/>
               <Type val="U"/>
@@ -651,7 +721,6 @@
                 <EventType val="U"/>
                 <PublicObject comp="-1" obj="1"/>
               </Event>
-              <Expanded val="1"/>
               <LogicLines>
                 <LogicLine>
                   <RaiseEvent FlowIsn="192">
@@ -837,7 +906,6 @@
                 <EventType val="U"/>
                 <PublicObject comp="-1" obj="2"/>
               </Event>
-              <Expanded val="1"/>
               <LogicLines>
                 <LogicLine>
                   <RaiseEvent FlowIsn="193">
@@ -942,7 +1010,6 @@
                 <EventType val="U"/>
                 <PublicObject comp="-1" obj="3"/>
               </Event>
-              <Expanded val="1"/>
               <LogicLines>
                 <LogicLine>
                   <RaiseEvent FlowIsn="194">
@@ -1035,7 +1102,6 @@
                 <EventType val="U"/>
                 <PublicObject comp="-1" obj="4"/>
               </Event>
-              <Expanded val="1"/>
               <LogicLines>
                 <LogicLine>
                   <RaiseEvent FlowIsn="195">
@@ -1279,7 +1345,6 @@
                 <EventType val="U"/>
                 <PublicObject comp="-1" obj="9"/>
               </Event>
-              <Expanded val="1"/>
               <LogicLines>
                 <LogicLine>
                   <RaiseEvent FlowIsn="304">
@@ -1411,7 +1476,7 @@
             </LogicUnit>
           </TaskLogic>
           <TaskForms>
-            <FormEntry _last_isn="13" _last_test_id="13" id="1">
+            <FormEntry _last_isn="14" _last_test_id="14" id="1">
               <PropertyList model="FORM_GUI0">
                 <Width id="23" val="863"/>
                 <Height id="24" val="261"/>
@@ -1593,6 +1658,28 @@
                   <TabOrder id="314" val="9"/>
                 </PropertyList>
               </Control>
+              <Control PDOD="128" _test_id="14" id="14">
+                <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+                  <X id="21" val="112"/>
+                  <Y id="22" val="234"/>
+                  <Width id="23" val="96"/>
+                  <Height id="24" val="14"/>
+                  <Format id="82" valUnicode="Oen URL in Browser"/>
+                  <Arguments id="126">
+                    <Arguments>
+                      <Argument>
+                        <Variable val="2"/>
+                        <Skip val="N"/>
+                      </Argument>
+                    </Arguments>
+                  </Arguments>
+                  <RaiseEvent id="234">
+                    <EventType val="U"/>
+                    <PublicObject comp="-1" obj="10"/>
+                  </RaiseEvent>
+                  <TabOrder id="314" val="10"/>
+                </PropertyList>
+              </Control>
             </FormEntry>
           </TaskForms>
           <Expressions>
@@ -1664,6 +1751,14 @@
               <ExpSyntax val="'Error code for analysis of ' &amp; Trim({1,2}) &amp; ': ' &amp; Trim(Str({0,11}, ''))"/>
               <ExpAttribute val="A"/>
             </Expression>
+            <Expression id="22">
+              <ExpSyntax val="{0,16}&lt;>''"/>
+              <ExpAttribute val="B"/>
+            </Expression>
+            <Expression id="23">
+              <ExpSyntax val="'rundll32.exe url.dll,FileProtocolHandler &quot;' &amp; Trim({0,16}) &amp; '&quot;'"/>
+              <ExpAttribute val="A"/>
+            </Expression>
           </Expressions>
           <EVNT DESC="BtnGet(scriptcs)" FORCE_EXIT="N" id="1">
             <Event>
@@ -1712,6 +1807,17 @@
               <EventType val="N"/>
               <PublicObject comp="-1"/>
             </Event>
+          </EVNT>
+          <EVNT DESC="BtnOpenUrl" FORCE_EXIT="N" id="10">
+            <Event>
+              <EventType val="N"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <EVENT_PARAMETER ATTR="U" Comment="Url where browser will navigate to" NAME="Url" PICT_U="2048" id="1">
+              <MODEL>
+                <PublicObject comp="-1" obj="11"/>
+              </MODEL>
+            </EVENT_PARAMETER>
           </EVNT>
           <EVNT DESC="RequestBegin" FORCE_EXIT="N" id="8">
             <Event>

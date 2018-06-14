@@ -4,7 +4,7 @@
   <Header>
     <Version val="13030.00"/>
     <WithIsn val="Y"/>
-    <LastIsn val="40"/>
+    <LastIsn val="43"/>
     <LastIsnFolder val="0"/>
     <Folders/>
   </Header>
@@ -281,6 +281,11 @@
           <_FieldStyle id="276" val="4"/>
           <CellModel attr_obj="FIELD_BLOB" comp="-1" id="287" obj="32"/>
           <PartOfDataview id="449"/>
+        </PropertyList>
+      </Object>
+      <Object id="41">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
         </PropertyList>
       </Object>
       <Object id="36">
