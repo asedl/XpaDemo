@@ -6,9 +6,10 @@ This is a repository with a growing collection of Magic XPA demos / samples with
 It's rather pricey and requires you to pay for runtime licenses later on, when you want to deploy your applications, too, there is however - since a while at least - a free "Single User" edition. That version lacks support of all the "enterprise features" and does support SQLite with a database gateway only. You can download that edition from following link (requires registration):  
 <http://info.magicsoftware.com/Magic-xpa-Free-Single-User-Edition> . There's also a website from Magic Software which is exclusively about this special, free, version of their development tool. Its a bit old and seems not maintained anymore, many links do not work there and the "Magic DevNet" has basically been discontinued as it looks: <http://homeedition.magicsoftware.com/> . 
 
-The (international) "Magic User Group" basically is organized around a Mailing list named "magicu-l" which currently resides here: https://magicu-l.groups.io/g/main . That's definitely the best place when you do look for help with Magic Xpa (or any other Magic version or product). 
-
 The IDE (aka: "Magic XPA Studio") is only available for Microsoft Windows. The applications you do build with Magic XPA do then run on some different systems / platforms too and if you keep it "Single User" you can also deploy your applications for free and do not have to purchase runtime licenses from the vendor. Its interesting technology, esp. the RIA things and quite different from everything else in that area but maybe worth a look. It's rather "B2B" though.
+
+## User Group / Community
+The (international) "Magic User Group" basically is organized around a Mailing list named "magicu-l" which currently resides here: <https://magicu-l.groups.io> . That's definitely the best place when you do look for help with Magic Xpa (or any other Magic version or product). 
 
 # Installation / Configuration
   
