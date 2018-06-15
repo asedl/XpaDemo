@@ -29,7 +29,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="Y"/>
-          <LastModified _date="736860" _time="92" date="15/06/2018" time="00:01:32"/>
+          <LastModified _date="736860" _time="65500" date="15/06/2018" time="18:11:40"/>
         </Header>
         <ItemIsn val="4"/>
         <Resource>
@@ -283,9 +283,9 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="Y"/>
-            <LastModified _date="736860" _time="92" date="15/06/2018" time="00:01:32"/>
+            <LastModified _date="736860" _time="65500" date="15/06/2018" time="18:11:40"/>
           </Header>
-          <ItemIsn val="16"/>
+          <ItemIsn val="17"/>
           <Resource>
             <DB id="1">
               <DataObject comp="12" obj="15"/>
@@ -337,6 +337,14 @@
                   <Picture id="157" valUnicode="2048"/>
                   <StoredAs id="173" val="1"/>
                   <Size id="174" val="4096"/>
+                </PropertyList>
+              </Column>
+              <Column id="12" name="Method">
+                <PropertyList model="FIELD">
+                  <Model attr_obj="FIELD_UNICODE" id="1"/>
+                  <Picture id="157" valUnicode="20"/>
+                  <Size id="174" val="40"/>
+                  <_FieldStyle id="276" val="1"/>
                 </PropertyList>
               </Column>
               <Column id="1" name="Filename">
@@ -607,8 +615,39 @@
                   </Select>
                 </LogicLine>
                 <LogicLine>
-                  <BLOCK EndBlock="498" EndBlockSegment="501" FlowIsn="497" Type="I">
+                  <Select FieldID="17" FlowIsn="562" id="17">
+                    <Column val="12"/>
+                    <Type val="V"/>
+                    <IsParameter val="Y"/>
+                    <DIFF_UPDATE val="T"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </Select>
+                </LogicLine>
+                <LogicLine>
+                  <Remark FlowIsn="564">
+                    <Type val="2"/>
+                    <Text val=" "/>
+                  </Remark>
+                </LogicLine>
+                <LogicLine>
+                  <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="500" IMG_DEF_CHG="N" Image="C" Mode="E" TTL_DEF_CHG="N" TXT="invalid URL" TitleTxt="Error" VR_DISP="S">
+                    <AppendToErrorLog val="Y"/>
                     <Condition Exp="22"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </STP>
+                </LogicLine>
+                <LogicLine>
+                  <Remark FlowIsn="565">
+                    <Type val="2"/>
+                    <Text val=" "/>
+                  </Remark>
+                </LogicLine>
+                <LogicLine>
+                  <BLOCK EndBlock="498" EndBlockSegment="501" FlowIsn="497" Type="I">
+                    <Condition Exp="24"/>
                     <Modifier val="B"/>
                     <Direction val="C"/>
                   </BLOCK>
@@ -625,22 +664,57 @@
                   </Invoke>
                 </LogicLine>
                 <LogicLine>
-                  <BLOCK EndBlock="498" EndBlockSegment="498" FlowIsn="501" Type="E">
-                    <Condition val="Y"/>
+                  <BLOCK EndBlock="498" EndBlockSegment="690" FlowIsn="501" Type="E">
+                    <Condition Exp="25"/>
                     <Modifier val="B"/>
                     <Direction val="C"/>
                   </BLOCK>
                 </LogicLine>
                 <LogicLine>
-                  <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="500" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TXT="invalid URL" TitleTxt="Warning" VR_DISP="S">
-                    <AppendToErrorLog val="N"/>
+                  <CallTask FlowIsn="629">
+                    <OperationType val="P"/>
+                    <TaskID comp="-1" obj="108"/>
+                    <Lock val="N"/>
+                    <Arguments>
+                      <Argument>
+                        <Variable val="16"/>
+                        <Skip val="N"/>
+                      </Argument>
+                    </Arguments>
+                    <Wait val="Y"/>
+                    <SyncData val="N"/>
+                    <RetainFocus val="N"/>
                     <Condition val="Y"/>
                     <Modifier val="B"/>
                     <Direction val="C"/>
-                  </STP>
+                  </CallTask>
+                </LogicLine>
+                <LogicLine>
+                  <BLOCK EndBlock="498" EndBlockSegment="498" FlowIsn="690" Type="E">
+                    <Condition Exp="28"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </BLOCK>
+                </LogicLine>
+                <LogicLine>
+                  <Invoke FlowIsn="691">
+                    <OperationType val="O"/>
+                    <Command val="29"/>
+                    <Wait val="N"/>
+                    <Show val="2"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </Invoke>
                 </LogicLine>
                 <LogicLine>
                   <END_BLK FlowIsn="498"/>
+                </LogicLine>
+                <LogicLine>
+                  <Remark FlowIsn="630">
+                    <Type val="2"/>
+                    <Text val=" "/>
+                  </Remark>
                 </LogicLine>
               </LogicLines>
             </LogicUnit>
@@ -1476,12 +1550,12 @@
             </LogicUnit>
           </TaskLogic>
           <TaskForms>
-            <FormEntry _last_isn="14" _last_test_id="14" id="1">
+            <FormEntry _last_isn="17" _last_test_id="17" id="1">
               <PropertyList model="FORM_GUI0">
                 <Width id="23" val="863"/>
                 <Height id="24" val="261"/>
                 <_Comment id="218"/>
-                <FormName id="311" valUnicode="Browse - xpatest_uris"/>
+                <FormName id="311" valUnicode="OWCLN001_xpatest_uris"/>
                 <_TabbingOrder id="318" val="1"/>
                 <PersistentFormState id="493"/>
               </PropertyList>
@@ -1644,6 +1718,95 @@
                   <TabOrder id="314" val="8"/>
                 </PropertyList>
               </Control>
+              <Control _test_id="17" id="17">
+                <PropertyList model="CTRL_GUI0_STATIC">
+                  <Text id="19" valUnicode="Open URL in Browser"/>
+                  <X id="21" val="355"/>
+                  <Y id="22" val="227"/>
+                  <Width id="23" val="353"/>
+                  <Height id="24" val="32"/>
+                  <StaticType id="70" val="128"/>
+                  <_Orientation id="143"/>
+                </PropertyList>
+              </Control>
+              <Control ISN_FATHER="17" PDOD="128" _test_id="16" id="16">
+                <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+                  <X id="21" val="359"/>
+                  <Y id="22" val="238"/>
+                  <Width id="23" val="96"/>
+                  <Height id="24" val="14"/>
+                  <Format id="82" valUnicode="Magic InvokeOS"/>
+                  <Arguments id="126">
+                    <Arguments>
+                      <Argument>
+                        <Variable val="2"/>
+                        <Skip val="N"/>
+                      </Argument>
+                      <Argument>
+                        <Expression val="27"/>
+                        <Skip val="N"/>
+                      </Argument>
+                    </Arguments>
+                  </Arguments>
+                  <RaiseEvent id="234">
+                    <EventType val="U"/>
+                    <PublicObject comp="-1" obj="10"/>
+                  </RaiseEvent>
+                  <TabOrder id="314" val="10"/>
+                </PropertyList>
+              </Control>
+              <Control ISN_FATHER="17" PDOD="128" _test_id="15" id="15">
+                <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+                  <X id="21" val="459"/>
+                  <Y id="22" val="238"/>
+                  <Width id="23" val="96"/>
+                  <Height id="24" val="14"/>
+                  <Format id="82" valUnicode="C#"/>
+                  <Arguments id="126">
+                    <Arguments>
+                      <Argument>
+                        <Variable val="2"/>
+                        <Skip val="N"/>
+                      </Argument>
+                      <Argument>
+                        <Expression val="27"/>
+                        <Skip val="N"/>
+                      </Argument>
+                    </Arguments>
+                  </Arguments>
+                  <RaiseEvent id="234">
+                    <EventType val="U"/>
+                    <PublicObject comp="-1" obj="10"/>
+                  </RaiseEvent>
+                  <TabOrder id="314" val="11"/>
+                </PropertyList>
+              </Control>
+              <Control ISN_FATHER="17" PDOD="128" _test_id="14" id="14">
+                <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+                  <X id="21" val="559"/>
+                  <Y id="22" val="238"/>
+                  <Width id="23" val="96"/>
+                  <Height id="24" val="14"/>
+                  <Format id="82" valUnicode="url.dll"/>
+                  <Arguments id="126">
+                    <Arguments>
+                      <Argument>
+                        <Variable val="2"/>
+                        <Skip val="N"/>
+                      </Argument>
+                      <Argument>
+                        <Expression val="26"/>
+                        <Skip val="N"/>
+                      </Argument>
+                    </Arguments>
+                  </Arguments>
+                  <RaiseEvent id="234">
+                    <EventType val="U"/>
+                    <PublicObject comp="-1" obj="10"/>
+                  </RaiseEvent>
+                  <TabOrder id="314" val="12"/>
+                </PropertyList>
+              </Control>
               <Control PDOD="128" _test_id="11" id="11">
                 <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
                   <X id="21" val="12"/>
@@ -1658,34 +1821,20 @@
                   <TabOrder id="314" val="9"/>
                 </PropertyList>
               </Control>
-              <Control PDOD="128" _test_id="14" id="14">
-                <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
-                  <X id="21" val="112"/>
-                  <Y id="22" val="234"/>
-                  <Width id="23" val="96"/>
-                  <Height id="24" val="14"/>
-                  <Format id="82" valUnicode="Oen URL in Browser"/>
-                  <Arguments id="126">
-                    <Arguments>
-                      <Argument>
-                        <Variable val="2"/>
-                        <Skip val="N"/>
-                      </Argument>
-                    </Arguments>
-                  </Arguments>
-                  <RaiseEvent id="234">
-                    <EventType val="U"/>
-                    <PublicObject comp="-1" obj="10"/>
-                  </RaiseEvent>
-                  <TabOrder id="314" val="10"/>
-                </PropertyList>
-              </Control>
             </FormEntry>
           </TaskForms>
           <Expressions>
             <Expression id="1">
               <ExpSyntax val="1"/>
               <ExpAttribute val="N"/>
+            </Expression>
+            <Expression id="26">
+              <ExpSyntax val="'url.dll'"/>
+              <ExpAttribute val="A"/>
+            </Expression>
+            <Expression id="27">
+              <ExpSyntax val="'c#'"/>
+              <ExpAttribute val="A"/>
             </Expression>
             <Expression id="21">
               <ExpSyntax val="'https://github.com/asedl/XpaDemo/blob/master/XpaDemo/Doc/Samples/XpaTHttp/OWCLN001_xpatest_uris.md'"/>
@@ -1752,11 +1901,27 @@
               <ExpAttribute val="A"/>
             </Expression>
             <Expression id="22">
-              <ExpSyntax val="{0,16}&lt;>''"/>
+              <ExpSyntax val="{0,16}=''"/>
+              <ExpAttribute val="B"/>
+            </Expression>
+            <Expression id="24">
+              <ExpSyntax val="{0,17}='url.dll' OR {0,17}=''"/>
+              <ExpAttribute val="B"/>
+            </Expression>
+            <Expression id="25">
+              <ExpSyntax val="{0,17}='c#'"/>
+              <ExpAttribute val="B"/>
+            </Expression>
+            <Expression id="28">
+              <ExpSyntax val="{0,17}='Magic'"/>
               <ExpAttribute val="B"/>
             </Expression>
             <Expression id="23">
               <ExpSyntax val="'rundll32.exe url.dll,FileProtocolHandler &quot;' &amp; Trim({0,16}) &amp; '&quot;'"/>
+              <ExpAttribute val="A"/>
+            </Expression>
+            <Expression id="29">
+              <ExpSyntax val="'&quot;' &amp; Trim({0,16}) &amp; '&quot;'"/>
               <ExpAttribute val="A"/>
             </Expression>
           </Expressions>
@@ -1816,6 +1981,11 @@
             <EVENT_PARAMETER ATTR="U" Comment="Url where browser will navigate to" NAME="Url" PICT_U="2048" id="1">
               <MODEL>
                 <PublicObject comp="-1" obj="11"/>
+              </MODEL>
+            </EVENT_PARAMETER>
+            <EVENT_PARAMETER ATTR="U" NAME="Method" PICT_U="20" id="2">
+              <MODEL>
+                <PublicObject comp="-1"/>
               </MODEL>
             </EVENT_PARAMETER>
           </EVNT>
