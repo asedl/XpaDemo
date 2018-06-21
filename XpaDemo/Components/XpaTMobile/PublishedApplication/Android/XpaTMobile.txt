@@ -1,6 +1,6 @@
 <properties>
    <property key="protocol" val="http"/>
-   <property key="server" val="10.0.2.2"/>
+   <property key="server" val="Andreas-Lenovo"/>
    <property key="requester" val="/XpaScripts/MGrqispi.dll"/>
    <property key="appname" val="XpaTMobile"/>
    <property key="prgname" val="RC:Products"/>

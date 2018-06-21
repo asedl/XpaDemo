@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "12345",
+    "firebase_url": "https://xxx.firebaseio.com",
+    "project_id": "xxx-xxx",
+    "storage_bucket": "xxx.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:12345:android:0000",
+        "android_client_info": {
+          "package_name": "com.magicsoftware.magicdev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "xxxx.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "xxxxxxxx"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
