@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Studio Solution File, Format Version 11.00
+Project("{7C65038C-1B2F-41E1-A629-BED71D161F6F}") = "XpaTQueue", "XpaTQueue.xpaproj", "{B951D746-6C19-42EC-B598-5A43CA737DFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B951D746-6C19-42EC-B598-5A43CA737DFF}.Debug|x86.ActiveCfg = Debug|x86
+		{B951D746-6C19-42EC-B598-5A43CA737DFF}.Debug|x86.Build.0 = Debug|x86
+		{B951D746-6C19-42EC-B598-5A43CA737DFF}.Release|x86.ActiveCfg = Release|x86
+		{B951D746-6C19-42EC-B598-5A43CA737DFF}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

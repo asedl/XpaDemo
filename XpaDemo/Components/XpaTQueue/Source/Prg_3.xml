@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="13030.00"/>
+    <WithIsn val="Y"/>
+    <_InternalTask val="N"/>
+    <IsRoot val="N"/>
+    <InIndex val="N"/>
+    <UniqueISNConvState val="12"/>
+  </Header>
+
+  <ProgramsRepository>
+    <Programs>
+      <Task MainProgram="N">
+        <Header Description="Test1" ISN_2="1" LastIsn="2" id="3">
+          <ExecutionRight comp="-1"/>
+          <Resident val="N"/>
+          <SQL val="N"/>
+          <ReturnValue>
+            <ReturnValueAttr/>
+            <ParametersAttributes/>
+          </ReturnValue>
+          <SqlWhereExist val="N"/>
+          <TaskType val="B"/>
+          <External val="N"/>
+          <Offline val="N"/>
+          <FormType val="N"/>
+          <DotNetObjectExists val="Y"/>
+          <LastModified _date="736867" _time="14357" date="22/06/2018" time="03:59:17"/>
+        </Header>
+        <Resource>
+          <Columns/>
+        </Resource>
+        <Information>
+          <Key>
+            <Mode val="N"/>
+          </Key>
+          <DB comp="-1"/>
+          <Sort>
+            <CLS val="A"/>
+          </Sort>
+          <ForceRecordDelete DEL="N"/>
+          <EndTaskCondition val="Y"/>
+          <EvaluateEndCondition val="A"/>
+          <InitialMode val="M"/>
+          <Locate Direction="A"/>
+          <Range Direction="A"/>
+          <VarRange/>
+          <TaskProperties>
+            <SelectionTable val="N"/>
+            <ConfirmUpdate CNFU="N"/>
+            <ConfirmCancel val="N"/>
+            <ErrorStrategy val="A"/>
+            <LockingStrategy val="M"/>
+            <CacheStrategy val="T"/>
+            <ForceRecordSuffix val="N"/>
+            <TransactionMode val="P"/>
+            <TransactionBegin val="N"/>
+            <PreloadView val="N"/>
+            <AllowEmptyDataview val="N"/>
+            <KeepCreatedContext val="N"/>
+          </TaskProperties>
+          <SIDE_WIN>
+            <AllowOptions val="N"/>
+            <AllowQuery val="Y"/>
+            <AllowModify val="Y"/>
+            <AllowCreate val="Y"/>
+            <AllowDelete val="Y"/>
+            <AllowLocate val="Y"/>
+            <AllowRange val="Y"/>
+            <AllowIndexChange val="Y"/>
+            <AllowSorting val="Y"/>
+            <AllowIOFiles val="Y"/>
+            <RecordCycle val="Y"/>
+            <AllowEvents val="Y"/>
+            <AllowIndexOptimization val="Y"/>
+            <AllowLocationInQuery val="Y"/>
+            <AllowPrintingData val="N"/>
+          </SIDE_WIN>
+          <WIN>
+            <OpenTaskWindow val="N"/>
+            <CloseTaskWindow val="Y"/>
+            <ForegroundWindow val="Y"/>
+            <FlipFld val="N"/>
+            <RefreshTaskWindow ReturnValue="N"/>
+          </WIN>
+          <BOX>
+            <Direction val="V"/>
+          </BOX>
+        </Information>
+        <TaskLogic>
+          <LogicUnit id="1" propagate="78">
+            <Level val="R"/>
+            <Type val="M"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="S"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <LogicLines>
+              <LogicLine>
+                <DATAVIEW_SRC FlowIsn="1" Type="M">
+                  <Condition val="N"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </DATAVIEW_SRC>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="3" propagate="78">
+            <Level val="R"/>
+            <Type val="S"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="S"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <Expanded val="1"/>
+            <LogicLines>
+              <LogicLine>
+                <Remark FlowIsn="3">
+                  <Type val="2"/>
+                  <Text val=" "/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <CallTask FlowIsn="4">
+                  <OperationType val="T"/>
+                  <TaskID comp="-1" obj="2"/>
+                  <Lock val="N"/>
+                  <Wait val="Y"/>
+                  <SyncData val="N"/>
+                  <RetainFocus val="N"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </CallTask>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+        </TaskLogic>
+        <TaskForms>
+          <FormEntry id="1">
+            <PropertyList model="FORM_GUI0">
+              <_Comment id="218"/>
+              <FormName id="311" valUnicode="Test1"/>
+            </PropertyList>
+          </FormEntry>
+        </TaskForms>
+        <Task MainProgram="N">
+          <Header Description="CreateConsumer" ISN_2="2" LastIsn="2" id="3">
+            <ExecutionRight comp="-1"/>
+            <Resident val="N"/>
+            <SQL val="N"/>
+            <ReturnValue>
+              <ReturnValueAttr/>
+              <ParametersAttributes/>
+            </ReturnValue>
+            <SqlWhereExist val="N"/>
+            <TaskType val="B"/>
+            <External val="N"/>
+            <FormType val="N"/>
+            <DotNetObjectExists val="Y"/>
+            <LastModified _date="736867" _time="14355" date="22/06/2018" time="03:59:15"/>
+          </Header>
+          <Resource>
+            <Columns/>
+          </Resource>
+          <Information>
+            <Key>
+              <Mode val="N"/>
+            </Key>
+            <DB comp="-1"/>
+            <Sort>
+              <CLS val="A"/>
+            </Sort>
+            <ForceRecordDelete DEL="N"/>
+            <EndTaskCondition val="Y"/>
+            <EvaluateEndCondition val="A"/>
+            <InitialMode val="M"/>
+            <Locate Direction="A"/>
+            <Range Direction="A"/>
+            <VarRange/>
+            <TaskProperties>
+              <SelectionTable val="N"/>
+              <ConfirmUpdate CNFU="N"/>
+              <ConfirmCancel val="N"/>
+              <ErrorStrategy val="A"/>
+              <LockingStrategy val="I"/>
+              <CacheStrategy val="N"/>
+              <ForceRecordSuffix val="N"/>
+              <TransactionMode val="W"/>
+              <TransactionBegin val="T"/>
+              <PreloadView val="N"/>
+              <AllowEmptyDataview val="N"/>
+              <KeepCreatedContext val="N"/>
+            </TaskProperties>
+            <SIDE_WIN>
+              <AllowOptions val="N"/>
+              <AllowQuery val="Y"/>
+              <AllowModify val="Y"/>
+              <AllowCreate val="Y"/>
+              <AllowDelete val="Y"/>
+              <AllowLocate val="Y"/>
+              <AllowRange val="Y"/>
+              <AllowIndexChange val="Y"/>
+              <AllowSorting val="Y"/>
+              <AllowIOFiles val="Y"/>
+              <RecordCycle val="Y"/>
+              <AllowEvents val="Y"/>
+              <AllowIndexOptimization val="Y"/>
+              <AllowLocationInQuery val="Y"/>
+              <AllowPrintingData val="N"/>
+            </SIDE_WIN>
+            <WIN>
+              <OpenTaskWindow val="N"/>
+              <CloseTaskWindow val="Y"/>
+              <ForegroundWindow val="Y"/>
+              <FlipFld val="N"/>
+              <RefreshTaskWindow ReturnValue="N"/>
+            </WIN>
+            <BOX>
+              <Direction val="V"/>
+            </BOX>
+          </Information>
+          <TaskLogic>
+            <LogicUnit id="1" propagate="78">
+              <Level val="R"/>
+              <Type val="M"/>
+              <Scope val="S"/>
+              <EngineDirective val="S"/>
+              <ShowMessage val="Y"/>
+              <Condition val="89"/>
+              <Event>
+                <EventType val="S"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <LogicLines>
+                <LogicLine>
+                  <DATAVIEW_SRC FlowIsn="1" Type="M">
+                    <Condition val="N"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </DATAVIEW_SRC>
+                </LogicLine>
+              </LogicLines>
+            </LogicUnit>
+            <LogicUnit id="2" propagate="78">
+              <Level val="R"/>
+              <Type val="S"/>
+              <Scope val="S"/>
+              <EngineDirective val="S"/>
+              <ShowMessage val="Y"/>
+              <Condition val="89"/>
+              <Event>
+                <EventType val="S"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Expanded val="1"/>
+              <LogicLines>
+                <LogicLine>
+                  <Remark FlowIsn="2">
+                    <Type val="2"/>
+                    <Text val=" "/>
+                  </Remark>
+                </LogicLine>
+                <LogicLine>
+                  <Invoke FlowIsn="3">
+                    <OperationType val="."/>
+                    <TaskID comp="-1"/>
+                    <Lock val="Y"/>
+                    <Arguments>
+                      <Argument>
+                        <Skip val="N"/>
+                        <DotNetType val="void"/>
+                      </Argument>
+                    </Arguments>
+                    <Wait val="Y"/>
+                    <SyncData val="N"/>
+                    <FunctionName val="func"/>
+                    <SnippetCode val="using System;&#xA;using System.Threading;&#xA;using Apache.NMS;&#xA;using Apache.NMS.Util;&#xA;&#xA;public static class Snippet&#xA;{&#xA;&#x9;public static void func()&#xA;&#x9;{&#xA;&#x9;&#x9;TestMain.Main(null);&#x9;&#x9;&#x9;&#x9;&#xA;&#x9;}&#xA;}&#xA;&#xA;public static class TestMain {&#xA;&#x9;private static AutoResetEvent semaphore = new AutoResetEvent(false);&#xA;    private static ITextMessage message = null;&#xA;    private static TimeSpan receiveTimeout = TimeSpan.FromSeconds(10);&#xA;&#x9;&#xA;&#x9;public static void Main (string[] args){&#xA;&#xA;&#x9;&#x9;// Example connection strings:&#xA;        //    activemq:tcp://activemqhost:61616&#xA;        //    stomp:tcp://activemqhost:61613&#xA;        //    ems:tcp://tibcohost:7222&#xA;        //    msmq://localhost&#xA; &#xA;        Uri connecturi = new Uri(&quot;tcp://Andreas-Lenovo:61616?maximumConnections=1000&amp;wireFormat.maxFrameSize=104857600&quot;);&#xA;&#xA;&#x9;&#x9;Console.WriteLine(&quot;About to connect to &quot; + connecturi);&#xA; &#xA;        // NOTE: ensure the nmsprovider-activemq.config file exists in the executable folder.&#xA;        IConnectionFactory factory = new NMSConnectionFactory(connecturi);&#xA; &#xA;        using(IConnection connection = factory.CreateConnection())&#xA;        using(ISession session = connection.CreateSession())&#xA;        {&#xA;            IDestination destination = SessionUtil.GetDestination(session, &quot;queue://FOO.BAR&quot;);&#xA; &#xA;            Console.WriteLine(&quot;Using destination: &quot; + destination);&#xA; &#xA;            // Create a consumer and producer&#xA;            using(IMessageConsumer consumer = session.CreateConsumer(destination))&#xA;            using(IMessageProducer producer = session.CreateProducer(destination))&#xA;            {&#xA;                // Start the connection so that messages will be processed.&#xA;                connection.Start();&#xA;        &#x9;&#x9;producer.DeliveryMode = MsgDeliveryMode.Persistent;&#xA;                producer.RequestTimeout = receiveTimeout;&#xA; &#xA;                consumer.Listener += new MessageListener(OnMessage);&#xA; &#xA;                // Send a message&#xA;                ITextMessage request = session.CreateTextMessage(&quot;Hello World!&quot;);&#xA;                request.NMSCorrelationID = &quot;abc&quot;;&#xA;                request.Properties[&quot;NMSXGroupID&quot;] = &quot;cheese&quot;;&#xA;                request.Properties[&quot;myHeader&quot;] = &quot;Cheddar&quot;;&#xA; &#xA;                producer.Send(request);&#xA; &#xA;                // Wait for the message&#xA;                semaphore.WaitOne((int) receiveTimeout.TotalMilliseconds, true);&#xA; &#xA;                if(message == null)&#xA;                {&#xA;                    Console.WriteLine(&quot;No message received!&quot;);&#xA;                }&#xA;                else&#xA;                {&#xA;                    Console.WriteLine(&quot;Received message with ID:   &quot; + message.NMSMessageId);&#xA;                    Console.WriteLine(&quot;Received message with text: &quot; + message.Text);&#xA;                }&#xA;            }&#xA;        }&#x9;&#xA;&#x9;&#x9;&#xA;&#x9;}&#xA;&#x9; &#xA;&#x9;private static void OnMessage(IMessage receivedMsg)&#xA;    {&#xA;        message = receivedMsg as ITextMessage;&#xA;        semaphore.Set();&#xA;    }&#xA;}&#xA;"/>
+                    <CompiledCode val="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EwDeALMABIAAAAAAAAAAAAAAAAAAAAAAMwEAAAQAAAAAAAAAAAAAAAEAKAAAAAAAAQAHAAEANg8AAAAAEgBuAAAAAAAEAAAAAAAAAAAAAAABADEAAAAAAAAAAAAAPE1vZHVsZT4AcWUwaWZuNTEuZGxsAFNuaXBwZXQAVGVzdE1haW4AbXNjb3JsaWIAU3lzdGVtAE9iamVjdABmdW5jAFN5c3RlbS5UaHJlYWRpbmcAQXV0b1Jlc2V0RXZlbnQAc2VtYXBob3JlAEFwYWNoZS5OTVMASVRleHRNZXNzYWdlAG1lc3NhZ2UAVGltZVNwYW4AcmVjZWl2ZVRpbWVvdXQATWFpbgBJTWVzc2FnZQBPbk1lc3NhZ2UAYXJncwByZWNlaXZlZE1zZwBTeXN0ZW0uUnVudGltZS5Db21waWxlclNlcnZpY2VzAENvbXBpbGF0aW9uUmVsYXhhdGlvbnNBdHRyaWJ1dGUALmN0b3IAUnVudGltZUNvbXBhdGliaWxpdHlBdHRyaWJ1dGUAcWUwaWZuNTEAVXJpAFN0cmluZwBDb25jYXQAQ29uc29sZQBXcml0ZUxpbmUATk1TQ29ubmVjdGlvbkZhY3RvcnkASUNvbm5lY3Rpb25GYWN0b3J5AElDb25uZWN0aW9uAENyZWF0ZUNvbm5lY3Rpb24ASVNlc3Npb24AQ3JlYXRlU2Vzc2lvbgBBcGFjaGUuTk1TLlV0aWwAU2Vzc2lvblV0aWwASURlc3RpbmF0aW9uAEdldERlc3RpbmF0aW9uAElNZXNzYWdlQ29uc3VtZXIAQ3JlYXRlQ29uc3VtZXIASU1lc3NhZ2VQcm9kdWNlcgBDcmVhdGVQcm9kdWNlcgBJU3RhcnRhYmxlAFN0YXJ0AE1zZ0RlbGl2ZXJ5TW9kZQBzZXRfRGVsaXZlcnlNb2RlAHNldF9SZXF1ZXN0VGltZW91dABNZXNzYWdlTGlzdGVuZXIAYWRkX0xpc3RlbmVyAENyZWF0ZVRleHRNZXNzYWdlAHNldF9OTVNDb3JyZWxhdGlvbklEAElQcmltaXRpdmVNYXAAZ2V0X1Byb3BlcnRpZXMAc2V0X0l0ZW0AU2VuZABnZXRfVG90YWxNaWxsaXNlY29uZHMAV2FpdEhhbmRsZQBXYWl0T25lAGdldF9OTVNNZXNzYWdlSWQAZ2V0X1Rl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"/>
+                    <SnippetLanguage val="C"/>
+                    <ForCompactFramework val="N"/>
+                    <isGuiThreadExecution val="Y"/>
+                    <CompileTime HighDateTime="30673355" LowDateTime="4124417917"/>
+                    <AssemblyIds val="1181783956,"/>
+                    <RetainFocus val="Y"/>
+                    <Condition val="Y"/>
+                    <Modifier val="S"/>
+                    <Direction val="C"/>
+                  </Invoke>
+                </LogicLine>
+              </LogicLines>
+            </LogicUnit>
+          </TaskLogic>
+          <TaskForms>
+            <FormEntry id="1">
+              <PropertyList model="FORM_GUI0">
+                <_Comment id="218"/>
+                <FormName id="311" valUnicode="CreateConsumer"/>
+              </PropertyList>
+            </FormEntry>
+          </TaskForms>
+        </Task>
+      </Task>
+    </Programs>
+  </ProgramsRepository>
+
+</Application>
