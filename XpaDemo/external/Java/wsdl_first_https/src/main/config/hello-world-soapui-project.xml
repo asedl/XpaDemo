@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="4bf693fc-6188-45f8-9f92-273d18bd15fd" activeEnvironment="Default" name="hello_world" resourceRoot="" soapui-version="5.4.0" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:WsdlInterface" id="a7a06eab-5c40-4033-89da-c972b613baa9" wsaVersion="NONE" name="Greeter_SOAPBinding" type="wsdl" bindingName="{http://apache.org/hello_world_soap_http}Greeter_SOAPBinding" soapVersion="1_1" anonymous="optional" definition="file:/C:/Apache/apache-cxf-3.2.4/samples/wsdl_first_https/src/main/config/hello_world.wsdl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart="file:\C:\Apache\apache-cxf-3.2.4\samples\wsdl_first_https\src\main\config\hello_world.wsdl"><con:part><con:url>file:\C:\Apache\apache-cxf-3.2.4\samples\wsdl_first_https\src\main\config\hello_world.wsdl</con:url><con:content><![CDATA[<!--Licensed to the Apache Software Foundation (ASF) under one
+  or more contributor license agreements. See the NOTICE file
+  distributed with this work for additional information
+  regarding copyright ownership. The ASF licenses this file
+  to you under the Apache License, Version 2.0 (the
+  "License"); you may not use this file except in compliance
+  with the License. You may obtain a copy of the License at
+ 
+  http://www.apache.org/licenses/LICENSE-2.0
+ 
+  Unless required by applicable law or agreed to in writing,
+  software distributed under the License is distributed on an
+  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+  KIND, either express or implied. See the License for the
+  specific language governing permissions and limitations
+  under the License.-->
+<wsdl:definitions name="HelloWorld" targetNamespace="http://apache.org/hello_world_soap_http" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://apache.org/hello_world_soap_http" xmlns:x1="http://apache.org/hello_world_soap_http/types" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <wsdl:types>
+    <schema targetNamespace="http://apache.org/hello_world_soap_http/types" elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://apache.org/hello_world_soap_http/types">
+      <simpleType name="MyStringType">
+        <restriction base="string">
+          <maxLength value="30"/>
+        </restriction>
+      </simpleType>
+      <element name="greetMe">
+        <complexType>
+          <sequence>
+            <element name="requestType" type="tns:MyStringType"/>
+          </sequence>
+        </complexType>
+      </element>
+      <element name="greetMeResponse">
+        <complexType>
+          <sequence>
+            <element name="responseType" type="string"/>
+          </sequence>
+        </complexType>
+      </element>
+    </schema>
+  </wsdl:types>
+  <wsdl:message name="greetMeRequest">
+    <wsdl:part element="x1:greetMe" name="in"/>
+  </wsdl:message>
+  <wsdl:message name="greetMeResponse">
+    <wsdl:part element="x1:greetMeResponse" name="out"/>
+  </wsdl:message>
+  <wsdl:portType name="Greeter">
+    <wsdl:operation name="greetMe">
+      <wsdl:input message="tns:greetMeRequest" name="greetMeRequest"/>
+      <wsdl:output message="tns:greetMeResponse" name="greetMeResponse"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="Greeter_SOAPBinding" type="tns:Greeter">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="greetMe">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="greetMeRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="greetMeResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SOAPService">
+    <wsdl:port binding="tns:Greeter_SOAPBinding" name="SoapPort">
+      <soap:address location="https://localhost:9001/SoapContext/SoapPort"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part></con:definitionCache><con:endpoints><con:endpoint>https://localhost:9001/SoapContext/SoapPort</con:endpoint></con:endpoints><con:operation id="7767b95a-48a3-499f-80ec-99c2f757fbfe" isOneWay="false" action="" name="greetMe" bindingOperationName="greetMe" type="Request-Response" outputName="greetMeResponse" inputName="greetMeRequest" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="7b50ff8f-bdf2-4dff-96a6-379f9efc40f6" name="Request 1" outgoingWss="Outgoing" incomingWss="Incoming"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://localhost:9001/SoapContext/SoapPort</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:typ="http://apache.org/hello_world_soap_http/types">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <typ:greetMe>
+         <typ:requestType></typ:requestType>
+      </typ:greetMe>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:addedBasicAuthenticationTypes>SPNEGO/Kerberos</con:addedBasicAuthenticationTypes><con:preemptive>true</con:preemptive><con:authType>Preemptive</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://apache.org/hello_world_soap_http/Greeter/greetMeRequest"/><con:wsrmConfig version="1.2"/></con:call></con:operation></con:interface><con:properties/><con:wssContainer><con:crypto><con:source>C:/Apache/apache-cxf-3.2.4/samples/wsdl_first_https/src/main/config/clientKeystore.jks</con:source><con:password>cspass</con:password><con:type>KEYSTORE</con:type><con:defaultAlias>Andreas</con:defaultAlias><con:aliasPassword>cspass</con:aliasPassword></con:crypto><con:crypto><con:source>C:/Apache/apache-cxf-3.2.4/samples/wsdl_first_https/src/main/config/clientKeystore.jks</con:source><con:password>cspass</con:password><con:type>TRUSTSTORE</con:type><con:defaultAlias/></con:crypto><con:incoming><con:name>Incoming</con:name><con:decryptCrypto>clientKeystore.jks</con:decryptCrypto><con:signatureCrypto>clientKeystore.jks</con:signatureCrypto><con:decryptPassword>cspass</con:decryptPassword></con:incoming><con:outgoing actor=""><con:name>Outgoing</con:name><con:password>cspass</con:password><con:entry type="Encryption" username="andreas"><con:configuration><crypto>clientKeystore.jks</crypto><keyIdentifierType>2</keyIdentifierType><symmetricEncAlgorithm/><encKeyTransport/><embeddedKeyName/><embeddedKeyPassword/><encryptionCanonicalization/><encryptSymmetricKey>true</encryptSymmetricKey></con:configuration></con:entry></con:outgoing></con:wssContainer><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:sensitiveInformation/></con:soapui-project>

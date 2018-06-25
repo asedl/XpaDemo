@@ -1,0 +1,10 @@
+C:\Users\Andreas\Source\Repos\XpaTHttpDNet\XpaTHttpDNetTest\bin\Release\XpaTHttpDNetTest.exe.config
+C:\Users\Andreas\Source\Repos\XpaTHttpDNet\XpaTHttpDNetTest\bin\Release\XpaTHttpDNetTest.exe
+C:\Users\Andreas\Source\Repos\XpaTHttpDNet\XpaTHttpDNetTest\bin\Release\XpaTHttpDNetTest.pdb
+C:\Users\Andreas\Source\Repos\XpaTHttpDNet\XpaTHttpDNetTest\obj\Release\XpaTHttpDNetTest.csprojAssemblyReference.cache
+C:\Users\Andreas\Source\Repos\XpaTHttpDNet\XpaTHttpDNetTest\obj\Release\XpaTHttpDNetTest.csproj.CoreCompileInputs.cache
+C:\Users\Andreas\Source\Repos\XpaTHttpDNet\XpaTHttpDNetTest\obj\Release\XpaTHttpDNetTest.exe
+C:\Users\Andreas\Source\Repos\XpaTHttpDNet\XpaTHttpDNetTest\obj\Release\XpaTHttpDNetTest.pdb
+C:\Users\Andreas\Source\Repos\XpaTHttpDNet\XpaTHttpDNetTest\bin\Release\XpaTHttpDNet.dll
+C:\Users\Andreas\Source\Repos\XpaTHttpDNet\XpaTHttpDNetTest\bin\Release\XpaTHttpDNet.pdb
+C:\Users\Andreas\Source\Repos\XpaTHttpDNet\XpaTHttpDNetTest\obj\Release\XpaTHttpDNetTest.csproj.CopyComplete

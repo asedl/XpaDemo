@@ -1,0 +1,19 @@
+       // Magic ECI Generator                                          //
+       // Created by   :----No User logged in----         //
+       // Created Date :25/06/2018 Time :04:11:51              //
+       // File Name    :C:\xpa\samples\XpaDemo\XpaDemo\Components\XpaTSoap\XpaTSoap.eci         //
+COMPID = 1262526723-57134-18824-BE5E8C225
+NAME = "XpaTSoap"
+DESC = ""
+COMPTYPE = "Magic xpa"
+IMMED = "N"
+PROJECTFILE = "C:\xpa\samples\XpaDemo\XpaDemo\Components\XpaTSoap\XpaTSoap.edp"
+CABINETFILE = "%Components%XpaTSoap.ecf"
+VRSN = 0.1
+HLPFILE = ""
+HLPKEY = ""
+
+PRG=PUBLIC="OSOAP001_GreetingsClient" RMK="" HELPKEY=""
+PRG=PUBLIC="BSOAP001_GreetingsClient" RMK="" HELPKEY=""
+
+[ENVIRONMENT]

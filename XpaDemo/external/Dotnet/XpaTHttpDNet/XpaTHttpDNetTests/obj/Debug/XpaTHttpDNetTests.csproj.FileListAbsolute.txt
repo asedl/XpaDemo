@@ -1,0 +1,16 @@
+C:\Users\Andreas\Source\Repos\XpaTHttpDNet\XpaTHttpDNetTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Andreas\Source\Repos\XpaTHttpDNet\XpaTHttpDNetTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Andreas\Source\Repos\XpaTHttpDNet\XpaTHttpDNetTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Andreas\Source\Repos\XpaTHttpDNet\XpaTHttpDNetTests\bin\Debug\XpaTHttpDNetTests.dll
+C:\Users\Andreas\Source\Repos\XpaTHttpDNet\XpaTHttpDNetTests\bin\Debug\XpaTHttpDNetTests.pdb
+C:\Users\Andreas\Source\Repos\XpaTHttpDNet\XpaTHttpDNetTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Andreas\Source\Repos\XpaTHttpDNet\XpaTHttpDNetTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Andreas\Source\Repos\XpaTHttpDNet\XpaTHttpDNetTests\bin\Debug\XpaTHttpDNet.dll
+C:\Users\Andreas\Source\Repos\XpaTHttpDNet\XpaTHttpDNetTests\bin\Debug\XpaTHttpDNet.pdb
+C:\Users\Andreas\Source\Repos\XpaTHttpDNet\XpaTHttpDNetTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Andreas\Source\Repos\XpaTHttpDNet\XpaTHttpDNetTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Andreas\Source\Repos\XpaTHttpDNet\XpaTHttpDNetTests\obj\Debug\XpaTHttpDNetTests.csprojAssemblyReference.cache
+C:\Users\Andreas\Source\Repos\XpaTHttpDNet\XpaTHttpDNetTests\obj\Debug\XpaTHttpDNetTests.csproj.CoreCompileInputs.cache
+C:\Users\Andreas\Source\Repos\XpaTHttpDNet\XpaTHttpDNetTests\obj\Debug\XpaTHttpDNetTests.csproj.CopyComplete
+C:\Users\Andreas\Source\Repos\XpaTHttpDNet\XpaTHttpDNetTests\obj\Debug\XpaTHttpDNetTests.dll
+C:\Users\Andreas\Source\Repos\XpaTHttpDNet\XpaTHttpDNetTests\obj\Debug\XpaTHttpDNetTests.pdb

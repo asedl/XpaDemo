@@ -5,7 +5,7 @@
     <Version val="13030.00"/>
     <WithIsn val="Y"/>
     <Exe comp="-1"/>
-    <LastIsn val="17"/>
+    <LastIsn val="19"/>
     <LastIsnFolder val="2"/>
     <Folders>
       <Folder id="2">
@@ -560,6 +560,40 @@
             <PublicName val="GlobalHelp"/>
           </Object>
         </ComponentEvents>
+      </Component>
+      <Component FolderIsn="1" id="18" name="XpaTSoap">
+        <ComponentType val="Magic xpa"/>
+        <Type val="U"/>
+        <LoadImmediate val="N"/>
+        <LastISN val="2"/>
+        <CompId val="1262526723-57134-18824-BE5E8C225"/>
+        <Revision val="0.1"/>
+        <MciFile val="C:\xpa\samples\XpaDemo\XpaDemo\Components\XpaTSoap\XpaTSoap.eci"/>
+        <ProjectFile val="C:\xpa\samples\XpaDemo\XpaDemo\Components\XpaTSoap\XpaTSoap.edp"/>
+        <CABINET_FILE val="%Components%XpaTSoap.ecf"/>
+        <ComponentPrograms>
+          <Object>
+            <id val="3"/>
+            <ItemIsn val="2"/>
+            <PublicName val="OSOAP001_GreetingsClient"/>
+          </Object>
+          <Object>
+            <id val="4"/>
+            <ItemIsn val="1"/>
+            <PublicName val="BSOAP001_GreetingsClient"/>
+          </Object>
+        </ComponentPrograms>
+      </Component>
+      <Component FolderIsn="1" id="19" name="XpaTHttpDNet">
+        <Description val="XpaTHttpDNet"/>
+        <ComponentType val=".NET"/>
+        <Type val="D"/>
+        <LoadImmediate val="Y"/>
+        <LastISN val="32"/>
+        <AssemblyName val="XpaTHttpDNet, Version=1.0.0.0, Culture=neutral, PublicKeyToken=dc3f52368c33730b"/>
+        <AssemblyPath val="C:\xpa\samples\XpaDemo\XpaDemo\XpaTHttpDNet.dll"/>
+        <UseSpecificVersion val="N"/>
+        <isGuiThreadExecution val="N"/>
       </Component>
     </Components>
     <Aliases LastIsnAliases="6">
