@@ -16,5 +16,5 @@ Generates a SOAP request and sends that to "GreetingsServer". Implementation is 
 ![OSOAP001_GreetingsClient_Magic](./OSOAP001_GreetingsClient_02.png)
 
 # Furter Notes / implementation details
-The "GreetingsServer" (SOAP) webservice is implemented with Apache CXF and Spring framework. Actually it's one of the samples which do ship with Apache CXF, if you download that. Sources are copied to this project (-> /XpaDemo/external/Java/wsdl_first_https) 
+The "GreetingsServer" (SOAP) webservice is implemented with Apache CXF and Spring framework. Actually it's one of the samples which do ship with Apache CXF, if you download that. Sources are copied to this project: [wsdl_first_https](/XpaDemo/external/Java/wsdl_first_https) 
 
