@@ -28,7 +28,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736870" _time="16266" date="25/06/2018" time="04:31:06"/>
+          <LastModified _date="736870" _time="32054" date="25/06/2018" time="08:54:14"/>
         </Header>
         <ItemIsn val="10"/>
         <Resource>
@@ -204,7 +204,7 @@
                   <Column val="8"/>
                   <Type val="V"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="5"/>
+                  <_DitIndexForToolkit val="6"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -449,7 +449,7 @@
           </LogicUnit>
         </TaskLogic>
         <TaskForms>
-          <FormEntry _last_isn="9" _last_test_id="9" id="1">
+          <FormEntry _last_isn="10" _last_test_id="10" id="1">
             <PropertyList model="FORM_GUI0">
               <Width id="23" val="491"/>
               <Height id="24" val="223"/>
@@ -512,12 +512,22 @@
                 <TabOrder id="314" val="2"/>
               </PropertyList>
             </Control>
+            <Control _test_id="10" id="10">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19" valUnicode="SOAP Response"/>
+                <X id="21" val="7"/>
+                <Y id="22" val="40"/>
+                <Width id="23" val="474"/>
+                <Height id="24" val="9"/>
+                <EnableRTF id="69"/>
+              </PropertyList>
+            </Control>
             <Control PDOD="128" _test_id="8" id="8">
               <PropertyList model="CTRL_GUI0_EDIT">
                 <X id="21" val="8"/>
-                <Y id="22" val="43"/>
+                <Y id="22" val="51"/>
                 <Width id="23" val="473"/>
-                <Height id="24" val="150"/>
+                <Height id="24" val="143"/>
                 <Data FieldID="8" id="43"/>
                 <MultiLineEdit id="71" val="Y"/>
                 <VerticalScroll id="73" val="Y"/>
