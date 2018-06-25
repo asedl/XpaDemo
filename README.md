@@ -1,4 +1,3 @@
-> **This is a fork of the original [xpaxmltest repository](https://github.com/asedl/xpaxmltest) which has been renamed to "XpaDemo". Its not yet tested at all. Once that's done the original repository will be archived and development continues on this one**
 # Magic XPA (SingleUser) demo project XpaDemo
 
 This is a repository with a growing collection of Magic XPA demos / samples with a strong focus on the exotic stuff. If you do want demos / samples in order to actually learn "Magic" you should download and install (latest version) of Magic XPA and first have a look into the samples and demo applications which do ship with that (also exotic) development tool.
@@ -24,7 +23,7 @@ Currently this project contains following top-level samples / demos / modules, m
 
 | Demo / Subproject    | Brief description
 | -------------------- | ----------------- |
-| XpaTest | Goal is basically a small Framework for more complex Magic applications which does autoconfigure itself |
+| [XpaDemo](XpaDemo/) | Goal is basically a small Framework for more complex Magic applications which does autoconfigure itself |
 | XpaTHttp | https://github.com/asedl/XpaDemo/tree/master/XpaDemo/Doc |
 | XpaTOffice | There's some samples which do use functionality from Apache POI for MS Office stuff like converting Excel -> CSV for an easy import into Magic without the requirement to have MS Office actally be installed |
 | XpaTXML | There's some samples which do demo "advanced" XML technics, like XSL/XSLT/XQuery for reformatting of existing XML to whatever or extracting information from there with standard query languages |  
