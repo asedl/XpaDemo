@@ -8,3 +8,13 @@ C:\Users\Andreas\Source\Repos\XpaTHttpDNet\XpaTHttpDNetTest\obj\Debug\XpaTHttpDN
 C:\Users\Andreas\Source\Repos\XpaTHttpDNet\XpaTHttpDNetTest\bin\Debug\XpaTHttpDNet.dll
 C:\Users\Andreas\Source\Repos\XpaTHttpDNet\XpaTHttpDNetTest\bin\Debug\XpaTHttpDNet.pdb
 C:\Users\Andreas\Source\Repos\XpaTHttpDNet\XpaTHttpDNetTest\obj\Debug\XpaTHttpDNetTest.csproj.CopyComplete
+C:\xpa\samples\XpaDemo\XpaDemo\external\Dotnet\XpaTHttpDNet\XpaTHttpDNetTest\bin\Debug\XpaTHttpDNetTest.exe.config
+C:\xpa\samples\XpaDemo\XpaDemo\external\Dotnet\XpaTHttpDNet\XpaTHttpDNetTest\bin\Debug\XpaTHttpDNetTest.exe
+C:\xpa\samples\XpaDemo\XpaDemo\external\Dotnet\XpaTHttpDNet\XpaTHttpDNetTest\bin\Debug\XpaTHttpDNetTest.pdb
+C:\xpa\samples\XpaDemo\XpaDemo\external\Dotnet\XpaTHttpDNet\XpaTHttpDNetTest\bin\Debug\XpaTHttpDNet.dll
+C:\xpa\samples\XpaDemo\XpaDemo\external\Dotnet\XpaTHttpDNet\XpaTHttpDNetTest\bin\Debug\XpaTHttpDNet.pdb
+C:\xpa\samples\XpaDemo\XpaDemo\external\Dotnet\XpaTHttpDNet\XpaTHttpDNetTest\obj\Debug\XpaTHttpDNetTest.csprojAssemblyReference.cache
+C:\xpa\samples\XpaDemo\XpaDemo\external\Dotnet\XpaTHttpDNet\XpaTHttpDNetTest\obj\Debug\XpaTHttpDNetTest.csproj.CoreCompileInputs.cache
+C:\xpa\samples\XpaDemo\XpaDemo\external\Dotnet\XpaTHttpDNet\XpaTHttpDNetTest\obj\Debug\XpaTHttpDNetTest.csproj.CopyComplete
+C:\xpa\samples\XpaDemo\XpaDemo\external\Dotnet\XpaTHttpDNet\XpaTHttpDNetTest\obj\Debug\XpaTHttpDNetTest.exe
+C:\xpa\samples\XpaDemo\XpaDemo\external\Dotnet\XpaTHttpDNet\XpaTHttpDNetTest\obj\Debug\XpaTHttpDNetTest.pdb

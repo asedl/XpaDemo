@@ -13,7 +13,7 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="BPOML003_ScanXpaProject_Comp_P" ISN_2="1" LastIsn="26" id="19">
+        <Header Description="BPOML003_ScanXpaProject_Comp_P" ISN_2="1" LastIsn="23" id="19">
           <Public val="BPOML002_ScanXpaProject_Comp_P"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
@@ -34,7 +34,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736848" _time="50968" date="03/06/2018" time="14:09:28"/>
+          <LastModified _date="736871" _time="30532" date="26/06/2018" time="08:28:52"/>
         </Header>
         <ItemIsn val="41"/>
         <Resource>
@@ -1102,7 +1102,7 @@
             <ExpAttribute val="B"/>
           </Expression>
           <Expression id="35">
-            <ExpSyntax val="'C:\xpa\samples\XpaDemo\XpaDemo\XpaDemo.edp'"/>
+            <ExpSyntax val="Trim(Translate('%WorkingDir%')) &amp; Trim(AppName()) &amp; '.edp'"/>
             <ExpAttribute val="A"/>
           </Expression>
           <Expression id="38">
@@ -1179,7 +1179,7 @@
           </EVENT_PARAMETER>
         </EVNT>
         <Task MainProgram="N">
-          <Header Description="OpenProjectFile" ISN_2="23" LastIsn="26" id="19">
+          <Header Description="OpenProjectFile" ISN_2="23" LastIsn="23" id="19">
             <ExecutionRight comp="-1"/>
             <Resident val="N"/>
             <SQL val="N"/>
@@ -1739,7 +1739,7 @@
           </EVNT>
         </Task>
         <Task MainProgram="N">
-          <Header Description="OpenComponentFile" ISN_2="2" LastIsn="26" id="19">
+          <Header Description="OpenComponentFile" ISN_2="2" LastIsn="23" id="19">
             <ExecutionRight comp="-1"/>
             <Resident val="N"/>
             <SQL val="N"/>
@@ -2005,7 +2005,7 @@
             </EVENT_PARAMETER>
           </EVNT>
           <Task MainProgram="N">
-            <Header Description="Comps" ISN_2="3" LastIsn="26" id="19">
+            <Header Description="Comps" ISN_2="3" LastIsn="23" id="19">
               <ExecutionRight comp="-1"/>
               <Resident val="N"/>
               <SQL val="N"/>
@@ -3031,7 +3031,7 @@
           </Task>
         </Task>
         <Task MainProgram="N">
-          <Header Description="CreateComponentRec" ISN_2="11" LastIsn="26" id="19">
+          <Header Description="CreateComponentRec" ISN_2="11" LastIsn="23" id="19">
             <ExecutionRight comp="-1"/>
             <Resident val="N"/>
             <SQL val="N"/>

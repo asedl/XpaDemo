@@ -12,3 +12,4 @@ This sample contains:
 | --- | --- |
 | [Apache CXF](http://cxf.apache.org/) | Open source services framework for SOAP, XML/HTTP, RESTful HTTP and CORBA over HTTP, JMS or JBI |
 | [KeyStore Explorer](http://keystore-explorer.org/) | Open Source GUI replacement for the Java commandline utilities which helps with the Java keystore files and certificates |
+| [SoapUI](https://www.soapui.org/downloads/soapui.html) | Api Testing Tool (SOAP, RETful, ...) |

@@ -13,7 +13,7 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="OPOML003_ShowXpaProjectComps" ISN_2="2" LastIsn="3" id="12">
+        <Header Description="OPOML003_ShowXpaProjectComps" ISN_2="2" LastIsn="2" id="12">
           <Public val="OPOML003_ShowXpaProjectComps"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
@@ -28,7 +28,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736848" _time="66494" date="03/06/2018" time="18:28:14"/>
+          <LastModified _date="736871" _time="31462" date="26/06/2018" time="08:44:22"/>
         </Header>
         <ItemIsn val="4"/>
         <Resource>
@@ -331,7 +331,7 @@
           </Expression>
         </Expressions>
         <Task MainProgram="N">
-          <Header Description="OPOML003_ShowXpaProjectComps" ISN_2="1" LastIsn="3" id="12">
+          <Header Description="OPOML003_ShowXpaProjectComps" ISN_2="1" LastIsn="2" id="12">
             <ExecutionRight comp="-1"/>
             <Resident val="N"/>
             <SQL val="N"/>
@@ -344,7 +344,7 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="736848" _time="66462" date="03/06/2018" time="18:27:42"/>
+            <LastModified _date="736871" _time="31462" date="26/06/2018" time="08:44:22"/>
           </Header>
           <ItemIsn val="23"/>
           <Resource>
@@ -497,7 +497,7 @@
                     <Column val="2"/>
                     <Type val="R"/>
                     <IsParameter val="N"/>
-                    <_DitIndexForToolkit val="2"/>
+                    <_DitIndexForToolkit val="4"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="N"/>
                     <Modifier val="S"/>
@@ -509,7 +509,7 @@
                     <Column val="3"/>
                     <Type val="R"/>
                     <IsParameter val="N"/>
-                    <_DitIndexForToolkit val="3"/>
+                    <_DitIndexForToolkit val="5"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="N"/>
                     <Modifier val="S"/>
@@ -530,7 +530,7 @@
                     <Column val="1"/>
                     <Type val="R"/>
                     <IsParameter val="N"/>
-                    <_DitIndexForToolkit val="24"/>
+                    <_DitIndexForToolkit val="25"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
@@ -542,7 +542,7 @@
                     <Column val="15"/>
                     <Type val="R"/>
                     <IsParameter val="N"/>
-                    <_DitIndexForToolkit val="25"/>
+                    <_DitIndexForToolkit val="26"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
@@ -554,7 +554,7 @@
                     <Column val="2"/>
                     <Type val="R"/>
                     <IsParameter val="N"/>
-                    <_DitIndexForToolkit val="27"/>
+                    <_DitIndexForToolkit val="28"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
@@ -566,7 +566,7 @@
                     <Column val="14"/>
                     <Type val="R"/>
                     <IsParameter val="N"/>
-                    <_DitIndexForToolkit val="7"/>
+                    <_DitIndexForToolkit val="8"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
@@ -578,7 +578,7 @@
                     <Column val="3"/>
                     <Type val="R"/>
                     <IsParameter val="N"/>
-                    <_DitIndexForToolkit val="26"/>
+                    <_DitIndexForToolkit val="27"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
@@ -590,7 +590,7 @@
                     <Column val="4"/>
                     <Type val="R"/>
                     <IsParameter val="N"/>
-                    <_DitIndexForToolkit val="5"/>
+                    <_DitIndexForToolkit val="2"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
@@ -602,7 +602,7 @@
                     <Column val="5"/>
                     <Type val="R"/>
                     <IsParameter val="N"/>
-                    <_DitIndexForToolkit val="28"/>
+                    <_DitIndexForToolkit val="29"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
@@ -614,7 +614,7 @@
                     <Column val="13"/>
                     <Type val="R"/>
                     <IsParameter val="N"/>
-                    <_DitIndexForToolkit val="9"/>
+                    <_DitIndexForToolkit val="10"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
@@ -626,7 +626,7 @@
                     <Column val="6"/>
                     <Type val="R"/>
                     <IsParameter val="N"/>
-                    <_DitIndexForToolkit val="11"/>
+                    <_DitIndexForToolkit val="12"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
@@ -638,7 +638,7 @@
                     <Column val="8"/>
                     <Type val="R"/>
                     <IsParameter val="N"/>
-                    <_DitIndexForToolkit val="13"/>
+                    <_DitIndexForToolkit val="14"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
@@ -661,7 +661,7 @@
                     <Column val="9"/>
                     <Type val="R"/>
                     <IsParameter val="N"/>
-                    <_DitIndexForToolkit val="17"/>
+                    <_DitIndexForToolkit val="18"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
@@ -673,7 +673,7 @@
                     <Column val="10"/>
                     <Type val="R"/>
                     <IsParameter val="N"/>
-                    <_DitIndexForToolkit val="15"/>
+                    <_DitIndexForToolkit val="16"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
@@ -704,6 +704,74 @@
                 </LogicLine>
               </LogicLines>
             </LogicUnit>
+            <LogicUnit id="7" propagate="78">
+              <Level val="H"/>
+              <Type val="U"/>
+              <Scope val="S"/>
+              <EngineDirective val="S"/>
+              <ShowMessage val="Y"/>
+              <Condition val="89"/>
+              <Event>
+                <EventType val="U"/>
+                <PublicObject comp="-1" obj="3"/>
+              </Event>
+              <Expanded val="1"/>
+              <LogicLines>
+                <LogicLine>
+                  <Update FlowIsn="125">
+                    <Parent val="2"/>
+                    <FieldID val="4"/>
+                    <WithValue val="14"/>
+                    <Incremental val="N"/>
+                    <ForcedUpdate val="Y"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </Update>
+                </LogicLine>
+                <LogicLine>
+                  <BLOCK EndBlock="152" EndBlockSegment="152" FlowIsn="151" Type="I">
+                    <Condition Exp="15"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </BLOCK>
+                </LogicLine>
+                <LogicLine>
+                  <Update FlowIsn="153">
+                    <Parent val="2"/>
+                    <FieldID val="3"/>
+                    <WithValue val="9"/>
+                    <Incremental val="N"/>
+                    <ForcedUpdate val="Y"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </Update>
+                </LogicLine>
+                <LogicLine>
+                  <RaiseEvent FlowIsn="154">
+                    <Event>
+                      <EventType val="I"/>
+                      <InternalEventID val="14"/>
+                      <PublicObject comp="-1"/>
+                    </Event>
+                    <Wait val="78"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </RaiseEvent>
+                </LogicLine>
+                <LogicLine>
+                  <END_BLK FlowIsn="152"/>
+                </LogicLine>
+                <LogicLine>
+                  <Remark FlowIsn="126">
+                    <Type val="2"/>
+                    <Text val=" "/>
+                  </Remark>
+                </LogicLine>
+              </LogicLines>
+            </LogicUnit>
             <LogicUnit id="4" propagate="78">
               <Level val="H"/>
               <Type val="U"/>
@@ -719,7 +787,7 @@
               <LogicLines>
                 <LogicLine>
                   <BLOCK EndBlock="104" EndBlockSegment="105" FlowIsn="103" Type="I">
-                    <Condition Exp="11"/>
+                    <Condition Exp="5"/>
                     <Modifier val="B"/>
                     <Direction val="C"/>
                   </BLOCK>
@@ -798,7 +866,6 @@
                 <EventType val="U"/>
                 <PublicObject comp="-1" obj="1"/>
               </Event>
-              <Expanded val="1"/>
               <LogicLines>
                 <LogicLine>
                   <Select FieldID="23" FlowIsn="72" id="23">
@@ -889,71 +956,61 @@
                 </LogicLine>
               </LogicLines>
             </LogicUnit>
+            <LogicUnit id="6" propagate="78">
+              <Level val="R"/>
+              <Type val="P"/>
+              <Scope val="S"/>
+              <EngineDirective val="S"/>
+              <ShowMessage val="Y"/>
+              <Condition val="89"/>
+              <Event>
+                <EventType val="S"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Expanded val="1"/>
+              <LogicLines>
+                <LogicLine>
+                  <Remark FlowIsn="123">
+                    <Type val="2"/>
+                    <Text val=" "/>
+                  </Remark>
+                </LogicLine>
+                <LogicLine>
+                  <Update FlowIsn="124">
+                    <Parent val="2"/>
+                    <FieldID val="4"/>
+                    <WithValue val="13"/>
+                    <Incremental val="N"/>
+                    <ForcedUpdate val="Y"/>
+                    <Condition Exp="5"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </Update>
+                </LogicLine>
+              </LogicLines>
+            </LogicUnit>
           </TaskLogic>
           <TaskForms>
-            <FormEntry _last_isn="50" _last_test_id="50" id="1">
+            <FormEntry _last_isn="53" _last_test_id="53" id="1">
               <PropertyList model="FORM_GUI0">
                 <Width id="23" val="1080"/>
                 <Height id="24" val="368"/>
                 <_Comment id="218"/>
                 <FormName id="311" valUnicode="OPOML003_ShowXpaProjectComps"/>
               </PropertyList>
-              <Control _test_id="45" id="45">
-                <PropertyList model="CTRL_GUI0_STATIC">
-                  <Text id="19" valUnicode="scan_type"/>
-                  <X id="21" val="17"/>
-                  <Y id="22" val="7"/>
-                  <Width id="23" val="43"/>
-                  <Height id="24" val="9"/>
-                  <Font id="50" val="1"/>
-                  <Style id="63" val="7"/>
-                  <EnableRTF id="69"/>
-                  <_Orientation id="143"/>
-                </PropertyList>
-              </Control>
-              <Control _test_id="44" id="44">
+              <Control _test_id="51" id="51">
                 <PropertyList model="CTRL_GUI0_EDIT">
                   <Model ID="MODEL_GUI_INT" id="1">
-                    <Var FieldID="19"/>
+                    <Var FieldID="4" Parent="2"/>
                   </Model>
-                  <X id="21" val="64"/>
-                  <Y id="22" val="7"/>
-                  <Width id="23" val="216"/>
+                  <X id="21" val="10"/>
+                  <Y id="22" val="5"/>
+                  <Width id="23" val="745"/>
                   <Height id="24" val="10"/>
-                  <Data FieldID="19" id="43"/>
-                  <ControlName id="46" val="scan_type"/>
+                  <Data FieldID="4" Parent="2" id="43"/>
+                  <ControlName id="46" val="v.SelectedProject"/>
                   <_Orientation id="143"/>
                   <TabOrder id="314" val="1"/>
-                  <AllowParking id="315"/>
-                </PropertyList>
-              </Control>
-              <Control _test_id="46" id="46">
-                <PropertyList model="CTRL_GUI0_EDIT">
-                  <Model ID="MODEL_GUI_INT" id="1">
-                    <Var FieldID="20"/>
-                  </Model>
-                  <X id="21" val="350"/>
-                  <Y id="22" val="7"/>
-                  <Width id="23" val="413"/>
-                  <Height id="24" val="10"/>
-                  <Data FieldID="20" id="43"/>
-                  <ControlName id="46" val="scan_source"/>
-                  <_Orientation id="143"/>
-                  <TabOrder id="314" val="2"/>
-                  <AllowParking id="315"/>
-                </PropertyList>
-              </Control>
-              <Control _test_id="47" id="47">
-                <PropertyList model="CTRL_GUI0_STATIC">
-                  <Text id="19" valUnicode="scan_source"/>
-                  <X id="21" val="293"/>
-                  <Y id="22" val="8"/>
-                  <Width id="23" val="53"/>
-                  <Height id="24" val="9"/>
-                  <Font id="50" val="1"/>
-                  <Style id="63" val="7"/>
-                  <EnableRTF id="69"/>
-                  <_Orientation id="143"/>
                 </PropertyList>
               </Control>
               <Control PDOD="128" _test_id="33" id="33">
@@ -969,7 +1026,65 @@
                   <PasswordEdit id="85"/>
                   <_Orientation id="143"/>
                   <AllowDrag id="283" val="Y"/>
+                  <TabOrder id="314" val="2"/>
+                </PropertyList>
+              </Control>
+              <Control _test_id="45" id="45">
+                <PropertyList model="CTRL_GUI0_STATIC">
+                  <Text id="19" valUnicode="scan_type"/>
+                  <X id="21" val="9"/>
+                  <Y id="22" val="23"/>
+                  <Width id="23" val="43"/>
+                  <Height id="24" val="9"/>
+                  <Font id="50" val="1"/>
+                  <Style id="63" val="7"/>
+                  <EnableRTF id="69"/>
+                  <_Orientation id="143"/>
+                </PropertyList>
+              </Control>
+              <Control _test_id="44" id="44">
+                <PropertyList model="CTRL_GUI0_EDIT">
+                  <Model ID="MODEL_GUI_INT" id="1">
+                    <Var FieldID="19"/>
+                  </Model>
+                  <X id="21" val="56"/>
+                  <Y id="22" val="23"/>
+                  <Width id="23" val="216"/>
+                  <Height id="24" val="10"/>
+                  <Data FieldID="19" id="43"/>
+                  <ControlName id="46" val="scan_type"/>
+                  <_Orientation id="143"/>
                   <TabOrder id="314" val="3"/>
+                  <AllowParking id="315"/>
+                </PropertyList>
+              </Control>
+              <Control _test_id="46" id="46">
+                <PropertyList model="CTRL_GUI0_EDIT">
+                  <Model ID="MODEL_GUI_INT" id="1">
+                    <Var FieldID="20"/>
+                  </Model>
+                  <X id="21" val="342"/>
+                  <Y id="22" val="23"/>
+                  <Width id="23" val="413"/>
+                  <Height id="24" val="10"/>
+                  <Data FieldID="20" id="43"/>
+                  <ControlName id="46" val="scan_source"/>
+                  <_Orientation id="143"/>
+                  <TabOrder id="314" val="4"/>
+                  <AllowParking id="315"/>
+                </PropertyList>
+              </Control>
+              <Control _test_id="47" id="47">
+                <PropertyList model="CTRL_GUI0_STATIC">
+                  <Text id="19" valUnicode="scan_source"/>
+                  <X id="21" val="285"/>
+                  <Y id="22" val="24"/>
+                  <Width id="23" val="53"/>
+                  <Height id="24" val="9"/>
+                  <Font id="50" val="1"/>
+                  <Style id="63" val="7"/>
+                  <EnableRTF id="69"/>
+                  <_Orientation id="143"/>
                 </PropertyList>
               </Control>
               <Control _test_id="32" id="32">
@@ -997,7 +1112,7 @@
                   <Data FieldID="3" id="43"/>
                   <ControlName id="46" val="comp_location"/>
                   <_Orientation id="143"/>
-                  <TabOrder id="314" val="9"/>
+                  <TabOrder id="314" val="10"/>
                 </PropertyList>
               </Control>
               <Control _test_id="35" id="35">
@@ -1025,7 +1140,7 @@
                   <Data FieldID="7" id="43"/>
                   <ControlName id="46" val="comp_Revision"/>
                   <_Orientation id="143"/>
-                  <TabOrder id="314" val="10"/>
+                  <TabOrder id="314" val="11"/>
                 </PropertyList>
               </Control>
               <Control _test_id="37" id="37">
@@ -1053,7 +1168,7 @@
                   <Data FieldID="8" id="43"/>
                   <ControlName id="46" val="comp_MciFile"/>
                   <_Orientation id="143"/>
-                  <TabOrder id="314" val="11"/>
+                  <TabOrder id="314" val="12"/>
                 </PropertyList>
               </Control>
               <Control _test_id="39" id="39">
@@ -1081,7 +1196,7 @@
                   <Data FieldID="9" id="43"/>
                   <ControlName id="46" val="comp_ProjectFile"/>
                   <_Orientation id="143"/>
-                  <TabOrder id="314" val="12"/>
+                  <TabOrder id="314" val="13"/>
                 </PropertyList>
               </Control>
               <Control _test_id="40" id="40">
@@ -1109,7 +1224,7 @@
                   <Data FieldID="12" id="43"/>
                   <ControlName id="46" val="comp_AssemblyPath_0001"/>
                   <_Orientation id="143"/>
-                  <TabOrder id="314" val="13"/>
+                  <TabOrder id="314" val="14"/>
                 </PropertyList>
               </Control>
               <Control _test_id="42" id="42">
@@ -1137,16 +1252,16 @@
                   <Data FieldID="11" id="43"/>
                   <ControlName id="46" val="comp_AssemblyName_0001"/>
                   <_Orientation id="143"/>
-                  <TabOrder id="314" val="14"/>
+                  <TabOrder id="314" val="15"/>
                 </PropertyList>
               </Control>
               <Control _test_id="1" id="1">
                 <PropertyList model="CTRL_GUI0_TABLE">
                   <Placement bottom="100" id="20" right="100"/>
                   <X id="21" val="8"/>
-                  <Y id="22" val="26"/>
+                  <Y id="22" val="41"/>
                   <Width id="23" val="757"/>
-                  <Height id="24" val="231"/>
+                  <Height id="24" val="221"/>
                   <TitleHeight id="79" val="11"/>
                   <RowHeight id="80" val="12"/>
                   <Elements id="81" val="5"/>
@@ -1196,7 +1311,7 @@
                   </Model>
                   <Placement bottom="100" id="20" right="100"/>
                   <X id="21" val="10"/>
-                  <Y id="22" val="39"/>
+                  <Y id="22" val="54"/>
                   <Width id="23" val="45"/>
                   <Height id="24" val="10"/>
                   <ControlLayer id="25" val="1"/>
@@ -1204,7 +1319,7 @@
                   <ControlName id="46" val="scan_index"/>
                   <Style id="63" val="1"/>
                   <_Orientation id="143"/>
-                  <TabOrder id="314" val="4"/>
+                  <TabOrder id="314" val="5"/>
                   <Border id="452"/>
                 </PropertyList>
               </Control>
@@ -1215,7 +1330,7 @@
                   </Model>
                   <Placement bottom="100" id="20" right="100"/>
                   <X id="21" val="60"/>
-                  <Y id="22" val="39"/>
+                  <Y id="22" val="54"/>
                   <Width id="23" val="45"/>
                   <Height id="24" val="10"/>
                   <ControlLayer id="25" val="2"/>
@@ -1223,7 +1338,7 @@
                   <ControlName id="46" val="scan_index_parent"/>
                   <Style id="63" val="1"/>
                   <_Orientation id="143"/>
-                  <TabOrder id="314" val="5"/>
+                  <TabOrder id="314" val="6"/>
                   <Border id="452"/>
                 </PropertyList>
               </Control>
@@ -1234,7 +1349,7 @@
                   </Model>
                   <Placement bottom="100" id="20" right="100"/>
                   <X id="21" val="138"/>
-                  <Y id="22" val="39"/>
+                  <Y id="22" val="54"/>
                   <Width id="23" val="120"/>
                   <Height id="24" val="10"/>
                   <ControlLayer id="25" val="3"/>
@@ -1242,7 +1357,7 @@
                   <ControlName id="46" val="comp_type"/>
                   <Style id="63" val="1"/>
                   <_Orientation id="143"/>
-                  <TabOrder id="314" val="6"/>
+                  <TabOrder id="314" val="7"/>
                   <Border id="452"/>
                 </PropertyList>
               </Control>
@@ -1253,7 +1368,7 @@
                   </Model>
                   <Placement bottom="100" id="20" right="100"/>
                   <X id="21" val="262"/>
-                  <Y id="22" val="39"/>
+                  <Y id="22" val="54"/>
                   <Width id="23" val="160"/>
                   <Height id="24" val="10"/>
                   <ControlLayer id="25" val="4"/>
@@ -1261,7 +1376,7 @@
                   <ControlName id="46" val="comp_name"/>
                   <Style id="63" val="1"/>
                   <_Orientation id="143"/>
-                  <TabOrder id="314" val="7"/>
+                  <TabOrder id="314" val="8"/>
                   <Border id="452"/>
                 </PropertyList>
               </Control>
@@ -1272,7 +1387,7 @@
                   </Model>
                   <Placement bottom="100" id="20" right="100"/>
                   <X id="21" val="426"/>
-                  <Y id="22" val="39"/>
+                  <Y id="22" val="54"/>
                   <Width id="23" val="193"/>
                   <Height id="24" val="10"/>
                   <ControlLayer id="25" val="5"/>
@@ -1280,7 +1395,7 @@
                   <ControlName id="46" val="comp_CompId"/>
                   <Style id="63" val="1"/>
                   <_Orientation id="143"/>
-                  <TabOrder id="314" val="8"/>
+                  <TabOrder id="314" val="9"/>
                   <Border id="452"/>
                 </PropertyList>
               </Control>
@@ -1303,7 +1418,7 @@
                     <EventType val="U"/>
                     <PublicObject comp="-1" obj="1"/>
                   </RaiseEvent>
-                  <TabOrder id="314" val="15"/>
+                  <TabOrder id="314" val="16"/>
                 </PropertyList>
               </Control>
               <Control PDOD="128" _test_id="49" id="49">
@@ -1325,7 +1440,7 @@
                     <EventType val="U"/>
                     <PublicObject comp="-1" obj="1"/>
                   </RaiseEvent>
-                  <TabOrder id="314" val="16"/>
+                  <TabOrder id="314" val="17"/>
                 </PropertyList>
               </Control>
               <Control PDOD="128" _test_id="50" id="50">
@@ -1340,7 +1455,22 @@
                     <EventType val="U"/>
                     <PublicObject comp="-1" obj="2"/>
                   </RaiseEvent>
-                  <TabOrder id="314" val="17"/>
+                  <TabOrder id="314" val="18"/>
+                </PropertyList>
+              </Control>
+              <Control PDOD="128" _test_id="53" id="53">
+                <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+                  <X id="21" val="307"/>
+                  <Y id="22" val="351"/>
+                  <Width id="23" val="95"/>
+                  <Height id="24" val="14"/>
+                  <Format id="82" valUnicode="Select project"/>
+                  <Arguments id="126"/>
+                  <RaiseEvent id="234">
+                    <EventType val="U"/>
+                    <PublicObject comp="-1" obj="3"/>
+                  </RaiseEvent>
+                  <TabOrder id="314" val="19"/>
                 </PropertyList>
               </Control>
             </FormEntry>
@@ -1374,6 +1504,10 @@
               <ExpSyntax val="{0,9}&lt;>'' AND FileExist({0,9})"/>
               <ExpAttribute val="B"/>
             </Expression>
+            <Expression id="15">
+              <ExpSyntax val="{2,4}&lt;>'' AND FileExist({2,4})"/>
+              <ExpAttribute val="B"/>
+            </Expression>
             <Expression id="7">
               <ExpSyntax val="'there is no project file for this component specified'"/>
               <ExpAttribute val="A"/>
@@ -1390,9 +1524,13 @@
               <ExpSyntax val="{0,20}"/>
               <ExpAttribute val="U"/>
             </Expression>
-            <Expression id="11">
-              <ExpSyntax val="{0,20}&lt;>'' AND FileExist({0,20})"/>
-              <ExpAttribute val="B"/>
+            <Expression id="13">
+              <ExpSyntax val="{0,9}"/>
+              <ExpAttribute val="U"/>
+            </Expression>
+            <Expression id="14">
+              <ExpSyntax val="FileDlg('All File', Trim(Translate('%WorkingDir%')) &amp; '*.edp')"/>
+              <ExpAttribute val="A"/>
             </Expression>
           </Expressions>
           <EVNT DESC="BtnViewSource" FORCE_EXIT="N" id="1">
@@ -1407,6 +1545,12 @@
             </EVENT_PARAMETER>
           </EVNT>
           <EVNT DESC="Restart" FORCE_EXIT="N" id="2">
+            <Event>
+              <EventType val="N"/>
+              <PublicObject comp="-1"/>
+            </Event>
+          </EVNT>
+          <EVNT DESC="SelectProject" FORCE_EXIT="N" id="3">
             <Event>
               <EventType val="N"/>
               <PublicObject comp="-1"/>
