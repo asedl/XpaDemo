@@ -1,0 +1,11 @@
+<schema elementFormDefault="qualified" targetNamespace="http://apache.org/hello_world_soap_http/types" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://apache.org/hello_world_soap_http/types" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:x1="http://apache.org/hello_world_soap_http/types" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><element name="greetMe">
+				<complexType>
+					<sequence>
+						<element name="requestType" type="tns:MyStringType"/>
+					</sequence>
+				</complexType>
+			</element><simpleType name="MyStringType">
+				<restriction base="string">
+					<maxLength value="30"/>
+				</restriction>
+			</simpleType></schema >

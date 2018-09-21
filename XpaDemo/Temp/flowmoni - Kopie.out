@@ -1,0 +1,236 @@
+﻿ *********************   Date: 08/09/2018  ********************
+ <-1> 08/09/2018 11:10:50.317     [Info   ] - CLASSPATH=C:\magic\xpa3.3\.;C:\magic\xpa3.3\Support\;C:\xpa\samples\xpademo\xpademo\Components\XPATest-0.0.1.jar;C:\DOCUME~1\Andreas\LOCALS~1\Temp\MgxpaTempClasses\;C:\Java\CLASSPATH;C:\Apache\xalan-j_2_7_2;C:\Java\SaxonHE9-8-0-12J;C:\Java\apache-log4j-2.11.0-bin
+ <-1> 08/09/2018 11:10:50.319     [Info   ] - JVM parameter 1: -Djava.compiler=NONE
+ <-1> 08/09/2018 11:10:50.320     [Info   ] - JVM parameter 2: -Xms16m
+ <-1> 08/09/2018 11:10:50.320     [Info   ] - JVM parameter 3: -Xmx256m
+ <-1> 08/09/2018 11:10:50.321     [Info   ] - JVM parameter 4: -Dorg.xml.sax.driver=org.apache.xerces.parsers.SAXParser
+ <-1> 08/09/2018 11:10:50.321     [Info   ] - JVM parameter 5: -Dcom.gigaspaces.logger.RollingFileHandler.filename-pattern={homedir}/../Logs/GS/{date,yyyy-MM-dd~HH.mm}-gigaspaces-{service}-{host}-{pid}.log
+ <-1> 08/09/2018 11:10:50.321     [Info   ] - JVM parameter 6: -Dlog4j.configurationFile=C:\magic\xpa3.3\\GigaSpaces-xpa\config\log4j2.xml
+ <-1> 08/09/2018 11:10:50.322     [Info   ] - JVM parameter 7: -Dcom.magicsoftware.xpa.home=C:\magic\xpa3.3\
+ <-1> 08/09/2018 11:10:50.322     [Info   ] - JVM parameter 8: -Dcom.magicsoftware.xpa.logging.module=MgxpaRuntime_GS
+ <-1> 08/09/2018 11:10:50.323     [Info   ] - JVM parameter 9: -Dcom.magicsoftware.xpa.ServerLoadOnDemandTimeout=10
+ <-1> 08/09/2018 11:10:50.323     [Info   ] - JVM parameter 10: -Xdebug
+ <-1> 08/09/2018 11:10:50.324     [Info   ] - JVM parameter 11: -XX:-UsePerfData
+ <-1> 08/09/2018 11:10:50.324     [Info   ] - JVM parameter 12: -agentpath:mgrqgnrc.dll
+ <-1> 08/09/2018 11:10:50.325     [Info   ] - PATH=C:\Java\jdk1.8.x86\bin;C:\Program Files\Microsoft MPI\Bin\;C:\nodejs;C:\nodejs\nwjs-sdk-v0.30.2-win-x64;C:\Users\Andreas\AppData\Roaming\npm;C:\Yarn\bin;C:\WINDOWS\system32\inetsrv;C:\Windows\System32;C:\Windows\System32\wbem;C:\Windows\;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Condusiv Technologies\ExpressCache\;%ADT_HOME%\tools;%ADT_HOME%\platform-tools;C:\Apache\apache-ant-1.10.3\bin;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Apache\apache-maven\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\Git\cmd;C:\Gradle\bin;C:\ProgramData\chocolatey\lib\scriptcs\tools;C:\nodejs\;C:\Program Files (x86)\Gpg4win\..\GnuPG\bin;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Microsoft Emulator Manager\1.0\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Microsoft VS Code\bin;C:\Users\Andreas\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Microsoft VS Code\bin;C:\Users\Andreas\AppData\Local\Keybase\;C:\Java\jdk1.8.x86\jre\bin\classic;C:\Java\jdk1.8.x86\jre\bin\client;C:\Java\jdk1.8.x86\bin\client;;C:\Java\jdk1.8.x86\jre\bin\classic;C:\Java\jdk1.8.x86\jre\bin\client;C:\Java\jdk1.8.x86\bin\client;
+ *********************   Date: 08/09/2018  ********************
+ <2> 08/09/2018 11:10:50.506     [Error  ] - JavaReflectionManager::JavaReflectionManager - "java.lang.NoClassDefFoundError: com/magicsoftware/xpa/utils/reflection/JarFileEntriesNames
+Caused by: java.lang.ClassNotFoundException: com.magicsoftware.xpa.utils.reflection.JarFileEntriesNames
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+"
+ <-1> 08/09/2018 11:10:50.531     [Info   ] - Starts Loading Component :  
+ <-1> 08/09/2018 11:10:50.531     [Info   ] - Starts Loading Component : System.Net.Http 
+ <-1> 08/09/2018 11:10:50.599     [Info   ] - Ends Loading Component : System.Net.Http 
+ <-1> 08/09/2018 11:10:50.599     [Info   ] - Starts Loading Component : System.Windows.Forms 
+ <-1> 08/09/2018 11:10:50.615     [Info   ] - Ends Loading Component : System.Windows.Forms 
+ <-1> 08/09/2018 11:10:50.615     [Info   ] - Starts Loading Component : XpaTHttpDNet 
+ <-1> 08/09/2018 11:10:50.737     [Info   ] - Ends Loading Component : XpaTHttpDNet 
+ <-1> 08/09/2018 11:10:50.738     [Info   ] - Starts Loading Component :  
+ <-1> 08/09/2018 11:10:50.739     [Info   ] - Starts Loading Component : C:\xpa\samples\xpademo\xpademo\Components\_UserFunctionality.ecf 
+ <-1> 08/09/2018 11:10:50.756     [Info   ] - Starts Loading Component : System.Windows.Forms 
+ <-1> 08/09/2018 11:10:50.758     [Info   ] - Ends Loading Component : System.Windows.Forms 
+ <-1> 08/09/2018 11:10:50.759     [Info   ] - Starts Loading Component : System.Drawing 
+ <-1> 08/09/2018 11:10:50.762     [Info   ] - Ends Loading Component : System.Drawing 
+ <-1> 08/09/2018 11:10:50.763     [Info   ] - Starts Loading Component : System 
+ <-1> 08/09/2018 11:10:50.773     [Info   ] - Ends Loading Component : System 
+ <-1> 08/09/2018 11:10:50.774     [Info   ] - Starts Loading Component : System.Data 
+ <-1> 08/09/2018 11:10:51.140     [Info   ] - Ends Loading Component : System.Data 
+ <-1> 08/09/2018 11:10:51.141     [Info   ] - Starts Loading Component : Microsoft.Office.Interop.Excel 
+ <-1> 08/09/2018 11:10:51.411     [Info   ] - Ends Loading Component : Microsoft.Office.Interop.Excel 
+ <-1> 08/09/2018 11:10:51.412     [Info   ] - Starts Loading Component : Microsoft.CSharp 
+ <-1> 08/09/2018 11:10:51.437     [Info   ] - Ends Loading Component : Microsoft.CSharp 
+ <-1> 08/09/2018 11:10:51.438     [Info   ] - Starts Loading Component : System.Core 
+ <-1> 08/09/2018 11:10:51.477     [Info   ] - Ends Loading Component : System.Core 
+ <-1> 08/09/2018 11:10:51.527     [Info   ] - Ends Loading Component : C:\xpa\samples\xpademo\xpademo\Components\_UserFunctionality.ecf 
+ <-1> 08/09/2018 11:10:51.527     [Info   ] - Starts Loading Component : C:\xpa\samples\xpademo\xpademo\Components\DatabaseComp.ecf 
+ <-1> 08/09/2018 11:10:51.538     [Info   ] - Starts Loading Component : C:\magic\xpa3.3\Add_On\UserFunctionality\UserFunctionality.ecf 
+ <-1> 08/09/2018 11:10:51.550     [Info   ] - Starts Loading Component : System.Windows.Forms 
+ <-1> 08/09/2018 11:10:51.552     [Info   ] - Ends Loading Component : System.Windows.Forms 
+ <-1> 08/09/2018 11:10:51.553     [Info   ] - Starts Loading Component : System.Drawing 
+ <-1> 08/09/2018 11:10:51.555     [Info   ] - Ends Loading Component : System.Drawing 
+ <-1> 08/09/2018 11:10:51.555     [Info   ] - Starts Loading Component : System 
+ <-1> 08/09/2018 11:10:51.557     [Info   ] - Ends Loading Component : System 
+ <-1> 08/09/2018 11:10:51.557     [Info   ] - Starts Loading Component : System.Data 
+ <-1> 08/09/2018 11:10:51.559     [Info   ] - Ends Loading Component : System.Data 
+ <-1> 08/09/2018 11:10:51.560     [Info   ] - Starts Loading Component : Microsoft.Office.Interop.Excel 
+ <-1> 08/09/2018 11:10:51.563     [Info   ] - Ends Loading Component : Microsoft.Office.Interop.Excel 
+ <-1> 08/09/2018 11:10:51.564     [Info   ] - Starts Loading Component : Microsoft.CSharp 
+ <-1> 08/09/2018 11:10:51.566     [Info   ] - Ends Loading Component : Microsoft.CSharp 
+ <-1> 08/09/2018 11:10:51.566     [Info   ] - Starts Loading Component : System.Core 
+ <-1> 08/09/2018 11:10:51.568     [Info   ] - Ends Loading Component : System.Core 
+ <-1> 08/09/2018 11:10:51.600     [Info   ] - Ends Loading Component : C:\magic\xpa3.3\Add_On\UserFunctionality\UserFunctionality.ecf 
+ <-1> 08/09/2018 11:10:51.602     [Info   ] - Ends Loading Component : C:\xpa\samples\xpademo\xpademo\Components\DatabaseComp.ecf 
+ <-1> 08/09/2018 11:10:51.602     [Info   ] - Starts Loading Component : C:\xpa\samples\xpademo\xpademo\Components\XpaTHelp.ecf 
+ <-1> 08/09/2018 11:10:51.610     [Info   ] - Starts Loading Component : System.Windows.Forms 
+ <-1> 08/09/2018 11:10:51.612     [Info   ] - Ends Loading Component : System.Windows.Forms 
+ <-1> 08/09/2018 11:10:51.612     [Info   ] - Starts Loading Component : System.Net 
+ <-1> 08/09/2018 11:10:51.644     [Info   ] - Ends Loading Component : System.Net 
+ <-1> 08/09/2018 11:10:51.644     [Info   ] - Starts Loading Component : System.Net.Http 
+ <-1> 08/09/2018 11:10:51.646     [Info   ] - Ends Loading Component : System.Net.Http 
+ <-1> 08/09/2018 11:10:51.647     [Info   ] - Starts Loading Component : C:\xpa\samples\xpademo\xpademo\Components\DatabaseComp.ecf 
+ <-1> 08/09/2018 11:10:51.647     [Info   ] - Ends Loading Component : C:\xpa\samples\xpademo\xpademo\Components\DatabaseComp.ecf 
+ <-1> 08/09/2018 11:10:51.697     [Info   ] - Ends Loading Component : C:\xpa\samples\xpademo\xpademo\Components\XpaTHelp.ecf 
+ <-1> 08/09/2018 11:10:51.713     [Info   ] -   Starts Loading Component : C:\xpa\samples\xpademo\xpademo\Components\XpaTSoap.ecf 
+ <-1> 08/09/2018 11:10:51.722     [Info   ] -   Starts Loading Component : System.Windows.Forms 
+ <-1> 08/09/2018 11:10:51.724     [Info   ] -   Ends Loading Component : System.Windows.Forms 
+ <-1> 08/09/2018 11:10:51.725     [Info   ] -   Starts Loading Component : XpaTHttpDNet 
+ <-1> 08/09/2018 11:10:51.726     [Info   ] -   Ends Loading Component : XpaTHttpDNet 
+ <-1> 08/09/2018 11:10:51.728     [Info   ] -   Ends Loading Component : C:\xpa\samples\xpademo\xpademo\Components\XpaTSoap.ecf 
+ <-1> 08/09/2018 11:10:51.728     [Info   ] -   Starts Loading Component : C:\xpa\samples\xpademo\xpademo\Components\xpa-project-scan.ecf 
+ <-1> 08/09/2018 11:10:51.786     [Info   ] -   Ends Loading Component : C:\xpa\samples\xpademo\xpademo\Components\xpa-project-scan.ecf 
+ <-1> 08/09/2018 11:10:51.810     [Info   ] -   The project was successfully opened.
+ <-1> 08/09/2018 11:10:51.977     [Action ] -   >>Starts load Batch Task - 'Main Program (_UserFunctionality)' in Query mode (Task Instance: 1)
+ <-1> 08/09/2018 11:10:52.020     [Action ] -   Ends Load Task
+ <-1> 08/09/2018 11:10:52.023     [Action ] -   Starts Task Prefix
+ <-1> 08/09/2018 11:10:52.031     [Action ] -     Flow - Update: 'V: gV:FunctionsList' <== exp #41
+ <-1> 08/09/2018 11:10:52.032     [Action ] -     Flow - Update: 'W: gV:FunctionsDescriptionList' <== exp #42
+ <-1> 08/09/2018 11:10:52.032     [Action ] -     Flow - Update: 'X: gV:DigitAndPunctuationList' <== exp #43
+ <-1> 08/09/2018 11:10:52.033     [Action ] -     Flow - Update: 'BB: gV:IsHebrewApp' <== exp #105
+ <-1> 08/09/2018 11:10:52.033     [Action ] -   Ends Task Prefix
+ <-1> 08/09/2018 11:10:52.034     [Action ] -   Load records
+ <-1> 08/09/2018 11:10:52.028     [Action ] -   >>Starts load Batch Task - 'Main Program (UserFunctionality)' in Query mode (Task Instance: 2)
+ <-1> 08/09/2018 11:10:52.043     [Action ] -   Ends Load Task
+ <-1> 08/09/2018 11:10:52.045     [Action ] -   Starts Task Prefix
+ <-1> 08/09/2018 11:10:52.046     [Action ] -     Flow - Update: 'V: gV:FunctionsList' <== exp #41
+ <-1> 08/09/2018 11:10:52.046     [Action ] -     Flow - Update: 'W: gV:FunctionsDescriptionList' <== exp #42
+ <-1> 08/09/2018 11:10:52.047     [Action ] -     Flow - Update: 'X: gV:DigitAndPunctuationList' <== exp #43
+ <-1> 08/09/2018 11:10:52.047     [Action ] -     Flow - Update: 'BB: gV:IsHebrewApp' <== exp #105
+ <-1> 08/09/2018 11:10:52.048     [Action ] -   Ends Task Prefix
+ <-1> 08/09/2018 11:10:52.048     [Action ] -   Load records
+ <-1> 08/09/2018 11:10:52.044     [Action ] -   >>Starts load Batch Task - 'Main Program (DatabaseComp)' in Query mode (Task Instance: 3)
+ <-1> 08/09/2018 11:10:52.055     [Action ] -   Ends Load Task
+ <-1> 08/09/2018 11:10:52.055     [Action ] -   Load records
+ <-1> 08/09/2018 11:10:52.059     [Action ] -   >>Starts load Batch Task - 'Main Program (XpaTHelp)' in Query mode (Task Instance: 4)
+ <-1> 08/09/2018 11:10:52.063     [Action ] -   Ends Load Task
+ <-1> 08/09/2018 11:10:52.064     [Action ] -   Load records
+ <-1> 08/09/2018 11:10:52.249     [Action ] -   >>Starts load Batch Task - 'Main Program (XpaDemo)' in Query mode (Task Instance: 5)
+ <-1> 08/09/2018 11:10:52.251     [Action ] -   Ends Load Task
+ <-1> 08/09/2018 11:10:52.251     [Action ] -   Starts Task Prefix
+ <-1> 08/09/2018 11:10:52.252     [Action ] -     Flow - Remark: 
+ <-1> 08/09/2018 11:10:52.253     [Action ] -     Flow - Remark: 
+ <-1> 08/09/2018 11:10:52.253     [Action ] -     Flow - Remark: 
+ <-1> 08/09/2018 11:10:52.254     [Action ] -     Flow - Remark: 
+ <-1> 08/09/2018 11:10:52.259     [Action ] -     Flow - Condition: Exp = 4, Result = True
+ <-1> 08/09/2018 11:10:52.260     [Action ] -     Flow - Call Program :: OUTIL003_CheckConfiguration (#35)
+ <-1> 08/09/2018 11:10:52.311     [Action ] -       >>Starts load Batch Task - 'OUTIL003_CheckConfiguration' in Modify mode (Task Instance: 6)
+ <-1> 08/09/2018 11:10:52.313     [Action ] -       Ends Load Task
+ <-1> 08/09/2018 11:10:52.314     [Action ] -       Starts Task Prefix
+ <-1> 08/09/2018 11:10:52.314     [Action ] -         Flow - Remark: 
+ <-1> 08/09/2018 11:10:52.315     [Action ] -         Flow - Update: 'O: v.ForceConfig' <== exp #10
+ <-1> 08/09/2018 11:10:52.316     [Action ] -         Flow - Remark: 
+ <-1> 08/09/2018 11:10:52.316     [Action ] -         Flow - Update: 'P: v.ShowOK' <== exp #14
+ <-1> 08/09/2018 11:10:52.317     [Action ] -         Flow - Remark: 
+ <-1> 08/09/2018 11:10:52.317     [Action ] -         Flow - Remark: 
+ <-1> 08/09/2018 11:10:52.319     [Action ] -         Flow - Condition: Exp = 12, Result = True
+ <-1> 08/09/2018 11:10:52.320     [Action ] -         Flow - Update: 'P: v.ShowOK' <== exp #2
+ <-1> 08/09/2018 11:10:52.320     [Action ] -         Flow - Remark: 
+ <-1> 08/09/2018 11:10:52.321     [Action ] -         Flow - Remark: 
+ <-1> 08/09/2018 11:10:52.322     [Action ] -       Ends Task Prefix
+ <-1> 08/09/2018 11:10:52.322     [Action ] -       Load records
+ <-1> 08/09/2018 11:10:52.323     [Action ] -       Starts Record Suffix
+ <-1> 08/09/2018 11:10:52.323     [Action ] -         Flow - Remark: 
+ <-1> 08/09/2018 11:10:52.324     [Action ] -         Flow - Update: 'Q: v.Restart' <== exp #11
+ <-1> 08/09/2018 11:10:52.325     [Action ] -         Flow - Remark: 
+ <-1> 08/09/2018 11:10:52.325     [Action ] -         Flow - Remark: 
+ <-1> 08/09/2018 11:10:52.326     [Action ] -         Flow - Remark: 
+ <-1> 08/09/2018 11:10:52.327     [Action ] -         Flow - Update: 'H: v.XPATEST_HOME' <== exp #1
+ <-1> 08/09/2018 11:10:52.327     [Action ] -         Flow - Remark: 
+ <-1> 08/09/2018 11:10:52.328     [Action ] -         Flow - Update: 'I: v.DB_XPATest' <== exp #3
+ <-1> 08/09/2018 11:10:52.328     [Action ] -         Flow - Update: 'J: v.DB_RIADemo' <== exp #4
+ <-1> 08/09/2018 11:10:52.329     [Action ] -         Flow - Update: 'K: v.DB_XPATest_POMO' <== exp #5
+ <-1> 08/09/2018 11:10:52.330     [Action ] -         Flow - Update: 'N: v.ConfigOK ?' <== exp #8
+ <-1> 08/09/2018 11:10:52.330     [Action ] -         Flow - Remark: 
+ <-1> 08/09/2018 11:10:52.331     [Action ] -         Flow - Remark: 
+ <-1> 08/09/2018 11:10:52.331     [Action ] -         Flow - Condition: Exp = 7, Result = False
+ <-1> 08/09/2018 11:10:52.332     [Action ] -         Flow - Block If:  [Not Executed]
+ <-1> 08/09/2018 11:10:52.333     [Action ] -         Flow - Block Else: 
+ <-1> 08/09/2018 11:10:52.333     [Action ] -         Flow - Condition: Exp = 13, Result = False
+ <-1> 08/09/2018 11:10:52.334     [Action ] -         Flow - Call SubTask :: Config OK [Not Executed]
+ <-1> 08/09/2018 11:10:52.356     [Action ] -         Flow - Block End: 
+ <-1> 08/09/2018 11:10:52.356     [Action ] -       Ends Record Suffix
+ <-1> 08/09/2018 11:10:52.357     [Action ] -       Starts Closing Batch Task - 'OUTIL003_CheckConfiguration' (Task Instance: 6)
+ <-1> 08/09/2018 11:10:52.361     [Action ] -     <<Ends Close Task
+ <-1> 08/09/2018 11:10:52.361     [Action ] -   Ends Task Prefix
+ <-1> 08/09/2018 11:10:52.362     [Action ] -   Load records
+ <-1> 08/09/2018 11:10:52.364     [Action ] -     >>Starts load Batch Task - 'LoopInfinite' in Modify mode (Task Instance: 7)
+ <-1> 08/09/2018 11:10:52.365     [Action ] -     Ends Load Task
+ <-1> 08/09/2018 11:10:52.366     [Action ] -     Load records
+ <-1> 08/09/2018 11:10:52.367     [Action ] -     Starts Record Suffix
+ <-1> 08/09/2018 11:10:52.367     [Action ] -       Flow - Remark: 
+ <-1> 08/09/2018 11:10:52.368     [Action ] -       Flow - Evaluate: 
+ <-1> 08/09/2018 11:10:52.373     [Info   ] -       >> USER Message >> 11:10:52
+ <-1> 08/09/2018 11:10:52.374     [Action ] -       Flow - Evaluate: 
+ <-1> 08/09/2018 11:10:52.698     [Action ] -     Ends Record Suffix
+ <-1> 08/09/2018 11:10:52.699     [Action ] -     Load records
+ <-1> 08/09/2018 11:10:52.700     [Action ] -     Starts Record Suffix
+ <-1> 08/09/2018 11:10:52.700     [Action ] -       Flow - Remark: 
+ <-1> 08/09/2018 11:10:52.701     [Action ] -       Flow - Evaluate: 
+ <-1> 08/09/2018 11:10:52.701     [Info   ] -       >> USER Message >> 11:10:52
+ <-1> 08/09/2018 11:10:52.702     [Action ] -       Flow - Evaluate: 
+ <-1> 08/09/2018 11:10:53.704     [Action ] -     Ends Record Suffix
+ <-1> 08/09/2018 11:10:53.707     [Action ] -     Load records
+ <-1> 08/09/2018 11:10:53.707     [Action ] -     Starts Record Suffix
+ <-1> 08/09/2018 11:10:53.708     [Action ] -       Flow - Remark: 
+ <-1> 08/09/2018 11:10:53.708     [Action ] -       Flow - Evaluate: 
+ <-1> 08/09/2018 11:10:53.709     [Info   ] -       >> USER Message >> 11:10:53
+ <-1> 08/09/2018 11:10:53.709     [Action ] -       Flow - Evaluate: 
+ <-1> 08/09/2018 11:10:54.732     [Action ] -     Ends Record Suffix
+ <-1> 08/09/2018 11:10:54.732     [Action ] -     >>  Processing Event  [Context Got Focus]  Control Name :  [ N/A ] 
+ <-1> 08/09/2018 11:10:54.733     [Action ] -     Load records
+ <-1> 08/09/2018 11:10:54.733     [Action ] -     Starts Record Suffix
+ <-1> 08/09/2018 11:10:54.734     [Action ] -       Flow - Remark: 
+ <-1> 08/09/2018 11:10:54.734     [Action ] -       Flow - Evaluate: 
+ <-1> 08/09/2018 11:10:54.735     [Info   ] -       >> USER Message >> 11:10:54
+ <-1> 08/09/2018 11:10:54.735     [Action ] -       Flow - Evaluate: 
+ <-1> 08/09/2018 11:10:55.747     [Action ] -     Ends Record Suffix
+ <-1> 08/09/2018 11:10:55.748     [Action ] -     Load records
+ <-1> 08/09/2018 11:10:55.748     [Action ] -     Starts Record Suffix
+ <-1> 08/09/2018 11:10:55.749     [Action ] -       Flow - Remark: 
+ <-1> 08/09/2018 11:10:55.750     [Action ] -       Flow - Evaluate: 
+ <-1> 08/09/2018 11:10:55.750     [Info   ] -       >> USER Message >> 11:10:55
+ <-1> 08/09/2018 11:10:55.751     [Action ] -       Flow - Evaluate: 
+ <-1> 08/09/2018 11:10:56.749     [Action ] -     Ends Record Suffix
+ <-1> 08/09/2018 11:10:56.749     [Action ] -     Load records
+ <-1> 08/09/2018 11:10:56.750     [Action ] -     Starts Record Suffix
+ <-1> 08/09/2018 11:10:56.751     [Action ] -       Flow - Remark: 
+ <-1> 08/09/2018 11:10:56.752     [Action ] -       Flow - Evaluate: 
+ <-1> 08/09/2018 11:10:56.752     [Info   ] -       >> USER Message >> 11:10:56
+ <-1> 08/09/2018 11:10:56.753     [Action ] -       Flow - Evaluate: 
+ <-1> 08/09/2018 11:10:57.748     [Action ] -     Ends Record Suffix
+ <-1> 08/09/2018 11:10:57.750     [Action ] -     Load records
+ <-1> 08/09/2018 11:10:57.751     [Action ] -     Starts Record Suffix
+ <-1> 08/09/2018 11:10:57.751     [Action ] -       Flow - Remark: 
+ <-1> 08/09/2018 11:10:57.752     [Action ] -       Flow - Evaluate: 
+ <-1> 08/09/2018 11:10:57.752     [Info   ] -       >> USER Message >> 11:10:57
+ <-1> 08/09/2018 11:10:57.753     [Action ] -       Flow - Evaluate: 
+ <-1> 08/09/2018 11:10:58.747     [Action ] -     Ends Record Suffix
+ <-1> 08/09/2018 11:10:58.748     [Action ] -     Load records
+ <-1> 08/09/2018 11:10:58.749     [Action ] -     Starts Record Suffix
+ <-1> 08/09/2018 11:10:58.749     [Action ] -       Flow - Remark: 
+ <-1> 08/09/2018 11:10:58.750     [Action ] -       Flow - Evaluate: 
+ <-1> 08/09/2018 11:10:58.751     [Info   ] -       >> USER Message >> 11:10:58
+ <-1> 08/09/2018 11:10:58.751     [Action ] -       Flow - Evaluate: 
+ <-1> 08/09/2018 11:10:59.747     [Action ] -     Ends Record Suffix
+ <-1> 08/09/2018 11:10:59.748     [Action ] -     Load records
+ <-1> 08/09/2018 11:10:59.749     [Action ] -     Starts Record Suffix
+ <-1> 08/09/2018 11:10:59.749     [Action ] -       Flow - Remark: 
+ <-1> 08/09/2018 11:10:59.750     [Action ] -       Flow - Evaluate: 
+ <-1> 08/09/2018 11:10:59.751     [Info   ] -       >> USER Message >> 11:10:59
+ <-1> 08/09/2018 11:10:59.751     [Action ] -       Flow - Evaluate: 
+ <-1> 08/09/2018 11:11:00.747     [Action ] -     Ends Record Suffix
+ <-1> 08/09/2018 11:11:00.748     [Action ] -     Load records
+ <-1> 08/09/2018 11:11:00.749     [Action ] -     Starts Record Suffix
+ <-1> 08/09/2018 11:11:00.749     [Action ] -       Flow - Remark: 
+ <-1> 08/09/2018 11:11:00.750     [Action ] -       Flow - Evaluate: 
+ <-1> 08/09/2018 11:11:00.751     [Info   ] -       >> USER Message >> 11:11:00
+ <-1> 08/09/2018 11:11:00.751     [Action ] -       Flow - Evaluate: 
+ <-1> 08/09/2018 11:11:01.747     [Action ] -     Ends Record Suffix
+ <-1> 08/09/2018 11:11:01.748     [Action ] -     Load records
+ <-1> 08/09/2018 11:11:01.749     [Action ] -     Starts Record Suffix
+ <-1> 08/09/2018 11:11:01.749     [Action ] -       Flow - Remark: 
+ <-1> 08/09/2018 11:11:01.750     [Action ] -       Flow - Evaluate: 
+ <-1> 08/09/2018 11:11:01.751     [Info   ] -       >> USER Message >> 11:11:01
+ <-1> 08/09/2018 11:11:01.751     [Action ] -       Flow - Evaluate: 

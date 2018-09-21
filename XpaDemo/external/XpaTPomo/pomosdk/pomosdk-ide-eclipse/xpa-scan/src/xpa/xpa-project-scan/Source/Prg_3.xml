@@ -32,7 +32,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="Y"/>
-          <LastModified _date="736847" _time="1254" date="02/06/2018" time="00:20:54"/>
+          <LastModified _date="736871" _time="82593" date="26/06/2018" time="22:56:33"/>
         </Header>
         <ItemIsn val="6"/>
         <Resource>
@@ -267,7 +267,7 @@
               </LogicLine>
               <LogicLine>
                 <BLOCK EndBlock="15" EndBlockSegment="15" FlowIsn="12" Type="I">
-                  <Condition val="N"/>
+                  <Condition Exp="5"/>
                   <Modifier val="B"/>
                   <Direction val="C"/>
                 </BLOCK>
@@ -275,7 +275,7 @@
               <LogicLine>
                 <Update FlowIsn="13">
                   <FieldID val="1"/>
-                  <WithValue val="3"/>
+                  <WithValue val="6"/>
                   <Incremental val="N"/>
                   <ForcedUpdate val="Y"/>
                   <Condition val="Y"/>
@@ -421,17 +421,21 @@
             <ExpSyntax val="DbDel('{1,-1}'DSOURCE, '')"/>
             <ExpAttribute val="B"/>
           </Expression>
-          <Expression id="3">
-            <ExpSyntax val="'C:\xpa\samples\XpaDemo\XpaDemo\XpaDemo.edp'"/>
-            <ExpAttribute val="A"/>
-          </Expression>
           <Expression id="4">
             <ExpSyntax val="'TRUE'LOG"/>
             <ExpAttribute val="B"/>
           </Expression>
+          <Expression id="5">
+            <ExpSyntax val="{0,1}=''"/>
+            <ExpAttribute val="B"/>
+          </Expression>
+          <Expression id="6">
+            <ExpSyntax val="Translate(Trim('%WorkingDir%')) &amp; AppName() &amp; '.ecp'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
         </Expressions>
         <Task MainProgram="N">
-          <Header Description="OpenProjectFile" ISN_2="2" id="3">
+          <Header Description="OpenProjectFile" ISN_2="2" LastIsn="10" id="3">
             <ExecutionRight comp="-1"/>
             <Resident val="N"/>
             <SQL val="N"/>
@@ -1223,7 +1227,7 @@
             </EVENT_PARAMETER>
           </EVNT>
           <Task MainProgram="N">
-            <Header Description="Comps" ISN_2="3" id="3">
+            <Header Description="Comps" ISN_2="3" LastIsn="10" id="3">
               <ExecutionRight comp="-1"/>
               <Resident val="N"/>
               <SQL val="N"/>
@@ -1591,7 +1595,7 @@
               </Expression>
             </Expressions>
             <Task MainProgram="N">
-              <Header Description="CreateRecord" ISN_2="4" id="3">
+              <Header Description="CreateRecord" ISN_2="4" LastIsn="10" id="3">
                 <ExecutionRight comp="-1"/>
                 <Resident val="N"/>
                 <SQL val="N"/>
@@ -2002,7 +2006,7 @@
             </Task>
           </Task>
           <Task MainProgram="N">
-            <Header Description="ProgramHeaders" ISN_2="5" id="3">
+            <Header Description="ProgramHeaders" ISN_2="5" LastIsn="10" id="3">
               <ExecutionRight comp="-1"/>
               <Resident val="N"/>
               <SQL val="N"/>
@@ -2438,7 +2442,7 @@
               </Expression>
             </Expressions>
             <Task MainProgram="N">
-              <Header Description="CreateRecord" ISN_2="6" id="3">
+              <Header Description="CreateRecord" ISN_2="6" LastIsn="10" id="3">
                 <ExecutionRight comp="-1"/>
                 <Resident val="N"/>
                 <SQL val="N"/>
@@ -2905,7 +2909,7 @@
             </Task>
           </Task>
           <Task MainProgram="N">
-            <Header Description="DataSourcesIndex" ISN_2="7" id="3">
+            <Header Description="DataSourcesIndex" ISN_2="7" LastIsn="10" id="3">
               <ExecutionRight comp="-1"/>
               <Resident val="N"/>
               <SQL val="N"/>
@@ -3273,7 +3277,7 @@
               </Expression>
             </Expressions>
             <Task MainProgram="N">
-              <Header Description="CreateRecord" ISN_2="8" id="3">
+              <Header Description="CreateRecord" ISN_2="8" LastIsn="10" id="3">
                 <ExecutionRight comp="-1"/>
                 <Resident val="N"/>
                 <SQL val="N"/>
@@ -3708,7 +3712,7 @@
             </Task>
           </Task>
           <Task MainProgram="N">
-            <Header Description="Models" ISN_2="9" id="3">
+            <Header Description="Models" ISN_2="9" LastIsn="10" id="3">
               <ExecutionRight comp="-1"/>
               <Resident val="N"/>
               <SQL val="N"/>
@@ -4110,7 +4114,7 @@
               </Expression>
             </Expressions>
             <Task MainProgram="N">
-              <Header Description="CreateRecord" ISN_2="10" id="3">
+              <Header Description="CreateRecord" ISN_2="10" LastIsn="10" id="3">
                 <ExecutionRight comp="-1"/>
                 <Resident val="N"/>
                 <SQL val="N"/>

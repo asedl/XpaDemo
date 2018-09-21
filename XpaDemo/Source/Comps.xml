@@ -590,8 +590,8 @@
         <Type val="D"/>
         <LoadImmediate val="Y"/>
         <LastISN val="32"/>
-        <AssemblyName val="XpaTHttpDNet, Version=1.0.0.0, Culture=neutral, PublicKeyToken=dc3f52368c33730b"/>
-        <AssemblyPath val="C:\xpa\samples\XpaDemo\XpaDemo\XpaTHttpDNet.dll"/>
+        <AssemblyName val="XpaTHttpDNet, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+        <AssemblyPath val="%XPATEST_HOME%XpaTHttpDNet.dll"/>
         <UseSpecificVersion val="N"/>
         <isGuiThreadExecution val="N"/>
       </Component>

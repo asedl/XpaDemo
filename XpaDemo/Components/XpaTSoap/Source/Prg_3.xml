@@ -28,7 +28,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736870" _time="32054" date="25/06/2018" time="08:54:14"/>
+          <LastModified _date="736871" _time="74985" date="26/06/2018" time="20:49:45"/>
         </Header>
         <ItemIsn val="10"/>
         <Resource>
@@ -411,9 +411,7 @@
                   <TaskID comp="-1"/>
                   <Lock val="N"/>
                   <Arguments>
-                    <Argument>
-                      <Variable val="8"/>
-                    </Argument>
+                    <Argument/>
                     <Argument>
                       <Variable val="9"/>
                       <Skip val="10"/>
@@ -424,8 +422,6 @@
                   <SyncData val="N"/>
                   <ServiceName_LT val="Soap SOAPService Service"/>
                   <SoapAction_LT val="||||UTF-8"/>
-                  <OperationName_LT val="C:\magic\xpa3.3\SoapClientModules\SOAPLITE\SOAPService_greetMe_In.xsd"/>
-                  <Namespace_LT val="C:\magic\xpa3.3\SoapClientModules\SOAPLITE\SOAPService_greetMe_Out.xsd"/>
                   <ReturnCode_LT val="8"/>
                   <FaultCode_LT val="10"/>
                   <WSDL_URL val="C:\xpa\samples\XpaDemo\XpaDemo\external\Java\wsdl_first_https\src\main\config\hello_world.wsdl"/>
@@ -520,6 +516,7 @@
                 <Width id="23" val="474"/>
                 <Height id="24" val="9"/>
                 <EnableRTF id="69"/>
+                <_Orientation id="143"/>
               </PropertyList>
             </Control>
             <Control PDOD="128" _test_id="8" id="8">

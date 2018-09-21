@@ -5,9 +5,12 @@
     <Version val="13030.00"/>
     <WithIsn val="Y"/>
     <Exe comp="-1"/>
-    <LastIsn val="108"/>
-    <LastIsnFolder val="17"/>
+    <LastIsn val="111"/>
+    <LastIsnFolder val="18"/>
     <Folders>
+      <Folder id="18">
+        <Name val="Test"/>
+      </Folder>
       <Folder id="17">
         <Name val="RiaTest"/>
       </Folder>
@@ -40,6 +43,9 @@
       <Program id="88"/>
       <Program id="106"/>
       <Program id="107"/>
+      <Program FolderIsn="18" id="109"/>
+      <Program FolderIsn="18" id="110"/>
+      <Program FolderIsn="18" id="111"/>
       <Program FolderIsn="17" id="105"/>
       <Program FolderIsn="5" id="28"/>
       <Program FolderIsn="5" id="33"/>
@@ -79,7 +85,6 @@
       <Program FolderIsn="14" id="98"/>
       <Program FolderIsn="14" id="96"/>
       <Program FolderIsn="14" id="99"/>
-      <Program FolderIsn="14" id="101"/>
     </Programs>
   </ProgramsRepositoryOutLine>
 

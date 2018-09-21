@@ -28,25 +28,6 @@
       <SourceFileTimeStamp _date="736870" _time="73529" date="25/06/2018" time="20:25:29"/>
     </Program>
     <Program>
-      <Header ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="2">
-        <ExecutionRight comp="-1"/>
-        <Resident val="N"/>
-        <SQL val="N"/>
-        <ReturnValue>
-          <ReturnValueAttr/>
-          <ParametersAttributes/>
-        </ReturnValue>
-        <SqlWhereExist val="N"/>
-        <TaskType val="O"/>
-        <External val="N"/>
-        <Offline val="N"/>
-        <FormType val="N"/>
-        <DotNetObjectExists val="N"/>
-        <LastModified date="00/00/0000" time="00:00:00"/>
-      </Header>
-      <SourceFileTimeStamp _date="736868" _time="5551" date="23/06/2018" time="01:32:31"/>
-    </Program>
-    <Program>
       <Header Description="OSOAP001_GreetingsClient" ISN_2="1" LastIsn="1" id="3">
         <Public val="OSOAP001_GreetingsClient"/>
         <ExecutionRight comp="-1"/>
@@ -62,9 +43,9 @@
         <Offline val="N"/>
         <FormType val="N"/>
         <DotNetObjectExists val="N"/>
-        <LastModified _date="736870" _time="32054" date="25/06/2018" time="08:54:14"/>
+        <LastModified _date="736871" _time="74985" date="26/06/2018" time="20:49:45"/>
       </Header>
-      <SourceFileTimeStamp _date="736870" _time="24854" date="25/06/2018" time="06:54:14"/>
+      <SourceFileTimeStamp _date="736871" _time="67785" date="26/06/2018" time="18:49:45"/>
     </Program>
     <Program>
       <Header Description="BSOAP001_GreetingsClient" ISN_2="1" LastIsn="2" id="4">
@@ -85,63 +66,6 @@
         <LastModified _date="736870" _time="15059" date="25/06/2018" time="04:10:59"/>
       </Header>
       <SourceFileTimeStamp _date="736870" _time="7859" date="25/06/2018" time="02:10:59"/>
-    </Program>
-    <Program>
-      <Header ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="5">
-        <ExecutionRight comp="-1"/>
-        <Resident val="N"/>
-        <SQL val="N"/>
-        <ReturnValue>
-          <ReturnValueAttr/>
-          <ParametersAttributes/>
-        </ReturnValue>
-        <SqlWhereExist val="N"/>
-        <TaskType val="O"/>
-        <External val="N"/>
-        <Offline val="N"/>
-        <FormType val="N"/>
-        <DotNetObjectExists val="N"/>
-        <LastModified date="00/00/0000" time="00:00:00"/>
-      </Header>
-      <SourceFileTimeStamp _date="736870" _time="71430" date="25/06/2018" time="19:50:30"/>
-    </Program>
-    <Program>
-      <Header Description="AlarmTest" ISN_2="1" LastIsn="1" id="7">
-        <ExecutionRight comp="-1"/>
-        <Resident val="N"/>
-        <SQL val="N"/>
-        <ReturnValue>
-          <ReturnValueAttr/>
-          <ParametersAttributes/>
-        </ReturnValue>
-        <SqlWhereExist val="N"/>
-        <TaskType val="O"/>
-        <External val="N"/>
-        <Offline val="N"/>
-        <FormType val="N"/>
-        <DotNetObjectExists val="Y"/>
-        <LastModified _date="736870" _time="83944" date="25/06/2018" time="23:19:04"/>
-      </Header>
-      <SourceFileTimeStamp _date="736870" _time="76744" date="25/06/2018" time="21:19:04"/>
-    </Program>
-    <Program>
-      <Header ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="6">
-        <ExecutionRight comp="-1"/>
-        <Resident val="N"/>
-        <SQL val="N"/>
-        <ReturnValue>
-          <ReturnValueAttr/>
-          <ParametersAttributes/>
-        </ReturnValue>
-        <SqlWhereExist val="N"/>
-        <TaskType val="O"/>
-        <External val="N"/>
-        <Offline val="N"/>
-        <FormType val="N"/>
-        <DotNetObjectExists val="N"/>
-        <LastModified date="00/00/0000" time="00:00:00"/>
-      </Header>
-      <SourceFileTimeStamp _date="736870" _time="71430" date="25/06/2018" time="19:50:30"/>
     </Program>
   </ProgramsRepositoryHeaders>
 
