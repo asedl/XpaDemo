@@ -9,7 +9,7 @@
 
 using namespace std;
 
-int getPrintOptions(wstring& pdriver, wstring& pname, wstring& poutput) {
+int getPrintOptions(wstring& pdriver, wstring& pname, wstring& poutput, bool fetchonly) {
 
 	pdriver.empty();
 	pname.empty();
@@ -21,7 +21,9 @@ int getPrintOptions(wstring& pdriver, wstring& pname, wstring& poutput) {
 
 	//  Initialize the PRINTDLGEX structure.
 	pPD->lStructSize = sizeof(PRINTDLG);
-	pPD->Flags = PD_RETURNDC | PD_RETURNDEFAULT;
+	pPD->Flags = PD_RETURNDC;
+	if (fetchonly)
+		pPD->Flags = pPD->Flags | PD_RETURNDEFAULT;
 
 	if (PrintDlg(pPD) == TRUE)
 	{
@@ -38,6 +40,8 @@ int getPrintOptions(wstring& pdriver, wstring& pname, wstring& poutput) {
 		GlobalUnlock(pPD->hDevNames);
 		GlobalUnlock(pPD->hDevMode);
 	}
+
+	GlobalFree(pPD);
 
 	return 0;
 }

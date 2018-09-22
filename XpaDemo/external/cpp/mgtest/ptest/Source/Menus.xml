@@ -100,7 +100,7 @@
           <Prompt comp="-1"/>
           <Menu>
             <MenuType val="1"/>
-            <LastIsn val="2"/>
+            <LastIsn val="3"/>
             <MenuEntry id="2">
               <MenuType val="2"/>
               <Description_U val="test01"/>
@@ -108,6 +108,15 @@
               <Help comp="-1"/>
               <Prompt comp="-1"/>
               <Program ObjIsn="3" comp="-1" obj="3"/>
+              <SourceContext val="67"/>
+            </MenuEntry>
+            <MenuEntry id="3">
+              <MenuType val="2"/>
+              <Description_U val="test02"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Program ObjIsn="4" comp="-1" obj="4"/>
               <SourceContext val="67"/>
             </MenuEntry>
           </Menu>

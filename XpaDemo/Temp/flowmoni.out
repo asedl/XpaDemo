@@ -16724,3 +16724,262 @@
  <-1> 22/09/2018 17:12:20.466     [Action ] -   <<Ends Close Task
  <-1> 22/09/2018 17:12:20.534     [Info   ] - Process 4824 - Exiting Magic xpa
  <-1> 22/09/2018 17:12:20.535     [Info   ] - ------------------------------------------
+ *********************   Date: 22/09/2018  ********************
+ <-1> 22/09/2018 17:43:20.789     [Info   ] - The INI file ("C:\magic\xpa3.3\MAGIC.INI") was successfully opened.
+ <-1> 22/09/2018 17:43:20.790     [Info   ] - ProcessID is 7792
+ <-1> 22/09/2018 17:43:20.791     [Info   ] - The current working directory is: "C:\magic\xpa3.3".
+ <-1> 22/09/2018 17:43:20.857     [Info   ] - Starting Magic xpa Server. Maximum checked-out concurrent threads: 1. Maximum checked-out concurrent users: 1.
+ <-1> 22/09/2018 17:43:24.209     [Info   ] - Starts Loading Component : C:\magic\xpa3.3\Add_On\UserFunctionality\UserFunctionality.ecf 
+ <-1> 22/09/2018 17:43:24.228     [Info   ] - Starts Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 17:43:24.312     [Info   ] - Ends Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 17:43:24.312     [Info   ] - Starts Loading Component : System.Drawing 
+ <-1> 22/09/2018 17:43:24.316     [Info   ] - Ends Loading Component : System.Drawing 
+ <-1> 22/09/2018 17:43:24.316     [Info   ] - Starts Loading Component : System 
+ <-1> 22/09/2018 17:43:24.337     [Info   ] - Ends Loading Component : System 
+ <-1> 22/09/2018 17:43:24.337     [Info   ] - Starts Loading Component : System.Data 
+ <-1> 22/09/2018 17:43:24.364     [Info   ] - Ends Loading Component : System.Data 
+ <-1> 22/09/2018 17:43:24.365     [Info   ] - Starts Loading Component : Microsoft.Office.Interop.Excel 
+ <-1> 22/09/2018 17:43:24.476     [Info   ] - Ends Loading Component : Microsoft.Office.Interop.Excel 
+ <-1> 22/09/2018 17:43:24.476     [Info   ] - Starts Loading Component : Microsoft.CSharp 
+ <-1> 22/09/2018 17:43:24.484     [Info   ] - Ends Loading Component : Microsoft.CSharp 
+ <-1> 22/09/2018 17:43:24.484     [Info   ] - Starts Loading Component : System.Core 
+ <-1> 22/09/2018 17:43:24.491     [Info   ] - Ends Loading Component : System.Core 
+ <-1> 22/09/2018 17:43:24.524     [Info   ] - Ends Loading Component : C:\magic\xpa3.3\Add_On\UserFunctionality\UserFunctionality.ecf 
+ <-1> 22/09/2018 17:43:24.536     [Info   ] -   The project was successfully opened.
+ <474839808005263872> 22/09/2018 17:47:25.189     [Action ] -   >>Starts load Batch Task - 'Main Program (UserFunctionality)' in Query mode (Task Instance: 1)
+ <474839808005263872> 22/09/2018 17:47:25.190     [Action ] -   Ends Load Task
+ <474839808005263872> 22/09/2018 17:47:25.193     [Action ] -   Starts Task Prefix
+ <474839808005263872> 22/09/2018 17:47:25.193     [Action ] -     Flow - Update: 'V: gV:FunctionsList' <== exp #41
+ <474839808005263872> 22/09/2018 17:47:25.194     [Action ] -     Flow - Update: 'W: gV:FunctionsDescriptionList' <== exp #42
+ <474839808005263872> 22/09/2018 17:47:25.194     [Action ] -     Flow - Update: 'X: gV:DigitAndPunctuationList' <== exp #43
+ <474839808005263872> 22/09/2018 17:47:25.195     [Action ] -     Flow - Update: 'BB: gV:IsHebrewApp' <== exp #105
+ <474839808005263872> 22/09/2018 17:47:25.195     [Action ] -   Ends Task Prefix
+ <474839808005263872> 22/09/2018 17:47:25.196     [Action ] -   Load records
+ <474839808005263872> 22/09/2018 17:47:25.344     [Action ] -   >>Starts load Batch Task - 'Main Program (ptest)' in Query mode (Task Instance: 2)
+ <474839808005263872> 22/09/2018 17:47:25.346     [Action ] -   Ends Load Task
+ <474839808005263872> 22/09/2018 17:47:25.346     [Action ] -   Load records
+ <474839808005263872> 22/09/2018 17:47:25.529     [Action ] -     >>Starts load Online Task - 'test02' in Modify mode (Task Instance: 3)
+ <474839808005263872> 22/09/2018 17:47:25.530     [Action ] -     Ends Load Task
+ <474839808005263872> 22/09/2018 17:47:25.530     [Action ] -     Task Mode Change - Modify
+ <474839808005263872> 22/09/2018 17:47:25.533     [Action ] -     Load records
+ <474839808005263872> 22/09/2018 17:47:25.560     [Action ] -     Write Deferred Transaction 3
+ <474839808005263872> 22/09/2018 17:47:25.562     [Action ] -     Flow - Variable Virtual  'v.Device' (Step Forward)  
+ <474839808005263872> 22/09/2018 17:47:25.642     [Action ] -     >>  Processing Event  [Context Got Focus]  Control Name :  [v.Device] 
+ <474839808005263872> 22/09/2018 17:47:43.654     [Action ] -     >>  Processing Event  [Control Hit]  Control Name :  [ N/A ] 
+ <474839808005263872> 22/09/2018 17:47:43.659     [Action ] -     Flow - Variable Virtual  'v.Device' (Step Forward)  
+ <474839808005263872> 22/09/2018 17:47:43.669     [Action ] -     >>Starts Handle User Event: GetPrinterSettings
+ <474839808005263872> 22/09/2018 17:47:43.670     [Action ] -       Flow - Remark: 
+ <474839808005263872> 22/09/2018 17:47:43.671     [Action ] -       Flow - Invoke UDP :: 'mgtest.mgtest_printersettings'
+ <474839808005263872> 22/09/2018 17:47:46.909     [Action ] -       Flow - Remark: 
+ <474839808005263872> 22/09/2018 17:47:46.910     [Action ] -     <<Ends Handle User Event: GetPrinterSettings
+ <474839808005263872> 22/09/2018 17:47:50.355     [Action ] -     >>  Processing Event  [Control Hit]  Control Name :  [v.Fetchonly] 
+ <474839808005263872> 22/09/2018 17:47:50.356     [Action ] -     Flow - Variable Virtual  'v.Printername' (Fast Forward)  [Not Executed]
+ <474839808005263872> 22/09/2018 17:47:50.357     [Action ] -     Flow - Variable Virtual  'v.Output' (Fast Forward)  [Not Executed]
+ <474839808005263872> 22/09/2018 17:47:50.357     [Action ] -     Flow - Variable Virtual  'v.Fetchonly' (Step Forward)  
+ <474839808005263872> 22/09/2018 17:47:50.359     [Action ] -     Flow - Variable Virtual  'v.Fetchonly' (Step Forward)  
+ <474839808005263872> 22/09/2018 17:47:50.360     [Action ] -     >>  Processing Event  [Click]  Control Name :  [v.Fetchonly] 
+ <474839808005263872> 22/09/2018 17:47:51.708     [Action ] -     >>  Processing Event  [Control Hit]  Control Name :  [ N/A ] 
+ <474839808005263872> 22/09/2018 17:47:51.709     [Action ] -     Flow - Variable Virtual  'v.Fetchonly' (Step Forward)  
+ <474839808005263872> 22/09/2018 17:47:51.709     [Action ] -     >>Starts Handle User Event: GetPrinterSettings
+ <474839808005263872> 22/09/2018 17:47:51.710     [Action ] -       Flow - Remark: 
+ <474839808005263872> 22/09/2018 17:47:51.711     [Action ] -       Flow - Invoke UDP :: 'mgtest.mgtest_printersettings'
+ <474839808005263872> 22/09/2018 17:47:51.765     [Action ] -       Flow - Remark: 
+ <474839808005263872> 22/09/2018 17:47:51.766     [Action ] -     <<Ends Handle User Event: GetPrinterSettings
+ <474839808005263872> 22/09/2018 17:47:55.110     [Action ] -     >>  Processing Event  [Control Hit]  Control Name :  [v.Fetchonly] 
+ <474839808005263872> 22/09/2018 17:47:55.111     [Action ] -     Flow - Variable Virtual  'v.Fetchonly' (Step Forward)  
+ <474839808005263872> 22/09/2018 17:47:55.111     [Action ] -     >>  Processing Event  [Click]  Control Name :  [v.Fetchonly] 
+ <474839808005263872> 22/09/2018 17:47:56.279     [Action ] -     >>  Processing Event  [Control Hit]  Control Name :  [ N/A ] 
+ <474839808005263872> 22/09/2018 17:47:56.280     [Action ] -     Flow - Variable Virtual  'v.Fetchonly' (Step Forward)  
+ <474839808005263872> 22/09/2018 17:47:56.281     [Action ] -     >>Starts Handle User Event: GetPrinterSettings
+ <474839808005263872> 22/09/2018 17:47:56.281     [Action ] -       Flow - Remark: 
+ <474839808005263872> 22/09/2018 17:47:56.282     [Action ] -       Flow - Invoke UDP :: 'mgtest.mgtest_printersettings'
+ <474839808005263872> 22/09/2018 17:48:00.385     [Action ] -       Flow - Remark: 
+ <474839808005263872> 22/09/2018 17:48:00.385     [Action ] -     <<Ends Handle User Event: GetPrinterSettings
+ <474839808005263872> 22/09/2018 17:48:01.704     [Action ] -     >>  Processing Event  [Control Hit]  Control Name :  [ N/A ] 
+ <474839808005263872> 22/09/2018 17:48:01.705     [Action ] -     Flow - Variable Virtual  'v.Fetchonly' (Step Forward)  
+ <474839808005263872> 22/09/2018 17:48:01.706     [Action ] -     >>Starts Handle User Event: GetPrinterSettings
+ <474839808005263872> 22/09/2018 17:48:01.706     [Action ] -       Flow - Remark: 
+ <474839808005263872> 22/09/2018 17:48:01.707     [Action ] -       Flow - Invoke UDP :: 'mgtest.mgtest_printersettings'
+ <474839808005263872> 22/09/2018 17:48:05.320     [Action ] -       Flow - Remark: 
+ <474839808005263872> 22/09/2018 17:48:05.321     [Action ] -     <<Ends Handle User Event: GetPrinterSettings
+ <474839808005263872> 22/09/2018 17:48:07.021     [Action ] -     >>  Processing Event  [Control Hit]  Control Name :  [ N/A ] 
+ <474839808005263872> 22/09/2018 17:48:07.022     [Action ] -     Flow - Variable Virtual  'v.Fetchonly' (Step Forward)  
+ <474839808005263872> 22/09/2018 17:48:07.023     [Action ] -     >>Starts Handle User Event: GetPrinterSettings
+ <474839808005263872> 22/09/2018 17:48:07.023     [Action ] -       Flow - Remark: 
+ <474839808005263872> 22/09/2018 17:48:07.024     [Action ] -       Flow - Invoke UDP :: 'mgtest.mgtest_printersettings'
+ <474839808005263872> 22/09/2018 17:48:25.841     [Action ] -       Flow - Remark: 
+ <474839808005263872> 22/09/2018 17:48:25.841     [Action ] -     <<Ends Handle User Event: GetPrinterSettings
+ <474839808005263872> 22/09/2018 17:48:30.999     [Action ] -     >>  Processing Event  [Control Hit]  Control Name :  [ N/A ] 
+ <474839808005263872> 22/09/2018 17:48:30.999     [Action ] -     Flow - Variable Virtual  'v.Fetchonly' (Step Forward)  
+ <474839808005263872> 22/09/2018 17:48:31.000     [Action ] -     >>Starts Handle User Event: GetPrinterSettings
+ <474839808005263872> 22/09/2018 17:48:31.001     [Action ] -       Flow - Remark: 
+ <474839808005263872> 22/09/2018 17:48:31.002     [Action ] -       Flow - Invoke UDP :: 'mgtest.mgtest_printersettings'
+ <474839808005263872> 22/09/2018 17:48:49.638     [Action ] -       Flow - Remark: 
+ <474839808005263872> 22/09/2018 17:48:49.639     [Action ] -     <<Ends Handle User Event: GetPrinterSettings
+ <474839808005263872> 22/09/2018 17:49:03.175     [Action ] -     >>  Processing Event  [Close]  Control Name :  [ N/A ] 
+ <474839808005263872> 22/09/2018 17:49:03.175     [Action ] -     >>  Processing Event  [Exit]  Control Name :  [ N/A ] 
+ <474839808005263872> 22/09/2018 17:49:03.176     [Action ] -     Commit Transaction 3
+ <474839808005263872> 22/09/2018 17:49:03.176     [Action ] -     Starts Closing Online Task - 'test02' (Task Instance: 3)
+ <474839808005263872> 22/09/2018 17:49:03.191     [Action ] -   <<Ends Close Task
+ <474839808005263872> 22/09/2018 17:49:03.291     [Action ] -   >>  Processing Event  [Exit System]  Control Name :  [ N/A ] 
+ <474839808005263872> 22/09/2018 17:49:03.292     [Info   ] -   Context released : 
+ <474839808005263872> 22/09/2018 17:49:03.292     [Action ] -   Starts Closing Batch Task - 'Main Program (ptest)' (Task Instance: 2)
+ <474839808005263872> 22/09/2018 17:49:03.304     [Action ] -   <<Ends Close Task
+ <474839808005263872> 22/09/2018 17:49:03.305     [Action ] -   Starts Closing Batch Task - 'Main Program (UserFunctionality)' (Task Instance: 1)
+ <474839808005263872> 22/09/2018 17:49:03.305     [Action ] -   <<Ends Close Task
+ <464323661327190400> 22/09/2018 17:51:19.782     [Action ] -   >>Starts load Batch Task - 'Main Program (UserFunctionality)' in Query mode (Task Instance: 4)
+ <464323661327190400> 22/09/2018 17:51:19.783     [Action ] -   Ends Load Task
+ <464323661327190400> 22/09/2018 17:51:19.784     [Action ] -   Starts Task Prefix
+ <464323661327190400> 22/09/2018 17:51:19.785     [Action ] -     Flow - Update: 'V: gV:FunctionsList' <== exp #41
+ <464323661327190400> 22/09/2018 17:51:19.785     [Action ] -     Flow - Update: 'W: gV:FunctionsDescriptionList' <== exp #42
+ <464323661327190400> 22/09/2018 17:51:19.786     [Action ] -     Flow - Update: 'X: gV:DigitAndPunctuationList' <== exp #43
+ <464323661327190400> 22/09/2018 17:51:19.786     [Action ] -     Flow - Update: 'BB: gV:IsHebrewApp' <== exp #105
+ <464323661327190400> 22/09/2018 17:51:19.786     [Action ] -   Ends Task Prefix
+ <464323661327190400> 22/09/2018 17:51:19.787     [Action ] -   Load records
+ <464323661327190400> 22/09/2018 17:51:19.795     [Action ] -   >>Starts load Batch Task - 'Main Program (ptest)' in Query mode (Task Instance: 5)
+ <464323661327190400> 22/09/2018 17:51:19.796     [Action ] -   Ends Load Task
+ <464323661327190400> 22/09/2018 17:51:19.797     [Action ] -   Load records
+ <568201091069669504> 22/09/2018 17:51:22.060     [Action ] -     >>Starts load Batch Task - 'test01' in Modify mode (Task Instance: 6)
+ <568201091069669504> 22/09/2018 17:51:22.060     [Action ] -     Ends Load Task
+ <568201091069669504> 22/09/2018 17:51:22.061     [Action ] -     Load records
+ <568201091069669504> 22/09/2018 17:51:22.061     [Action ] -     Starts Record Suffix
+ <568201091069669504> 22/09/2018 17:51:22.061     [Action ] -       Flow - Remark: 
+ <568201091069669504> 22/09/2018 17:51:22.062     [Action ] -       Flow - Invoke UDP :: 'mgtest.mgtest_printersettings'
+ *********************   Date: 22/09/2018  ********************
+ <568201091069669504> 22/09/2018 17:51:22.063     [Error  ] -       Wrong number of arguments in user function/procedure, Program: "test01".
+ <568201091069669504> 22/09/2018 17:51:22.064     [Action ] -       Flow - Call SubTask :: Show
+ <568201091069669504> 22/09/2018 17:51:22.069     [Action ] -         >>Starts load Online Task - 'Show' in Modify mode (Task Instance: 7)
+ <568201091069669504> 22/09/2018 17:51:22.070     [Action ] -         Ends Load Task
+ <568201091069669504> 22/09/2018 17:51:22.070     [Action ] -         Load records
+ <568201091069669504> 22/09/2018 17:51:24.324     [Action ] -         >>  Processing Event  [Esc]  [Exit]  Control Name :  [ N/A ] 
+ <568201091069669504> 22/09/2018 17:51:24.324     [Action ] -         Starts Closing Online Task - 'Show' (Task Instance: 7)
+ <568201091069669504> 22/09/2018 17:51:24.335     [Action ] -       <<Ends Close Task
+ <568201091069669504> 22/09/2018 17:51:24.336     [Action ] -     Ends Record Suffix
+ <568201091069669504> 22/09/2018 17:51:24.336     [Action ] -     Starts Closing Batch Task - 'test01' (Task Instance: 6)
+ <568201091069669504> 22/09/2018 17:51:24.336     [Action ] -   <<Ends Close Task
+ <184656407339879392> 22/09/2018 17:51:25.434     [Action ] -     >>Starts load Online Task - 'test02' in Modify mode (Task Instance: 8)
+ <184656407339879392> 22/09/2018 17:51:25.435     [Action ] -     Ends Load Task
+ <184656407339879392> 22/09/2018 17:51:25.436     [Action ] -     Load records
+ <184656407339879392> 22/09/2018 17:51:25.436     [Action ] -     Write Deferred Transaction 8
+ <184656407339879392> 22/09/2018 17:51:25.437     [Action ] -     Flow - Variable Virtual  'v.Device' (Step Forward)  
+ <184656407339879392> 22/09/2018 17:51:26.673     [Action ] -     >>  Processing Event  [Control Hit]  Control Name :  [ N/A ] 
+ <184656407339879392> 22/09/2018 17:51:26.674     [Action ] -     Flow - Variable Virtual  'v.Device' (Step Forward)  
+ <184656407339879392> 22/09/2018 17:51:26.677     [Action ] -     >>Starts Handle User Event: GetPrinterSettings
+ <184656407339879392> 22/09/2018 17:51:26.677     [Action ] -       Flow - Remark: 
+ <184656407339879392> 22/09/2018 17:51:26.678     [Action ] -       Flow - Invoke UDP :: 'mgtest.mgtest_printersettings'
+ <184656407339879392> 22/09/2018 17:51:28.636     [Action ] -       Flow - Remark: 
+ <184656407339879392> 22/09/2018 17:51:28.636     [Action ] -     <<Ends Handle User Event: GetPrinterSettings
+ <184656407339879392> 22/09/2018 17:51:29.936     [Action ] -     >>  Processing Event  [Control Hit]  Control Name :  [ N/A ] 
+ <184656407339879392> 22/09/2018 17:51:29.937     [Action ] -     Flow - Variable Virtual  'v.Device' (Step Forward)  
+ <184656407339879392> 22/09/2018 17:51:29.941     [Action ] -     >>Starts Handle User Event: GetPrinterSettings
+ <184656407339879392> 22/09/2018 17:51:29.941     [Action ] -       Flow - Remark: 
+ <184656407339879392> 22/09/2018 17:51:29.942     [Action ] -       Flow - Invoke UDP :: 'mgtest.mgtest_printersettings'
+ <184656407339879392> 22/09/2018 17:51:31.456     [Action ] -       Flow - Remark: 
+ <184656407339879392> 22/09/2018 17:51:31.457     [Action ] -     <<Ends Handle User Event: GetPrinterSettings
+ <184656407339879392> 22/09/2018 17:51:33.446     [Action ] -     >>  Processing Event  [Back]  [Del Previous Char]  Control Name :  [v.Device] 
+ <184656407339879392> 22/09/2018 17:51:33.521     [Action ] -     >>  Processing Event  [Tab]  [Next Field]  Control Name :  [v.Device] 
+ <184656407339879392> 22/09/2018 17:51:33.535     [Action ] -     Flow - Variable Virtual  'v.Printername' (Step Forward)  
+ <184656407339879392> 22/09/2018 17:51:33.654     [Action ] -     >>  Processing Event  [Back]  [Del Previous Char]  Control Name :  [v.Printername] 
+ <184656407339879392> 22/09/2018 17:51:33.745     [Action ] -     >>  Processing Event  [Tab]  [Next Field]  Control Name :  [v.Printername] 
+ <184656407339879392> 22/09/2018 17:51:33.746     [Action ] -     Flow - Variable Virtual  'v.Output' (Step Forward)  
+ <184656407339879392> 22/09/2018 17:51:33.861     [Action ] -     >>  Processing Event  [Back]  [Del Previous Char]  Control Name :  [v.Output] 
+ <184656407339879392> 22/09/2018 17:51:33.959     [Action ] -     >>  Processing Event  [Tab]  [Next Field]  Control Name :  [v.Output] 
+ <184656407339879392> 22/09/2018 17:51:33.960     [Action ] -     Flow - Variable Virtual  'v.Fetchonly' (Step Forward)  
+ <184656407339879392> 22/09/2018 17:51:35.890     [Action ] -     >>  Processing Event  [Control Hit]  Control Name :  [ N/A ] 
+ <184656407339879392> 22/09/2018 17:51:35.891     [Action ] -     Flow - Variable Virtual  'v.Fetchonly' (Step Forward)  
+ <184656407339879392> 22/09/2018 17:51:35.891     [Action ] -     >>Starts Handle User Event: GetPrinterSettings
+ <184656407339879392> 22/09/2018 17:51:35.892     [Action ] -       Flow - Remark: 
+ <184656407339879392> 22/09/2018 17:51:35.892     [Action ] -       Flow - Invoke UDP :: 'mgtest.mgtest_printersettings'
+ <184656407339879392> 22/09/2018 17:51:36.586     [Action ] -       Flow - Remark: 
+ <184656407339879392> 22/09/2018 17:51:36.587     [Action ] -     <<Ends Handle User Event: GetPrinterSettings
+ <184656407339879392> 22/09/2018 17:51:37.693     [Action ] -     >>  Processing Event  [Control Hit]  Control Name :  [ N/A ] 
+ <184656407339879392> 22/09/2018 17:51:37.694     [Action ] -     Flow - Variable Virtual  'v.Fetchonly' (Step Forward)  
+ <184656407339879392> 22/09/2018 17:51:37.694     [Action ] -     >>Starts Handle User Event: GetPrinterSettings
+ <184656407339879392> 22/09/2018 17:51:37.695     [Action ] -       Flow - Remark: 
+ <184656407339879392> 22/09/2018 17:51:37.695     [Action ] -       Flow - Invoke UDP :: 'mgtest.mgtest_printersettings'
+ <184656407339879392> 22/09/2018 17:51:39.082     [Action ] -       Flow - Remark: 
+ <184656407339879392> 22/09/2018 17:51:39.082     [Action ] -     <<Ends Handle User Event: GetPrinterSettings
+ <184656407339879392> 22/09/2018 17:51:40.679     [Action ] -     >>  Processing Event  [Esc]  [Exit]  Control Name :  [v.Fetchonly] 
+ <184656407339879392> 22/09/2018 17:51:40.680     [Action ] -     Commit Transaction 8
+ <184656407339879392> 22/09/2018 17:51:40.680     [Action ] -     Starts Closing Online Task - 'test02' (Task Instance: 8)
+ <184656407339879392> 22/09/2018 17:51:40.691     [Action ] -   <<Ends Close Task
+ <184656407339879392> 22/09/2018 17:51:41.189     [Action ] -   >>  Processing Event  [Esc]  [Exit]  Control Name :  [ N/A ] 
+ <184656407339879392> 22/09/2018 17:51:41.189     [Action ] -   >>  Processing Event  [Exit System]  Control Name :  [ N/A ] 
+ <184656407339879392> 22/09/2018 17:51:41.190     [Info   ] -   Context released : 
+ <184656407339879392> 22/09/2018 17:51:41.190     [Action ] -   Starts Closing Batch Task - 'Main Program (ptest)' (Task Instance: 5)
+ <184656407339879392> 22/09/2018 17:51:41.201     [Action ] -   <<Ends Close Task
+ <184656407339879392> 22/09/2018 17:51:41.202     [Action ] -   Starts Closing Batch Task - 'Main Program (UserFunctionality)' (Task Instance: 4)
+ <184656407339879392> 22/09/2018 17:51:41.202     [Action ] -   <<Ends Close Task
+ <132567473321668688> 22/09/2018 17:52:07.660     [Action ] -   >>Starts load Batch Task - 'Main Program (UserFunctionality)' in Query mode (Task Instance: 9)
+ <132567473321668688> 22/09/2018 17:52:07.662     [Action ] -   Ends Load Task
+ <132567473321668688> 22/09/2018 17:52:07.664     [Action ] -   Starts Task Prefix
+ <132567473321668688> 22/09/2018 17:52:07.664     [Action ] -     Flow - Update: 'V: gV:FunctionsList' <== exp #41
+ <132567473321668688> 22/09/2018 17:52:07.665     [Action ] -     Flow - Update: 'W: gV:FunctionsDescriptionList' <== exp #42
+ <132567473321668688> 22/09/2018 17:52:07.665     [Action ] -     Flow - Update: 'X: gV:DigitAndPunctuationList' <== exp #43
+ <132567473321668688> 22/09/2018 17:52:07.666     [Action ] -     Flow - Update: 'BB: gV:IsHebrewApp' <== exp #105
+ <132567473321668688> 22/09/2018 17:52:07.666     [Action ] -   Ends Task Prefix
+ <132567473321668688> 22/09/2018 17:52:07.666     [Action ] -   Load records
+ <132567473321668688> 22/09/2018 17:52:07.674     [Action ] -   >>Starts load Batch Task - 'Main Program (ptest)' in Query mode (Task Instance: 10)
+ <132567473321668688> 22/09/2018 17:52:07.676     [Action ] -   Ends Load Task
+ <132567473321668688> 22/09/2018 17:52:07.676     [Action ] -   Load records
+ <132567473321668688> 22/09/2018 17:52:07.679     [Action ] -     >>Starts load Batch Task - 'test01' in Modify mode (Task Instance: 11)
+ <132567473321668688> 22/09/2018 17:52:07.680     [Action ] -     Ends Load Task
+ <132567473321668688> 22/09/2018 17:52:07.680     [Action ] -     Load records
+ <132567473321668688> 22/09/2018 17:52:07.681     [Action ] -     Starts Record Suffix
+ <132567473321668688> 22/09/2018 17:52:07.681     [Action ] -       Flow - Remark: 
+ <132567473321668688> 22/09/2018 17:52:07.682     [Action ] -       Flow - Invoke UDP :: 'mgtest.mgtest_printersettings'
+ <132567473321668688> 22/09/2018 17:52:07.706     [Action ] -       Flow - Call SubTask :: Show
+ <132567473321668688> 22/09/2018 17:52:07.718     [Action ] -         >>Starts load Online Task - 'Show' in Modify mode (Task Instance: 12)
+ <132567473321668688> 22/09/2018 17:52:07.719     [Action ] -         Ends Load Task
+ <132567473321668688> 22/09/2018 17:52:07.720     [Action ] -         Load records
+ <132567473321668688> 22/09/2018 17:52:11.952     [Action ] -         >>  Processing Event  [Esc]  [Exit]  Control Name :  [ N/A ] 
+ <132567473321668688> 22/09/2018 17:52:11.952     [Action ] -         Starts Closing Online Task - 'Show' (Task Instance: 12)
+ <132567473321668688> 22/09/2018 17:52:11.964     [Action ] -       <<Ends Close Task
+ <132567473321668688> 22/09/2018 17:52:11.965     [Action ] -     Ends Record Suffix
+ <132567473321668688> 22/09/2018 17:52:11.965     [Action ] -     Starts Closing Batch Task - 'test01' (Task Instance: 11)
+ <132567473321668688> 22/09/2018 17:52:11.966     [Action ] -   <<Ends Close Task
+ <132567473321668688> 22/09/2018 17:52:12.066     [Action ] -   >>  Processing Event  [Exit System]  Control Name :  [ N/A ] 
+ <132567473321668688> 22/09/2018 17:52:12.066     [Info   ] -   Context released : 
+ <132567473321668688> 22/09/2018 17:52:12.067     [Action ] -   Starts Closing Batch Task - 'Main Program (ptest)' (Task Instance: 10)
+ <132567473321668688> 22/09/2018 17:52:12.078     [Action ] -   <<Ends Close Task
+ <132567473321668688> 22/09/2018 17:52:12.078     [Action ] -   Starts Closing Batch Task - 'Main Program (UserFunctionality)' (Task Instance: 9)
+ <132567473321668688> 22/09/2018 17:52:12.079     [Action ] -   <<Ends Close Task
+ <349058991270088768> 22/09/2018 17:52:14.656     [Action ] -   >>Starts load Batch Task - 'Main Program (UserFunctionality)' in Query mode (Task Instance: 13)
+ <349058991270088768> 22/09/2018 17:52:14.656     [Action ] -   Ends Load Task
+ <349058991270088768> 22/09/2018 17:52:14.658     [Action ] -   Starts Task Prefix
+ <349058991270088768> 22/09/2018 17:52:14.659     [Action ] -     Flow - Update: 'V: gV:FunctionsList' <== exp #41
+ <349058991270088768> 22/09/2018 17:52:14.659     [Action ] -     Flow - Update: 'W: gV:FunctionsDescriptionList' <== exp #42
+ <349058991270088768> 22/09/2018 17:52:14.660     [Action ] -     Flow - Update: 'X: gV:DigitAndPunctuationList' <== exp #43
+ <349058991270088768> 22/09/2018 17:52:14.660     [Action ] -     Flow - Update: 'BB: gV:IsHebrewApp' <== exp #105
+ <349058991270088768> 22/09/2018 17:52:14.661     [Action ] -   Ends Task Prefix
+ <349058991270088768> 22/09/2018 17:52:14.661     [Action ] -   Load records
+ <349058991270088768> 22/09/2018 17:52:14.667     [Action ] -   >>Starts load Batch Task - 'Main Program (ptest)' in Query mode (Task Instance: 14)
+ <349058991270088768> 22/09/2018 17:52:14.668     [Action ] -   Ends Load Task
+ <349058991270088768> 22/09/2018 17:52:14.668     [Action ] -   Load records
+ <349058991270088768> 22/09/2018 17:52:14.713     [Action ] -     >>Starts load Online Task - 'test02' in Modify mode (Task Instance: 15)
+ <349058991270088768> 22/09/2018 17:52:14.713     [Action ] -     Ends Load Task
+ <349058991270088768> 22/09/2018 17:52:14.714     [Action ] -     Load records
+ <349058991270088768> 22/09/2018 17:52:14.715     [Action ] -     Write Deferred Transaction 15
+ <349058991270088768> 22/09/2018 17:52:14.715     [Action ] -     Flow - Variable Virtual  'v.Device' (Step Forward)  
+ <349058991270088768> 22/09/2018 17:52:17.516     [Action ] -     >>  Processing Event  [Control Hit]  Control Name :  [ N/A ] 
+ <349058991270088768> 22/09/2018 17:52:17.517     [Action ] -     Flow - Variable Virtual  'v.Device' (Step Forward)  
+ <349058991270088768> 22/09/2018 17:52:17.520     [Action ] -     >>Starts Handle User Event: GetPrinterSettings
+ <349058991270088768> 22/09/2018 17:52:17.521     [Action ] -       Flow - Remark: 
+ <349058991270088768> 22/09/2018 17:52:17.521     [Action ] -       Flow - Invoke UDP :: 'mgtest.mgtest_printersettings'
+ <349058991270088768> 22/09/2018 17:52:19.535     [Action ] -       Flow - Remark: 
+ <349058991270088768> 22/09/2018 17:52:19.536     [Action ] -     <<Ends Handle User Event: GetPrinterSettings
+ <349058991270088768> 22/09/2018 17:52:20.499     [Action ] -     >>  Processing Event  [Esc]  [Exit]  Control Name :  [v.Device] 
+ <349058991270088768> 22/09/2018 17:52:20.500     [Action ] -     Flow - Variable Virtual  'v.Printername' (Fast Forward)  [Not Executed]
+ <349058991270088768> 22/09/2018 17:52:20.500     [Action ] -     Flow - Variable Virtual  'v.Output' (Fast Forward)  [Not Executed]
+ <349058991270088768> 22/09/2018 17:52:20.501     [Action ] -     Flow - Variable Virtual  'v.Fetchonly' (Fast Forward)  [Not Executed]
+ <349058991270088768> 22/09/2018 17:52:20.501     [Action ] -     Commit Transaction 15
+ <349058991270088768> 22/09/2018 17:52:20.501     [Action ] -     Starts Closing Online Task - 'test02' (Task Instance: 15)
+ <349058991270088768> 22/09/2018 17:52:20.513     [Action ] -   <<Ends Close Task
+ <349058991270088768> 22/09/2018 17:52:20.613     [Action ] -   >>  Processing Event  [Exit System]  Control Name :  [ N/A ] 
+ <349058991270088768> 22/09/2018 17:52:20.614     [Info   ] -   Context released : 
+ <349058991270088768> 22/09/2018 17:52:20.614     [Action ] -   Starts Closing Batch Task - 'Main Program (ptest)' (Task Instance: 14)
+ <349058991270088768> 22/09/2018 17:52:20.625     [Action ] -   <<Ends Close Task
+ <349058991270088768> 22/09/2018 17:52:20.626     [Action ] -   Starts Closing Batch Task - 'Main Program (UserFunctionality)' (Task Instance: 13)
+ <349058991270088768> 22/09/2018 17:52:20.627     [Action ] -   <<Ends Close Task
+ <-1> 22/09/2018 17:52:31.183     [Info   ] - Process 7792 - Exiting Magic xpa
+ <-1> 22/09/2018 17:52:31.184     [Info   ] - ------------------------------------------

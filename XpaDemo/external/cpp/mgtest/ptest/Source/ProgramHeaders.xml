@@ -61,9 +61,28 @@
         <Offline val="N"/>
         <FormType val="N"/>
         <DotNetObjectExists val="N"/>
-        <LastModified _date="736959" _time="59967" date="22/09/2018" time="16:39:27"/>
+        <LastModified _date="736959" _time="64325" date="22/09/2018" time="17:52:05"/>
       </Header>
-      <SourceFileTimeStamp _date="736959" _time="52767" date="22/09/2018" time="14:39:27"/>
+      <SourceFileTimeStamp _date="736959" _time="57125" date="22/09/2018" time="15:52:05"/>
+    </Program>
+    <Program>
+      <Header Description="test02" ISN_2="1" LastIsn="2" id="4">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="736959" _time="64042" date="22/09/2018" time="17:47:22"/>
+      </Header>
+      <SourceFileTimeStamp _date="736959" _time="56842" date="22/09/2018" time="15:47:22"/>
     </Program>
   </ProgramsRepositoryHeaders>
 

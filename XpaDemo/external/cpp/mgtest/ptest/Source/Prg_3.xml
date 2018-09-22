@@ -27,7 +27,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736959" _time="59967" date="22/09/2018" time="16:39:27"/>
+          <LastModified _date="736959" _time="64325" date="22/09/2018" time="17:52:05"/>
         </Header>
         <ItemIsn val="4"/>
         <Resource>
@@ -225,6 +225,10 @@
                       <Variable val="4"/>
                       <Skip val="N"/>
                     </Argument>
+                    <Argument>
+                      <Expression val="3"/>
+                      <Skip val="N"/>
+                    </Argument>
                   </Arguments>
                   <Wait val="Y"/>
                   <SyncData val="N"/>
@@ -265,9 +269,13 @@
             <ExpSyntax val="'mgtest.mgtest_printersettings'"/>
             <ExpAttribute val="A"/>
           </Expression>
+          <Expression id="3">
+            <ExpSyntax val="1"/>
+            <ExpAttribute val="N"/>
+          </Expression>
         </Expressions>
         <Task MainProgram="N">
-          <Header Description="Show" ISN_2="2" id="3">
+          <Header Description="Show" ISN_2="2" LastIsn="2" id="3">
             <ExecutionRight comp="-1"/>
             <Resident val="N"/>
             <SQL val="N"/>
@@ -383,6 +391,7 @@
                   <Font id="50" val="1"/>
                   <Style id="63" val="7"/>
                   <EnableRTF id="69"/>
+                  <_Orientation id="143"/>
                 </PropertyList>
               </Control>
               <Control _test_id="1" id="1">
@@ -396,6 +405,7 @@
                   <Height id="24" val="10"/>
                   <Data FieldID="2" Parent="1" id="43"/>
                   <ControlName id="46" val="v.Device"/>
+                  <_Orientation id="143"/>
                   <TabOrder id="314" val="1"/>
                 </PropertyList>
               </Control>
@@ -409,6 +419,7 @@
                   <Font id="50" val="1"/>
                   <Style id="63" val="7"/>
                   <EnableRTF id="69"/>
+                  <_Orientation id="143"/>
                 </PropertyList>
               </Control>
               <Control _test_id="3" id="3">
@@ -422,6 +433,7 @@
                   <Height id="24" val="10"/>
                   <Data FieldID="3" Parent="1" id="43"/>
                   <ControlName id="46" val="v.Printername"/>
+                  <_Orientation id="143"/>
                   <TabOrder id="314" val="2"/>
                 </PropertyList>
               </Control>
@@ -435,6 +447,7 @@
                   <Font id="50" val="1"/>
                   <Style id="63" val="7"/>
                   <EnableRTF id="69"/>
+                  <_Orientation id="143"/>
                 </PropertyList>
               </Control>
               <Control _test_id="5" id="5">
@@ -448,6 +461,7 @@
                   <Height id="24" val="10"/>
                   <Data FieldID="4" Parent="1" id="43"/>
                   <ControlName id="46" val="v.Output"/>
+                  <_Orientation id="143"/>
                   <TabOrder id="314" val="3"/>
                 </PropertyList>
               </Control>
