@@ -15190,3 +15190,1537 @@
  <69804117152047736> 22/09/2018 12:03:20.246     [Action ] -   <<Ends Close Task
  <-1> 22/09/2018 12:04:48.488     [Info   ] - Process 10228 - Exiting Magic xpa
  <-1> 22/09/2018 12:04:48.489     [Info   ] - ------------------------------------------
+ *********************   Date: 22/09/2018  ********************
+ <-1> 22/09/2018 15:36:42.229     [Info   ] - The INI file ("C:\magic\xpa3.3\MAGIC.INI") was successfully opened.
+ <-1> 22/09/2018 15:36:42.230     [Info   ] - ProcessID is 6080
+ <-1> 22/09/2018 15:36:42.231     [Info   ] - The current working directory is: "C:\magic\xpa3.3".
+ <-1> 22/09/2018 15:36:42.292     [Info   ] - Starting Magic xpa Server. Maximum checked-out concurrent threads: 1. Maximum checked-out concurrent users: 1.
+ <-1> 22/09/2018 15:37:30.314     [Info   ] - Starts Loading Component : C:\magic\xpa3.3\Add_On\UserFunctionality\UserFunctionality.ecf 
+ <-1> 22/09/2018 15:37:30.333     [Info   ] - Starts Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 15:37:30.412     [Info   ] - Ends Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 15:37:30.412     [Info   ] - Starts Loading Component : System.Drawing 
+ <-1> 22/09/2018 15:37:30.416     [Info   ] - Ends Loading Component : System.Drawing 
+ <-1> 22/09/2018 15:37:30.417     [Info   ] - Starts Loading Component : System 
+ <-1> 22/09/2018 15:37:30.439     [Info   ] - Ends Loading Component : System 
+ <-1> 22/09/2018 15:37:30.440     [Info   ] - Starts Loading Component : System.Data 
+ <-1> 22/09/2018 15:37:30.472     [Info   ] - Ends Loading Component : System.Data 
+ <-1> 22/09/2018 15:37:30.473     [Info   ] - Starts Loading Component : Microsoft.Office.Interop.Excel 
+ <-1> 22/09/2018 15:37:30.583     [Info   ] - Ends Loading Component : Microsoft.Office.Interop.Excel 
+ <-1> 22/09/2018 15:37:30.583     [Info   ] - Starts Loading Component : Microsoft.CSharp 
+ <-1> 22/09/2018 15:37:30.591     [Info   ] - Ends Loading Component : Microsoft.CSharp 
+ <-1> 22/09/2018 15:37:30.592     [Info   ] - Starts Loading Component : System.Core 
+ <-1> 22/09/2018 15:37:30.599     [Info   ] - Ends Loading Component : System.Core 
+ <-1> 22/09/2018 15:37:30.632     [Info   ] - Ends Loading Component : C:\magic\xpa3.3\Add_On\UserFunctionality\UserFunctionality.ecf 
+ <-1> 22/09/2018 15:37:30.643     [Info   ] -   The project was successfully opened.
+ <221773572650919744> 22/09/2018 15:38:58.958     [Action ] -   >>Starts load Batch Task - 'Main Program (UserFunctionality)' in Query mode (Task Instance: 1)
+ <221773572650919744> 22/09/2018 15:38:58.959     [Action ] -   Ends Load Task
+ <221773572650919744> 22/09/2018 15:38:58.962     [Action ] -   Starts Task Prefix
+ <221773572650919744> 22/09/2018 15:38:58.962     [Action ] -     Flow - Update: 'V: gV:FunctionsList' <== exp #41
+ <221773572650919744> 22/09/2018 15:38:58.963     [Action ] -     Flow - Update: 'W: gV:FunctionsDescriptionList' <== exp #42
+ <221773572650919744> 22/09/2018 15:38:58.963     [Action ] -     Flow - Update: 'X: gV:DigitAndPunctuationList' <== exp #43
+ <221773572650919744> 22/09/2018 15:38:58.964     [Action ] -     Flow - Update: 'BB: gV:IsHebrewApp' <== exp #105
+ <221773572650919744> 22/09/2018 15:38:58.965     [Action ] -   Ends Task Prefix
+ <221773572650919744> 22/09/2018 15:38:58.965     [Action ] -   Load records
+ <221773572650919744> 22/09/2018 15:38:59.117     [Action ] -   >>Starts load Batch Task - 'Main Program (ptest)' in Query mode (Task Instance: 2)
+ <221773572650919744> 22/09/2018 15:38:59.118     [Action ] -   Ends Load Task
+ <221773572650919744> 22/09/2018 15:38:59.118     [Action ] -   Load records
+ <221773572650919744> 22/09/2018 15:38:59.127     [Action ] -     >>Starts load Batch Task - 'test01' in Modify mode (Task Instance: 3)
+ <221773572650919744> 22/09/2018 15:38:59.128     [Action ] -     Ends Load Task
+ <221773572650919744> 22/09/2018 15:38:59.129     [Action ] -     Load records
+ <221773572650919744> 22/09/2018 15:38:59.129     [Action ] -     Starts Record Suffix
+ <221773572650919744> 22/09/2018 15:38:59.130     [Action ] -       Flow - Remark: 
+ <221773572650919744> 22/09/2018 15:38:59.131     [Action ] -       Flow - Verify Warning: Default title, Message Exp #1
+ <221773572650919744> 22/09/2018 15:38:59.328     [Warning] -       0.0.1
+ <221773572650919744> 22/09/2018 15:39:00.711     [Action ] -     Ends Record Suffix
+ <221773572650919744> 22/09/2018 15:39:00.712     [Action ] -     >>  Processing Event  [Context Got Focus]  Control Name :  [ N/A ] 
+ <221773572650919744> 22/09/2018 15:39:00.714     [Action ] -     Starts Closing Batch Task - 'test01' (Task Instance: 3)
+ <221773572650919744> 22/09/2018 15:39:00.717     [Action ] -   <<Ends Close Task
+ <221773572650919744> 22/09/2018 15:39:00.817     [Action ] -   >>  Processing Event  [Exit System]  Control Name :  [ N/A ] 
+ <221773572650919744> 22/09/2018 15:39:00.818     [Info   ] -   Context released : 
+ <221773572650919744> 22/09/2018 15:39:00.818     [Action ] -   Starts Closing Batch Task - 'Main Program (ptest)' (Task Instance: 2)
+ <221773572650919744> 22/09/2018 15:39:00.834     [Action ] -   <<Ends Close Task
+ <221773572650919744> 22/09/2018 15:39:00.834     [Action ] -   Starts Closing Batch Task - 'Main Program (UserFunctionality)' (Task Instance: 1)
+ <221773572650919744> 22/09/2018 15:39:00.835     [Action ] -   <<Ends Close Task
+ <261367015950221152> 22/09/2018 15:41:10.824     [Action ] -   >>Starts load Batch Task - 'Main Program (UserFunctionality)' in Query mode (Task Instance: 4)
+ <261367015950221152> 22/09/2018 15:41:10.838     [Action ] -   Ends Load Task
+ <261367015950221152> 22/09/2018 15:41:10.840     [Action ] -   Starts Task Prefix
+ <261367015950221152> 22/09/2018 15:41:10.841     [Action ] -     Flow - Update: 'V: gV:FunctionsList' <== exp #41
+ <261367015950221152> 22/09/2018 15:41:10.841     [Action ] -     Flow - Update: 'W: gV:FunctionsDescriptionList' <== exp #42
+ <261367015950221152> 22/09/2018 15:41:10.842     [Action ] -     Flow - Update: 'X: gV:DigitAndPunctuationList' <== exp #43
+ <261367015950221152> 22/09/2018 15:41:10.842     [Action ] -     Flow - Update: 'BB: gV:IsHebrewApp' <== exp #105
+ <261367015950221152> 22/09/2018 15:41:10.843     [Action ] -   Ends Task Prefix
+ <261367015950221152> 22/09/2018 15:41:10.843     [Action ] -   Load records
+ <261367015950221152> 22/09/2018 15:41:10.855     [Action ] -   >>Starts load Batch Task - 'Main Program (ptest)' in Query mode (Task Instance: 5)
+ <261367015950221152> 22/09/2018 15:41:10.867     [Action ] -   Ends Load Task
+ <261367015950221152> 22/09/2018 15:41:10.868     [Action ] -   Load records
+ <261367015950221152> 22/09/2018 15:41:10.871     [Action ] -     >>Starts load Batch Task - 'test01' in Modify mode (Task Instance: 6)
+ <261367015950221152> 22/09/2018 15:41:10.873     [Action ] -     Ends Load Task
+ <261367015950221152> 22/09/2018 15:41:10.873     [Action ] -     Load records
+ <261367015950221152> 22/09/2018 15:41:10.874     [Action ] -     Starts Record Suffix
+ <261367015950221152> 22/09/2018 15:41:10.874     [Action ] -       Flow - Remark: 
+ <261367015950221152> 22/09/2018 15:41:10.875     [Action ] -       Flow - Verify Warning: Default title, Message Exp #1
+ <261367015950221152> 22/09/2018 15:41:10.876     [Warning] -       0.0.1
+ <261367015950221152> 22/09/2018 15:41:13.061     [Action ] -       Flow - Verify Warning: Default title, Message Exp #2
+ <261367015950221152> 22/09/2018 15:41:23.586     [Action ] -     Ends Record Suffix
+ <261367015950221152> 22/09/2018 15:41:23.587     [Action ] -     Starts Closing Batch Task - 'test01' (Task Instance: 6)
+ <261367015950221152> 22/09/2018 15:41:23.587     [Action ] -   <<Ends Close Task
+ <261367015950221152> 22/09/2018 15:41:23.684     [Action ] -   >>  Processing Event  [Exit System]  Control Name :  [ N/A ] 
+ <261367015950221152> 22/09/2018 15:41:23.685     [Info   ] -   Context released : 
+ <261367015950221152> 22/09/2018 15:41:23.685     [Action ] -   Starts Closing Batch Task - 'Main Program (ptest)' (Task Instance: 5)
+ <261367015950221152> 22/09/2018 15:41:23.699     [Action ] -   <<Ends Close Task
+ <261367015950221152> 22/09/2018 15:41:23.700     [Action ] -   Starts Closing Batch Task - 'Main Program (UserFunctionality)' (Task Instance: 4)
+ <261367015950221152> 22/09/2018 15:41:23.701     [Action ] -   <<Ends Close Task
+ <457560047103191360> 22/09/2018 15:41:26.992     [Action ] -   >>Starts load Batch Task - 'Main Program (UserFunctionality)' in Query mode (Task Instance: 7)
+ <457560047103191360> 22/09/2018 15:41:27.008     [Action ] -   Ends Load Task
+ <457560047103191360> 22/09/2018 15:41:27.011     [Action ] -   Starts Task Prefix
+ <457560047103191360> 22/09/2018 15:41:27.012     [Action ] -     Flow - Update: 'V: gV:FunctionsList' <== exp #41
+ <457560047103191360> 22/09/2018 15:41:27.012     [Action ] -     Flow - Update: 'W: gV:FunctionsDescriptionList' <== exp #42
+ <457560047103191360> 22/09/2018 15:41:27.013     [Action ] -     Flow - Update: 'X: gV:DigitAndPunctuationList' <== exp #43
+ <457560047103191360> 22/09/2018 15:41:27.014     [Action ] -     Flow - Update: 'BB: gV:IsHebrewApp' <== exp #105
+ <457560047103191360> 22/09/2018 15:41:27.015     [Action ] -   Ends Task Prefix
+ <457560047103191360> 22/09/2018 15:41:27.015     [Action ] -   Load records
+ <457560047103191360> 22/09/2018 15:41:27.023     [Action ] -   >>Starts load Batch Task - 'Main Program (ptest)' in Query mode (Task Instance: 8)
+ <457560047103191360> 22/09/2018 15:41:27.027     [Action ] -   Ends Load Task
+ <457560047103191360> 22/09/2018 15:41:27.028     [Action ] -   Load records
+ <457560047103191360> 22/09/2018 15:41:27.023     [Action ] -     >>Starts load Batch Task - 'test01' in Modify mode (Task Instance: 9)
+ <457560047103191360> 22/09/2018 15:41:27.032     [Action ] -     Ends Load Task
+ <457560047103191360> 22/09/2018 15:41:27.035     [Action ] -     Load records
+ <457560047103191360> 22/09/2018 15:41:27.035     [Action ] -     Starts Record Suffix
+ <457560047103191360> 22/09/2018 15:41:27.036     [Action ] -       Flow - Remark: 
+ <457560047103191360> 22/09/2018 15:41:27.037     [Action ] -       Flow - Verify Warning: Default title, Message Exp #1
+ <457560047103191360> 22/09/2018 15:41:27.037     [Warning] -       0.0.1
+ <457560047103191360> 22/09/2018 15:41:29.095     [Action ] -       Flow - Verify Warning: Default title, Message Exp #2
+ <457560047103191360> 22/09/2018 15:42:27.320     [Info   ] -       Execution stopped.
+ *********************   Date: 22/09/2018  ********************
+ <-1> 22/09/2018 15:43:53.171     [Info   ] - The INI file ("C:\magic\xpa3.3\MAGIC.INI") was successfully opened.
+ <-1> 22/09/2018 15:43:53.172     [Info   ] - ProcessID is 10788
+ <-1> 22/09/2018 15:43:53.173     [Info   ] - The current working directory is: "C:\magic\xpa3.3".
+ *********************   Date: 22/09/2018  ********************
+ <-1> 22/09/2018 15:43:54.688     [Info   ] - The INI file ("C:\magic\xpa3.3\MAGIC.INI") was successfully opened.
+ <-1> 22/09/2018 15:43:54.690     [Info   ] - ProcessID is 10908
+ <-1> 22/09/2018 15:43:54.690     [Info   ] - The current working directory is: "C:\magic\xpa3.3".
+ <-1> 22/09/2018 15:43:59.996     [Info   ] - Process 10788 - Exiting Magic xpa
+ <-1> 22/09/2018 15:43:59.997     [Info   ] - ------------------------------------------
+ <-1> 22/09/2018 15:44:17.986     [Info   ] - Starting Magic xpa Server. Maximum checked-out concurrent threads: 1. Maximum checked-out concurrent users: 1.
+ <-1> 22/09/2018 15:45:17.361     [Info   ] - Process 10908 - Exiting Magic xpa
+ <-1> 22/09/2018 15:45:17.362     [Info   ] - ------------------------------------------
+ *********************   Date: 22/09/2018  ********************
+ <-1> 22/09/2018 15:46:18.207     [Info   ] - The INI file ("C:\magic\xpa3.3\MAGIC.INI") was successfully opened.
+ <-1> 22/09/2018 15:46:18.208     [Info   ] - ProcessID is 7868
+ <-1> 22/09/2018 15:46:18.209     [Info   ] - The current working directory is: "C:\xpa\samples\XpaDemo\XpaDemo\external\cpp\mgtest".
+ <-1> 22/09/2018 15:46:18.364     [Info   ] - CLASSPATH=C:\magic\xpa3.3\.;C:\magic\xpa3.3\Support\MgAxis2.jar;C:\magic\xpa3.3\Support\MgRequester.jar;C:\magic\xpa3.3\Support\MgSSJ.jar;C:\magic\xpa3.3\Support\MgUtils.jar;C:\magic\xpa3.3\Support\saaj_utils.jar;C:\magic\xpa3.3\Support\zipdiff.jar;C:\xpa\samples\xpademo\xpademo\Components\XPATest-0.0.1.jar;C:\temp\MgxpaTempClasses\;C:\Java\CLASSPATH;C:\Apache\xalan-j_2_7_2;C:\Java\SaxonHE9-8-0-12J;C:\Java\apache-log4j-2.11.0-bin
+ <-1> 22/09/2018 15:46:18.364     [Info   ] - JVM parameter 1: -Djava.compiler=NONE
+ <-1> 22/09/2018 15:46:18.365     [Info   ] - JVM parameter 2: -Xms16m
+ <-1> 22/09/2018 15:46:18.365     [Info   ] - JVM parameter 3: -Xmx256m
+ <-1> 22/09/2018 15:46:18.366     [Info   ] - JVM parameter 4: -Dorg.xml.sax.driver=org.apache.xerces.parsers.SAXParser
+ <-1> 22/09/2018 15:46:18.366     [Info   ] - JVM parameter 5: -Dcom.gigaspaces.logger.RollingFileHandler.filename-pattern={homedir}/../Logs/GS/{date,yyyy-MM-dd~HH.mm}-gigaspaces-{service}-{host}-{pid}.log
+ <-1> 22/09/2018 15:46:18.367     [Info   ] - JVM parameter 6: -Dlog4j.configurationFile=C:\magic\xpa3.3\\GigaSpaces-xpa\config\log4j2.xml
+ <-1> 22/09/2018 15:46:18.367     [Info   ] - JVM parameter 7: -Dcom.magicsoftware.xpa.home=C:\magic\xpa3.3\
+ <-1> 22/09/2018 15:46:18.368     [Info   ] - JVM parameter 8: -Dcom.magicsoftware.xpa.logging.module=MgxpaRuntime_GS
+ <-1> 22/09/2018 15:46:18.368     [Info   ] - JVM parameter 9: -Dcom.magicsoftware.xpa.ServerLoadOnDemandTimeout=10
+ <-1> 22/09/2018 15:46:18.369     [Info   ] - JVM parameter 10: -Xdebug
+ <-1> 22/09/2018 15:46:18.369     [Info   ] - JVM parameter 11: -XX:-UsePerfData
+ <-1> 22/09/2018 15:46:18.370     [Info   ] - JVM parameter 12: -agentpath:mgrqgnrc.dll
+ <-1> 22/09/2018 15:46:18.371     [Info   ] - PATH=c:\program files (x86)\microsoft visual studio\2017\community\common7\ide\extensions\github\github\lib\win32\x86;C:\Java\jdk1.8.x86\bin;C:\Program Files\Microsoft MPI\Bin\;C:\nodejs;C:\nodejs\nwjs-sdk-v0.30.2-win-x64;C:\Users\Andreas\AppData\Roaming\npm;C:\Yarn\bin;C:\WINDOWS\system32\inetsrv;C:\Windows\System32;C:\Windows\System32\wbem;C:\Windows\;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Condusiv Technologies\ExpressCache\;%ADT_HOME%\tools;%ADT_HOME%\platform-tools;C:\Apache\apache-ant-1.10.3\bin;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Apache\apache-maven\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\Git\cmd;C:\Gradle\bin;C:\ProgramData\chocolatey\lib\scriptcs\tools;C:\nodejs\;C:\Program Files (x86)\Gpg4win\..\GnuPG\bin;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Microsoft Emulator Manager\1.0\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Microsoft VS Code\bin;C:\Users\Andreas\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Microsoft VS Code\bin;C:\Users\Andreas\AppData\Local\Keybase\;C:\Java\jdk1.8.x86\jre\bin\classic;C:\Java\jdk1.8.x86\jre\bin\client;C:\Java\jdk1.8.x86\bin\client;
+ <-1> 22/09/2018 15:46:48.424     [Info   ] - Starts Loading Component :  
+ <-1> 22/09/2018 15:46:48.424     [Info   ] - Starts Loading Component : System.Net.Http 
+ <-1> 22/09/2018 15:46:48.534     [Info   ] - Ends Loading Component : System.Net.Http 
+ <-1> 22/09/2018 15:46:48.535     [Info   ] - Starts Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 15:46:48.554     [Info   ] - Ends Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 15:46:48.555     [Info   ] - Starts Loading Component : XpaTHttpDNet 
+ <-1> 22/09/2018 15:46:48.719     [Info   ] - Ends Loading Component : XpaTHttpDNet 
+ <-1> 22/09/2018 15:46:48.719     [Info   ] - Starts Loading Component :  
+ <-1> 22/09/2018 15:46:48.720     [Info   ] - Starts Loading Component : C:\xpa\samples\xpademo\xpademo\Components\_UserFunctionality.ecf 
+ <-1> 22/09/2018 15:46:48.735     [Info   ] - Starts Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 15:46:48.740     [Info   ] - Ends Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 15:46:48.741     [Info   ] - Starts Loading Component : System.Drawing 
+ <-1> 22/09/2018 15:46:48.750     [Info   ] - Ends Loading Component : System.Drawing 
+ <-1> 22/09/2018 15:46:48.751     [Info   ] - Starts Loading Component : System 
+ <-1> 22/09/2018 15:46:48.772     [Info   ] - Ends Loading Component : System 
+ <-1> 22/09/2018 15:46:48.773     [Info   ] - Starts Loading Component : System.Data 
+ <-1> 22/09/2018 15:46:48.819     [Info   ] - Ends Loading Component : System.Data 
+ <-1> 22/09/2018 15:46:48.820     [Info   ] - Starts Loading Component : Microsoft.Office.Interop.Excel 
+ <-1> 22/09/2018 15:46:48.952     [Info   ] - Ends Loading Component : Microsoft.Office.Interop.Excel 
+ <-1> 22/09/2018 15:46:48.953     [Info   ] - Starts Loading Component : Microsoft.CSharp 
+ <-1> 22/09/2018 15:46:48.969     [Info   ] - Ends Loading Component : Microsoft.CSharp 
+ <-1> 22/09/2018 15:46:48.970     [Info   ] - Starts Loading Component : System.Core 
+ <-1> 22/09/2018 15:46:48.982     [Info   ] - Ends Loading Component : System.Core 
+ <-1> 22/09/2018 15:46:49.014     [Info   ] - Ends Loading Component : C:\xpa\samples\xpademo\xpademo\Components\_UserFunctionality.ecf 
+ <-1> 22/09/2018 15:46:49.015     [Info   ] - Starts Loading Component : C:\xpa\samples\xpademo\xpademo\Components\DatabaseComp.ecf 
+ <-1> 22/09/2018 15:46:49.067     [Info   ] - Starts Loading Component : C:\magic\xpa3.3\Add_On\UserFunctionality\UserFunctionality.ecf 
+ <-1> 22/09/2018 15:46:49.079     [Info   ] - Starts Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 15:46:49.084     [Info   ] - Ends Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 15:46:49.085     [Info   ] - Starts Loading Component : System.Drawing 
+ <-1> 22/09/2018 15:46:49.089     [Info   ] - Ends Loading Component : System.Drawing 
+ <-1> 22/09/2018 15:46:49.090     [Info   ] - Starts Loading Component : System 
+ <-1> 22/09/2018 15:46:49.094     [Info   ] - Ends Loading Component : System 
+ <-1> 22/09/2018 15:46:49.095     [Info   ] - Starts Loading Component : System.Data 
+ <-1> 22/09/2018 15:46:49.102     [Info   ] - Ends Loading Component : System.Data 
+ <-1> 22/09/2018 15:46:49.102     [Info   ] - Starts Loading Component : Microsoft.Office.Interop.Excel 
+ <-1> 22/09/2018 15:46:49.111     [Info   ] - Ends Loading Component : Microsoft.Office.Interop.Excel 
+ <-1> 22/09/2018 15:46:49.111     [Info   ] - Starts Loading Component : Microsoft.CSharp 
+ <-1> 22/09/2018 15:46:49.119     [Info   ] - Ends Loading Component : Microsoft.CSharp 
+ <-1> 22/09/2018 15:46:49.120     [Info   ] - Starts Loading Component : System.Core 
+ <-1> 22/09/2018 15:46:49.125     [Info   ] - Ends Loading Component : System.Core 
+ <-1> 22/09/2018 15:46:49.161     [Info   ] - Ends Loading Component : C:\magic\xpa3.3\Add_On\UserFunctionality\UserFunctionality.ecf 
+ <-1> 22/09/2018 15:46:49.230     [Info   ] - Ends Loading Component : C:\xpa\samples\xpademo\xpademo\Components\DatabaseComp.ecf 
+ <-1> 22/09/2018 15:46:49.231     [Info   ] - Starts Loading Component : C:\xpa\samples\xpademo\xpademo\Components\XpaTHelp.ecf 
+ <-1> 22/09/2018 15:46:49.238     [Info   ] - Starts Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 15:46:49.243     [Info   ] - Ends Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 15:46:49.243     [Info   ] - Starts Loading Component : System.Net 
+ <-1> 22/09/2018 15:46:49.256     [Info   ] - Ends Loading Component : System.Net 
+ <-1> 22/09/2018 15:46:49.257     [Info   ] - Starts Loading Component : System.Net.Http 
+ <-1> 22/09/2018 15:46:49.263     [Info   ] - Ends Loading Component : System.Net.Http 
+ <-1> 22/09/2018 15:46:49.264     [Info   ] - Starts Loading Component : C:\xpa\samples\xpademo\xpademo\Components\DatabaseComp.ecf 
+ <-1> 22/09/2018 15:46:49.264     [Info   ] - Ends Loading Component : C:\xpa\samples\xpademo\xpademo\Components\DatabaseComp.ecf 
+ <-1> 22/09/2018 15:46:49.295     [Info   ] - Ends Loading Component : C:\xpa\samples\xpademo\xpademo\Components\XpaTHelp.ecf 
+ <-1> 22/09/2018 15:46:49.372     [Info   ] -   Starts Loading Component : C:\xpa\samples\xpademo\xpademo\Components\XpaTSoap.ecf 
+ <-1> 22/09/2018 15:46:49.379     [Info   ] -   Starts Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 15:46:49.384     [Info   ] -   Ends Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 15:46:49.385     [Info   ] -   Starts Loading Component : XpaTHttpDNet 
+ <-1> 22/09/2018 15:46:49.389     [Info   ] -   Ends Loading Component : XpaTHttpDNet 
+ <-1> 22/09/2018 15:46:49.391     [Info   ] -   Ends Loading Component : C:\xpa\samples\xpademo\xpademo\Components\XpaTSoap.ecf 
+ <-1> 22/09/2018 15:46:49.392     [Info   ] -   Starts Loading Component : C:\xpa\samples\xpademo\xpademo\Components\xpa-project-scan.ecf 
+ <-1> 22/09/2018 15:46:49.405     [Info   ] -   Ends Loading Component : C:\xpa\samples\xpademo\xpademo\Components\xpa-project-scan.ecf 
+ <-1> 22/09/2018 15:46:49.487     [Info   ] -   The project was successfully opened.
+ <-1> 22/09/2018 15:46:49.611     [Action ] -   >>Starts load Batch Task - 'Main Program (_UserFunctionality)' in Query mode (Task Instance: 1)
+ <-1> 22/09/2018 15:46:49.616     [Action ] -   Ends Load Task
+ <-1> 22/09/2018 15:46:49.618     [Action ] -   Starts Task Prefix
+ <-1> 22/09/2018 15:46:49.619     [Action ] -     Flow - Update: 'V: gV:FunctionsList' <== exp #41
+ <-1> 22/09/2018 15:46:49.619     [Action ] -     Flow - Update: 'W: gV:FunctionsDescriptionList' <== exp #42
+ <-1> 22/09/2018 15:46:49.620     [Action ] -     Flow - Update: 'X: gV:DigitAndPunctuationList' <== exp #43
+ <-1> 22/09/2018 15:46:49.620     [Action ] -     Flow - Update: 'BB: gV:IsHebrewApp' <== exp #105
+ <-1> 22/09/2018 15:46:49.621     [Action ] -   Ends Task Prefix
+ <-1> 22/09/2018 15:46:49.622     [Action ] -   Load records
+ <-1> 22/09/2018 15:46:49.626     [Action ] -   >>Starts load Batch Task - 'Main Program (UserFunctionality)' in Query mode (Task Instance: 2)
+ <-1> 22/09/2018 15:46:49.640     [Action ] -   Ends Load Task
+ <-1> 22/09/2018 15:46:49.642     [Action ] -   Starts Task Prefix
+ <-1> 22/09/2018 15:46:49.642     [Action ] -     Flow - Update: 'V: gV:FunctionsList' <== exp #41
+ <-1> 22/09/2018 15:46:49.643     [Action ] -     Flow - Update: 'W: gV:FunctionsDescriptionList' <== exp #42
+ <-1> 22/09/2018 15:46:49.643     [Action ] -     Flow - Update: 'X: gV:DigitAndPunctuationList' <== exp #43
+ <-1> 22/09/2018 15:46:49.644     [Action ] -     Flow - Update: 'BB: gV:IsHebrewApp' <== exp #105
+ <-1> 22/09/2018 15:46:49.644     [Action ] -   Ends Task Prefix
+ <-1> 22/09/2018 15:46:49.645     [Action ] -   Load records
+ <-1> 22/09/2018 15:46:49.642     [Action ] -   >>Starts load Batch Task - 'Main Program (DatabaseComp)' in Query mode (Task Instance: 3)
+ <-1> 22/09/2018 15:46:49.651     [Action ] -   Ends Load Task
+ <-1> 22/09/2018 15:46:49.651     [Action ] -   Load records
+ <-1> 22/09/2018 15:46:49.658     [Action ] -   >>Starts load Batch Task - 'Main Program (XpaTHelp)' in Query mode (Task Instance: 4)
+ <-1> 22/09/2018 15:46:49.659     [Action ] -   Ends Load Task
+ <-1> 22/09/2018 15:46:49.659     [Action ] -   Load records
+ <-1> 22/09/2018 15:46:49.939     [Action ] -   >>Starts load Batch Task - 'Main Program (XpaDemo)' in Query mode (Task Instance: 5)
+ <-1> 22/09/2018 15:46:49.953     [Action ] -   Ends Load Task
+ <-1> 22/09/2018 15:46:49.954     [Action ] -   Starts Task Prefix
+ <-1> 22/09/2018 15:46:49.954     [Action ] -     Flow - Remark: 
+ <-1> 22/09/2018 15:46:49.955     [Action ] -     Flow - Remark: 
+ <-1> 22/09/2018 15:46:49.956     [Action ] -     Flow - Remark: 
+ <-1> 22/09/2018 15:46:49.956     [Action ] -     Flow - Remark: 
+ <-1> 22/09/2018 15:46:49.961     [Action ] -     Flow - Condition: Exp = 4, Result = True
+ <-1> 22/09/2018 15:46:49.962     [Action ] -     Flow - Call Program :: OUTIL003_CheckConfiguration (#32)
+ <-1> 22/09/2018 15:46:49.986     [Action ] -       >>Starts load Batch Task - 'OUTIL003_CheckConfiguration' in Modify mode (Task Instance: 6)
+ <-1> 22/09/2018 15:46:49.989     [Action ] -       Ends Load Task
+ <-1> 22/09/2018 15:46:49.989     [Action ] -       Starts Task Prefix
+ <-1> 22/09/2018 15:46:49.990     [Action ] -         Flow - Remark: 
+ <-1> 22/09/2018 15:46:49.991     [Action ] -         Flow - Update: 'O: v.ForceConfig' <== exp #10
+ <-1> 22/09/2018 15:46:49.991     [Action ] -         Flow - Remark: 
+ <-1> 22/09/2018 15:46:49.992     [Action ] -         Flow - Update: 'P: v.ShowOK' <== exp #14
+ <-1> 22/09/2018 15:46:49.992     [Action ] -         Flow - Remark: 
+ <-1> 22/09/2018 15:46:49.993     [Action ] -         Flow - Remark: 
+ <-1> 22/09/2018 15:46:49.995     [Action ] -         Flow - Condition: Exp = 12, Result = True
+ <-1> 22/09/2018 15:46:49.995     [Action ] -         Flow - Update: 'P: v.ShowOK' <== exp #2
+ <-1> 22/09/2018 15:46:49.996     [Action ] -         Flow - Remark: 
+ <-1> 22/09/2018 15:46:49.996     [Action ] -         Flow - Remark: 
+ <-1> 22/09/2018 15:46:49.997     [Action ] -       Ends Task Prefix
+ <-1> 22/09/2018 15:46:49.997     [Action ] -       Load records
+ <-1> 22/09/2018 15:46:49.998     [Action ] -       Starts Record Suffix
+ <-1> 22/09/2018 15:46:49.998     [Action ] -         Flow - Remark: 
+ <-1> 22/09/2018 15:46:49.999     [Action ] -         Flow - Update: 'Q: v.Restart' <== exp #11
+ <-1> 22/09/2018 15:46:49.999     [Action ] -         Flow - Remark: 
+ <-1> 22/09/2018 15:46:49.999     [Action ] -         Flow - Remark: 
+ <-1> 22/09/2018 15:46:50.000     [Action ] -         Flow - Remark: 
+ <-1> 22/09/2018 15:46:50.000     [Action ] -         Flow - Update: 'H: v.XPATEST_HOME' <== exp #1
+ <-1> 22/09/2018 15:46:50.001     [Action ] -         Flow - Remark: 
+ <-1> 22/09/2018 15:46:50.001     [Action ] -         Flow - Update: 'I: v.DB_XPATest' <== exp #3
+ <-1> 22/09/2018 15:46:50.002     [Action ] -         Flow - Update: 'J: v.DB_RIADemo' <== exp #4
+ <-1> 22/09/2018 15:46:50.003     [Action ] -         Flow - Update: 'K: v.DB_XPATest_POMO' <== exp #5
+ <-1> 22/09/2018 15:46:50.003     [Action ] -         Flow - Update: 'N: v.ConfigOK ?' <== exp #8
+ <-1> 22/09/2018 15:46:50.004     [Action ] -         Flow - Remark: 
+ <-1> 22/09/2018 15:46:50.004     [Action ] -         Flow - Remark: 
+ <-1> 22/09/2018 15:46:50.004     [Action ] -         Flow - Condition: Exp = 7, Result = False
+ <-1> 22/09/2018 15:46:50.005     [Action ] -         Flow - Block If:  [Not Executed]
+ <-1> 22/09/2018 15:46:50.005     [Action ] -         Flow - Block Else: 
+ <-1> 22/09/2018 15:46:50.006     [Action ] -         Flow - Condition: Exp = 13, Result = False
+ <-1> 22/09/2018 15:46:50.006     [Action ] -         Flow - Call SubTask :: Config OK [Not Executed]
+ <-1> 22/09/2018 15:46:50.007     [Action ] -         Flow - Block End: 
+ <-1> 22/09/2018 15:46:50.007     [Action ] -       Ends Record Suffix
+ <-1> 22/09/2018 15:46:50.008     [Action ] -       Starts Closing Batch Task - 'OUTIL003_CheckConfiguration' (Task Instance: 6)
+ <-1> 22/09/2018 15:46:50.011     [Action ] -     <<Ends Close Task
+ <-1> 22/09/2018 15:46:50.013     [Action ] -   Ends Task Prefix
+ <-1> 22/09/2018 15:46:50.014     [Action ] -   Load records
+ <-1> 22/09/2018 15:46:50.014     [Info   ] -   Starting Magic xpa Server. Maximum checked-out concurrent threads: 1. Maximum checked-out concurrent users: 0.
+ <-1> 22/09/2018 15:46:50.015     [Info   ] -   License limit : 5000 requests.
+ <-1> 22/09/2018 15:46:59.064     [Action ] -   >>  Processing Event  [Context Got Focus]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 15:46:59.065     [Action ] -   >>  Processing Event  [Window Reposition]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 15:46:59.065     [Action ] -   >>  Processing Event  [Window Resize]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 15:46:59.066     [Action ] -   >>  Processing Event  [Close Application]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 15:46:59.066     [Action ] -   Starts Closing Batch Task - 'Main Program (XpaDemo)' (Task Instance: 5)
+ <-1> 22/09/2018 15:46:59.091     [Action ] -   <<Ends Close Task
+ <-1> 22/09/2018 15:46:59.092     [Action ] -   Starts Closing Batch Task - 'Main Program (_UserFunctionality)' (Task Instance: 1)
+ <-1> 22/09/2018 15:46:59.093     [Action ] -   <<Ends Close Task
+ <-1> 22/09/2018 15:46:59.094     [Action ] -   Starts Closing Batch Task - 'Main Program (DatabaseComp)' (Task Instance: 3)
+ <-1> 22/09/2018 15:46:59.094     [Action ] -   <<Ends Close Task
+ <-1> 22/09/2018 15:46:59.095     [Action ] -   Starts Closing Batch Task - 'Main Program (XpaTHelp)' (Task Instance: 4)
+ <-1> 22/09/2018 15:46:59.095     [Action ] -   <<Ends Close Task
+ <-1> 22/09/2018 15:46:59.096     [Action ] -   Starts Closing Batch Task - 'Main Program (UserFunctionality)' (Task Instance: 2)
+ <-1> 22/09/2018 15:46:59.097     [Action ] -   <<Ends Close Task
+ *********************   Date: 22/09/2018  ********************
+ <-1> 22/09/2018 15:47:22.716     [Info   ] - The INI file ("C:\magic\xpa3.3\MAGIC.INI") was successfully opened.
+ <-1> 22/09/2018 15:47:22.718     [Info   ] - ProcessID is 10152
+ <-1> 22/09/2018 15:47:22.718     [Info   ] - The current working directory is: "C:\xpa\samples\XpaDemo\XpaDemo\external\cpp\mgtest".
+ <-1> 22/09/2018 15:47:22.817     [Info   ] - CLASSPATH=C:\magic\xpa3.3\.;C:\magic\xpa3.3\Support\MgAxis2.jar;C:\magic\xpa3.3\Support\MgRequester.jar;C:\magic\xpa3.3\Support\MgSSJ.jar;C:\magic\xpa3.3\Support\MgUtils.jar;C:\magic\xpa3.3\Support\saaj_utils.jar;C:\magic\xpa3.3\Support\zipdiff.jar;C:\xpa\samples\xpademo\xpademo\Components\XPATest-0.0.1.jar;C:\temp\MgxpaTempClasses\;C:\Java\CLASSPATH;C:\Apache\xalan-j_2_7_2;C:\Java\SaxonHE9-8-0-12J;C:\Java\apache-log4j-2.11.0-bin
+ <-1> 22/09/2018 15:47:22.818     [Info   ] - JVM parameter 1: -Djava.compiler=NONE
+ <-1> 22/09/2018 15:47:22.819     [Info   ] - JVM parameter 2: -Xms16m
+ <-1> 22/09/2018 15:47:22.819     [Info   ] - JVM parameter 3: -Xmx256m
+ <-1> 22/09/2018 15:47:22.820     [Info   ] - JVM parameter 4: -Dorg.xml.sax.driver=org.apache.xerces.parsers.SAXParser
+ <-1> 22/09/2018 15:47:22.820     [Info   ] - JVM parameter 5: -Dcom.gigaspaces.logger.RollingFileHandler.filename-pattern={homedir}/../Logs/GS/{date,yyyy-MM-dd~HH.mm}-gigaspaces-{service}-{host}-{pid}.log
+ <-1> 22/09/2018 15:47:22.821     [Info   ] - JVM parameter 6: -Dlog4j.configurationFile=C:\magic\xpa3.3\\GigaSpaces-xpa\config\log4j2.xml
+ <-1> 22/09/2018 15:47:22.821     [Info   ] - JVM parameter 7: -Dcom.magicsoftware.xpa.home=C:\magic\xpa3.3\
+ <-1> 22/09/2018 15:47:22.822     [Info   ] - JVM parameter 8: -Dcom.magicsoftware.xpa.logging.module=MgxpaRuntime_GS
+ <-1> 22/09/2018 15:47:22.822     [Info   ] - JVM parameter 9: -Dcom.magicsoftware.xpa.ServerLoadOnDemandTimeout=10
+ <-1> 22/09/2018 15:47:22.823     [Info   ] - JVM parameter 10: -Xdebug
+ <-1> 22/09/2018 15:47:22.823     [Info   ] - JVM parameter 11: -XX:-UsePerfData
+ <-1> 22/09/2018 15:47:22.824     [Info   ] - JVM parameter 12: -agentpath:mgrqgnrc.dll
+ <-1> 22/09/2018 15:47:22.824     [Info   ] - PATH=c:\program files (x86)\microsoft visual studio\2017\community\common7\ide\extensions\github\github\lib\win32\x86;C:\Java\jdk1.8.x86\bin;C:\Program Files\Microsoft MPI\Bin\;C:\nodejs;C:\nodejs\nwjs-sdk-v0.30.2-win-x64;C:\Users\Andreas\AppData\Roaming\npm;C:\Yarn\bin;C:\WINDOWS\system32\inetsrv;C:\Windows\System32;C:\Windows\System32\wbem;C:\Windows\;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Condusiv Technologies\ExpressCache\;%ADT_HOME%\tools;%ADT_HOME%\platform-tools;C:\Apache\apache-ant-1.10.3\bin;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Apache\apache-maven\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\Git\cmd;C:\Gradle\bin;C:\ProgramData\chocolatey\lib\scriptcs\tools;C:\nodejs\;C:\Program Files (x86)\Gpg4win\..\GnuPG\bin;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Microsoft Emulator Manager\1.0\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Microsoft VS Code\bin;C:\Users\Andreas\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Microsoft VS Code\bin;C:\Users\Andreas\AppData\Local\Keybase\;C:\Java\jdk1.8.x86\jre\bin\classic;C:\Java\jdk1.8.x86\jre\bin\client;C:\Java\jdk1.8.x86\bin\client;
+ <-1> 22/09/2018 15:47:51.221     [Info   ] - Starts Loading Component :  
+ <-1> 22/09/2018 15:47:51.222     [Info   ] - Starts Loading Component : System.Net.Http 
+ <-1> 22/09/2018 15:47:51.317     [Info   ] - Ends Loading Component : System.Net.Http 
+ <-1> 22/09/2018 15:47:51.317     [Info   ] - Starts Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 15:47:51.339     [Info   ] - Ends Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 15:47:51.339     [Info   ] - Starts Loading Component : XpaTHttpDNet 
+ <-1> 22/09/2018 15:47:51.482     [Info   ] - Ends Loading Component : XpaTHttpDNet 
+ <-1> 22/09/2018 15:47:51.482     [Info   ] - Starts Loading Component :  
+ <-1> 22/09/2018 15:47:51.483     [Info   ] - Starts Loading Component : C:\xpa\samples\xpademo\xpademo\Components\_UserFunctionality.ecf 
+ <-1> 22/09/2018 15:47:51.499     [Info   ] - Starts Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 15:47:51.504     [Info   ] - Ends Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 15:47:51.505     [Info   ] - Starts Loading Component : System.Drawing 
+ <-1> 22/09/2018 15:47:51.513     [Info   ] - Ends Loading Component : System.Drawing 
+ <-1> 22/09/2018 15:47:51.514     [Info   ] - Starts Loading Component : System 
+ <-1> 22/09/2018 15:47:51.536     [Info   ] - Ends Loading Component : System 
+ <-1> 22/09/2018 15:47:51.537     [Info   ] - Starts Loading Component : System.Data 
+ <-1> 22/09/2018 15:47:51.589     [Info   ] - Ends Loading Component : System.Data 
+ <-1> 22/09/2018 15:47:51.590     [Info   ] - Starts Loading Component : Microsoft.Office.Interop.Excel 
+ <-1> 22/09/2018 15:47:51.727     [Info   ] - Ends Loading Component : Microsoft.Office.Interop.Excel 
+ <-1> 22/09/2018 15:47:51.727     [Info   ] - Starts Loading Component : Microsoft.CSharp 
+ <-1> 22/09/2018 15:47:51.744     [Info   ] - Ends Loading Component : Microsoft.CSharp 
+ <-1> 22/09/2018 15:47:51.745     [Info   ] - Starts Loading Component : System.Core 
+ <-1> 22/09/2018 15:47:51.758     [Info   ] - Ends Loading Component : System.Core 
+ <-1> 22/09/2018 15:47:51.798     [Info   ] - Ends Loading Component : C:\xpa\samples\xpademo\xpademo\Components\_UserFunctionality.ecf 
+ <-1> 22/09/2018 15:47:51.798     [Info   ] - Starts Loading Component : C:\xpa\samples\xpademo\xpademo\Components\DatabaseComp.ecf 
+ <-1> 22/09/2018 15:47:51.858     [Info   ] - Starts Loading Component : C:\magic\xpa3.3\Add_On\UserFunctionality\UserFunctionality.ecf 
+ <-1> 22/09/2018 15:47:51.871     [Info   ] - Starts Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 15:47:51.876     [Info   ] - Ends Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 15:47:51.877     [Info   ] - Starts Loading Component : System.Drawing 
+ <-1> 22/09/2018 15:47:51.882     [Info   ] - Ends Loading Component : System.Drawing 
+ <-1> 22/09/2018 15:47:51.882     [Info   ] - Starts Loading Component : System 
+ <-1> 22/09/2018 15:47:51.887     [Info   ] - Ends Loading Component : System 
+ <-1> 22/09/2018 15:47:51.887     [Info   ] - Starts Loading Component : System.Data 
+ <-1> 22/09/2018 15:47:51.894     [Info   ] - Ends Loading Component : System.Data 
+ <-1> 22/09/2018 15:47:51.895     [Info   ] - Starts Loading Component : Microsoft.Office.Interop.Excel 
+ <-1> 22/09/2018 15:47:51.903     [Info   ] - Ends Loading Component : Microsoft.Office.Interop.Excel 
+ <-1> 22/09/2018 15:47:51.904     [Info   ] - Starts Loading Component : Microsoft.CSharp 
+ <-1> 22/09/2018 15:47:51.910     [Info   ] - Ends Loading Component : Microsoft.CSharp 
+ <-1> 22/09/2018 15:47:51.911     [Info   ] - Starts Loading Component : System.Core 
+ <-1> 22/09/2018 15:47:51.915     [Info   ] - Ends Loading Component : System.Core 
+ <-1> 22/09/2018 15:47:51.953     [Info   ] - Ends Loading Component : C:\magic\xpa3.3\Add_On\UserFunctionality\UserFunctionality.ecf 
+ <-1> 22/09/2018 15:47:52.025     [Info   ] - Ends Loading Component : C:\xpa\samples\xpademo\xpademo\Components\DatabaseComp.ecf 
+ <-1> 22/09/2018 15:47:52.026     [Info   ] - Starts Loading Component : C:\xpa\samples\xpademo\xpademo\Components\XpaTHelp.ecf 
+ <-1> 22/09/2018 15:47:52.033     [Info   ] - Starts Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 15:47:52.038     [Info   ] - Ends Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 15:47:52.039     [Info   ] - Starts Loading Component : System.Net 
+ <-1> 22/09/2018 15:47:52.051     [Info   ] - Ends Loading Component : System.Net 
+ <-1> 22/09/2018 15:47:52.052     [Info   ] - Starts Loading Component : System.Net.Http 
+ <-1> 22/09/2018 15:47:52.059     [Info   ] - Ends Loading Component : System.Net.Http 
+ <-1> 22/09/2018 15:47:52.059     [Info   ] - Starts Loading Component : C:\xpa\samples\xpademo\xpademo\Components\DatabaseComp.ecf 
+ <-1> 22/09/2018 15:47:52.060     [Info   ] - Ends Loading Component : C:\xpa\samples\xpademo\xpademo\Components\DatabaseComp.ecf 
+ <-1> 22/09/2018 15:47:52.091     [Info   ] - Ends Loading Component : C:\xpa\samples\xpademo\xpademo\Components\XpaTHelp.ecf 
+ <-1> 22/09/2018 15:47:52.163     [Info   ] -   Starts Loading Component : C:\xpa\samples\xpademo\xpademo\Components\XpaTSoap.ecf 
+ <-1> 22/09/2018 15:47:52.171     [Info   ] -   Starts Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 15:47:52.176     [Info   ] -   Ends Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 15:47:52.177     [Info   ] -   Starts Loading Component : XpaTHttpDNet 
+ <-1> 22/09/2018 15:47:52.181     [Info   ] -   Ends Loading Component : XpaTHttpDNet 
+ <-1> 22/09/2018 15:47:52.183     [Info   ] -   Ends Loading Component : C:\xpa\samples\xpademo\xpademo\Components\XpaTSoap.ecf 
+ <-1> 22/09/2018 15:47:52.183     [Info   ] -   Starts Loading Component : C:\xpa\samples\xpademo\xpademo\Components\xpa-project-scan.ecf 
+ <-1> 22/09/2018 15:47:52.196     [Info   ] -   Ends Loading Component : C:\xpa\samples\xpademo\xpademo\Components\xpa-project-scan.ecf 
+ <-1> 22/09/2018 15:47:52.210     [Info   ] -   The project was successfully opened.
+ <-1> 22/09/2018 15:47:52.330     [Action ] -   >>Starts load Batch Task - 'Main Program (_UserFunctionality)' in Query mode (Task Instance: 1)
+ <-1> 22/09/2018 15:47:52.336     [Action ] -   Ends Load Task
+ <-1> 22/09/2018 15:47:52.339     [Action ] -   Starts Task Prefix
+ <-1> 22/09/2018 15:47:52.339     [Action ] -     Flow - Update: 'V: gV:FunctionsList' <== exp #41
+ <-1> 22/09/2018 15:47:52.340     [Action ] -     Flow - Update: 'W: gV:FunctionsDescriptionList' <== exp #42
+ <-1> 22/09/2018 15:47:52.340     [Action ] -     Flow - Update: 'X: gV:DigitAndPunctuationList' <== exp #43
+ <-1> 22/09/2018 15:47:52.341     [Action ] -     Flow - Update: 'BB: gV:IsHebrewApp' <== exp #105
+ <-1> 22/09/2018 15:47:52.341     [Action ] -   Ends Task Prefix
+ <-1> 22/09/2018 15:47:52.342     [Action ] -   Load records
+ <-1> 22/09/2018 15:47:52.345     [Action ] -   >>Starts load Batch Task - 'Main Program (UserFunctionality)' in Query mode (Task Instance: 2)
+ <-1> 22/09/2018 15:47:52.361     [Action ] -   Ends Load Task
+ <-1> 22/09/2018 15:47:52.364     [Action ] -   Starts Task Prefix
+ <-1> 22/09/2018 15:47:52.365     [Action ] -     Flow - Update: 'V: gV:FunctionsList' <== exp #41
+ <-1> 22/09/2018 15:47:52.366     [Action ] -     Flow - Update: 'W: gV:FunctionsDescriptionList' <== exp #42
+ <-1> 22/09/2018 15:47:52.367     [Action ] -     Flow - Update: 'X: gV:DigitAndPunctuationList' <== exp #43
+ <-1> 22/09/2018 15:47:52.367     [Action ] -     Flow - Update: 'BB: gV:IsHebrewApp' <== exp #105
+ <-1> 22/09/2018 15:47:52.368     [Action ] -   Ends Task Prefix
+ <-1> 22/09/2018 15:47:52.369     [Action ] -   Load records
+ <-1> 22/09/2018 15:47:52.361     [Action ] -   >>Starts load Batch Task - 'Main Program (DatabaseComp)' in Query mode (Task Instance: 3)
+ <-1> 22/09/2018 15:47:52.375     [Action ] -   Ends Load Task
+ <-1> 22/09/2018 15:47:52.375     [Action ] -   Load records
+ <-1> 22/09/2018 15:47:52.377     [Action ] -   >>Starts load Batch Task - 'Main Program (XpaTHelp)' in Query mode (Task Instance: 4)
+ <-1> 22/09/2018 15:47:52.383     [Action ] -   Ends Load Task
+ <-1> 22/09/2018 15:47:52.384     [Action ] -   Load records
+ <-1> 22/09/2018 15:47:52.683     [Action ] -   >>Starts load Batch Task - 'Main Program (XpaDemo)' in Query mode (Task Instance: 5)
+ <-1> 22/09/2018 15:47:52.686     [Action ] -   Ends Load Task
+ <-1> 22/09/2018 15:47:52.686     [Action ] -   Starts Task Prefix
+ <-1> 22/09/2018 15:47:52.687     [Action ] -     Flow - Remark: 
+ <-1> 22/09/2018 15:47:52.688     [Action ] -     Flow - Remark: 
+ <-1> 22/09/2018 15:47:52.688     [Action ] -     Flow - Remark: 
+ <-1> 22/09/2018 15:47:52.689     [Action ] -     Flow - Remark: 
+ <-1> 22/09/2018 15:47:52.692     [Action ] -     Flow - Condition: Exp = 4, Result = True
+ <-1> 22/09/2018 15:47:52.692     [Action ] -     Flow - Call Program :: OUTIL003_CheckConfiguration (#32)
+ <-1> 22/09/2018 15:47:52.715     [Action ] -       >>Starts load Batch Task - 'OUTIL003_CheckConfiguration' in Modify mode (Task Instance: 6)
+ <-1> 22/09/2018 15:47:52.717     [Action ] -       Ends Load Task
+ <-1> 22/09/2018 15:47:52.717     [Action ] -       Starts Task Prefix
+ <-1> 22/09/2018 15:47:52.718     [Action ] -         Flow - Remark: 
+ <-1> 22/09/2018 15:47:52.719     [Action ] -         Flow - Update: 'O: v.ForceConfig' <== exp #10
+ <-1> 22/09/2018 15:47:52.719     [Action ] -         Flow - Remark: 
+ <-1> 22/09/2018 15:47:52.720     [Action ] -         Flow - Update: 'P: v.ShowOK' <== exp #14
+ <-1> 22/09/2018 15:47:52.720     [Action ] -         Flow - Remark: 
+ <-1> 22/09/2018 15:47:52.721     [Action ] -         Flow - Remark: 
+ <-1> 22/09/2018 15:47:52.723     [Action ] -         Flow - Condition: Exp = 12, Result = True
+ <-1> 22/09/2018 15:47:52.724     [Action ] -         Flow - Update: 'P: v.ShowOK' <== exp #2
+ <-1> 22/09/2018 15:47:52.724     [Action ] -         Flow - Remark: 
+ <-1> 22/09/2018 15:47:52.725     [Action ] -         Flow - Remark: 
+ <-1> 22/09/2018 15:47:52.725     [Action ] -       Ends Task Prefix
+ <-1> 22/09/2018 15:47:52.726     [Action ] -       Load records
+ <-1> 22/09/2018 15:47:52.726     [Action ] -       Starts Record Suffix
+ <-1> 22/09/2018 15:47:52.727     [Action ] -         Flow - Remark: 
+ <-1> 22/09/2018 15:47:52.727     [Action ] -         Flow - Update: 'Q: v.Restart' <== exp #11
+ <-1> 22/09/2018 15:47:52.728     [Action ] -         Flow - Remark: 
+ <-1> 22/09/2018 15:47:52.728     [Action ] -         Flow - Remark: 
+ <-1> 22/09/2018 15:47:52.729     [Action ] -         Flow - Remark: 
+ <-1> 22/09/2018 15:47:52.729     [Action ] -         Flow - Update: 'H: v.XPATEST_HOME' <== exp #1
+ <-1> 22/09/2018 15:47:52.730     [Action ] -         Flow - Remark: 
+ <-1> 22/09/2018 15:47:52.730     [Action ] -         Flow - Update: 'I: v.DB_XPATest' <== exp #3
+ <-1> 22/09/2018 15:47:52.731     [Action ] -         Flow - Update: 'J: v.DB_RIADemo' <== exp #4
+ <-1> 22/09/2018 15:47:52.732     [Action ] -         Flow - Update: 'K: v.DB_XPATest_POMO' <== exp #5
+ <-1> 22/09/2018 15:47:52.732     [Action ] -         Flow - Update: 'N: v.ConfigOK ?' <== exp #8
+ <-1> 22/09/2018 15:47:52.733     [Action ] -         Flow - Remark: 
+ <-1> 22/09/2018 15:47:52.733     [Action ] -         Flow - Remark: 
+ <-1> 22/09/2018 15:47:52.734     [Action ] -         Flow - Condition: Exp = 7, Result = False
+ <-1> 22/09/2018 15:47:52.734     [Action ] -         Flow - Block If:  [Not Executed]
+ <-1> 22/09/2018 15:47:52.734     [Action ] -         Flow - Block Else: 
+ <-1> 22/09/2018 15:47:52.735     [Action ] -         Flow - Condition: Exp = 13, Result = False
+ <-1> 22/09/2018 15:47:52.735     [Action ] -         Flow - Call SubTask :: Config OK [Not Executed]
+ <-1> 22/09/2018 15:47:52.736     [Action ] -         Flow - Block End: 
+ <-1> 22/09/2018 15:47:52.736     [Action ] -       Ends Record Suffix
+ <-1> 22/09/2018 15:47:52.737     [Action ] -       Starts Closing Batch Task - 'OUTIL003_CheckConfiguration' (Task Instance: 6)
+ <-1> 22/09/2018 15:47:52.742     [Action ] -     <<Ends Close Task
+ <-1> 22/09/2018 15:47:52.744     [Action ] -   Ends Task Prefix
+ <-1> 22/09/2018 15:47:52.745     [Action ] -   Load records
+ <-1> 22/09/2018 15:47:52.745     [Info   ] -   Starting Magic xpa Server. Maximum checked-out concurrent threads: 1. Maximum checked-out concurrent users: 0.
+ <-1> 22/09/2018 15:47:52.746     [Info   ] -   License limit : 5000 requests.
+ <-1> 22/09/2018 15:48:05.115     [Action ] -   >>  Processing Event  [Context Got Focus]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 15:48:05.109     [Action ] -     >>Starts load Batch Task - 'OWCLN001_xpatest_uris' in Modify mode (Task Instance: 7)
+ <-1> 22/09/2018 15:48:05.124     [Action ] -     Ends Load Task
+ <-1> 22/09/2018 15:48:05.126     [Action ] -     Load records
+ <-1> 22/09/2018 15:48:05.127     [Action ] -     Starts Record Suffix
+ <-1> 22/09/2018 15:48:05.127     [Action ] -       Flow - Update: 'H: ContextName' <== exp #2
+ <-1> 22/09/2018 15:48:05.128     [Action ] -       Flow - Update: 'E: Success' <== exp #1
+ <-1> 22/09/2018 15:48:05.128     [Action ] -       Flow - Call SubTask :: Browse - xpatest_uris
+ <-1> 22/09/2018 15:48:05.129     [Info   ] -       Starts Loading Component : C:\xpa\samples\xpademo\xpademo\Components\Roslyn.ecf 
+ <-1> 22/09/2018 15:48:05.137     [Info   ] -       Starts Loading Component : Microsoft.CSharp 
+ <-1> 22/09/2018 15:48:05.143     [Info   ] -       Ends Loading Component : Microsoft.CSharp 
+ <-1> 22/09/2018 15:48:05.144     [Info   ] -       Starts Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 15:48:05.149     [Info   ] -       Ends Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 15:48:05.149     [Info   ] -       Starts Loading Component : C:\xpa\samples\xpademo\xpademo\Components\DatabaseComp.ecf 
+ <-1> 22/09/2018 15:48:05.150     [Info   ] -       Ends Loading Component : C:\xpa\samples\xpademo\xpademo\Components\DatabaseComp.ecf 
+ <-1> 22/09/2018 15:48:05.152     [Info   ] -       Ends Loading Component : C:\xpa\samples\xpademo\xpademo\Components\Roslyn.ecf 
+ <-1> 22/09/2018 15:48:05.156     [Action ] -         >>Starts load Batch Task - 'Main Program (Roslyn)' in Query mode (Task Instance: 8)
+ <-1> 22/09/2018 15:48:05.158     [Action ] -         Ends Load Task
+ <-1> 22/09/2018 15:48:05.159     [Action ] -         Load records
+ <-1> 22/09/2018 15:48:05.375     [Action ] -         Open DB Table - '{DatabaseComponent}.xpatest_uris (#1) (W,W)'
+ <-1> 22/09/2018 15:48:05.375     [Action ] -         >>Starts load Online Task - 'Browse - xpatest_uris' in Query mode (Task Instance: 9)
+ <-1> 22/09/2018 15:48:05.377     [Action ] -         Ends Load Task
+ <-1> 22/09/2018 15:48:05.377     [Action ] -         Starts Task Prefix
+ <-1> 22/09/2018 15:48:05.378     [Action ] -           Flow - Update: 'N: @XpaTHelp.URL' <== exp #4
+ <-1> 22/09/2018 15:48:05.380     [Action ] -           Flow - Remark: 
+ <-1> 22/09/2018 15:48:05.380     [Action ] -         Ends Task Prefix
+ <-1> 22/09/2018 15:48:05.382     [Action ] -         Task Mode Change - Query
+ <-1> 22/09/2018 15:48:05.386     [Action ] -         Read Transaction 0
+ <-1> 22/09/2018 15:48:05.387     [Action ] -         Load records
+ <-1> 22/09/2018 15:48:05.444     [Action ] -         Commit Transaction 0
+ <-1> 22/09/2018 15:48:05.460     [Action ] -         Write Deferred Transaction 9
+ <-1> 22/09/2018 15:48:05.463     [Action ] -         Flow - Variable Column  'oid' (Step Forward)  
+ <-1> 22/09/2018 15:48:05.557     [Action ] -         >>  Processing Event  [Window Reposition]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 15:48:05.558     [Action ] -         >>  Processing Event  [Close Application]  Control Name :  [oid] 
+ <-1> 22/09/2018 15:48:05.565     [Action ] -         Commit Transaction 9
+ <-1> 22/09/2018 15:48:05.566     [Action ] -         Starts Closing Online Task - 'Browse - xpatest_uris' (Task Instance: 9)
+ <-1> 22/09/2018 15:48:05.568     [Action ] -           Closed database {DatabaseComponent}.xpatest_uris (#1)
+ <-1> 22/09/2018 15:48:05.594     [Action ] -       <<Ends Close Task
+ <-1> 22/09/2018 15:48:05.595     [Action ] -     Ends Record Suffix
+ <-1> 22/09/2018 15:48:05.595     [Action ] -     Starts Closing Batch Task - 'OWCLN001_xpatest_uris' (Task Instance: 7)
+ <-1> 22/09/2018 15:48:05.596     [Action ] -   <<Ends Close Task
+ <-1> 22/09/2018 15:48:05.597     [Action ] -   >>  Processing Event  [Close Application]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 15:48:05.597     [Action ] -   Starts Closing Batch Task - 'Main Program (XpaDemo)' (Task Instance: 5)
+ <-1> 22/09/2018 15:48:05.626     [Action ] -   <<Ends Close Task
+ <-1> 22/09/2018 15:48:05.627     [Action ] -   Starts Closing Batch Task - 'Main Program (_UserFunctionality)' (Task Instance: 1)
+ <-1> 22/09/2018 15:48:05.628     [Action ] -   <<Ends Close Task
+ <-1> 22/09/2018 15:48:05.628     [Action ] -   Starts Closing Batch Task - 'Main Program (Roslyn)' (Task Instance: 8)
+ <-1> 22/09/2018 15:48:05.629     [Action ] -   <<Ends Close Task
+ <-1> 22/09/2018 15:48:05.629     [Action ] -   Starts Closing Batch Task - 'Main Program (DatabaseComp)' (Task Instance: 3)
+ <-1> 22/09/2018 15:48:05.630     [Action ] -   <<Ends Close Task
+ <-1> 22/09/2018 15:48:05.630     [Action ] -   Starts Closing Batch Task - 'Main Program (XpaTHelp)' (Task Instance: 4)
+ <-1> 22/09/2018 15:48:05.630     [Action ] -   <<Ends Close Task
+ <-1> 22/09/2018 15:48:05.631     [Action ] -   Starts Closing Batch Task - 'Main Program (UserFunctionality)' (Task Instance: 2)
+ <-1> 22/09/2018 15:48:05.631     [Action ] -   <<Ends Close Task
+ *********************   Date: 22/09/2018  ********************
+ <-1> 22/09/2018 15:49:02.877     [Info   ] - The INI file ("C:\magic\xpa3.3\MAGIC.INI") was successfully opened.
+ <-1> 22/09/2018 15:49:02.879     [Info   ] - ProcessID is 7464
+ <-1> 22/09/2018 15:49:02.879     [Info   ] - The current working directory is: "C:\xpa\samples\XpaDemo\XpaDemo\external\cpp\mgtest".
+ <-1> 22/09/2018 15:49:02.984     [Info   ] - Starts Loading Component : C:\magic\xpa3.3\Add_On\UserFunctionality\UserFunctionality.ecf 
+ <-1> 22/09/2018 15:49:03.003     [Info   ] - Starts Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 15:49:03.088     [Info   ] - Ends Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 15:49:03.088     [Info   ] - Starts Loading Component : System.Drawing 
+ <-1> 22/09/2018 15:49:03.098     [Info   ] - Ends Loading Component : System.Drawing 
+ <-1> 22/09/2018 15:49:03.099     [Info   ] - Starts Loading Component : System 
+ <-1> 22/09/2018 15:49:03.133     [Info   ] - Ends Loading Component : System 
+ <-1> 22/09/2018 15:49:03.133     [Info   ] - Starts Loading Component : System.Data 
+ <-1> 22/09/2018 15:49:03.175     [Info   ] - Ends Loading Component : System.Data 
+ <-1> 22/09/2018 15:49:03.176     [Info   ] - Starts Loading Component : Microsoft.Office.Interop.Excel 
+ <-1> 22/09/2018 15:49:03.316     [Info   ] - Ends Loading Component : Microsoft.Office.Interop.Excel 
+ <-1> 22/09/2018 15:49:03.317     [Info   ] - Starts Loading Component : Microsoft.CSharp 
+ <-1> 22/09/2018 15:49:03.334     [Info   ] - Ends Loading Component : Microsoft.CSharp 
+ <-1> 22/09/2018 15:49:03.335     [Info   ] - Starts Loading Component : System.Core 
+ <-1> 22/09/2018 15:49:03.347     [Info   ] - Ends Loading Component : System.Core 
+ <-1> 22/09/2018 15:49:03.381     [Info   ] - Ends Loading Component : C:\magic\xpa3.3\Add_On\UserFunctionality\UserFunctionality.ecf 
+ <-1> 22/09/2018 15:49:03.399     [Info   ] -   The project was successfully opened.
+ <-1> 22/09/2018 15:49:03.643     [Action ] -   >>Starts load Batch Task - 'Main Program (UserFunctionality)' in Query mode (Task Instance: 1)
+ <-1> 22/09/2018 15:49:03.653     [Action ] -   Ends Load Task
+ <-1> 22/09/2018 15:49:03.655     [Action ] -   Starts Task Prefix
+ <-1> 22/09/2018 15:49:03.655     [Action ] -     Flow - Update: 'V: gV:FunctionsList' <== exp #41
+ <-1> 22/09/2018 15:49:03.656     [Action ] -     Flow - Update: 'W: gV:FunctionsDescriptionList' <== exp #42
+ <-1> 22/09/2018 15:49:03.656     [Action ] -     Flow - Update: 'X: gV:DigitAndPunctuationList' <== exp #43
+ <-1> 22/09/2018 15:49:03.657     [Action ] -     Flow - Update: 'BB: gV:IsHebrewApp' <== exp #105
+ <-1> 22/09/2018 15:49:03.657     [Action ] -   Ends Task Prefix
+ <-1> 22/09/2018 15:49:03.658     [Action ] -   Load records
+ <-1> 22/09/2018 15:49:03.814     [Action ] -   >>Starts load Batch Task - 'Main Program (ptest)' in Query mode (Task Instance: 2)
+ <-1> 22/09/2018 15:49:03.817     [Action ] -   Ends Load Task
+ <-1> 22/09/2018 15:49:03.817     [Action ] -   Load records
+ <-1> 22/09/2018 15:49:03.819     [Info   ] -   Starting Magic xpa Server. Maximum checked-out concurrent threads: 1. Maximum checked-out concurrent users: 0.
+ <-1> 22/09/2018 15:49:03.820     [Info   ] -   License limit : 5000 requests.
+ <-1> 22/09/2018 15:49:12.853     [Action ] -   >>  Processing Event  [Window Reposition]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 15:49:12.853     [Action ] -   >>  Processing Event  [Window Resize]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 15:49:12.854     [Action ] -   >>  Processing Event  [Window Reposition]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 15:49:12.848     [Action ] -     >>Starts load Batch Task - 'test01' in Modify mode (Task Instance: 3)
+ <-1> 22/09/2018 15:49:12.861     [Action ] -     Ends Load Task
+ <-1> 22/09/2018 15:49:12.861     [Action ] -     Load records
+ <-1> 22/09/2018 15:49:12.862     [Action ] -     Starts Record Suffix
+ <-1> 22/09/2018 15:49:12.862     [Action ] -       Flow - Remark: 
+ <-1> 22/09/2018 15:49:12.863     [Action ] -       Flow - Verify Warning: Default title, Message Exp #1
+ <-1> 22/09/2018 15:49:12.962     [Warning] -       0.0.1
+ <-1> 22/09/2018 15:49:14.626     [Action ] -       Flow - Verify Warning: Default title, Message Exp #2
+ <-1> 22/09/2018 15:51:49.337     [Action ] -     Ends Record Suffix
+ <-1> 22/09/2018 15:51:49.338     [Action ] -     Starts Closing Batch Task - 'test01' (Task Instance: 3)
+ <-1> 22/09/2018 15:51:49.342     [Action ] -   <<Ends Close Task
+ <-1> 22/09/2018 15:51:49.342     [Action ] -   >>  Processing Event  [Context Got Focus]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 15:51:53.445     [Action ] -     >>Starts load Batch Task - 'test01' in Modify mode (Task Instance: 4)
+ <-1> 22/09/2018 15:51:53.451     [Action ] -     Ends Load Task
+ <-1> 22/09/2018 15:51:53.452     [Action ] -     Load records
+ <-1> 22/09/2018 15:51:53.452     [Action ] -     Starts Record Suffix
+ <-1> 22/09/2018 15:51:53.453     [Action ] -       Flow - Remark: 
+ <-1> 22/09/2018 15:51:53.453     [Action ] -       Flow - Verify Warning: Default title, Message Exp #1
+ <-1> 22/09/2018 15:51:53.453     [Warning] -       0.0.1
+ <-1> 22/09/2018 15:51:54.889     [Action ] -       Flow - Verify Warning: Default title, Message Exp #2
+ *********************   Date: 22/09/2018  ********************
+ <-1> 22/09/2018 15:56:08.819     [Info   ] - The INI file ("C:\magic\xpa3.3\MAGIC.INI") was successfully opened.
+ <-1> 22/09/2018 15:56:08.820     [Info   ] - ProcessID is 8136
+ <-1> 22/09/2018 15:56:08.820     [Info   ] - The current working directory is: "C:\xpa\samples\XpaDemo\XpaDemo\external\cpp\mgtest".
+ <-1> 22/09/2018 15:56:08.924     [Info   ] - Starts Loading Component : C:\magic\xpa3.3\Add_On\UserFunctionality\UserFunctionality.ecf 
+ <-1> 22/09/2018 15:56:08.938     [Info   ] - Starts Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 15:56:09.015     [Info   ] - Ends Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 15:56:09.016     [Info   ] - Starts Loading Component : System.Drawing 
+ <-1> 22/09/2018 15:56:09.024     [Info   ] - Ends Loading Component : System.Drawing 
+ <-1> 22/09/2018 15:56:09.024     [Info   ] - Starts Loading Component : System 
+ <-1> 22/09/2018 15:56:09.054     [Info   ] - Ends Loading Component : System 
+ <-1> 22/09/2018 15:56:09.055     [Info   ] - Starts Loading Component : System.Data 
+ <-1> 22/09/2018 15:56:09.103     [Info   ] - Ends Loading Component : System.Data 
+ <-1> 22/09/2018 15:56:09.103     [Info   ] - Starts Loading Component : Microsoft.Office.Interop.Excel 
+ <-1> 22/09/2018 15:56:09.235     [Info   ] - Ends Loading Component : Microsoft.Office.Interop.Excel 
+ <-1> 22/09/2018 15:56:09.235     [Info   ] - Starts Loading Component : Microsoft.CSharp 
+ <-1> 22/09/2018 15:56:09.256     [Info   ] - Ends Loading Component : Microsoft.CSharp 
+ <-1> 22/09/2018 15:56:09.256     [Info   ] - Starts Loading Component : System.Core 
+ <-1> 22/09/2018 15:56:09.281     [Info   ] - Ends Loading Component : System.Core 
+ <-1> 22/09/2018 15:56:09.347     [Info   ] - Ends Loading Component : C:\magic\xpa3.3\Add_On\UserFunctionality\UserFunctionality.ecf 
+ <-1> 22/09/2018 15:56:09.365     [Info   ] -   The project was successfully opened.
+ <-1> 22/09/2018 15:56:09.612     [Action ] -   >>Starts load Batch Task - 'Main Program (UserFunctionality)' in Query mode (Task Instance: 1)
+ <-1> 22/09/2018 15:56:09.614     [Action ] -   Ends Load Task
+ <-1> 22/09/2018 15:56:09.616     [Action ] -   Starts Task Prefix
+ <-1> 22/09/2018 15:56:09.617     [Action ] -     Flow - Update: 'V: gV:FunctionsList' <== exp #41
+ <-1> 22/09/2018 15:56:09.617     [Action ] -     Flow - Update: 'W: gV:FunctionsDescriptionList' <== exp #42
+ <-1> 22/09/2018 15:56:09.618     [Action ] -     Flow - Update: 'X: gV:DigitAndPunctuationList' <== exp #43
+ <-1> 22/09/2018 15:56:09.618     [Action ] -     Flow - Update: 'BB: gV:IsHebrewApp' <== exp #105
+ <-1> 22/09/2018 15:56:09.619     [Action ] -   Ends Task Prefix
+ <-1> 22/09/2018 15:56:09.619     [Action ] -   Load records
+ <-1> 22/09/2018 15:56:09.778     [Action ] -   >>Starts load Batch Task - 'Main Program (ptest)' in Query mode (Task Instance: 2)
+ <-1> 22/09/2018 15:56:09.779     [Action ] -   Ends Load Task
+ <-1> 22/09/2018 15:56:09.779     [Action ] -   Load records
+ <-1> 22/09/2018 15:56:09.781     [Info   ] -   Starting Magic xpa Server. Maximum checked-out concurrent threads: 1. Maximum checked-out concurrent users: 0.
+ <-1> 22/09/2018 15:56:09.782     [Info   ] -   License limit : 5000 requests.
+ <-1> 22/09/2018 15:56:18.844     [Action ] -     >>Starts load Batch Task - 'test01' in Modify mode (Task Instance: 3)
+ <-1> 22/09/2018 15:56:18.846     [Action ] -     Ends Load Task
+ <-1> 22/09/2018 15:56:18.846     [Action ] -     Load records
+ <-1> 22/09/2018 15:56:18.847     [Action ] -     Starts Record Suffix
+ <-1> 22/09/2018 15:56:18.847     [Action ] -       Flow - Remark: 
+ <-1> 22/09/2018 15:56:18.847     [Action ] -       Flow - Verify Warning: Default title, Message Exp #1
+ <-1> 22/09/2018 15:56:18.862     [Warning] -       0.0.1
+ <-1> 22/09/2018 15:56:20.457     [Action ] -       Flow - Verify Warning: Default title, Message Exp #2
+ *********************   Date: 22/09/2018  ********************
+ <-1> 22/09/2018 16:02:50.737     [Info   ] - The INI file ("C:\magic\xpa3.3\MAGIC.INI") was successfully opened.
+ <-1> 22/09/2018 16:02:50.738     [Info   ] - ProcessID is 1436
+ <-1> 22/09/2018 16:02:50.738     [Info   ] - The current working directory is: "C:\xpa\samples\XpaDemo\XpaDemo\external\cpp\mgtest".
+ <-1> 22/09/2018 16:02:50.851     [Info   ] - Starts Loading Component : C:\magic\xpa3.3\Add_On\UserFunctionality\UserFunctionality.ecf 
+ <-1> 22/09/2018 16:02:50.865     [Info   ] - Starts Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 16:02:50.947     [Info   ] - Ends Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 16:02:50.947     [Info   ] - Starts Loading Component : System.Drawing 
+ <-1> 22/09/2018 16:02:50.955     [Info   ] - Ends Loading Component : System.Drawing 
+ <-1> 22/09/2018 16:02:50.956     [Info   ] - Starts Loading Component : System 
+ <-1> 22/09/2018 16:02:50.990     [Info   ] - Ends Loading Component : System 
+ <-1> 22/09/2018 16:02:50.990     [Info   ] - Starts Loading Component : System.Data 
+ <-1> 22/09/2018 16:02:51.040     [Info   ] - Ends Loading Component : System.Data 
+ <-1> 22/09/2018 16:02:51.041     [Info   ] - Starts Loading Component : Microsoft.Office.Interop.Excel 
+ <-1> 22/09/2018 16:02:51.214     [Info   ] - Ends Loading Component : Microsoft.Office.Interop.Excel 
+ <-1> 22/09/2018 16:02:51.214     [Info   ] - Starts Loading Component : Microsoft.CSharp 
+ <-1> 22/09/2018 16:02:51.232     [Info   ] - Ends Loading Component : Microsoft.CSharp 
+ <-1> 22/09/2018 16:02:51.232     [Info   ] - Starts Loading Component : System.Core 
+ <-1> 22/09/2018 16:02:51.245     [Info   ] - Ends Loading Component : System.Core 
+ <-1> 22/09/2018 16:02:51.293     [Info   ] - Ends Loading Component : C:\magic\xpa3.3\Add_On\UserFunctionality\UserFunctionality.ecf 
+ <-1> 22/09/2018 16:02:51.312     [Info   ] -   The project was successfully opened.
+ <-1> 22/09/2018 16:02:51.564     [Action ] -   >>Starts load Batch Task - 'Main Program (UserFunctionality)' in Query mode (Task Instance: 1)
+ <-1> 22/09/2018 16:02:51.574     [Action ] -   Ends Load Task
+ <-1> 22/09/2018 16:02:51.577     [Action ] -   Starts Task Prefix
+ <-1> 22/09/2018 16:02:51.577     [Action ] -     Flow - Update: 'V: gV:FunctionsList' <== exp #41
+ <-1> 22/09/2018 16:02:51.578     [Action ] -     Flow - Update: 'W: gV:FunctionsDescriptionList' <== exp #42
+ <-1> 22/09/2018 16:02:51.578     [Action ] -     Flow - Update: 'X: gV:DigitAndPunctuationList' <== exp #43
+ <-1> 22/09/2018 16:02:51.579     [Action ] -     Flow - Update: 'BB: gV:IsHebrewApp' <== exp #105
+ <-1> 22/09/2018 16:02:51.579     [Action ] -   Ends Task Prefix
+ <-1> 22/09/2018 16:02:51.580     [Action ] -   Load records
+ <-1> 22/09/2018 16:02:51.736     [Action ] -   >>Starts load Batch Task - 'Main Program (ptest)' in Query mode (Task Instance: 2)
+ <-1> 22/09/2018 16:02:51.739     [Action ] -   Ends Load Task
+ <-1> 22/09/2018 16:02:51.740     [Action ] -   Load records
+ <-1> 22/09/2018 16:02:51.742     [Info   ] -   Starting Magic xpa Server. Maximum checked-out concurrent threads: 1. Maximum checked-out concurrent users: 0.
+ <-1> 22/09/2018 16:02:51.742     [Info   ] -   License limit : 5000 requests.
+ <-1> 22/09/2018 16:03:00.777     [Action ] -     >>Starts load Batch Task - 'test01' in Modify mode (Task Instance: 3)
+ <-1> 22/09/2018 16:03:00.789     [Action ] -     Ends Load Task
+ <-1> 22/09/2018 16:03:00.790     [Action ] -     Load records
+ <-1> 22/09/2018 16:03:00.791     [Action ] -     Starts Record Suffix
+ <-1> 22/09/2018 16:03:00.791     [Action ] -       Flow - Remark: 
+ <-1> 22/09/2018 16:03:00.792     [Action ] -       Flow - Verify Warning: Default title, Message Exp #1
+ <-1> 22/09/2018 16:03:00.811     [Warning] -       0.0.1
+ <-1> 22/09/2018 16:03:02.315     [Action ] -       Flow - Verify Warning: Default title, Message Exp #2
+ *********************   Date: 22/09/2018  ********************
+ <-1> 22/09/2018 16:06:00.065     [Info   ] - The INI file ("C:\magic\xpa3.3\MAGIC.INI") was successfully opened.
+ <-1> 22/09/2018 16:06:00.066     [Info   ] - ProcessID is 568
+ <-1> 22/09/2018 16:06:00.066     [Info   ] - The current working directory is: "C:\xpa\samples\XpaDemo\XpaDemo\external\cpp\mgtest".
+ <-1> 22/09/2018 16:06:00.177     [Info   ] - Starts Loading Component : C:\magic\xpa3.3\Add_On\UserFunctionality\UserFunctionality.ecf 
+ <-1> 22/09/2018 16:06:00.190     [Info   ] - Starts Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 16:06:00.269     [Info   ] - Ends Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 16:06:00.270     [Info   ] - Starts Loading Component : System.Drawing 
+ <-1> 22/09/2018 16:06:00.278     [Info   ] - Ends Loading Component : System.Drawing 
+ <-1> 22/09/2018 16:06:00.279     [Info   ] - Starts Loading Component : System 
+ <-1> 22/09/2018 16:06:00.311     [Info   ] - Ends Loading Component : System 
+ <-1> 22/09/2018 16:06:00.311     [Info   ] - Starts Loading Component : System.Data 
+ <-1> 22/09/2018 16:06:00.356     [Info   ] - Ends Loading Component : System.Data 
+ <-1> 22/09/2018 16:06:00.356     [Info   ] - Starts Loading Component : Microsoft.Office.Interop.Excel 
+ <-1> 22/09/2018 16:06:00.495     [Info   ] - Ends Loading Component : Microsoft.Office.Interop.Excel 
+ <-1> 22/09/2018 16:06:00.495     [Info   ] - Starts Loading Component : Microsoft.CSharp 
+ <-1> 22/09/2018 16:06:00.511     [Info   ] - Ends Loading Component : Microsoft.CSharp 
+ <-1> 22/09/2018 16:06:00.511     [Info   ] - Starts Loading Component : System.Core 
+ <-1> 22/09/2018 16:06:00.525     [Info   ] - Ends Loading Component : System.Core 
+ <-1> 22/09/2018 16:06:00.572     [Info   ] - Ends Loading Component : C:\magic\xpa3.3\Add_On\UserFunctionality\UserFunctionality.ecf 
+ <-1> 22/09/2018 16:06:00.588     [Info   ] -   The project was successfully opened.
+ <-1> 22/09/2018 16:06:00.846     [Action ] -   >>Starts load Batch Task - 'Main Program (UserFunctionality)' in Query mode (Task Instance: 1)
+ <-1> 22/09/2018 16:06:00.853     [Action ] -   Ends Load Task
+ <-1> 22/09/2018 16:06:00.856     [Action ] -   Starts Task Prefix
+ <-1> 22/09/2018 16:06:00.856     [Action ] -     Flow - Update: 'V: gV:FunctionsList' <== exp #41
+ <-1> 22/09/2018 16:06:00.857     [Action ] -     Flow - Update: 'W: gV:FunctionsDescriptionList' <== exp #42
+ <-1> 22/09/2018 16:06:00.857     [Action ] -     Flow - Update: 'X: gV:DigitAndPunctuationList' <== exp #43
+ <-1> 22/09/2018 16:06:00.858     [Action ] -     Flow - Update: 'BB: gV:IsHebrewApp' <== exp #105
+ <-1> 22/09/2018 16:06:00.858     [Action ] -   Ends Task Prefix
+ <-1> 22/09/2018 16:06:00.859     [Action ] -   Load records
+ <-1> 22/09/2018 16:06:01.018     [Action ] -   >>Starts load Batch Task - 'Main Program (ptest)' in Query mode (Task Instance: 2)
+ <-1> 22/09/2018 16:06:01.024     [Action ] -   Ends Load Task
+ <-1> 22/09/2018 16:06:01.025     [Action ] -   Load records
+ <-1> 22/09/2018 16:06:01.027     [Info   ] -   Starting Magic xpa Server. Maximum checked-out concurrent threads: 1. Maximum checked-out concurrent users: 0.
+ <-1> 22/09/2018 16:06:01.027     [Info   ] -   License limit : 5000 requests.
+ <-1> 22/09/2018 16:06:10.065     [Action ] -     >>Starts load Batch Task - 'test01' in Modify mode (Task Instance: 3)
+ <-1> 22/09/2018 16:06:10.076     [Action ] -     Ends Load Task
+ <-1> 22/09/2018 16:06:10.077     [Action ] -     Load records
+ <-1> 22/09/2018 16:06:10.078     [Action ] -     Starts Record Suffix
+ <-1> 22/09/2018 16:06:10.078     [Action ] -       Flow - Remark: 
+ <-1> 22/09/2018 16:06:10.079     [Action ] -       Flow - Verify Warning: Default title, Message Exp #1
+ <-1> 22/09/2018 16:06:10.096     [Warning] -       0.0.1
+ <-1> 22/09/2018 16:06:11.484     [Action ] -       Flow - Verify Warning: Default title, Message Exp #2
+ *********************   Date: 22/09/2018  ********************
+ <-1> 22/09/2018 16:17:55.288     [Info   ] - The INI file ("C:\magic\xpa3.3\MAGIC.INI") was successfully opened.
+ <-1> 22/09/2018 16:17:55.289     [Info   ] - ProcessID is 9804
+ <-1> 22/09/2018 16:17:55.290     [Info   ] - The current working directory is: "C:\xpa\samples\XpaDemo\XpaDemo\external\cpp\mgtest".
+ <-1> 22/09/2018 16:17:55.404     [Info   ] - Starts Loading Component : C:\magic\xpa3.3\Add_On\UserFunctionality\UserFunctionality.ecf 
+ <-1> 22/09/2018 16:17:55.416     [Info   ] - Starts Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 16:17:55.496     [Info   ] - Ends Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 16:17:55.497     [Info   ] - Starts Loading Component : System.Drawing 
+ <-1> 22/09/2018 16:17:55.505     [Info   ] - Ends Loading Component : System.Drawing 
+ <-1> 22/09/2018 16:17:55.506     [Info   ] - Starts Loading Component : System 
+ <-1> 22/09/2018 16:17:55.540     [Info   ] - Ends Loading Component : System 
+ <-1> 22/09/2018 16:17:55.541     [Info   ] - Starts Loading Component : System.Data 
+ <-1> 22/09/2018 16:17:55.590     [Info   ] - Ends Loading Component : System.Data 
+ <-1> 22/09/2018 16:17:55.590     [Info   ] - Starts Loading Component : Microsoft.Office.Interop.Excel 
+ <-1> 22/09/2018 16:17:55.726     [Info   ] - Ends Loading Component : Microsoft.Office.Interop.Excel 
+ <-1> 22/09/2018 16:17:55.726     [Info   ] - Starts Loading Component : Microsoft.CSharp 
+ <-1> 22/09/2018 16:17:55.743     [Info   ] - Ends Loading Component : Microsoft.CSharp 
+ <-1> 22/09/2018 16:17:55.744     [Info   ] - Starts Loading Component : System.Core 
+ <-1> 22/09/2018 16:17:55.755     [Info   ] - Ends Loading Component : System.Core 
+ <-1> 22/09/2018 16:17:55.791     [Info   ] - Ends Loading Component : C:\magic\xpa3.3\Add_On\UserFunctionality\UserFunctionality.ecf 
+ <-1> 22/09/2018 16:17:55.808     [Info   ] -   The project was successfully opened.
+ <-1> 22/09/2018 16:17:56.037     [Action ] -   >>Starts load Batch Task - 'Main Program (UserFunctionality)' in Query mode (Task Instance: 1)
+ <-1> 22/09/2018 16:17:56.051     [Action ] -   Ends Load Task
+ <-1> 22/09/2018 16:17:56.053     [Action ] -   Starts Task Prefix
+ <-1> 22/09/2018 16:17:56.053     [Action ] -     Flow - Update: 'V: gV:FunctionsList' <== exp #41
+ <-1> 22/09/2018 16:17:56.054     [Action ] -     Flow - Update: 'W: gV:FunctionsDescriptionList' <== exp #42
+ <-1> 22/09/2018 16:17:56.054     [Action ] -     Flow - Update: 'X: gV:DigitAndPunctuationList' <== exp #43
+ <-1> 22/09/2018 16:17:56.055     [Action ] -     Flow - Update: 'BB: gV:IsHebrewApp' <== exp #105
+ <-1> 22/09/2018 16:17:56.055     [Action ] -   Ends Task Prefix
+ <-1> 22/09/2018 16:17:56.056     [Action ] -   Load records
+ <-1> 22/09/2018 16:17:56.209     [Action ] -   >>Starts load Batch Task - 'Main Program (ptest)' in Query mode (Task Instance: 2)
+ <-1> 22/09/2018 16:17:56.221     [Action ] -   Ends Load Task
+ <-1> 22/09/2018 16:17:56.221     [Action ] -   Load records
+ <-1> 22/09/2018 16:17:56.223     [Info   ] -   Starting Magic xpa Server. Maximum checked-out concurrent threads: 1. Maximum checked-out concurrent users: 0.
+ <-1> 22/09/2018 16:17:56.224     [Info   ] -   License limit : 5000 requests.
+ <-1> 22/09/2018 16:17:56.364     [Action ] -   >>  Processing Event  [Context Got Focus]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 16:18:00.843     [Action ] -     >>Starts load Batch Task - 'test01' in Modify mode (Task Instance: 3)
+ <-1> 22/09/2018 16:18:00.851     [Action ] -     Ends Load Task
+ <-1> 22/09/2018 16:18:00.852     [Action ] -     Load records
+ <-1> 22/09/2018 16:18:00.853     [Action ] -     Starts Record Suffix
+ <-1> 22/09/2018 16:18:00.853     [Action ] -       Flow - Remark: 
+ <-1> 22/09/2018 16:18:00.854     [Action ] -       Flow - Verify Warning: Default title, Message Exp #1
+ <-1> 22/09/2018 16:18:00.870     [Warning] -       0.0.1
+ <-1> 22/09/2018 16:18:02.096     [Action ] -       Flow - Verify Warning: Default title, Message Exp #2
+ <-1> 22/09/2018 16:18:39.860     [Action ] -     Ends Record Suffix
+ <-1> 22/09/2018 16:18:39.861     [Action ] -     Starts Closing Batch Task - 'test01' (Task Instance: 3)
+ <-1> 22/09/2018 16:18:39.865     [Action ] -   <<Ends Close Task
+ <-1> 22/09/2018 16:18:51.549     [Action ] -     >>Starts load Batch Task - 'test01' in Modify mode (Task Instance: 4)
+ <-1> 22/09/2018 16:18:51.555     [Action ] -     Ends Load Task
+ <-1> 22/09/2018 16:18:51.556     [Action ] -     Load records
+ <-1> 22/09/2018 16:18:51.556     [Action ] -     Starts Record Suffix
+ <-1> 22/09/2018 16:18:51.556     [Action ] -       Flow - Remark: 
+ <-1> 22/09/2018 16:18:51.557     [Action ] -       Flow - Verify Warning: Default title, Message Exp #1
+ <-1> 22/09/2018 16:18:51.557     [Warning] -       0.0.1
+ <-1> 22/09/2018 16:18:52.943     [Action ] -       Flow - Verify Warning: Default title, Message Exp #2
+ <-1> 22/09/2018 16:19:36.216     [Action ] -     Ends Record Suffix
+ <-1> 22/09/2018 16:19:36.217     [Action ] -     Starts Closing Batch Task - 'test01' (Task Instance: 4)
+ <-1> 22/09/2018 16:19:36.218     [Action ] -   <<Ends Close Task
+ <-1> 22/09/2018 16:21:09.872     [Action ] -     >>Starts load Batch Task - 'test01' in Modify mode (Task Instance: 5)
+ <-1> 22/09/2018 16:21:09.877     [Action ] -     Ends Load Task
+ <-1> 22/09/2018 16:21:09.877     [Action ] -     Load records
+ <-1> 22/09/2018 16:21:09.878     [Action ] -     Starts Record Suffix
+ <-1> 22/09/2018 16:21:09.878     [Action ] -       Flow - Remark: 
+ <-1> 22/09/2018 16:21:09.878     [Action ] -       Flow - Verify Warning: Default title, Message Exp #1
+ <-1> 22/09/2018 16:21:09.879     [Warning] -       0.0.1
+ <-1> 22/09/2018 16:21:11.285     [Action ] -       Flow - Verify Warning: Default title, Message Exp #2
+ <-1> 22/09/2018 16:21:39.309     [Action ] -     Ends Record Suffix
+ <-1> 22/09/2018 16:21:39.310     [Action ] -     Starts Closing Batch Task - 'test01' (Task Instance: 5)
+ <-1> 22/09/2018 16:21:39.311     [Action ] -   <<Ends Close Task
+ <-1> 22/09/2018 16:21:43.796     [Action ] -     >>Starts load Batch Task - 'test01' in Modify mode (Task Instance: 6)
+ <-1> 22/09/2018 16:21:43.796     [Action ] -     Ends Load Task
+ <-1> 22/09/2018 16:21:43.797     [Action ] -     Load records
+ <-1> 22/09/2018 16:21:43.797     [Action ] -     Starts Record Suffix
+ <-1> 22/09/2018 16:21:43.798     [Action ] -       Flow - Remark: 
+ <-1> 22/09/2018 16:21:43.798     [Action ] -       Flow - Verify Warning: Default title, Message Exp #1
+ <-1> 22/09/2018 16:21:43.799     [Warning] -       0.0.1
+ <-1> 22/09/2018 16:21:45.016     [Action ] -       Flow - Verify Warning: Default title, Message Exp #2
+ <-1> 22/09/2018 16:28:42.252     [Action ] -     Ends Record Suffix
+ <-1> 22/09/2018 16:28:42.255     [Action ] -     Starts Closing Batch Task - 'test01' (Task Instance: 6)
+ <-1> 22/09/2018 16:28:42.255     [Action ] -   <<Ends Close Task
+ <-1> 22/09/2018 16:28:45.075     [Action ] -   >>  Processing Event  [Exit System]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 16:28:45.076     [Action ] -   Starts Closing Batch Task - 'Main Program (ptest)' (Task Instance: 2)
+ <-1> 22/09/2018 16:28:45.098     [Action ] -   <<Ends Close Task
+ <-1> 22/09/2018 16:28:45.098     [Action ] -   Starts Closing Batch Task - 'Main Program (UserFunctionality)' (Task Instance: 1)
+ <-1> 22/09/2018 16:28:45.099     [Action ] -   <<Ends Close Task
+ <-1> 22/09/2018 16:28:45.171     [Info   ] - Process 9804 - Exiting Magic xpa
+ <-1> 22/09/2018 16:28:45.171     [Info   ] - ------------------------------------------
+ *********************   Date: 22/09/2018  ********************
+ <-1> 22/09/2018 16:35:57.098     [Info   ] - The INI file ("C:\magic\xpa3.3\MAGIC.INI") was successfully opened.
+ <-1> 22/09/2018 16:35:57.099     [Info   ] - ProcessID is 3136
+ <-1> 22/09/2018 16:35:57.100     [Info   ] - The current working directory is: "C:\magic\xpa3.3".
+ <-1> 22/09/2018 16:35:57.173     [Info   ] - Starting Magic xpa Server. Maximum checked-out concurrent threads: 1. Maximum checked-out concurrent users: 1.
+ <-1> 22/09/2018 16:36:01.538     [Info   ] - Starts Loading Component : C:\magic\xpa3.3\Add_On\UserFunctionality\UserFunctionality.ecf 
+ <-1> 22/09/2018 16:36:01.556     [Info   ] - Starts Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 16:36:01.638     [Info   ] - Ends Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 16:36:01.638     [Info   ] - Starts Loading Component : System.Drawing 
+ <-1> 22/09/2018 16:36:01.643     [Info   ] - Ends Loading Component : System.Drawing 
+ <-1> 22/09/2018 16:36:01.644     [Info   ] - Starts Loading Component : System 
+ <-1> 22/09/2018 16:36:01.665     [Info   ] - Ends Loading Component : System 
+ <-1> 22/09/2018 16:36:01.666     [Info   ] - Starts Loading Component : System.Data 
+ <-1> 22/09/2018 16:36:01.694     [Info   ] - Ends Loading Component : System.Data 
+ <-1> 22/09/2018 16:36:01.695     [Info   ] - Starts Loading Component : Microsoft.Office.Interop.Excel 
+ <-1> 22/09/2018 16:36:01.804     [Info   ] - Ends Loading Component : Microsoft.Office.Interop.Excel 
+ <-1> 22/09/2018 16:36:01.804     [Info   ] - Starts Loading Component : Microsoft.CSharp 
+ <-1> 22/09/2018 16:36:01.812     [Info   ] - Ends Loading Component : Microsoft.CSharp 
+ <-1> 22/09/2018 16:36:01.813     [Info   ] - Starts Loading Component : System.Core 
+ <-1> 22/09/2018 16:36:01.823     [Info   ] - Ends Loading Component : System.Core 
+ <-1> 22/09/2018 16:36:01.859     [Info   ] - Ends Loading Component : C:\magic\xpa3.3\Add_On\UserFunctionality\UserFunctionality.ecf 
+ <-1> 22/09/2018 16:36:01.870     [Info   ] -   The project was successfully opened.
+ <-1> 22/09/2018 16:39:38.978     [Info   ] - Process 3136 - Exiting Magic xpa
+ <-1> 22/09/2018 16:39:38.979     [Info   ] - ------------------------------------------
+ *********************   Date: 22/09/2018  ********************
+ <-1> 22/09/2018 16:39:51.458     [Info   ] - The INI file ("C:\magic\xpa3.3\MAGIC.INI") was successfully opened.
+ <-1> 22/09/2018 16:39:51.459     [Info   ] - ProcessID is 3056
+ <-1> 22/09/2018 16:39:51.460     [Info   ] - The current working directory is: "C:\xpa\samples\XpaDemo\XpaDemo\external\cpp\mgtest".
+ <-1> 22/09/2018 16:39:51.574     [Info   ] - Starts Loading Component : C:\magic\xpa3.3\Add_On\UserFunctionality\UserFunctionality.ecf 
+ <-1> 22/09/2018 16:39:51.589     [Info   ] - Starts Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 16:39:51.678     [Info   ] - Ends Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 16:39:51.678     [Info   ] - Starts Loading Component : System.Drawing 
+ <-1> 22/09/2018 16:39:51.688     [Info   ] - Ends Loading Component : System.Drawing 
+ <-1> 22/09/2018 16:39:51.688     [Info   ] - Starts Loading Component : System 
+ <-1> 22/09/2018 16:39:51.729     [Info   ] - Ends Loading Component : System 
+ <-1> 22/09/2018 16:39:51.730     [Info   ] - Starts Loading Component : System.Data 
+ <-1> 22/09/2018 16:39:51.785     [Info   ] - Ends Loading Component : System.Data 
+ <-1> 22/09/2018 16:39:51.786     [Info   ] - Starts Loading Component : Microsoft.Office.Interop.Excel 
+ <-1> 22/09/2018 16:39:51.973     [Info   ] - Ends Loading Component : Microsoft.Office.Interop.Excel 
+ <-1> 22/09/2018 16:39:51.975     [Info   ] - Starts Loading Component : Microsoft.CSharp 
+ <-1> 22/09/2018 16:39:52.000     [Info   ] - Ends Loading Component : Microsoft.CSharp 
+ <-1> 22/09/2018 16:39:52.001     [Info   ] - Starts Loading Component : System.Core 
+ <-1> 22/09/2018 16:39:52.014     [Info   ] - Ends Loading Component : System.Core 
+ <-1> 22/09/2018 16:39:52.069     [Info   ] - Ends Loading Component : C:\magic\xpa3.3\Add_On\UserFunctionality\UserFunctionality.ecf 
+ <-1> 22/09/2018 16:39:52.087     [Info   ] -   The project was successfully opened.
+ <-1> 22/09/2018 16:39:52.374     [Action ] -   >>Starts load Batch Task - 'Main Program (UserFunctionality)' in Query mode (Task Instance: 1)
+ <-1> 22/09/2018 16:39:52.375     [Action ] -   Ends Load Task
+ <-1> 22/09/2018 16:39:52.377     [Action ] -   Starts Task Prefix
+ <-1> 22/09/2018 16:39:52.378     [Action ] -     Flow - Update: 'V: gV:FunctionsList' <== exp #41
+ <-1> 22/09/2018 16:39:52.379     [Action ] -     Flow - Update: 'W: gV:FunctionsDescriptionList' <== exp #42
+ <-1> 22/09/2018 16:39:52.379     [Action ] -     Flow - Update: 'X: gV:DigitAndPunctuationList' <== exp #43
+ <-1> 22/09/2018 16:39:52.380     [Action ] -     Flow - Update: 'BB: gV:IsHebrewApp' <== exp #105
+ <-1> 22/09/2018 16:39:52.380     [Action ] -   Ends Task Prefix
+ <-1> 22/09/2018 16:39:52.381     [Action ] -   Load records
+ <-1> 22/09/2018 16:39:52.675     [Action ] -   >>Starts load Batch Task - 'Main Program (ptest)' in Query mode (Task Instance: 2)
+ <-1> 22/09/2018 16:39:52.676     [Action ] -   Ends Load Task
+ <-1> 22/09/2018 16:39:52.676     [Action ] -   Load records
+ <-1> 22/09/2018 16:39:52.679     [Info   ] -   Starting Magic xpa Server. Maximum checked-out concurrent threads: 1. Maximum checked-out concurrent users: 0.
+ <-1> 22/09/2018 16:39:52.680     [Info   ] -   License limit : 5000 requests.
+ <-1> 22/09/2018 16:39:52.697     [Action ] -   >>  Processing Event  [Context Got Focus]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 16:39:55.900     [Action ] -     >>Starts load Batch Task - 'test01' in Modify mode (Task Instance: 3)
+ <-1> 22/09/2018 16:39:55.901     [Action ] -     Ends Load Task
+ <-1> 22/09/2018 16:39:55.902     [Action ] -     Load records
+ <-1> 22/09/2018 16:39:55.903     [Action ] -     Starts Record Suffix
+ <-1> 22/09/2018 16:39:55.903     [Action ] -       Flow - Remark: 
+ <-1> 22/09/2018 16:39:55.904     [Action ] -       Flow - Invoke UDP :: 'mgtest.mgtest_printersettings'
+ *********************   Date: 22/09/2018  ********************
+ <-1> 22/09/2018 16:39:55.955     [Error  ] -       Wrong number of arguments in user function/procedure, Program: "test01".
+ <-1> 22/09/2018 16:39:55.957     [Action ] -       Flow - Call SubTask :: Show
+ <-1> 22/09/2018 16:39:55.989     [Action ] -         >>Starts load Online Task - 'Show' in Modify mode (Task Instance: 4)
+ <-1> 22/09/2018 16:39:55.990     [Action ] -         Ends Load Task
+ <-1> 22/09/2018 16:39:55.991     [Action ] -         Task Mode Change - Modify
+ <-1> 22/09/2018 16:39:55.996     [Action ] -         Load records
+ <-1> 22/09/2018 16:40:00.105     [Action ] -         >>  Processing Event  [Exit System]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 16:40:00.106     [Action ] -         Starts Closing Online Task - 'Show' (Task Instance: 4)
+ <-1> 22/09/2018 16:40:00.134     [Action ] -       <<Ends Close Task
+ <-1> 22/09/2018 16:40:00.135     [Action ] -     Ends Record Suffix
+ <-1> 22/09/2018 16:40:00.136     [Action ] -     >>  Processing Event  [Exit]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 16:40:00.136     [Action ] -     Starts Closing Batch Task - 'test01' (Task Instance: 3)
+ <-1> 22/09/2018 16:40:00.137     [Action ] -   <<Ends Close Task
+ <-1> 22/09/2018 16:40:00.138     [Action ] -   >>  Processing Event  [Exit System]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 16:40:00.138     [Action ] -   Starts Closing Batch Task - 'Main Program (ptest)' (Task Instance: 2)
+ <-1> 22/09/2018 16:40:00.154     [Action ] -   <<Ends Close Task
+ <-1> 22/09/2018 16:40:00.155     [Action ] -   Starts Closing Batch Task - 'Main Program (UserFunctionality)' (Task Instance: 1)
+ <-1> 22/09/2018 16:40:00.156     [Action ] -   <<Ends Close Task
+ <-1> 22/09/2018 16:40:00.224     [Info   ] - Process 3056 - Exiting Magic xpa
+ <-1> 22/09/2018 16:40:00.224     [Info   ] - ------------------------------------------
+ *********************   Date: 22/09/2018  ********************
+ <-1> 22/09/2018 16:40:12.837     [Info   ] - The INI file ("C:\magic\xpa3.3\MAGIC.INI") was successfully opened.
+ <-1> 22/09/2018 16:40:12.838     [Info   ] - ProcessID is 3524
+ <-1> 22/09/2018 16:40:12.839     [Info   ] - The current working directory is: "C:\xpa\samples\XpaDemo\XpaDemo\external\cpp\mgtest".
+ <-1> 22/09/2018 16:40:12.949     [Info   ] - Starts Loading Component : C:\magic\xpa3.3\Add_On\UserFunctionality\UserFunctionality.ecf 
+ <-1> 22/09/2018 16:40:12.965     [Info   ] - Starts Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 16:40:13.054     [Info   ] - Ends Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 16:40:13.055     [Info   ] - Starts Loading Component : System.Drawing 
+ <-1> 22/09/2018 16:40:13.062     [Info   ] - Ends Loading Component : System.Drawing 
+ <-1> 22/09/2018 16:40:13.063     [Info   ] - Starts Loading Component : System 
+ <-1> 22/09/2018 16:40:13.093     [Info   ] - Ends Loading Component : System 
+ <-1> 22/09/2018 16:40:13.094     [Info   ] - Starts Loading Component : System.Data 
+ <-1> 22/09/2018 16:40:13.142     [Info   ] - Ends Loading Component : System.Data 
+ <-1> 22/09/2018 16:40:13.142     [Info   ] - Starts Loading Component : Microsoft.Office.Interop.Excel 
+ <-1> 22/09/2018 16:40:13.292     [Info   ] - Ends Loading Component : Microsoft.Office.Interop.Excel 
+ <-1> 22/09/2018 16:40:13.293     [Info   ] - Starts Loading Component : Microsoft.CSharp 
+ <-1> 22/09/2018 16:40:13.313     [Info   ] - Ends Loading Component : Microsoft.CSharp 
+ <-1> 22/09/2018 16:40:13.314     [Info   ] - Starts Loading Component : System.Core 
+ <-1> 22/09/2018 16:40:13.326     [Info   ] - Ends Loading Component : System.Core 
+ <-1> 22/09/2018 16:40:13.361     [Info   ] - Ends Loading Component : C:\magic\xpa3.3\Add_On\UserFunctionality\UserFunctionality.ecf 
+ <-1> 22/09/2018 16:40:13.379     [Info   ] -   The project was successfully opened.
+ <-1> 22/09/2018 16:40:13.646     [Action ] -   >>Starts load Batch Task - 'Main Program (UserFunctionality)' in Query mode (Task Instance: 1)
+ <-1> 22/09/2018 16:40:13.647     [Action ] -   Ends Load Task
+ <-1> 22/09/2018 16:40:13.649     [Action ] -   Starts Task Prefix
+ <-1> 22/09/2018 16:40:13.650     [Action ] -     Flow - Update: 'V: gV:FunctionsList' <== exp #41
+ <-1> 22/09/2018 16:40:13.651     [Action ] -     Flow - Update: 'W: gV:FunctionsDescriptionList' <== exp #42
+ <-1> 22/09/2018 16:40:13.651     [Action ] -     Flow - Update: 'X: gV:DigitAndPunctuationList' <== exp #43
+ <-1> 22/09/2018 16:40:13.652     [Action ] -     Flow - Update: 'BB: gV:IsHebrewApp' <== exp #105
+ <-1> 22/09/2018 16:40:13.653     [Action ] -   Ends Task Prefix
+ <-1> 22/09/2018 16:40:13.654     [Action ] -   Load records
+ <-1> 22/09/2018 16:40:13.969     [Action ] -   >>Starts load Batch Task - 'Main Program (ptest)' in Query mode (Task Instance: 2)
+ <-1> 22/09/2018 16:40:13.970     [Action ] -   Ends Load Task
+ <-1> 22/09/2018 16:40:13.971     [Action ] -   Load records
+ <-1> 22/09/2018 16:40:13.974     [Info   ] -   Starting Magic xpa Server. Maximum checked-out concurrent threads: 1. Maximum checked-out concurrent users: 0.
+ <-1> 22/09/2018 16:40:13.974     [Info   ] -   License limit : 5000 requests.
+ <-1> 22/09/2018 16:40:13.993     [Action ] -   >>  Processing Event  [Context Got Focus]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 16:40:17.382     [Action ] -     >>Starts load Batch Task - 'test01' in Modify mode (Task Instance: 3)
+ <-1> 22/09/2018 16:40:17.384     [Action ] -     Ends Load Task
+ <-1> 22/09/2018 16:40:17.385     [Action ] -     Load records
+ <-1> 22/09/2018 16:40:17.385     [Action ] -     Starts Record Suffix
+ <-1> 22/09/2018 16:40:17.386     [Action ] -       Flow - Remark: 
+ <-1> 22/09/2018 16:40:17.387     [Action ] -       Flow - Invoke UDP :: 'mgtest.mgtest_printersettings'
+ *********************   Date: 22/09/2018  ********************
+ <-1> 22/09/2018 16:42:47.898     [Info   ] - The INI file ("C:\magic\xpa3.3\MAGIC.INI") was successfully opened.
+ <-1> 22/09/2018 16:42:47.899     [Info   ] - ProcessID is 7316
+ <-1> 22/09/2018 16:42:47.900     [Info   ] - The current working directory is: "C:\xpa\samples\XpaDemo\XpaDemo\external\cpp\mgtest".
+ <-1> 22/09/2018 16:42:48.006     [Info   ] - Starts Loading Component : C:\magic\xpa3.3\Add_On\UserFunctionality\UserFunctionality.ecf 
+ <-1> 22/09/2018 16:42:48.019     [Info   ] - Starts Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 16:42:48.118     [Info   ] - Ends Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 16:42:48.119     [Info   ] - Starts Loading Component : System.Drawing 
+ <-1> 22/09/2018 16:42:48.127     [Info   ] - Ends Loading Component : System.Drawing 
+ <-1> 22/09/2018 16:42:48.128     [Info   ] - Starts Loading Component : System 
+ <-1> 22/09/2018 16:42:48.157     [Info   ] - Ends Loading Component : System 
+ <-1> 22/09/2018 16:42:48.158     [Info   ] - Starts Loading Component : System.Data 
+ <-1> 22/09/2018 16:42:48.200     [Info   ] - Ends Loading Component : System.Data 
+ <-1> 22/09/2018 16:42:48.201     [Info   ] - Starts Loading Component : Microsoft.Office.Interop.Excel 
+ <-1> 22/09/2018 16:42:48.343     [Info   ] - Ends Loading Component : Microsoft.Office.Interop.Excel 
+ <-1> 22/09/2018 16:42:48.344     [Info   ] - Starts Loading Component : Microsoft.CSharp 
+ <-1> 22/09/2018 16:42:48.360     [Info   ] - Ends Loading Component : Microsoft.CSharp 
+ <-1> 22/09/2018 16:42:48.360     [Info   ] - Starts Loading Component : System.Core 
+ <-1> 22/09/2018 16:42:48.376     [Info   ] - Ends Loading Component : System.Core 
+ <-1> 22/09/2018 16:42:48.411     [Info   ] - Ends Loading Component : C:\magic\xpa3.3\Add_On\UserFunctionality\UserFunctionality.ecf 
+ <-1> 22/09/2018 16:42:48.426     [Info   ] -   The project was successfully opened.
+ <-1> 22/09/2018 16:42:48.695     [Action ] -   >>Starts load Batch Task - 'Main Program (UserFunctionality)' in Query mode (Task Instance: 1)
+ <-1> 22/09/2018 16:42:48.709     [Action ] -   Ends Load Task
+ <-1> 22/09/2018 16:42:48.712     [Action ] -   Starts Task Prefix
+ <-1> 22/09/2018 16:42:48.712     [Action ] -     Flow - Update: 'V: gV:FunctionsList' <== exp #41
+ <-1> 22/09/2018 16:42:48.713     [Action ] -     Flow - Update: 'W: gV:FunctionsDescriptionList' <== exp #42
+ <-1> 22/09/2018 16:42:48.713     [Action ] -     Flow - Update: 'X: gV:DigitAndPunctuationList' <== exp #43
+ <-1> 22/09/2018 16:42:48.713     [Action ] -     Flow - Update: 'BB: gV:IsHebrewApp' <== exp #105
+ <-1> 22/09/2018 16:42:48.714     [Action ] -   Ends Task Prefix
+ <-1> 22/09/2018 16:42:48.715     [Action ] -   Load records
+ <-1> 22/09/2018 16:42:48.992     [Action ] -   >>Starts load Batch Task - 'Main Program (ptest)' in Query mode (Task Instance: 2)
+ <-1> 22/09/2018 16:42:48.997     [Action ] -   Ends Load Task
+ <-1> 22/09/2018 16:42:48.998     [Action ] -   Load records
+ <-1> 22/09/2018 16:42:49.000     [Info   ] -   Starting Magic xpa Server. Maximum checked-out concurrent threads: 1. Maximum checked-out concurrent users: 0.
+ <-1> 22/09/2018 16:42:49.001     [Info   ] -   License limit : 5000 requests.
+ <-1> 22/09/2018 16:42:49.020     [Action ] -   >>  Processing Event  [Context Got Focus]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 16:42:53.497     [Action ] -     >>Starts load Batch Task - 'test01' in Modify mode (Task Instance: 3)
+ <-1> 22/09/2018 16:42:53.506     [Action ] -     Ends Load Task
+ <-1> 22/09/2018 16:42:53.507     [Action ] -     Load records
+ <-1> 22/09/2018 16:42:53.507     [Action ] -     Starts Record Suffix
+ <-1> 22/09/2018 16:42:53.508     [Action ] -       Flow - Remark: 
+ <-1> 22/09/2018 16:42:53.508     [Action ] -       Flow - Invoke UDP :: 'mgtest.mgtest_printersettings'
+ *********************   Date: 22/09/2018  ********************
+ <-1> 22/09/2018 16:49:13.778     [Info   ] - The INI file ("C:\magic\xpa3.3\MAGIC.INI") was successfully opened.
+ <-1> 22/09/2018 16:49:13.780     [Info   ] - ProcessID is 10164
+ <-1> 22/09/2018 16:49:13.781     [Info   ] - The current working directory is: "C:\xpa\samples\XpaDemo\XpaDemo\external\cpp\mgtest".
+ <-1> 22/09/2018 16:49:13.896     [Info   ] - Starts Loading Component : C:\magic\xpa3.3\Add_On\UserFunctionality\UserFunctionality.ecf 
+ <-1> 22/09/2018 16:49:13.910     [Info   ] - Starts Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 16:49:13.993     [Info   ] - Ends Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 16:49:13.994     [Info   ] - Starts Loading Component : System.Drawing 
+ <-1> 22/09/2018 16:49:14.003     [Info   ] - Ends Loading Component : System.Drawing 
+ <-1> 22/09/2018 16:49:14.004     [Info   ] - Starts Loading Component : System 
+ <-1> 22/09/2018 16:49:14.037     [Info   ] - Ends Loading Component : System 
+ <-1> 22/09/2018 16:49:14.038     [Info   ] - Starts Loading Component : System.Data 
+ <-1> 22/09/2018 16:49:14.095     [Info   ] - Ends Loading Component : System.Data 
+ <-1> 22/09/2018 16:49:14.096     [Info   ] - Starts Loading Component : Microsoft.Office.Interop.Excel 
+ <-1> 22/09/2018 16:49:14.258     [Info   ] - Ends Loading Component : Microsoft.Office.Interop.Excel 
+ <-1> 22/09/2018 16:49:14.259     [Info   ] - Starts Loading Component : Microsoft.CSharp 
+ <-1> 22/09/2018 16:49:14.277     [Info   ] - Ends Loading Component : Microsoft.CSharp 
+ <-1> 22/09/2018 16:49:14.277     [Info   ] - Starts Loading Component : System.Core 
+ <-1> 22/09/2018 16:49:14.291     [Info   ] - Ends Loading Component : System.Core 
+ <-1> 22/09/2018 16:49:14.342     [Info   ] - Ends Loading Component : C:\magic\xpa3.3\Add_On\UserFunctionality\UserFunctionality.ecf 
+ <-1> 22/09/2018 16:49:14.360     [Info   ] -   The project was successfully opened.
+ <-1> 22/09/2018 16:49:14.638     [Action ] -   >>Starts load Batch Task - 'Main Program (UserFunctionality)' in Query mode (Task Instance: 1)
+ <-1> 22/09/2018 16:49:14.640     [Action ] -   Ends Load Task
+ <-1> 22/09/2018 16:49:14.643     [Action ] -   Starts Task Prefix
+ <-1> 22/09/2018 16:49:14.643     [Action ] -     Flow - Update: 'V: gV:FunctionsList' <== exp #41
+ <-1> 22/09/2018 16:49:14.644     [Action ] -     Flow - Update: 'W: gV:FunctionsDescriptionList' <== exp #42
+ <-1> 22/09/2018 16:49:14.645     [Action ] -     Flow - Update: 'X: gV:DigitAndPunctuationList' <== exp #43
+ <-1> 22/09/2018 16:49:14.646     [Action ] -     Flow - Update: 'BB: gV:IsHebrewApp' <== exp #105
+ <-1> 22/09/2018 16:49:14.647     [Action ] -   Ends Task Prefix
+ <-1> 22/09/2018 16:49:14.648     [Action ] -   Load records
+ <-1> 22/09/2018 16:49:14.939     [Action ] -   >>Starts load Batch Task - 'Main Program (ptest)' in Query mode (Task Instance: 2)
+ <-1> 22/09/2018 16:49:14.940     [Action ] -   Ends Load Task
+ <-1> 22/09/2018 16:49:14.941     [Action ] -   Load records
+ <-1> 22/09/2018 16:49:14.944     [Info   ] -   Starting Magic xpa Server. Maximum checked-out concurrent threads: 1. Maximum checked-out concurrent users: 0.
+ <-1> 22/09/2018 16:49:14.944     [Info   ] -   License limit : 5000 requests.
+ <-1> 22/09/2018 16:49:14.965     [Action ] -   >>  Processing Event  [Context Got Focus]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 16:49:17.460     [Action ] -     >>Starts load Batch Task - 'test01' in Modify mode (Task Instance: 3)
+ <-1> 22/09/2018 16:49:17.462     [Action ] -     Ends Load Task
+ <-1> 22/09/2018 16:49:17.462     [Action ] -     Load records
+ <-1> 22/09/2018 16:49:17.463     [Action ] -     Starts Record Suffix
+ <-1> 22/09/2018 16:49:17.464     [Action ] -       Flow - Remark: 
+ <-1> 22/09/2018 16:49:17.464     [Action ] -       Flow - Invoke UDP :: 'mgtest.mgtest_printersettings'
+ <-1> 22/09/2018 16:49:54.504     [Action ] -       Flow - Call SubTask :: Show
+ <-1> 22/09/2018 16:49:54.536     [Action ] -         >>Starts load Online Task - 'Show' in Modify mode (Task Instance: 4)
+ <-1> 22/09/2018 16:49:54.537     [Action ] -         Ends Load Task
+ <-1> 22/09/2018 16:49:54.538     [Action ] -         Task Mode Change - Modify
+ <-1> 22/09/2018 16:49:54.542     [Action ] -         Load records
+ <-1> 22/09/2018 16:50:13.038     [Action ] -         >>  Processing Event  [Esc]  [Exit]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 16:50:13.039     [Action ] -         Starts Closing Online Task - 'Show' (Task Instance: 4)
+ <-1> 22/09/2018 16:50:13.065     [Action ] -       <<Ends Close Task
+ <-1> 22/09/2018 16:50:13.066     [Action ] -     Ends Record Suffix
+ <-1> 22/09/2018 16:50:13.067     [Action ] -     Starts Closing Batch Task - 'test01' (Task Instance: 3)
+ <-1> 22/09/2018 16:50:13.068     [Action ] -   <<Ends Close Task
+ <-1> 22/09/2018 16:50:19.359     [Action ] -   >>  Processing Event  [Exit System]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 16:50:19.360     [Action ] -   Starts Closing Batch Task - 'Main Program (ptest)' (Task Instance: 2)
+ <-1> 22/09/2018 16:50:19.374     [Action ] -   <<Ends Close Task
+ <-1> 22/09/2018 16:50:19.375     [Action ] -   Starts Closing Batch Task - 'Main Program (UserFunctionality)' (Task Instance: 1)
+ <-1> 22/09/2018 16:50:19.376     [Action ] -   <<Ends Close Task
+ <-1> 22/09/2018 16:50:19.443     [Info   ] - Process 10164 - Exiting Magic xpa
+ <-1> 22/09/2018 16:50:19.443     [Info   ] - ------------------------------------------
+ *********************   Date: 22/09/2018  ********************
+ <-1> 22/09/2018 16:50:38.574     [Info   ] - The INI file ("C:\magic\xpa3.3\MAGIC.INI") was successfully opened.
+ <-1> 22/09/2018 16:50:38.576     [Info   ] - ProcessID is 7436
+ <-1> 22/09/2018 16:50:38.576     [Info   ] - The current working directory is: "C:\xpa\samples\XpaDemo\XpaDemo\external\cpp\mgtest".
+ <-1> 22/09/2018 16:50:38.695     [Info   ] - Starts Loading Component : C:\magic\xpa3.3\Add_On\UserFunctionality\UserFunctionality.ecf 
+ <-1> 22/09/2018 16:50:38.709     [Info   ] - Starts Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 16:50:38.795     [Info   ] - Ends Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 16:50:38.796     [Info   ] - Starts Loading Component : System.Drawing 
+ <-1> 22/09/2018 16:50:38.805     [Info   ] - Ends Loading Component : System.Drawing 
+ <-1> 22/09/2018 16:50:38.805     [Info   ] - Starts Loading Component : System 
+ <-1> 22/09/2018 16:50:38.840     [Info   ] - Ends Loading Component : System 
+ <-1> 22/09/2018 16:50:38.840     [Info   ] - Starts Loading Component : System.Data 
+ <-1> 22/09/2018 16:50:38.884     [Info   ] - Ends Loading Component : System.Data 
+ <-1> 22/09/2018 16:50:38.885     [Info   ] - Starts Loading Component : Microsoft.Office.Interop.Excel 
+ <-1> 22/09/2018 16:50:39.024     [Info   ] - Ends Loading Component : Microsoft.Office.Interop.Excel 
+ <-1> 22/09/2018 16:50:39.025     [Info   ] - Starts Loading Component : Microsoft.CSharp 
+ <-1> 22/09/2018 16:50:39.045     [Info   ] - Ends Loading Component : Microsoft.CSharp 
+ <-1> 22/09/2018 16:50:39.045     [Info   ] - Starts Loading Component : System.Core 
+ <-1> 22/09/2018 16:50:39.058     [Info   ] - Ends Loading Component : System.Core 
+ <-1> 22/09/2018 16:50:39.095     [Info   ] - Ends Loading Component : C:\magic\xpa3.3\Add_On\UserFunctionality\UserFunctionality.ecf 
+ <-1> 22/09/2018 16:50:39.112     [Info   ] -   The project was successfully opened.
+ <-1> 22/09/2018 16:50:39.383     [Action ] -   >>Starts load Batch Task - 'Main Program (UserFunctionality)' in Query mode (Task Instance: 1)
+ <-1> 22/09/2018 16:50:39.385     [Action ] -   Ends Load Task
+ <-1> 22/09/2018 16:50:39.388     [Action ] -   Starts Task Prefix
+ <-1> 22/09/2018 16:50:39.388     [Action ] -     Flow - Update: 'V: gV:FunctionsList' <== exp #41
+ <-1> 22/09/2018 16:50:39.389     [Action ] -     Flow - Update: 'W: gV:FunctionsDescriptionList' <== exp #42
+ <-1> 22/09/2018 16:50:39.389     [Action ] -     Flow - Update: 'X: gV:DigitAndPunctuationList' <== exp #43
+ <-1> 22/09/2018 16:50:39.390     [Action ] -     Flow - Update: 'BB: gV:IsHebrewApp' <== exp #105
+ <-1> 22/09/2018 16:50:39.391     [Action ] -   Ends Task Prefix
+ <-1> 22/09/2018 16:50:39.392     [Action ] -   Load records
+ <-1> 22/09/2018 16:50:39.677     [Action ] -   >>Starts load Batch Task - 'Main Program (ptest)' in Query mode (Task Instance: 2)
+ <-1> 22/09/2018 16:50:39.679     [Action ] -   Ends Load Task
+ <-1> 22/09/2018 16:50:39.679     [Action ] -   Load records
+ <-1> 22/09/2018 16:50:39.681     [Info   ] -   Starting Magic xpa Server. Maximum checked-out concurrent threads: 1. Maximum checked-out concurrent users: 0.
+ <-1> 22/09/2018 16:50:39.682     [Info   ] -   License limit : 5000 requests.
+ <-1> 22/09/2018 16:50:39.707     [Action ] -   >>  Processing Event  [Context Got Focus]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 16:50:42.144     [Action ] -     >>Starts load Batch Task - 'test01' in Modify mode (Task Instance: 3)
+ <-1> 22/09/2018 16:50:42.145     [Action ] -     Ends Load Task
+ <-1> 22/09/2018 16:50:42.146     [Action ] -     Load records
+ <-1> 22/09/2018 16:50:42.147     [Action ] -     Starts Record Suffix
+ <-1> 22/09/2018 16:50:42.147     [Action ] -       Flow - Remark: 
+ <-1> 22/09/2018 16:50:42.148     [Action ] -       Flow - Invoke UDP :: 'mgtest.mgtest_printersettings'
+ <-1> 22/09/2018 16:50:44.232     [Action ] -       Flow - Call SubTask :: Show
+ <-1> 22/09/2018 16:50:44.262     [Action ] -         >>Starts load Online Task - 'Show' in Modify mode (Task Instance: 4)
+ <-1> 22/09/2018 16:50:44.263     [Action ] -         Ends Load Task
+ <-1> 22/09/2018 16:50:44.264     [Action ] -         Task Mode Change - Modify
+ <-1> 22/09/2018 16:50:44.268     [Action ] -         Load records
+ <-1> 22/09/2018 16:51:09.494     [Action ] -         >>  Processing Event  [Close]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 16:51:09.495     [Action ] -         >>  Processing Event  [Exit]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 16:51:09.496     [Action ] -         Starts Closing Online Task - 'Show' (Task Instance: 4)
+ <-1> 22/09/2018 16:51:09.529     [Action ] -       <<Ends Close Task
+ <-1> 22/09/2018 16:51:09.529     [Action ] -     Ends Record Suffix
+ <-1> 22/09/2018 16:51:09.530     [Action ] -     Starts Closing Batch Task - 'test01' (Task Instance: 3)
+ <-1> 22/09/2018 16:51:09.531     [Action ] -   <<Ends Close Task
+ <-1> 22/09/2018 16:51:13.938     [Action ] -     >>Starts load Batch Task - 'test01' in Modify mode (Task Instance: 5)
+ <-1> 22/09/2018 16:51:13.939     [Action ] -     Ends Load Task
+ <-1> 22/09/2018 16:51:13.940     [Action ] -     Load records
+ <-1> 22/09/2018 16:51:13.940     [Action ] -     Starts Record Suffix
+ <-1> 22/09/2018 16:51:13.941     [Action ] -       Flow - Remark: 
+ <-1> 22/09/2018 16:51:13.942     [Action ] -       Flow - Invoke UDP :: 'mgtest.mgtest_printersettings'
+ <-1> 22/09/2018 16:51:16.144     [Action ] -       Flow - Call SubTask :: Show
+ <-1> 22/09/2018 16:51:16.149     [Action ] -         >>Starts load Online Task - 'Show' in Modify mode (Task Instance: 6)
+ <-1> 22/09/2018 16:51:16.150     [Action ] -         Ends Load Task
+ <-1> 22/09/2018 16:51:16.151     [Action ] -         Load records
+ <-1> 22/09/2018 16:51:19.696     [Action ] -         >>  Processing Event  [Window Hit]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 16:51:20.200     [Action ] -         >>  Processing Event  [Control Hit]  Control Name :  [v.Printername] 
+ <-1> 22/09/2018 16:51:20.201     [Action ] -         >>  Processing Event  [Click]  Control Name :  [v.Printername] 
+ <-1> 22/09/2018 16:51:20.624     [Action ] -         >>  Processing Event  [Esc]  [Exit]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 16:51:20.625     [Action ] -         Starts Closing Online Task - 'Show' (Task Instance: 6)
+ <-1> 22/09/2018 16:51:20.642     [Action ] -       <<Ends Close Task
+ <-1> 22/09/2018 16:51:20.643     [Action ] -     Ends Record Suffix
+ <-1> 22/09/2018 16:51:20.643     [Action ] -     Starts Closing Batch Task - 'test01' (Task Instance: 5)
+ <-1> 22/09/2018 16:51:20.644     [Action ] -   <<Ends Close Task
+ <-1> 22/09/2018 16:51:23.067     [Action ] -   >>  Processing Event  [Esc]  [Exit]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 16:51:28.884     [Action ] -     >>Starts load Batch Task - 'test01' in Modify mode (Task Instance: 7)
+ <-1> 22/09/2018 16:51:28.885     [Action ] -     Ends Load Task
+ <-1> 22/09/2018 16:51:28.886     [Action ] -     Load records
+ <-1> 22/09/2018 16:51:28.887     [Action ] -     Starts Record Suffix
+ <-1> 22/09/2018 16:51:28.888     [Action ] -       Flow - Remark: 
+ <-1> 22/09/2018 16:51:28.888     [Action ] -       Flow - Invoke UDP :: 'mgtest.mgtest_printersettings'
+ <-1> 22/09/2018 16:51:28.922     [Action ] -       Flow - Call SubTask :: Show
+ <-1> 22/09/2018 16:51:28.927     [Action ] -         >>Starts load Online Task - 'Show' in Modify mode (Task Instance: 8)
+ <-1> 22/09/2018 16:51:28.928     [Action ] -         Ends Load Task
+ <-1> 22/09/2018 16:51:28.929     [Action ] -         Load records
+ <-1> 22/09/2018 16:51:30.204     [Action ] -         >>  Processing Event  [Esc]  [Exit]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 16:51:30.205     [Action ] -         Starts Closing Online Task - 'Show' (Task Instance: 8)
+ <-1> 22/09/2018 16:51:30.216     [Action ] -       <<Ends Close Task
+ <-1> 22/09/2018 16:51:30.217     [Action ] -     Ends Record Suffix
+ <-1> 22/09/2018 16:51:30.217     [Action ] -     Starts Closing Batch Task - 'test01' (Task Instance: 7)
+ <-1> 22/09/2018 16:51:30.218     [Action ] -   <<Ends Close Task
+ <-1> 22/09/2018 16:51:32.429     [Action ] -     >>Starts load Batch Task - 'test01' in Modify mode (Task Instance: 9)
+ <-1> 22/09/2018 16:51:32.431     [Action ] -     Ends Load Task
+ <-1> 22/09/2018 16:51:32.431     [Action ] -     Load records
+ <-1> 22/09/2018 16:51:32.432     [Action ] -     Starts Record Suffix
+ <-1> 22/09/2018 16:51:32.433     [Action ] -       Flow - Remark: 
+ <-1> 22/09/2018 16:51:32.433     [Action ] -       Flow - Invoke UDP :: 'mgtest.mgtest_printersettings'
+ <-1> 22/09/2018 16:51:32.466     [Action ] -       Flow - Call SubTask :: Show
+ <-1> 22/09/2018 16:51:32.470     [Action ] -         >>Starts load Online Task - 'Show' in Modify mode (Task Instance: 10)
+ <-1> 22/09/2018 16:51:32.472     [Action ] -         Ends Load Task
+ <-1> 22/09/2018 16:51:32.472     [Action ] -         Load records
+ <-1> 22/09/2018 16:51:34.809     [Action ] -         >>  Processing Event  [Esc]  [Exit]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 16:51:34.810     [Action ] -         Starts Closing Online Task - 'Show' (Task Instance: 10)
+ <-1> 22/09/2018 16:51:34.822     [Action ] -       <<Ends Close Task
+ <-1> 22/09/2018 16:51:34.823     [Action ] -     Ends Record Suffix
+ <-1> 22/09/2018 16:51:34.823     [Action ] -     Starts Closing Batch Task - 'test01' (Task Instance: 9)
+ <-1> 22/09/2018 16:51:34.824     [Action ] -   <<Ends Close Task
+ <-1> 22/09/2018 16:51:39.306     [Action ] -   >>  Processing Event  [Printer Setup]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 16:51:45.642     [Action ] -     >>Starts load Batch Task - 'test01' in Modify mode (Task Instance: 11)
+ <-1> 22/09/2018 16:51:45.643     [Action ] -     Ends Load Task
+ <-1> 22/09/2018 16:51:45.644     [Action ] -     Load records
+ <-1> 22/09/2018 16:51:45.645     [Action ] -     Starts Record Suffix
+ <-1> 22/09/2018 16:51:45.645     [Action ] -       Flow - Remark: 
+ <-1> 22/09/2018 16:51:45.646     [Action ] -       Flow - Invoke UDP :: 'mgtest.mgtest_printersettings'
+ <-1> 22/09/2018 16:51:45.680     [Action ] -       Flow - Call SubTask :: Show
+ <-1> 22/09/2018 16:51:45.684     [Action ] -         >>Starts load Online Task - 'Show' in Modify mode (Task Instance: 12)
+ <-1> 22/09/2018 16:51:45.686     [Action ] -         Ends Load Task
+ <-1> 22/09/2018 16:51:45.686     [Action ] -         Load records
+ <-1> 22/09/2018 16:51:47.247     [Action ] -         >>  Processing Event  [Esc]  [Exit]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 16:51:47.248     [Action ] -         Starts Closing Online Task - 'Show' (Task Instance: 12)
+ <-1> 22/09/2018 16:51:47.259     [Action ] -       <<Ends Close Task
+ <-1> 22/09/2018 16:51:47.260     [Action ] -     Ends Record Suffix
+ <-1> 22/09/2018 16:51:47.260     [Action ] -     Starts Closing Batch Task - 'test01' (Task Instance: 11)
+ <-1> 22/09/2018 16:51:47.261     [Action ] -   <<Ends Close Task
+ <-1> 22/09/2018 16:51:49.270     [Action ] -   >>  Processing Event  [Printer Setup]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 16:51:57.346     [Action ] -     >>Starts load Batch Task - 'test01' in Modify mode (Task Instance: 13)
+ <-1> 22/09/2018 16:51:57.347     [Action ] -     Ends Load Task
+ <-1> 22/09/2018 16:51:57.348     [Action ] -     Load records
+ <-1> 22/09/2018 16:51:57.349     [Action ] -     Starts Record Suffix
+ <-1> 22/09/2018 16:51:57.349     [Action ] -       Flow - Remark: 
+ <-1> 22/09/2018 16:51:57.350     [Action ] -       Flow - Invoke UDP :: 'mgtest.mgtest_printersettings'
+ <-1> 22/09/2018 16:51:57.383     [Action ] -       Flow - Call SubTask :: Show
+ <-1> 22/09/2018 16:51:57.388     [Action ] -         >>Starts load Online Task - 'Show' in Modify mode (Task Instance: 14)
+ <-1> 22/09/2018 16:51:57.389     [Action ] -         Ends Load Task
+ <-1> 22/09/2018 16:51:57.390     [Action ] -         Load records
+ <-1> 22/09/2018 16:52:02.948     [Action ] -         >>  Processing Event  [Esc]  [Exit]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 16:52:02.949     [Action ] -         Starts Closing Online Task - 'Show' (Task Instance: 14)
+ <-1> 22/09/2018 16:52:02.960     [Action ] -       <<Ends Close Task
+ <-1> 22/09/2018 16:52:02.961     [Action ] -     Ends Record Suffix
+ <-1> 22/09/2018 16:52:02.962     [Action ] -     Starts Closing Batch Task - 'test01' (Task Instance: 13)
+ <-1> 22/09/2018 16:52:02.962     [Action ] -   <<Ends Close Task
+ <-1> 22/09/2018 16:52:05.353     [Action ] -   >>  Processing Event  [Printer Setup]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 16:52:11.566     [Action ] -   >>  Processing Event  [Printer Setup]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 16:53:26.933     [Action ] -   >>  Processing Event  [Window Reposition]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 16:53:26.936     [Action ] -   >>  Processing Event  [Window Resize]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 16:53:28.208     [Action ] -   >>  Processing Event  [Window Reposition]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 16:53:32.467     [Action ] -   >>  Processing Event  [Printer Setup]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 16:54:05.991     [Action ] -   >>  Processing Event  [Printer Setup]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 16:55:35.455     [Action ] -   >>  Processing Event  [Printer Setup]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 16:55:56.090     [Action ] -     >>Starts load Batch Task - 'test01' in Modify mode (Task Instance: 15)
+ <-1> 22/09/2018 16:55:56.091     [Action ] -     Ends Load Task
+ <-1> 22/09/2018 16:55:56.092     [Action ] -     Load records
+ <-1> 22/09/2018 16:55:56.093     [Action ] -     Starts Record Suffix
+ <-1> 22/09/2018 16:55:56.093     [Action ] -       Flow - Remark: 
+ <-1> 22/09/2018 16:55:56.094     [Action ] -       Flow - Invoke UDP :: 'mgtest.mgtest_printersettings'
+ <-1> 22/09/2018 16:55:56.129     [Action ] -       Flow - Call SubTask :: Show
+ <-1> 22/09/2018 16:55:56.133     [Action ] -         >>Starts load Online Task - 'Show' in Modify mode (Task Instance: 16)
+ <-1> 22/09/2018 16:55:56.134     [Action ] -         Ends Load Task
+ <-1> 22/09/2018 16:55:56.135     [Action ] -         Load records
+ <-1> 22/09/2018 16:56:07.043     [Action ] -         >>  Processing Event  [Window Hit]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 16:56:07.044     [Action ] -         >>  Processing Event  [Close]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 16:56:07.045     [Action ] -         >>  Processing Event  [Exit]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 16:56:07.046     [Action ] -         Starts Closing Online Task - 'Show' (Task Instance: 16)
+ <-1> 22/09/2018 16:56:07.057     [Action ] -       <<Ends Close Task
+ <-1> 22/09/2018 16:56:07.058     [Action ] -     Ends Record Suffix
+ <-1> 22/09/2018 16:56:07.059     [Action ] -     Starts Closing Batch Task - 'test01' (Task Instance: 15)
+ <-1> 22/09/2018 16:56:07.059     [Action ] -   <<Ends Close Task
+ <-1> 22/09/2018 16:56:09.451     [Action ] -   >>  Processing Event  [Window Reposition]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 16:57:55.380     [Action ] -   >>  Processing Event  [Exit System]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 16:57:55.381     [Action ] -   Starts Closing Batch Task - 'Main Program (ptest)' (Task Instance: 2)
+ <-1> 22/09/2018 16:57:55.395     [Action ] -   <<Ends Close Task
+ <-1> 22/09/2018 16:57:55.396     [Action ] -   Starts Closing Batch Task - 'Main Program (UserFunctionality)' (Task Instance: 1)
+ <-1> 22/09/2018 16:57:55.398     [Action ] -   <<Ends Close Task
+ <-1> 22/09/2018 16:57:55.463     [Info   ] - Process 7436 - Exiting Magic xpa
+ <-1> 22/09/2018 16:57:55.464     [Info   ] - ------------------------------------------
+ *********************   Date: 22/09/2018  ********************
+ <-1> 22/09/2018 17:01:47.618     [Info   ] - The INI file ("C:\magic\xpa3.3\MAGIC.INI") was successfully opened.
+ <-1> 22/09/2018 17:01:47.619     [Info   ] - ProcessID is 9500
+ <-1> 22/09/2018 17:01:47.619     [Info   ] - The current working directory is: "C:\xpa\samples\XpaDemo\XpaDemo\external\cpp\mgtest".
+ <-1> 22/09/2018 17:01:47.720     [Info   ] - Starts Loading Component : C:\magic\xpa3.3\Add_On\UserFunctionality\UserFunctionality.ecf 
+ <-1> 22/09/2018 17:01:47.734     [Info   ] - Starts Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 17:01:47.815     [Info   ] - Ends Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 17:01:47.815     [Info   ] - Starts Loading Component : System.Drawing 
+ <-1> 22/09/2018 17:01:47.824     [Info   ] - Ends Loading Component : System.Drawing 
+ <-1> 22/09/2018 17:01:47.825     [Info   ] - Starts Loading Component : System 
+ <-1> 22/09/2018 17:01:47.855     [Info   ] - Ends Loading Component : System 
+ <-1> 22/09/2018 17:01:47.856     [Info   ] - Starts Loading Component : System.Data 
+ <-1> 22/09/2018 17:01:47.899     [Info   ] - Ends Loading Component : System.Data 
+ <-1> 22/09/2018 17:01:47.900     [Info   ] - Starts Loading Component : Microsoft.Office.Interop.Excel 
+ <-1> 22/09/2018 17:01:48.042     [Info   ] - Ends Loading Component : Microsoft.Office.Interop.Excel 
+ <-1> 22/09/2018 17:01:48.043     [Info   ] - Starts Loading Component : Microsoft.CSharp 
+ <-1> 22/09/2018 17:01:48.060     [Info   ] - Ends Loading Component : Microsoft.CSharp 
+ <-1> 22/09/2018 17:01:48.060     [Info   ] - Starts Loading Component : System.Core 
+ <-1> 22/09/2018 17:01:48.072     [Info   ] - Ends Loading Component : System.Core 
+ <-1> 22/09/2018 17:01:48.109     [Info   ] - Ends Loading Component : C:\magic\xpa3.3\Add_On\UserFunctionality\UserFunctionality.ecf 
+ <-1> 22/09/2018 17:01:48.125     [Info   ] -   The project was successfully opened.
+ <-1> 22/09/2018 17:01:48.369     [Action ] -   >>Starts load Batch Task - 'Main Program (UserFunctionality)' in Query mode (Task Instance: 1)
+ <-1> 22/09/2018 17:01:48.370     [Action ] -   Ends Load Task
+ <-1> 22/09/2018 17:01:48.372     [Action ] -   Starts Task Prefix
+ <-1> 22/09/2018 17:01:48.373     [Action ] -     Flow - Update: 'V: gV:FunctionsList' <== exp #41
+ <-1> 22/09/2018 17:01:48.374     [Action ] -     Flow - Update: 'W: gV:FunctionsDescriptionList' <== exp #42
+ <-1> 22/09/2018 17:01:48.374     [Action ] -     Flow - Update: 'X: gV:DigitAndPunctuationList' <== exp #43
+ <-1> 22/09/2018 17:01:48.375     [Action ] -     Flow - Update: 'BB: gV:IsHebrewApp' <== exp #105
+ <-1> 22/09/2018 17:01:48.375     [Action ] -   Ends Task Prefix
+ <-1> 22/09/2018 17:01:48.376     [Action ] -   Load records
+ <-1> 22/09/2018 17:01:48.663     [Action ] -   >>Starts load Batch Task - 'Main Program (ptest)' in Query mode (Task Instance: 2)
+ <-1> 22/09/2018 17:01:48.664     [Action ] -   Ends Load Task
+ <-1> 22/09/2018 17:01:48.665     [Action ] -   Load records
+ <-1> 22/09/2018 17:01:48.667     [Info   ] -   Starting Magic xpa Server. Maximum checked-out concurrent threads: 1. Maximum checked-out concurrent users: 0.
+ <-1> 22/09/2018 17:01:48.668     [Info   ] -   License limit : 5000 requests.
+ <-1> 22/09/2018 17:01:48.685     [Action ] -   >>  Processing Event  [Context Got Focus]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 17:01:51.308     [Action ] -     >>Starts load Batch Task - 'test01' in Modify mode (Task Instance: 3)
+ <-1> 22/09/2018 17:01:51.310     [Action ] -     Ends Load Task
+ <-1> 22/09/2018 17:01:51.310     [Action ] -     Load records
+ <-1> 22/09/2018 17:01:51.311     [Action ] -     Starts Record Suffix
+ <-1> 22/09/2018 17:01:51.311     [Action ] -       Flow - Remark: 
+ <-1> 22/09/2018 17:01:51.312     [Action ] -       Flow - Invoke UDP :: 'mgtest.mgtest_printersettings'
+ <-1> 22/09/2018 17:01:51.395     [Action ] -       Flow - Call SubTask :: Show
+ <-1> 22/09/2018 17:01:51.424     [Action ] -         >>Starts load Online Task - 'Show' in Modify mode (Task Instance: 4)
+ <-1> 22/09/2018 17:01:51.426     [Action ] -         Ends Load Task
+ <-1> 22/09/2018 17:01:51.426     [Action ] -         Task Mode Change - Modify
+ <-1> 22/09/2018 17:01:51.431     [Action ] -         Load records
+ <-1> 22/09/2018 17:01:57.125     [Action ] -         >>  Processing Event  [Close]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 17:01:57.126     [Action ] -         >>  Processing Event  [Exit]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 17:01:57.126     [Action ] -         Starts Closing Online Task - 'Show' (Task Instance: 4)
+ <-1> 22/09/2018 17:01:57.151     [Action ] -       <<Ends Close Task
+ <-1> 22/09/2018 17:01:57.152     [Action ] -     Ends Record Suffix
+ <-1> 22/09/2018 17:01:57.153     [Action ] -     Starts Closing Batch Task - 'test01' (Task Instance: 3)
+ <-1> 22/09/2018 17:01:57.153     [Action ] -   <<Ends Close Task
+ <-1> 22/09/2018 17:01:59.534     [Action ] -   >>  Processing Event  [Printer Setup]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 17:02:05.686     [Action ] -     >>Starts load Batch Task - 'test01' in Modify mode (Task Instance: 5)
+ <-1> 22/09/2018 17:02:05.688     [Action ] -     Ends Load Task
+ <-1> 22/09/2018 17:02:05.688     [Action ] -     Load records
+ <-1> 22/09/2018 17:02:05.689     [Action ] -     Starts Record Suffix
+ <-1> 22/09/2018 17:02:05.689     [Action ] -       Flow - Remark: 
+ <-1> 22/09/2018 17:02:05.690     [Action ] -       Flow - Invoke UDP :: 'mgtest.mgtest_printersettings'
+ <-1> 22/09/2018 17:02:05.700     [Action ] -       Flow - Call SubTask :: Show
+ <-1> 22/09/2018 17:02:05.704     [Action ] -         >>Starts load Online Task - 'Show' in Modify mode (Task Instance: 6)
+ <-1> 22/09/2018 17:02:05.706     [Action ] -         Ends Load Task
+ <-1> 22/09/2018 17:02:05.706     [Action ] -         Load records
+ <-1> 22/09/2018 17:02:07.859     [Action ] -         >>  Processing Event  [Close]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 17:02:07.860     [Action ] -         >>  Processing Event  [Exit]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 17:02:07.861     [Action ] -         Starts Closing Online Task - 'Show' (Task Instance: 6)
+ <-1> 22/09/2018 17:02:07.872     [Action ] -       <<Ends Close Task
+ <-1> 22/09/2018 17:02:07.873     [Action ] -     Ends Record Suffix
+ <-1> 22/09/2018 17:02:07.874     [Action ] -     Starts Closing Batch Task - 'test01' (Task Instance: 5)
+ <-1> 22/09/2018 17:02:07.874     [Action ] -   <<Ends Close Task
+ <-1> 22/09/2018 17:02:10.047     [Action ] -   >>  Processing Event  [Printer Setup]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 17:02:23.379     [Action ] -   >>  Processing Event  [Printer Setup]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 17:02:27.866     [Action ] -     >>Starts load Batch Task - 'test01' in Modify mode (Task Instance: 7)
+ <-1> 22/09/2018 17:02:27.867     [Action ] -     Ends Load Task
+ <-1> 22/09/2018 17:02:27.868     [Action ] -     Load records
+ <-1> 22/09/2018 17:02:27.869     [Action ] -     Starts Record Suffix
+ <-1> 22/09/2018 17:02:27.869     [Action ] -       Flow - Remark: 
+ <-1> 22/09/2018 17:02:27.870     [Action ] -       Flow - Invoke UDP :: 'mgtest.mgtest_printersettings'
+ <-1> 22/09/2018 17:02:27.880     [Action ] -       Flow - Call SubTask :: Show
+ <-1> 22/09/2018 17:02:27.883     [Action ] -         >>Starts load Online Task - 'Show' in Modify mode (Task Instance: 8)
+ <-1> 22/09/2018 17:02:27.884     [Action ] -         Ends Load Task
+ <-1> 22/09/2018 17:02:27.885     [Action ] -         Load records
+ <-1> 22/09/2018 17:02:30.981     [Action ] -         >>  Processing Event  [Close]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 17:02:30.982     [Action ] -         >>  Processing Event  [Exit]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 17:02:30.983     [Action ] -         Starts Closing Online Task - 'Show' (Task Instance: 8)
+ <-1> 22/09/2018 17:02:30.994     [Action ] -       <<Ends Close Task
+ <-1> 22/09/2018 17:02:30.995     [Action ] -     Ends Record Suffix
+ <-1> 22/09/2018 17:02:30.996     [Action ] -     Starts Closing Batch Task - 'test01' (Task Instance: 7)
+ <-1> 22/09/2018 17:02:30.996     [Action ] -   <<Ends Close Task
+ <-1> 22/09/2018 17:02:31.077     [Action ] -   >>  Processing Event  [Window Hit]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 17:02:35.138     [Action ] -   >>  Processing Event  [Window Reposition]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 17:02:35.138     [Action ] -   >>  Processing Event  [Window Resize]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 17:03:23.381     [Action ] -   >>  Processing Event  [Exit System]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 17:03:23.382     [Action ] -   Starts Closing Batch Task - 'Main Program (ptest)' (Task Instance: 2)
+ <-1> 22/09/2018 17:03:23.401     [Action ] -   <<Ends Close Task
+ <-1> 22/09/2018 17:03:23.402     [Action ] -   Starts Closing Batch Task - 'Main Program (UserFunctionality)' (Task Instance: 1)
+ <-1> 22/09/2018 17:03:23.403     [Action ] -   <<Ends Close Task
+ <-1> 22/09/2018 17:03:23.471     [Info   ] - Process 9500 - Exiting Magic xpa
+ <-1> 22/09/2018 17:03:23.472     [Info   ] - ------------------------------------------
+ *********************   Date: 22/09/2018  ********************
+ <-1> 22/09/2018 17:03:43.388     [Info   ] - The INI file ("C:\magic\xpa3.3\MAGIC.INI") was successfully opened.
+ <-1> 22/09/2018 17:03:43.390     [Info   ] - ProcessID is 9396
+ <-1> 22/09/2018 17:03:43.390     [Info   ] - The current working directory is: "C:\xpa\samples\XpaDemo\XpaDemo\external\cpp\mgtest".
+ <-1> 22/09/2018 17:03:43.496     [Info   ] - Starts Loading Component : C:\magic\xpa3.3\Add_On\UserFunctionality\UserFunctionality.ecf 
+ <-1> 22/09/2018 17:03:43.509     [Info   ] - Starts Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 17:03:43.594     [Info   ] - Ends Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 17:03:43.595     [Info   ] - Starts Loading Component : System.Drawing 
+ <-1> 22/09/2018 17:03:43.604     [Info   ] - Ends Loading Component : System.Drawing 
+ <-1> 22/09/2018 17:03:43.605     [Info   ] - Starts Loading Component : System 
+ <-1> 22/09/2018 17:03:43.635     [Info   ] - Ends Loading Component : System 
+ <-1> 22/09/2018 17:03:43.636     [Info   ] - Starts Loading Component : System.Data 
+ <-1> 22/09/2018 17:03:43.680     [Info   ] - Ends Loading Component : System.Data 
+ <-1> 22/09/2018 17:03:43.681     [Info   ] - Starts Loading Component : Microsoft.Office.Interop.Excel 
+ <-1> 22/09/2018 17:03:43.833     [Info   ] - Ends Loading Component : Microsoft.Office.Interop.Excel 
+ <-1> 22/09/2018 17:03:43.834     [Info   ] - Starts Loading Component : Microsoft.CSharp 
+ <-1> 22/09/2018 17:03:43.852     [Info   ] - Ends Loading Component : Microsoft.CSharp 
+ <-1> 22/09/2018 17:03:43.853     [Info   ] - Starts Loading Component : System.Core 
+ <-1> 22/09/2018 17:03:43.865     [Info   ] - Ends Loading Component : System.Core 
+ <-1> 22/09/2018 17:03:43.905     [Info   ] - Ends Loading Component : C:\magic\xpa3.3\Add_On\UserFunctionality\UserFunctionality.ecf 
+ <-1> 22/09/2018 17:03:43.922     [Info   ] -   The project was successfully opened.
+ <-1> 22/09/2018 17:03:44.171     [Action ] -   >>Starts load Batch Task - 'Main Program (UserFunctionality)' in Query mode (Task Instance: 1)
+ <-1> 22/09/2018 17:03:44.172     [Action ] -   Ends Load Task
+ <-1> 22/09/2018 17:03:44.175     [Action ] -   Starts Task Prefix
+ <-1> 22/09/2018 17:03:44.175     [Action ] -     Flow - Update: 'V: gV:FunctionsList' <== exp #41
+ <-1> 22/09/2018 17:03:44.176     [Action ] -     Flow - Update: 'W: gV:FunctionsDescriptionList' <== exp #42
+ <-1> 22/09/2018 17:03:44.176     [Action ] -     Flow - Update: 'X: gV:DigitAndPunctuationList' <== exp #43
+ <-1> 22/09/2018 17:03:44.177     [Action ] -     Flow - Update: 'BB: gV:IsHebrewApp' <== exp #105
+ <-1> 22/09/2018 17:03:44.177     [Action ] -   Ends Task Prefix
+ <-1> 22/09/2018 17:03:44.178     [Action ] -   Load records
+ <-1> 22/09/2018 17:03:44.463     [Action ] -   >>Starts load Batch Task - 'Main Program (ptest)' in Query mode (Task Instance: 2)
+ <-1> 22/09/2018 17:03:44.464     [Action ] -   Ends Load Task
+ <-1> 22/09/2018 17:03:44.465     [Action ] -   Load records
+ <-1> 22/09/2018 17:03:44.467     [Info   ] -   Starting Magic xpa Server. Maximum checked-out concurrent threads: 1. Maximum checked-out concurrent users: 0.
+ <-1> 22/09/2018 17:03:44.467     [Info   ] -   License limit : 5000 requests.
+ <-1> 22/09/2018 17:03:44.493     [Action ] -   >>  Processing Event  [Context Got Focus]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 17:03:47.840     [Action ] -     >>Starts load Batch Task - 'test01' in Modify mode (Task Instance: 3)
+ <-1> 22/09/2018 17:03:47.841     [Action ] -     Ends Load Task
+ <-1> 22/09/2018 17:03:47.842     [Action ] -     Load records
+ <-1> 22/09/2018 17:03:47.843     [Action ] -     Starts Record Suffix
+ <-1> 22/09/2018 17:03:47.843     [Action ] -       Flow - Remark: 
+ <-1> 22/09/2018 17:03:47.844     [Action ] -       Flow - Invoke UDP :: 'mgtest.mgtest_printersettings'
+ <-1> 22/09/2018 17:03:47.917     [Action ] -       Flow - Call SubTask :: Show
+ <-1> 22/09/2018 17:03:47.945     [Action ] -         >>Starts load Online Task - 'Show' in Modify mode (Task Instance: 4)
+ <-1> 22/09/2018 17:03:47.946     [Action ] -         Ends Load Task
+ <-1> 22/09/2018 17:03:47.947     [Action ] -         Task Mode Change - Modify
+ <-1> 22/09/2018 17:03:47.950     [Action ] -         Load records
+ <-1> 22/09/2018 17:03:50.179     [Action ] -         >>  Processing Event  [Close]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 17:03:50.180     [Action ] -         >>  Processing Event  [Exit]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 17:03:50.181     [Action ] -         Starts Closing Online Task - 'Show' (Task Instance: 4)
+ <-1> 22/09/2018 17:03:50.203     [Action ] -       <<Ends Close Task
+ <-1> 22/09/2018 17:03:50.204     [Action ] -     Ends Record Suffix
+ <-1> 22/09/2018 17:03:50.204     [Action ] -     Starts Closing Batch Task - 'test01' (Task Instance: 3)
+ <-1> 22/09/2018 17:03:50.205     [Action ] -   <<Ends Close Task
+ <-1> 22/09/2018 17:03:58.554     [Action ] -   >>  Processing Event  [Exit System]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 17:03:58.555     [Action ] -   Starts Closing Batch Task - 'Main Program (ptest)' (Task Instance: 2)
+ <-1> 22/09/2018 17:03:58.567     [Action ] -   <<Ends Close Task
+ <-1> 22/09/2018 17:03:58.568     [Action ] -   Starts Closing Batch Task - 'Main Program (UserFunctionality)' (Task Instance: 1)
+ <-1> 22/09/2018 17:03:58.568     [Action ] -   <<Ends Close Task
+ <-1> 22/09/2018 17:03:58.637     [Info   ] - Process 9396 - Exiting Magic xpa
+ <-1> 22/09/2018 17:03:58.637     [Info   ] - ------------------------------------------
+ *********************   Date: 22/09/2018  ********************
+ <-1> 22/09/2018 17:04:31.525     [Info   ] - The INI file ("C:\magic\xpa3.3\MAGIC.INI") was successfully opened.
+ <-1> 22/09/2018 17:04:31.526     [Info   ] - ProcessID is 2192
+ <-1> 22/09/2018 17:04:31.527     [Info   ] - The current working directory is: "C:\xpa\samples\XpaDemo\XpaDemo\external\cpp\mgtest".
+ <-1> 22/09/2018 17:04:31.629     [Info   ] - Starts Loading Component : C:\magic\xpa3.3\Add_On\UserFunctionality\UserFunctionality.ecf 
+ <-1> 22/09/2018 17:04:31.642     [Info   ] - Starts Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 17:04:31.728     [Info   ] - Ends Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 17:04:31.728     [Info   ] - Starts Loading Component : System.Drawing 
+ <-1> 22/09/2018 17:04:31.737     [Info   ] - Ends Loading Component : System.Drawing 
+ <-1> 22/09/2018 17:04:31.738     [Info   ] - Starts Loading Component : System 
+ <-1> 22/09/2018 17:04:31.769     [Info   ] - Ends Loading Component : System 
+ <-1> 22/09/2018 17:04:31.769     [Info   ] - Starts Loading Component : System.Data 
+ <-1> 22/09/2018 17:04:31.815     [Info   ] - Ends Loading Component : System.Data 
+ <-1> 22/09/2018 17:04:31.815     [Info   ] - Starts Loading Component : Microsoft.Office.Interop.Excel 
+ <-1> 22/09/2018 17:04:31.950     [Info   ] - Ends Loading Component : Microsoft.Office.Interop.Excel 
+ <-1> 22/09/2018 17:04:31.950     [Info   ] - Starts Loading Component : Microsoft.CSharp 
+ <-1> 22/09/2018 17:04:31.967     [Info   ] - Ends Loading Component : Microsoft.CSharp 
+ <-1> 22/09/2018 17:04:31.967     [Info   ] - Starts Loading Component : System.Core 
+ <-1> 22/09/2018 17:04:31.980     [Info   ] - Ends Loading Component : System.Core 
+ <-1> 22/09/2018 17:04:32.015     [Info   ] - Ends Loading Component : C:\magic\xpa3.3\Add_On\UserFunctionality\UserFunctionality.ecf 
+ <-1> 22/09/2018 17:04:32.031     [Info   ] -   The project was successfully opened.
+ <-1> 22/09/2018 17:04:32.259     [Action ] -   >>Starts load Batch Task - 'Main Program (UserFunctionality)' in Query mode (Task Instance: 1)
+ <-1> 22/09/2018 17:04:32.270     [Action ] -   Ends Load Task
+ <-1> 22/09/2018 17:04:32.273     [Action ] -   Starts Task Prefix
+ <-1> 22/09/2018 17:04:32.273     [Action ] -     Flow - Update: 'V: gV:FunctionsList' <== exp #41
+ <-1> 22/09/2018 17:04:32.274     [Action ] -     Flow - Update: 'W: gV:FunctionsDescriptionList' <== exp #42
+ <-1> 22/09/2018 17:04:32.274     [Action ] -     Flow - Update: 'X: gV:DigitAndPunctuationList' <== exp #43
+ <-1> 22/09/2018 17:04:32.275     [Action ] -     Flow - Update: 'BB: gV:IsHebrewApp' <== exp #105
+ <-1> 22/09/2018 17:04:32.276     [Action ] -   Ends Task Prefix
+ <-1> 22/09/2018 17:04:32.277     [Action ] -   Load records
+ <-1> 22/09/2018 17:04:32.571     [Action ] -   >>Starts load Batch Task - 'Main Program (ptest)' in Query mode (Task Instance: 2)
+ <-1> 22/09/2018 17:04:32.583     [Action ] -   Ends Load Task
+ <-1> 22/09/2018 17:04:32.583     [Action ] -   Load records
+ <-1> 22/09/2018 17:04:32.585     [Info   ] -   Starting Magic xpa Server. Maximum checked-out concurrent threads: 1. Maximum checked-out concurrent users: 0.
+ <-1> 22/09/2018 17:04:32.586     [Info   ] -   License limit : 5000 requests.
+ <-1> 22/09/2018 17:04:32.605     [Action ] -   >>  Processing Event  [Context Got Focus]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 17:04:34.968     [Action ] -     >>Starts load Batch Task - 'test01' in Modify mode (Task Instance: 3)
+ <-1> 22/09/2018 17:04:34.970     [Action ] -     Ends Load Task
+ <-1> 22/09/2018 17:04:34.971     [Action ] -     Load records
+ <-1> 22/09/2018 17:04:34.971     [Action ] -     Starts Record Suffix
+ <-1> 22/09/2018 17:04:34.972     [Action ] -       Flow - Remark: 
+ <-1> 22/09/2018 17:04:34.972     [Action ] -       Flow - Invoke UDP :: 'mgtest.mgtest_printersettings'
+ <-1> 22/09/2018 17:04:42.432     [Action ] -       Flow - Call SubTask :: Show
+ <-1> 22/09/2018 17:04:42.452     [Action ] -         >>Starts load Online Task - 'Show' in Modify mode (Task Instance: 4)
+ <-1> 22/09/2018 17:04:42.461     [Action ] -         Ends Load Task
+ <-1> 22/09/2018 17:04:42.461     [Action ] -         Task Mode Change - Modify
+ <-1> 22/09/2018 17:04:42.465     [Action ] -         Load records
+ <-1> 22/09/2018 17:04:45.247     [Action ] -         >>  Processing Event  [Close]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 17:04:45.248     [Action ] -         >>  Processing Event  [Exit]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 17:04:45.249     [Action ] -         Starts Closing Online Task - 'Show' (Task Instance: 4)
+ <-1> 22/09/2018 17:04:45.273     [Action ] -       <<Ends Close Task
+ <-1> 22/09/2018 17:04:45.273     [Action ] -     Ends Record Suffix
+ <-1> 22/09/2018 17:04:45.274     [Action ] -     Starts Closing Batch Task - 'test01' (Task Instance: 3)
+ <-1> 22/09/2018 17:04:45.274     [Action ] -   <<Ends Close Task
+ <-1> 22/09/2018 17:04:47.434     [Action ] -     >>Starts load Batch Task - 'test01' in Modify mode (Task Instance: 5)
+ <-1> 22/09/2018 17:04:47.435     [Action ] -     Ends Load Task
+ <-1> 22/09/2018 17:04:47.436     [Action ] -     Load records
+ <-1> 22/09/2018 17:04:47.437     [Action ] -     Starts Record Suffix
+ <-1> 22/09/2018 17:04:47.437     [Action ] -       Flow - Remark: 
+ <-1> 22/09/2018 17:04:47.438     [Action ] -       Flow - Invoke UDP :: 'mgtest.mgtest_printersettings'
+ <-1> 22/09/2018 17:04:53.620     [Action ] -       Flow - Call SubTask :: Show
+ <-1> 22/09/2018 17:04:53.623     [Action ] -         >>Starts load Online Task - 'Show' in Modify mode (Task Instance: 6)
+ <-1> 22/09/2018 17:04:53.625     [Action ] -         Ends Load Task
+ <-1> 22/09/2018 17:04:53.625     [Action ] -         Load records
+ <-1> 22/09/2018 17:05:00.859     [Action ] -         >>  Processing Event  [Close]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 17:05:00.860     [Action ] -         >>  Processing Event  [Exit]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 17:05:00.860     [Action ] -         Starts Closing Online Task - 'Show' (Task Instance: 6)
+ <-1> 22/09/2018 17:05:00.880     [Action ] -       <<Ends Close Task
+ <-1> 22/09/2018 17:05:00.881     [Action ] -     Ends Record Suffix
+ <-1> 22/09/2018 17:05:00.881     [Action ] -     Starts Closing Batch Task - 'test01' (Task Instance: 5)
+ <-1> 22/09/2018 17:05:00.882     [Action ] -   <<Ends Close Task
+ <-1> 22/09/2018 17:05:10.641     [Action ] -   >>  Processing Event  [Printer Setup]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 17:05:16.631     [Action ] -     >>Starts load Batch Task - 'test01' in Modify mode (Task Instance: 7)
+ <-1> 22/09/2018 17:05:16.636     [Action ] -     Ends Load Task
+ <-1> 22/09/2018 17:05:16.637     [Action ] -     Load records
+ <-1> 22/09/2018 17:05:16.637     [Action ] -     Starts Record Suffix
+ <-1> 22/09/2018 17:05:16.638     [Action ] -       Flow - Remark: 
+ <-1> 22/09/2018 17:05:16.639     [Action ] -       Flow - Invoke UDP :: 'mgtest.mgtest_printersettings'
+ <-1> 22/09/2018 17:05:20.403     [Action ] -       Flow - Call SubTask :: Show
+ <-1> 22/09/2018 17:05:20.399     [Action ] -         >>Starts load Online Task - 'Show' in Modify mode (Task Instance: 8)
+ <-1> 22/09/2018 17:05:20.407     [Action ] -         Ends Load Task
+ <-1> 22/09/2018 17:05:20.408     [Action ] -         Load records
+ <-1> 22/09/2018 17:05:22.502     [Action ] -         >>  Processing Event  [Window Hit]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 17:05:23.114     [Action ] -         >>  Processing Event  [Close]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 17:05:23.115     [Action ] -         >>  Processing Event  [Exit]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 17:05:23.116     [Action ] -         Starts Closing Online Task - 'Show' (Task Instance: 8)
+ <-1> 22/09/2018 17:05:23.132     [Action ] -       <<Ends Close Task
+ <-1> 22/09/2018 17:05:23.132     [Action ] -     Ends Record Suffix
+ <-1> 22/09/2018 17:05:23.133     [Action ] -     Starts Closing Batch Task - 'test01' (Task Instance: 7)
+ <-1> 22/09/2018 17:05:23.134     [Action ] -   <<Ends Close Task
+ *********************   Date: 22/09/2018  ********************
+ <-1> 22/09/2018 17:09:52.571     [Info   ] - The INI file ("C:\magic\xpa3.3\MAGIC.INI") was successfully opened.
+ <-1> 22/09/2018 17:09:52.573     [Info   ] - ProcessID is 4824
+ <-1> 22/09/2018 17:09:52.573     [Info   ] - The current working directory is: "C:\xpa\samples\XpaDemo\XpaDemo\external\cpp\mgtest".
+ <-1> 22/09/2018 17:09:52.681     [Info   ] - Starts Loading Component : C:\magic\xpa3.3\Add_On\UserFunctionality\UserFunctionality.ecf 
+ <-1> 22/09/2018 17:09:52.699     [Info   ] - Starts Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 17:09:52.784     [Info   ] - Ends Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 17:09:52.784     [Info   ] - Starts Loading Component : System.Drawing 
+ <-1> 22/09/2018 17:09:52.793     [Info   ] - Ends Loading Component : System.Drawing 
+ <-1> 22/09/2018 17:09:52.794     [Info   ] - Starts Loading Component : System 
+ <-1> 22/09/2018 17:09:52.824     [Info   ] - Ends Loading Component : System 
+ <-1> 22/09/2018 17:09:52.825     [Info   ] - Starts Loading Component : System.Data 
+ <-1> 22/09/2018 17:09:52.869     [Info   ] - Ends Loading Component : System.Data 
+ <-1> 22/09/2018 17:09:52.870     [Info   ] - Starts Loading Component : Microsoft.Office.Interop.Excel 
+ <-1> 22/09/2018 17:09:53.012     [Info   ] - Ends Loading Component : Microsoft.Office.Interop.Excel 
+ <-1> 22/09/2018 17:09:53.012     [Info   ] - Starts Loading Component : Microsoft.CSharp 
+ <-1> 22/09/2018 17:09:53.029     [Info   ] - Ends Loading Component : Microsoft.CSharp 
+ <-1> 22/09/2018 17:09:53.029     [Info   ] - Starts Loading Component : System.Core 
+ <-1> 22/09/2018 17:09:53.040     [Info   ] - Ends Loading Component : System.Core 
+ <-1> 22/09/2018 17:09:53.085     [Info   ] - Ends Loading Component : C:\magic\xpa3.3\Add_On\UserFunctionality\UserFunctionality.ecf 
+ <-1> 22/09/2018 17:09:53.100     [Info   ] -   The project was successfully opened.
+ <-1> 22/09/2018 17:09:53.368     [Action ] -   >>Starts load Batch Task - 'Main Program (UserFunctionality)' in Query mode (Task Instance: 1)
+ <-1> 22/09/2018 17:09:53.369     [Action ] -   Ends Load Task
+ <-1> 22/09/2018 17:09:53.372     [Action ] -   Starts Task Prefix
+ <-1> 22/09/2018 17:09:53.373     [Action ] -     Flow - Update: 'V: gV:FunctionsList' <== exp #41
+ <-1> 22/09/2018 17:09:53.373     [Action ] -     Flow - Update: 'W: gV:FunctionsDescriptionList' <== exp #42
+ <-1> 22/09/2018 17:09:53.374     [Action ] -     Flow - Update: 'X: gV:DigitAndPunctuationList' <== exp #43
+ <-1> 22/09/2018 17:09:53.374     [Action ] -     Flow - Update: 'BB: gV:IsHebrewApp' <== exp #105
+ <-1> 22/09/2018 17:09:53.375     [Action ] -   Ends Task Prefix
+ <-1> 22/09/2018 17:09:53.376     [Action ] -   Load records
+ <-1> 22/09/2018 17:09:53.649     [Action ] -   >>Starts load Batch Task - 'Main Program (ptest)' in Query mode (Task Instance: 2)
+ <-1> 22/09/2018 17:09:53.665     [Action ] -   Ends Load Task
+ <-1> 22/09/2018 17:09:53.665     [Action ] -   Load records
+ <-1> 22/09/2018 17:09:53.667     [Info   ] -   Starting Magic xpa Server. Maximum checked-out concurrent threads: 1. Maximum checked-out concurrent users: 0.
+ <-1> 22/09/2018 17:09:53.668     [Info   ] -   License limit : 5000 requests.
+ <-1> 22/09/2018 17:09:53.688     [Action ] -   >>  Processing Event  [Context Got Focus]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 17:09:58.348     [Action ] -     >>Starts load Batch Task - 'test01' in Modify mode (Task Instance: 3)
+ <-1> 22/09/2018 17:09:58.356     [Action ] -     Ends Load Task
+ <-1> 22/09/2018 17:09:58.357     [Action ] -     Load records
+ <-1> 22/09/2018 17:09:58.357     [Action ] -     Starts Record Suffix
+ <-1> 22/09/2018 17:09:58.358     [Action ] -       Flow - Remark: 
+ <-1> 22/09/2018 17:09:58.358     [Action ] -       Flow - Invoke UDP :: 'mgtest.mgtest_printersettings'
+ <-1> 22/09/2018 17:11:16.461     [Action ] -       Flow - Call SubTask :: Show
+ <-1> 22/09/2018 17:11:16.476     [Action ] -         >>Starts load Online Task - 'Show' in Modify mode (Task Instance: 4)
+ <-1> 22/09/2018 17:11:16.485     [Action ] -         Ends Load Task
+ <-1> 22/09/2018 17:11:16.485     [Action ] -         Task Mode Change - Modify
+ <-1> 22/09/2018 17:11:16.488     [Action ] -         Load records
+ <-1> 22/09/2018 17:11:21.679     [Action ] -         Starts Closing Online Task - 'Show' (Task Instance: 4)
+ <-1> 22/09/2018 17:11:21.701     [Action ] -       <<Ends Close Task
+ <-1> 22/09/2018 17:11:21.701     [Action ] -     Ends Record Suffix
+ <-1> 22/09/2018 17:11:21.702     [Action ] -     >>  Processing Event  [Exit]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 17:11:21.702     [Action ] -     Starts Closing Batch Task - 'test01' (Task Instance: 3)
+ <-1> 22/09/2018 17:11:21.703     [Action ] -   <<Ends Close Task
+ <-1> 22/09/2018 17:11:21.698     [Action ] -     >>Starts load Batch Task - 'test01' in Modify mode (Task Instance: 5)
+ <-1> 22/09/2018 17:11:21.704     [Action ] -     Ends Load Task
+ <-1> 22/09/2018 17:11:21.704     [Action ] -     Load records
+ <-1> 22/09/2018 17:11:21.705     [Action ] -     Starts Record Suffix
+ <-1> 22/09/2018 17:11:21.705     [Action ] -       Flow - Remark: 
+ <-1> 22/09/2018 17:11:21.705     [Action ] -       Flow - Invoke UDP :: 'mgtest.mgtest_printersettings'
+ <-1> 22/09/2018 17:11:47.677     [Action ] -       Flow - Call SubTask :: Show
+ <-1> 22/09/2018 17:11:47.682     [Action ] -         >>Starts load Online Task - 'Show' in Modify mode (Task Instance: 6)
+ <-1> 22/09/2018 17:11:47.683     [Action ] -         Ends Load Task
+ <-1> 22/09/2018 17:11:47.684     [Action ] -         Load records
+ <-1> 22/09/2018 17:11:50.537     [Action ] -         >>  Processing Event  [Close]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 17:11:50.538     [Action ] -         >>  Processing Event  [Exit]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 17:11:50.539     [Action ] -         Starts Closing Online Task - 'Show' (Task Instance: 6)
+ <-1> 22/09/2018 17:11:50.557     [Action ] -       <<Ends Close Task
+ <-1> 22/09/2018 17:11:50.558     [Action ] -     Ends Record Suffix
+ <-1> 22/09/2018 17:11:50.558     [Action ] -     Starts Closing Batch Task - 'test01' (Task Instance: 5)
+ <-1> 22/09/2018 17:11:50.559     [Action ] -   <<Ends Close Task
+ <-1> 22/09/2018 17:11:52.618     [Action ] -     >>Starts load Batch Task - 'test01' in Modify mode (Task Instance: 7)
+ <-1> 22/09/2018 17:11:52.619     [Action ] -     Ends Load Task
+ <-1> 22/09/2018 17:11:52.620     [Action ] -     Load records
+ <-1> 22/09/2018 17:11:52.620     [Action ] -     Starts Record Suffix
+ <-1> 22/09/2018 17:11:52.621     [Action ] -       Flow - Remark: 
+ <-1> 22/09/2018 17:11:52.621     [Action ] -       Flow - Invoke UDP :: 'mgtest.mgtest_printersettings'
+ <-1> 22/09/2018 17:11:52.653     [Action ] -       Flow - Call SubTask :: Show
+ <-1> 22/09/2018 17:11:52.657     [Action ] -         >>Starts load Online Task - 'Show' in Modify mode (Task Instance: 8)
+ <-1> 22/09/2018 17:11:52.657     [Action ] -         Ends Load Task
+ <-1> 22/09/2018 17:11:52.658     [Action ] -         Load records
+ <-1> 22/09/2018 17:11:54.249     [Action ] -         >>  Processing Event  [Close]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 17:11:54.250     [Action ] -         >>  Processing Event  [Exit]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 17:11:54.251     [Action ] -         Starts Closing Online Task - 'Show' (Task Instance: 8)
+ <-1> 22/09/2018 17:11:54.262     [Action ] -       <<Ends Close Task
+ <-1> 22/09/2018 17:11:54.263     [Action ] -     Ends Record Suffix
+ <-1> 22/09/2018 17:11:54.263     [Action ] -     Starts Closing Batch Task - 'test01' (Task Instance: 7)
+ <-1> 22/09/2018 17:11:54.264     [Action ] -   <<Ends Close Task
+ <-1> 22/09/2018 17:11:56.208     [Action ] -   >>  Processing Event  [Open Application]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 17:11:58.913     [Action ] -   >>  Processing Event  [Printer Setup]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 17:12:05.638     [Action ] -     >>Starts load Batch Task - 'test01' in Modify mode (Task Instance: 9)
+ <-1> 22/09/2018 17:12:05.639     [Action ] -     Ends Load Task
+ <-1> 22/09/2018 17:12:05.640     [Action ] -     Load records
+ <-1> 22/09/2018 17:12:05.641     [Action ] -     Starts Record Suffix
+ <-1> 22/09/2018 17:12:05.641     [Action ] -       Flow - Remark: 
+ <-1> 22/09/2018 17:12:05.642     [Action ] -       Flow - Invoke UDP :: 'mgtest.mgtest_printersettings'
+ <-1> 22/09/2018 17:12:05.674     [Action ] -       Flow - Call SubTask :: Show
+ <-1> 22/09/2018 17:12:05.678     [Action ] -         >>Starts load Online Task - 'Show' in Modify mode (Task Instance: 10)
+ <-1> 22/09/2018 17:12:05.680     [Action ] -         Ends Load Task
+ <-1> 22/09/2018 17:12:05.680     [Action ] -         Load records
+ <-1> 22/09/2018 17:12:18.699     [Action ] -         >>  Processing Event  [Close]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 17:12:18.700     [Action ] -         >>  Processing Event  [Exit]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 17:12:18.700     [Action ] -         Starts Closing Online Task - 'Show' (Task Instance: 10)
+ <-1> 22/09/2018 17:12:18.712     [Action ] -       <<Ends Close Task
+ <-1> 22/09/2018 17:12:18.712     [Action ] -     Ends Record Suffix
+ <-1> 22/09/2018 17:12:18.713     [Action ] -     Starts Closing Batch Task - 'test01' (Task Instance: 9)
+ <-1> 22/09/2018 17:12:18.713     [Action ] -   <<Ends Close Task
+ <-1> 22/09/2018 17:12:20.451     [Action ] -   >>  Processing Event  [Exit System]  Control Name :  [ N/A ] 
+ <-1> 22/09/2018 17:12:20.451     [Action ] -   Starts Closing Batch Task - 'Main Program (ptest)' (Task Instance: 2)
+ <-1> 22/09/2018 17:12:20.464     [Action ] -   <<Ends Close Task
+ <-1> 22/09/2018 17:12:20.465     [Action ] -   Starts Closing Batch Task - 'Main Program (UserFunctionality)' (Task Instance: 1)
+ <-1> 22/09/2018 17:12:20.466     [Action ] -   <<Ends Close Task
+ <-1> 22/09/2018 17:12:20.534     [Info   ] - Process 4824 - Exiting Magic xpa
+ <-1> 22/09/2018 17:12:20.535     [Info   ] - ------------------------------------------
