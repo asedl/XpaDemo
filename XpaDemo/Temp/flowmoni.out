@@ -14944,3 +14944,249 @@
  <334480327984559040> 22/09/2018 11:44:00.807     [Action ] -   <<Ends Close Task
  <-1> 22/09/2018 11:44:12.150     [Info   ] - Process 5212 - Exiting Magic xpa
  <-1> 22/09/2018 11:44:12.150     [Info   ] - ------------------------------------------
+ *********************   Date: 22/09/2018  ********************
+ <-1> 22/09/2018 11:57:05.032     [Info   ] - The INI file ("C:\magic\xpa3.3\MAGIC.INI") was successfully opened.
+ <-1> 22/09/2018 11:57:05.034     [Info   ] - ProcessID is 7684
+ <-1> 22/09/2018 11:57:05.035     [Info   ] - The current working directory is: "C:\magic\xpa3.3".
+ <-1> 22/09/2018 11:57:05.098     [Info   ] - Starting Magic xpa Server. Maximum checked-out concurrent threads: 1. Maximum checked-out concurrent users: 1.
+ <-1> 22/09/2018 11:57:08.658     [Info   ] - Starts Loading Component : C:\magic\xpa3.3\Add_On\UserFunctionality\UserFunctionality.ecf 
+ <-1> 22/09/2018 11:57:08.683     [Info   ] - Starts Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 11:57:08.752     [Info   ] - Ends Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 11:57:08.752     [Info   ] - Starts Loading Component : System.Drawing 
+ <-1> 22/09/2018 11:57:08.757     [Info   ] - Ends Loading Component : System.Drawing 
+ <-1> 22/09/2018 11:57:08.757     [Info   ] - Starts Loading Component : System 
+ <-1> 22/09/2018 11:57:08.780     [Info   ] - Ends Loading Component : System 
+ <-1> 22/09/2018 11:57:08.780     [Info   ] - Starts Loading Component : System.Data 
+ <-1> 22/09/2018 11:57:08.809     [Info   ] - Ends Loading Component : System.Data 
+ <-1> 22/09/2018 11:57:08.809     [Info   ] - Starts Loading Component : Microsoft.Office.Interop.Excel 
+ <-1> 22/09/2018 11:57:08.924     [Info   ] - Ends Loading Component : Microsoft.Office.Interop.Excel 
+ <-1> 22/09/2018 11:57:08.925     [Info   ] - Starts Loading Component : Microsoft.CSharp 
+ <-1> 22/09/2018 11:57:08.933     [Info   ] - Ends Loading Component : Microsoft.CSharp 
+ <-1> 22/09/2018 11:57:08.933     [Info   ] - Starts Loading Component : System.Core 
+ <-1> 22/09/2018 11:57:08.940     [Info   ] - Ends Loading Component : System.Core 
+ <-1> 22/09/2018 11:57:08.976     [Info   ] - Ends Loading Component : C:\magic\xpa3.3\Add_On\UserFunctionality\UserFunctionality.ecf 
+ <-1> 22/09/2018 11:57:08.992     [Info   ] -   The project was successfully opened.
+ <241441014393960224> 22/09/2018 11:59:41.890     [Action ] -   >>Starts load Batch Task - 'Main Program (UserFunctionality)' in Query mode (Task Instance: 1)
+ <241441014393960224> 22/09/2018 11:59:41.892     [Action ] -   Ends Load Task
+ <241441014393960224> 22/09/2018 11:59:41.895     [Action ] -   Starts Task Prefix
+ <241441014393960224> 22/09/2018 11:59:41.895     [Action ] -     Flow - Update: 'V: gV:FunctionsList' <== exp #41
+ <241441014393960224> 22/09/2018 11:59:41.896     [Action ] -     Flow - Update: 'W: gV:FunctionsDescriptionList' <== exp #42
+ <241441014393960224> 22/09/2018 11:59:41.896     [Action ] -     Flow - Update: 'X: gV:DigitAndPunctuationList' <== exp #43
+ <241441014393960224> 22/09/2018 11:59:41.897     [Action ] -     Flow - Update: 'BB: gV:IsHebrewApp' <== exp #105
+ <241441014393960224> 22/09/2018 11:59:41.898     [Action ] -   Ends Task Prefix
+ <241441014393960224> 22/09/2018 11:59:41.899     [Action ] -   Load records
+ <241441014393960224> 22/09/2018 11:59:42.050     [Action ] -   >>Starts load Batch Task - 'Main Program (xpacrypt)' in Query mode (Task Instance: 2)
+ <241441014393960224> 22/09/2018 11:59:42.051     [Action ] -   Ends Load Task
+ <241441014393960224> 22/09/2018 11:59:42.052     [Action ] -   Load records
+ <241441014393960224> 22/09/2018 11:59:42.063     [Action ] -     >>Starts load Batch Task - 'SHA-256' in Modify mode (Task Instance: 3)
+ <241441014393960224> 22/09/2018 11:59:42.064     [Action ] -     Ends Load Task
+ <241441014393960224> 22/09/2018 11:59:42.065     [Action ] -     Load records
+ <241441014393960224> 22/09/2018 11:59:42.065     [Action ] -     Starts Record Suffix
+ <241441014393960224> 22/09/2018 11:59:42.066     [Action ] -       Flow - Remark: 
+ <241441014393960224> 22/09/2018 11:59:42.067     [Action ] -       Flow - Call SubTask :: SHA-256
+ <241441014393960224> 22/09/2018 11:59:42.233     [Action ] -         >>Starts load Online Task - 'SHA-256' in Modify mode (Task Instance: 4)
+ <241441014393960224> 22/09/2018 11:59:42.235     [Action ] -         Ends Load Task
+ <241441014393960224> 22/09/2018 11:59:42.236     [Action ] -         Task Mode Change - Modify
+ <241441014393960224> 22/09/2018 11:59:42.238     [Action ] -         Load records
+ <241441014393960224> 22/09/2018 11:59:42.253     [Action ] -         Starts Record Prefix
+ <241441014393960224> 22/09/2018 11:59:42.254     [Action ] -           Flow - Remark: 
+ <241441014393960224> 22/09/2018 11:59:42.254     [Action ] -           Flow - Update: 'A: v.Message1_Alpha' <== exp #1
+ <241441014393960224> 22/09/2018 11:59:42.256     [Action ] -           Flow - Update: 'B: v.Message1_Unicode' <== exp #1
+ <241441014393960224> 22/09/2018 11:59:42.256     [Action ] -         Ends Record Prefix
+ <241441014393960224> 22/09/2018 11:59:42.259     [Action ] -         Flow - Variable Virtual  'v.Message1_Alpha' (Step Forward)  
+ <241441014393960224> 22/09/2018 11:59:42.365     [Action ] -         >>  Processing Event  [Context Got Focus]  Control Name :  [v.Message1_Alpha] 
+ <241441014393960224> 22/09/2018 11:59:44.015     [Action ] -         >>  Processing Event  [Control Hit]  Control Name :  [ N/A ] 
+ <241441014393960224> 22/09/2018 11:59:44.020     [Action ] -         Flow - Variable Virtual  'v.Message1_Alpha' (Step Forward)  
+ <241441014393960224> 22/09/2018 11:59:44.027     [Action ] -         >>Starts Handle User Event: Calc_SHA-256
+ <241441014393960224> 22/09/2018 11:59:44.028     [Action ] -           Flow - Invoke UDP :: 'mgcrypt.mgcrypt_sha256_HexdigitsA'
+ <241441014393960224> 22/09/2018 11:59:44.031     [Action ] -           Flow - Invoke UDP :: 'mgcrypt.mgcrypt_sha256_HexdigitsA'
+ <241441014393960224> 22/09/2018 11:59:44.032     [Action ] -           Flow - Invoke UDP :: 'mgcrypt.mgcrypt_sha256_HexdigitsB'
+ *********************   Date: 22/09/2018  ********************
+ <241441014393960224> 22/09/2018 11:59:44.033     [Error  ] -           Unrecognized parameter type in user function description, Program: "SHA-256.SHA-256".
+ <241441014393960224> 22/09/2018 11:59:44.035     [Action ] -           Flow - Remark: 
+ <241441014393960224> 22/09/2018 11:59:44.036     [Action ] -           Flow - Remark: 
+ <241441014393960224> 22/09/2018 11:59:44.036     [Action ] -         <<Ends Handle User Event: Calc_SHA-256
+ <241441014393960224> 22/09/2018 11:59:55.580     [Action ] -         >>  Processing Event  [Exit System]  Control Name :  [ N/A ] 
+ <241441014393960224> 22/09/2018 11:59:55.583     [Action ] -         Flow - Variable Virtual  'v.SHA256Digest1' (Fast Forward)  [Not Executed]
+ <241441014393960224> 22/09/2018 11:59:55.584     [Action ] -         Flow - Variable Virtual  'v.Message1_Unicode' (Fast Forward)  [Not Executed]
+ <241441014393960224> 22/09/2018 11:59:55.584     [Action ] -         Flow - Variable Virtual  'v.SHA256Digest2' (Fast Forward)  [Not Executed]
+ <241441014393960224> 22/09/2018 11:59:55.585     [Action ] -         Flow - Variable Virtual  'v.Message1_Blob' (Fast Forward)  [Not Executed]
+ <241441014393960224> 22/09/2018 11:59:55.586     [Action ] -         Flow - Variable Virtual  'v.SHA256Digest3' (Fast Forward)  [Not Executed]
+ <241441014393960224> 22/09/2018 11:59:55.586     [Action ] -         Starts Closing Online Task - 'SHA-256' (Task Instance: 4)
+ <241441014393960224> 22/09/2018 11:59:55.604     [Action ] -       <<Ends Close Task
+ <241441014393960224> 22/09/2018 11:59:55.605     [Action ] -     Ends Record Suffix
+ <241441014393960224> 22/09/2018 11:59:55.605     [Action ] -     >>  Processing Event  [Exit]  Control Name :  [ N/A ] 
+ <241441014393960224> 22/09/2018 11:59:55.606     [Action ] -     Starts Closing Batch Task - 'SHA-256' (Task Instance: 3)
+ <241441014393960224> 22/09/2018 11:59:55.607     [Action ] -   <<Ends Close Task
+ <241441014393960224> 22/09/2018 11:59:55.607     [Action ] -   >>  Processing Event  [Exit System]  Control Name :  [ N/A ] 
+ <241441014393960224> 22/09/2018 11:59:55.608     [Info   ] -   Context released : 
+ <241441014393960224> 22/09/2018 11:59:55.609     [Action ] -   Starts Closing Batch Task - 'Main Program (xpacrypt)' (Task Instance: 2)
+ <241441014393960224> 22/09/2018 11:59:55.622     [Action ] -   <<Ends Close Task
+ <241441014393960224> 22/09/2018 11:59:55.623     [Action ] -   Starts Closing Batch Task - 'Main Program (UserFunctionality)' (Task Instance: 1)
+ <241441014393960224> 22/09/2018 11:59:55.623     [Action ] -   <<Ends Close Task
+ <-1> 22/09/2018 11:59:57.303     [Info   ] - Process 7684 - Exiting Magic xpa
+ <-1> 22/09/2018 11:59:57.304     [Info   ] - ------------------------------------------
+ *********************   Date: 22/09/2018  ********************
+ <-1> 22/09/2018 12:02:13.202     [Info   ] - The INI file ("C:\magic\xpa3.3\MAGIC.INI") was successfully opened.
+ <-1> 22/09/2018 12:02:13.203     [Info   ] - ProcessID is 10228
+ <-1> 22/09/2018 12:02:13.204     [Info   ] - The current working directory is: "C:\magic\xpa3.3".
+ <-1> 22/09/2018 12:02:13.268     [Info   ] - Starting Magic xpa Server. Maximum checked-out concurrent threads: 1. Maximum checked-out concurrent users: 1.
+ <-1> 22/09/2018 12:02:15.913     [Info   ] - Starts Loading Component : C:\magic\xpa3.3\Add_On\UserFunctionality\UserFunctionality.ecf 
+ <-1> 22/09/2018 12:02:15.928     [Info   ] - Starts Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 12:02:15.999     [Info   ] - Ends Loading Component : System.Windows.Forms 
+ <-1> 22/09/2018 12:02:16.000     [Info   ] - Starts Loading Component : System.Drawing 
+ <-1> 22/09/2018 12:02:16.003     [Info   ] - Ends Loading Component : System.Drawing 
+ <-1> 22/09/2018 12:02:16.004     [Info   ] - Starts Loading Component : System 
+ <-1> 22/09/2018 12:02:16.026     [Info   ] - Ends Loading Component : System 
+ <-1> 22/09/2018 12:02:16.027     [Info   ] - Starts Loading Component : System.Data 
+ <-1> 22/09/2018 12:02:16.060     [Info   ] - Ends Loading Component : System.Data 
+ <-1> 22/09/2018 12:02:16.061     [Info   ] - Starts Loading Component : Microsoft.Office.Interop.Excel 
+ <-1> 22/09/2018 12:02:16.205     [Info   ] - Ends Loading Component : Microsoft.Office.Interop.Excel 
+ <-1> 22/09/2018 12:02:16.206     [Info   ] - Starts Loading Component : Microsoft.CSharp 
+ <-1> 22/09/2018 12:02:16.218     [Info   ] - Ends Loading Component : Microsoft.CSharp 
+ <-1> 22/09/2018 12:02:16.219     [Info   ] - Starts Loading Component : System.Core 
+ <-1> 22/09/2018 12:02:16.226     [Info   ] - Ends Loading Component : System.Core 
+ <-1> 22/09/2018 12:02:16.259     [Info   ] - Ends Loading Component : C:\magic\xpa3.3\Add_On\UserFunctionality\UserFunctionality.ecf 
+ <-1> 22/09/2018 12:02:16.270     [Info   ] -   The project was successfully opened.
+ <91441408160026736> 22/09/2018 12:02:24.022     [Action ] -   >>Starts load Batch Task - 'Main Program (UserFunctionality)' in Query mode (Task Instance: 1)
+ <91441408160026736> 22/09/2018 12:02:24.023     [Action ] -   Ends Load Task
+ <91441408160026736> 22/09/2018 12:02:24.025     [Action ] -   Starts Task Prefix
+ <91441408160026736> 22/09/2018 12:02:24.026     [Action ] -     Flow - Update: 'V: gV:FunctionsList' <== exp #41
+ <91441408160026736> 22/09/2018 12:02:24.027     [Action ] -     Flow - Update: 'W: gV:FunctionsDescriptionList' <== exp #42
+ <91441408160026736> 22/09/2018 12:02:24.027     [Action ] -     Flow - Update: 'X: gV:DigitAndPunctuationList' <== exp #43
+ <91441408160026736> 22/09/2018 12:02:24.028     [Action ] -     Flow - Update: 'BB: gV:IsHebrewApp' <== exp #105
+ <91441408160026736> 22/09/2018 12:02:24.028     [Action ] -   Ends Task Prefix
+ <91441408160026736> 22/09/2018 12:02:24.029     [Action ] -   Load records
+ <91441408160026736> 22/09/2018 12:02:24.183     [Action ] -   >>Starts load Batch Task - 'Main Program (xpacrypt)' in Query mode (Task Instance: 2)
+ <91441408160026736> 22/09/2018 12:02:24.184     [Action ] -   Ends Load Task
+ <91441408160026736> 22/09/2018 12:02:24.185     [Action ] -   Load records
+ <91441408160026736> 22/09/2018 12:02:24.195     [Action ] -     >>Starts load Batch Task - 'SHA-256' in Modify mode (Task Instance: 3)
+ <91441408160026736> 22/09/2018 12:02:24.196     [Action ] -     Ends Load Task
+ <91441408160026736> 22/09/2018 12:02:24.197     [Action ] -     Load records
+ <91441408160026736> 22/09/2018 12:02:24.197     [Action ] -     Starts Record Suffix
+ <91441408160026736> 22/09/2018 12:02:24.198     [Action ] -       Flow - Remark: 
+ <91441408160026736> 22/09/2018 12:02:24.199     [Action ] -       Flow - Call SubTask :: SHA-256
+ <91441408160026736> 22/09/2018 12:02:24.357     [Action ] -         >>Starts load Online Task - 'SHA-256' in Modify mode (Task Instance: 4)
+ <91441408160026736> 22/09/2018 12:02:24.358     [Action ] -         Ends Load Task
+ <91441408160026736> 22/09/2018 12:02:24.358     [Action ] -         Task Mode Change - Modify
+ <91441408160026736> 22/09/2018 12:02:24.362     [Action ] -         Load records
+ <91441408160026736> 22/09/2018 12:02:24.373     [Action ] -         Starts Record Prefix
+ <91441408160026736> 22/09/2018 12:02:24.374     [Action ] -           Flow - Remark: 
+ <91441408160026736> 22/09/2018 12:02:24.375     [Action ] -           Flow - Update: 'A: v.Message1_Alpha' <== exp #1
+ <91441408160026736> 22/09/2018 12:02:24.376     [Action ] -           Flow - Update: 'B: v.Message1_Unicode' <== exp #1
+ <91441408160026736> 22/09/2018 12:02:24.377     [Action ] -         Ends Record Prefix
+ <91441408160026736> 22/09/2018 12:02:24.379     [Action ] -         Flow - Variable Virtual  'v.Message1_Alpha' (Step Forward)  
+ <91441408160026736> 22/09/2018 12:02:24.480     [Action ] -         >>  Processing Event  [Context Got Focus]  Control Name :  [v.Message1_Alpha] 
+ <91441408160026736> 22/09/2018 12:02:26.094     [Action ] -         >>  Processing Event  [Control Hit]  Control Name :  [ N/A ] 
+ <91441408160026736> 22/09/2018 12:02:26.099     [Action ] -         Flow - Variable Virtual  'v.Message1_Alpha' (Step Forward)  
+ <91441408160026736> 22/09/2018 12:02:26.107     [Action ] -         >>Starts Handle User Event: Calc_SHA-256
+ <91441408160026736> 22/09/2018 12:02:26.109     [Action ] -           Flow - Invoke UDP :: 'mgcrypt.mgcrypt_sha256_HexdigitsA'
+ <91441408160026736> 22/09/2018 12:02:26.111     [Action ] -           Flow - Invoke UDP :: 'mgcrypt.mgcrypt_sha256_HexdigitsA'
+ <91441408160026736> 22/09/2018 12:02:26.112     [Action ] -           Flow - Invoke UDP :: 'mgcrypt.mgcrypt_sha256_HexdigitsB'
+ <91441408160026736> 22/09/2018 12:02:26.113     [Action ] -           Flow - Remark: 
+ <91441408160026736> 22/09/2018 12:02:26.114     [Action ] -           Flow - Remark: 
+ <91441408160026736> 22/09/2018 12:02:26.114     [Action ] -         <<Ends Handle User Event: Calc_SHA-256
+ <91441408160026736> 22/09/2018 12:02:29.702     [Action ] -         >>  Processing Event  [Control Hit]  Control Name :  [v.Message1_Unicode_0001] 
+ <91441408160026736> 22/09/2018 12:02:29.703     [Action ] -         Flow - Variable Virtual  'v.SHA256Digest1' (Fast Forward)  [Not Executed]
+ <91441408160026736> 22/09/2018 12:02:29.703     [Action ] -         Flow - Variable Virtual  'v.Message1_Unicode' (Step Forward)  
+ <91441408160026736> 22/09/2018 12:02:29.711     [Action ] -         >>  Processing Event  [Click]  Control Name :  [v.Message1_Unicode_0001] 
+ <91441408160026736> 22/09/2018 12:02:30.791     [Action ] -         >>  Processing Event  [Ctrl+C]  [Copy]  Control Name :  [v.Message1_Unicode_0001] 
+ <91441408160026736> 22/09/2018 12:02:31.360     [Action ] -         >>  Processing Event  [Control Hit]  Control Name :  [v.Message1_Unicode_0001] 
+ <91441408160026736> 22/09/2018 12:02:31.361     [Action ] -         Flow - Variable Virtual  'v.SHA256Digest2' (Fast Forward)  [Not Executed]
+ <91441408160026736> 22/09/2018 12:02:31.361     [Action ] -         Flow - Variable Virtual  'v.Message1_Blob' (Step Forward)  
+ <91441408160026736> 22/09/2018 12:02:31.368     [Action ] -         >>  Processing Event  [Click]  Control Name :  [v.Message1_Unicode_0001] 
+ <91441408160026736> 22/09/2018 12:02:31.884     [Action ] -         >>  Processing Event  [Ctrl+V]  [Paste]  Control Name :  [v.Message1_Unicode_0001] 
+ <91441408160026736> 22/09/2018 12:02:33.146     [Action ] -         >>  Processing Event  [Tab]  [Next Field]  Control Name :  [v.Message1_Unicode_0001] 
+ <91441408160026736> 22/09/2018 12:02:33.162     [Action ] -         Flow - Variable Virtual  'v.SHA256Digest3' (Step Forward)  
+ <91441408160026736> 22/09/2018 12:02:34.364     [Action ] -         >>  Processing Event  [Control Hit]  Control Name :  [ N/A ] 
+ <91441408160026736> 22/09/2018 12:02:34.365     [Action ] -         Flow - Variable Virtual  'v.SHA256Digest3' (Step Forward)  
+ <91441408160026736> 22/09/2018 12:02:34.370     [Action ] -         >>Starts Handle User Event: Calc_SHA-256
+ <91441408160026736> 22/09/2018 12:02:34.371     [Action ] -           Flow - Invoke UDP :: 'mgcrypt.mgcrypt_sha256_HexdigitsA'
+ <91441408160026736> 22/09/2018 12:02:34.372     [Action ] -           Flow - Invoke UDP :: 'mgcrypt.mgcrypt_sha256_HexdigitsA'
+ <91441408160026736> 22/09/2018 12:02:34.373     [Action ] -           Flow - Invoke UDP :: 'mgcrypt.mgcrypt_sha256_HexdigitsB'
+ <91441408160026736> 22/09/2018 12:02:34.374     [Action ] -           Flow - Remark: 
+ <91441408160026736> 22/09/2018 12:02:34.375     [Action ] -           Flow - Remark: 
+ <91441408160026736> 22/09/2018 12:02:34.375     [Action ] -         <<Ends Handle User Event: Calc_SHA-256
+ <91441408160026736> 22/09/2018 12:02:48.305     [Action ] -         >>  Processing Event  [Esc]  [Exit]  Control Name :  [v.SHA256Digest3_0001] 
+ <91441408160026736> 22/09/2018 12:02:48.306     [Action ] -         Starts Closing Online Task - 'SHA-256' (Task Instance: 4)
+ <91441408160026736> 22/09/2018 12:02:48.322     [Action ] -       <<Ends Close Task
+ <91441408160026736> 22/09/2018 12:02:48.323     [Action ] -     Ends Record Suffix
+ <91441408160026736> 22/09/2018 12:02:48.324     [Action ] -     Starts Closing Batch Task - 'SHA-256' (Task Instance: 3)
+ <91441408160026736> 22/09/2018 12:02:48.325     [Action ] -   <<Ends Close Task
+ <91441408160026736> 22/09/2018 12:02:48.425     [Action ] -   >>  Processing Event  [Exit System]  Control Name :  [ N/A ] 
+ <91441408160026736> 22/09/2018 12:02:48.426     [Info   ] -   Context released : 
+ <91441408160026736> 22/09/2018 12:02:48.426     [Action ] -   Starts Closing Batch Task - 'Main Program (xpacrypt)' (Task Instance: 2)
+ <91441408160026736> 22/09/2018 12:02:48.439     [Action ] -   <<Ends Close Task
+ <91441408160026736> 22/09/2018 12:02:48.440     [Action ] -   Starts Closing Batch Task - 'Main Program (UserFunctionality)' (Task Instance: 1)
+ <91441408160026736> 22/09/2018 12:02:48.441     [Action ] -   <<Ends Close Task
+ <69804117152047736> 22/09/2018 12:03:06.716     [Action ] -   >>Starts load Batch Task - 'Main Program (UserFunctionality)' in Query mode (Task Instance: 5)
+ <69804117152047736> 22/09/2018 12:03:06.718     [Action ] -   Ends Load Task
+ <69804117152047736> 22/09/2018 12:03:06.721     [Action ] -   Starts Task Prefix
+ <69804117152047736> 22/09/2018 12:03:06.721     [Action ] -     Flow - Update: 'V: gV:FunctionsList' <== exp #41
+ <69804117152047736> 22/09/2018 12:03:06.722     [Action ] -     Flow - Update: 'W: gV:FunctionsDescriptionList' <== exp #42
+ <69804117152047736> 22/09/2018 12:03:06.722     [Action ] -     Flow - Update: 'X: gV:DigitAndPunctuationList' <== exp #43
+ <69804117152047736> 22/09/2018 12:03:06.723     [Action ] -     Flow - Update: 'BB: gV:IsHebrewApp' <== exp #105
+ <69804117152047736> 22/09/2018 12:03:06.723     [Action ] -   Ends Task Prefix
+ <69804117152047736> 22/09/2018 12:03:06.724     [Action ] -   Load records
+ <69804117152047736> 22/09/2018 12:03:06.732     [Action ] -   >>Starts load Batch Task - 'Main Program (xpacrypt)' in Query mode (Task Instance: 6)
+ <69804117152047736> 22/09/2018 12:03:06.733     [Action ] -   Ends Load Task
+ <69804117152047736> 22/09/2018 12:03:06.733     [Action ] -   Load records
+ <69804117152047736> 22/09/2018 12:03:06.741     [Action ] -     >>Starts load Batch Task - 'SHA-256' in Modify mode (Task Instance: 7)
+ <69804117152047736> 22/09/2018 12:03:06.742     [Action ] -     Ends Load Task
+ <69804117152047736> 22/09/2018 12:03:06.742     [Action ] -     Load records
+ <69804117152047736> 22/09/2018 12:03:06.743     [Action ] -     Starts Record Suffix
+ <69804117152047736> 22/09/2018 12:03:06.743     [Action ] -       Flow - Remark: 
+ <69804117152047736> 22/09/2018 12:03:06.744     [Action ] -       Flow - Call SubTask :: SHA-256
+ <69804117152047736> 22/09/2018 12:03:06.791     [Action ] -         >>Starts load Online Task - 'SHA-256' in Modify mode (Task Instance: 8)
+ <69804117152047736> 22/09/2018 12:03:06.793     [Action ] -         Ends Load Task
+ <69804117152047736> 22/09/2018 12:03:06.794     [Action ] -         Load records
+ <69804117152047736> 22/09/2018 12:03:06.795     [Action ] -         Starts Record Prefix
+ <69804117152047736> 22/09/2018 12:03:06.795     [Action ] -           Flow - Remark: 
+ <69804117152047736> 22/09/2018 12:03:06.796     [Action ] -           Flow - Update: 'A: v.Message1_Alpha' <== exp #1
+ <69804117152047736> 22/09/2018 12:03:06.796     [Action ] -           Flow - Update: 'B: v.Message1_Unicode' <== exp #1
+ <69804117152047736> 22/09/2018 12:03:06.797     [Action ] -           Flow - Update: 'C: v.Message1_Blob' <== exp #1
+ <69804117152047736> 22/09/2018 12:03:06.798     [Action ] -         Ends Record Prefix
+ <69804117152047736> 22/09/2018 12:03:06.799     [Action ] -         Flow - Variable Virtual  'v.Message1_Alpha' (Step Forward)  
+ <69804117152047736> 22/09/2018 12:03:09.066     [Action ] -         >>  Processing Event  [Control Hit]  Control Name :  [ N/A ] 
+ <69804117152047736> 22/09/2018 12:03:09.067     [Action ] -         Flow - Variable Virtual  'v.Message1_Alpha' (Step Forward)  
+ <69804117152047736> 22/09/2018 12:03:09.072     [Action ] -         >>Starts Handle User Event: Calc_SHA-256
+ <69804117152047736> 22/09/2018 12:03:09.072     [Action ] -           Flow - Invoke UDP :: 'mgcrypt.mgcrypt_sha256_HexdigitsA'
+ <69804117152047736> 22/09/2018 12:03:09.074     [Action ] -           Flow - Invoke UDP :: 'mgcrypt.mgcrypt_sha256_HexdigitsA'
+ <69804117152047736> 22/09/2018 12:03:09.075     [Action ] -           Flow - Invoke UDP :: 'mgcrypt.mgcrypt_sha256_HexdigitsB'
+ <69804117152047736> 22/09/2018 12:03:09.076     [Action ] -           Flow - Remark: 
+ <69804117152047736> 22/09/2018 12:03:09.077     [Action ] -           Flow - Remark: 
+ <69804117152047736> 22/09/2018 12:03:09.077     [Action ] -         <<Ends Handle User Event: Calc_SHA-256
+ <69804117152047736> 22/09/2018 12:03:15.277     [Action ] -         >>  Processing Event  [Control Hit]  Control Name :  [v.Message1_Unicode_0001] 
+ <69804117152047736> 22/09/2018 12:03:15.278     [Action ] -         Flow - Variable Virtual  'v.SHA256Digest1' (Fast Forward)  [Not Executed]
+ <69804117152047736> 22/09/2018 12:03:15.279     [Action ] -         Flow - Variable Virtual  'v.Message1_Unicode' (Step Forward)  
+ <69804117152047736> 22/09/2018 12:03:15.287     [Action ] -         >>  Processing Event  [Click]  Control Name :  [v.Message1_Unicode_0001] 
+ <69804117152047736> 22/09/2018 12:03:16.347     [Action ] -         >>  Processing Event  [Ctrl+C]  [Copy]  Control Name :  [v.Message1_Unicode_0001] 
+ <69804117152047736> 22/09/2018 12:03:16.918     [Action ] -         >>  Processing Event  [Control Hit]  Control Name :  [v.Message1_Unicode_0001] 
+ <69804117152047736> 22/09/2018 12:03:16.919     [Action ] -         Flow - Variable Virtual  'v.SHA256Digest2' (Fast Forward)  [Not Executed]
+ <69804117152047736> 22/09/2018 12:03:16.920     [Action ] -         Flow - Variable Virtual  'v.Message1_Blob' (Step Forward)  
+ <69804117152047736> 22/09/2018 12:03:16.926     [Action ] -         >>  Processing Event  [Click]  Control Name :  [v.Message1_Unicode_0001] 
+ <69804117152047736> 22/09/2018 12:03:17.485     [Action ] -         >>  Processing Event  [Ctrl+V]  [Paste]  Control Name :  [v.Message1_Unicode_0001] 
+ <69804117152047736> 22/09/2018 12:03:18.575     [Action ] -         >>  Processing Event  [Control Hit]  Control Name :  [ N/A ] 
+ <69804117152047736> 22/09/2018 12:03:18.576     [Action ] -         Flow - Variable Virtual  'v.Message1_Blob' (Step Forward)  
+ <69804117152047736> 22/09/2018 12:03:18.582     [Action ] -         >>Starts Handle User Event: Calc_SHA-256
+ <69804117152047736> 22/09/2018 12:03:18.582     [Action ] -           Flow - Invoke UDP :: 'mgcrypt.mgcrypt_sha256_HexdigitsA'
+ <69804117152047736> 22/09/2018 12:03:18.583     [Action ] -           Flow - Invoke UDP :: 'mgcrypt.mgcrypt_sha256_HexdigitsA'
+ <69804117152047736> 22/09/2018 12:03:18.584     [Action ] -           Flow - Invoke UDP :: 'mgcrypt.mgcrypt_sha256_HexdigitsB'
+ <69804117152047736> 22/09/2018 12:03:18.585     [Action ] -           Flow - Remark: 
+ <69804117152047736> 22/09/2018 12:03:18.586     [Action ] -           Flow - Remark: 
+ <69804117152047736> 22/09/2018 12:03:18.586     [Action ] -         <<Ends Handle User Event: Calc_SHA-256
+ <69804117152047736> 22/09/2018 12:03:20.116     [Action ] -         >>  Processing Event  [Esc]  [Exit]  Control Name :  [v.Message1_Unicode_0001] 
+ <69804117152047736> 22/09/2018 12:03:20.117     [Action ] -         Flow - Variable Virtual  'v.SHA256Digest3' (Fast Forward)  [Not Executed]
+ <69804117152047736> 22/09/2018 12:03:20.118     [Action ] -         Starts Closing Online Task - 'SHA-256' (Task Instance: 8)
+ <69804117152047736> 22/09/2018 12:03:20.129     [Action ] -       <<Ends Close Task
+ <69804117152047736> 22/09/2018 12:03:20.130     [Action ] -     Ends Record Suffix
+ <69804117152047736> 22/09/2018 12:03:20.130     [Action ] -     Starts Closing Batch Task - 'SHA-256' (Task Instance: 7)
+ <69804117152047736> 22/09/2018 12:03:20.131     [Action ] -   <<Ends Close Task
+ <69804117152047736> 22/09/2018 12:03:20.231     [Action ] -   >>  Processing Event  [Exit System]  Control Name :  [ N/A ] 
+ <69804117152047736> 22/09/2018 12:03:20.232     [Info   ] -   Context released : 
+ <69804117152047736> 22/09/2018 12:03:20.233     [Action ] -   Starts Closing Batch Task - 'Main Program (xpacrypt)' (Task Instance: 6)
+ <69804117152047736> 22/09/2018 12:03:20.244     [Action ] -   <<Ends Close Task
+ <69804117152047736> 22/09/2018 12:03:20.245     [Action ] -   Starts Closing Batch Task - 'Main Program (UserFunctionality)' (Task Instance: 5)
+ <69804117152047736> 22/09/2018 12:03:20.246     [Action ] -   <<Ends Close Task
+ <-1> 22/09/2018 12:04:48.488     [Info   ] - Process 10228 - Exiting Magic xpa
+ <-1> 22/09/2018 12:04:48.489     [Info   ] - ------------------------------------------
