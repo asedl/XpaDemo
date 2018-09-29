@@ -16983,3 +16983,11 @@
  <349058991270088768> 22/09/2018 17:52:20.627     [Action ] -   <<Ends Close Task
  <-1> 22/09/2018 17:52:31.183     [Info   ] - Process 7792 - Exiting Magic xpa
  <-1> 22/09/2018 17:52:31.184     [Info   ] - ------------------------------------------
+ *********************   Date: 27/09/2018  ********************
+ <-1> 27/09/2018 22:30:39.082     [Info   ] - The INI file ("C:\magic\xpa3.3\MAGIC.INI") was successfully opened.
+ <-1> 27/09/2018 22:30:39.185     [Info   ] - ProcessID is 4340
+ <-1> 27/09/2018 22:30:39.185     [Info   ] - The current working directory is: "C:\magic\xpa3.3".
+ <-1> 27/09/2018 22:30:39.265     [Info   ] - Starting Magic xpa Server. Maximum checked-out concurrent threads: 1. Maximum checked-out concurrent users: 1.
+ <-1> 27/09/2018 22:30:55.061     [Info   ] -   The project was successfully opened.
+ <-1> 27/09/2018 23:40:24.056     [Info   ] - Process 4340 - Exiting Magic xpa
+ <-1> 27/09/2018 23:40:24.057     [Info   ] - ------------------------------------------
