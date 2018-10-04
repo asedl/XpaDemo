@@ -44,5 +44,8 @@
     <ClCompile Include="mgcrypt_sha256.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="mgcrypt_aes.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

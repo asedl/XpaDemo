@@ -1,0 +1,49 @@
+﻿ <-1> 03/10/2018 14:14:43.303     [Error  ] - "Java Virtual Machine: Cannot be loaded (status: -1)"
+ <-1> 03/10/2018 14:14:55.773     [Error  ] - "Java Virtual Machine: Cannot be loaded (status: -1)"
+ <-1> 03/10/2018 14:14:55.908     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 03/10/2018 14:14:55.987     [Error  ] - Component Files not found : Utilities.ecf
+ <-1> 03/10/2018 14:14:56.057     [Error  ] - Component Files not found : Roslyn.ecf
+ <-1> 03/10/2018 14:14:56.123     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 03/10/2018 14:14:56.185     [Error  ] - Component Files not found : xpa-project-scan.ecf
+ <-1> 03/10/2018 14:14:56.251     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 03/10/2018 14:14:56.339     [Error  ] - Component Files not found : XpaTSoap.ecf
+ <-1> 03/10/2018 14:14:56.444     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 03/10/2018 14:14:56.513     [Error  ] - Component Files not found : Utilities.ecf
+ <-1> 03/10/2018 14:14:56.575     [Error  ] - Component Files not found : Roslyn.ecf
+ <-1> 03/10/2018 14:14:56.636     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 03/10/2018 14:14:56.700     [Error  ] - Component Files not found : xpa-project-scan.ecf
+ <-1> 03/10/2018 14:14:56.782     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 03/10/2018 14:14:56.845     [Error  ] - Component Files not found : XpaTSoap.ecf
+ <-1> 03/10/2018 14:14:58.287     [Error  ] - Java Virtual Machine: Cannot be loaded (status: -1)
+ <-1> 03/10/2018 14:14:58.303     [Error  ] - "Java Virtual Machine: Cannot be loaded (status: -1)"
+ <-1> 03/10/2018 14:14:58.516     [Error  ] - Failed to Load Assembly : "C:\Magic\XpaDemo\XpaDemo\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the file specified."
+ <-1> 03/10/2018 14:14:58.580     [Error  ] - Failed to Load Assembly : "C:\Magic\XpaDemo\XpaDemo\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the file specified."
+ <-1> 03/10/2018 14:14:58.614     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 03/10/2018 14:14:58.630     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 03/10/2018 14:14:58.646     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 03/10/2018 14:14:58.706     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 03/10/2018 14:14:58.722     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 03/10/2018 14:14:58.738     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 03/10/2018 14:14:58.762     [Error  ] - Component Files not found : XpaTSoap.ecf
+ <-1> 03/10/2018 14:14:58.792     [Error  ] - Component Files not found : xpa-project-scan.ecf
+
+==============================================
+PID 13436	03/10/2018 14:15:12
+==============================================
+
+
+ <-1> 03/10/2018 14:15:56.595     [Error  ] - "Java Virtual Machine: Cannot be loaded (status: -1)"
+ <-1> 03/10/2018 14:15:56.793     [Error  ] - Failed to Load Assembly : "C:\Magic\XpaDemo\XpaDemo\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the file specified."
+ <-1> 03/10/2018 14:15:56.857     [Error  ] - Failed to Load Assembly : "C:\Magic\XpaDemo\XpaDemo\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the file specified."
+ <-1> 03/10/2018 14:15:56.865     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 03/10/2018 14:15:56.942     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 03/10/2018 14:15:57.007     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 03/10/2018 14:15:57.107     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 03/10/2018 14:15:57.172     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 03/10/2018 14:15:57.306     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 03/10/2018 14:15:57.376     [Error  ] - Component Files not found : XpaTSoap.ecf
+ <-1> 03/10/2018 14:15:57.439     [Error  ] - Component Files not found : xpa-project-scan.ecf

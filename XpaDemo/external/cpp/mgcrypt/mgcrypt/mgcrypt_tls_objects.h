@@ -16,12 +16,15 @@ class TlsObject
 public:
 	TlsObject()
 	{
+		m_pBuffer_Ciphertext = 0;
 	}
 
 	virtual ~TlsObject()
 	{
+		delete[] m_pBuffer_Ciphertext;
 	}
 
+	char* m_pBuffer_Ciphertext;
 
 	DWORD   m_dwThreadId, m_dwThreadIndex;
 };

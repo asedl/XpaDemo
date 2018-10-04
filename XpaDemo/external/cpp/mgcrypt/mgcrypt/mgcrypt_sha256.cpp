@@ -34,8 +34,9 @@ char* sha256_HexdigitsA(char* lpszData, size_t lInputLength, char* lpszSHA256Buf
 	encoder.Put(digest, sizeof(digest));
 	encoder.MessageEnd();
 
-	if (output.length() <= lOutputLenghtMax)
-		copy(output.begin(), output.end(), lpszSHA256Buffer);
+	if (output.length() <= lOutputLenghtMax) {
+		copy(output.begin(), output.end(), stdext::checked_array_iterator<char*>(lpszSHA256Buffer, lOutputLenghtMax));
+	}
 	else
 		*lpszSHA256Buffer = 0;
 	return lpszSHA256Buffer;
