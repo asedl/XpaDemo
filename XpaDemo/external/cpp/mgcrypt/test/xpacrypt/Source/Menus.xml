@@ -594,7 +594,7 @@
           <Prompt comp="-1"/>
           <Menu>
             <MenuType val="1"/>
-            <LastIsn val="3"/>
+            <LastIsn val="5"/>
             <MenuEntry id="2">
               <MenuType val="2"/>
               <Description_U val="SHA-256"/>
@@ -611,6 +611,24 @@
               <Help comp="-1"/>
               <Prompt comp="-1"/>
               <Program ObjIsn="4" comp="-1" obj="4"/>
+              <SourceContext val="67"/>
+            </MenuEntry>
+            <MenuEntry id="4">
+              <MenuType val="2"/>
+              <Description_U val="TST003_Random"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Program ObjIsn="7" comp="-1" obj="7"/>
+              <SourceContext val="67"/>
+            </MenuEntry>
+            <MenuEntry id="5">
+              <MenuType val="2"/>
+              <Description_U val="TST004_Hexdigits"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Program ObjIsn="9" comp="-1" obj="9"/>
               <SourceContext val="67"/>
             </MenuEntry>
           </Menu>

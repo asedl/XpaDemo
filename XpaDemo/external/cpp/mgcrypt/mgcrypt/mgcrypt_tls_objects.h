@@ -17,14 +17,20 @@ public:
 	TlsObject()
 	{
 		m_pBuffer_Ciphertext = 0;
+		m_pBuffer_Random = 0;
+		m_pBuffer_Hexencode = 0;
 	}
 
 	virtual ~TlsObject()
 	{
 		delete[] m_pBuffer_Ciphertext;
+		delete[] m_pBuffer_Random;
+		delete[] m_pBuffer_Hexencode;
 	}
 
 	char* m_pBuffer_Ciphertext;
+	char* m_pBuffer_Random;
+	char* m_pBuffer_Hexencode;
 
 	DWORD   m_dwThreadId, m_dwThreadIndex;
 };

@@ -21,6 +21,7 @@ using CryptoPP::AuthenticatedSymmetricCipher;
 #include "filters.h"
 using CryptoPP::StringSink;
 using CryptoPP::StringSource;
+using CryptoPP::StreamTransformationFilter;
 using CryptoPP::AuthenticatedEncryptionFilter;
 using CryptoPP::AuthenticatedDecryptionFilter;
 
@@ -31,6 +32,11 @@ using CryptoPP::AES;
 using CryptoPP::GCM;
 using CryptoPP::GCM_TablesOption;
 
+#include "osrng.h"
+#include "sha.h"
+#include "hkdf.h"
+#include "base64.h"
+
 #include "assert.h"
 
 #include "mgcrypt_tls_objects.h"
@@ -38,6 +44,7 @@ using CryptoPP::GCM_TablesOption;
 
 using namespace std;
 using namespace CryptoPP;
+
 
 int AES_Encrypt (const char* lpszPlaintext, long lpdwPlaintextLength, char* lpszKey, char* lpszMode, char**lpszCiphertext, char* lpszIV) {
 
@@ -100,4 +107,102 @@ int AES_Encrypt (const char* lpszPlaintext, long lpdwPlaintextLength, char* lpsz
 
 	return 0;
 
+}
+
+int AES_Encrypt_ECB (const char* lpszPlaintext, long lpdwPlaintextLength, char* lpszKey, char**lpszCiphertext) {
+
+	
+	string skey(lpszKey);
+	string plaintext(lpszPlaintext, lpdwPlaintextLength);
+	string ciphertext, encoded;
+
+	string key_decoded;
+	StringSource ss(lpszKey,
+		new HexDecoder(
+			new StringSink(key_decoded)
+		) // HexDecoder
+	); // StringSource
+
+	HexDecoder decoder(new StringSink(key_decoded));
+	decoder.Put((const byte*) skey.data(), skey.size());
+	decoder.MessageEnd();
+
+	SecByteBlock key(0);
+	key.Assign((const byte*) key_decoded.data(), key_decoded.size());
+
+
+	try
+	{
+		ECB_Mode< AES >::Encryption e;
+		e.SetKey(key.begin(), key.size());
+
+		// The StreamTransformationFilter adds padding
+		//  as required. ECB and CBC Mode must be padded
+		//  to the block size of the cipher.
+		StringSource ss1(lpszPlaintext, true,
+			new StreamTransformationFilter(e,
+				new StringSink(ciphertext)
+			) // StreamTransformationFilter      
+		); // StringSource
+
+		// Pretty print
+		StringSource(ciphertext, true,
+			new HexEncoder(new StringSink(encoded), true, 16, " "));
+	}
+	catch (CryptoPP::BufferedTransformation::NoChannelSupport& e)
+	{
+	}
+	catch (CryptoPP::AuthenticatedSymmetricCipher::BadState& e)
+	{
+	}
+	catch (CryptoPP::InvalidArgument& e)
+	{
+	}
+	
+	*lpszCiphertext = new char[encoded.length() + 1];
+	copy(encoded.begin(), encoded.end(), stdext::checked_array_iterator<char*>(*lpszCiphertext, encoded.length()));
+	(*lpszCiphertext)[encoded.length()] = 0;
+
+	return 0;
+
+}
+
+char* AES_DeriveKey(char* lpszPassphrase, char* lpszIV, char* lpszKeyBuffer, size_t lKeybufferLength) {
+
+	SecByteBlock key(AES::MAX_KEYLENGTH + AES::BLOCKSIZE);
+	string password(lpszPassphrase), iv(lpszIV);
+
+	try {
+		HKDF<SHA256> hkdf;
+		hkdf.DeriveKey(key, key.size(), (const byte*)password.data(), password.size(), (const byte*)iv.data(), iv.size(), NULL, 0);
+
+		string encoded, keystr(reinterpret_cast<const char*>(&key[0]), key.size());
+
+		/* base64 encoder ...
+		StringSource ss(keystr, true,
+			new Base64Encoder(
+				new StringSink(encoded)
+			) // Base64Encoder
+		); // StringSource
+		*/
+
+		CryptoPP::HexEncoder encoder;
+		encoder.Attach(new CryptoPP::StringSink(encoded));
+		encoder.Put(key, sizeof(key));
+		encoder.MessageEnd();
+
+		int lencoded = encoded.size();
+		if (lencoded + 1 <= lKeybufferLength) {
+			copy(encoded.begin(), encoded.end(), stdext::checked_array_iterator<char*>(lpszKeyBuffer, lKeybufferLength));
+			lpszKeyBuffer[lencoded] = 0;
+		}
+		else
+			*lpszKeyBuffer = 0;
+		return lpszKeyBuffer;
+
+	}
+	catch (const Exception& ex)
+	{
+		return 0;
+	}
 }

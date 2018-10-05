@@ -13,7 +13,7 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="SHA-256" ISN_2="1" LastIsn="2" id="3">
+        <Header Description="TST001_SHA-256" ISN_2="1" LastIsn="2" id="3">
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -27,7 +27,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736970" _time="52263" date="03/10/2018" time="14:31:03"/>
+          <LastModified _date="736972" _time="46512" date="05/10/2018" time="12:55:12"/>
         </Header>
         <Resource>
           <Columns/>
@@ -150,7 +150,7 @@
           <FormEntry id="1">
             <PropertyList model="FORM_GUI0">
               <_Comment id="218"/>
-              <FormName id="311" valUnicode="SHA-256"/>
+              <FormName id="311" valUnicode="TST001_SHA-256"/>
             </PropertyList>
           </FormEntry>
         </TaskForms>
@@ -168,9 +168,9 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="736970" _time="52263" date="03/10/2018" time="14:31:03"/>
+            <LastModified _date="736972" _time="46512" date="05/10/2018" time="12:55:12"/>
           </Header>
-          <ItemIsn val="10"/>
+          <ItemIsn val="11"/>
           <Resource>
             <Columns>
               <Column id="2" name="v.Message1_Alpha">
@@ -180,22 +180,27 @@
                   <StoredAs id="173" val="1"/>
                   <Size id="174" val="1000"/>
                   <_Flip id="194"/>
+                  <PartOfDataview id="449"/>
                 </PropertyList>
               </Column>
-              <Column id="3" name="v.Message1_Unicode">
-                <PropertyList model="FIELD">
-                  <Model attr_obj="FIELD_UNICODE" id="1"/>
-                  <Picture id="157" valUnicode="1000"/>
-                  <Size id="174" val="2000"/>
-                  <_FieldStyle id="276" val="1"/>
-                </PropertyList>
-              </Column>
-              <Column id="8" name="v.Message1_Blob">
+              <Column id="8" name="v.Message1_BlobBinary">
                 <PropertyList model="FIELD">
                   <Model attr_obj="FIELD_BLOB" id="1"/>
                   <Size id="174" val="28"/>
                   <Definition id="175" val="1"/>
                   <_FieldStyle id="276" val="1"/>
+                  <PartOfDataview id="449"/>
+                </PropertyList>
+              </Column>
+              <Column id="10" name="v.Message1_BlobAnsi">
+                <PropertyList model="FIELD">
+                  <Model attr_obj="FIELD_BLOB" id="1"/>
+                  <StoredAs id="173" val="33"/>
+                  <Size id="174" val="28"/>
+                  <Definition id="175" val="1"/>
+                  <_FieldStyle id="276" val="1"/>
+                  <Content id="434" val="1"/>
+                  <PartOfDataview id="449"/>
                 </PropertyList>
               </Column>
               <Column id="6" name="v.SHA256Digest1">
@@ -205,6 +210,7 @@
                   <StoredAs id="173" val="1"/>
                   <Size id="174" val="64"/>
                   <_Flip id="194"/>
+                  <PartOfDataview id="449"/>
                 </PropertyList>
               </Column>
               <Column id="7" name="v.SHA256Digest2">
@@ -214,6 +220,7 @@
                   <StoredAs id="173" val="1"/>
                   <Size id="174" val="64"/>
                   <_Flip id="194"/>
+                  <PartOfDataview id="449"/>
                 </PropertyList>
               </Column>
               <Column id="9" name="v.SHA256Digest3">
@@ -223,6 +230,7 @@
                   <StoredAs id="173" val="1"/>
                   <Size id="174" val="64"/>
                   <_Flip id="194"/>
+                  <PartOfDataview id="449"/>
                 </PropertyList>
               </Column>
             </Columns>
@@ -315,20 +323,9 @@
                     <Column val="2"/>
                     <Type val="V"/>
                     <IsParameter val="N"/>
-                    <_DitIndexForToolkit val="1"/>
+                    <_DitIndexForToolkit val="2"/>
                     <DIFF_UPDATE val="T"/>
-                    <Condition val="Y"/>
-                    <Modifier val="S"/>
-                    <Direction val="C"/>
-                  </Select>
-                </LogicLine>
-                <LogicLine>
-                  <Select FieldID="3" FlowIsn="4" id="3">
-                    <Column val="3"/>
-                    <Type val="V"/>
-                    <IsParameter val="N"/>
-                    <_DitIndexForToolkit val="3"/>
-                    <DIFF_UPDATE val="T"/>
+                    <PartOfDataview val="N"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
                     <Direction val="C"/>
@@ -341,6 +338,20 @@
                     <IsParameter val="N"/>
                     <_DitIndexForToolkit val="5"/>
                     <DIFF_UPDATE val="T"/>
+                    <PartOfDataview val="N"/>
+                    <Condition val="Y"/>
+                    <Modifier val="S"/>
+                    <Direction val="C"/>
+                  </Select>
+                </LogicLine>
+                <LogicLine>
+                  <Select FieldID="11" FlowIsn="37" id="11">
+                    <Column val="10"/>
+                    <Type val="V"/>
+                    <IsParameter val="N"/>
+                    <_DitIndexForToolkit val="8"/>
+                    <DIFF_UPDATE val="T"/>
+                    <PartOfDataview val="N"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
                     <Direction val="C"/>
@@ -357,8 +368,9 @@
                     <Column val="6"/>
                     <Type val="V"/>
                     <IsParameter val="N"/>
-                    <_DitIndexForToolkit val="2"/>
+                    <_DitIndexForToolkit val="3"/>
                     <DIFF_UPDATE val="T"/>
+                    <PartOfDataview val="N"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
                     <Direction val="C"/>
@@ -369,8 +381,9 @@
                     <Column val="7"/>
                     <Type val="V"/>
                     <IsParameter val="N"/>
-                    <_DitIndexForToolkit val="4"/>
+                    <_DitIndexForToolkit val="6"/>
                     <DIFF_UPDATE val="T"/>
+                    <PartOfDataview val="N"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
                     <Direction val="C"/>
@@ -381,8 +394,9 @@
                     <Column val="9"/>
                     <Type val="V"/>
                     <IsParameter val="N"/>
-                    <_DitIndexForToolkit val="6"/>
+                    <_DitIndexForToolkit val="9"/>
                     <DIFF_UPDATE val="T"/>
+                    <PartOfDataview val="N"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
                     <Direction val="C"/>
@@ -403,6 +417,12 @@
               </Event>
               <Expanded val="1"/>
               <LogicLines>
+                <LogicLine>
+                  <Remark FlowIsn="38">
+                    <Type val="2"/>
+                    <Text val="SHA-256 for Magic variable Alphanumeric (ANSI)"/>
+                  </Remark>
+                </LogicLine>
                 <LogicLine>
                   <Invoke FlowIsn="14">
                     <OperationType val="U"/>
@@ -437,9 +457,36 @@
                   </Invoke>
                 </LogicLine>
                 <LogicLine>
+                  <Remark FlowIsn="16">
+                    <Type val="2"/>
+                    <Text val=" "/>
+                  </Remark>
+                </LogicLine>
+              </LogicLines>
+            </LogicUnit>
+            <LogicUnit id="5" propagate="78">
+              <Level val="H"/>
+              <Type val="U"/>
+              <Scope val="S"/>
+              <EngineDirective val="S"/>
+              <ShowMessage val="Y"/>
+              <Condition val="89"/>
+              <Event>
+                <EventType val="U"/>
+                <PublicObject comp="-1" obj="2"/>
+              </Event>
+              <Expanded val="1"/>
+              <LogicLines>
+                <LogicLine>
+                  <Remark FlowIsn="40">
+                    <Type val="2"/>
+                    <Text val="SHA-256 for Magic variable Blob (Binary)"/>
+                  </Remark>
+                </LogicLine>
+                <LogicLine>
                   <Invoke FlowIsn="17">
                     <OperationType val="U"/>
-                    <TaskID comp="-1" obj="2"/>
+                    <TaskID comp="-1" obj="11"/>
                     <Lock val="Y"/>
                     <Arguments>
                       <Argument>
@@ -451,40 +498,7 @@
                         <Skip val="N"/>
                       </Argument>
                       <Argument>
-                        <Variable val="3"/>
-                        <Skip val="N"/>
-                      </Argument>
-                      <Argument>
-                        <Expression val="6"/>
-                        <Skip val="N"/>
-                      </Argument>
-                    </Arguments>
-                    <Wait val="Y"/>
-                    <SyncData val="N"/>
-                    <Convention val="S"/>
-                    <UdpType val="B"/>
-                    <RetainFocus val="N"/>
-                    <Condition val="Y"/>
-                    <Modifier val="B"/>
-                    <Direction val="C"/>
-                  </Invoke>
-                </LogicLine>
-                <LogicLine>
-                  <Invoke FlowIsn="25">
-                    <OperationType val="U"/>
-                    <TaskID comp="-1" obj="11"/>
-                    <Lock val="Y"/>
-                    <Arguments>
-                      <Argument>
-                        <Variable val="10"/>
-                        <Skip val="N"/>
-                      </Argument>
-                      <Argument>
-                        <Expression val="12"/>
-                        <Skip val="N"/>
-                      </Argument>
-                      <Argument>
-                        <Variable val="9"/>
+                        <Expression val="14"/>
                         <Skip val="N"/>
                       </Argument>
                       <Argument>
@@ -503,13 +517,67 @@
                   </Invoke>
                 </LogicLine>
                 <LogicLine>
-                  <Remark FlowIsn="15">
+                  <Remark FlowIsn="57">
                     <Type val="2"/>
                     <Text val=" "/>
                   </Remark>
                 </LogicLine>
+              </LogicLines>
+            </LogicUnit>
+            <LogicUnit id="6" propagate="78">
+              <Level val="H"/>
+              <Type val="U"/>
+              <Scope val="S"/>
+              <EngineDirective val="S"/>
+              <ShowMessage val="Y"/>
+              <Condition val="89"/>
+              <Event>
+                <EventType val="U"/>
+                <PublicObject comp="-1" obj="3"/>
+              </Event>
+              <Expanded val="1"/>
+              <LogicLines>
                 <LogicLine>
-                  <Remark FlowIsn="16">
+                  <Remark FlowIsn="43">
+                    <Type val="2"/>
+                    <Text val="SHA-256 for Magic variable Blob (ANSI)"/>
+                  </Remark>
+                </LogicLine>
+                <LogicLine>
+                  <Invoke FlowIsn="25">
+                    <OperationType val="U"/>
+                    <TaskID comp="-1" obj="11"/>
+                    <Lock val="Y"/>
+                    <Arguments>
+                      <Argument>
+                        <Variable val="10"/>
+                        <Skip val="N"/>
+                      </Argument>
+                      <Argument>
+                        <Expression val="12"/>
+                        <Skip val="N"/>
+                      </Argument>
+                      <Argument>
+                        <Variable val="11"/>
+                        <Skip val="N"/>
+                      </Argument>
+                      <Argument>
+                        <Expression val="15"/>
+                        <Skip val="N"/>
+                      </Argument>
+                    </Arguments>
+                    <Wait val="Y"/>
+                    <SyncData val="N"/>
+                    <Convention val="S"/>
+                    <UdpType val="B"/>
+                    <RetainFocus val="N"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </Invoke>
+                </LogicLine>
+                <LogicLine>
+                  <Remark FlowIsn="58">
                     <Type val="2"/>
                     <Text val=" "/>
                   </Remark>
@@ -517,7 +585,7 @@
               </LogicLines>
             </LogicUnit>
             <LogicUnit id="2" propagate="78">
-              <Level val="R"/>
+              <Level val="T"/>
               <Type val="P"/>
               <Scope val="S"/>
               <EngineDirective val="S"/>
@@ -548,8 +616,8 @@
                 </LogicLine>
                 <LogicLine>
                   <Update FlowIsn="12">
-                    <FieldID val="3"/>
-                    <WithValue val="1"/>
+                    <FieldID val="9"/>
+                    <WithValue val="16"/>
                     <Incremental val="N"/>
                     <ForcedUpdate val="Y"/>
                     <Condition val="Y"/>
@@ -559,7 +627,7 @@
                 </LogicLine>
                 <LogicLine>
                   <Update FlowIsn="36">
-                    <FieldID val="9"/>
+                    <FieldID val="11"/>
                     <WithValue val="1"/>
                     <Incremental val="N"/>
                     <ForcedUpdate val="Y"/>
@@ -572,20 +640,31 @@
             </LogicUnit>
           </TaskLogic>
           <TaskForms>
-            <FormEntry _last_isn="11" _last_test_id="11" id="1">
+            <FormEntry _last_isn="16" _last_test_id="16" id="1">
               <PropertyList model="FORM_GUI0">
                 <Width id="23" val="667"/>
-                <Height id="24" val="223"/>
+                <Height id="24" val="219"/>
                 <_Comment id="218"/>
                 <FormName id="311" valUnicode="SHA-256"/>
               </PropertyList>
+              <Control _test_id="12" id="12">
+                <PropertyList model="CTRL_GUI0_STATIC">
+                  <Text id="19" valUnicode="Magic Alphanumeric (1000)"/>
+                  <X id="21" val="10"/>
+                  <Y id="22" val="12"/>
+                  <Width id="23" val="165"/>
+                  <Height id="24" val="9"/>
+                  <EnableRTF id="69"/>
+                  <_Orientation id="143"/>
+                </PropertyList>
+              </Control>
               <Control _test_id="1" id="1">
                 <PropertyList model="CTRL_GUI0_EDIT">
                   <Model ID="MODEL_GUI_INT" id="1">
                     <Var FieldID="2"/>
                   </Model>
                   <X id="21" val="8"/>
-                  <Y id="22" val="6"/>
+                  <Y id="22" val="22"/>
                   <Width id="23" val="650"/>
                   <Height id="24" val="34"/>
                   <Data FieldID="2" id="43"/>
@@ -604,7 +683,7 @@
                     <Var FieldID="6"/>
                   </Model>
                   <X id="21" val="8"/>
-                  <Y id="22" val="43"/>
+                  <Y id="22" val="59"/>
                   <Width id="23" val="344"/>
                   <Height id="24" val="10"/>
                   <Data FieldID="6" id="43"/>
@@ -613,22 +692,31 @@
                   <TabOrder id="314" val="2"/>
                 </PropertyList>
               </Control>
-              <Control _test_id="3" id="3">
-                <PropertyList model="CTRL_GUI0_EDIT">
-                  <Model ID="MODEL_GUI_INT" id="1">
-                    <Var FieldID="3"/>
-                  </Model>
+              <Control _test_id="13" id="13">
+                <PropertyList model="CTRL_GUI0_STATIC">
+                  <Text id="19" valUnicode="Magic Blob (Binary)"/>
                   <X id="21" val="8"/>
-                  <Y id="22" val="56"/>
+                  <Y id="22" val="69"/>
+                  <Width id="23" val="165"/>
+                  <Height id="24" val="9"/>
+                  <EnableRTF id="69"/>
+                  <_Orientation id="143"/>
+                </PropertyList>
+              </Control>
+              <Control PDOD="128" _test_id="3" id="3">
+                <PropertyList model="CTRL_GUI0_EDIT">
+                  <X id="21" val="8"/>
+                  <Y id="22" val="80"/>
                   <Width id="23" val="650"/>
                   <Height id="24" val="34"/>
-                  <Data FieldID="3" id="43"/>
-                  <ControlName id="46" val="v.Message1_Unicode_0001"/>
+                  <Data FieldID="9" id="43"/>
+                  <ControlName id="46" val="v.Message1_BlobBinary"/>
                   <MultiLineEdit id="71" val="Y"/>
                   <VerticalScroll id="73" val="Y"/>
                   <AllowCRInData id="74" val="Y"/>
+                  <PasswordEdit id="85"/>
                   <_Orientation id="143"/>
-                  <TabOrder id="314" val="3"/>
+                  <TabOrder id="314" val="4"/>
                   <MultilineWordwrapScroll id="455" val="3"/>
                 </PropertyList>
               </Control>
@@ -638,29 +726,40 @@
                     <Var FieldID="7"/>
                   </Model>
                   <X id="21" val="8"/>
-                  <Y id="22" val="96"/>
+                  <Y id="22" val="120"/>
                   <Width id="23" val="344"/>
                   <Height id="24" val="10"/>
                   <Data FieldID="7" id="43"/>
                   <ControlName id="46" val="v.SHA256Digest2_0001"/>
                   <_Orientation id="143"/>
-                  <TabOrder id="314" val="4"/>
+                  <TabOrder id="314" val="6"/>
+                </PropertyList>
+              </Control>
+              <Control _test_id="14" id="14">
+                <PropertyList model="CTRL_GUI0_STATIC">
+                  <Text id="19" valUnicode="Magic Blob (ANSI)"/>
+                  <X id="21" val="10"/>
+                  <Y id="22" val="141"/>
+                  <Width id="23" val="165"/>
+                  <Height id="24" val="9"/>
+                  <EnableRTF id="69"/>
+                  <_Orientation id="143"/>
                 </PropertyList>
               </Control>
               <Control PDOD="128" _test_id="11" id="11">
                 <PropertyList model="CTRL_GUI0_EDIT">
                   <X id="21" val="8"/>
-                  <Y id="22" val="112"/>
+                  <Y id="22" val="152"/>
                   <Width id="23" val="650"/>
                   <Height id="24" val="34"/>
-                  <Data FieldID="9" id="43"/>
+                  <Data FieldID="11" id="43"/>
                   <ControlName id="46" val="v.Message1_Unicode_0001"/>
                   <MultiLineEdit id="71" val="Y"/>
                   <VerticalScroll id="73" val="Y"/>
                   <AllowCRInData id="74" val="Y"/>
                   <PasswordEdit id="85"/>
                   <_Orientation id="143"/>
-                  <TabOrder id="314" val="5"/>
+                  <TabOrder id="314" val="7"/>
                   <MultilineWordwrapScroll id="455" val="3"/>
                 </PropertyList>
               </Control>
@@ -670,19 +769,19 @@
                     <Var FieldID="10"/>
                   </Model>
                   <X id="21" val="8"/>
-                  <Y id="22" val="152"/>
+                  <Y id="22" val="192"/>
                   <Width id="23" val="344"/>
                   <Height id="24" val="10"/>
                   <Data FieldID="10" id="43"/>
                   <ControlName id="46" val="v.SHA256Digest3_0001"/>
                   <_Orientation id="143"/>
-                  <TabOrder id="314" val="6"/>
+                  <TabOrder id="314" val="8"/>
                 </PropertyList>
               </Control>
               <Control PDOD="128" _test_id="9" id="9">
                 <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
-                  <X id="21" val="8"/>
-                  <Y id="22" val="202"/>
+                  <X id="21" val="542"/>
+                  <Y id="22" val="60"/>
                   <Width id="23" val="117"/>
                   <Height id="24" val="14"/>
                   <Format id="82" valUnicode="Calc SHA-256"/>
@@ -690,7 +789,35 @@
                     <EventType val="U"/>
                     <PublicObject comp="-1" obj="1"/>
                   </RaiseEvent>
-                  <TabOrder id="314" val="7"/>
+                  <TabOrder id="314" val="3"/>
+                </PropertyList>
+              </Control>
+              <Control PDOD="128" _test_id="15" id="15">
+                <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+                  <X id="21" val="542"/>
+                  <Y id="22" val="116"/>
+                  <Width id="23" val="117"/>
+                  <Height id="24" val="14"/>
+                  <Format id="82" valUnicode="Calc SHA-256"/>
+                  <RaiseEvent id="234">
+                    <EventType val="U"/>
+                    <PublicObject comp="-1" obj="2"/>
+                  </RaiseEvent>
+                  <TabOrder id="314" val="5"/>
+                </PropertyList>
+              </Control>
+              <Control PDOD="128" _test_id="16" id="16">
+                <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+                  <X id="21" val="542"/>
+                  <Y id="22" val="192"/>
+                  <Width id="23" val="117"/>
+                  <Height id="24" val="14"/>
+                  <Format id="82" valUnicode="Calc SHA-256"/>
+                  <RaiseEvent id="234">
+                    <EventType val="U"/>
+                    <PublicObject comp="-1" obj="3"/>
+                  </RaiseEvent>
+                  <TabOrder id="314" val="9"/>
                 </PropertyList>
               </Control>
             </FormEntry>
@@ -698,6 +825,10 @@
           <Expressions>
             <Expression id="1">
               <ExpSyntax val="'Franz jagt im komplett verwahrlosten Taxi quer durch Bayern'"/>
+              <ExpAttribute val="A"/>
+            </Expression>
+            <Expression id="16">
+              <ExpSyntax val="UnicodeToANSI ('Franz jagt im komplett verwahrlosten Taxi quer durch Bayern', 65000)"/>
               <ExpAttribute val="A"/>
             </Expression>
             <Expression id="3">
@@ -716,12 +847,12 @@
               <ExpSyntax val="Len(Trim({0,2}))"/>
               <ExpAttribute val="N"/>
             </Expression>
-            <Expression id="6">
-              <ExpSyntax val="Len(Trim({0,3}))"/>
-              <ExpAttribute val="N"/>
-            </Expression>
             <Expression id="13">
               <ExpSyntax val="BlobSize({0,9})"/>
+              <ExpAttribute val="N"/>
+            </Expression>
+            <Expression id="15">
+              <ExpSyntax val="BlobSize({0,11})"/>
               <ExpAttribute val="N"/>
             </Expression>
             <Expression id="2">
@@ -732,8 +863,24 @@
               <ExpSyntax val="'mgcrypt.mgcrypt_sha256_HexdigitsB'"/>
               <ExpAttribute val="A"/>
             </Expression>
+            <Expression id="14">
+              <ExpSyntax val="{0,9}"/>
+              <ExpAttribute val="O"/>
+            </Expression>
           </Expressions>
-          <EVNT DESC="Calc_SHA-256" FORCE_EXIT="N" id="1">
+          <EVNT DESC="SHA-256 (from Alphanumeric)" FORCE_EXIT="N" id="1">
+            <Event>
+              <EventType val="N"/>
+              <PublicObject comp="-1"/>
+            </Event>
+          </EVNT>
+          <EVNT DESC="SHA-256 (from Blob Binary)" FORCE_EXIT="N" id="2">
+            <Event>
+              <EventType val="N"/>
+              <PublicObject comp="-1"/>
+            </Event>
+          </EVNT>
+          <EVNT DESC="SHA-256 (from Blob Ansi)" FORCE_EXIT="N" id="3">
             <Event>
               <EventType val="N"/>
               <PublicObject comp="-1"/>

@@ -5,17 +5,29 @@
     <Version val="13030.00"/>
     <WithIsn val="Y"/>
     <Exe comp="-1"/>
-    <LastIsn val="4"/>
-    <LastIsnFolder val="0"/>
-    <Folders/>
+    <LastIsn val="11"/>
+    <LastIsnFolder val="2"/>
+    <Folders>
+      <Folder id="2">
+        <Name val="Testprograms (UI)"/>
+      </Folder>
+      <Folder id="1">
+        <Name val="Cryptfun"/>
+      </Folder>
+    </Folders>
   </Header>
 
   <ProgramsRepositoryOutLine>
     <Programs>
       <Program id="1"/>
       <Program id="2"/>
-      <Program id="3"/>
-      <Program id="4"/>
+      <Program FolderIsn="2" id="3"/>
+      <Program FolderIsn="2" id="4"/>
+      <Program FolderIsn="2" id="7"/>
+      <Program FolderIsn="2" id="9"/>
+      <Program FolderIsn="2" id="11"/>
+      <Program FolderIsn="1" id="10"/>
+      <Program FolderIsn="1" id="5"/>
     </Programs>
   </ProgramsRepositoryOutLine>
 
