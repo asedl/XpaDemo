@@ -13,7 +13,8 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="TST003_Random" ISN_2="1" LastIsn="2" id="7">
+        <Header Description="TSTO003_Random" ISN_2="1" LastIsn="2" id="7">
+          <Public val="TSTO003_Random"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -27,7 +28,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736972" _time="12923" date="05/10/2018" time="03:35:23"/>
+          <LastModified _date="736972" _time="84361" date="05/10/2018" time="23:26:01"/>
         </Header>
         <Resource>
           <Columns/>
@@ -150,7 +151,7 @@
           <FormEntry id="1">
             <PropertyList model="FORM_GUI0">
               <_Comment id="218"/>
-              <FormName id="311" valUnicode="TST003_Random"/>
+              <FormName id="311" valUnicode="TSTO003_Random"/>
             </PropertyList>
           </FormEntry>
         </TaskForms>
@@ -168,7 +169,7 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="736972" _time="12923" date="05/10/2018" time="03:35:23"/>
+            <LastModified _date="736972" _time="54189" date="05/10/2018" time="15:03:09"/>
           </Header>
           <ItemIsn val="20"/>
           <Resource>
@@ -333,10 +334,33 @@
                     <WithValue val="17"/>
                     <Incremental val="N"/>
                     <ForcedUpdate val="Y"/>
-                    <Condition val="Y"/>
+                    <Condition val="N"/>
                     <Modifier val="B"/>
                     <Direction val="C"/>
                   </Update>
+                </LogicLine>
+                <LogicLine>
+                  <CallTask FlowIsn="106">
+                    <OperationType val="P"/>
+                    <TaskID comp="-1" obj="14"/>
+                    <Lock val="N"/>
+                    <Arguments>
+                      <Argument>
+                        <Variable val="20"/>
+                        <Skip val="N"/>
+                      </Argument>
+                      <Argument>
+                        <Variable val="11"/>
+                        <Skip val="N"/>
+                      </Argument>
+                    </Arguments>
+                    <Wait val="Y"/>
+                    <SyncData val="N"/>
+                    <RetainFocus val="N"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </CallTask>
                 </LogicLine>
                 <LogicLine>
                   <Remark FlowIsn="50">
@@ -424,6 +448,7 @@
                   <Style id="63" val="3"/>
                   <EnableRTF id="69" val="Y"/>
                   <MultiLine id="71" val="Y"/>
+                  <_Orientation id="143"/>
                 </PropertyList>
               </Control>
               <Control PDOD="128" _test_id="24" id="24">

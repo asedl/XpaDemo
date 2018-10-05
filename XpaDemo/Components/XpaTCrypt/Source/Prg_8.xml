@@ -13,7 +13,7 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="112">
+        <Header ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="8">
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -36,7 +36,7 @@
           <Key>
             <Mode val="N"/>
           </Key>
-          <DB/>
+          <DB comp="-1"/>
           <Sort>
             <CLS val="A"/>
           </Sort>
@@ -90,7 +90,7 @@
           </BOX>
         </Information>
         <TaskLogic>
-          <LogicUnit id="1" propagate="78">
+          <LogicUnit id="2" propagate="78">
             <Level val="R"/>
             <Type val="M"/>
             <Scope val="S"/>
@@ -103,7 +103,7 @@
             </Event>
             <LogicLines>
               <LogicLine>
-                <DATAVIEW_SRC FlowIsn="1" Type="M">
+                <DATAVIEW_SRC FlowIsn="2" Type="M">
                   <Condition val="N"/>
                   <Modifier val="B"/>
                   <Direction val="C"/>

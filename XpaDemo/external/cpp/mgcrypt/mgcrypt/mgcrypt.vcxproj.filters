@@ -36,6 +36,9 @@
     <ClInclude Include="mgcrypt_misc.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
+    <ClInclude Include="mgcrypt_strutil.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -54,6 +57,9 @@
       <Filter>Quelldateien</Filter>
     </ClCompile>
     <ClCompile Include="mgcrypt_misc.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="mgcrypt_strutil.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>

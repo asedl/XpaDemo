@@ -123,44 +123,6 @@
       <SourceFileTimeStamp _date="736970" _time="43241" date="03/10/2018" time="12:00:41"/>
     </Program>
     <Program>
-      <Header ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="112">
-        <ExecutionRight comp="-1"/>
-        <Resident val="N"/>
-        <SQL val="N"/>
-        <ReturnValue>
-          <ReturnValueAttr/>
-          <ParametersAttributes/>
-        </ReturnValue>
-        <SqlWhereExist val="N"/>
-        <TaskType val="O"/>
-        <External val="N"/>
-        <Offline val="N"/>
-        <FormType val="N"/>
-        <DotNetObjectExists val="N"/>
-        <LastModified date="00/00/0000" time="00:00:00"/>
-      </Header>
-      <SourceFileTimeStamp _date="736970" _time="43241" date="03/10/2018" time="12:00:41"/>
-    </Program>
-    <Program>
-      <Header Description="SHA-256" ISN_2="1" LastIsn="1" id="113">
-        <ExecutionRight comp="-1"/>
-        <Resident val="N"/>
-        <SQL val="N"/>
-        <ReturnValue>
-          <ReturnValueAttr/>
-          <ParametersAttributes/>
-        </ReturnValue>
-        <SqlWhereExist val="N"/>
-        <TaskType val="O"/>
-        <External val="N"/>
-        <Offline val="N"/>
-        <FormType val="N"/>
-        <DotNetObjectExists val="N"/>
-        <LastModified _date="736959" _time="2380" date="22/09/2018" time="00:39:40"/>
-      </Header>
-      <SourceFileTimeStamp _date="736970" _time="43241" date="03/10/2018" time="12:00:41"/>
-    </Program>
-    <Program>
       <Header Description="TestScreen01" ISN_2="1" LastIsn="1" id="109">
         <ExecutionRight comp="-1"/>
         <Resident val="N"/>

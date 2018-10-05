@@ -166,6 +166,7 @@
     <ClInclude Include="mgcrypt_aes.h" />
     <ClInclude Include="mgcrypt_misc.h" />
     <ClInclude Include="mgcrypt_sha256.h" />
+    <ClInclude Include="mgcrypt_strutil.h" />
     <ClInclude Include="mgcrypt_tls_objects.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
@@ -177,6 +178,7 @@
     <ClCompile Include="mgcrypt_aes.cpp" />
     <ClCompile Include="mgcrypt_misc.cpp" />
     <ClCompile Include="mgcrypt_sha256.cpp" />
+    <ClCompile Include="mgcrypt_strutil.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

@@ -14,6 +14,7 @@
     <Programs>
       <Task MainProgram="N">
         <Header Description="AES_DeriveKey" ISN_2="1" LastIsn="1" id="5">
+          <Public val="AES_DeriveKey"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -32,7 +33,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736971" _time="72271" date="04/10/2018" time="20:04:31"/>
+          <LastModified _date="736972" _time="66456" date="05/10/2018" time="18:27:36"/>
         </Header>
         <ItemIsn val="3"/>
         <Resource>

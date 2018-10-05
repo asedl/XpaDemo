@@ -10,6 +10,13 @@
 #include <string>
 using std::string;
 
+#include <iostream>
+#include <fstream>
+
+#include <cstdio>
+#include <cstdlib>
+#include <filesystem>
+
 #include "hex.h"
 using CryptoPP::HexEncoder;
 using CryptoPP::HexDecoder;
@@ -69,8 +76,9 @@ int Hexencode(char* pRawData, char** pEncodingResult) {
 	return 0;
 }
 
-int Hexdecode(char* pHexencoded, char** pEncodingResult) {
+int Hexdecode(char* pHexencoded, char** pEncodingResult, size_t& nBytesResult) {
 
+	nBytesResult = 0;
 	string hexencoded(pHexencoded), hexdecoded;
 	CryptoPP::HexDecoder decoder;
 	decoder.Attach(new CryptoPP::StringSink(hexdecoded));
@@ -80,6 +88,32 @@ int Hexdecode(char* pHexencoded, char** pEncodingResult) {
 	*pEncodingResult = new char[hexdecoded.length() + 1];
 	copy(hexdecoded.begin(), hexdecoded.end(), stdext::checked_array_iterator<char*>(*pEncodingResult, hexdecoded.length()));
 	(*pEncodingResult)[hexdecoded.length()] = 0;
+	nBytesResult = hexdecoded.length();
+
+	return 0;
+}
+
+int WriteBlobToTempfile(const std::vector<BYTE> &buffer, wstring& filename) {
+	wchar_t szTempFileName[MAX_PATH];
+	wchar_t szTempPathBuffer[MAX_PATH];
+
+	//  Gets the temp path env string (no guarantee it's a valid path).
+	DWORD dwRetVal = GetTempPathW(MAX_PATH, szTempPathBuffer); 
+	if (dwRetVal > MAX_PATH || (dwRetVal == 0)) 	{
+	}
+	else {
+		//  Generates a temporary file name. 
+		UINT uRetVal = GetTempFileNameW(szTempPathBuffer, L"mgcrypt_",  0, szTempFileName);
+		if (uRetVal == 0) {
+		}
+		else {
+			filename = szTempFileName;
+		}
+	}
+
+	std::ofstream fout(szTempFileName, std::ios::out | std::ios::binary);
+	fout.write((char *)buffer.data(), buffer.size() * sizeof(BYTE));
+	fout.close();
 
 	return 0;
 }

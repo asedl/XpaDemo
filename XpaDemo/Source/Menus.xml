@@ -13,7 +13,7 @@
         <MenuType val="4"/>
         <ToolNumber val="1"/>
         <Name val="Default Pulldown menu"/>
-        <LastIsn val="11"/>
+        <LastIsn val="12"/>
         <MenuEntry id="1">
           <MenuType val="1"/>
           <Description_U val="&amp;File"/>
@@ -453,6 +453,53 @@
               <Help comp="-1"/>
               <Prompt comp="-1"/>
               <Program comp="14" obj="11"/>
+              <SourceContext val="67"/>
+            </MenuEntry>
+          </Menu>
+        </MenuEntry>
+        <MenuEntry id="12">
+          <MenuType val="1"/>
+          <Description_U val="XpaTCrypt"/>
+          <Right comp="-1"/>
+          <Help comp="-1"/>
+          <Prompt comp="-1"/>
+          <Menu>
+            <MenuType val="1"/>
+            <LastIsn val="15"/>
+            <MenuEntry id="10">
+              <MenuType val="2"/>
+              <Description_U val="XpaTCrypt.TSTO001_SHA-256"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Program comp="20" obj="4"/>
+              <SourceContext val="67"/>
+            </MenuEntry>
+            <MenuEntry id="11">
+              <MenuType val="2"/>
+              <Description_U val="XpaTCrypt.TSTO002_AES_Encrypt"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Program comp="20" obj="5"/>
+              <SourceContext val="67"/>
+            </MenuEntry>
+            <MenuEntry id="12">
+              <MenuType val="2"/>
+              <Description_U val="XpaTCrypt.TSTO003_Random"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Program comp="20" obj="6"/>
+              <SourceContext val="67"/>
+            </MenuEntry>
+            <MenuEntry id="13">
+              <MenuType val="2"/>
+              <Description_U val="XpaTCrypt.TSTO004_Hexdigits"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Program comp="20" obj="7"/>
               <SourceContext val="67"/>
             </MenuEntry>
           </Menu>

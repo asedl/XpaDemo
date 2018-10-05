@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <_Project>
+    <ProjectName val="XpaTCrypt"/>
+    <VCProjectID val="0"/>
+    <VCActive val="N"/>
+    <WorkOffline val="N"/>
+    <SourceDirectory val="Source"/>
+    <ExportsDirectory val="Exports"/>
+    <GUID val="{F23E0F59-E326-4990-A114-7ECFCA9266FC}"/>
+    <Version min="13020.10"/>
+    <SourceVersion val="13030.00"/>
+  </_Project>
+
+</Application>

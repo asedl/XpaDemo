@@ -5,7 +5,7 @@
     <Version val="13030.00"/>
     <WithIsn val="Y"/>
     <Exe comp="-1"/>
-    <LastIsn val="19"/>
+    <LastIsn val="20"/>
     <LastIsnFolder val="2"/>
     <Folders>
       <Folder id="2">
@@ -581,6 +581,87 @@
             <id val="4"/>
             <ItemIsn val="1"/>
             <PublicName val="BSOAP001_GreetingsClient"/>
+          </Object>
+        </ComponentPrograms>
+      </Component>
+      <Component FolderIsn="1" id="20" name="XpaTCrypt">
+        <Description val="XpaTCrypt Component"/>
+        <ComponentType val="Magic xpa"/>
+        <Type val="U"/>
+        <LoadImmediate val="N"/>
+        <LastISN val="13"/>
+        <CompId val="2695501663-49117-19250-8D2EC74A0"/>
+        <Revision val="0.1"/>
+        <MciFile val="C:\Magic\XpaDemo\XpaDemo\Components\XpaTCrypt\XpaTCrypt.eci"/>
+        <ProjectFile val="C:\Magic\XpaDemo\XpaDemo\Components\XpaTCrypt\XpaTCrypt.edp"/>
+        <CABINET_FILE val="%Components%XpaTCrypt.ecf"/>
+        <ComponentModels>
+          <Object>
+            <id val="1"/>
+            <ItemIsn val="1"/>
+            <PublicName val="tEncryptionMode"/>
+          </Object>
+          <Object>
+            <id val="2"/>
+            <ItemIsn val="2"/>
+            <PublicName val="tEncoding"/>
+          </Object>
+          <Object>
+            <id val="3"/>
+            <ItemIsn val="3"/>
+            <PublicName val="tEncryptionError"/>
+          </Object>
+        </ComponentModels>
+        <ComponentPrograms>
+          <Object>
+            <id val="4"/>
+            <ItemIsn val="4"/>
+            <PublicName val="TSTO001_SHA-256"/>
+          </Object>
+          <Object>
+            <id val="5"/>
+            <ItemIsn val="5"/>
+            <PublicName val="TSTO002_AES_Encrypt"/>
+          </Object>
+          <Object>
+            <id val="6"/>
+            <ItemIsn val="6"/>
+            <PublicName val="TSTO003_Random"/>
+          </Object>
+          <Object>
+            <id val="7"/>
+            <ItemIsn val="7"/>
+            <PublicName val="TSTO004_Hexdigits"/>
+          </Object>
+          <Object>
+            <id val="12"/>
+            <ItemIsn val="8"/>
+            <PublicName val="AES_DeriveKey"/>
+          </Object>
+          <Object>
+            <id val="13"/>
+            <ItemIsn val="9"/>
+            <PublicName val="AES_Encrypt (mgcrypt)"/>
+          </Object>
+          <Object>
+            <id val="14"/>
+            <ItemIsn val="10"/>
+            <PublicName val="AES_Encrypt (magic)"/>
+          </Object>
+          <Object>
+            <id val="15"/>
+            <ItemIsn val="11"/>
+            <PublicName val="AES_Random"/>
+          </Object>
+          <Object>
+            <id val="16"/>
+            <ItemIsn val="12"/>
+            <PublicName val="AES_Hexdecode"/>
+          </Object>
+          <Object>
+            <id val="17"/>
+            <ItemIsn val="13"/>
+            <PublicName val="AES_Hexencode"/>
           </Object>
         </ComponentPrograms>
       </Component>

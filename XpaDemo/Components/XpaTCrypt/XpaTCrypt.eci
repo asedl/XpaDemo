@@ -1,0 +1,30 @@
+       // Magic ECI Generator                                          //
+       // Created by   :----No User logged in----         //
+       // Created Date :06/10/2018 Time :01:06:13              //
+       // File Name    :C:\Magic\XpaDemo\XpaDemo\Components\XpaTCrypt\XpaTCrypt.eci         //
+COMPID = 2695501663-49117-19250-8D2EC74A0
+NAME = "XpaTCrypt"
+DESC = "XpaTCrypt Component"
+COMPTYPE = "Magic xpa"
+IMMED = "N"
+PROJECTFILE = "C:\Magic\XpaDemo\XpaDemo\Components\XpaTCrypt\XpaTCrypt.edp"
+CABINETFILE = "%Components%XpaTCrypt.ecf"
+VRSN = 0.1
+HLPFILE = ""
+HLPKEY = ""
+
+MODEL=PUBLIC="tEncryptionMode" RMK="" HELPKEY=""
+MODEL=PUBLIC="tEncoding" RMK="" HELPKEY=""
+MODEL=PUBLIC="tEncryptionError" RMK="" HELPKEY=""
+PRG=PUBLIC="TSTO001_SHA-256" RMK="" HELPKEY=""
+PRG=PUBLIC="TSTO002_AES_Encrypt" RMK="" HELPKEY=""
+PRG=PUBLIC="TSTO003_Random" RMK="" HELPKEY=""
+PRG=PUBLIC="TSTO004_Hexdigits" RMK="" HELPKEY=""
+PRG=PUBLIC="AES_DeriveKey" RMK="" HELPKEY=""
+PRG=PUBLIC="AES_Encrypt (mgcrypt)" RMK="" HELPKEY=""
+PRG=PUBLIC="AES_Encrypt (magic)" RMK="" HELPKEY=""
+PRG=PUBLIC="AES_Random" RMK="" HELPKEY=""
+PRG=PUBLIC="AES_Hexdecode" RMK="" HELPKEY=""
+PRG=PUBLIC="AES_Hexencode" RMK="" HELPKEY=""
+
+[ENVIRONMENT]

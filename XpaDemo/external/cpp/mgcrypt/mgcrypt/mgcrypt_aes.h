@@ -1,5 +1,7 @@
 #pragma once
 
 int AES_Encrypt(const char* lpszPlaintext, long lpdwPlaintextLength, char* lpszKey, char* lpszMode, char**lpszCiphertext, char* lpszIV);
-int AES_Encrypt_ECB(const char* lpszPlaintext, long lpdwPlaintextLength, char* lpszKey, char**lpszCiphertext);
+int AES_Encrypt_ECB(const char* lpszPlaintext, long lpdwPlaintextLength, char* lpszKey, string& encoded);
+int AES_Encrypt_CBC(const char* lpszPlaintext, long lpdwPlaintextLength, char* lpszKey, char* lpszIV, string& encoded);
+
 

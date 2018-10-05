@@ -109,27 +109,12 @@ int AES_Encrypt (const char* lpszPlaintext, long lpdwPlaintextLength, char* lpsz
 
 }
 
-int AES_Encrypt_ECB (const char* lpszPlaintext, long lpdwPlaintextLength, char* lpszKey, char**lpszCiphertext) {
+int AES_Encrypt_ECB (const char* lpszPlaintext, long lpdwPlaintextLength, char* lpszKey, string& encoded) {
 
-	
-	string skey(lpszKey);
-	string plaintext(lpszPlaintext, lpdwPlaintextLength);
-	string ciphertext, encoded;
-
-	string key_decoded;
-	StringSource ss(lpszKey,
-		new HexDecoder(
-			new StringSink(key_decoded)
-		) // HexDecoder
-	); // StringSource
-
-	HexDecoder decoder(new StringSink(key_decoded));
-	decoder.Put((const byte*) skey.data(), skey.size());
-	decoder.MessageEnd();
+	string plaintext(lpszPlaintext, lpdwPlaintextLength), ciphertext;
 
 	SecByteBlock key(0);
-	key.Assign((const byte*) key_decoded.data(), key_decoded.size());
-
+	key.Assign((const byte*) lpszKey, 16);
 
 	try
 	{
@@ -139,7 +124,7 @@ int AES_Encrypt_ECB (const char* lpszPlaintext, long lpdwPlaintextLength, char* 
 		// The StreamTransformationFilter adds padding
 		//  as required. ECB and CBC Mode must be padded
 		//  to the block size of the cipher.
-		StringSource ss1(lpszPlaintext, true,
+		StringSource ss1(plaintext, true,
 			new StreamTransformationFilter(e,
 				new StringSink(ciphertext)
 			) // StreamTransformationFilter      
@@ -147,7 +132,8 @@ int AES_Encrypt_ECB (const char* lpszPlaintext, long lpdwPlaintextLength, char* 
 
 		// Pretty print
 		StringSource(ciphertext, true,
-			new HexEncoder(new StringSink(encoded), true, 16, " "));
+			new HexEncoder(new StringSink(encoded), true, 0, ""));
+
 	}
 	catch (CryptoPP::BufferedTransformation::NoChannelSupport& e)
 	{
@@ -159,9 +145,48 @@ int AES_Encrypt_ECB (const char* lpszPlaintext, long lpdwPlaintextLength, char* 
 	{
 	}
 	
-	*lpszCiphertext = new char[encoded.length() + 1];
-	copy(encoded.begin(), encoded.end(), stdext::checked_array_iterator<char*>(*lpszCiphertext, encoded.length()));
-	(*lpszCiphertext)[encoded.length()] = 0;
+	return 0;
+
+}
+
+int AES_Encrypt_CBC (const char* lpszPlaintext, long lpdwPlaintextLength, char* lpszKey, char* lpszIV, string& encoded) {
+
+	string plaintext(lpszPlaintext, lpdwPlaintextLength), ciphertext;
+
+	SecByteBlock key(0), iv(0);
+	key.Assign((const byte*)lpszKey, 16);
+	iv.Assign((const byte*)lpszIV, 16);
+
+	try
+	{
+		CBC_Mode< AES >::Encryption e;
+		e.SetKeyWithIV(key.begin(), key.size(), iv);
+
+		// The StreamTransformationFilter adds padding
+		//  as required. ECB and CBC Mode must be padded
+		//  to the block size of the cipher.
+		StringSource ss1(plaintext, true,
+			new StreamTransformationFilter(e,
+				new StringSink(ciphertext)
+			) // StreamTransformationFilter      
+		); // StringSource
+
+		// Pretty print cipher text
+		StringSource ss(ciphertext, true,
+			new HexEncoder(
+				new StringSink(encoded)
+			) // HexEncoder
+		); // StringSource
+	}
+	catch (CryptoPP::BufferedTransformation::NoChannelSupport& e)
+	{
+	}
+	catch (CryptoPP::AuthenticatedSymmetricCipher::BadState& e)
+	{
+	}
+	catch (CryptoPP::InvalidArgument& e)
+	{
+	}
 
 	return 0;
 

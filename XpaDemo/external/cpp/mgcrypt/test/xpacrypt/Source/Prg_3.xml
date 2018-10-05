@@ -13,7 +13,8 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="TST001_SHA-256" ISN_2="1" LastIsn="2" id="3">
+        <Header Description="TSTO001_SHA-256" ISN_2="1" LastIsn="2" id="3">
+          <Public val="TSTO001_SHA-256"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -27,7 +28,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736972" _time="46512" date="05/10/2018" time="12:55:12"/>
+          <LastModified _date="736972" _time="84357" date="05/10/2018" time="23:25:57"/>
         </Header>
         <Resource>
           <Columns/>
@@ -150,7 +151,7 @@
           <FormEntry id="1">
             <PropertyList model="FORM_GUI0">
               <_Comment id="218"/>
-              <FormName id="311" valUnicode="TST001_SHA-256"/>
+              <FormName id="311" valUnicode="TSTO001_SHA-256"/>
             </PropertyList>
           </FormEntry>
         </TaskForms>

@@ -1,0 +1,144 @@
+ <Application>
+ 
+<Header>
+
+  <Version val="13030.00"/>
+
+  <WithIsn val="Y"/>
+
+  <Exe comp="-1"/>
+
+  <LastIsn val="1"/>
+
+  <LastIsnFolder val="0"/>
+
+  <Folders/>
+
+</Header>
+ <DataSourceRepository>
+  <DataObjects>
+ 
+<DataObject PhysicalName="ecb_e_m" Resident="N" UniqueISNConvState="12" data_source="XPATest_MgCrypt" id="1" name="ecb_e_m">
+
+  <Encrypt val="N"/>
+
+  <Cache val="D"/>
+
+  <IdentifyRowModifications val="U"/>
+
+  <HasHint val="Y"/>
+
+  <Cursor val="D"/>
+
+  <CheckExistence val="D"/>
+
+  <ObjectType val="T"/>
+
+  <Position val="D"/>
+
+  <IndexesLastIsn val="1"/>
+
+  <Columns>
+    <Column id="1" name="NDX">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Picture id="157" valUnicode="9"/>
+        <StoredAs id="173" val="4"/>
+        <Size id="174" val="4"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="NDX"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="9"/>
+        <_Negative id="192"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="NDX" PIC_U="9" Size="4" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+        <DefaultStorage id="274" val="Y"/>
+        <_FieldStyle id="276" val="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="2" name="KEYSIZE">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Picture id="157" valUnicode="9"/>
+        <StoredAs id="173" val="4"/>
+        <Size id="174" val="4"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="KEYSIZE"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="9"/>
+        <_Negative id="192"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="KEYSIZE" PIC_U="9" Size="4" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+        <DefaultStorage id="274" val="Y"/>
+        <_FieldStyle id="276" val="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="3" name="KEY">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_ALPHA" id="1"/>
+        <Picture id="157" valUnicode="256"/>
+        <StoredAs id="173" val="3"/>
+        <Size id="174" val="256"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="KEY"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="KEY" PIC_U="256" Size="256" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+        <DefaultStorage id="274" val="Y"/>
+      </PropertyList>
+    </Column>
+    <Column id="4" name="PT">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_ALPHA" id="1"/>
+        <Picture id="157" valUnicode="2000"/>
+        <StoredAs id="173" val="3"/>
+        <Size id="174" val="2000"/>
+        <Definition id="175" val="1"/>
+        <DbColumnName id="178" val="PT"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="PT" PIC_U="2000" Size="2000" allowed_null="N" attribute="A" context_cookies="Y" database_definition="1" id="231" storage="3" translate="1"/>
+        <DefaultStorage id="274" val="Y"/>
+      </PropertyList>
+    </Column>
+    <Column id="5" name="CT">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_ALPHA" id="1"/>
+        <Picture id="157" valUnicode="2000"/>
+        <StoredAs id="173" val="3"/>
+        <Size id="174" val="2000"/>
+        <Definition id="175" val="1"/>
+        <DbColumnName id="178" val="CT"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="CT" PIC_U="2000" Size="2000" allowed_null="N" attribute="A" context_cookies="Y" database_definition="1" id="231" storage="3" translate="1"/>
+        <DefaultStorage id="274" val="Y"/>
+      </PropertyList>
+    </Column>
+  </Columns>
+
+  <Indexes>
+    <Index id="1" name="PK_ecb_e_m">
+      <Mode val="S"/>
+      <Order val="T"/>
+      <Range val="Q"/>
+      <IndexType val="R"/>
+      <PhysicalName val="PK_ecb_e_m"/>
+      <HasHint val="Y"/>
+      <Clustered val="N"/>
+      <DropOnReindex val="N"/>
+      <Primary val="Y"/>
+      <Segments>
+        <Segment>
+          <Size val="4"/>
+          <Column val="1"/>
+          <Order val="A"/>
+        </Segment>
+      </Segments>
+    </Index>
+  </Indexes>
+
+  <ForeignKeys/>
+
+  <WebS/>
+
+</DataObject>  </DataObjects>
+ </DataSourceRepository>
+  </Application>

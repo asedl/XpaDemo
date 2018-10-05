@@ -13,7 +13,8 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="TST004_Hexdigits" ISN_2="1" LastIsn="2" id="9">
+        <Header Description="TSTO004_Hexdigits" ISN_2="1" LastIsn="2" id="9">
+          <Public val="TSTO004_Hexdigits"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -27,7 +28,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736972" _time="41756" date="05/10/2018" time="11:35:56"/>
+          <LastModified _date="736972" _time="84364" date="05/10/2018" time="23:26:04"/>
         </Header>
         <Resource>
           <Columns/>
@@ -150,7 +151,7 @@
           <FormEntry id="1">
             <PropertyList model="FORM_GUI0">
               <_Comment id="218"/>
-              <FormName id="311" valUnicode="TST004_Hexdigits"/>
+              <FormName id="311" valUnicode="TSTO004_Hexdigits"/>
             </PropertyList>
           </FormEntry>
         </TaskForms>
@@ -168,7 +169,7 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="736972" _time="41756" date="05/10/2018" time="11:35:56"/>
+            <LastModified _date="736972" _time="71288" date="05/10/2018" time="19:48:08"/>
           </Header>
           <ItemIsn val="21"/>
           <Resource>
@@ -327,15 +328,27 @@
               <Expanded val="1"/>
               <LogicLines>
                 <LogicLine>
-                  <Update FlowIsn="14">
-                    <FieldID val="21"/>
-                    <WithValue val="27"/>
-                    <Incremental val="N"/>
-                    <ForcedUpdate val="Y"/>
+                  <CallTask FlowIsn="14">
+                    <OperationType val="P"/>
+                    <TaskID comp="-1" obj="18"/>
+                    <Lock val="N"/>
+                    <Arguments>
+                      <Argument>
+                        <Variable val="11"/>
+                        <Skip val="N"/>
+                      </Argument>
+                      <Argument>
+                        <Variable val="21"/>
+                        <Skip val="N"/>
+                      </Argument>
+                    </Arguments>
+                    <Wait val="Y"/>
+                    <SyncData val="N"/>
+                    <RetainFocus val="N"/>
                     <Condition val="Y"/>
                     <Modifier val="B"/>
                     <Direction val="C"/>
-                  </Update>
+                  </CallTask>
                 </LogicLine>
                 <LogicLine>
                   <Remark FlowIsn="109">
@@ -365,15 +378,27 @@
               <Expanded val="1"/>
               <LogicLines>
                 <LogicLine>
-                  <Update FlowIsn="111">
-                    <FieldID val="11"/>
-                    <WithValue val="28"/>
-                    <Incremental val="N"/>
-                    <ForcedUpdate val="Y"/>
+                  <CallTask FlowIsn="111">
+                    <OperationType val="P"/>
+                    <TaskID comp="-1" obj="17"/>
+                    <Lock val="N"/>
+                    <Arguments>
+                      <Argument>
+                        <Variable val="21"/>
+                        <Skip val="N"/>
+                      </Argument>
+                      <Argument>
+                        <Variable val="11"/>
+                        <Skip val="N"/>
+                      </Argument>
+                    </Arguments>
+                    <Wait val="Y"/>
+                    <SyncData val="N"/>
+                    <RetainFocus val="N"/>
                     <Condition val="Y"/>
                     <Modifier val="B"/>
                     <Direction val="C"/>
-                  </Update>
+                  </CallTask>
                 </LogicLine>
               </LogicLines>
             </LogicUnit>
@@ -481,14 +506,6 @@
             <Expression id="20">
               <ExpSyntax val="Len(Trim({0,11}))"/>
               <ExpAttribute val="N"/>
-            </Expression>
-            <Expression id="27">
-              <ExpSyntax val="UDF('mgcrypt.mgcrypt_Hexencode', {0,11})"/>
-              <ExpAttribute val="*"/>
-            </Expression>
-            <Expression id="28">
-              <ExpSyntax val="UDF('mgcrypt.mgcrypt_Hexdecode', {0,21})"/>
-              <ExpAttribute val="*"/>
             </Expression>
           </Expressions>
           <EVNT DESC="Hexencode" FORCE_EXIT="N" id="6">
