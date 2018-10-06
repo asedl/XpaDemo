@@ -38,7 +38,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736973" _time="3753" date="06/10/2018" time="01:02:33"/>
+          <LastModified _date="736973" _time="54659" date="06/10/2018" time="15:10:59"/>
         </Header>
         <ItemIsn val="13"/>
         <Resource>
@@ -615,6 +615,10 @@
                       <Skip val="N"/>
                     </Argument>
                     <Argument>
+                      <Expression val="20"/>
+                      <Skip val="N"/>
+                    </Argument>
+                    <Argument>
                       <Variable val="8"/>
                       <Skip val="N"/>
                     </Argument>
@@ -810,6 +814,10 @@
           <Expression id="9">
             <ExpSyntax val="Len({0,12})"/>
             <ExpAttribute val="N"/>
+          </Expression>
+          <Expression id="20">
+            <ExpSyntax val="{0,6}"/>
+            <ExpAttribute val="A"/>
           </Expression>
           <Expression id="10">
             <ExpSyntax val="{0,8}=0 AND {0,12}&lt;>'' AND FileExist({0,12}) AND FileSize({0,12})>0"/>

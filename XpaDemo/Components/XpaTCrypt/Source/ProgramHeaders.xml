@@ -101,9 +101,9 @@
         <Offline val="N"/>
         <FormType val="N"/>
         <DotNetObjectExists val="N"/>
-        <LastModified _date="736973" _time="3712" date="06/10/2018" time="01:01:52"/>
+        <LastModified _date="736973" _time="54513" date="06/10/2018" time="15:08:33"/>
       </Header>
-      <SourceFileTimeStamp _date="736972" _time="82912" date="05/10/2018" time="23:01:52"/>
+      <SourceFileTimeStamp _date="736973" _time="46658" date="06/10/2018" time="12:57:38"/>
     </Program>
     <Program>
       <Header Description="TSTO003_Random" ISN_2="1" LastIsn="2" id="6">
@@ -144,6 +144,31 @@
         <LastModified _date="736973" _time="3727" date="06/10/2018" time="01:02:07"/>
       </Header>
       <SourceFileTimeStamp _date="736972" _time="82927" date="05/10/2018" time="23:02:07"/>
+    </Program>
+    <Program>
+      <Header Description="TSTO005_DeriveKey" ISN_2="1" LastIsn="2" id="19">
+        <Public val="TSTO005_DeriveKey"/>
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <TSK_PARAMS val="3"/>
+          <ParametersAttributes>
+            <Attr MgAttr="O"/>
+            <Attr MgAttr="N"/>
+            <Attr MgAttr="A"/>
+          </ParametersAttributes>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="B"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="736973" _time="54027" date="06/10/2018" time="15:00:27"/>
+      </Header>
+      <SourceFileTimeStamp _date="736973" _time="46827" date="06/10/2018" time="13:00:27"/>
     </Program>
     <Program>
       <Header ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="8">
@@ -272,9 +297,38 @@
         <Offline val="N"/>
         <FormType val="N"/>
         <DotNetObjectExists val="N"/>
-        <LastModified _date="736973" _time="3753" date="06/10/2018" time="01:02:33"/>
+        <LastModified _date="736973" _time="54659" date="06/10/2018" time="15:10:59"/>
       </Header>
-      <SourceFileTimeStamp _date="736972" _time="82953" date="05/10/2018" time="23:02:33"/>
+      <SourceFileTimeStamp _date="736973" _time="47459" date="06/10/2018" time="13:10:59"/>
+    </Program>
+    <Program>
+      <Header Description="AES_Decrypt (mgcrypt)" ISN_2="1" LastIsn="1" id="18">
+        <Public val="AES_Decrypt (mgcrypt)"/>
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <TSK_PARAMS val="7"/>
+          <ParametersAttributes>
+            <Attr MgAttr="O"/>
+            <Attr MgAttr="N"/>
+            <Attr MgAttr="A"/>
+            <Attr MgAttr="A"/>
+            <Attr MgAttr="A"/>
+            <Attr MgAttr="O"/>
+            <Attr MgAttr="N"/>
+          </ParametersAttributes>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="B"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="736973" _time="53149" date="06/10/2018" time="14:45:49"/>
+      </Header>
+      <SourceFileTimeStamp _date="736973" _time="45950" date="06/10/2018" time="12:45:50"/>
     </Program>
     <Program>
       <Header Description="AES_Encrypt (magic)" ISN_2="1" LastIsn="1" id="14">

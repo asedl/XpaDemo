@@ -149,9 +149,9 @@ int AES_Encrypt_ECB (const char* lpszPlaintext, long lpdwPlaintextLength, char* 
 
 }
 
-int AES_Encrypt_CBC (const char* lpszPlaintext, long lpdwPlaintextLength, char* lpszKey, char* lpszIV, string& encoded) {
+int AES_Encrypt_CBC(const char* lpszPlaintext, long lpdwPlaintextLength, char* lpszKey, char* lpszIV, string& ciphertext) {
 
-	string plaintext(lpszPlaintext, lpdwPlaintextLength), ciphertext;
+	string plaintext(lpszPlaintext, lpdwPlaintextLength);
 
 	SecByteBlock key(0), iv(0);
 	key.Assign((const byte*)lpszKey, 16);
@@ -170,12 +170,41 @@ int AES_Encrypt_CBC (const char* lpszPlaintext, long lpdwPlaintextLength, char* 
 				new StringSink(ciphertext)
 			) // StreamTransformationFilter      
 		); // StringSource
+	}
+	catch (CryptoPP::BufferedTransformation::NoChannelSupport& e)
+	{
+	}
+	catch (CryptoPP::AuthenticatedSymmetricCipher::BadState& e)
+	{
+	}
+	catch (CryptoPP::InvalidArgument& e)
+	{
+	}
 
-		// Pretty print cipher text
-		StringSource ss(ciphertext, true,
-			new HexEncoder(
-				new StringSink(encoded)
-			) // HexEncoder
+	return 0;
+
+}
+
+int AES_Decrypt_CBC(const char* lpszCiphertext, long lpdwCiphertextLength, char* lpszKey, char* lpszIV, string& plaintext) {
+
+	string ciphertext(lpszCiphertext, lpdwCiphertextLength);
+
+	SecByteBlock key(0), iv(0);
+	key.Assign((const byte*)lpszKey, 16);
+	iv.Assign((const byte*)lpszIV, 16);
+
+	try
+	{
+		CBC_Mode< AES >::Decryption d;
+		d.SetKeyWithIV(key.begin(), key.size(), iv);
+
+		// The StreamTransformationFilter adds padding
+		//  as required. ECB and CBC Mode must be padded
+		//  to the block size of the cipher.
+		StringSource ss1(ciphertext, true,
+			new StreamTransformationFilter(d,
+				new StringSink(plaintext)
+			) // StreamTransformationFilter      
 		); // StringSource
 	}
 	catch (CryptoPP::BufferedTransformation::NoChannelSupport& e)
@@ -192,6 +221,7 @@ int AES_Encrypt_CBC (const char* lpszPlaintext, long lpdwPlaintextLength, char* 
 
 }
 
+
 char* AES_DeriveKey(char* lpszPassphrase, char* lpszIV, char* lpszKeyBuffer, size_t lKeybufferLength) {
 
 	SecByteBlock key(AES::MAX_KEYLENGTH + AES::BLOCKSIZE);
@@ -202,14 +232,6 @@ char* AES_DeriveKey(char* lpszPassphrase, char* lpszIV, char* lpszKeyBuffer, siz
 		hkdf.DeriveKey(key, key.size(), (const byte*)password.data(), password.size(), (const byte*)iv.data(), iv.size(), NULL, 0);
 
 		string encoded, keystr(reinterpret_cast<const char*>(&key[0]), key.size());
-
-		/* base64 encoder ...
-		StringSource ss(keystr, true,
-			new Base64Encoder(
-				new StringSink(encoded)
-			) // Base64Encoder
-		); // StringSource
-		*/
 
 		CryptoPP::HexEncoder encoder;
 		encoder.Attach(new CryptoPP::StringSink(encoded));

@@ -50,3 +50,21 @@ std::string wstrtostr(const std::wstring &wstr)
 	delete[] szTo;
 	return strTo;
 }
+
+string hexencode(string& sdecoded) {
+	string hexencoded;
+	CryptoPP::HexEncoder encoder;
+	encoder.Attach(new CryptoPP::StringSink(hexencoded));
+	encoder.Put((const byte*)sdecoded.data(), sdecoded.size());
+	encoder.MessageEnd();
+	return hexencoded;
+}
+
+string base64encode(string& sdecoded) {
+	string base64encoded;
+	CryptoPP::HexEncoder encoder;
+	encoder.Attach(new CryptoPP::StringSink(base64encoded));
+	encoder.Put((const byte*)sdecoded.data(), sdecoded.size());
+	encoder.MessageEnd();
+	return base64encoded;
+}
