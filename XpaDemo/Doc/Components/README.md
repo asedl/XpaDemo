@@ -6,6 +6,7 @@
 | [XpaTBuild](./XpaTBuild/) | Magic Xpa  | Build tools |
 | XpaTDb | Magic Xpa | |
 | [XpaTHelp](XpaTHelp/) | Magic Xpa  | Help system (integration) |
+| [XpaTCrypt](XpaTCrypt/) | Magic Xpa  | Crypto++® Library wrapper |
 | XpaTHttp | Java  | Http library for Magic Xpa |
 | XpaTHttpDNet | COTNET  | Http library for Magic Xpa (C#) |
 | [XpaTMobile](XpaTMobile/) | Magic Xpa  | Magic RC/Ria examples |
