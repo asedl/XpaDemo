@@ -207,35 +207,36 @@ int AES_Decrypt_CBC(const char* lpszCiphertext, long lpdwCiphertextLength, char*
 			) // StreamTransformationFilter      
 		); // StringSource
 	}
-	catch (CryptoPP::BufferedTransformation::NoChannelSupport& e)
-	{
+	catch (CryptoPP::InvalidCiphertext& e) {
+		return 1;
 	}
-	catch (CryptoPP::AuthenticatedSymmetricCipher::BadState& e)
-	{
+	catch (CryptoPP::BufferedTransformation::NoChannelSupport& e) {
+		return 2;
 	}
-	catch (CryptoPP::InvalidArgument& e)
-	{
+	catch (CryptoPP::AuthenticatedSymmetricCipher::BadState& e) {
+		return 3;
 	}
-
+	catch (CryptoPP::InvalidArgument& e) {
+		return 4;
+	}
 	return 0;
 
 }
 
 
-char* AES_DeriveKey(char* lpszPassphrase, char* lpszIV, char* lpszKeyBuffer, size_t lKeybufferLength) {
+char* DeriveKey(char* lpszPassphrase, char* lpszIV, char* lpszKeyBuffer, size_t lKeybufferLength, size_t Keylength) {
 
-	SecByteBlock key(AES::MAX_KEYLENGTH + AES::BLOCKSIZE);
+	SecByteBlock key(Keylength);
 	string password(lpszPassphrase), iv(lpszIV);
 
 	try {
 		HKDF<SHA256> hkdf;
-		hkdf.DeriveKey(key, key.size(), (const byte*)password.data(), password.size(), (const byte*)iv.data(), iv.size(), NULL, 0);
+		hkdf.DeriveKey(key, key.size(), (const byte*) password.data(), password.size(), (const byte*) iv.data(), iv.size(), NULL, 0);
 
-		string encoded, keystr(reinterpret_cast<const char*>(&key[0]), key.size());
-
+		string encoded;
 		CryptoPP::HexEncoder encoder;
 		encoder.Attach(new CryptoPP::StringSink(encoded));
-		encoder.Put(key, sizeof(key));
+		encoder.Put(key, key.size());
 		encoder.MessageEnd();
 
 		int lencoded = encoded.size();

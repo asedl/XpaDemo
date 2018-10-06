@@ -20,9 +20,10 @@
           <SQL val="N"/>
           <ReturnValue>
             <ReturnValueAttr/>
-            <TSK_PARAMS val="3"/>
+            <TSK_PARAMS val="4"/>
             <ParametersAttributes>
               <Attr MgAttr="A"/>
+              <Attr MgAttr="N"/>
               <Attr MgAttr="A"/>
               <Attr MgAttr="N"/>
             </ParametersAttributes>
@@ -33,9 +34,9 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736973" _time="3746" date="06/10/2018" time="01:02:26"/>
+          <LastModified _date="736973" _time="85981" date="06/10/2018" time="23:53:01"/>
         </Header>
-        <ItemIsn val="3"/>
+        <ItemIsn val="4"/>
         <Resource>
           <Columns>
             <Column id="1" name="pi.Passphrase">
@@ -45,6 +46,16 @@
                 <StoredAs id="173" val="1"/>
                 <Size id="174" val="2000"/>
                 <_Flip id="194"/>
+              </PropertyList>
+            </Column>
+            <Column id="4" name="pi.Keylength">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_NUMERIC" id="1"/>
+                <Picture id="157" valUnicode="5"/>
+                <_Dec id="181"/>
+                <_Whole id="182" val="5"/>
+                <_Negative id="192"/>
+                <_FieldStyle id="276" val="1"/>
               </PropertyList>
             </Column>
             <Column id="2" name="po.Key">
@@ -148,6 +159,17 @@
               <LogicLine>
                 <Select FieldID="1" FlowIsn="3" id="1">
                   <Column val="1"/>
+                  <Type val="V"/>
+                  <IsParameter val="Y"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="4" FlowIsn="13" id="4">
+                  <Column val="4"/>
                   <Type val="V"/>
                   <IsParameter val="Y"/>
                   <DIFF_UPDATE val="T"/>
@@ -261,7 +283,7 @@
         </TaskForms>
         <Expressions>
           <Expression id="1">
-            <ExpSyntax val="UDF('mgcrypt.mgcrypt_AES_DeriveKey', Trim({0,1}), '', {0,2}, Len({0,2}), {0,3})"/>
+            <ExpSyntax val="UDF('mgcrypt.mgcrypt_AES_DeriveKey', Trim({0,1}), '', {0,2}, Len({0,2}), {0,4}, {0,3})"/>
             <ExpAttribute val="*"/>
           </Expression>
           <Expression id="2">

@@ -13,8 +13,8 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="AES_Encrypt (mgcrypt)" ISN_2="1" LastIsn="1" id="13">
-          <Public val="AES_Encrypt (mgcrypt)"/>
+        <Header Description="AES_Encrypt" ISN_2="1" LastIsn="1" id="13">
+          <Public val="AES_Encrypt"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -38,7 +38,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736973" _time="54659" date="06/10/2018" time="15:10:59"/>
+          <LastModified _date="736974" _time="4520" date="07/10/2018" time="01:15:20"/>
         </Header>
         <ItemIsn val="13"/>
         <Resource>
@@ -774,7 +774,7 @@
           <FormEntry id="1">
             <PropertyList model="FORM_GUI0">
               <_Comment id="218"/>
-              <FormName id="311" valUnicode="AES_Encrypt (mgcrypt)"/>
+              <FormName id="311" valUnicode="AES_Encrypt"/>
             </PropertyList>
           </FormEntry>
         </TaskForms>

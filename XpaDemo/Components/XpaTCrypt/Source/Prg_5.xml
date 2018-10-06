@@ -28,7 +28,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736973" _time="63399" date="06/10/2018" time="17:36:39"/>
+          <LastModified _date="736974" _time="4078" date="07/10/2018" time="01:07:58"/>
         </Header>
         <Resource>
           <Columns/>
@@ -175,9 +175,9 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="736973" _time="63399" date="06/10/2018" time="17:36:39"/>
+            <LastModified _date="736974" _time="4078" date="07/10/2018" time="01:07:58"/>
           </Header>
-          <ItemIsn val="9"/>
+          <ItemIsn val="22"/>
           <Resource>
             <Columns>
               <Column id="8" name="v.Key">
@@ -246,12 +246,93 @@
                   <Content id="434" val="3"/>
                 </PropertyList>
               </Column>
+              <Column id="12" name="blbB.Ciphertext_Help">
+                <PropertyList model="FIELD">
+                  <Model attr_obj="FIELD_BLOB" id="1"/>
+                  <StoredAs id="173" val="29"/>
+                  <Size id="174" val="28"/>
+                  <Definition id="175" val="1"/>
+                  <_FieldStyle id="276" val="1"/>
+                  <Content id="434" val="3"/>
+                </PropertyList>
+              </Column>
+              <Column id="19" name="blbB.EncodedDrop">
+                <PropertyList model="FIELD">
+                  <Model attr_obj="FIELD_BLOB" id="1"/>
+                  <StoredAs id="173" val="29"/>
+                  <Size id="174" val="28"/>
+                  <Definition id="175" val="1"/>
+                  <_FieldStyle id="276" val="1"/>
+                  <Content id="434" val="3"/>
+                </PropertyList>
+              </Column>
               <Column id="7" name="v.ErrorCode">
                 <PropertyList model="FIELD">
                   <Model attr_obj="FIELD_NUMERIC" comp="-1" id="1" obj="3"/>
                   <DbColumnName id="178"/>
                   <Type id="179"/>
                   <UserType id="180"/>
+                </PropertyList>
+              </Column>
+              <Column id="20" name="v.Tempfilename">
+                <PropertyList model="FIELD">
+                  <Model attr_obj="FIELD_ALPHA" id="1"/>
+                  <Picture id="157" valUnicode="255"/>
+                  <StoredAs id="173" val="1"/>
+                  <Size id="174" val="255"/>
+                  <_Flip id="194"/>
+                </PropertyList>
+              </Column>
+              <Column id="13" name="v.EncryptionError">
+                <PropertyList model="FIELD">
+                  <Model attr_obj="FIELD_BLOB" id="1"/>
+                  <StoredAs id="173" val="34"/>
+                  <Size id="174" val="28"/>
+                  <Definition id="175" val="1"/>
+                  <_FieldStyle id="276" val="1"/>
+                  <Content id="434" val="2"/>
+                </PropertyList>
+              </Column>
+              <Column id="14" name="blb.Key">
+                <PropertyList model="FIELD">
+                  <Model attr_obj="FIELD_BLOB" id="1"/>
+                  <Size id="174" val="28"/>
+                  <Definition id="175" val="1"/>
+                  <_FieldStyle id="276" val="1"/>
+                </PropertyList>
+              </Column>
+              <Column id="15" name="blb.IV">
+                <PropertyList model="FIELD">
+                  <Model attr_obj="FIELD_BLOB" id="1"/>
+                  <Size id="174" val="28"/>
+                  <Definition id="175" val="1"/>
+                  <_FieldStyle id="276" val="1"/>
+                </PropertyList>
+              </Column>
+              <Column id="16" name="v.EncryptionError">
+                <PropertyList model="FIELD">
+                  <Model attr_obj="FIELD_BLOB" id="1"/>
+                  <StoredAs id="173" val="34"/>
+                  <Size id="174" val="28"/>
+                  <Definition id="175" val="1"/>
+                  <_FieldStyle id="276" val="1"/>
+                  <Content id="434" val="2"/>
+                </PropertyList>
+              </Column>
+              <Column id="17" name="blb.Key">
+                <PropertyList model="FIELD">
+                  <Model attr_obj="FIELD_BLOB" id="1"/>
+                  <Size id="174" val="28"/>
+                  <Definition id="175" val="1"/>
+                  <_FieldStyle id="276" val="1"/>
+                </PropertyList>
+              </Column>
+              <Column id="18" name="blb.IV">
+                <PropertyList model="FIELD">
+                  <Model attr_obj="FIELD_BLOB" id="1"/>
+                  <Size id="174" val="28"/>
+                  <Definition id="175" val="1"/>
+                  <_FieldStyle id="276" val="1"/>
                 </PropertyList>
               </Column>
             </Columns>
@@ -434,6 +515,29 @@
                   </Select>
                 </LogicLine>
                 <LogicLine>
+                  <Select FieldID="12" FlowIsn="99" id="12">
+                    <Column val="12"/>
+                    <Type val="V"/>
+                    <IsParameter val="N"/>
+                    <DIFF_UPDATE val="T"/>
+                    <Condition val="Y"/>
+                    <Modifier val="S"/>
+                    <Direction val="C"/>
+                  </Select>
+                </LogicLine>
+                <LogicLine>
+                  <Select FieldID="19" FlowIsn="179" id="19">
+                    <Column val="19"/>
+                    <Type val="V"/>
+                    <IsParameter val="N"/>
+                    <_DitIndexForToolkit val="15"/>
+                    <DIFF_UPDATE val="T"/>
+                    <Condition val="Y"/>
+                    <Modifier val="S"/>
+                    <Direction val="C"/>
+                  </Select>
+                </LogicLine>
+                <LogicLine>
                   <Remark FlowIsn="11">
                     <Type val="0"/>
                     <Text val=" "/>
@@ -446,6 +550,18 @@
                     <IsParameter val="N"/>
                     <DIFF_UPDATE val="T"/>
                     <PartOfDataview val="Y"/>
+                    <Condition val="Y"/>
+                    <Modifier val="S"/>
+                    <Direction val="C"/>
+                  </Select>
+                </LogicLine>
+                <LogicLine>
+                  <Select FieldID="22" FlowIsn="234" id="22">
+                    <Column val="20"/>
+                    <Type val="V"/>
+                    <IsParameter val="N"/>
+                    <_DitIndexForToolkit val="16"/>
+                    <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
                     <Direction val="C"/>
@@ -467,6 +583,12 @@
               </Event>
               <Expanded val="1"/>
               <LogicLines>
+                <LogicLine>
+                  <Remark FlowIsn="87">
+                    <Type val="2"/>
+                    <Text val="Hexencode the key since thats the format we need for mgcrypt.dll"/>
+                  </Remark>
+                </LogicLine>
                 <LogicLine>
                   <CallTask FlowIsn="43">
                     <OperationType val="P"/>
@@ -513,6 +635,12 @@
               <Expanded val="1"/>
               <LogicLines>
                 <LogicLine>
+                  <Remark FlowIsn="88">
+                    <Type val="2"/>
+                    <Text val="Hexencode the IV since thats the format we need for mgcrypt.dll"/>
+                  </Remark>
+                </LogicLine>
+                <LogicLine>
                   <CallTask FlowIsn="47">
                     <OperationType val="P"/>
                     <TaskID comp="-1" obj="17"/>
@@ -536,7 +664,58 @@
                   </CallTask>
                 </LogicLine>
                 <LogicLine>
+                  <Remark FlowIsn="180">
+                    <Type val="2"/>
+                    <Text val=" "/>
+                  </Remark>
+                </LogicLine>
+                <LogicLine>
                   <Remark FlowIsn="48">
+                    <Type val="2"/>
+                    <Text val=" "/>
+                  </Remark>
+                </LogicLine>
+              </LogicLines>
+            </LogicUnit>
+            <LogicUnit id="22" propagate="78">
+              <Level val="V"/>
+              <Type val="C"/>
+              <FieldID val="19"/>
+              <Scope val="S"/>
+              <EngineDirective val="S"/>
+              <ShowMessage val="Y"/>
+              <Condition val="89"/>
+              <Event>
+                <EventType val="S"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Expanded val="1"/>
+              <LogicLines>
+                <LogicLine>
+                  <CallTask FlowIsn="184">
+                    <OperationType val="P"/>
+                    <TaskID comp="-1" obj="16"/>
+                    <Lock val="N"/>
+                    <Arguments>
+                      <Argument>
+                        <Variable val="19"/>
+                        <Skip val="N"/>
+                      </Argument>
+                      <Argument>
+                        <Variable val="5"/>
+                        <Skip val="N"/>
+                      </Argument>
+                    </Arguments>
+                    <Wait val="Y"/>
+                    <SyncData val="N"/>
+                    <RetainFocus val="N"/>
+                    <Condition val="Y"/>
+                    <Modifier val="S"/>
+                    <Direction val="C"/>
+                  </CallTask>
+                </LogicLine>
+                <LogicLine>
+                  <Remark FlowIsn="183">
                     <Type val="2"/>
                     <Text val=" "/>
                   </Remark>
@@ -556,6 +735,12 @@
               </Event>
               <Expanded val="1"/>
               <LogicLines>
+                <LogicLine>
+                  <Remark FlowIsn="89">
+                    <Type val="2"/>
+                    <Text val="Generate a secure encryption key by deriving one from a passphrase and fetch a random IV"/>
+                  </Remark>
+                </LogicLine>
                 <LogicLine>
                   <CallTask FlowIsn="23">
                     <OperationType val="P"/>
@@ -604,6 +789,12 @@
                     <Modifier val="B"/>
                     <Direction val="C"/>
                   </CallTask>
+                </LogicLine>
+                <LogicLine>
+                  <Remark FlowIsn="90">
+                    <Type val="2"/>
+                    <Text val="Hexencode the key/iv since thats the format we need for mgcrpt.dll"/>
+                  </Remark>
                 </LogicLine>
                 <LogicLine>
                   <CallTask FlowIsn="50">
@@ -672,6 +863,12 @@
               </Event>
               <Expanded val="1"/>
               <LogicLines>
+                <LogicLine>
+                  <Remark FlowIsn="91">
+                    <Type val="2"/>
+                    <Text val="AES encryption (Note: Currently only keylength=16 and mode=CBC supported and tests)"/>
+                  </Remark>
+                </LogicLine>
                 <LogicLine>
                   <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" Exp="13" FlowIsn="69" IMG_DEF_CHG="N" Image="C" Mode="E" TTL_DEF_CHG="N" TXT="For AES" TitleTxt="Error" VR_DISP="B">
                     <AppendToErrorLog val="Y"/>
@@ -757,6 +954,12 @@
               <Expanded val="1"/>
               <LogicLines>
                 <LogicLine>
+                  <Remark FlowIsn="92">
+                    <Type val="2"/>
+                    <Text val="AES decryption (Note: Currently only keylength=16 and mode=CBC supported and tests)"/>
+                  </Remark>
+                </LogicLine>
+                <LogicLine>
                   <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="32" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TXT="Nothing to decrypt" TitleTxt="Warning" VR_DISP="B">
                     <AppendToErrorLog val="N"/>
                     <Condition Exp="8"/>
@@ -786,7 +989,7 @@
                         <Skip val="N"/>
                       </Argument>
                       <Argument>
-                        <Variable val="6"/>
+                        <Variable val="12"/>
                         <Skip val="N"/>
                       </Argument>
                     </Arguments>
@@ -805,7 +1008,7 @@
                     <Lock val="N"/>
                     <Arguments>
                       <Argument>
-                        <Variable val="6"/>
+                        <Variable val="12"/>
                         <Skip val="N"/>
                       </Argument>
                       <Argument>
@@ -849,6 +1052,395 @@
                 </LogicLine>
               </LogicLines>
             </LogicUnit>
+            <LogicUnit id="16" propagate="78">
+              <Level val="H"/>
+              <Type val="U"/>
+              <Scope val="S"/>
+              <EngineDirective val="S"/>
+              <ShowMessage val="Y"/>
+              <Condition val="89"/>
+              <Event>
+                <EventType val="U"/>
+                <PublicObject comp="-1" obj="6"/>
+              </Event>
+              <Expanded val="1"/>
+              <LogicLines>
+                <LogicLine>
+                  <Remark FlowIsn="96">
+                    <Type val="2"/>
+                    <Text val="AES decryption with Magic's built in Decipher() function ...."/>
+                  </Remark>
+                </LogicLine>
+                <LogicLine>
+                  <Update FlowIsn="100">
+                    <FieldID val="5"/>
+                    <WithValue val="9"/>
+                    <Incremental val="N"/>
+                    <ForcedUpdate val="Y"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </Update>
+                </LogicLine>
+                <LogicLine>
+                  <CallTask FlowIsn="102">
+                    <OperationType val="P"/>
+                    <TaskID comp="-1" obj="16"/>
+                    <Lock val="N"/>
+                    <Arguments>
+                      <Argument>
+                        <Variable val="6"/>
+                        <Skip val="N"/>
+                      </Argument>
+                      <Argument>
+                        <Variable val="12"/>
+                        <Skip val="N"/>
+                      </Argument>
+                    </Arguments>
+                    <Wait val="Y"/>
+                    <SyncData val="N"/>
+                    <RetainFocus val="N"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </CallTask>
+                </LogicLine>
+                <LogicLine>
+                  <Select FieldID="13" FlowIsn="134" id="13">
+                    <Column val="13"/>
+                    <Type val="V"/>
+                    <IsParameter val="N"/>
+                    <DIFF_UPDATE val="T"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </Select>
+                </LogicLine>
+                <LogicLine>
+                  <Select FieldID="14" FlowIsn="146" id="14">
+                    <Column val="14"/>
+                    <Type val="V"/>
+                    <IsParameter val="N"/>
+                    <DIFF_UPDATE val="T"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </Select>
+                </LogicLine>
+                <LogicLine>
+                  <Select FieldID="15" FlowIsn="154" id="15">
+                    <Column val="15"/>
+                    <Type val="V"/>
+                    <IsParameter val="N"/>
+                    <DIFF_UPDATE val="T"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </Select>
+                </LogicLine>
+                <LogicLine>
+                  <CallTask FlowIsn="155">
+                    <OperationType val="P"/>
+                    <TaskID comp="-1" obj="16"/>
+                    <Lock val="N"/>
+                    <Arguments>
+                      <Argument>
+                        <Variable val="2"/>
+                        <Skip val="N"/>
+                      </Argument>
+                      <Argument>
+                        <Variable val="14"/>
+                        <Skip val="N"/>
+                      </Argument>
+                    </Arguments>
+                    <Wait val="Y"/>
+                    <SyncData val="N"/>
+                    <RetainFocus val="N"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </CallTask>
+                </LogicLine>
+                <LogicLine>
+                  <CallTask FlowIsn="156">
+                    <OperationType val="P"/>
+                    <TaskID comp="-1" obj="16"/>
+                    <Lock val="N"/>
+                    <Arguments>
+                      <Argument>
+                        <Variable val="3"/>
+                        <Skip val="N"/>
+                      </Argument>
+                      <Argument>
+                        <Variable val="15"/>
+                        <Skip val="N"/>
+                      </Argument>
+                    </Arguments>
+                    <Wait val="Y"/>
+                    <SyncData val="N"/>
+                    <RetainFocus val="N"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </CallTask>
+                </LogicLine>
+                <LogicLine>
+                  <Update FlowIsn="103">
+                    <FieldID val="5"/>
+                    <WithValue val="20"/>
+                    <Incremental val="N"/>
+                    <ForcedUpdate val="Y"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </Update>
+                </LogicLine>
+                <LogicLine>
+                  <Update FlowIsn="135">
+                    <FieldID val="13"/>
+                    <WithValue val="17"/>
+                    <Incremental val="N"/>
+                    <ForcedUpdate val="Y"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </Update>
+                </LogicLine>
+                <LogicLine>
+                  <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" Exp="18" FlowIsn="141" IMG_DEF_CHG="N" Image="C" Mode="E" TTL_DEF_CHG="N" TitleTxt="Error" VR_DISP="B">
+                    <AppendToErrorLog val="Y"/>
+                    <Condition Exp="19"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </STP>
+                </LogicLine>
+                <LogicLine>
+                  <Remark FlowIsn="164">
+                    <Type val="2"/>
+                    <Text val=" "/>
+                  </Remark>
+                </LogicLine>
+              </LogicLines>
+            </LogicUnit>
+            <LogicUnit id="19" propagate="78">
+              <Level val="H"/>
+              <Type val="U"/>
+              <Scope val="S"/>
+              <EngineDirective val="S"/>
+              <ShowMessage val="Y"/>
+              <Condition val="89"/>
+              <Event>
+                <EventType val="U"/>
+                <PublicObject comp="-1" obj="7"/>
+              </Event>
+              <Expanded val="1"/>
+              <LogicLines>
+                <LogicLine>
+                  <Remark FlowIsn="165">
+                    <Type val="2"/>
+                    <Text val="AES encryption with Magic's built in Cipher() function ...."/>
+                  </Remark>
+                </LogicLine>
+                <LogicLine>
+                  <Update FlowIsn="166">
+                    <FieldID val="6"/>
+                    <WithValue val="9"/>
+                    <Incremental val="N"/>
+                    <ForcedUpdate val="Y"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </Update>
+                </LogicLine>
+                <LogicLine>
+                  <Select FieldID="16" FlowIsn="168" id="16">
+                    <Column val="16"/>
+                    <Type val="V"/>
+                    <IsParameter val="N"/>
+                    <DIFF_UPDATE val="T"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </Select>
+                </LogicLine>
+                <LogicLine>
+                  <Select FieldID="17" FlowIsn="169" id="17">
+                    <Column val="17"/>
+                    <Type val="V"/>
+                    <IsParameter val="N"/>
+                    <DIFF_UPDATE val="T"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </Select>
+                </LogicLine>
+                <LogicLine>
+                  <Select FieldID="18" FlowIsn="170" id="18">
+                    <Column val="18"/>
+                    <Type val="V"/>
+                    <IsParameter val="N"/>
+                    <DIFF_UPDATE val="T"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </Select>
+                </LogicLine>
+                <LogicLine>
+                  <CallTask FlowIsn="171">
+                    <OperationType val="P"/>
+                    <TaskID comp="-1" obj="16"/>
+                    <Lock val="N"/>
+                    <Arguments>
+                      <Argument>
+                        <Variable val="2"/>
+                        <Skip val="N"/>
+                      </Argument>
+                      <Argument>
+                        <Variable val="17"/>
+                        <Skip val="N"/>
+                      </Argument>
+                    </Arguments>
+                    <Wait val="Y"/>
+                    <SyncData val="N"/>
+                    <RetainFocus val="N"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </CallTask>
+                </LogicLine>
+                <LogicLine>
+                  <CallTask FlowIsn="172">
+                    <OperationType val="P"/>
+                    <TaskID comp="-1" obj="16"/>
+                    <Lock val="N"/>
+                    <Arguments>
+                      <Argument>
+                        <Variable val="3"/>
+                        <Skip val="N"/>
+                      </Argument>
+                      <Argument>
+                        <Variable val="18"/>
+                        <Skip val="N"/>
+                      </Argument>
+                    </Arguments>
+                    <Wait val="Y"/>
+                    <SyncData val="N"/>
+                    <RetainFocus val="N"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </CallTask>
+                </LogicLine>
+                <LogicLine>
+                  <Update FlowIsn="173">
+                    <FieldID val="12"/>
+                    <WithValue val="16"/>
+                    <Incremental val="N"/>
+                    <ForcedUpdate val="Y"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </Update>
+                </LogicLine>
+                <LogicLine>
+                  <Update FlowIsn="174">
+                    <FieldID val="16"/>
+                    <WithValue val="17"/>
+                    <Incremental val="N"/>
+                    <ForcedUpdate val="Y"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </Update>
+                </LogicLine>
+                <LogicLine>
+                  <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" Exp="21" FlowIsn="175" IMG_DEF_CHG="N" Image="C" Mode="E" TTL_DEF_CHG="N" TitleTxt="Error" VR_DISP="B">
+                    <AppendToErrorLog val="Y"/>
+                    <Condition Exp="22"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </STP>
+                </LogicLine>
+                <LogicLine>
+                  <CallTask FlowIsn="176">
+                    <OperationType val="P"/>
+                    <TaskID comp="-1" obj="17"/>
+                    <Lock val="N"/>
+                    <Arguments>
+                      <Argument>
+                        <Variable val="12"/>
+                        <Skip val="N"/>
+                      </Argument>
+                      <Argument>
+                        <Variable val="6"/>
+                        <Skip val="N"/>
+                      </Argument>
+                    </Arguments>
+                    <Wait val="Y"/>
+                    <SyncData val="N"/>
+                    <RetainFocus val="N"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </CallTask>
+                </LogicLine>
+                <LogicLine>
+                  <Remark FlowIsn="235">
+                    <Type val="2"/>
+                    <Text val=" "/>
+                  </Remark>
+                </LogicLine>
+              </LogicLines>
+            </LogicUnit>
+            <LogicUnit id="30" propagate="78">
+              <Level val="H"/>
+              <Type val="U"/>
+              <Scope val="S"/>
+              <EngineDirective val="S"/>
+              <ShowMessage val="Y"/>
+              <Condition val="89"/>
+              <Event>
+                <EventType val="U"/>
+                <PublicObject comp="-1" obj="8"/>
+              </Event>
+              <Expanded val="1"/>
+              <LogicLines>
+                <LogicLine>
+                  <CallTask FlowIsn="236">
+                    <OperationType val="P"/>
+                    <TaskID comp="-1" obj="21"/>
+                    <Lock val="N"/>
+                    <Arguments>
+                      <Argument>
+                        <Variable val="5"/>
+                        <Skip val="N"/>
+                      </Argument>
+                      <Argument>
+                        <Variable val="22"/>
+                        <Skip val="N"/>
+                      </Argument>
+                    </Arguments>
+                    <Wait val="Y"/>
+                    <SyncData val="N"/>
+                    <RetainFocus val="N"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </CallTask>
+                </LogicLine>
+              </LogicLines>
+            </LogicUnit>
+            <LogicUnit id="18" propagate="78">
+              <Level val="K"/>
+              <Scope val="S"/>
+              <EngineDirective val="S"/>
+              <ShowMessage val="Y"/>
+              <Condition val="89"/>
+              <Event>
+                <EventType val="S"/>
+                <PublicObject comp="-1"/>
+              </Event>
+            </LogicUnit>
             <LogicUnit id="7" propagate="78">
               <Level val="T"/>
               <Type val="P"/>
@@ -883,11 +1475,11 @@
             </LogicUnit>
           </TaskLogic>
           <TaskForms>
-            <FormEntry _last_isn="21" _last_test_id="41" id="1">
+            <FormEntry _last_isn="26" _last_test_id="46" id="1">
               <PropertyList model="FORM_GUI0">
                 <Y id="22" val="8"/>
                 <Width id="23" val="838"/>
-                <Height id="24" val="262"/>
+                <Height id="24" val="356"/>
                 <_Comment id="218"/>
                 <FormName id="311" valUnicode="AES_Encrypt"/>
               </PropertyList>
@@ -1070,6 +1662,49 @@
                   <MultilineWordwrapScroll id="455" val="3"/>
                 </PropertyList>
               </Control>
+              <Control _test_id="44" id="24">
+                <PropertyList model="CTRL_GUI0_STATIC">
+                  <Text id="19" valUnicode="If you have encoded plaintext paste it here to decode into plaintext input field"/>
+                  <X id="21" val="9"/>
+                  <Y id="22" val="253"/>
+                  <Width id="23" val="462"/>
+                  <Height id="24" val="15"/>
+                  <EnableRTF id="69"/>
+                  <_Orientation id="143"/>
+                </PropertyList>
+              </Control>
+              <Control PDOD="128" _test_id="43" id="23">
+                <PropertyList model="CTRL_GUI0_EDIT">
+                  <X id="21" val="8"/>
+                  <Y id="22" val="270"/>
+                  <Width id="23" val="815"/>
+                  <Height id="24" val="62"/>
+                  <Data FieldID="19" id="43"/>
+                  <ControlName id="46" val="v.Plaintext"/>
+                  <MultiLineEdit id="71" val="Y"/>
+                  <VerticalScroll id="73" val="Y"/>
+                  <AllowCRInData id="74" val="Y"/>
+                  <PasswordEdit id="85"/>
+                  <_Orientation id="143"/>
+                  <TabOrder id="314" val="15"/>
+                  <MultilineWordwrapScroll id="455" val="3"/>
+                </PropertyList>
+              </Control>
+              <Control _test_id="46" id="26">
+                <PropertyList model="CTRL_GUI0_EDIT">
+                  <Model ID="MODEL_GUI_INT" id="1">
+                    <Var FieldID="22"/>
+                  </Model>
+                  <X id="21" val="7"/>
+                  <Y id="22" val="334"/>
+                  <Width id="23" val="816"/>
+                  <Height id="24" val="13"/>
+                  <Data FieldID="22" id="43"/>
+                  <ControlName id="46" val="v.Tempfilename"/>
+                  <_Orientation id="143"/>
+                  <TabOrder id="314" val="16"/>
+                </PropertyList>
+              </Control>
               <Control PDOD="128" _test_id="24" id="13">
                 <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
                   <X id="21" val="8"/>
@@ -1098,23 +1733,9 @@
                   <TabOrder id="314" val="10"/>
                 </PropertyList>
               </Control>
-              <Control PDOD="128" _test_id="27" id="16">
-                <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
-                  <X id="21" val="130"/>
-                  <Y id="22" val="239"/>
-                  <Width id="23" val="117"/>
-                  <Height id="24" val="14"/>
-                  <Format id="82" valUnicode="AES Encrypt (Magic)"/>
-                  <RaiseEvent id="234">
-                    <EventType val="U"/>
-                    <PublicObject comp="-1" obj="3"/>
-                  </RaiseEvent>
-                  <TabOrder id="314" val="11"/>
-                </PropertyList>
-              </Control>
               <Control PDOD="128" _test_id="37" id="17">
                 <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
-                  <X id="21" val="252"/>
+                  <X id="21" val="130"/>
                   <Y id="22" val="239"/>
                   <Width id="23" val="117"/>
                   <Height id="24" val="14"/>
@@ -1123,7 +1744,49 @@
                     <EventType val="U"/>
                     <PublicObject comp="-1" obj="5"/>
                   </RaiseEvent>
+                  <TabOrder id="314" val="11"/>
+                </PropertyList>
+              </Control>
+              <Control PDOD="128" _test_id="42" id="22">
+                <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+                  <X id="21" val="285"/>
+                  <Y id="22" val="239"/>
+                  <Width id="23" val="117"/>
+                  <Height id="24" val="14"/>
+                  <Format id="82" valUnicode="Encrypt (Magic)"/>
+                  <RaiseEvent id="234">
+                    <EventType val="U"/>
+                    <PublicObject comp="-1" obj="7"/>
+                  </RaiseEvent>
                   <TabOrder id="314" val="12"/>
+                </PropertyList>
+              </Control>
+              <Control PDOD="128" _test_id="27" id="16">
+                <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+                  <X id="21" val="407"/>
+                  <Y id="22" val="239"/>
+                  <Width id="23" val="117"/>
+                  <Height id="24" val="14"/>
+                  <Format id="82" valUnicode="Decrypt (Magic)"/>
+                  <RaiseEvent id="234">
+                    <EventType val="U"/>
+                    <PublicObject comp="-1" obj="6"/>
+                  </RaiseEvent>
+                  <TabOrder id="314" val="13"/>
+                </PropertyList>
+              </Control>
+              <Control PDOD="128" _test_id="45" id="25">
+                <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+                  <X id="21" val="527"/>
+                  <Y id="22" val="239"/>
+                  <Width id="23" val="117"/>
+                  <Height id="24" val="14"/>
+                  <Format id="82" valUnicode="Save Plaintext (Blob)"/>
+                  <RaiseEvent id="234">
+                    <EventType val="U"/>
+                    <PublicObject comp="-1" obj="8"/>
+                  </RaiseEvent>
+                  <TabOrder id="314" val="14"/>
                 </PropertyList>
               </Control>
             </FormEntry>
@@ -1150,7 +1813,7 @@
               <ExpAttribute val="N"/>
             </Expression>
             <Expression id="3">
-              <ExpSyntax val="UnicodeToANSI(Trim('Franz jagt im komplett verwahrlosten Taxi quer durch Bayern'), 65000)"/>
+              <ExpSyntax val="UnicodeToANSI(Trim('The quick brown fox jumps over the lazy dog'), 65000)"/>
               <ExpAttribute val="A"/>
             </Expression>
             <Expression id="4">
@@ -1181,6 +1844,34 @@
               <ExpSyntax val="'For AES Keylength needs to be ' &amp; Trim(Str({0,4}*8,'')) &amp; ' Bits. Either enter a Key with that length or derive one from a passphrase'"/>
               <ExpAttribute val="A"/>
             </Expression>
+            <Expression id="20">
+              <ExpSyntax val="DeCipher(10, {0,12}, {0,14}, 'CBC', {0,15})"/>
+              <ExpAttribute val="O"/>
+            </Expression>
+            <Expression id="16">
+              <ExpSyntax val="Cipher(10, {0,5}, {0,17}, 'CBC', {0,18})"/>
+              <ExpAttribute val="O"/>
+            </Expression>
+            <Expression id="17">
+              <ExpSyntax val="EncryptionError()"/>
+              <ExpAttribute val="A"/>
+            </Expression>
+            <Expression id="18">
+              <ExpSyntax val="{0,13}"/>
+              <ExpAttribute val="O"/>
+            </Expression>
+            <Expression id="21">
+              <ExpSyntax val="{0,16}"/>
+              <ExpAttribute val="O"/>
+            </Expression>
+            <Expression id="19">
+              <ExpSyntax val="Len(Trim({0,13}))>0"/>
+              <ExpAttribute val="B"/>
+            </Expression>
+            <Expression id="22">
+              <ExpSyntax val="Len(Trim({0,16}))>0"/>
+              <ExpAttribute val="B"/>
+            </Expression>
           </Expressions>
           <EVNT DESC="AES_Encrypt (CBC)" FORCE_EXIT="N" id="1">
             <Event>
@@ -1201,6 +1892,24 @@
             </Event>
           </EVNT>
           <EVNT DESC="AES_GenKey" FORCE_EXIT="N" id="4">
+            <Event>
+              <EventType val="N"/>
+              <PublicObject comp="-1"/>
+            </Event>
+          </EVNT>
+          <EVNT DESC="AES_Decrypt (Magic)" FORCE_EXIT="N" id="6">
+            <Event>
+              <EventType val="N"/>
+              <PublicObject comp="-1"/>
+            </Event>
+          </EVNT>
+          <EVNT DESC="AES_Encrypt (Magic)" FORCE_EXIT="N" id="7">
+            <Event>
+              <EventType val="N"/>
+              <PublicObject comp="-1"/>
+            </Event>
+          </EVNT>
+          <EVNT DESC="SaveToBlob" FORCE_EXIT="N" id="8">
             <Event>
               <EventType val="N"/>
               <PublicObject comp="-1"/>

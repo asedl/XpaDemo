@@ -33,7 +33,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736973" _time="54027" date="06/10/2018" time="15:00:27"/>
+          <LastModified _date="736973" _time="86056" date="06/10/2018" time="23:54:16"/>
         </Header>
         <ItemIsn val="4"/>
         <Resource>
@@ -283,7 +283,7 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="736973" _time="54027" date="06/10/2018" time="15:00:27"/>
+            <LastModified _date="736973" _time="86056" date="06/10/2018" time="23:54:16"/>
           </Header>
           <ItemIsn val="7"/>
           <Resource>
@@ -574,7 +574,47 @@
                   </Update>
                 </LogicLine>
                 <LogicLine>
+                  <Remark FlowIsn="45">
+                    <Type val="2"/>
+                    <Text val=" "/>
+                  </Remark>
+                </LogicLine>
+                <LogicLine>
                   <Remark FlowIsn="37">
+                    <Type val="2"/>
+                    <Text val=" "/>
+                  </Remark>
+                </LogicLine>
+              </LogicLines>
+            </LogicUnit>
+            <LogicUnit id="17" propagate="78">
+              <Level val="V"/>
+              <Type val="C"/>
+              <FieldID val="1"/>
+              <Scope val="S"/>
+              <EngineDirective val="S"/>
+              <ShowMessage val="Y"/>
+              <Condition val="89"/>
+              <Event>
+                <EventType val="S"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Expanded val="1"/>
+              <LogicLines>
+                <LogicLine>
+                  <RaiseEvent FlowIsn="46">
+                    <Event>
+                      <EventType val="U"/>
+                      <PublicObject comp="-1" obj="4"/>
+                    </Event>
+                    <Wait val="89"/>
+                    <Condition val="Y"/>
+                    <Modifier val="S"/>
+                    <Direction val="C"/>
+                  </RaiseEvent>
+                </LogicLine>
+                <LogicLine>
+                  <Remark FlowIsn="47">
                     <Type val="2"/>
                     <Text val=" "/>
                   </Remark>
@@ -635,6 +675,10 @@
                     <Arguments>
                       <Argument>
                         <Variable val="1"/>
+                        <Skip val="N"/>
+                      </Argument>
+                      <Argument>
+                        <Variable val="4"/>
                         <Skip val="N"/>
                       </Argument>
                       <Argument>
@@ -746,6 +790,7 @@
                   <Y id="22" val="104"/>
                   <Width id="23" val="258"/>
                   <Height id="24" val="9"/>
+                  <Style id="63" val="7"/>
                   <EnableRTF id="69"/>
                   <_Orientation id="143"/>
                 </PropertyList>
@@ -757,6 +802,7 @@
                   <Y id="22" val="105"/>
                   <Width id="23" val="258"/>
                   <Height id="24" val="9"/>
+                  <Style id="63" val="7"/>
                   <EnableRTF id="69"/>
                   <_Orientation id="143"/>
                 </PropertyList>
@@ -772,6 +818,7 @@
                   <Height id="24" val="10"/>
                   <Data FieldID="2" id="43"/>
                   <ControlName id="46" val="v.Key"/>
+                  <Modifiable id="53"/>
                   <_Orientation id="143"/>
                   <TabOrder id="314" val="2"/>
                 </PropertyList>
@@ -787,6 +834,7 @@
                   <Height id="24" val="10"/>
                   <Data FieldID="3" id="43"/>
                   <ControlName id="46" val="v.IV (Hexencoded)_0001"/>
+                  <Modifiable id="53"/>
                   <_Orientation id="143"/>
                   <TabOrder id="314" val="3"/>
                 </PropertyList>
@@ -815,6 +863,7 @@
                   <Height id="24" val="10"/>
                   <Data FieldID="4" id="43"/>
                   <ControlName id="46" val="v.Keylength"/>
+                  <Modifiable id="53" val="Y"/>
                   <_Orientation id="143"/>
                   <TabOrder id="314" val="4"/>
                 </PropertyList>

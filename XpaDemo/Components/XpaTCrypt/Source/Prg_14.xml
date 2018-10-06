@@ -13,8 +13,8 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="AES_Encrypt (magic)" ISN_2="1" LastIsn="1" id="14">
-          <Public val="AES_Encrypt (magic)"/>
+        <Header Description="AES_Encrypt_MagicDecipher" ISN_2="1" LastIsn="1" id="14">
+          <Public val="AES_Encrypt_MagicDecipher"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -38,7 +38,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736973" _time="3761" date="06/10/2018" time="01:02:41"/>
+          <LastModified _date="736974" _time="4556" date="07/10/2018" time="01:15:56"/>
         </Header>
         <ItemIsn val="12"/>
         <Resource>
@@ -753,7 +753,7 @@
           <FormEntry id="1">
             <PropertyList model="FORM_GUI0">
               <_Comment id="218"/>
-              <FormName id="311" valUnicode="AES_Encrypt (magic)"/>
+              <FormName id="311" valUnicode="AES_Encrypt_MagicDecipher"/>
             </PropertyList>
           </FormEntry>
         </TaskForms>

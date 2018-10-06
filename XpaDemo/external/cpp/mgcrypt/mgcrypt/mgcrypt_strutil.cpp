@@ -40,7 +40,7 @@ using namespace std;
 using namespace CryptoPP;
 
 
-std::string wstrtostr(const std::wstring &wstr)
+std::string mgc_wstrtostr(const std::wstring &wstr)
 {
 	std::string strTo;
 	char *szTo = new char[wstr.length() + 1];

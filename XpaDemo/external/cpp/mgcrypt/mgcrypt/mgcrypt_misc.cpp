@@ -93,23 +93,30 @@ int Hexdecode(char* pHexencoded, char** pEncodingResult, size_t& nBytesResult) {
 	return 0;
 }
 
-int WriteBlobToTempfile(const std::vector<BYTE> &buffer, wstring& filename) {
-	wchar_t szTempFileName[MAX_PATH];
+int GetTempfilename(wchar_t* szTempfilename) {
 	wchar_t szTempPathBuffer[MAX_PATH];
 
 	//  Gets the temp path env string (no guarantee it's a valid path).
-	DWORD dwRetVal = GetTempPathW(MAX_PATH, szTempPathBuffer); 
-	if (dwRetVal > MAX_PATH || (dwRetVal == 0)) 	{
-	}
-	else {
-		//  Generates a temporary file name. 
-		UINT uRetVal = GetTempFileNameW(szTempPathBuffer, L"mgcrypt_",  0, szTempFileName);
-		if (uRetVal == 0) {
-		}
-		else {
-			filename = szTempFileName;
-		}
-	}
+	DWORD dwRetVal = GetTempPathW(MAX_PATH, szTempPathBuffer);
+	if (dwRetVal > MAX_PATH || (dwRetVal == 0))
+		return 0;
+	
+	//  Generates a temporary file name. 
+	UINT uRetVal = GetTempFileNameW(szTempPathBuffer, L"mgcrypt_", 0, szTempfilename);
+	if (uRetVal == 0)
+		return 0;
+
+	return uRetVal;
+}
+
+int WriteBlobToTempfile(const std::vector<BYTE> &buffer, wstring& filename) {
+	wchar_t szTempFileName[MAX_PATH];
+
+	int ndxTempfile = GetTempfilename(&szTempFileName[0]);
+	if (ndxTempfile)
+		filename = szTempFileName;
+	else
+		return 0;
 
 	std::ofstream fout(szTempFileName, std::ios::out | std::ios::binary);
 	fout.write((char *)buffer.data(), buffer.size() * sizeof(BYTE));
