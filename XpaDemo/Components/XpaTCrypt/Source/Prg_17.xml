@@ -32,7 +32,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736973" _time="3783" date="06/10/2018" time="01:03:03"/>
+          <LastModified _date="736973" _time="62954" date="06/10/2018" time="17:29:14"/>
         </Header>
         <ReturnValueExpression val="1"/>
         <ItemIsn val="2"/>
@@ -41,9 +41,11 @@
             <Column id="1" name="pi.Data_Raw">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_BLOB" id="1"/>
+                <StoredAs id="173" val="33"/>
                 <Size id="174" val="28"/>
                 <Definition id="175" val="1"/>
                 <_FieldStyle id="276" val="1"/>
+                <Content id="434" val="1"/>
                 <PartOfDataview id="449"/>
               </PropertyList>
             </Column>

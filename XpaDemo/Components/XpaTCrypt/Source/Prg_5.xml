@@ -28,7 +28,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736973" _time="54513" date="06/10/2018" time="15:08:33"/>
+          <LastModified _date="736973" _time="63399" date="06/10/2018" time="17:36:39"/>
         </Header>
         <Resource>
           <Columns/>
@@ -175,11 +175,29 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="736973" _time="54513" date="06/10/2018" time="15:08:33"/>
+            <LastModified _date="736973" _time="63399" date="06/10/2018" time="17:36:39"/>
           </Header>
-          <ItemIsn val="7"/>
+          <ItemIsn val="9"/>
           <Resource>
             <Columns>
+              <Column id="8" name="v.Key">
+                <PropertyList model="FIELD">
+                  <Model attr_obj="FIELD_ALPHA" id="1"/>
+                  <Picture id="157" valUnicode="1000"/>
+                  <StoredAs id="173" val="1"/>
+                  <Size id="174" val="1000"/>
+                  <_Flip id="194"/>
+                </PropertyList>
+              </Column>
+              <Column id="9" name="v.IV">
+                <PropertyList model="FIELD">
+                  <Model attr_obj="FIELD_ALPHA" id="1"/>
+                  <Picture id="157" valUnicode="1000"/>
+                  <StoredAs id="173" val="1"/>
+                  <Size id="174" val="1000"/>
+                  <_Flip id="194"/>
+                </PropertyList>
+              </Column>
               <Column id="2" name="v.Key (Hexencoded)">
                 <PropertyList model="FIELD">
                   <Model attr_obj="FIELD_ALPHA" id="1"/>
@@ -322,6 +340,30 @@
                   </Remark>
                 </LogicLine>
                 <LogicLine>
+                  <Select FieldID="8" FlowIsn="41" id="8">
+                    <Column val="8"/>
+                    <Type val="V"/>
+                    <IsParameter val="N"/>
+                    <_DitIndexForToolkit val="3"/>
+                    <DIFF_UPDATE val="T"/>
+                    <Condition val="Y"/>
+                    <Modifier val="S"/>
+                    <Direction val="C"/>
+                  </Select>
+                </LogicLine>
+                <LogicLine>
+                  <Select FieldID="9" FlowIsn="42" id="9">
+                    <Column val="9"/>
+                    <Type val="V"/>
+                    <IsParameter val="N"/>
+                    <_DitIndexForToolkit val="4"/>
+                    <DIFF_UPDATE val="T"/>
+                    <Condition val="Y"/>
+                    <Modifier val="S"/>
+                    <Direction val="C"/>
+                  </Select>
+                </LogicLine>
+                <LogicLine>
                   <Select FieldID="2" FlowIsn="5" id="2">
                     <Column val="2"/>
                     <Type val="V"/>
@@ -329,7 +371,7 @@
                     <INT_DIT_INFO>
                       <v>10</v>
                     </INT_DIT_INFO>
-                    <_DitIndexForToolkit val="3"/>
+                    <_DitIndexForToolkit val="7"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
@@ -341,7 +383,7 @@
                     <Column val="3"/>
                     <Type val="V"/>
                     <IsParameter val="N"/>
-                    <_DitIndexForToolkit val="4"/>
+                    <_DitIndexForToolkit val="8"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
@@ -354,7 +396,7 @@
                     <Column val="4"/>
                     <Type val="V"/>
                     <IsParameter val="N"/>
-                    <_DitIndexForToolkit val="6"/>
+                    <_DitIndexForToolkit val="10"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
@@ -372,7 +414,7 @@
                     <Column val="5"/>
                     <Type val="V"/>
                     <IsParameter val="N"/>
-                    <_DitIndexForToolkit val="8"/>
+                    <_DitIndexForToolkit val="12"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
@@ -384,7 +426,7 @@
                     <Column val="6"/>
                     <Type val="V"/>
                     <IsParameter val="N"/>
-                    <_DitIndexForToolkit val="9"/>
+                    <_DitIndexForToolkit val="13"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
@@ -408,6 +450,96 @@
                     <Modifier val="S"/>
                     <Direction val="C"/>
                   </Select>
+                </LogicLine>
+              </LogicLines>
+            </LogicUnit>
+            <LogicUnit id="10" propagate="78">
+              <Level val="V"/>
+              <Type val="C"/>
+              <FieldID val="8"/>
+              <Scope val="S"/>
+              <EngineDirective val="S"/>
+              <ShowMessage val="Y"/>
+              <Condition val="89"/>
+              <Event>
+                <EventType val="S"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Expanded val="1"/>
+              <LogicLines>
+                <LogicLine>
+                  <CallTask FlowIsn="43">
+                    <OperationType val="P"/>
+                    <TaskID comp="-1" obj="17"/>
+                    <Lock val="N"/>
+                    <Arguments>
+                      <Argument>
+                        <Expression val="10"/>
+                        <Skip val="N"/>
+                      </Argument>
+                      <Argument>
+                        <Variable val="2"/>
+                        <Skip val="N"/>
+                      </Argument>
+                    </Arguments>
+                    <Wait val="Y"/>
+                    <SyncData val="N"/>
+                    <RetainFocus val="N"/>
+                    <Condition val="Y"/>
+                    <Modifier val="S"/>
+                    <Direction val="C"/>
+                  </CallTask>
+                </LogicLine>
+                <LogicLine>
+                  <Remark FlowIsn="68">
+                    <Type val="2"/>
+                    <Text val=" "/>
+                  </Remark>
+                </LogicLine>
+              </LogicLines>
+            </LogicUnit>
+            <LogicUnit id="11" propagate="78">
+              <Level val="V"/>
+              <Type val="C"/>
+              <FieldID val="9"/>
+              <Scope val="S"/>
+              <EngineDirective val="S"/>
+              <ShowMessage val="Y"/>
+              <Condition val="89"/>
+              <Event>
+                <EventType val="S"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Expanded val="1"/>
+              <LogicLines>
+                <LogicLine>
+                  <CallTask FlowIsn="47">
+                    <OperationType val="P"/>
+                    <TaskID comp="-1" obj="17"/>
+                    <Lock val="N"/>
+                    <Arguments>
+                      <Argument>
+                        <Expression val="11"/>
+                        <Skip val="N"/>
+                      </Argument>
+                      <Argument>
+                        <Variable val="3"/>
+                        <Skip val="N"/>
+                      </Argument>
+                    </Arguments>
+                    <Wait val="Y"/>
+                    <SyncData val="N"/>
+                    <RetainFocus val="N"/>
+                    <Condition val="Y"/>
+                    <Modifier val="S"/>
+                    <Direction val="C"/>
+                  </CallTask>
+                </LogicLine>
+                <LogicLine>
+                  <Remark FlowIsn="48">
+                    <Type val="2"/>
+                    <Text val=" "/>
+                  </Remark>
                 </LogicLine>
               </LogicLines>
             </LogicUnit>
@@ -474,6 +606,52 @@
                   </CallTask>
                 </LogicLine>
                 <LogicLine>
+                  <CallTask FlowIsn="50">
+                    <OperationType val="P"/>
+                    <TaskID comp="-1" obj="16"/>
+                    <Lock val="N"/>
+                    <Arguments>
+                      <Argument>
+                        <Variable val="2"/>
+                        <Skip val="N"/>
+                      </Argument>
+                      <Argument>
+                        <Variable val="8"/>
+                        <Skip val="N"/>
+                      </Argument>
+                    </Arguments>
+                    <Wait val="Y"/>
+                    <SyncData val="N"/>
+                    <RetainFocus val="N"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </CallTask>
+                </LogicLine>
+                <LogicLine>
+                  <CallTask FlowIsn="51">
+                    <OperationType val="P"/>
+                    <TaskID comp="-1" obj="16"/>
+                    <Lock val="N"/>
+                    <Arguments>
+                      <Argument>
+                        <Variable val="3"/>
+                        <Skip val="N"/>
+                      </Argument>
+                      <Argument>
+                        <Variable val="9"/>
+                        <Skip val="N"/>
+                      </Argument>
+                    </Arguments>
+                    <Wait val="Y"/>
+                    <SyncData val="N"/>
+                    <RetainFocus val="N"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </CallTask>
+                </LogicLine>
+                <LogicLine>
                   <Remark FlowIsn="15">
                     <Type val="2"/>
                     <Text val=" "/>
@@ -494,6 +672,22 @@
               </Event>
               <Expanded val="1"/>
               <LogicLines>
+                <LogicLine>
+                  <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" Exp="13" FlowIsn="69" IMG_DEF_CHG="N" Image="C" Mode="E" TTL_DEF_CHG="N" TXT="For AES" TitleTxt="Error" VR_DISP="B">
+                    <AppendToErrorLog val="Y"/>
+                    <Condition Exp="12"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </STP>
+                </LogicLine>
+                <LogicLine>
+                  <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" Exp="13" FlowIsn="70" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TitleTxt="Warning" VR_DISP="B">
+                    <AppendToErrorLog val="N"/>
+                    <Condition Exp="14"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </STP>
+                </LogicLine>
                 <LogicLine>
                   <CallTask FlowIsn="16">
                     <OperationType val="P"/>
@@ -542,7 +736,113 @@
                   </CallTask>
                 </LogicLine>
                 <LogicLine>
-                  <Remark FlowIsn="19">
+                  <Remark FlowIsn="30">
+                    <Type val="2"/>
+                    <Text val=" "/>
+                  </Remark>
+                </LogicLine>
+              </LogicLines>
+            </LogicUnit>
+            <LogicUnit id="8" propagate="78">
+              <Level val="H"/>
+              <Type val="U"/>
+              <Scope val="S"/>
+              <EngineDirective val="S"/>
+              <ShowMessage val="Y"/>
+              <Condition val="89"/>
+              <Event>
+                <EventType val="U"/>
+                <PublicObject comp="-1" obj="5"/>
+              </Event>
+              <Expanded val="1"/>
+              <LogicLines>
+                <LogicLine>
+                  <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="32" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TXT="Nothing to decrypt" TitleTxt="Warning" VR_DISP="B">
+                    <AppendToErrorLog val="N"/>
+                    <Condition Exp="8"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </STP>
+                </LogicLine>
+                <LogicLine>
+                  <Update FlowIsn="34">
+                    <FieldID val="5"/>
+                    <WithValue val="9"/>
+                    <Incremental val="N"/>
+                    <ForcedUpdate val="Y"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </Update>
+                </LogicLine>
+                <LogicLine>
+                  <CallTask FlowIsn="36">
+                    <OperationType val="P"/>
+                    <TaskID comp="-1" obj="16"/>
+                    <Lock val="N"/>
+                    <Arguments>
+                      <Argument>
+                        <Variable val="6"/>
+                        <Skip val="N"/>
+                      </Argument>
+                      <Argument>
+                        <Variable val="6"/>
+                        <Skip val="N"/>
+                      </Argument>
+                    </Arguments>
+                    <Wait val="Y"/>
+                    <SyncData val="N"/>
+                    <RetainFocus val="N"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </CallTask>
+                </LogicLine>
+                <LogicLine>
+                  <CallTask FlowIsn="35">
+                    <OperationType val="P"/>
+                    <TaskID comp="-1" obj="18"/>
+                    <Lock val="N"/>
+                    <Arguments>
+                      <Argument>
+                        <Variable val="6"/>
+                        <Skip val="N"/>
+                      </Argument>
+                      <Argument>
+                        <Variable val="4"/>
+                        <Skip val="N"/>
+                      </Argument>
+                      <Argument>
+                        <Variable val="2"/>
+                        <Skip val="N"/>
+                      </Argument>
+                      <Argument>
+                        <Variable val="3"/>
+                        <Skip val="N"/>
+                      </Argument>
+                      <Argument>
+                        <Expression val="5"/>
+                        <Skip val="N"/>
+                      </Argument>
+                      <Argument>
+                        <Variable val="5"/>
+                        <Skip val="N"/>
+                      </Argument>
+                      <Argument>
+                        <Variable val="7"/>
+                        <Skip val="N"/>
+                      </Argument>
+                    </Arguments>
+                    <Wait val="Y"/>
+                    <SyncData val="N"/>
+                    <RetainFocus val="N"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </CallTask>
+                </LogicLine>
+                <LogicLine>
+                  <Remark FlowIsn="33">
                     <Type val="2"/>
                     <Text val=" "/>
                   </Remark>
@@ -583,19 +883,71 @@
             </LogicUnit>
           </TaskLogic>
           <TaskForms>
-            <FormEntry _last_isn="16" _last_test_id="36" id="1">
+            <FormEntry _last_isn="21" _last_test_id="41" id="1">
               <PropertyList model="FORM_GUI0">
                 <Y id="22" val="8"/>
                 <Width id="23" val="838"/>
-                <Height id="24" val="236"/>
+                <Height id="24" val="262"/>
                 <_Comment id="218"/>
                 <FormName id="311" valUnicode="AES_Encrypt"/>
               </PropertyList>
+              <Control _test_id="41" id="21">
+                <PropertyList model="CTRL_GUI0_STATIC">
+                  <Text id="19" valUnicode="Encryption key"/>
+                  <X id="21" val="13"/>
+                  <Y id="22" val="8"/>
+                  <Width id="23" val="258"/>
+                  <Height id="24" val="9"/>
+                  <EnableRTF id="69"/>
+                  <_Orientation id="143"/>
+                </PropertyList>
+              </Control>
+              <Control _test_id="40" id="20">
+                <PropertyList model="CTRL_GUI0_STATIC">
+                  <Text id="19" valUnicode="IV / Salt"/>
+                  <X id="21" val="275"/>
+                  <Y id="22" val="9"/>
+                  <Width id="23" val="258"/>
+                  <Height id="24" val="9"/>
+                  <EnableRTF id="69"/>
+                  <_Orientation id="143"/>
+                </PropertyList>
+              </Control>
+              <Control _test_id="39" id="19">
+                <PropertyList model="CTRL_GUI0_EDIT">
+                  <Model ID="MODEL_GUI_INT" id="1">
+                    <Var FieldID="8"/>
+                  </Model>
+                  <X id="21" val="12"/>
+                  <Y id="22" val="20"/>
+                  <Width id="23" val="258"/>
+                  <Height id="24" val="10"/>
+                  <Data FieldID="8" id="43"/>
+                  <ControlName id="46" val="v.Key_0001"/>
+                  <_Orientation id="143"/>
+                  <TabOrder id="314" val="1"/>
+                </PropertyList>
+              </Control>
+              <Control _test_id="38" id="18">
+                <PropertyList model="CTRL_GUI0_EDIT">
+                  <Model ID="MODEL_GUI_INT" id="1">
+                    <Var FieldID="9"/>
+                  </Model>
+                  <X id="21" val="275"/>
+                  <Y id="22" val="20"/>
+                  <Width id="23" val="258"/>
+                  <Height id="24" val="10"/>
+                  <Data FieldID="9" id="43"/>
+                  <ControlName id="46" val="v.IV_0001"/>
+                  <_Orientation id="143"/>
+                  <TabOrder id="314" val="2"/>
+                </PropertyList>
+              </Control>
               <Control _test_id="34" id="4">
                 <PropertyList model="CTRL_GUI0_STATIC">
                   <Text id="19" valUnicode="Encryption key (hex representation)"/>
                   <X id="21" val="11"/>
-                  <Y id="22" val="8"/>
+                  <Y id="22" val="32"/>
                   <Width id="23" val="258"/>
                   <Height id="24" val="9"/>
                   <EnableRTF id="69"/>
@@ -606,7 +958,7 @@
                 <PropertyList model="CTRL_GUI0_STATIC">
                   <Text id="19" valUnicode="IV / Salt (hex representation)"/>
                   <X id="21" val="273"/>
-                  <Y id="22" val="9"/>
+                  <Y id="22" val="33"/>
                   <Width id="23" val="258"/>
                   <Height id="24" val="9"/>
                   <EnableRTF id="69"/>
@@ -619,13 +971,13 @@
                     <Var FieldID="2"/>
                   </Model>
                   <X id="21" val="10"/>
-                  <Y id="22" val="20"/>
+                  <Y id="22" val="44"/>
                   <Width id="23" val="258"/>
                   <Height id="24" val="10"/>
                   <Data FieldID="2" id="43"/>
                   <ControlName id="46" val="v.Key"/>
                   <_Orientation id="143"/>
-                  <TabOrder id="314" val="1"/>
+                  <TabOrder id="314" val="3"/>
                 </PropertyList>
               </Control>
               <Control _test_id="28" id="7">
@@ -634,20 +986,20 @@
                     <Var FieldID="3"/>
                   </Model>
                   <X id="21" val="273"/>
-                  <Y id="22" val="20"/>
+                  <Y id="22" val="44"/>
                   <Width id="23" val="258"/>
                   <Height id="24" val="10"/>
                   <Data FieldID="3" id="43"/>
                   <ControlName id="46" val="v.IV (Hexencoded)_0001"/>
                   <_Orientation id="143"/>
-                  <TabOrder id="314" val="2"/>
+                  <TabOrder id="314" val="4"/>
                 </PropertyList>
               </Control>
               <Control _test_id="30" id="8">
                 <PropertyList model="CTRL_GUI0_STATIC">
                   <Text id="19" valUnicode="v.Keylength"/>
                   <X id="21" val="548"/>
-                  <Y id="22" val="20"/>
+                  <Y id="22" val="44"/>
                   <Width id="23" val="46"/>
                   <Height id="24" val="9"/>
                   <Font id="50" val="1"/>
@@ -662,32 +1014,32 @@
                     <Var FieldID="4"/>
                   </Model>
                   <X id="21" val="598"/>
-                  <Y id="22" val="20"/>
+                  <Y id="22" val="44"/>
                   <Width id="23" val="46"/>
                   <Height id="24" val="10"/>
                   <Data FieldID="4" id="43"/>
                   <ControlName id="46" val="v.Keylength"/>
                   <_Orientation id="143"/>
-                  <TabOrder id="314" val="3"/>
+                  <TabOrder id="314" val="5"/>
                 </PropertyList>
               </Control>
               <Control _test_id="25" id="10">
                 <PropertyList model="CTRL_GUI0_EDIT">
                   <X id="21" val="776"/>
-                  <Y id="22" val="20"/>
+                  <Y id="22" val="44"/>
                   <Width id="23" val="48"/>
                   <Height id="24" val="10"/>
                   <Data Exp="1" id="43"/>
                   <Format id="82" valUnicode="N10"/>
                   <Attribute id="83" val="78"/>
                   <_Orientation id="143"/>
-                  <TabOrder id="314" val="4"/>
+                  <TabOrder id="314" val="6"/>
                 </PropertyList>
               </Control>
               <Control PDOD="128" _test_id="17" id="11">
                 <PropertyList model="CTRL_GUI0_EDIT">
                   <X id="21" val="8"/>
-                  <Y id="22" val="52"/>
+                  <Y id="22" val="76"/>
                   <Width id="23" val="376"/>
                   <Height id="24" val="159"/>
                   <Data FieldID="5" id="43"/>
@@ -697,14 +1049,14 @@
                   <AllowCRInData id="74" val="Y"/>
                   <PasswordEdit id="85"/>
                   <_Orientation id="143"/>
-                  <TabOrder id="314" val="6"/>
+                  <TabOrder id="314" val="8"/>
                   <MultilineWordwrapScroll id="455" val="3"/>
                 </PropertyList>
               </Control>
               <Control PDOD="128" _test_id="16" id="12">
                 <PropertyList model="CTRL_GUI0_EDIT">
                   <X id="21" val="388"/>
-                  <Y id="22" val="52"/>
+                  <Y id="22" val="76"/>
                   <Width id="23" val="435"/>
                   <Height id="24" val="159"/>
                   <Data FieldID="6" id="43"/>
@@ -714,14 +1066,14 @@
                   <AllowCRInData id="74" val="Y"/>
                   <PasswordEdit id="85"/>
                   <_Orientation id="143"/>
-                  <TabOrder id="314" val="7"/>
+                  <TabOrder id="314" val="9"/>
                   <MultilineWordwrapScroll id="455" val="3"/>
                 </PropertyList>
               </Control>
               <Control PDOD="128" _test_id="24" id="13">
                 <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
                   <X id="21" val="8"/>
-                  <Y id="22" val="34"/>
+                  <Y id="22" val="58"/>
                   <Width id="23" val="117"/>
                   <Height id="24" val="14"/>
                   <Format id="82" valUnicode="Generate Key (from passphrase)"/>
@@ -729,13 +1081,13 @@
                     <EventType val="U"/>
                     <PublicObject comp="-1" obj="4"/>
                   </RaiseEvent>
-                  <TabOrder id="314" val="5"/>
+                  <TabOrder id="314" val="7"/>
                 </PropertyList>
               </Control>
               <Control PDOD="128" _test_id="9" id="14">
                 <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
                   <X id="21" val="8"/>
-                  <Y id="22" val="215"/>
+                  <Y id="22" val="239"/>
                   <Width id="23" val="117"/>
                   <Height id="24" val="14"/>
                   <Format id="82" valUnicode="AES Encrypt"/>
@@ -743,13 +1095,13 @@
                     <EventType val="U"/>
                     <PublicObject comp="-1" obj="1"/>
                   </RaiseEvent>
-                  <TabOrder id="314" val="8"/>
+                  <TabOrder id="314" val="10"/>
                 </PropertyList>
               </Control>
               <Control PDOD="128" _test_id="27" id="16">
                 <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
                   <X id="21" val="130"/>
-                  <Y id="22" val="215"/>
+                  <Y id="22" val="239"/>
                   <Width id="23" val="117"/>
                   <Height id="24" val="14"/>
                   <Format id="82" valUnicode="AES Encrypt (Magic)"/>
@@ -757,7 +1109,21 @@
                     <EventType val="U"/>
                     <PublicObject comp="-1" obj="3"/>
                   </RaiseEvent>
-                  <TabOrder id="314" val="9"/>
+                  <TabOrder id="314" val="11"/>
+                </PropertyList>
+              </Control>
+              <Control PDOD="128" _test_id="37" id="17">
+                <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+                  <X id="21" val="252"/>
+                  <Y id="22" val="239"/>
+                  <Width id="23" val="117"/>
+                  <Height id="24" val="14"/>
+                  <Format id="82" valUnicode="Decrypt"/>
+                  <RaiseEvent id="234">
+                    <EventType val="U"/>
+                    <PublicObject comp="-1" obj="5"/>
+                  </RaiseEvent>
+                  <TabOrder id="314" val="12"/>
                 </PropertyList>
               </Control>
             </FormEntry>
@@ -766,6 +1132,18 @@
             <Expression id="1">
               <ExpSyntax val="Len(Trim({0,2}))"/>
               <ExpAttribute val="N"/>
+            </Expression>
+            <Expression id="10">
+              <ExpSyntax val="Trim({0,8})"/>
+              <ExpAttribute val="A"/>
+            </Expression>
+            <Expression id="11">
+              <ExpSyntax val="Trim({0,9})"/>
+              <ExpAttribute val="A"/>
+            </Expression>
+            <Expression id="8">
+              <ExpSyntax val="BlobSize({0,6})=0"/>
+              <ExpAttribute val="B"/>
             </Expression>
             <Expression id="2">
               <ExpSyntax val="{0,4}"/>
@@ -783,12 +1161,24 @@
               <ExpSyntax val="'CBC'"/>
               <ExpAttribute val="A"/>
             </Expression>
-            <Expression id="6">
-              <ExpSyntax val="'ECB'"/>
-              <ExpAttribute val="A"/>
-            </Expression>
             <Expression id="7">
               <ExpSyntax val="'HEXDIGITS'"/>
+              <ExpAttribute val="A"/>
+            </Expression>
+            <Expression id="9">
+              <ExpSyntax val="NULL()"/>
+              <ExpAttribute val="*"/>
+            </Expression>
+            <Expression id="12">
+              <ExpSyntax val="Len(Trim({0,2}))&lt;>{0,4}*2"/>
+              <ExpAttribute val="B"/>
+            </Expression>
+            <Expression id="14">
+              <ExpSyntax val="Len(Trim({0,3}))&lt;>{0,4}*2"/>
+              <ExpAttribute val="B"/>
+            </Expression>
+            <Expression id="13">
+              <ExpSyntax val="'For AES Keylength needs to be ' &amp; Trim(Str({0,4}*8,'')) &amp; ' Bits. Either enter a Key with that length or derive one from a passphrase'"/>
               <ExpAttribute val="A"/>
             </Expression>
           </Expressions>
@@ -798,7 +1188,7 @@
               <PublicObject comp="-1"/>
             </Event>
           </EVNT>
-          <EVNT DESC="AES_Encrypt (ECB)" FORCE_EXIT="N" id="2">
+          <EVNT DESC="AES_Decrpyt" FORCE_EXIT="N" id="5">
             <Event>
               <EventType val="N"/>
               <PublicObject comp="-1"/>

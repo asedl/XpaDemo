@@ -28,6 +28,16 @@
       <LoadImmediate val="Y"/>
       <Comment val="This component provides an interface for the user to perform Range, Locate, Sort and Print Data.The component does not expose any object. It has logic units for handling the Range, Locate, Sort and Print Data internal events.The source code for this component is available in the Add_On\UserFunctionality directory, so you can customize the screens of the component as you wish."/>
       <CompId val="738976342-28670-18720-BFE77D42E"/>
+      <MciFile val="C:\Magic\Xpa3.3\Add_On\UserFunctionality\UserFunctionality.eci"/>
+      <CABINET_FILE val="%EngineDir%Add_On\UserFunctionality\UserFunctionality.ecf"/>
+    </Component>
+    <Component name="UserFunctionality">
+      <Description val="Handles the Range, Locate, Sort and Print Data internal events"/>
+      <ComponentType val="Magic xpa"/>
+      <Type val="U"/>
+      <LoadImmediate val="Y"/>
+      <Comment val="This component provides an interface for the user to perform Range, Locate, Sort and Print Data.The component does not expose any object. It has logic units for handling the Range, Locate, Sort and Print Data internal events.The source code for this component is available in the Add_On\UserFunctionality directory, so you can customize the screens of the component as you wish."/>
+      <CompId val="738976342-28670-18720-BFE77D42E"/>
       <MciFile val="C:\magic\xpa3.3\Add_On\UserFunctionality\UserFunctionality.eci"/>
       <CABINET_FILE val="%EngineDir%Add_On\UserFunctionality\UserFunctionality.ecf"/>
     </Component>
@@ -37,7 +47,7 @@
 <ModelsRepository>
 
   <Models>
-    <Object name="tEncryptionMode">
+    <Object Public="tEncryptionMode" name="tEncryptionMode">
       <PropertyList model="FIELD">
         <Model attr_obj="FIELD_ALPHA" id="1"/>
         <Picture id="157" valUnicode="20"/>
@@ -46,7 +56,7 @@
         <_FieldStyle id="276" val="1"/>
       </PropertyList>
     </Object>
-    <Object name="tEncoding">
+    <Object Public="tEncoding" name="tEncoding">
       <PropertyList model="FIELD">
         <Model attr_obj="FIELD_ALPHA" id="1"/>
         <Picture id="157" valUnicode="20"/>
@@ -55,7 +65,7 @@
         <_FieldStyle id="276" val="1"/>
       </PropertyList>
     </Object>
-    <Object name="tEncryptionError">
+    <Object Public="tEncryptionError" name="tEncryptionError">
       <PropertyList model="FIELD">
         <Model attr_obj="FIELD_NUMERIC" id="1"/>
         <Picture id="157" valUnicode="N10"/>
@@ -564,7 +574,7 @@
     <Offline val="N"/>
     <FormType val="N"/>
     <DotNetObjectExists val="N"/>
-    <LastModified _date="736972" _time="84357" date="05/10/2018" time="23:25:57"/>
+    <LastModified _date="736973" _time="3704" date="06/10/2018" time="01:01:44"/>
   </Header>
 
   <Resource>
@@ -709,11 +719,11 @@
       <External val="N"/>
       <FormType val="N"/>
       <DotNetObjectExists val="N"/>
-      <LastModified _date="736972" _time="46512" date="05/10/2018" time="12:55:12"/>
+      <LastModified _date="736973" _time="3704" date="06/10/2018" time="01:01:44"/>
     </Header>
     <Resource>
       <Columns>
-        <Column id="2" name="v.Message1_Alpha">
+        <Column id="1" name="v.Message1_Alpha">
           <PropertyList model="FIELD">
             <Model attr_obj="FIELD_ALPHA" id="1"/>
             <Picture id="157" valUnicode="1000"/>
@@ -723,7 +733,7 @@
             <PartOfDataview id="449"/>
           </PropertyList>
         </Column>
-        <Column id="8" name="v.Message1_BlobBinary">
+        <Column id="2" name="v.Message1_BlobBinary">
           <PropertyList model="FIELD">
             <Model attr_obj="FIELD_BLOB" id="1"/>
             <Size id="174" val="28"/>
@@ -732,7 +742,7 @@
             <PartOfDataview id="449"/>
           </PropertyList>
         </Column>
-        <Column id="10" name="v.Message1_BlobAnsi">
+        <Column id="3" name="v.Message1_BlobAnsi">
           <PropertyList model="FIELD">
             <Model attr_obj="FIELD_BLOB" id="1"/>
             <StoredAs id="173" val="33"/>
@@ -743,7 +753,7 @@
             <PartOfDataview id="449"/>
           </PropertyList>
         </Column>
-        <Column id="6" name="v.SHA256Digest1">
+        <Column id="4" name="v.SHA256Digest1">
           <PropertyList model="FIELD">
             <Model attr_obj="FIELD_ALPHA" id="1"/>
             <Picture id="157" valUnicode="64"/>
@@ -753,7 +763,7 @@
             <PartOfDataview id="449"/>
           </PropertyList>
         </Column>
-        <Column id="7" name="v.SHA256Digest2">
+        <Column id="5" name="v.SHA256Digest2">
           <PropertyList model="FIELD">
             <Model attr_obj="FIELD_ALPHA" id="1"/>
             <Picture id="157" valUnicode="64"/>
@@ -763,7 +773,7 @@
             <PartOfDataview id="449"/>
           </PropertyList>
         </Column>
-        <Column id="9" name="v.SHA256Digest3">
+        <Column id="6" name="v.SHA256Digest3">
           <PropertyList model="FIELD">
             <Model attr_obj="FIELD_ALPHA" id="1"/>
             <Picture id="157" valUnicode="64"/>
@@ -1177,6 +1187,12 @@
               <Direction val="C"/>
             </Update>
           </LogicLine>
+          <LogicLine>
+            <Remark>
+              <Type val="2"/>
+              <Text val=" "/>
+            </Remark>
+          </LogicLine>
         </LogicLines>
       </LogicUnit>
     </TaskLogic>
@@ -1447,7 +1463,7 @@
     <Offline val="N"/>
     <FormType val="N"/>
     <DotNetObjectExists val="N"/>
-    <LastModified _date="736972" _time="84354" date="05/10/2018" time="23:25:54"/>
+    <LastModified _date="736973" _time="63399" date="06/10/2018" time="17:36:39"/>
   </Header>
 
   <Resource>
@@ -1565,6 +1581,12 @@
             <Direction val="C"/>
           </CallTask>
         </LogicLine>
+        <LogicLine>
+          <Remark>
+            <Type val="2"/>
+            <Text val=" "/>
+          </Remark>
+        </LogicLine>
       </LogicLines>
     </LogicUnit>
   </TaskLogic>
@@ -1592,20 +1614,11 @@
       <External val="N"/>
       <FormType val="N"/>
       <DotNetObjectExists val="N"/>
-      <LastModified _date="736972" _time="81806" date="05/10/2018" time="22:43:26"/>
+      <LastModified _date="736973" _time="63399" date="06/10/2018" time="17:36:39"/>
     </Header>
     <Resource>
       <Columns>
-        <Column id="16" name="v.Passphrase">
-          <PropertyList model="FIELD">
-            <Model attr_obj="FIELD_ALPHA" id="1"/>
-            <Picture id="157" valUnicode="2000"/>
-            <StoredAs id="173" val="1"/>
-            <Size id="174" val="2000"/>
-            <_Flip id="194"/>
-          </PropertyList>
-        </Column>
-        <Column id="17" name="v.Key (Hexencoded)">
+        <Column id="8" name="v.Key">
           <PropertyList model="FIELD">
             <Model attr_obj="FIELD_ALPHA" id="1"/>
             <Picture id="157" valUnicode="1000"/>
@@ -1614,7 +1627,7 @@
             <_Flip id="194"/>
           </PropertyList>
         </Column>
-        <Column id="23" name="v.IV (Hexencoded)">
+        <Column id="9" name="v.IV">
           <PropertyList model="FIELD">
             <Model attr_obj="FIELD_ALPHA" id="1"/>
             <Picture id="157" valUnicode="1000"/>
@@ -1623,7 +1636,25 @@
             <_Flip id="194"/>
           </PropertyList>
         </Column>
-        <Column id="24" name="v.Keylength">
+        <Column id="2" name="v.Key (Hexencoded)">
+          <PropertyList model="FIELD">
+            <Model attr_obj="FIELD_ALPHA" id="1"/>
+            <Picture id="157" valUnicode="1000"/>
+            <StoredAs id="173" val="1"/>
+            <Size id="174" val="1000"/>
+            <_Flip id="194"/>
+          </PropertyList>
+        </Column>
+        <Column id="3" name="v.IV (Hexencoded)">
+          <PropertyList model="FIELD">
+            <Model attr_obj="FIELD_ALPHA" id="1"/>
+            <Picture id="157" valUnicode="1000"/>
+            <StoredAs id="173" val="1"/>
+            <Size id="174" val="1000"/>
+            <_Flip id="194"/>
+          </PropertyList>
+        </Column>
+        <Column id="4" name="v.Keylength">
           <PropertyList model="FIELD">
             <Model attr_obj="FIELD_NUMERIC" id="1"/>
             <Picture id="157" valUnicode="9"/>
@@ -1633,7 +1664,7 @@
             <_FieldStyle id="276" val="1"/>
           </PropertyList>
         </Column>
-        <Column id="10" name="blbB.Plaintext">
+        <Column id="5" name="blbB.Plaintext">
           <PropertyList model="FIELD">
             <Model attr_obj="FIELD_BLOB" id="1"/>
             <StoredAs id="173" val="29"/>
@@ -1643,7 +1674,7 @@
             <Content id="434" val="3"/>
           </PropertyList>
         </Column>
-        <Column id="14" name="blbB.Ciphertext">
+        <Column id="6" name="blbB.Ciphertext">
           <PropertyList model="FIELD">
             <Model attr_obj="FIELD_BLOB" id="1"/>
             <StoredAs id="173" val="29"/>
@@ -1653,7 +1684,7 @@
             <Content id="434" val="3"/>
           </PropertyList>
         </Column>
-        <Column id="22" name="v.ErrorCode">
+        <Column id="7" name="v.ErrorCode">
           <PropertyList model="FIELD">
             <Model attr_obj="FIELD_NUMERIC" id="1" obj="3"/>
             <DbColumnName id="178"/>
@@ -1727,8 +1758,8 @@
         <EngineDirective val="S"/>
         <ShowMessage val="Y"/>
         <Condition val="89"/>
-        <_TotalVariabls val="7"/>
-        <_TotalVirtuals val="7"/>
+        <_TotalVariabls val="8"/>
+        <_TotalVirtuals val="8"/>
         <Event>
           <EventType val="S"/>
           <PublicObject comp="-1"/>
@@ -1752,7 +1783,7 @@
               <Column val="1"/>
               <Type val="V"/>
               <IsParameter val="N"/>
-              <_DitIndexForToolkit val="2"/>
+              <_DitIndexForToolkit val="3"/>
               <DIFF_UPDATE val="T"/>
               <Condition val="Y"/>
               <Modifier val="S"/>
@@ -1764,10 +1795,7 @@
               <Column val="2"/>
               <Type val="V"/>
               <IsParameter val="N"/>
-              <INT_DIT_INFO>
-                <v>9</v>
-              </INT_DIT_INFO>
-              <_DitIndexForToolkit val="6"/>
+              <_DitIndexForToolkit val="4"/>
               <DIFF_UPDATE val="T"/>
               <Condition val="Y"/>
               <Modifier val="S"/>
@@ -1779,6 +1807,9 @@
               <Column val="3"/>
               <Type val="V"/>
               <IsParameter val="N"/>
+              <INT_DIT_INFO>
+                <v>10</v>
+              </INT_DIT_INFO>
               <_DitIndexForToolkit val="7"/>
               <DIFF_UPDATE val="T"/>
               <Condition val="Y"/>
@@ -1788,11 +1819,23 @@
           </LogicLine>
           <LogicLine>
             <Select Name="D">
-              <ASS val="4"/>
               <Column val="4"/>
               <Type val="V"/>
               <IsParameter val="N"/>
-              <_DitIndexForToolkit val="9"/>
+              <_DitIndexForToolkit val="8"/>
+              <DIFF_UPDATE val="T"/>
+              <Condition val="Y"/>
+              <Modifier val="S"/>
+              <Direction val="C"/>
+            </Select>
+          </LogicLine>
+          <LogicLine>
+            <Select Name="E">
+              <ASS val="7"/>
+              <Column val="5"/>
+              <Type val="V"/>
+              <IsParameter val="N"/>
+              <_DitIndexForToolkit val="10"/>
               <DIFF_UPDATE val="T"/>
               <Condition val="Y"/>
               <Modifier val="S"/>
@@ -1804,18 +1847,6 @@
               <Type val="0"/>
               <Text val=" "/>
             </Remark>
-          </LogicLine>
-          <LogicLine>
-            <Select Name="E">
-              <Column val="5"/>
-              <Type val="V"/>
-              <IsParameter val="N"/>
-              <_DitIndexForToolkit val="11"/>
-              <DIFF_UPDATE val="T"/>
-              <Condition val="Y"/>
-              <Modifier val="S"/>
-              <Direction val="C"/>
-            </Select>
           </LogicLine>
           <LogicLine>
             <Select Name="F">
@@ -1830,14 +1861,26 @@
             </Select>
           </LogicLine>
           <LogicLine>
+            <Select Name="G">
+              <Column val="7"/>
+              <Type val="V"/>
+              <IsParameter val="N"/>
+              <_DitIndexForToolkit val="13"/>
+              <DIFF_UPDATE val="T"/>
+              <Condition val="Y"/>
+              <Modifier val="S"/>
+              <Direction val="C"/>
+            </Select>
+          </LogicLine>
+          <LogicLine>
             <Remark>
               <Type val="0"/>
               <Text val=" "/>
             </Remark>
           </LogicLine>
           <LogicLine>
-            <Select Name="G">
-              <Column val="7"/>
+            <Select Name="H">
+              <Column val="8"/>
               <Type val="V"/>
               <IsParameter val="N"/>
               <DIFF_UPDATE val="T"/>
@@ -1846,6 +1889,96 @@
               <Modifier val="S"/>
               <Direction val="C"/>
             </Select>
+          </LogicLine>
+        </LogicLines>
+      </LogicUnit>
+      <LogicUnit propagate="78">
+        <Level val="V"/>
+        <Type val="C"/>
+        <Refernce val="A"/>
+        <Scope val="S"/>
+        <EngineDirective val="S"/>
+        <ShowMessage val="Y"/>
+        <Condition val="89"/>
+        <Event>
+          <EventType val="S"/>
+          <PublicObject comp="-1"/>
+        </Event>
+        <Expanded val="1"/>
+        <LogicLines>
+          <LogicLine>
+            <CallTask>
+              <OperationType val="P"/>
+              <TaskID obj="19"/>
+              <Lock val="N"/>
+              <Arguments>
+                <Argument>
+                  <Expression val="2"/>
+                  <Skip val="N"/>
+                </Argument>
+                <Argument>
+                  <Var val="C"/>
+                  <Skip val="N"/>
+                </Argument>
+              </Arguments>
+              <Wait val="Y"/>
+              <SyncData val="N"/>
+              <RetainFocus val="N"/>
+              <Condition val="Y"/>
+              <Modifier val="S"/>
+              <Direction val="C"/>
+            </CallTask>
+          </LogicLine>
+          <LogicLine>
+            <Remark>
+              <Type val="2"/>
+              <Text val=" "/>
+            </Remark>
+          </LogicLine>
+        </LogicLines>
+      </LogicUnit>
+      <LogicUnit propagate="78">
+        <Level val="V"/>
+        <Type val="C"/>
+        <Refernce val="B"/>
+        <Scope val="S"/>
+        <EngineDirective val="S"/>
+        <ShowMessage val="Y"/>
+        <Condition val="89"/>
+        <Event>
+          <EventType val="S"/>
+          <PublicObject comp="-1"/>
+        </Event>
+        <Expanded val="1"/>
+        <LogicLines>
+          <LogicLine>
+            <CallTask>
+              <OperationType val="P"/>
+              <TaskID obj="19"/>
+              <Lock val="N"/>
+              <Arguments>
+                <Argument>
+                  <Expression val="3"/>
+                  <Skip val="N"/>
+                </Argument>
+                <Argument>
+                  <Var val="D"/>
+                  <Skip val="N"/>
+                </Argument>
+              </Arguments>
+              <Wait val="Y"/>
+              <SyncData val="N"/>
+              <RetainFocus val="N"/>
+              <Condition val="Y"/>
+              <Modifier val="S"/>
+              <Direction val="C"/>
+            </CallTask>
+          </LogicLine>
+          <LogicLine>
+            <Remark>
+              <Type val="2"/>
+              <Text val=" "/>
+            </Remark>
           </LogicLine>
         </LogicLines>
       </LogicUnit>
@@ -1865,19 +1998,19 @@
           <LogicLine>
             <CallTask>
               <OperationType val="P"/>
-              <TaskID obj="12"/>
+              <TaskID obj="8"/>
               <Lock val="N"/>
               <Arguments>
                 <Argument>
-                  <Var val="A"/>
-                  <Skip val="N"/>
-                </Argument>
-                <Argument>
-                  <Var val="B"/>
-                  <Skip val="N"/>
-                </Argument>
-                <Argument>
                   <Skip val="Y"/>
+                </Argument>
+                <Argument>
+                  <Var val="E"/>
+                  <Skip val="N"/>
+                </Argument>
+                <Argument>
+                  <Var val="C"/>
+                  <Skip val="N"/>
                 </Argument>
               </Arguments>
               <Wait val="Y"/>
@@ -1891,15 +2024,61 @@
           <LogicLine>
             <CallTask>
               <OperationType val="P"/>
-              <TaskID obj="15"/>
+              <TaskID obj="17"/>
               <Lock val="N"/>
               <Arguments>
                 <Argument>
-                  <Expression val="2"/>
+                  <Expression val="5"/>
                   <Skip val="N"/>
                 </Argument>
                 <Argument>
+                  <Var val="D"/>
+                  <Skip val="N"/>
+                </Argument>
+              </Arguments>
+              <Wait val="Y"/>
+              <SyncData val="N"/>
+              <RetainFocus val="N"/>
+              <Condition val="Y"/>
+              <Modifier val="B"/>
+              <Direction val="C"/>
+            </CallTask>
+          </LogicLine>
+          <LogicLine>
+            <CallTask>
+              <OperationType val="P"/>
+              <TaskID obj="18"/>
+              <Lock val="N"/>
+              <Arguments>
+                <Argument>
                   <Var val="C"/>
+                  <Skip val="N"/>
+                </Argument>
+                <Argument>
+                  <Var val="A"/>
+                  <Skip val="N"/>
+                </Argument>
+              </Arguments>
+              <Wait val="Y"/>
+              <SyncData val="N"/>
+              <RetainFocus val="N"/>
+              <Condition val="Y"/>
+              <Modifier val="B"/>
+              <Direction val="C"/>
+            </CallTask>
+          </LogicLine>
+          <LogicLine>
+            <CallTask>
+              <OperationType val="P"/>
+              <TaskID obj="18"/>
+              <Lock val="N"/>
+              <Arguments>
+                <Argument>
+                  <Var val="D"/>
+                  <Skip val="N"/>
+                </Argument>
+                <Argument>
+                  <Var val="B"/>
                   <Skip val="N"/>
                 </Argument>
               </Arguments>
@@ -1933,29 +2112,29 @@
         <Expanded val="1"/>
         <LogicLines>
           <LogicLine>
+            <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" Exp="13" IMG_DEF_CHG="N" Image="C" Mode="E" TTL_DEF_CHG="N" TitleTxt="Error" VR_DISP="B">
+              <AppendToErrorLog val="Y"/>
+              <Condition Exp="11"/>
+              <Modifier val="B"/>
+              <Direction val="C"/>
+            </STP>
+          </LogicLine>
+          <LogicLine>
+            <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" Exp="13" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TitleTxt="Warning" VR_DISP="B">
+              <AppendToErrorLog val="N"/>
+              <Condition Exp="12"/>
+              <Modifier val="B"/>
+              <Direction val="C"/>
+            </STP>
+          </LogicLine>
+          <LogicLine>
             <CallTask>
               <OperationType val="P"/>
-              <TaskID obj="13"/>
+              <TaskID obj="14"/>
               <Lock val="N"/>
               <Arguments>
                 <Argument>
-                  <Var val="E"/>
-                  <Skip val="N"/>
-                </Argument>
-                <Argument>
-                  <Expression val="4"/>
-                  <Skip val="N"/>
-                </Argument>
-                <Argument>
-                  <Var val="B"/>
-                  <Skip val="N"/>
-                </Argument>
-                <Argument>
-                  <Var val="C"/>
-                  <Skip val="N"/>
-                </Argument>
-                <Argument>
-                  <Expression val="5"/>
+                  <Var val="F"/>
                   <Skip val="N"/>
                 </Argument>
                 <Argument>
@@ -1963,11 +2142,27 @@
                   <Skip val="N"/>
                 </Argument>
                 <Argument>
-                  <Var val="F"/>
+                  <Var val="C"/>
+                  <Skip val="N"/>
+                </Argument>
+                <Argument>
+                  <Var val="D"/>
+                  <Skip val="N"/>
+                </Argument>
+                <Argument>
+                  <Expression val="8"/>
+                  <Skip val="N"/>
+                </Argument>
+                <Argument>
+                  <Expression val="9"/>
                   <Skip val="N"/>
                 </Argument>
                 <Argument>
                   <Var val="G"/>
+                  <Skip val="N"/>
+                </Argument>
+                <Argument>
+                  <Var val="H"/>
                   <Skip val="N"/>
                 </Argument>
               </Arguments>
@@ -1978,18 +2173,6 @@
               <Modifier val="B"/>
               <Direction val="C"/>
             </CallTask>
-          </LogicLine>
-          <LogicLine>
-            <Remark>
-              <Type val="2"/>
-              <Text val=" "/>
-            </Remark>
-          </LogicLine>
-          <LogicLine>
-            <Remark>
-              <Type val="2"/>
-              <Text val=" "/>
-            </Remark>
           </LogicLine>
           <LogicLine>
             <Remark>
@@ -2013,37 +2196,32 @@
         <Expanded val="1"/>
         <LogicLines>
           <LogicLine>
+            <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TXT="Nothing to decrypt" TitleTxt="Warning" VR_DISP="B">
+              <AppendToErrorLog val="N"/>
+              <Condition Exp="4"/>
+              <Modifier val="B"/>
+              <Direction val="C"/>
+            </STP>
+          </LogicLine>
+          <LogicLine>
+            <Update>
+              <Variable val="F"/>
+              <WithValue val="10"/>
+              <Incremental val="N"/>
+              <ForcedUpdate val="Y"/>
+              <Condition val="Y"/>
+              <Modifier val="B"/>
+              <Direction val="C"/>
+            </Update>
+          </LogicLine>
+          <LogicLine>
             <CallTask>
               <OperationType val="P"/>
-              <TaskID obj="13"/>
+              <TaskID obj="18"/>
               <Lock val="N"/>
               <Arguments>
                 <Argument>
-                  <Var val="E"/>
-                  <Skip val="N"/>
-                </Argument>
-                <Argument>
-                  <Expression val="4"/>
-                  <Skip val="N"/>
-                </Argument>
-                <Argument>
-                  <Var val="B"/>
-                  <Skip val="N"/>
-                </Argument>
-                <Argument>
-                  <Var val="C"/>
-                  <Skip val="N"/>
-                </Argument>
-                <Argument>
-                  <Expression val="6"/>
-                  <Skip val="N"/>
-                </Argument>
-                <Argument>
-                  <Expression val="7"/>
-                  <Skip val="N"/>
-                </Argument>
-                <Argument>
-                  <Var val="F"/>
+                  <Var val="G"/>
                   <Skip val="N"/>
                 </Argument>
                 <Argument>
@@ -2059,18 +2237,56 @@
               <Direction val="C"/>
             </CallTask>
           </LogicLine>
+          <LogicLine>
+            <CallTask>
+              <OperationType val="P"/>
+              <TaskID obj="15"/>
+              <Lock val="N"/>
+              <Arguments>
+                <Argument>
+                  <Var val="G"/>
+                  <Skip val="N"/>
+                </Argument>
+                <Argument>
+                  <Var val="E"/>
+                  <Skip val="N"/>
+                </Argument>
+                <Argument>
+                  <Var val="C"/>
+                  <Skip val="N"/>
+                </Argument>
+                <Argument>
+                  <Var val="D"/>
+                  <Skip val="N"/>
+                </Argument>
+                <Argument>
+                  <Expression val="8"/>
+                  <Skip val="N"/>
+                </Argument>
+                <Argument>
+                  <Var val="F"/>
+                  <Skip val="N"/>
+                </Argument>
+                <Argument>
+                  <Var val="H"/>
+                  <Skip val="N"/>
+                </Argument>
+              </Arguments>
+              <Wait val="Y"/>
+              <SyncData val="N"/>
+              <RetainFocus val="N"/>
+              <Condition val="Y"/>
+              <Modifier val="B"/>
+              <Direction val="C"/>
+            </CallTask>
+          </LogicLine>
+          <LogicLine>
+            <Remark>
+              <Type val="2"/>
+              <Text val=" "/>
+            </Remark>
+          </LogicLine>
         </LogicLines>
-      </LogicUnit>
-      <LogicUnit propagate="78">
-        <Level val="K"/>
-        <Scope val="S"/>
-        <EngineDirective val="S"/>
-        <ShowMessage val="Y"/>
-        <Condition val="89"/>
-        <Event>
-          <EventType val="S"/>
-          <PublicObject comp="-1"/>
-        </Event>
       </LogicUnit>
       <LogicUnit propagate="78">
         <Level val="T"/>
@@ -2093,8 +2309,8 @@
           </LogicLine>
           <LogicLine>
             <Update>
-              <Variable val="E"/>
-              <WithValue val="3"/>
+              <Variable val="F"/>
+              <WithValue val="6"/>
               <Incremental val="N"/>
               <ForcedUpdate val="Y"/>
               <Condition val="Y"/>
@@ -2106,64 +2322,71 @@
       </LogicUnit>
     </TaskLogic>
     <TaskForms>
-      <FormEntry _last_test_id="36">
+      <FormEntry _last_test_id="41">
         <PropertyList model="FORM_GUI0">
           <Y id="22" val="8"/>
           <Width id="23" val="838"/>
-          <Height id="24" val="333"/>
+          <Height id="24" val="262"/>
           <_Comment id="218"/>
           <FormName id="311" valUnicode="AES_Encrypt"/>
         </PropertyList>
-        <Control _test_id="22">
+        <Control _test_id="41">
           <PropertyList model="CTRL_GUI0_STATIC">
-            <Text id="19" valUnicode="Enter here your encryption password/passphrase. The program will create an AES key from it which is used for encryption"/>
-            <X id="21" val="10"/>
-            <Y id="22" val="6"/>
-            <Width id="23" val="480"/>
+            <Text id="19" valUnicode="Encryption key"/>
+            <X id="21" val="13"/>
+            <Y id="22" val="8"/>
+            <Width id="23" val="258"/>
             <Height id="24" val="9"/>
             <EnableRTF id="69"/>
             <_Orientation id="143"/>
           </PropertyList>
         </Control>
-        <Control _test_id="21">
+        <Control _test_id="40">
+          <PropertyList model="CTRL_GUI0_STATIC">
+            <Text id="19" valUnicode="IV / Salt"/>
+            <X id="21" val="275"/>
+            <Y id="22" val="9"/>
+            <Width id="23" val="258"/>
+            <Height id="24" val="9"/>
+            <EnableRTF id="69"/>
+            <_Orientation id="143"/>
+          </PropertyList>
+        </Control>
+        <Control _test_id="39">
           <PropertyList model="CTRL_GUI0_EDIT">
             <Model ID="MODEL_GUI_INT" id="1">
               <Var Column="1"/>
             </Model>
-            <X id="21" val="10"/>
-            <Y id="22" val="22"/>
-            <Width id="23" val="814"/>
-            <Height id="24" val="50"/>
+            <X id="21" val="12"/>
+            <Y id="22" val="20"/>
+            <Width id="23" val="258"/>
+            <Height id="24" val="10"/>
             <Data Column="A" id="43"/>
-            <ControlName id="46" val="v.Passphrase_0001"/>
-            <MultiLineEdit id="71" val="Y"/>
-            <VerticalScroll id="73" val="Y"/>
-            <AllowCRInData id="74" val="Y"/>
-            <Format id="82" valUnicode="2000"/>
+            <ControlName id="46" val="v.Key_0001"/>
             <_Orientation id="143"/>
             <TabOrder id="314" val="1"/>
-            <MultilineWordwrapScroll id="455" val="3"/>
           </PropertyList>
         </Control>
-        <Control _test_id="31">
-          <PropertyList model="CTRL_GUI0_STATIC">
-            <Text id="19" valUnicode="AES works with fixed keylength of 16 (default), 24 or 32 Bytes. That does however not mean that the passwors/passphrases which you doi use for AES have to have exactly that length. This program will derive the encryption key from your password/passphrase (and also encode it to hexdigits so that its easier to store and transport it). The IV value required for some encryption modes is generated from random data and encoded with hexdigits as well."/>
-            <X id="21" val="10"/>
-            <Y id="22" val="76"/>
-            <Width id="23" val="813"/>
-            <Height id="24" val="25"/>
-            <Style id="63" val="7"/>
-            <EnableRTF id="69"/>
-            <MultiLine id="71" val="Y"/>
-            <_VerticalScroll id="73" val="Y"/>
+        <Control _test_id="38">
+          <PropertyList model="CTRL_GUI0_EDIT">
+            <Model ID="MODEL_GUI_INT" id="1">
+              <Var Column="2"/>
+            </Model>
+            <X id="21" val="275"/>
+            <Y id="22" val="20"/>
+            <Width id="23" val="258"/>
+            <Height id="24" val="10"/>
+            <Data Column="B" id="43"/>
+            <ControlName id="46" val="v.IV_0001"/>
             <_Orientation id="143"/>
+            <TabOrder id="314" val="2"/>
           </PropertyList>
         </Control>
         <Control _test_id="34">
           <PropertyList model="CTRL_GUI0_STATIC">
             <Text id="19" valUnicode="Encryption key (hex representation)"/>
             <X id="21" val="11"/>
-            <Y id="22" val="104"/>
+            <Y id="22" val="32"/>
             <Width id="23" val="258"/>
             <Height id="24" val="9"/>
             <EnableRTF id="69"/>
@@ -2174,7 +2397,7 @@
           <PropertyList model="CTRL_GUI0_STATIC">
             <Text id="19" valUnicode="IV / Salt (hex representation)"/>
             <X id="21" val="273"/>
-            <Y id="22" val="105"/>
+            <Y id="22" val="33"/>
             <Width id="23" val="258"/>
             <Height id="24" val="9"/>
             <EnableRTF id="69"/>
@@ -2184,38 +2407,38 @@
         <Control _test_id="23">
           <PropertyList model="CTRL_GUI0_EDIT">
             <Model ID="MODEL_GUI_INT" id="1">
-              <Var Column="2"/>
+              <Var Column="3"/>
             </Model>
             <X id="21" val="10"/>
-            <Y id="22" val="116"/>
+            <Y id="22" val="44"/>
             <Width id="23" val="258"/>
             <Height id="24" val="10"/>
-            <Data Column="B" id="43"/>
+            <Data Column="C" id="43"/>
             <ControlName id="46" val="v.Key"/>
             <_Orientation id="143"/>
-            <TabOrder id="314" val="2"/>
+            <TabOrder id="314" val="3"/>
           </PropertyList>
         </Control>
         <Control _test_id="28">
           <PropertyList model="CTRL_GUI0_EDIT">
             <Model ID="MODEL_GUI_INT" id="1">
-              <Var Column="3"/>
+              <Var Column="4"/>
             </Model>
             <X id="21" val="273"/>
-            <Y id="22" val="116"/>
+            <Y id="22" val="44"/>
             <Width id="23" val="258"/>
             <Height id="24" val="10"/>
-            <Data Column="C" id="43"/>
+            <Data Column="D" id="43"/>
             <ControlName id="46" val="v.IV (Hexencoded)_0001"/>
             <_Orientation id="143"/>
-            <TabOrder id="314" val="3"/>
+            <TabOrder id="314" val="4"/>
           </PropertyList>
         </Control>
         <Control _test_id="30">
           <PropertyList model="CTRL_GUI0_STATIC">
             <Text id="19" valUnicode="v.Keylength"/>
             <X id="21" val="548"/>
-            <Y id="22" val="116"/>
+            <Y id="22" val="44"/>
             <Width id="23" val="46"/>
             <Height id="24" val="9"/>
             <Font id="50" val="1"/>
@@ -2227,56 +2450,39 @@
         <Control PDOD="1" _test_id="29">
           <PropertyList model="CTRL_GUI0_EDIT">
             <Model ID="MODEL_GUI_INT" id="1">
-              <Var Column="4"/>
+              <Var Column="5"/>
             </Model>
             <X id="21" val="598"/>
-            <Y id="22" val="116"/>
+            <Y id="22" val="44"/>
             <Width id="23" val="46"/>
             <Height id="24" val="10"/>
-            <Data Column="D" id="43"/>
+            <Data Column="E" id="43"/>
             <ControlName id="46" val="v.Keylength"/>
             <_Orientation id="143"/>
-            <TabOrder id="314" val="4"/>
+            <TabOrder id="314" val="5"/>
           </PropertyList>
         </Control>
         <Control _test_id="25">
           <PropertyList model="CTRL_GUI0_EDIT">
             <X id="21" val="776"/>
-            <Y id="22" val="116"/>
+            <Y id="22" val="44"/>
             <Width id="23" val="48"/>
             <Height id="24" val="10"/>
             <Data Exp="1" id="43"/>
             <Format id="82" valUnicode="N10"/>
             <Attribute id="83" val="78"/>
             <_Orientation id="143"/>
-            <TabOrder id="314" val="5"/>
+            <TabOrder id="314" val="6"/>
           </PropertyList>
         </Control>
         <Control PDOD="128" _test_id="17">
           <PropertyList model="CTRL_GUI0_EDIT">
             <X id="21" val="8"/>
-            <Y id="22" val="148"/>
+            <Y id="22" val="76"/>
             <Width id="23" val="376"/>
             <Height id="24" val="159"/>
-            <Data Column="E" id="43"/>
-            <ControlName id="46" val="v.Plaintext"/>
-            <MultiLineEdit id="71" val="Y"/>
-            <VerticalScroll id="73" val="Y"/>
-            <AllowCRInData id="74" val="Y"/>
-            <PasswordEdit id="85"/>
-            <_Orientation id="143"/>
-            <TabOrder id="314" val="7"/>
-            <MultilineWordwrapScroll id="455" val="3"/>
-          </PropertyList>
-        </Control>
-        <Control PDOD="128" _test_id="16">
-          <PropertyList model="CTRL_GUI0_EDIT">
-            <X id="21" val="388"/>
-            <Y id="22" val="148"/>
-            <Width id="23" val="435"/>
-            <Height id="24" val="159"/>
             <Data Column="F" id="43"/>
-            <ControlName id="46" val="v.Ciphertext1"/>
+            <ControlName id="46" val="v.Plaintext"/>
             <MultiLineEdit id="71" val="Y"/>
             <VerticalScroll id="73" val="Y"/>
             <AllowCRInData id="74" val="Y"/>
@@ -2286,10 +2492,27 @@
             <MultilineWordwrapScroll id="455" val="3"/>
           </PropertyList>
         </Control>
+        <Control PDOD="128" _test_id="16">
+          <PropertyList model="CTRL_GUI0_EDIT">
+            <X id="21" val="388"/>
+            <Y id="22" val="76"/>
+            <Width id="23" val="435"/>
+            <Height id="24" val="159"/>
+            <Data Column="G" id="43"/>
+            <ControlName id="46" val="v.Ciphertext1"/>
+            <MultiLineEdit id="71" val="Y"/>
+            <VerticalScroll id="73" val="Y"/>
+            <AllowCRInData id="74" val="Y"/>
+            <PasswordEdit id="85"/>
+            <_Orientation id="143"/>
+            <TabOrder id="314" val="9"/>
+            <MultilineWordwrapScroll id="455" val="3"/>
+          </PropertyList>
+        </Control>
         <Control PDOD="128" _test_id="24">
           <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
             <X id="21" val="8"/>
-            <Y id="22" val="130"/>
+            <Y id="22" val="58"/>
             <Width id="23" val="117"/>
             <Height id="24" val="14"/>
             <Format id="82" valUnicode="Generate Key (from passphrase)"/>
@@ -2297,44 +2520,30 @@
               <EventType val="U"/>
               <PublicObject comp="-1" obj="4"/>
             </RaiseEvent>
-            <TabOrder id="314" val="6"/>
+            <TabOrder id="314" val="7"/>
           </PropertyList>
         </Control>
         <Control PDOD="128" _test_id="9">
           <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
             <X id="21" val="8"/>
-            <Y id="22" val="311"/>
+            <Y id="22" val="239"/>
             <Width id="23" val="117"/>
             <Height id="24" val="14"/>
-            <Format id="82" valUnicode="AES Encrypt (CBC)"/>
+            <Format id="82" valUnicode="AES Encrypt"/>
             <RaiseEvent id="234">
               <EventType val="U"/>
               <PublicObject comp="-1" obj="1"/>
-            </RaiseEvent>
-            <TabOrder id="314" val="9"/>
-          </PropertyList>
-        </Control>
-        <Control PDOD="128" _test_id="36">
-          <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
-            <X id="21" val="130"/>
-            <Y id="22" val="311"/>
-            <Width id="23" val="117"/>
-            <Height id="24" val="14"/>
-            <Format id="82" valUnicode="AES Encrypt (ECB)"/>
-            <RaiseEvent id="234">
-              <EventType val="U"/>
-              <PublicObject comp="-1" obj="2"/>
             </RaiseEvent>
             <TabOrder id="314" val="10"/>
           </PropertyList>
         </Control>
         <Control PDOD="128" _test_id="27">
           <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
-            <X id="21" val="252"/>
-            <Y id="22" val="311"/>
+            <X id="21" val="130"/>
+            <Y id="22" val="239"/>
             <Width id="23" val="117"/>
             <Height id="24" val="14"/>
-            <Format id="82" valUnicode="AES Encrypt (C) (Magic)"/>
+            <Format id="82" valUnicode="AES Encrypt (Magic)"/>
             <RaiseEvent id="234">
               <EventType val="U"/>
               <PublicObject comp="-1" obj="3"/>
@@ -2342,15 +2551,41 @@
             <TabOrder id="314" val="11"/>
           </PropertyList>
         </Control>
+        <Control PDOD="128" _test_id="37">
+          <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+            <X id="21" val="252"/>
+            <Y id="22" val="239"/>
+            <Width id="23" val="117"/>
+            <Height id="24" val="14"/>
+            <Format id="82" valUnicode="Decrypt"/>
+            <RaiseEvent id="234">
+              <EventType val="U"/>
+              <PublicObject comp="-1" obj="2"/>
+            </RaiseEvent>
+            <TabOrder id="314" val="12"/>
+          </PropertyList>
+        </Control>
       </FormEntry>
     </TaskForms>
     <Expressions>
       <Expression>
-        <ExpSyntax val="Len(Trim(B))"/>
+        <ExpSyntax val="Len(Trim(C))"/>
         <ExpAttribute val="N"/>
       </Expression>
       <Expression>
-        <ExpSyntax val="D"/>
+        <ExpSyntax val="Trim(A)"/>
+        <ExpAttribute val="A"/>
+      </Expression>
+      <Expression>
+        <ExpSyntax val="Trim(B)"/>
+        <ExpAttribute val="A"/>
+      </Expression>
+      <Expression>
+        <ExpSyntax val="BlobSize(G)=0"/>
+        <ExpAttribute val="B"/>
+      </Expression>
+      <Expression>
+        <ExpSyntax val="E"/>
         <ExpAttribute val="N"/>
       </Expression>
       <Expression>
@@ -2366,11 +2601,23 @@
         <ExpAttribute val="A"/>
       </Expression>
       <Expression>
-        <ExpSyntax val="'ECB'"/>
+        <ExpSyntax val="'HEXDIGITS'"/>
         <ExpAttribute val="A"/>
       </Expression>
       <Expression>
-        <ExpSyntax val="'HEXDIGITS'"/>
+        <ExpSyntax val="NULL()"/>
+        <ExpAttribute val="*"/>
+      </Expression>
+      <Expression>
+        <ExpSyntax val="Len(Trim(C))&lt;>E*2"/>
+        <ExpAttribute val="B"/>
+      </Expression>
+      <Expression>
+        <ExpSyntax val="Len(Trim(D))&lt;>E*2"/>
+        <ExpAttribute val="B"/>
+      </Expression>
+      <Expression>
+        <ExpSyntax val="'For AES Keylength needs to be ' &amp; Trim(Str(E*8,'')) &amp; ' Bits. Either enter a Key with that length or derive one from a passphrase'"/>
         <ExpAttribute val="A"/>
       </Expression>
     </Expressions>
@@ -2380,7 +2627,7 @@
         <PublicObject comp="-1"/>
       </Event>
     </EVNT>
-    <EVNT DESC="AES_Encrypt (ECB)" FORCE_EXIT="N">
+    <EVNT DESC="AES_Decrpyt" FORCE_EXIT="N">
       <Event>
         <EventType val="N"/>
         <PublicObject comp="-1"/>
@@ -2418,7 +2665,7 @@
     <Offline val="N"/>
     <FormType val="N"/>
     <DotNetObjectExists val="N"/>
-    <LastModified _date="736972" _time="84361" date="05/10/2018" time="23:26:01"/>
+    <LastModified _date="736973" _time="3719" date="06/10/2018" time="01:01:59"/>
   </Header>
 
   <Resource>
@@ -2536,6 +2783,12 @@
             <Direction val="C"/>
           </CallTask>
         </LogicLine>
+        <LogicLine>
+          <Remark>
+            <Type val="2"/>
+            <Text val=" "/>
+          </Remark>
+        </LogicLine>
       </LogicLines>
     </LogicUnit>
   </TaskLogic>
@@ -2567,7 +2820,7 @@
     </Header>
     <Resource>
       <Columns>
-        <Column id="18" name="v.BlockSize">
+        <Column id="1" name="v.BlockSize">
           <PropertyList model="FIELD">
             <Model attr_obj="FIELD_NUMERIC" id="1"/>
             <Picture id="157" valUnicode="9"/>
@@ -2577,7 +2830,7 @@
             <_FieldStyle id="276" val="1"/>
           </PropertyList>
         </Column>
-        <Column id="9" name="v.Random_Blob(Alpha)">
+        <Column id="2" name="v.Random_Blob(Alpha)">
           <PropertyList model="FIELD">
             <Model attr_obj="FIELD_BLOB" id="1"/>
             <StoredAs id="173" val="33"/>
@@ -2736,7 +2989,7 @@
           <LogicLine>
             <CallTask>
               <OperationType val="P"/>
-              <TaskID obj="15"/>
+              <TaskID obj="17"/>
               <Lock val="N"/>
               <Arguments>
                 <Argument>
@@ -2925,7 +3178,7 @@
     <Offline val="N"/>
     <FormType val="N"/>
     <DotNetObjectExists val="N"/>
-    <LastModified _date="736972" _time="84364" date="05/10/2018" time="23:26:04"/>
+    <LastModified _date="736973" _time="3727" date="06/10/2018" time="01:02:07"/>
   </Header>
 
   <Resource>
@@ -3043,6 +3296,12 @@
             <Direction val="C"/>
           </CallTask>
         </LogicLine>
+        <LogicLine>
+          <Remark>
+            <Type val="2"/>
+            <Text val=" "/>
+          </Remark>
+        </LogicLine>
       </LogicLines>
     </LogicUnit>
   </TaskLogic>
@@ -3074,7 +3333,7 @@
     </Header>
     <Resource>
       <Columns>
-        <Column id="9" name="v.Blob(Alpha)_Data">
+        <Column id="1" name="v.Blob(Alpha)_Data">
           <PropertyList model="FIELD">
             <Model attr_obj="FIELD_BLOB" id="1"/>
             <StoredAs id="173" val="29"/>
@@ -3084,7 +3343,7 @@
             <Content id="434" val="3"/>
           </PropertyList>
         </Column>
-        <Column id="19" name="v.Blob(Alpha)_DataHex">
+        <Column id="2" name="v.Blob(Alpha)_DataHex">
           <PropertyList model="FIELD">
             <Model attr_obj="FIELD_BLOB" id="1"/>
             <StoredAs id="173" val="29"/>
@@ -3231,7 +3490,7 @@
           <LogicLine>
             <CallTask>
               <OperationType val="P"/>
-              <TaskID obj="17"/>
+              <TaskID obj="19"/>
               <Lock val="N"/>
               <Arguments>
                 <Argument>
@@ -3281,7 +3540,7 @@
           <LogicLine>
             <CallTask>
               <OperationType val="P"/>
-              <TaskID obj="16"/>
+              <TaskID obj="18"/>
               <Lock val="N"/>
               <Arguments>
                 <Argument>
@@ -3416,6 +3675,916 @@
       </Event>
     </EVNT>
     <EVNT DESC="Hexdecode" FORCE_EXIT="N">
+      <Event>
+        <EventType val="N"/>
+        <PublicObject comp="-1"/>
+      </Event>
+    </EVNT>
+  </Task>
+
+</Task>
+<Task MainProgram="N">
+
+  <Header Description="TSTO005_DeriveKey" Folder="Testprograms (UI)">
+    <Public val="TSTO005_DeriveKey"/>
+    <ExecutionRight/>
+    <Resident val="N"/>
+    <SQL val="N"/>
+    <ReturnValue>
+      <ReturnValueAttr/>
+      <TSK_PARAMS val="3"/>
+      <ParametersAttributes>
+        <Attr MgAttr="O"/>
+        <Attr MgAttr="N"/>
+        <Attr MgAttr="A"/>
+      </ParametersAttributes>
+    </ReturnValue>
+    <SqlWhereExist val="N"/>
+    <TaskType val="B"/>
+    <External val="N"/>
+    <Offline val="N"/>
+    <FormType val="N"/>
+    <DotNetObjectExists val="N"/>
+    <LastModified _date="736973" _time="54027" date="06/10/2018" time="15:00:27"/>
+  </Header>
+
+  <Resource>
+    <Columns>
+      <Column id="4" name="pi.InitialPassphrase">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_BLOB" id="1"/>
+          <StoredAs id="173" val="33"/>
+          <Size id="174" val="28"/>
+          <Definition id="175" val="1"/>
+          <_FieldStyle id="276" val="1"/>
+          <Content id="434" val="1"/>
+        </PropertyList>
+      </Column>
+      <Column id="2" name="pi.Keylength">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="5"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="5"/>
+          <_Negative id="192"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Column>
+      <Column id="3" name="po.DerivedKey">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="2000"/>
+          <StoredAs id="173" val="1"/>
+          <Size id="174" val="2000"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Column>
+    </Columns>
+  </Resource>
+
+  <Information>
+    <Key>
+      <Mode val="N"/>
+    </Key>
+    <DB/>
+    <Sort>
+      <CLS val="A"/>
+    </Sort>
+    <ForceRecordDelete DEL="N"/>
+    <EndTaskCondition val="Y"/>
+    <EvaluateEndCondition val="A"/>
+    <InitialMode val="M"/>
+    <Locate Direction="A"/>
+    <Range Direction="A"/>
+    <TaskProperties>
+      <SelectionTable val="N"/>
+      <ConfirmUpdate CNFU="N"/>
+      <ConfirmCancel val="N"/>
+      <ErrorStrategy val="A"/>
+      <LockingStrategy val="M"/>
+      <CacheStrategy val="T"/>
+      <ForceRecordSuffix val="N"/>
+      <TransactionMode val="P"/>
+      <TransactionBegin val="N"/>
+      <PreloadView val="N"/>
+      <AllowEmptyDataview val="N"/>
+      <KeepCreatedContext val="N"/>
+    </TaskProperties>
+    <SIDE_WIN>
+      <AllowOptions val="N"/>
+      <AllowQuery val="Y"/>
+      <AllowModify val="Y"/>
+      <AllowCreate val="Y"/>
+      <AllowDelete val="Y"/>
+      <AllowLocate val="Y"/>
+      <AllowRange val="Y"/>
+      <AllowIndexChange val="Y"/>
+      <AllowSorting val="Y"/>
+      <AllowIOFiles val="Y"/>
+      <RecordCycle val="Y"/>
+      <AllowEvents val="Y"/>
+      <AllowIndexOptimization val="Y"/>
+      <AllowLocationInQuery val="Y"/>
+      <AllowPrintingData val="N"/>
+    </SIDE_WIN>
+    <WIN>
+      <OpenTaskWindow val="N"/>
+      <CloseTaskWindow val="Y"/>
+      <ForegroundWindow val="Y"/>
+      <FlipFld val="N"/>
+      <RefreshTaskWindow ReturnValue="N"/>
+    </WIN>
+    <BOX>
+      <Direction val="V"/>
+    </BOX>
+  </Information>
+
+  <TaskLogic>
+    <LogicUnit propagate="78">
+      <Level val="R"/>
+      <Type val="M"/>
+      <Scope val="S"/>
+      <EngineDirective val="S"/>
+      <ShowMessage val="Y"/>
+      <Condition val="89"/>
+      <_TotalVariabls val="3"/>
+      <_TotalVirtuals val="3"/>
+      <Event>
+        <EventType val="S"/>
+        <PublicObject comp="-1"/>
+      </Event>
+      <LogicLines>
+        <LogicLine>
+          <DATAVIEW_SRC Type="M">
+            <Condition val="N"/>
+            <Modifier val="B"/>
+            <Direction val="C"/>
+          </DATAVIEW_SRC>
+        </LogicLine>
+        <LogicLine>
+          <Select Name="A">
+            <Column val="1"/>
+            <Type val="V"/>
+            <IsParameter val="Y"/>
+            <DIFF_UPDATE val="T"/>
+            <Condition val="Y"/>
+            <Modifier val="S"/>
+            <Direction val="C"/>
+          </Select>
+        </LogicLine>
+        <LogicLine>
+          <Select Name="B">
+            <Column val="2"/>
+            <Type val="V"/>
+            <IsParameter val="Y"/>
+            <DIFF_UPDATE val="T"/>
+            <Condition val="Y"/>
+            <Modifier val="S"/>
+            <Direction val="C"/>
+          </Select>
+        </LogicLine>
+        <LogicLine>
+          <Select Name="C">
+            <Column val="3"/>
+            <Type val="V"/>
+            <IsParameter val="Y"/>
+            <DIFF_UPDATE val="T"/>
+            <Condition val="Y"/>
+            <Modifier val="S"/>
+            <Direction val="C"/>
+          </Select>
+        </LogicLine>
+        <LogicLine>
+          <Remark>
+            <Type val="0"/>
+            <Text val=" "/>
+          </Remark>
+        </LogicLine>
+        <LogicLine>
+          <Remark>
+            <Type val="0"/>
+            <Text val="Allows user to input password/passphrase and derives an encryption key from that information"/>
+          </Remark>
+        </LogicLine>
+        <LogicLine>
+          <Remark>
+            <Type val="0"/>
+            <Text val="The key will encoded with hexdigits"/>
+          </Remark>
+        </LogicLine>
+      </LogicLines>
+    </LogicUnit>
+    <LogicUnit propagate="78">
+      <Level val="R"/>
+      <Type val="S"/>
+      <Scope val="S"/>
+      <EngineDirective val="S"/>
+      <ShowMessage val="Y"/>
+      <Condition val="89"/>
+      <Event>
+        <EventType val="S"/>
+        <PublicObject comp="-1"/>
+      </Event>
+      <Expanded val="1"/>
+      <LogicLines>
+        <LogicLine>
+          <Remark>
+            <Type val="2"/>
+            <Text val=" "/>
+          </Remark>
+        </LogicLine>
+        <LogicLine>
+          <Update>
+            <Variable val="B"/>
+            <WithValue val="1"/>
+            <Incremental val="N"/>
+            <ForcedUpdate val="Y"/>
+            <Condition Exp="2"/>
+            <Modifier val="B"/>
+            <Direction val="C"/>
+          </Update>
+        </LogicLine>
+        <LogicLine>
+          <CallTask>
+            <OperationType val="T"/>
+            <TaskID obj="1"/>
+            <Lock val="N"/>
+            <Wait val="Y"/>
+            <SyncData val="N"/>
+            <RetainFocus val="N"/>
+            <Condition val="Y"/>
+            <Modifier val="S"/>
+            <Direction val="C"/>
+          </CallTask>
+        </LogicLine>
+        <LogicLine>
+          <Remark>
+            <Type val="2"/>
+            <Text val=" "/>
+          </Remark>
+        </LogicLine>
+      </LogicLines>
+    </LogicUnit>
+  </TaskLogic>
+
+  <TaskForms>
+    <FormEntry>
+      <PropertyList model="FORM_GUI0">
+        <_Comment id="218"/>
+        <FormName id="311" valUnicode="TSTO002_AES_Encrypt_new"/>
+      </PropertyList>
+    </FormEntry>
+  </TaskForms>
+
+  <Expressions>
+    <Expression>
+      <ExpSyntax val="16"/>
+      <ExpAttribute val="N"/>
+    </Expression>
+    <Expression>
+      <ExpSyntax val="B=0"/>
+      <ExpAttribute val="B"/>
+    </Expression>
+  </Expressions>
+
+  <Task MainProgram="N">
+    <Header Description="InputKey">
+      <ExecutionRight/>
+      <Resident val="N"/>
+      <SQL val="N"/>
+      <ReturnValue>
+        <ReturnValueAttr/>
+        <ParametersAttributes/>
+      </ReturnValue>
+      <SqlWhereExist val="N"/>
+      <TaskType val="O"/>
+      <External val="N"/>
+      <FormType val="N"/>
+      <DotNetObjectExists val="N"/>
+      <LastModified _date="736973" _time="54027" date="06/10/2018" time="15:00:27"/>
+    </Header>
+    <Resource>
+      <Columns>
+        <Column id="1" name="v.Passphrase">
+          <PropertyList model="FIELD">
+            <Model attr_obj="FIELD_ALPHA" id="1"/>
+            <Picture id="157" valUnicode="2000"/>
+            <StoredAs id="173" val="1"/>
+            <Size id="174" val="2000"/>
+            <_Flip id="194"/>
+          </PropertyList>
+        </Column>
+        <Column id="2" name="v.Key (Hexencoded)">
+          <PropertyList model="FIELD">
+            <Model attr_obj="FIELD_ALPHA" id="1"/>
+            <Picture id="157" valUnicode="1000"/>
+            <StoredAs id="173" val="1"/>
+            <Size id="174" val="1000"/>
+            <_Flip id="194"/>
+          </PropertyList>
+        </Column>
+        <Column id="3" name="v.IV (Hexencoded)">
+          <PropertyList model="FIELD">
+            <Model attr_obj="FIELD_ALPHA" id="1"/>
+            <Picture id="157" valUnicode="1000"/>
+            <StoredAs id="173" val="1"/>
+            <Size id="174" val="1000"/>
+            <_Flip id="194"/>
+          </PropertyList>
+        </Column>
+        <Column id="4" name="v.Keylength">
+          <PropertyList model="FIELD">
+            <Model attr_obj="FIELD_NUMERIC" id="1"/>
+            <Picture id="157" valUnicode="9"/>
+            <_Dec id="181"/>
+            <_Whole id="182" val="9"/>
+            <_Negative id="192"/>
+            <_FieldStyle id="276" val="1"/>
+          </PropertyList>
+        </Column>
+        <Column id="5" name="blbB.Plaintext">
+          <PropertyList model="FIELD">
+            <Model attr_obj="FIELD_BLOB" id="1"/>
+            <StoredAs id="173" val="29"/>
+            <Size id="174" val="28"/>
+            <Definition id="175" val="1"/>
+            <_FieldStyle id="276" val="1"/>
+            <Content id="434" val="3"/>
+          </PropertyList>
+        </Column>
+        <Column id="6" name="blbB.Ciphertext">
+          <PropertyList model="FIELD">
+            <Model attr_obj="FIELD_BLOB" id="1"/>
+            <StoredAs id="173" val="29"/>
+            <Size id="174" val="28"/>
+            <Definition id="175" val="1"/>
+            <_FieldStyle id="276" val="1"/>
+            <Content id="434" val="3"/>
+          </PropertyList>
+        </Column>
+        <Column id="7" name="v.ErrorCode">
+          <PropertyList model="FIELD">
+            <Model attr_obj="FIELD_NUMERIC" id="1" obj="3"/>
+            <DbColumnName id="178"/>
+            <Type id="179"/>
+            <UserType id="180"/>
+          </PropertyList>
+        </Column>
+      </Columns>
+    </Resource>
+    <Information>
+      <Key>
+        <Mode val="N"/>
+      </Key>
+      <DB/>
+      <Sort>
+        <CLS val="A"/>
+      </Sort>
+      <ForceRecordDelete DEL="N"/>
+      <EndTaskCondition val="N"/>
+      <EvaluateEndCondition val="B"/>
+      <InitialMode val="M"/>
+      <Locate Direction="A"/>
+      <Range Direction="A"/>
+      <TaskProperties>
+        <SelectionTable val="N"/>
+        <ConfirmUpdate CNFU="N"/>
+        <ConfirmCancel val="N"/>
+        <ErrorStrategy val="R"/>
+        <LockingStrategy val="I"/>
+        <CacheStrategy val="N"/>
+        <ForceRecordSuffix val="N"/>
+        <TransactionMode val="W"/>
+        <TransactionBegin val="P"/>
+        <PreloadView val="N"/>
+        <AllowEmptyDataview val="Y"/>
+        <KeepCreatedContext val="N"/>
+      </TaskProperties>
+      <SIDE_WIN>
+        <AllowOptions val="Y"/>
+        <AllowQuery val="Y"/>
+        <AllowModify val="Y"/>
+        <AllowCreate val="Y"/>
+        <AllowDelete val="Y"/>
+        <AllowLocate val="Y"/>
+        <AllowRange val="Y"/>
+        <AllowIndexChange val="Y"/>
+        <AllowSorting val="Y"/>
+        <AllowIOFiles val="Y"/>
+        <RecordCycle val="Y"/>
+        <AllowEvents val="Y"/>
+        <AllowIndexOptimization val="Y"/>
+        <AllowLocationInQuery val="Y"/>
+        <AllowPrintingData val="N"/>
+      </SIDE_WIN>
+      <WIN>
+        <OpenTaskWindow val="Y"/>
+        <CloseTaskWindow val="Y"/>
+        <ForegroundWindow val="Y"/>
+        <FlipFld val="N"/>
+        <RefreshTaskWindow ReturnValue="N"/>
+      </WIN>
+      <BOX>
+        <Direction val="V"/>
+      </BOX>
+    </Information>
+    <TaskLogic>
+      <LogicUnit propagate="78">
+        <Level val="R"/>
+        <Type val="M"/>
+        <Scope val="S"/>
+        <EngineDirective val="S"/>
+        <ShowMessage val="Y"/>
+        <Condition val="89"/>
+        <_TotalVariabls val="7"/>
+        <_TotalVirtuals val="7"/>
+        <Event>
+          <EventType val="S"/>
+          <PublicObject comp="-1"/>
+        </Event>
+        <LogicLines>
+          <LogicLine>
+            <DATAVIEW_SRC Type="M">
+              <Condition val="N"/>
+              <Modifier val="B"/>
+              <Direction val="C"/>
+            </DATAVIEW_SRC>
+          </LogicLine>
+          <LogicLine>
+            <Remark>
+              <Type val="0"/>
+              <Text val=" "/>
+            </Remark>
+          </LogicLine>
+          <LogicLine>
+            <Select Name="D">
+              <Column val="1"/>
+              <Type val="V"/>
+              <IsParameter val="N"/>
+              <_DitIndexForToolkit val="2"/>
+              <DIFF_UPDATE val="T"/>
+              <Condition val="Y"/>
+              <Modifier val="S"/>
+              <Direction val="C"/>
+            </Select>
+          </LogicLine>
+          <LogicLine>
+            <Select Name="E">
+              <Column val="2"/>
+              <Type val="V"/>
+              <IsParameter val="N"/>
+              <INT_DIT_INFO>
+                <v>9</v>
+              </INT_DIT_INFO>
+              <_DitIndexForToolkit val="6"/>
+              <DIFF_UPDATE val="T"/>
+              <Condition val="Y"/>
+              <Modifier val="S"/>
+              <Direction val="C"/>
+            </Select>
+          </LogicLine>
+          <LogicLine>
+            <Select Name="F">
+              <Column val="3"/>
+              <Type val="V"/>
+              <IsParameter val="N"/>
+              <_DitIndexForToolkit val="7"/>
+              <DIFF_UPDATE val="T"/>
+              <Condition val="Y"/>
+              <Modifier val="S"/>
+              <Direction val="C"/>
+            </Select>
+          </LogicLine>
+          <LogicLine>
+            <Select Name="G">
+              <ASS val="3"/>
+              <Column val="4"/>
+              <Type val="V"/>
+              <IsParameter val="N"/>
+              <_DitIndexForToolkit val="9"/>
+              <DIFF_UPDATE val="T"/>
+              <Condition val="Y"/>
+              <Modifier val="S"/>
+              <Direction val="C"/>
+            </Select>
+          </LogicLine>
+          <LogicLine>
+            <Remark>
+              <Type val="0"/>
+              <Text val=" "/>
+            </Remark>
+          </LogicLine>
+          <LogicLine>
+            <Select Name="H">
+              <Column val="5"/>
+              <Type val="V"/>
+              <IsParameter val="N"/>
+              <DIFF_UPDATE val="T"/>
+              <Condition val="Y"/>
+              <Modifier val="S"/>
+              <Direction val="C"/>
+            </Select>
+          </LogicLine>
+          <LogicLine>
+            <Select Name="I">
+              <Column val="6"/>
+              <Type val="V"/>
+              <IsParameter val="N"/>
+              <DIFF_UPDATE val="T"/>
+              <Condition val="Y"/>
+              <Modifier val="S"/>
+              <Direction val="C"/>
+            </Select>
+          </LogicLine>
+          <LogicLine>
+            <Remark>
+              <Type val="0"/>
+              <Text val=" "/>
+            </Remark>
+          </LogicLine>
+          <LogicLine>
+            <Select Name="J">
+              <Column val="7"/>
+              <Type val="V"/>
+              <IsParameter val="N"/>
+              <DIFF_UPDATE val="T"/>
+              <PartOfDataview val="Y"/>
+              <Condition val="Y"/>
+              <Modifier val="S"/>
+              <Direction val="C"/>
+            </Select>
+          </LogicLine>
+        </LogicLines>
+      </LogicUnit>
+      <LogicUnit propagate="78">
+        <Level val="T"/>
+        <Type val="P"/>
+        <Scope val="S"/>
+        <EngineDirective val="S"/>
+        <ShowMessage val="Y"/>
+        <Condition val="89"/>
+        <Event>
+          <EventType val="S"/>
+          <PublicObject comp="-1"/>
+        </Event>
+        <Expanded val="1"/>
+        <LogicLines>
+          <LogicLine>
+            <Update>
+              <Variable val="D"/>
+              <WithValue val="4"/>
+              <Incremental val="N"/>
+              <ForcedUpdate val="Y"/>
+              <Condition val="Y"/>
+              <Modifier val="B"/>
+              <Direction val="C"/>
+            </Update>
+          </LogicLine>
+          <LogicLine>
+            <Update>
+              <Variable val="G"/>
+              <WithValue val="5"/>
+              <Incremental val="N"/>
+              <ForcedUpdate val="Y"/>
+              <Condition val="Y"/>
+              <Modifier val="B"/>
+              <Direction val="C"/>
+            </Update>
+          </LogicLine>
+          <LogicLine>
+            <Remark>
+              <Type val="2"/>
+              <Text val=" "/>
+            </Remark>
+          </LogicLine>
+        </LogicLines>
+      </LogicUnit>
+      <LogicUnit propagate="78">
+        <Level val="T"/>
+        <Type val="S"/>
+        <Scope val="S"/>
+        <EngineDirective val="S"/>
+        <ShowMessage val="Y"/>
+        <Condition val="89"/>
+        <Event>
+          <EventType val="S"/>
+          <PublicObject comp="-1"/>
+        </Event>
+        <Expanded val="1"/>
+        <LogicLines>
+          <LogicLine>
+            <Update>
+              <Variable val="C"/>
+              <WithValue val="6"/>
+              <Incremental val="N"/>
+              <ForcedUpdate val="Y"/>
+              <Condition val="Y"/>
+              <Modifier val="B"/>
+              <Direction val="C"/>
+            </Update>
+          </LogicLine>
+          <LogicLine>
+            <Remark>
+              <Type val="2"/>
+              <Text val=" "/>
+            </Remark>
+          </LogicLine>
+        </LogicLines>
+      </LogicUnit>
+      <LogicUnit propagate="78">
+        <Level val="H"/>
+        <Type val="U"/>
+        <Scope val="S"/>
+        <EngineDirective val="S"/>
+        <ShowMessage val="Y"/>
+        <Condition val="89"/>
+        <Event>
+          <EventType val="U"/>
+          <PublicObject comp="-1" obj="4"/>
+        </Event>
+        <Expanded val="1"/>
+        <LogicLines>
+          <LogicLine>
+            <CallTask>
+              <OperationType val="P"/>
+              <TaskID obj="13"/>
+              <Lock val="N"/>
+              <Arguments>
+                <Argument>
+                  <Var val="D"/>
+                  <Skip val="N"/>
+                </Argument>
+                <Argument>
+                  <Var val="E"/>
+                  <Skip val="N"/>
+                </Argument>
+                <Argument>
+                  <Skip val="Y"/>
+                </Argument>
+              </Arguments>
+              <Wait val="Y"/>
+              <SyncData val="N"/>
+              <RetainFocus val="N"/>
+              <Condition val="Y"/>
+              <Modifier val="B"/>
+              <Direction val="C"/>
+            </CallTask>
+          </LogicLine>
+          <LogicLine>
+            <CallTask>
+              <OperationType val="P"/>
+              <TaskID obj="17"/>
+              <Lock val="N"/>
+              <Arguments>
+                <Argument>
+                  <Expression val="2"/>
+                  <Skip val="N"/>
+                </Argument>
+                <Argument>
+                  <Var val="F"/>
+                  <Skip val="N"/>
+                </Argument>
+              </Arguments>
+              <Wait val="Y"/>
+              <SyncData val="N"/>
+              <RetainFocus val="N"/>
+              <Condition val="Y"/>
+              <Modifier val="B"/>
+              <Direction val="C"/>
+            </CallTask>
+          </LogicLine>
+          <LogicLine>
+            <Remark>
+              <Type val="2"/>
+              <Text val=" "/>
+            </Remark>
+          </LogicLine>
+        </LogicLines>
+      </LogicUnit>
+    </TaskLogic>
+    <TaskForms>
+      <FormEntry _last_test_id="37">
+        <PropertyList model="FORM_GUI0">
+          <Y id="22" val="8"/>
+          <Width id="23" val="838"/>
+          <Height id="24" val="153"/>
+          <_Comment id="218"/>
+          <FormName id="311" valUnicode="Input Password/Passphrase"/>
+        </PropertyList>
+        <Control _test_id="22">
+          <PropertyList model="CTRL_GUI0_STATIC">
+            <Text id="19" valUnicode="Enter here your encryption password/passphrase. The program will create an AES key from it which is used for encryption"/>
+            <X id="21" val="10"/>
+            <Y id="22" val="6"/>
+            <Width id="23" val="480"/>
+            <Height id="24" val="9"/>
+            <EnableRTF id="69"/>
+            <_Orientation id="143"/>
+          </PropertyList>
+        </Control>
+        <Control _test_id="21">
+          <PropertyList model="CTRL_GUI0_EDIT">
+            <Model ID="MODEL_GUI_INT" id="1">
+              <Var Column="1"/>
+            </Model>
+            <X id="21" val="10"/>
+            <Y id="22" val="22"/>
+            <Width id="23" val="814"/>
+            <Height id="24" val="50"/>
+            <Data Column="D" id="43"/>
+            <ControlName id="46" val="v.Passphrase_0001"/>
+            <MultiLineEdit id="71" val="Y"/>
+            <VerticalScroll id="73" val="Y"/>
+            <AllowCRInData id="74" val="Y"/>
+            <Format id="82" valUnicode="2000"/>
+            <_Orientation id="143"/>
+            <TabOrder id="314" val="1"/>
+            <MultilineWordwrapScroll id="455" val="3"/>
+          </PropertyList>
+        </Control>
+        <Control _test_id="31">
+          <PropertyList model="CTRL_GUI0_STATIC">
+            <Text id="19" valUnicode="AES works with fixed keylength of 16 (default), 24 or 32 Bytes. That does however not mean that the passwors/passphrases which you doi use for AES have to have exactly that length. This program will derive the encryption key from your password/passphrase (and also encode it to hexdigits so that its easier to store and transport it). The IV value required for some encryption modes is generated from random data and encoded with hexdigits as well."/>
+            <X id="21" val="10"/>
+            <Y id="22" val="76"/>
+            <Width id="23" val="813"/>
+            <Height id="24" val="25"/>
+            <Style id="63" val="7"/>
+            <EnableRTF id="69"/>
+            <MultiLine id="71" val="Y"/>
+            <_VerticalScroll id="73" val="Y"/>
+            <_Orientation id="143"/>
+          </PropertyList>
+        </Control>
+        <Control _test_id="34">
+          <PropertyList model="CTRL_GUI0_STATIC">
+            <Text id="19" valUnicode="Encryption key (hex representation)"/>
+            <X id="21" val="11"/>
+            <Y id="22" val="104"/>
+            <Width id="23" val="258"/>
+            <Height id="24" val="9"/>
+            <EnableRTF id="69"/>
+            <_Orientation id="143"/>
+          </PropertyList>
+        </Control>
+        <Control _test_id="35">
+          <PropertyList model="CTRL_GUI0_STATIC">
+            <Text id="19" valUnicode="IV / Salt (hex representation)"/>
+            <X id="21" val="273"/>
+            <Y id="22" val="105"/>
+            <Width id="23" val="258"/>
+            <Height id="24" val="9"/>
+            <EnableRTF id="69"/>
+            <_Orientation id="143"/>
+          </PropertyList>
+        </Control>
+        <Control _test_id="23">
+          <PropertyList model="CTRL_GUI0_EDIT">
+            <Model ID="MODEL_GUI_INT" id="1">
+              <Var Column="2"/>
+            </Model>
+            <X id="21" val="10"/>
+            <Y id="22" val="116"/>
+            <Width id="23" val="258"/>
+            <Height id="24" val="10"/>
+            <Data Column="E" id="43"/>
+            <ControlName id="46" val="v.Key"/>
+            <_Orientation id="143"/>
+            <TabOrder id="314" val="2"/>
+          </PropertyList>
+        </Control>
+        <Control _test_id="28">
+          <PropertyList model="CTRL_GUI0_EDIT">
+            <Model ID="MODEL_GUI_INT" id="1">
+              <Var Column="3"/>
+            </Model>
+            <X id="21" val="273"/>
+            <Y id="22" val="116"/>
+            <Width id="23" val="258"/>
+            <Height id="24" val="10"/>
+            <Data Column="F" id="43"/>
+            <ControlName id="46" val="v.IV (Hexencoded)_0001"/>
+            <_Orientation id="143"/>
+            <TabOrder id="314" val="3"/>
+          </PropertyList>
+        </Control>
+        <Control _test_id="30">
+          <PropertyList model="CTRL_GUI0_STATIC">
+            <Text id="19" valUnicode="v.Keylength"/>
+            <X id="21" val="548"/>
+            <Y id="22" val="116"/>
+            <Width id="23" val="46"/>
+            <Height id="24" val="9"/>
+            <Font id="50" val="1"/>
+            <Style id="63" val="7"/>
+            <EnableRTF id="69"/>
+            <_Orientation id="143"/>
+          </PropertyList>
+        </Control>
+        <Control PDOD="1" _test_id="29">
+          <PropertyList model="CTRL_GUI0_EDIT">
+            <Model ID="MODEL_GUI_INT" id="1">
+              <Var Column="4"/>
+            </Model>
+            <X id="21" val="598"/>
+            <Y id="22" val="116"/>
+            <Width id="23" val="46"/>
+            <Height id="24" val="10"/>
+            <Data Column="G" id="43"/>
+            <ControlName id="46" val="v.Keylength"/>
+            <_Orientation id="143"/>
+            <TabOrder id="314" val="4"/>
+          </PropertyList>
+        </Control>
+        <Control _test_id="25">
+          <PropertyList model="CTRL_GUI0_EDIT">
+            <X id="21" val="776"/>
+            <Y id="22" val="116"/>
+            <Width id="23" val="48"/>
+            <Height id="24" val="10"/>
+            <Data Exp="1" id="43"/>
+            <Format id="82" valUnicode="N10"/>
+            <Attribute id="83" val="78"/>
+            <_Orientation id="143"/>
+            <TabOrder id="314" val="5"/>
+          </PropertyList>
+        </Control>
+        <Control PDOD="128" _test_id="24">
+          <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+            <X id="21" val="8"/>
+            <Y id="22" val="130"/>
+            <Width id="23" val="117"/>
+            <Height id="24" val="14"/>
+            <Format id="82" valUnicode="Generate Key (from passphrase)"/>
+            <RaiseEvent id="234">
+              <EventType val="U"/>
+              <PublicObject comp="-1" obj="4"/>
+            </RaiseEvent>
+            <TabOrder id="314" val="6"/>
+          </PropertyList>
+        </Control>
+        <Control PDOD="128" _test_id="37">
+          <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+            <X id="21" val="707"/>
+            <Y id="22" val="135"/>
+            <Width id="23" val="117"/>
+            <Height id="24" val="14"/>
+            <Format id="82" valUnicode="&amp;OK"/>
+            <RaiseEvent id="234">
+              <EventType val="I"/>
+              <InternalEventID val="13"/>
+              <PublicObject comp="-1"/>
+            </RaiseEvent>
+            <TabOrder id="314" val="7"/>
+          </PropertyList>
+        </Control>
+      </FormEntry>
+    </TaskForms>
+    <Expressions>
+      <Expression>
+        <ExpSyntax val="Len(Trim(E))"/>
+        <ExpAttribute val="N"/>
+      </Expression>
+      <Expression>
+        <ExpSyntax val="G"/>
+        <ExpAttribute val="N"/>
+      </Expression>
+      <Expression>
+        <ExpSyntax val="16"/>
+        <ExpAttribute val="N"/>
+      </Expression>
+      <Expression>
+        <ExpSyntax val="A"/>
+        <ExpAttribute val="O"/>
+      </Expression>
+      <Expression>
+        <ExpSyntax val="B"/>
+        <ExpAttribute val="N"/>
+      </Expression>
+      <Expression>
+        <ExpSyntax val="E"/>
+        <ExpAttribute val="A"/>
+      </Expression>
+    </Expressions>
+    <EVNT DESC="AES_Encrypt (CBC)" FORCE_EXIT="N">
+      <Event>
+        <EventType val="N"/>
+        <PublicObject comp="-1"/>
+      </Event>
+    </EVNT>
+    <EVNT DESC="AES_Encrypt (ECB)" FORCE_EXIT="N">
+      <Event>
+        <EventType val="N"/>
+        <PublicObject comp="-1"/>
+      </Event>
+    </EVNT>
+    <EVNT DESC="AES_Encrypt (C) (Magic)" FORCE_EXIT="N">
+      <Event>
+        <EventType val="N"/>
+        <PublicObject comp="-1"/>
+      </Event>
+    </EVNT>
+    <EVNT DESC="AES_GenKey" FORCE_EXIT="N">
       <Event>
         <EventType val="N"/>
         <PublicObject comp="-1"/>
@@ -3668,7 +4837,7 @@
     <Offline val="N"/>
     <FormType val="N"/>
     <DotNetObjectExists val="N"/>
-    <LastModified _date="736973" _time="684" date="06/10/2018" time="00:11:24"/>
+    <LastModified _date="736973" _time="3738" date="06/10/2018" time="01:02:18"/>
   </Header>
 
   <Resource>
@@ -3786,6 +4955,12 @@
             <Direction val="C"/>
           </CallTask>
         </LogicLine>
+        <LogicLine>
+          <Remark>
+            <Type val="2"/>
+            <Text val=" "/>
+          </Remark>
+        </LogicLine>
       </LogicLines>
     </LogicUnit>
   </TaskLogic>
@@ -3861,7 +5036,7 @@
             <PartOfDataview id="449"/>
           </PropertyList>
         </Column>
-        <Column id="6" name="v.EncryptionError">
+        <Column id="5" name="v.EncryptionError">
           <PropertyList model="FIELD">
             <Model attr_obj="FIELD_NUMERIC" id="1" obj="3"/>
             <DbColumnName id="178"/>
@@ -3869,7 +5044,7 @@
             <UserType id="180"/>
           </PropertyList>
         </Column>
-        <Column id="7" name="v.Match">
+        <Column id="6" name="v.Match">
           <PropertyList model="FIELD">
             <Model attr_obj="FIELD_LOGICAL" id="1"/>
             <_FieldStyle id="276" val="1"/>
@@ -4154,7 +5329,7 @@
           <LogicLine>
             <CallTask>
               <OperationType val="P"/>
-              <TaskID obj="16"/>
+              <TaskID obj="18"/>
               <Lock val="N"/>
               <Arguments>
                 <Argument>
@@ -4177,7 +5352,7 @@
           <LogicLine>
             <CallTask>
               <OperationType val="P"/>
-              <TaskID obj="16"/>
+              <TaskID obj="18"/>
               <Lock val="N"/>
               <Arguments>
                 <Argument>
@@ -4206,7 +5381,7 @@
           <LogicLine>
             <CallTask>
               <OperationType val="P"/>
-              <TaskID obj="13"/>
+              <TaskID obj="14"/>
               <Lock val="N"/>
               <Arguments>
                 <Argument>
@@ -4459,7 +5634,7 @@
     <Offline val="N"/>
     <FormType val="N"/>
     <DotNetObjectExists val="N"/>
-    <LastModified _date="736972" _time="66456" date="05/10/2018" time="18:27:36"/>
+    <LastModified _date="736973" _time="3746" date="06/10/2018" time="01:02:26"/>
   </Header>
 
   <Resource>
@@ -4671,6 +5846,12 @@
         <LogicLine>
           <END_BLK/>
         </LogicLine>
+        <LogicLine>
+          <Remark>
+            <Type val="2"/>
+            <Text val=" "/>
+          </Remark>
+        </LogicLine>
       </LogicLines>
     </LogicUnit>
   </TaskLogic>
@@ -4731,7 +5912,7 @@
     <Offline val="N"/>
     <FormType val="N"/>
     <DotNetObjectExists val="N"/>
-    <LastModified _date="736973" _time="607" date="06/10/2018" time="00:10:07"/>
+    <LastModified _date="736973" _time="54659" date="06/10/2018" time="15:10:59"/>
   </Header>
 
   <Resource>
@@ -4746,7 +5927,7 @@
           <Content id="434" val="1"/>
         </PropertyList>
       </Column>
-      <Column id="11" name="pi.Keylength">
+      <Column id="2" name="pi.Keylength">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_NUMERIC" id="1"/>
           <Picture id="157" valUnicode="5"/>
@@ -4756,7 +5937,7 @@
           <_FieldStyle id="276" val="1"/>
         </PropertyList>
       </Column>
-      <Column id="12" name="pi.EncryptionKey (Hexdigits)">
+      <Column id="3" name="pi.EncryptionKey (Hexdigits)">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_ALPHA" id="1"/>
           <Picture id="157" valUnicode="255"/>
@@ -4765,7 +5946,7 @@
           <_Flip id="194"/>
         </PropertyList>
       </Column>
-      <Column id="13" name="pi.IV (Hexdigits)">
+      <Column id="4" name="pi.IV (Hexdigits)">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_ALPHA" id="1"/>
           <Picture id="157" valUnicode="255"/>
@@ -4774,27 +5955,29 @@
           <_Flip id="194"/>
         </PropertyList>
       </Column>
-      <Column id="10" name="pi.EncryptionMode">
+      <Column id="5" name="pi.EncryptionMode">
         <PropertyList model="FIELD">
-          <Model attr_obj="FIELD_UNICODE" id="1" obj="1"/>
+          <Model attr_obj="FIELD_ALPHA" id="1" obj="1"/>
           <Picture id="157" valUnicode="20"/>
-          <Size id="174" val="40"/>
+          <Size id="174" val="20"/>
           <DbColumnName id="178"/>
           <Type id="179"/>
           <UserType id="180"/>
+          <_Flip id="194"/>
         </PropertyList>
       </Column>
-      <Column id="3" name="pi.Outputencoding">
+      <Column id="6" name="pi.Outputencoding">
         <PropertyList model="FIELD">
-          <Model attr_obj="FIELD_UNICODE" id="1" obj="2"/>
+          <Model attr_obj="FIELD_ALPHA" id="1" obj="2"/>
           <Picture id="157" valUnicode="20"/>
-          <Size id="174" val="40"/>
+          <Size id="174" val="20"/>
           <DbColumnName id="178"/>
           <Type id="179"/>
           <UserType id="180"/>
+          <_Flip id="194"/>
         </PropertyList>
       </Column>
-      <Column id="2" name="po.Ciphertext">
+      <Column id="7" name="po.Ciphertext">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_BLOB" id="1"/>
           <Size id="174" val="28"/>
@@ -4812,7 +5995,7 @@
           <_FieldStyle id="276" val="1"/>
         </PropertyList>
       </Column>
-      <Column id="16" name="blb.EncryptionKey">
+      <Column id="9" name="blb.EncryptionKey">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_BLOB" id="1"/>
           <StoredAs id="173" val="29"/>
@@ -4822,18 +6005,7 @@
           <Content id="434" val="3"/>
         </PropertyList>
       </Column>
-      <Column id="17" name="blb.IV">
-        <PropertyList model="FIELD">
-          <Model attr_obj="FIELD_BLOB" id="1"/>
-          <StoredAs id="173" val="29"/>
-          <Size id="174" val="28"/>
-          <Definition id="175" val="1"/>
-          <_FieldStyle id="276" val="1"/>
-          <Content id="434" val="3"/>
-          <PartOfDataview id="449"/>
-        </PropertyList>
-      </Column>
-      <Column id="15" name="blb.Cipherresult">
+      <Column id="10" name="blb.IV">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_BLOB" id="1"/>
           <StoredAs id="173" val="29"/>
@@ -4844,7 +6016,18 @@
           <PartOfDataview id="449"/>
         </PropertyList>
       </Column>
-      <Column id="19" name="v.TempfilenameCiphertext">
+      <Column id="11" name="blb.Cipherresult">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_BLOB" id="1"/>
+          <StoredAs id="173" val="29"/>
+          <Size id="174" val="28"/>
+          <Definition id="175" val="1"/>
+          <_FieldStyle id="276" val="1"/>
+          <Content id="434" val="3"/>
+          <PartOfDataview id="449"/>
+        </PropertyList>
+      </Column>
+      <Column id="12" name="v.TempfilenameCiphertext">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_ALPHA" id="1"/>
           <Picture id="157" valUnicode="255"/>
@@ -4853,7 +6036,7 @@
           <_Flip id="194"/>
         </PropertyList>
       </Column>
-      <Column id="21" name="Success">
+      <Column id="13" name="Success">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_LOGICAL" id="1"/>
           <_FieldStyle id="276" val="1"/>
@@ -5225,7 +6408,7 @@
         <LogicLine>
           <CallTask>
             <OperationType val="P"/>
-            <TaskID obj="16"/>
+            <TaskID obj="18"/>
             <Lock val="N"/>
             <Arguments>
               <Argument>
@@ -5248,7 +6431,7 @@
         <LogicLine>
           <CallTask>
             <OperationType val="P"/>
-            <TaskID obj="16"/>
+            <TaskID obj="18"/>
             <Lock val="N"/>
             <Arguments>
               <Argument>
@@ -5309,6 +6492,10 @@
                 <Skip val="N"/>
               </Argument>
               <Argument>
+                <Expression val="10"/>
+                <Skip val="N"/>
+              </Argument>
+              <Argument>
                 <Var val="H"/>
                 <Skip val="N"/>
               </Argument>
@@ -5325,7 +6512,7 @@
         </LogicLine>
         <LogicLine>
           <BLOCK EndBlock="39" EndBlockSegment="39" Type="I">
-            <Condition Exp="10"/>
+            <Condition Exp="11"/>
             <Modifier val="B"/>
             <Direction val="C"/>
           </BLOCK>
@@ -5339,7 +6526,7 @@
         <LogicLine>
           <Update>
             <Variable val="K"/>
-            <WithValue val="11"/>
+            <WithValue val="12"/>
             <Incremental val="N"/>
             <ForcedUpdate val="Y"/>
             <Condition val="Y"/>
@@ -5350,10 +6537,10 @@
         <LogicLine>
           <Update>
             <Variable val="M"/>
-            <WithValue val="12"/>
+            <WithValue val="13"/>
             <Incremental val="N"/>
             <ForcedUpdate val="Y"/>
-            <Condition Exp="13"/>
+            <Condition Exp="14"/>
             <Modifier val="B"/>
             <Direction val="C"/>
           </Update>
@@ -5367,10 +6554,10 @@
         <LogicLine>
           <Update>
             <Variable val="H"/>
-            <WithValue val="15"/>
+            <WithValue val="16"/>
             <Incremental val="N"/>
             <ForcedUpdate val="Y"/>
-            <Condition Exp="14"/>
+            <Condition Exp="15"/>
             <Modifier val="B"/>
             <Direction val="C"/>
           </Update>
@@ -5386,14 +6573,14 @@
         </LogicLine>
         <LogicLine>
           <BLOCK EndBlock="49" EndBlockSegment="49" Type="I">
-            <Condition Exp="17"/>
+            <Condition Exp="18"/>
             <Modifier val="B"/>
             <Direction val="C"/>
           </BLOCK>
         </LogicLine>
         <LogicLine>
           <BLOCK EndBlock="48" EndBlockSegment="45" Type="I">
-            <Condition Exp="18"/>
+            <Condition Exp="19"/>
             <Modifier val="B"/>
             <Direction val="C"/>
           </BLOCK>
@@ -5407,7 +6594,7 @@
         <LogicLine>
           <Update>
             <Variable val="G"/>
-            <WithValue val="19"/>
+            <WithValue val="20"/>
             <Incremental val="N"/>
             <ForcedUpdate val="Y"/>
             <Condition val="Y"/>
@@ -5431,7 +6618,7 @@
         <LogicLine>
           <Update>
             <Variable val="H"/>
-            <WithValue val="16"/>
+            <WithValue val="17"/>
             <Incremental val="N"/>
             <ForcedUpdate val="Y"/>
             <Condition val="Y"/>
@@ -5444,6 +6631,12 @@
         </LogicLine>
         <LogicLine>
           <END_BLK/>
+        </LogicLine>
+        <LogicLine>
+          <Remark>
+            <Type val="2"/>
+            <Text val=" "/>
+          </Remark>
         </LogicLine>
         <LogicLine>
           <Remark>
@@ -5502,6 +6695,10 @@
       <ExpAttribute val="N"/>
     </Expression>
     <Expression>
+      <ExpSyntax val="F"/>
+      <ExpAttribute val="A"/>
+    </Expression>
+    <Expression>
       <ExpSyntax val="H=0 AND L&lt;>'' AND FileExist(L) AND FileSize(L)>0"/>
       <ExpAttribute val="B"/>
     </Expression>
@@ -5546,21 +6743,20 @@
 </Task>
 <Task MainProgram="N">
 
-  <Header Description="AES_Encrypt (magic)" Folder="Cryptfun">
-    <Public val="AES_Encrypt (magic)"/>
+  <Header Description="AES_Decrypt (mgcrypt)" Folder="Cryptfun">
+    <Public val="AES_Decrypt (mgcrypt)"/>
     <ExecutionRight/>
     <Resident val="N"/>
     <SQL val="N"/>
     <ReturnValue>
       <ReturnValueAttr/>
-      <TSK_PARAMS val="8"/>
+      <TSK_PARAMS val="7"/>
       <ParametersAttributes>
         <Attr MgAttr="O"/>
         <Attr MgAttr="N"/>
         <Attr MgAttr="A"/>
         <Attr MgAttr="A"/>
-        <Attr MgAttr="U"/>
-        <Attr MgAttr="U"/>
+        <Attr MgAttr="A"/>
         <Attr MgAttr="O"/>
         <Attr MgAttr="N"/>
       </ParametersAttributes>
@@ -5571,12 +6767,12 @@
     <Offline val="N"/>
     <FormType val="N"/>
     <DotNetObjectExists val="N"/>
-    <LastModified _date="736972" _time="66469" date="05/10/2018" time="18:27:49"/>
+    <LastModified _date="736973" _time="53149" date="06/10/2018" time="14:45:49"/>
   </Header>
 
   <Resource>
     <Columns>
-      <Column id="1" name="pi.Plaintext">
+      <Column id="1" name="pi.Ciphertext">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_BLOB" id="1"/>
           <StoredAs id="173" val="33"/>
@@ -5586,7 +6782,7 @@
           <Content id="434" val="1"/>
         </PropertyList>
       </Column>
-      <Column id="11" name="pi.Keylength">
+      <Column id="2" name="pi.Keylength">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_NUMERIC" id="1"/>
           <Picture id="157" valUnicode="5"/>
@@ -5596,7 +6792,7 @@
           <_FieldStyle id="276" val="1"/>
         </PropertyList>
       </Column>
-      <Column id="12" name="pi.EncryptionKey (Hexdigits)">
+      <Column id="3" name="pi.EncryptionKey (Hexdigits)">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_ALPHA" id="1"/>
           <Picture id="157" valUnicode="255"/>
@@ -5605,7 +6801,7 @@
           <_Flip id="194"/>
         </PropertyList>
       </Column>
-      <Column id="13" name="pi.IV (Hexdigits)">
+      <Column id="4" name="pi.IV (Hexdigits)">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_ALPHA" id="1"/>
           <Picture id="157" valUnicode="255"/>
@@ -5614,27 +6810,18 @@
           <_Flip id="194"/>
         </PropertyList>
       </Column>
-      <Column id="10" name="pi.EncryptionMode">
+      <Column id="5" name="pi.EncryptionMode">
         <PropertyList model="FIELD">
-          <Model attr_obj="FIELD_UNICODE" id="1" obj="1"/>
+          <Model attr_obj="FIELD_ALPHA" id="1" obj="1"/>
           <Picture id="157" valUnicode="20"/>
-          <Size id="174" val="40"/>
+          <Size id="174" val="20"/>
           <DbColumnName id="178"/>
           <Type id="179"/>
           <UserType id="180"/>
+          <_Flip id="194"/>
         </PropertyList>
       </Column>
-      <Column id="3" name="pi.Outputencoding">
-        <PropertyList model="FIELD">
-          <Model attr_obj="FIELD_UNICODE" id="1" obj="2"/>
-          <Picture id="157" valUnicode="20"/>
-          <Size id="174" val="40"/>
-          <DbColumnName id="178"/>
-          <Type id="179"/>
-          <UserType id="180"/>
-        </PropertyList>
-      </Column>
-      <Column id="2" name="po.Ciphertext">
+      <Column id="7" name="po.Plaintext">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_BLOB" id="1"/>
           <Size id="174" val="28"/>
@@ -5652,7 +6839,616 @@
           <_FieldStyle id="276" val="1"/>
         </PropertyList>
       </Column>
-      <Column id="16" name="blb.EncryptionKey">
+      <Column id="9" name="blb.EncryptionKey">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_BLOB" id="1"/>
+          <StoredAs id="173" val="29"/>
+          <Size id="174" val="28"/>
+          <Definition id="175" val="1"/>
+          <_FieldStyle id="276" val="1"/>
+          <Content id="434" val="3"/>
+        </PropertyList>
+      </Column>
+      <Column id="10" name="blb.IV">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_BLOB" id="1"/>
+          <StoredAs id="173" val="29"/>
+          <Size id="174" val="28"/>
+          <Definition id="175" val="1"/>
+          <_FieldStyle id="276" val="1"/>
+          <Content id="434" val="3"/>
+          <PartOfDataview id="449"/>
+        </PropertyList>
+      </Column>
+      <Column id="12" name="v.TempfilenamePlaintext">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="255"/>
+          <StoredAs id="173" val="1"/>
+          <Size id="174" val="255"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Column>
+      <Column id="13" name="Success">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_LOGICAL" id="1"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Column>
+    </Columns>
+  </Resource>
+
+  <Information>
+    <Key>
+      <Mode val="N"/>
+    </Key>
+    <DB/>
+    <Sort>
+      <CLS val="A"/>
+    </Sort>
+    <ForceRecordDelete DEL="N"/>
+    <EndTaskCondition val="Y"/>
+    <EvaluateEndCondition val="A"/>
+    <InitialMode val="M"/>
+    <Locate Direction="A"/>
+    <Range Direction="A"/>
+    <TaskProperties>
+      <SelectionTable val="N"/>
+      <ConfirmUpdate CNFU="N"/>
+      <ConfirmCancel val="N"/>
+      <ErrorStrategy val="A"/>
+      <LockingStrategy val="M"/>
+      <CacheStrategy val="T"/>
+      <ForceRecordSuffix val="N"/>
+      <TransactionMode val="P"/>
+      <TransactionBegin val="N"/>
+      <PreloadView val="N"/>
+      <AllowEmptyDataview val="N"/>
+      <KeepCreatedContext val="N"/>
+    </TaskProperties>
+    <SIDE_WIN>
+      <AllowOptions val="N"/>
+      <AllowQuery val="Y"/>
+      <AllowModify val="Y"/>
+      <AllowCreate val="Y"/>
+      <AllowDelete val="Y"/>
+      <AllowLocate val="Y"/>
+      <AllowRange val="Y"/>
+      <AllowIndexChange val="Y"/>
+      <AllowSorting val="Y"/>
+      <AllowIOFiles val="Y"/>
+      <RecordCycle val="Y"/>
+      <AllowEvents val="Y"/>
+      <AllowIndexOptimization val="Y"/>
+      <AllowLocationInQuery val="Y"/>
+      <AllowPrintingData val="N"/>
+    </SIDE_WIN>
+    <WIN>
+      <OpenTaskWindow val="N"/>
+      <CloseTaskWindow val="Y"/>
+      <ForegroundWindow val="Y"/>
+      <FlipFld val="N"/>
+      <RefreshTaskWindow ReturnValue="N"/>
+    </WIN>
+    <BOX>
+      <Direction val="V"/>
+    </BOX>
+  </Information>
+
+  <TaskLogic>
+    <LogicUnit propagate="78">
+      <Level val="R"/>
+      <Type val="M"/>
+      <Scope val="S"/>
+      <EngineDirective val="S"/>
+      <ShowMessage val="Y"/>
+      <Condition val="89"/>
+      <_TotalVariabls val="11"/>
+      <_TotalVirtuals val="11"/>
+      <Event>
+        <EventType val="S"/>
+        <PublicObject comp="-1"/>
+      </Event>
+      <LogicLines>
+        <LogicLine>
+          <DATAVIEW_SRC Type="M">
+            <Condition val="N"/>
+            <Modifier val="B"/>
+            <Direction val="C"/>
+          </DATAVIEW_SRC>
+        </LogicLine>
+        <LogicLine>
+          <Remark>
+            <Type val="0"/>
+            <Text val=" "/>
+          </Remark>
+        </LogicLine>
+        <LogicLine>
+          <Remark>
+            <Type val="0"/>
+            <Text val="@PARAMETERS:"/>
+          </Remark>
+        </LogicLine>
+        <LogicLine>
+          <Select Name="A">
+            <Column val="1"/>
+            <Type val="V"/>
+            <IsParameter val="Y"/>
+            <DIFF_UPDATE val="T"/>
+            <Condition val="Y"/>
+            <Modifier val="S"/>
+            <Direction val="C"/>
+          </Select>
+        </LogicLine>
+        <LogicLine>
+          <Select Name="B">
+            <Column val="2"/>
+            <Type val="V"/>
+            <IsParameter val="Y"/>
+            <DIFF_UPDATE val="T"/>
+            <Condition val="Y"/>
+            <Modifier val="S"/>
+            <Direction val="C"/>
+          </Select>
+        </LogicLine>
+        <LogicLine>
+          <Select Name="C">
+            <Column val="3"/>
+            <Type val="V"/>
+            <IsParameter val="Y"/>
+            <DIFF_UPDATE val="T"/>
+            <Condition val="Y"/>
+            <Modifier val="S"/>
+            <Direction val="C"/>
+          </Select>
+        </LogicLine>
+        <LogicLine>
+          <Select Name="D">
+            <Column val="4"/>
+            <Type val="V"/>
+            <IsParameter val="Y"/>
+            <DIFF_UPDATE val="T"/>
+            <Condition val="Y"/>
+            <Modifier val="S"/>
+            <Direction val="C"/>
+          </Select>
+        </LogicLine>
+        <LogicLine>
+          <Select Name="E">
+            <Column val="5"/>
+            <Type val="V"/>
+            <IsParameter val="Y"/>
+            <DIFF_UPDATE val="T"/>
+            <PartOfDataview val="Y"/>
+            <Condition val="Y"/>
+            <Modifier val="S"/>
+            <Direction val="C"/>
+          </Select>
+        </LogicLine>
+        <LogicLine>
+          <Select Name="F">
+            <Column val="6"/>
+            <Type val="V"/>
+            <IsParameter val="Y"/>
+            <DIFF_UPDATE val="T"/>
+            <Condition val="Y"/>
+            <Modifier val="S"/>
+            <Direction val="C"/>
+          </Select>
+        </LogicLine>
+        <LogicLine>
+          <Select Name="G">
+            <Column val="7"/>
+            <Type val="V"/>
+            <IsParameter val="Y"/>
+            <DIFF_UPDATE val="T"/>
+            <Condition val="Y"/>
+            <Modifier val="S"/>
+            <Direction val="C"/>
+          </Select>
+        </LogicLine>
+        <LogicLine>
+          <Remark>
+            <Type val="0"/>
+            <Text val=" "/>
+          </Remark>
+        </LogicLine>
+        <LogicLine>
+          <Select Name="H">
+            <Column val="8"/>
+            <Type val="V"/>
+            <IsParameter val="N"/>
+            <DIFF_UPDATE val="T"/>
+            <Condition val="Y"/>
+            <Modifier val="S"/>
+            <Direction val="C"/>
+          </Select>
+        </LogicLine>
+        <LogicLine>
+          <Select Name="I">
+            <Column val="9"/>
+            <Type val="V"/>
+            <IsParameter val="N"/>
+            <DIFF_UPDATE val="T"/>
+            <PartOfDataview val="N"/>
+            <Condition val="Y"/>
+            <Modifier val="S"/>
+            <Direction val="C"/>
+          </Select>
+        </LogicLine>
+        <LogicLine>
+          <Remark>
+            <Type val="0"/>
+            <Text val=" "/>
+          </Remark>
+        </LogicLine>
+        <LogicLine>
+          <Select Name="J">
+            <Column val="10"/>
+            <Type val="V"/>
+            <IsParameter val="N"/>
+            <DIFF_UPDATE val="T"/>
+            <Condition val="Y"/>
+            <Modifier val="S"/>
+            <Direction val="C"/>
+          </Select>
+        </LogicLine>
+        <LogicLine>
+          <Select Name="K">
+            <Column val="11"/>
+            <Type val="V"/>
+            <IsParameter val="N"/>
+            <DIFF_UPDATE val="T"/>
+            <Condition val="Y"/>
+            <Modifier val="S"/>
+            <Direction val="C"/>
+          </Select>
+        </LogicLine>
+      </LogicLines>
+    </LogicUnit>
+    <LogicUnit propagate="78">
+      <Level val="T"/>
+      <Type val="P"/>
+      <Scope val="S"/>
+      <EngineDirective val="S"/>
+      <ShowMessage val="Y"/>
+      <Condition val="89"/>
+      <Event>
+        <EventType val="S"/>
+        <PublicObject comp="-1"/>
+      </Event>
+      <Expanded val="1"/>
+      <LogicLines>
+        <LogicLine>
+          <Update>
+            <Variable val="E"/>
+            <WithValue val="1"/>
+            <Incremental val="N"/>
+            <ForcedUpdate val="Y"/>
+            <Condition Exp="2"/>
+            <Modifier val="B"/>
+            <Direction val="C"/>
+          </Update>
+        </LogicLine>
+        <LogicLine>
+          <Update>
+            <Variable val="G"/>
+            <WithValue val="3"/>
+            <Incremental val="N"/>
+            <ForcedUpdate val="Y"/>
+            <Condition val="Y"/>
+            <Modifier val="B"/>
+            <Direction val="C"/>
+          </Update>
+        </LogicLine>
+        <LogicLine>
+          <Update>
+            <Variable val="F"/>
+            <WithValue val="4"/>
+            <Incremental val="N"/>
+            <ForcedUpdate val="Y"/>
+            <Condition val="Y"/>
+            <Modifier val="B"/>
+            <Direction val="C"/>
+          </Update>
+        </LogicLine>
+        <LogicLine>
+          <Remark>
+            <Type val="2"/>
+            <Text val=" "/>
+          </Remark>
+        </LogicLine>
+      </LogicLines>
+    </LogicUnit>
+    <LogicUnit propagate="78">
+      <Level val="R"/>
+      <Type val="S"/>
+      <Scope val="S"/>
+      <EngineDirective val="S"/>
+      <ShowMessage val="Y"/>
+      <Condition val="89"/>
+      <Event>
+        <EventType val="S"/>
+        <PublicObject comp="-1"/>
+      </Event>
+      <Expanded val="1"/>
+      <LogicLines>
+        <LogicLine>
+          <Remark>
+            <Type val="2"/>
+            <Text val=" "/>
+          </Remark>
+        </LogicLine>
+        <LogicLine>
+          <Remark>
+            <Type val="2"/>
+            <Text val="Get binary data from the parameters which are expected to be encoded with hexdigits ..."/>
+          </Remark>
+        </LogicLine>
+        <LogicLine>
+          <CallTask>
+            <OperationType val="P"/>
+            <TaskID obj="18"/>
+            <Lock val="N"/>
+            <Arguments>
+              <Argument>
+                <Var val="C"/>
+                <Skip val="N"/>
+              </Argument>
+              <Argument>
+                <Var val="H"/>
+                <Skip val="N"/>
+              </Argument>
+            </Arguments>
+            <Wait val="Y"/>
+            <SyncData val="N"/>
+            <RetainFocus val="N"/>
+            <Condition val="Y"/>
+            <Modifier val="B"/>
+            <Direction val="C"/>
+          </CallTask>
+        </LogicLine>
+        <LogicLine>
+          <CallTask>
+            <OperationType val="P"/>
+            <TaskID obj="18"/>
+            <Lock val="N"/>
+            <Arguments>
+              <Argument>
+                <Var val="D"/>
+                <Skip val="N"/>
+              </Argument>
+              <Argument>
+                <Var val="I"/>
+                <Skip val="N"/>
+              </Argument>
+            </Arguments>
+            <Wait val="Y"/>
+            <SyncData val="N"/>
+            <RetainFocus val="N"/>
+            <Condition val="Y"/>
+            <Modifier val="B"/>
+            <Direction val="C"/>
+          </CallTask>
+        </LogicLine>
+        <LogicLine>
+          <Remark>
+            <Type val="2"/>
+            <Text val=" "/>
+          </Remark>
+        </LogicLine>
+        <LogicLine>
+          <Invoke>
+            <OperationType val="U"/>
+            <TaskID obj="5"/>
+            <Lock val="N"/>
+            <Arguments>
+              <Argument>
+                <Var val="A"/>
+                <Skip val="N"/>
+              </Argument>
+              <Argument>
+                <Expression val="6"/>
+                <Skip val="N"/>
+              </Argument>
+              <Argument>
+                <Var val="H"/>
+                <Skip val="N"/>
+              </Argument>
+              <Argument>
+                <Var val="I"/>
+                <Skip val="N"/>
+              </Argument>
+              <Argument>
+                <Var val="E"/>
+                <Skip val="N"/>
+              </Argument>
+              <Argument>
+                <Var val="J"/>
+                <Skip val="N"/>
+              </Argument>
+              <Argument>
+                <Expression val="7"/>
+                <Skip val="N"/>
+              </Argument>
+              <Argument>
+                <Var val="G"/>
+                <Skip val="N"/>
+              </Argument>
+            </Arguments>
+            <Wait val="Y"/>
+            <SyncData val="N"/>
+            <Convention val="S"/>
+            <UdpType val="B"/>
+            <RetainFocus val="Y"/>
+            <Condition val="Y"/>
+            <Modifier val="B"/>
+            <Direction val="C"/>
+          </Invoke>
+        </LogicLine>
+        <LogicLine>
+          <BLOCK EndBlock="33" EndBlockSegment="33" Type="I">
+            <Condition Exp="8"/>
+            <Modifier val="B"/>
+            <Direction val="C"/>
+          </BLOCK>
+        </LogicLine>
+        <LogicLine>
+          <Remark>
+            <Type val="2"/>
+            <Text val="Successful decryption as it looks. Read Plaintext from temp. file and delete it immediately after .."/>
+          </Remark>
+        </LogicLine>
+        <LogicLine>
+          <Update>
+            <Variable val="F"/>
+            <WithValue val="9"/>
+            <Incremental val="N"/>
+            <ForcedUpdate val="Y"/>
+            <Condition val="Y"/>
+            <Modifier val="B"/>
+            <Direction val="C"/>
+          </Update>
+        </LogicLine>
+        <LogicLine>
+          <Update>
+            <Variable val="K"/>
+            <WithValue val="10"/>
+            <Incremental val="N"/>
+            <ForcedUpdate val="Y"/>
+            <Condition Exp="11"/>
+            <Modifier val="B"/>
+            <Direction val="C"/>
+          </Update>
+        </LogicLine>
+        <LogicLine>
+          <Remark>
+            <Type val="2"/>
+            <Text val="ERROR: Temp. File with encryption result empty or access failure ..."/>
+          </Remark>
+        </LogicLine>
+        <LogicLine>
+          <Update>
+            <Variable val="G"/>
+            <WithValue val="13"/>
+            <Incremental val="N"/>
+            <ForcedUpdate val="Y"/>
+            <Condition Exp="12"/>
+            <Modifier val="B"/>
+            <Direction val="C"/>
+          </Update>
+        </LogicLine>
+        <LogicLine>
+          <END_BLK/>
+        </LogicLine>
+        <LogicLine>
+          <Remark>
+            <Type val="2"/>
+            <Text val=" "/>
+          </Remark>
+        </LogicLine>
+      </LogicLines>
+    </LogicUnit>
+  </TaskLogic>
+
+  <TaskForms>
+    <FormEntry>
+      <PropertyList model="FORM_GUI0">
+        <_Comment id="218"/>
+        <FormName id="311" valUnicode="AES_Decrypt (mgcrypt)"/>
+      </PropertyList>
+    </FormEntry>
+  </TaskForms>
+
+  <Expressions>
+    <Expression>
+      <ExpSyntax val="'CBC'"/>
+      <ExpAttribute val="A"/>
+    </Expression>
+    <Expression>
+      <ExpSyntax val="E='' OR NOT(IN(E, 'ECB', 'CBC', 'CFB', 'OFB'))"/>
+      <ExpAttribute val="B"/>
+    </Expression>
+    <Expression>
+      <ExpSyntax val="-99999"/>
+      <ExpAttribute val="N"/>
+    </Expression>
+    <Expression>
+      <ExpSyntax val="NULL()"/>
+      <ExpAttribute val="*"/>
+    </Expression>
+    <Expression>
+      <ExpSyntax val="'mgcrypt.mgcrypt_AES_Decrypt'"/>
+      <ExpAttribute val="A"/>
+    </Expression>
+    <Expression>
+      <ExpSyntax val="BlobSize(A)"/>
+      <ExpAttribute val="N"/>
+    </Expression>
+    <Expression>
+      <ExpSyntax val="Len(J)"/>
+      <ExpAttribute val="N"/>
+    </Expression>
+    <Expression>
+      <ExpSyntax val="G=0 AND J&lt;>'' AND FileExist(J) AND FileSize(J)>0"/>
+      <ExpAttribute val="B"/>
+    </Expression>
+    <Expression>
+      <ExpSyntax val="File2Blb(J)"/>
+      <ExpAttribute val="O"/>
+    </Expression>
+    <Expression>
+      <ExpSyntax val="FileDelete(J)"/>
+      <ExpAttribute val="B"/>
+    </Expression>
+    <Expression>
+      <ExpSyntax val="NOT(ISNULL(F))"/>
+      <ExpAttribute val="B"/>
+    </Expression>
+    <Expression>
+      <ExpSyntax val="ISNULL(F)"/>
+      <ExpAttribute val="B"/>
+    </Expression>
+    <Expression>
+      <ExpSyntax val="-1"/>
+      <ExpAttribute val="N"/>
+    </Expression>
+  </Expressions>
+
+</Task>
+<Task MainProgram="N">
+
+  <Header Description="AES_Encrypt (magic)" Folder="Cryptfun">
+    <Public val="AES_Encrypt (magic)"/>
+    <ExecutionRight/>
+    <Resident val="N"/>
+    <SQL val="N"/>
+    <ReturnValue>
+      <ReturnValueAttr/>
+      <TSK_PARAMS val="8"/>
+      <ParametersAttributes>
+        <Attr MgAttr="O"/>
+        <Attr MgAttr="N"/>
+        <Attr MgAttr="A"/>
+        <Attr MgAttr="A"/>
+        <Attr MgAttr="A"/>
+        <Attr MgAttr="A"/>
+        <Attr MgAttr="O"/>
+        <Attr MgAttr="N"/>
+      </ParametersAttributes>
+    </ReturnValue>
+    <SqlWhereExist val="N"/>
+    <TaskType val="B"/>
+    <External val="N"/>
+    <Offline val="N"/>
+    <FormType val="N"/>
+    <DotNetObjectExists val="N"/>
+    <LastModified _date="736973" _time="3761" date="06/10/2018" time="01:02:41"/>
+  </Header>
+
+  <Resource>
+    <Columns>
+      <Column id="1" name="pi.Plaintext">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_BLOB" id="1"/>
           <StoredAs id="173" val="33"/>
@@ -5662,7 +7458,85 @@
           <Content id="434" val="1"/>
         </PropertyList>
       </Column>
-      <Column id="17" name="blb.IV">
+      <Column id="2" name="pi.Keylength">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="5"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="5"/>
+          <_Negative id="192"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Column>
+      <Column id="3" name="pi.EncryptionKey (Hexdigits)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="255"/>
+          <StoredAs id="173" val="1"/>
+          <Size id="174" val="255"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Column>
+      <Column id="4" name="pi.IV (Hexdigits)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="255"/>
+          <StoredAs id="173" val="1"/>
+          <Size id="174" val="255"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Column>
+      <Column id="5" name="pi.EncryptionMode">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1" obj="1"/>
+          <Picture id="157" valUnicode="20"/>
+          <Size id="174" val="20"/>
+          <DbColumnName id="178"/>
+          <Type id="179"/>
+          <UserType id="180"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Column>
+      <Column id="6" name="pi.Outputencoding">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1" obj="2"/>
+          <Picture id="157" valUnicode="20"/>
+          <Size id="174" val="20"/>
+          <DbColumnName id="178"/>
+          <Type id="179"/>
+          <UserType id="180"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Column>
+      <Column id="7" name="po.Ciphertext">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_BLOB" id="1"/>
+          <Size id="174" val="28"/>
+          <Definition id="175" val="1"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Column>
+      <Column id="8" name="po.Error">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="N10"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="10"/>
+          <_Negative id="192" val="Y"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Column>
+      <Column id="9" name="blb.EncryptionKey">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_BLOB" id="1"/>
+          <StoredAs id="173" val="33"/>
+          <Size id="174" val="28"/>
+          <Definition id="175" val="1"/>
+          <_FieldStyle id="276" val="1"/>
+          <Content id="434" val="1"/>
+        </PropertyList>
+      </Column>
+      <Column id="10" name="blb.IV">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_BLOB" id="1"/>
           <StoredAs id="173" val="33"/>
@@ -5673,7 +7547,7 @@
           <PartOfDataview id="449"/>
         </PropertyList>
       </Column>
-      <Column id="15" name="blb.Cipherresult">
+      <Column id="11" name="blb.Cipherresult">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_BLOB" id="1"/>
           <StoredAs id="173" val="33"/>
@@ -5684,7 +7558,7 @@
           <PartOfDataview id="449"/>
         </PropertyList>
       </Column>
-      <Column id="18" name="blbU.EncryptionError">
+      <Column id="12" name="blbU.EncryptionError">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_BLOB" id="1"/>
           <StoredAs id="173" val="34"/>
@@ -6039,7 +7913,7 @@
         <LogicLine>
           <CallTask>
             <OperationType val="P"/>
-            <TaskID obj="16"/>
+            <TaskID obj="18"/>
             <Lock val="N"/>
             <Arguments>
               <Argument>
@@ -6062,7 +7936,7 @@
         <LogicLine>
           <CallTask>
             <OperationType val="P"/>
-            <TaskID obj="16"/>
+            <TaskID obj="18"/>
             <Lock val="N"/>
             <Arguments>
               <Argument>
@@ -6245,7 +8119,7 @@
         <LogicLine>
           <CallTask>
             <OperationType val="P"/>
-            <TaskID obj="17"/>
+            <TaskID obj="19"/>
             <Lock val="N"/>
             <Arguments>
               <Argument>
@@ -6267,6 +8141,12 @@
         </LogicLine>
         <LogicLine>
           <END_BLK/>
+        </LogicLine>
+        <LogicLine>
+          <Remark>
+            <Type val="2"/>
+            <Text val=" "/>
+          </Remark>
         </LogicLine>
         <LogicLine>
           <Remark>
@@ -6376,7 +8256,7 @@
     <Offline val="N"/>
     <FormType val="N"/>
     <DotNetObjectExists val="N"/>
-    <LastModified _date="736972" _time="66472" date="05/10/2018" time="18:27:52"/>
+    <LastModified _date="736973" _time="3769" date="06/10/2018" time="01:02:49"/>
   </Header>
 
   <Resource>
@@ -6571,6 +8451,12 @@
             <Modifier val="S"/>
             <Direction val="C"/>
           </CallTask>
+        </LogicLine>
+        <LogicLine>
+          <Remark>
+            <Type val="2"/>
+            <Text val=" "/>
+          </Remark>
         </LogicLine>
       </LogicLines>
     </LogicUnit>
@@ -6803,14 +8689,14 @@
     <Offline val="N"/>
     <FormType val="N"/>
     <DotNetObjectExists val="N"/>
-    <LastModified _date="736972" _time="71401" date="05/10/2018" time="19:50:01"/>
+    <LastModified _date="736973" _time="3776" date="06/10/2018" time="01:02:56"/>
   </Header>
 
   <ReturnValueExpression val="1"/>
 
   <Resource>
     <Columns>
-      <Column id="2" name="pi.Data_Hexencoded">
+      <Column id="1" name="pi.Data_Hexencoded">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_BLOB" id="1"/>
           <Size id="174" val="28"/>
@@ -6819,7 +8705,7 @@
           <PartOfDataview id="449"/>
         </PropertyList>
       </Column>
-      <Column id="3" name="pi.Data_Hexdecoded">
+      <Column id="2" name="pi.Data_Hexdecoded">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_BLOB" id="1"/>
           <Size id="174" val="28"/>
@@ -6828,7 +8714,7 @@
           <PartOfDataview id="449"/>
         </PropertyList>
       </Column>
-      <Column id="4" name="Success">
+      <Column id="3" name="Success">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_LOGICAL" id="1"/>
           <_FieldStyle id="276" val="1"/>
@@ -7044,6 +8930,12 @@
             <Direction val="C"/>
           </CallTask>
         </LogicLine>
+        <LogicLine>
+          <Remark>
+            <Type val="2"/>
+            <Text val=" "/>
+          </Remark>
+        </LogicLine>
       </LogicLines>
     </LogicUnit>
   </TaskLogic>
@@ -7086,7 +8978,7 @@
     </Header>
     <Resource>
       <Columns>
-        <Column id="2" name="v.Tempfilename">
+        <Column id="1" name="v.Tempfilename">
           <PropertyList model="FIELD">
             <Model attr_obj="FIELD_ALPHA" id="1"/>
             <Picture id="157" valUnicode="255"/>
@@ -7330,23 +9222,25 @@
     <Offline val="N"/>
     <FormType val="N"/>
     <DotNetObjectExists val="N"/>
-    <LastModified _date="736972" _time="66486" date="05/10/2018" time="18:28:06"/>
+    <LastModified _date="736973" _time="62954" date="06/10/2018" time="17:29:14"/>
   </Header>
 
   <ReturnValueExpression val="1"/>
 
   <Resource>
     <Columns>
-      <Column id="2" name="pi.Data_Raw">
+      <Column id="1" name="pi.Data_Raw">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_BLOB" id="1"/>
+          <StoredAs id="173" val="33"/>
           <Size id="174" val="28"/>
           <Definition id="175" val="1"/>
           <_FieldStyle id="276" val="1"/>
+          <Content id="434" val="1"/>
           <PartOfDataview id="449"/>
         </PropertyList>
       </Column>
-      <Column id="3" name="pi.Data_Hexencoded">
+      <Column id="2" name="pi.Data_Hexencoded">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_BLOB" id="1"/>
           <Size id="174" val="28"/>
@@ -7517,6 +9411,12 @@
             <Modifier val="S"/>
             <Direction val="C"/>
           </CallTask>
+        </LogicLine>
+        <LogicLine>
+          <Remark>
+            <Type val="2"/>
+            <Text val=" "/>
+          </Remark>
         </LogicLine>
       </LogicLines>
     </LogicUnit>
@@ -8299,7 +10199,7 @@
           <MenuType val="1"/>
           <MenuEntry>
             <MenuType val="2"/>
-            <Description_U val="SHA-256"/>
+            <Description_U val="TSTO001_SHA-256"/>
             <Right/>
             <Help/>
             <Prompt/>
@@ -8308,7 +10208,7 @@
           </MenuEntry>
           <MenuEntry>
             <MenuType val="2"/>
-            <Description_U val="AES_Encrypt"/>
+            <Description_U val="TSTO002_AES_Encrypt"/>
             <Right/>
             <Help/>
             <Prompt/>
@@ -8317,7 +10217,7 @@
           </MenuEntry>
           <MenuEntry>
             <MenuType val="2"/>
-            <Description_U val="TST003_Random"/>
+            <Description_U val="TSTO003_Random"/>
             <Right/>
             <Help/>
             <Prompt/>
@@ -8326,11 +10226,31 @@
           </MenuEntry>
           <MenuEntry>
             <MenuType val="2"/>
-            <Description_U val="TST004_Hexdigits"/>
+            <Description_U val="TSTO004_Hexdigits"/>
             <Right/>
             <Help/>
             <Prompt/>
             <Program obj="7"/>
+            <SourceContext val="67"/>
+          </MenuEntry>
+          <MenuEntry>
+            <MenuType val="2"/>
+            <Description_U val="TSTO005_DeriveKey"/>
+            <Right/>
+            <Help/>
+            <Prompt/>
+            <Program obj="8"/>
+            <Arguments>
+              <Argument>
+                <Skip val="Y"/>
+              </Argument>
+              <Argument>
+                <Skip val="Y"/>
+              </Argument>
+              <Argument>
+                <Skip val="Y"/>
+              </Argument>
+            </Arguments>
             <SourceContext val="67"/>
           </MenuEntry>
           <MenuEntry>
@@ -8342,7 +10262,7 @@
             <Right/>
             <Help/>
             <Prompt/>
-            <Program obj="10"/>
+            <Program obj="11"/>
             <SourceContext val="67"/>
           </MenuEntry>
         </Menu>
@@ -8427,7 +10347,7 @@
 <ProjectProperties>
 
   <ProjectData>
-    <GUID val="{713BFCF3-A816-478A-A246-19AEE247D28D}"/>
+    <GUID val="{F23E0F59-E326-4990-A114-7ECFCA9266FC}"/>
     <RemoteFlowMonitorRight/>
     <Programs/>
     <NulArithmetic val="N"/>
@@ -8435,7 +10355,7 @@
     <_SystemPulldownMenu obj="1"/>
     <_SystemContextMenu/>
     <ExposeComment val="N"/>
-    <ProjectName val="xpacrypt"/>
+    <ProjectName val="XpaTCrypt"/>
   </ProjectData>
 
 </ProjectProperties>

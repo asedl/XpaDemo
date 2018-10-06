@@ -1,0 +1,1 @@
+06.10.2018 ASe, the Magic Xpa 3.3 demo project has been removed from test folder of this library. A demo / sample usage of this library is now part of XpaTCrypt component which is part of the XpaTDemo project (https://github.com/asedl/XpaDemo/tree/master/XpaDemo/Components/XpaTCrypt)
