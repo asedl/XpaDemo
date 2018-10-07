@@ -223,34 +223,77 @@ int AES_Decrypt_CBC(const char* lpszCiphertext, long lpdwCiphertextLength, char*
 
 }
 
+int AES_Encrypt_CFB(const char* lpszPlaintext, long lpdwPlaintextLength, char* lpszKey, char* lpszIV, string& ciphertext) {
 
-char* DeriveKey(char* lpszPassphrase, char* lpszIV, char* lpszKeyBuffer, size_t lKeybufferLength, size_t Keylength) {
+	string plaintext(lpszPlaintext, lpdwPlaintextLength);
 
-	SecByteBlock key(Keylength);
-	string password(lpszPassphrase), iv(lpszIV);
+	SecByteBlock key(0), iv(0);
+	key.Assign((const byte*)lpszKey, 16);
+	iv.Assign((const byte*)lpszIV, 16);
 
-	try {
-		HKDF<SHA256> hkdf;
-		hkdf.DeriveKey(key, key.size(), (const byte*) password.data(), password.size(), (const byte*) iv.data(), iv.size(), NULL, 0);
-
-		string encoded;
-		CryptoPP::HexEncoder encoder;
-		encoder.Attach(new CryptoPP::StringSink(encoded));
-		encoder.Put(key, key.size());
-		encoder.MessageEnd();
-
-		int lencoded = encoded.size();
-		if (lencoded + 1 <= lKeybufferLength) {
-			copy(encoded.begin(), encoded.end(), stdext::checked_array_iterator<char*>(lpszKeyBuffer, lKeybufferLength));
-			lpszKeyBuffer[lencoded] = 0;
-		}
-		else
-			*lpszKeyBuffer = 0;
-		return lpszKeyBuffer;
-
-	}
-	catch (const Exception& ex)
+	try
 	{
-		return 0;
+		CFB_Mode< AES >::Encryption e;
+		e.SetKeyWithIV(key.begin(), key.size(), iv);
+
+		// The StreamTransformationFilter adds padding
+		//  as required. ECB and CBC Mode must be padded
+		//  to the block size of the cipher.
+		StringSource ss1(plaintext, true,
+			new StreamTransformationFilter(e,
+				new StringSink(ciphertext)
+			) // StreamTransformationFilter      
+		); // StringSource
 	}
+	catch (CryptoPP::BufferedTransformation::NoChannelSupport& e)
+	{
+	}
+	catch (CryptoPP::AuthenticatedSymmetricCipher::BadState& e)
+	{
+	}
+	catch (CryptoPP::InvalidArgument& e)
+	{
+	}
+
+	return 0;
+
 }
+
+int AES_Decrypt_CFB(const char* lpszCiphertext, long lpdwCiphertextLength, char* lpszKey, char* lpszIV, string& plaintext) {
+
+	string ciphertext(lpszCiphertext, lpdwCiphertextLength);
+
+	SecByteBlock key(0), iv(0);
+	key.Assign((const byte*)lpszKey, 16);
+	iv.Assign((const byte*)lpszIV, 16);
+
+	try
+	{
+		CFB_Mode< AES >::Decryption d;
+		d.SetKeyWithIV(key.begin(), key.size(), iv);
+
+		// The StreamTransformationFilter adds padding
+		//  as required. ECB and CBC Mode must be padded
+		//  to the block size of the cipher.
+		StringSource ss1(ciphertext, true,
+			new StreamTransformationFilter(d,
+				new StringSink(plaintext)
+			) // StreamTransformationFilter      
+		); // StringSource
+	}
+	catch (CryptoPP::InvalidCiphertext& e) {
+		return 1;
+	}
+	catch (CryptoPP::BufferedTransformation::NoChannelSupport& e) {
+		return 2;
+	}
+	catch (CryptoPP::AuthenticatedSymmetricCipher::BadState& e) {
+		return 3;
+	}
+	catch (CryptoPP::InvalidArgument& e) {
+		return 4;
+	}
+	return 0;
+
+}
+

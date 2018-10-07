@@ -30,6 +30,8 @@ using CryptoPP::StringSource;
 
 #include "osrng.h"
 #include "base64.h"
+#include "hkdf.h"
+
 
 #include "assert.h"
 
@@ -60,6 +62,38 @@ int GenerateRandom(char** pRandomResult, const unsigned int blocksize)
 
 	return 0;
 }
+
+char* DeriveKey(char* lpszPassphrase, char* lpszIV, char* lpszKeyBuffer, size_t lKeybufferLength, size_t Keylength) {
+
+	SecByteBlock key(Keylength);
+	string password(lpszPassphrase), iv(lpszIV);
+
+	try {
+		HKDF<SHA256> hkdf;
+		hkdf.DeriveKey(key, key.size(), (const byte*)password.data(), password.size(), (const byte*)iv.data(), iv.size(), NULL, 0);
+
+		string encoded;
+		CryptoPP::HexEncoder encoder;
+		encoder.Attach(new CryptoPP::StringSink(encoded));
+		encoder.Put(key, key.size());
+		encoder.MessageEnd();
+
+		int lencoded = encoded.size();
+		if (lencoded + 1 <= lKeybufferLength) {
+			copy(encoded.begin(), encoded.end(), stdext::checked_array_iterator<char*>(lpszKeyBuffer, lKeybufferLength));
+			lpszKeyBuffer[lencoded] = 0;
+		}
+		else
+			*lpszKeyBuffer = 0;
+		return lpszKeyBuffer;
+
+	}
+	catch (const Exception& ex)
+	{
+		return 0;
+	}
+}
+
 
 int Hexencode(char* pRawData, char** pEncodingResult) {
 

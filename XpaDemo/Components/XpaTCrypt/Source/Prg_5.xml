@@ -28,7 +28,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736974" _time="4078" date="07/10/2018" time="01:07:58"/>
+          <LastModified _date="736974" _time="51832" date="07/10/2018" time="14:23:52"/>
         </Header>
         <Resource>
           <Columns/>
@@ -175,9 +175,9 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="736974" _time="4078" date="07/10/2018" time="01:07:58"/>
+            <LastModified _date="736974" _time="51832" date="07/10/2018" time="14:23:52"/>
           </Header>
-          <ItemIsn val="22"/>
+          <ItemIsn val="24"/>
           <Resource>
             <Columns>
               <Column id="8" name="v.Key">
@@ -224,6 +224,15 @@
                   <_Whole id="182" val="9"/>
                   <_Negative id="192"/>
                   <_FieldStyle id="276" val="1"/>
+                </PropertyList>
+              </Column>
+              <Column id="21" name="v.EncryptionMode">
+                <PropertyList model="FIELD">
+                  <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="1"/>
+                  <StoredAs id="173" val="1"/>
+                  <DbColumnName id="178"/>
+                  <Type id="179"/>
+                  <UserType id="180"/>
                 </PropertyList>
               </Column>
               <Column id="5" name="blbB.Plaintext">
@@ -449,9 +458,6 @@
                     <Column val="2"/>
                     <Type val="V"/>
                     <IsParameter val="N"/>
-                    <INT_DIT_INFO>
-                      <v>10</v>
-                    </INT_DIT_INFO>
                     <_DitIndexForToolkit val="7"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
@@ -479,6 +485,20 @@
                     <IsParameter val="N"/>
                     <_DitIndexForToolkit val="10"/>
                     <DIFF_UPDATE val="T"/>
+                    <Condition val="Y"/>
+                    <Modifier val="S"/>
+                    <Direction val="C"/>
+                  </Select>
+                </LogicLine>
+                <LogicLine>
+                  <Select FieldID="23" FlowIsn="289" id="23">
+                    <ASS val="5"/>
+                    <Column val="21"/>
+                    <Type val="V"/>
+                    <IsParameter val="N"/>
+                    <_DitIndexForToolkit val="18"/>
+                    <DIFF_UPDATE val="T"/>
+                    <PartOfDataview val="Y"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
                     <Direction val="C"/>
@@ -908,7 +928,7 @@
                         <Skip val="N"/>
                       </Argument>
                       <Argument>
-                        <Expression val="5"/>
+                        <Variable val="23"/>
                         <Skip val="N"/>
                       </Argument>
                       <Argument>
@@ -931,6 +951,14 @@
                     <Modifier val="B"/>
                     <Direction val="C"/>
                   </CallTask>
+                </LogicLine>
+                <LogicLine>
+                  <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" Exp="23" FlowIsn="352" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TitleTxt="Warning" VR_DISP="B">
+                    <AppendToErrorLog val="N"/>
+                    <Condition Exp="24"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </STP>
                 </LogicLine>
                 <LogicLine>
                   <Remark FlowIsn="30">
@@ -1024,7 +1052,7 @@
                         <Skip val="N"/>
                       </Argument>
                       <Argument>
-                        <Expression val="5"/>
+                        <Variable val="23"/>
                         <Skip val="N"/>
                       </Argument>
                       <Argument>
@@ -1043,6 +1071,14 @@
                     <Modifier val="B"/>
                     <Direction val="C"/>
                   </CallTask>
+                </LogicLine>
+                <LogicLine>
+                  <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" Exp="23" FlowIsn="387" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TitleTxt="Warning" VR_DISP="B">
+                    <AppendToErrorLog val="N"/>
+                    <Condition Exp="24"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </STP>
                 </LogicLine>
                 <LogicLine>
                   <Remark FlowIsn="33">
@@ -1475,11 +1511,11 @@
             </LogicUnit>
           </TaskLogic>
           <TaskForms>
-            <FormEntry _last_isn="26" _last_test_id="46" id="1">
+            <FormEntry _last_isn="28" _last_test_id="48" id="1">
               <PropertyList model="FORM_GUI0">
                 <Y id="22" val="8"/>
                 <Width id="23" val="838"/>
-                <Height id="24" val="356"/>
+                <Height id="24" val="425"/>
                 <_Comment id="218"/>
                 <FormName id="311" valUnicode="AES_Encrypt"/>
               </PropertyList>
@@ -1589,10 +1625,10 @@
               </Control>
               <Control _test_id="30" id="8">
                 <PropertyList model="CTRL_GUI0_STATIC">
-                  <Text id="19" valUnicode="v.Keylength"/>
-                  <X id="21" val="548"/>
-                  <Y id="22" val="44"/>
-                  <Width id="23" val="46"/>
+                  <Text id="19" valUnicode="Key length (in Bytes)"/>
+                  <X id="21" val="10"/>
+                  <Y id="22" val="76"/>
+                  <Width id="23" val="78"/>
                   <Height id="24" val="9"/>
                   <Font id="50" val="1"/>
                   <Style id="63" val="7"/>
@@ -1605,33 +1641,33 @@
                   <Model ID="MODEL_GUI_INT" id="1">
                     <Var FieldID="4"/>
                   </Model>
-                  <X id="21" val="598"/>
-                  <Y id="22" val="44"/>
+                  <X id="21" val="96"/>
+                  <Y id="22" val="76"/>
                   <Width id="23" val="46"/>
                   <Height id="24" val="10"/>
                   <Data FieldID="4" id="43"/>
                   <ControlName id="46" val="v.Keylength"/>
                   <_Orientation id="143"/>
-                  <TabOrder id="314" val="5"/>
+                  <TabOrder id="314" val="6"/>
                 </PropertyList>
               </Control>
-              <Control _test_id="25" id="10">
-                <PropertyList model="CTRL_GUI0_EDIT">
-                  <X id="21" val="776"/>
-                  <Y id="22" val="44"/>
-                  <Width id="23" val="48"/>
-                  <Height id="24" val="10"/>
-                  <Data Exp="1" id="43"/>
-                  <Format id="82" valUnicode="N10"/>
-                  <Attribute id="83" val="78"/>
+              <Control _test_id="48" id="28">
+                <PropertyList model="CTRL_GUI0_STATIC">
+                  <Text id="19" valUnicode="(Encryption) Mode"/>
+                  <X id="21" val="10"/>
+                  <Y id="22" val="92"/>
+                  <Width id="23" val="78"/>
+                  <Height id="24" val="9"/>
+                  <Font id="50" val="1"/>
+                  <Style id="63" val="7"/>
+                  <EnableRTF id="69"/>
                   <_Orientation id="143"/>
-                  <TabOrder id="314" val="6"/>
                 </PropertyList>
               </Control>
               <Control PDOD="128" _test_id="17" id="11">
                 <PropertyList model="CTRL_GUI0_EDIT">
                   <X id="21" val="8"/>
-                  <Y id="22" val="76"/>
+                  <Y id="22" val="108"/>
                   <Width id="23" val="376"/>
                   <Height id="24" val="159"/>
                   <Data FieldID="5" id="43"/>
@@ -1648,7 +1684,7 @@
               <Control PDOD="128" _test_id="16" id="12">
                 <PropertyList model="CTRL_GUI0_EDIT">
                   <X id="21" val="388"/>
-                  <Y id="22" val="76"/>
+                  <Y id="22" val="108"/>
                   <Width id="23" val="435"/>
                   <Height id="24" val="159"/>
                   <Data FieldID="6" id="43"/>
@@ -1666,7 +1702,7 @@
                 <PropertyList model="CTRL_GUI0_STATIC">
                   <Text id="19" valUnicode="If you have encoded plaintext paste it here to decode into plaintext input field"/>
                   <X id="21" val="9"/>
-                  <Y id="22" val="253"/>
+                  <Y id="22" val="285"/>
                   <Width id="23" val="462"/>
                   <Height id="24" val="15"/>
                   <EnableRTF id="69"/>
@@ -1676,7 +1712,7 @@
               <Control PDOD="128" _test_id="43" id="23">
                 <PropertyList model="CTRL_GUI0_EDIT">
                   <X id="21" val="8"/>
-                  <Y id="22" val="270"/>
+                  <Y id="22" val="302"/>
                   <Width id="23" val="815"/>
                   <Height id="24" val="62"/>
                   <Data FieldID="19" id="43"/>
@@ -1696,7 +1732,7 @@
                     <Var FieldID="22"/>
                   </Model>
                   <X id="21" val="7"/>
-                  <Y id="22" val="334"/>
+                  <Y id="22" val="366"/>
                   <Width id="23" val="816"/>
                   <Height id="24" val="13"/>
                   <Data FieldID="22" id="43"/>
@@ -1716,13 +1752,25 @@
                     <EventType val="U"/>
                     <PublicObject comp="-1" obj="4"/>
                   </RaiseEvent>
+                  <TabOrder id="314" val="5"/>
+                </PropertyList>
+              </Control>
+              <Control PDOD="192" _test_id="47" id="27">
+                <PropertyList model="CTRL_GUI0_COMBOBOX">
+                  <X id="21" val="96"/>
+                  <Y id="22" val="92"/>
+                  <Width id="23" val="110"/>
+                  <Height id="24" val="12"/>
+                  <Data FieldID="23" id="43"/>
+                  <ControlName id="46" val="v.EncryptionMode"/>
+                  <_Orientation id="143"/>
                   <TabOrder id="314" val="7"/>
                 </PropertyList>
               </Control>
               <Control PDOD="128" _test_id="9" id="14">
                 <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
                   <X id="21" val="8"/>
-                  <Y id="22" val="239"/>
+                  <Y id="22" val="271"/>
                   <Width id="23" val="117"/>
                   <Height id="24" val="14"/>
                   <Format id="82" valUnicode="AES Encrypt"/>
@@ -1736,7 +1784,7 @@
               <Control PDOD="128" _test_id="37" id="17">
                 <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
                   <X id="21" val="130"/>
-                  <Y id="22" val="239"/>
+                  <Y id="22" val="271"/>
                   <Width id="23" val="117"/>
                   <Height id="24" val="14"/>
                   <Format id="82" valUnicode="Decrypt"/>
@@ -1750,7 +1798,7 @@
               <Control PDOD="128" _test_id="42" id="22">
                 <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
                   <X id="21" val="285"/>
-                  <Y id="22" val="239"/>
+                  <Y id="22" val="271"/>
                   <Width id="23" val="117"/>
                   <Height id="24" val="14"/>
                   <Format id="82" valUnicode="Encrypt (Magic)"/>
@@ -1764,7 +1812,7 @@
               <Control PDOD="128" _test_id="27" id="16">
                 <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
                   <X id="21" val="407"/>
-                  <Y id="22" val="239"/>
+                  <Y id="22" val="271"/>
                   <Width id="23" val="117"/>
                   <Height id="24" val="14"/>
                   <Format id="82" valUnicode="Decrypt (Magic)"/>
@@ -1778,7 +1826,7 @@
               <Control PDOD="128" _test_id="45" id="25">
                 <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
                   <X id="21" val="527"/>
-                  <Y id="22" val="239"/>
+                  <Y id="22" val="271"/>
                   <Width id="23" val="117"/>
                   <Height id="24" val="14"/>
                   <Format id="82" valUnicode="Save Plaintext (Blob)"/>
@@ -1792,10 +1840,6 @@
             </FormEntry>
           </TaskForms>
           <Expressions>
-            <Expression id="1">
-              <ExpSyntax val="Len(Trim({0,2}))"/>
-              <ExpAttribute val="N"/>
-            </Expression>
             <Expression id="10">
               <ExpSyntax val="Trim({0,8})"/>
               <ExpAttribute val="A"/>
@@ -1845,11 +1889,11 @@
               <ExpAttribute val="A"/>
             </Expression>
             <Expression id="20">
-              <ExpSyntax val="DeCipher(10, {0,12}, {0,14}, 'CBC', {0,15})"/>
+              <ExpSyntax val="DeCipher(10, {0,12}, {0,14}, Trim({0,23}), {0,15})"/>
               <ExpAttribute val="O"/>
             </Expression>
             <Expression id="16">
-              <ExpSyntax val="Cipher(10, {0,5}, {0,17}, 'CBC', {0,18})"/>
+              <ExpSyntax val="Cipher(10, {0,5}, {0,17}, Trim({0,23}), {0,18})"/>
               <ExpAttribute val="O"/>
             </Expression>
             <Expression id="17">
@@ -1872,20 +1916,22 @@
               <ExpSyntax val="Len(Trim({0,16}))>0"/>
               <ExpAttribute val="B"/>
             </Expression>
+            <Expression id="23">
+              <ExpSyntax val="'AES_Decrypt returned error: ' &amp; Trim(Str({0,7},''))"/>
+              <ExpAttribute val="A"/>
+            </Expression>
+            <Expression id="24">
+              <ExpSyntax val="{0,7}&lt;>0"/>
+              <ExpAttribute val="B"/>
+            </Expression>
           </Expressions>
-          <EVNT DESC="AES_Encrypt (CBC)" FORCE_EXIT="N" id="1">
+          <EVNT DESC="AES_Encrypt" FORCE_EXIT="N" id="1">
             <Event>
               <EventType val="N"/>
               <PublicObject comp="-1"/>
             </Event>
           </EVNT>
           <EVNT DESC="AES_Decrpyt" FORCE_EXIT="N" id="5">
-            <Event>
-              <EventType val="N"/>
-              <PublicObject comp="-1"/>
-            </Event>
-          </EVNT>
-          <EVNT DESC="AES_Encrypt (C) (Magic)" FORCE_EXIT="N" id="3">
             <Event>
               <EventType val="N"/>
               <PublicObject comp="-1"/>

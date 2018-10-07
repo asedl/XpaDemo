@@ -14,6 +14,7 @@
       <Object Public="tEncryptionMode" id="1" name="tEncryptionMode">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Range id="98" valUnicode="ECB,CBC,CFB,GCM"/>
           <Picture id="157" valUnicode="20"/>
           <Size id="174" val="20"/>
           <_Flip id="194"/>

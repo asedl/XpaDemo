@@ -13,3 +13,6 @@ If two implementations of AES ECB/CBC encryption use different padding schemes i
   ![Invalid PKCS#7 padding found](./padding_issue_error.png)
 
 Currently there's no way to decrypt ciphertext created with Magic. In a next version the padding scheme will get a parameter or configuration option and mgcrypt.dll then will be able to decrpyt these messages and remove the padding before returning the plaintext. If that's an option you can also work with an encryption mode differnt to ECB and CBC which does not require padding (f.i. CFB or OFB). There's a note regarding this padding issues in the online documentation of [Xpa's Cipher function] (http://kb.magicsoftware.com/articles/bl_Reference/Cipher-xpa-3x/?q=Cipher&l=en_US).  
+  
+In the Magic documentation it is also mentioned that there is an incompatibity issue with Magic Cipher() function of v9 and later versions because in v9 Magic appends a null byte to Blobs and Cipher() would encrypt that too. This is not a padding issue but a problem with Magic v9. The suggested workaround is to append a null byte to plaintext before encryption with later Magic versions too.  
+
