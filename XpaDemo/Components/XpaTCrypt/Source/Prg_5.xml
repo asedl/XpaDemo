@@ -28,7 +28,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736974" _time="51832" date="07/10/2018" time="14:23:52"/>
+          <LastModified _date="736976" _time="724" date="09/10/2018" time="00:12:04"/>
         </Header>
         <Resource>
           <Columns/>
@@ -175,45 +175,45 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="736974" _time="51832" date="07/10/2018" time="14:23:52"/>
+            <LastModified _date="736976" _time="724" date="09/10/2018" time="00:12:04"/>
           </Header>
           <ItemIsn val="24"/>
           <Resource>
             <Columns>
               <Column id="8" name="v.Key">
                 <PropertyList model="FIELD">
-                  <Model attr_obj="FIELD_ALPHA" id="1"/>
-                  <Picture id="157" valUnicode="1000"/>
-                  <StoredAs id="173" val="1"/>
-                  <Size id="174" val="1000"/>
-                  <_Flip id="194"/>
+                  <Model attr_obj="FIELD_BLOB" id="1"/>
+                  <Size id="174" val="28"/>
+                  <Definition id="175" val="1"/>
+                  <_FieldStyle id="276" val="1"/>
+                  <PartOfDataview id="449"/>
                 </PropertyList>
               </Column>
               <Column id="9" name="v.IV">
                 <PropertyList model="FIELD">
-                  <Model attr_obj="FIELD_ALPHA" id="1"/>
-                  <Picture id="157" valUnicode="1000"/>
-                  <StoredAs id="173" val="1"/>
-                  <Size id="174" val="1000"/>
-                  <_Flip id="194"/>
+                  <Model attr_obj="FIELD_BLOB" id="1"/>
+                  <Size id="174" val="28"/>
+                  <Definition id="175" val="1"/>
+                  <_FieldStyle id="276" val="1"/>
+                  <PartOfDataview id="449"/>
                 </PropertyList>
               </Column>
               <Column id="2" name="v.Key (Hexencoded)">
                 <PropertyList model="FIELD">
-                  <Model attr_obj="FIELD_ALPHA" id="1"/>
-                  <Picture id="157" valUnicode="1000"/>
-                  <StoredAs id="173" val="1"/>
-                  <Size id="174" val="1000"/>
-                  <_Flip id="194"/>
+                  <Model attr_obj="FIELD_BLOB" id="1"/>
+                  <Size id="174" val="28"/>
+                  <Definition id="175" val="1"/>
+                  <_FieldStyle id="276" val="1"/>
+                  <PartOfDataview id="449"/>
                 </PropertyList>
               </Column>
               <Column id="3" name="v.IV (Hexencoded)">
                 <PropertyList model="FIELD">
-                  <Model attr_obj="FIELD_ALPHA" id="1"/>
-                  <Picture id="157" valUnicode="1000"/>
-                  <StoredAs id="173" val="1"/>
-                  <Size id="174" val="1000"/>
-                  <_Flip id="194"/>
+                  <Model attr_obj="FIELD_BLOB" id="1"/>
+                  <Size id="174" val="28"/>
+                  <Definition id="175" val="1"/>
+                  <_FieldStyle id="276" val="1"/>
+                  <PartOfDataview id="449"/>
                 </PropertyList>
               </Column>
               <Column id="4" name="v.Keylength">
@@ -224,6 +224,7 @@
                   <_Whole id="182" val="9"/>
                   <_Negative id="192"/>
                   <_FieldStyle id="276" val="1"/>
+                  <PartOfDataview id="449"/>
                 </PropertyList>
               </Column>
               <Column id="21" name="v.EncryptionMode">
@@ -233,6 +234,7 @@
                   <DbColumnName id="178"/>
                   <Type id="179"/>
                   <UserType id="180"/>
+                  <PartOfDataview id="449"/>
                 </PropertyList>
               </Column>
               <Column id="5" name="blbB.Plaintext">
@@ -243,6 +245,7 @@
                   <Definition id="175" val="1"/>
                   <_FieldStyle id="276" val="1"/>
                   <Content id="434" val="3"/>
+                  <PartOfDataview id="449"/>
                 </PropertyList>
               </Column>
               <Column id="6" name="blbB.Ciphertext">
@@ -253,6 +256,7 @@
                   <Definition id="175" val="1"/>
                   <_FieldStyle id="276" val="1"/>
                   <Content id="434" val="3"/>
+                  <PartOfDataview id="449"/>
                 </PropertyList>
               </Column>
               <Column id="12" name="blbB.Ciphertext_Help">
@@ -263,6 +267,7 @@
                   <Definition id="175" val="1"/>
                   <_FieldStyle id="276" val="1"/>
                   <Content id="434" val="3"/>
+                  <PartOfDataview id="449"/>
                 </PropertyList>
               </Column>
               <Column id="19" name="blbB.EncodedDrop">
@@ -273,6 +278,7 @@
                   <Definition id="175" val="1"/>
                   <_FieldStyle id="276" val="1"/>
                   <Content id="434" val="3"/>
+                  <PartOfDataview id="449"/>
                 </PropertyList>
               </Column>
               <Column id="7" name="v.ErrorCode">
@@ -281,6 +287,7 @@
                   <DbColumnName id="178"/>
                   <Type id="179"/>
                   <UserType id="180"/>
+                  <PartOfDataview id="449"/>
                 </PropertyList>
               </Column>
               <Column id="20" name="v.Tempfilename">
@@ -290,6 +297,7 @@
                   <StoredAs id="173" val="1"/>
                   <Size id="174" val="255"/>
                   <_Flip id="194"/>
+                  <PartOfDataview id="449"/>
                 </PropertyList>
               </Column>
               <Column id="13" name="v.EncryptionError">
@@ -436,6 +444,7 @@
                     <IsParameter val="N"/>
                     <_DitIndexForToolkit val="3"/>
                     <DIFF_UPDATE val="T"/>
+                    <PartOfDataview val="N"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
                     <Direction val="C"/>
@@ -448,6 +457,7 @@
                     <IsParameter val="N"/>
                     <_DitIndexForToolkit val="4"/>
                     <DIFF_UPDATE val="T"/>
+                    <PartOfDataview val="N"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
                     <Direction val="C"/>
@@ -460,6 +470,7 @@
                     <IsParameter val="N"/>
                     <_DitIndexForToolkit val="7"/>
                     <DIFF_UPDATE val="T"/>
+                    <PartOfDataview val="N"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
                     <Direction val="C"/>
@@ -472,6 +483,7 @@
                     <IsParameter val="N"/>
                     <_DitIndexForToolkit val="8"/>
                     <DIFF_UPDATE val="T"/>
+                    <PartOfDataview val="N"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
                     <Direction val="C"/>
@@ -485,6 +497,7 @@
                     <IsParameter val="N"/>
                     <_DitIndexForToolkit val="10"/>
                     <DIFF_UPDATE val="T"/>
+                    <PartOfDataview val="N"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
                     <Direction val="C"/>
@@ -498,7 +511,7 @@
                     <IsParameter val="N"/>
                     <_DitIndexForToolkit val="18"/>
                     <DIFF_UPDATE val="T"/>
-                    <PartOfDataview val="Y"/>
+                    <PartOfDataview val="N"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
                     <Direction val="C"/>
@@ -517,6 +530,7 @@
                     <IsParameter val="N"/>
                     <_DitIndexForToolkit val="12"/>
                     <DIFF_UPDATE val="T"/>
+                    <PartOfDataview val="N"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
                     <Direction val="C"/>
@@ -529,6 +543,7 @@
                     <IsParameter val="N"/>
                     <_DitIndexForToolkit val="13"/>
                     <DIFF_UPDATE val="T"/>
+                    <PartOfDataview val="N"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
                     <Direction val="C"/>
@@ -540,6 +555,7 @@
                     <Type val="V"/>
                     <IsParameter val="N"/>
                     <DIFF_UPDATE val="T"/>
+                    <PartOfDataview val="N"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
                     <Direction val="C"/>
@@ -552,6 +568,7 @@
                     <IsParameter val="N"/>
                     <_DitIndexForToolkit val="15"/>
                     <DIFF_UPDATE val="T"/>
+                    <PartOfDataview val="N"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
                     <Direction val="C"/>
@@ -569,7 +586,7 @@
                     <Type val="V"/>
                     <IsParameter val="N"/>
                     <DIFF_UPDATE val="T"/>
-                    <PartOfDataview val="Y"/>
+                    <PartOfDataview val="N"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
                     <Direction val="C"/>
@@ -582,6 +599,7 @@
                     <IsParameter val="N"/>
                     <_DitIndexForToolkit val="16"/>
                     <DIFF_UPDATE val="T"/>
+                    <PartOfDataview val="N"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
                     <Direction val="C"/>
@@ -616,7 +634,7 @@
                     <Lock val="N"/>
                     <Arguments>
                       <Argument>
-                        <Expression val="10"/>
+                        <Variable val="8"/>
                         <Skip val="N"/>
                       </Argument>
                       <Argument>
@@ -667,7 +685,7 @@
                     <Lock val="N"/>
                     <Arguments>
                       <Argument>
-                        <Expression val="11"/>
+                        <Variable val="9"/>
                         <Skip val="N"/>
                       </Argument>
                       <Argument>
@@ -823,7 +841,7 @@
                     <Lock val="N"/>
                     <Arguments>
                       <Argument>
-                        <Variable val="2"/>
+                        <Expression val="25"/>
                         <Skip val="N"/>
                       </Argument>
                       <Argument>
@@ -846,7 +864,7 @@
                     <Lock val="N"/>
                     <Arguments>
                       <Argument>
-                        <Variable val="3"/>
+                        <Expression val="26"/>
                         <Skip val="N"/>
                       </Argument>
                       <Argument>
@@ -1181,7 +1199,7 @@
                     <Lock val="N"/>
                     <Arguments>
                       <Argument>
-                        <Variable val="2"/>
+                        <Expression val="25"/>
                         <Skip val="N"/>
                       </Argument>
                       <Argument>
@@ -1204,7 +1222,7 @@
                     <Lock val="N"/>
                     <Arguments>
                       <Argument>
-                        <Variable val="3"/>
+                        <Expression val="26"/>
                         <Skip val="N"/>
                       </Argument>
                       <Argument>
@@ -1328,7 +1346,7 @@
                     <Lock val="N"/>
                     <Arguments>
                       <Argument>
-                        <Variable val="2"/>
+                        <Expression val="25"/>
                         <Skip val="N"/>
                       </Argument>
                       <Argument>
@@ -1351,7 +1369,7 @@
                     <Lock val="N"/>
                     <Arguments>
                       <Argument>
-                        <Variable val="3"/>
+                        <Expression val="26"/>
                         <Skip val="N"/>
                       </Argument>
                       <Argument>
@@ -1514,10 +1532,10 @@
             <FormEntry _last_isn="28" _last_test_id="48" id="1">
               <PropertyList model="FORM_GUI0">
                 <Y id="22" val="8"/>
-                <Width id="23" val="838"/>
-                <Height id="24" val="425"/>
+                <Width id="23" val="834"/>
+                <Height id="24" val="386"/>
                 <_Comment id="218"/>
-                <FormName id="311" valUnicode="AES_Encrypt"/>
+                <FormName id="311" valUnicode="TSTO002_AES_Encrypt"/>
               </PropertyList>
               <Control _test_id="41" id="21">
                 <PropertyList model="CTRL_GUI0_STATIC">
@@ -1526,6 +1544,7 @@
                   <Y id="22" val="8"/>
                   <Width id="23" val="258"/>
                   <Height id="24" val="9"/>
+                  <Style id="63" val="7"/>
                   <EnableRTF id="69"/>
                   <_Orientation id="143"/>
                 </PropertyList>
@@ -1537,11 +1556,12 @@
                   <Y id="22" val="9"/>
                   <Width id="23" val="258"/>
                   <Height id="24" val="9"/>
+                  <Style id="63" val="7"/>
                   <EnableRTF id="69"/>
                   <_Orientation id="143"/>
                 </PropertyList>
               </Control>
-              <Control _test_id="39" id="19">
+              <Control PDOD="128" _test_id="39" id="19">
                 <PropertyList model="CTRL_GUI0_EDIT">
                   <Model ID="MODEL_GUI_INT" id="1">
                     <Var FieldID="8"/>
@@ -1556,7 +1576,7 @@
                   <TabOrder id="314" val="1"/>
                 </PropertyList>
               </Control>
-              <Control _test_id="38" id="18">
+              <Control PDOD="128" _test_id="38" id="18">
                 <PropertyList model="CTRL_GUI0_EDIT">
                   <Model ID="MODEL_GUI_INT" id="1">
                     <Var FieldID="9"/>
@@ -1578,6 +1598,7 @@
                   <Y id="22" val="32"/>
                   <Width id="23" val="258"/>
                   <Height id="24" val="9"/>
+                  <Style id="63" val="7"/>
                   <EnableRTF id="69"/>
                   <_Orientation id="143"/>
                 </PropertyList>
@@ -1589,11 +1610,12 @@
                   <Y id="22" val="33"/>
                   <Width id="23" val="258"/>
                   <Height id="24" val="9"/>
+                  <Style id="63" val="7"/>
                   <EnableRTF id="69"/>
                   <_Orientation id="143"/>
                 </PropertyList>
               </Control>
-              <Control _test_id="23" id="6">
+              <Control PDOD="128" _test_id="23" id="6">
                 <PropertyList model="CTRL_GUI0_EDIT">
                   <Model ID="MODEL_GUI_INT" id="1">
                     <Var FieldID="2"/>
@@ -1608,7 +1630,7 @@
                   <TabOrder id="314" val="3"/>
                 </PropertyList>
               </Control>
-              <Control _test_id="28" id="7">
+              <Control PDOD="128" _test_id="28" id="7">
                 <PropertyList model="CTRL_GUI0_EDIT">
                   <Model ID="MODEL_GUI_INT" id="1">
                     <Var FieldID="3"/>
@@ -1627,7 +1649,7 @@
                 <PropertyList model="CTRL_GUI0_STATIC">
                   <Text id="19" valUnicode="Key length (in Bytes)"/>
                   <X id="21" val="10"/>
-                  <Y id="22" val="76"/>
+                  <Y id="22" val="84"/>
                   <Width id="23" val="78"/>
                   <Height id="24" val="9"/>
                   <Font id="50" val="1"/>
@@ -1642,7 +1664,7 @@
                     <Var FieldID="4"/>
                   </Model>
                   <X id="21" val="96"/>
-                  <Y id="22" val="76"/>
+                  <Y id="22" val="84"/>
                   <Width id="23" val="46"/>
                   <Height id="24" val="10"/>
                   <Data FieldID="4" id="43"/>
@@ -1654,8 +1676,8 @@
               <Control _test_id="48" id="28">
                 <PropertyList model="CTRL_GUI0_STATIC">
                   <Text id="19" valUnicode="(Encryption) Mode"/>
-                  <X id="21" val="10"/>
-                  <Y id="22" val="92"/>
+                  <X id="21" val="153"/>
+                  <Y id="22" val="84"/>
                   <Width id="23" val="78"/>
                   <Height id="24" val="9"/>
                   <Font id="50" val="1"/>
@@ -1757,8 +1779,8 @@
               </Control>
               <Control PDOD="192" _test_id="47" id="27">
                 <PropertyList model="CTRL_GUI0_COMBOBOX">
-                  <X id="21" val="96"/>
-                  <Y id="22" val="92"/>
+                  <X id="21" val="238"/>
+                  <Y id="22" val="84"/>
                   <Width id="23" val="110"/>
                   <Height id="24" val="12"/>
                   <Data FieldID="23" id="43"/>
@@ -1840,12 +1862,12 @@
             </FormEntry>
           </TaskForms>
           <Expressions>
-            <Expression id="10">
-              <ExpSyntax val="Trim({0,8})"/>
+            <Expression id="25">
+              <ExpSyntax val="Trim({0,2})"/>
               <ExpAttribute val="A"/>
             </Expression>
-            <Expression id="11">
-              <ExpSyntax val="Trim({0,9})"/>
+            <Expression id="26">
+              <ExpSyntax val="Trim({0,3})"/>
               <ExpAttribute val="A"/>
             </Expression>
             <Expression id="8">

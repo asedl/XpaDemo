@@ -32,7 +32,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736973" _time="62954" date="06/10/2018" time="17:29:14"/>
+          <LastModified _date="736975" _time="67719" date="08/10/2018" time="18:48:39"/>
         </Header>
         <ReturnValueExpression val="1"/>
         <ItemIsn val="2"/>
@@ -41,11 +41,11 @@
             <Column id="1" name="pi.Data_Raw">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_BLOB" id="1"/>
-                <StoredAs id="173" val="33"/>
+                <StoredAs id="173" val="29"/>
                 <Size id="174" val="28"/>
                 <Definition id="175" val="1"/>
                 <_FieldStyle id="276" val="1"/>
-                <Content id="434" val="1"/>
+                <Content id="434" val="3"/>
                 <PartOfDataview id="449"/>
               </PropertyList>
             </Column>
@@ -259,7 +259,7 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="736972" _time="56513" date="05/10/2018" time="15:41:53"/>
+            <LastModified _date="736975" _time="67705" date="08/10/2018" time="18:48:25"/>
           </Header>
           <Resource>
             <Columns/>
@@ -396,7 +396,7 @@
           </TaskForms>
           <Expressions>
             <Expression id="1">
-              <ExpSyntax val="UDF('mgcrypt.mgcrypt_Hexencode', {1,1})"/>
+              <ExpSyntax val="UDF('mgcrypt.mgcrypt_Hexencode', {1,1}, BlobSize({1,1}))"/>
               <ExpAttribute val="*"/>
             </Expression>
           </Expressions>

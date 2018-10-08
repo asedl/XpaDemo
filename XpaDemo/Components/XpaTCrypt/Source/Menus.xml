@@ -594,7 +594,7 @@
           <Prompt comp="-1"/>
           <Menu>
             <MenuType val="1"/>
-            <LastIsn val="17"/>
+            <LastIsn val="19"/>
             <MenuEntry id="11">
               <MenuType val="2"/>
               <Description_U val="TSTO001_SHA-256"/>
@@ -661,6 +661,18 @@
               <Help comp="-1"/>
               <Prompt comp="-1"/>
               <Program ObjIsn="10" comp="-1" obj="10"/>
+              <SourceContext val="67"/>
+            </MenuEntry>
+            <MenuEntry id="18">
+              <MenuType val="5"/>
+            </MenuEntry>
+            <MenuEntry id="19">
+              <MenuType val="2"/>
+              <Description_U val="TSTO999_Blobtest"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Program ObjIsn="22" comp="-1" obj="22"/>
               <SourceContext val="67"/>
             </MenuEntry>
           </Menu>

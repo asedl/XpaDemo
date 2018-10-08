@@ -78,7 +78,7 @@ char* DeriveKey(char* lpszPassphrase, char* lpszIV, char* lpszKeyBuffer, size_t 
 		encoder.Put(key, key.size());
 		encoder.MessageEnd();
 
-		int lencoded = encoded.size();
+		size_t lencoded = encoded.size();
 		if (lencoded + 1 <= lKeybufferLength) {
 			copy(encoded.begin(), encoded.end(), stdext::checked_array_iterator<char*>(lpszKeyBuffer, lKeybufferLength));
 			lpszKeyBuffer[lencoded] = 0;
@@ -95,9 +95,9 @@ char* DeriveKey(char* lpszPassphrase, char* lpszIV, char* lpszKeyBuffer, size_t 
 }
 
 
-int Hexencode(char* pRawData, char** pEncodingResult) {
+int Hexencode(string& rawdata, char** pEncodingResult) {
 
-	string rawdata(pRawData), hexencoded;
+	string hexencoded;
 	CryptoPP::HexEncoder encoder;
 	encoder.Attach(new CryptoPP::StringSink(hexencoded));
 	encoder.Put((const byte*)rawdata.data(), rawdata.size());
@@ -110,10 +110,10 @@ int Hexencode(char* pRawData, char** pEncodingResult) {
 	return 0;
 }
 
-int Hexdecode(char* pHexencoded, char** pEncodingResult, size_t& nBytesResult) {
+int Hexdecode(string& hexencoded, char** pEncodingResult, size_t& nBytesResult) {
 
 	nBytesResult = 0;
-	string hexencoded(pHexencoded), hexdecoded;
+	string hexdecoded;
 	CryptoPP::HexDecoder decoder;
 	decoder.Attach(new CryptoPP::StringSink(hexdecoded));
 	decoder.Put((const byte*)hexencoded.data(), hexencoded.size());

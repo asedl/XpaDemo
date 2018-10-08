@@ -37,7 +37,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736974" _time="4524" date="07/10/2018" time="01:15:24"/>
+          <LastModified _date="736975" _time="70157" date="08/10/2018" time="19:29:17"/>
         </Header>
         <ItemIsn val="13"/>
         <Resource>
@@ -459,7 +459,7 @@
                   <Lock val="N"/>
                   <Arguments>
                     <Argument>
-                      <Variable val="3"/>
+                      <Expression val="16"/>
                       <Skip val="N"/>
                     </Argument>
                     <Argument>
@@ -482,7 +482,7 @@
                   <Lock val="N"/>
                   <Arguments>
                     <Argument>
-                      <Variable val="4"/>
+                      <Expression val="17"/>
                       <Skip val="N"/>
                     </Argument>
                     <Argument>
@@ -637,6 +637,14 @@
           <Expression id="5">
             <ExpSyntax val="-99999"/>
             <ExpAttribute val="N"/>
+          </Expression>
+          <Expression id="16">
+            <ExpSyntax val="Trim({0,3})"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="17">
+            <ExpSyntax val="Trim({0,4})"/>
+            <ExpAttribute val="A"/>
           </Expression>
           <Expression id="6">
             <ExpSyntax val="NULL()"/>
