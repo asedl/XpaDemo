@@ -1,0 +1,1452 @@
+﻿ <-1> 13/10/2018 19:15:26.275     [Error  ] - Component Files not found : Roslyn.ecf
+ <-1> 13/10/2018 19:15:26.382     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 13/10/2018 19:15:26.453     [Error  ] - Component Files not found : xpa_project_scan.ecf
+ <-1> 13/10/2018 19:15:30.632     [Error  ] - Failed to Load Assembly : "C:\xpa\samples\XpaDemo\XpaDemo\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 13/10/2018 19:15:30.691     [Error  ] - Failed to Load Assembly : "C:\xpa\samples\XpaDemo\XpaDemo\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 13/10/2018 19:15:38.932     [Error  ] - Failed to Load Assembly : "C:\xpa\samples\XpaDemo\XpaDemo\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 13/10/2018 19:15:38.991     [Error  ] - Failed to Load Assembly : "C:\xpa\samples\XpaDemo\XpaDemo\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 13/10/2018 19:20:00.199     [Error  ] - Component Files not found : Roslyn.ecf
+ <-1> 13/10/2018 19:20:00.259     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 13/10/2018 19:20:00.320     [Error  ] - Component Files not found : xpa_project_scan.ecf
+ <-1> 13/10/2018 19:20:00.526     [Error  ] - Cabinet File Name cannot be empty.
+ <-1> 13/10/2018 19:20:00.602     [Error  ] - Cabinet File Name cannot be empty.
+ <-1> 13/10/2018 19:20:02.014     [Error  ] - Failed to Load Assembly : "C:\xpa\samples\XpaDemo\XpaDemo\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 13/10/2018 19:20:02.075     [Error  ] - Failed to Load Assembly : "C:\xpa\samples\XpaDemo\XpaDemo\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 13/10/2018 19:20:37.703     [Error  ] - Failed to Load Assembly : "C:\xpa\samples\XpaDemo\XpaDemo\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 13/10/2018 19:20:37.762     [Error  ] - Failed to Load Assembly : "C:\xpa\samples\XpaDemo\XpaDemo\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 13/10/2018 19:20:43.722     [Error  ] - Failed to Load Assembly : "C:\xpa\samples\XpaDemo\XpaDemo\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 13/10/2018 19:20:43.781     [Error  ] - Failed to Load Assembly : "C:\xpa\samples\XpaDemo\XpaDemo\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 13/10/2018 19:22:56.711     [Error  ] - Failed to Load Assembly : "C:\xpa\samples\XpaDemo\XpaDemo\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 13/10/2018 19:22:56.789     [Error  ] - Failed to Load Assembly : "C:\xpa\samples\XpaDemo\XpaDemo\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <9> 13/10/2018 19:23:04.439     [Error  ] - [MgGui.dll] Apache.NMS.NMSConnectionException : 
+   at com.magicsoftware.unipaas.util.ReflectionServices.CreateInstance(Type type, ConstructorInfo constructorInfo, Object[] parameters)
+   at com.magicsoftware.unipaas.gui.low.GuiInteractiveBase.onReflectionInvoke()
+   at com.magicsoftware.unipaas.gui.low.GuiInteractiveBase.Run()
+Error connecting to localhost:61616., Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:23:04.451     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(Exception ex)
+   at com.magicsoftware.unipaas.gui.low.GuiInteractiveBase.Run()
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at System.Windows.Forms.Control.InvokeMarshaledCallbackDo(ThreadMethodEntry tme)
+   at System.Windows.Forms.Control.InvokeMarshaledCallbackHelper(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Windows.Forms.Control.InvokeMarshaledCallback(ThreadMethodEntry tme)
+   at System.Windows.Forms.Control.InvokeMarshaledCallbacks()
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.Form.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at com.magicsoftware.unipaas.gui.low.GUIMain.messageLoop()
+   at com.magicsoftware.unipaas.Manager.MessageLoop()
+   at com.magicsoftware.rte.RTEmanager.ExecuteMainThread(String args)
+   at com.magicsoftware.rte.RTEmanager.Main(), Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:23:04.463     [Error  ] - [MgGui.dll] FieldIdx: "" ctor Exception: "System.Net.Sockets.SocketException (0x80004005): Unknown error (0xfffffffe)
+   at com.magicsoftware.unipaas.util.ReflectionServices.CreateInstance(Type type, ConstructorInfo constructorInfo, Object[] parameters)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_ctor(ExpVal resVal, ExpVal[] Exp_params)", Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:23:04.481     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.WriteDotnetExceptionToLog(Exception exception, Object obj, String opcode, String memberName)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_ctor(ExpVal resVal, ExpVal[] Exp_params)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateDotNetOperation(Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resManagedVal)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateOpcode(TaskBase currTask, Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resultVal)
+   at com.magicsoftware.rte.RteExecutor.EvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorEndpoint.InvokeEvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorBridge.EvaluateOpcode(RteExecutorBridge* , Int32 taskID, Int32 opCode, UnmanagedExpVal* expVals, Int32 size, UnmanagedExpVal* resVal), Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:23:14.669     [Error  ] - [MgGui.dll] DNObjectCollectionIsn: "7" Method: "SendMessage" Exception: "System.NullReferenceException: Object reference not set to an instance of an object.
+   at com.magicsoftware.unipaas.util.ReflectionServices.GetMemeberInfo(Type type, String name, Boolean isStatic, Nullable`1 hashCode)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)", Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:23:14.686     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.WriteDotnetExceptionToLog(Exception exception, Object obj, String opcode, String memberName)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateDotNetOperation(Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resManagedVal)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateOpcode(TaskBase currTask, Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resultVal)
+   at com.magicsoftware.rte.RteExecutor.EvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorEndpoint.InvokeEvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorBridge.EvaluateOpcode(RteExecutorBridge* , Int32 taskID, Int32 opCode, UnmanagedExpVal* expVals, Int32 size, UnmanagedExpVal* resVal), Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:23:18.295     [Error  ] - [MgGui.dll] DNObjectCollectionIsn: "7" Method: "SendMessage" Exception: "System.NullReferenceException: Object reference not set to an instance of an object.
+   at com.magicsoftware.unipaas.util.ReflectionServices.GetMemeberInfo(Type type, String name, Boolean isStatic, Nullable`1 hashCode)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)", Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:23:18.310     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.WriteDotnetExceptionToLog(Exception exception, Object obj, String opcode, String memberName)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateDotNetOperation(Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resManagedVal)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateOpcode(TaskBase currTask, Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resultVal)
+   at com.magicsoftware.rte.RteExecutor.EvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorEndpoint.InvokeEvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorBridge.EvaluateOpcode(RteExecutorBridge* , Int32 taskID, Int32 opCode, UnmanagedExpVal* expVals, Int32 size, UnmanagedExpVal* resVal), Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:23:23.725     [Error  ] - [MgGui.dll] Apache.NMS.NMSConnectionException : 
+   at com.magicsoftware.unipaas.util.ReflectionServices.CreateInstance(Type type, ConstructorInfo constructorInfo, Object[] parameters)
+   at com.magicsoftware.unipaas.gui.low.GuiInteractiveBase.onReflectionInvoke()
+   at com.magicsoftware.unipaas.gui.low.GuiInteractiveBase.Run()
+Error connecting to localhost:61616., Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:23:23.739     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(Exception ex)
+   at com.magicsoftware.unipaas.gui.low.GuiInteractiveBase.Run()
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at System.Windows.Forms.Control.InvokeMarshaledCallbackDo(ThreadMethodEntry tme)
+   at System.Windows.Forms.Control.InvokeMarshaledCallbackHelper(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Windows.Forms.Control.InvokeMarshaledCallback(ThreadMethodEntry tme)
+   at System.Windows.Forms.Control.InvokeMarshaledCallbacks()
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.Form.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at com.magicsoftware.unipaas.gui.low.GUIMain.messageLoop()
+   at com.magicsoftware.unipaas.Manager.MessageLoop()
+   at com.magicsoftware.rte.RTEmanager.ExecuteMainThread(String args)
+   at com.magicsoftware.rte.RTEmanager.Main(), Program: "#TSTO112A_Publisher".
+ <10> 13/10/2018 19:23:23.755     [Error  ] - [MgGui.dll] FieldIdx: "" ctor Exception: "System.Net.Sockets.SocketException (0x80004005): Unknown error (0xfffffffe)
+   at com.magicsoftware.unipaas.util.ReflectionServices.CreateInstance(Type type, ConstructorInfo constructorInfo, Object[] parameters)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_ctor(ExpVal resVal, ExpVal[] Exp_params)", Program: "#TSTO112B_Subscriber".
+ <10> 13/10/2018 19:23:23.773     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.WriteDotnetExceptionToLog(Exception exception, Object obj, String opcode, String memberName)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_ctor(ExpVal resVal, ExpVal[] Exp_params)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateDotNetOperation(Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resManagedVal)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateOpcode(TaskBase currTask, Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resultVal)
+   at com.magicsoftware.rte.RteExecutor.EvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorEndpoint.InvokeEvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorBridge.EvaluateOpcode(RteExecutorBridge* , Int32 taskID, Int32 opCode, UnmanagedExpVal* expVals, Int32 size, UnmanagedExpVal* resVal), Program: "#TSTO112B_Subscriber".
+ <9> 13/10/2018 19:23:25.301     [Error  ] - [MgGui.dll] DNObjectCollectionIsn: "7" Method: "SendMessage" Exception: "System.NullReferenceException: Object reference not set to an instance of an object.
+   at com.magicsoftware.unipaas.util.ReflectionServices.GetMemeberInfo(Type type, String name, Boolean isStatic, Nullable`1 hashCode)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)", Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:23:25.316     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.WriteDotnetExceptionToLog(Exception exception, Object obj, String opcode, String memberName)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateDotNetOperation(Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resManagedVal)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateOpcode(TaskBase currTask, Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resultVal)
+   at com.magicsoftware.rte.RteExecutor.EvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorEndpoint.InvokeEvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorBridge.EvaluateOpcode(RteExecutorBridge* , Int32 taskID, Int32 opCode, UnmanagedExpVal* expVals, Int32 size, UnmanagedExpVal* resVal), Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:23:27.494     [Error  ] - [MgGui.dll] DNObjectCollectionIsn: "7" Method: "SendMessage" Exception: "System.NullReferenceException: Object reference not set to an instance of an object.
+   at com.magicsoftware.unipaas.util.ReflectionServices.GetMemeberInfo(Type type, String name, Boolean isStatic, Nullable`1 hashCode)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)", Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:23:27.508     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.WriteDotnetExceptionToLog(Exception exception, Object obj, String opcode, String memberName)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateDotNetOperation(Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resManagedVal)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateOpcode(TaskBase currTask, Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resultVal)
+   at com.magicsoftware.rte.RteExecutor.EvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorEndpoint.InvokeEvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorBridge.EvaluateOpcode(RteExecutorBridge* , Int32 taskID, Int32 opCode, UnmanagedExpVal* expVals, Int32 size, UnmanagedExpVal* resVal), Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:23:28.066     [Error  ] - [MgGui.dll] DNObjectCollectionIsn: "7" Method: "SendMessage" Exception: "System.NullReferenceException: Object reference not set to an instance of an object.
+   at com.magicsoftware.unipaas.util.ReflectionServices.GetMemeberInfo(Type type, String name, Boolean isStatic, Nullable`1 hashCode)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)", Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:23:28.079     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.WriteDotnetExceptionToLog(Exception exception, Object obj, String opcode, String memberName)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateDotNetOperation(Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resManagedVal)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateOpcode(TaskBase currTask, Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resultVal)
+   at com.magicsoftware.rte.RteExecutor.EvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorEndpoint.InvokeEvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorBridge.EvaluateOpcode(RteExecutorBridge* , Int32 taskID, Int32 opCode, UnmanagedExpVal* expVals, Int32 size, UnmanagedExpVal* resVal), Program: "#TSTO112A_Publisher".
+ <10> 13/10/2018 19:23:29.885     [Error  ] - [MgGui.dll] DNObjectCollectionIsn: "11" Method: "DeleteDurableConsumer" Exception: "System.NullReferenceException: Object reference not set to an instance of an object.
+   at com.magicsoftware.unipaas.util.ReflectionServices.GetMemeberInfo(Type type, String name, Boolean isStatic, Nullable`1 hashCode)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)", Program: "#TSTO112B_Subscriber".
+ <10> 13/10/2018 19:23:29.895     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.WriteDotnetExceptionToLog(Exception exception, Object obj, String opcode, String memberName)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateDotNetOperation(Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resManagedVal)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateOpcode(TaskBase currTask, Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resultVal)
+   at com.magicsoftware.rte.RteExecutor.EvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorEndpoint.InvokeEvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorBridge.EvaluateOpcode(RteExecutorBridge* , Int32 taskID, Int32 opCode, UnmanagedExpVal* expVals, Int32 size, UnmanagedExpVal* resVal), Program: "#TSTO112B_Subscriber".
+ <10> 13/10/2018 19:23:29.908     [Error  ] - [MgGui.dll] DNObjectCollectionIsn: "11" Method: "Dispose" Exception: "System.NullReferenceException: Object reference not set to an instance of an object.
+   at com.magicsoftware.unipaas.util.ReflectionServices.GetMemeberInfo(Type type, String name, Boolean isStatic, Nullable`1 hashCode)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)", Program: "#TSTO112B_Subscriber".
+ <10> 13/10/2018 19:23:29.921     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.WriteDotnetExceptionToLog(Exception exception, Object obj, String opcode, String memberName)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateDotNetOperation(Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resManagedVal)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateOpcode(TaskBase currTask, Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resultVal)
+   at com.magicsoftware.rte.RteExecutor.EvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorEndpoint.InvokeEvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorBridge.EvaluateOpcode(RteExecutorBridge* , Int32 taskID, Int32 opCode, UnmanagedExpVal* expVals, Int32 size, UnmanagedExpVal* resVal), Program: "#TSTO112B_Subscriber".
+ <9> 13/10/2018 19:24:54.363     [Error  ] - [MgGui.dll] DNObjectCollectionIsn: "7" Method: "SendMessage" Exception: "System.NullReferenceException: Object reference not set to an instance of an object.
+   at com.magicsoftware.unipaas.util.ReflectionServices.GetMemeberInfo(Type type, String name, Boolean isStatic, Nullable`1 hashCode)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)", Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:24:54.374     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.WriteDotnetExceptionToLog(Exception exception, Object obj, String opcode, String memberName)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateDotNetOperation(Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resManagedVal)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateOpcode(TaskBase currTask, Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resultVal)
+   at com.magicsoftware.rte.RteExecutor.EvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorEndpoint.InvokeEvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorBridge.EvaluateOpcode(RteExecutorBridge* , Int32 taskID, Int32 opCode, UnmanagedExpVal* expVals, Int32 size, UnmanagedExpVal* resVal), Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:24:55.986     [Error  ] - [MgGui.dll] DNObjectCollectionIsn: "7" Method: "SendMessage" Exception: "System.NullReferenceException: Object reference not set to an instance of an object.
+   at com.magicsoftware.unipaas.util.ReflectionServices.GetMemeberInfo(Type type, String name, Boolean isStatic, Nullable`1 hashCode)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)", Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:24:55.998     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.WriteDotnetExceptionToLog(Exception exception, Object obj, String opcode, String memberName)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateDotNetOperation(Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resManagedVal)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateOpcode(TaskBase currTask, Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resultVal)
+   at com.magicsoftware.rte.RteExecutor.EvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorEndpoint.InvokeEvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorBridge.EvaluateOpcode(RteExecutorBridge* , Int32 taskID, Int32 opCode, UnmanagedExpVal* expVals, Int32 size, UnmanagedExpVal* resVal), Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:24:56.608     [Error  ] - [MgGui.dll] DNObjectCollectionIsn: "7" Method: "SendMessage" Exception: "System.NullReferenceException: Object reference not set to an instance of an object.
+   at com.magicsoftware.unipaas.util.ReflectionServices.GetMemeberInfo(Type type, String name, Boolean isStatic, Nullable`1 hashCode)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)", Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:24:56.621     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.WriteDotnetExceptionToLog(Exception exception, Object obj, String opcode, String memberName)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateDotNetOperation(Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resManagedVal)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateOpcode(TaskBase currTask, Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resultVal)
+   at com.magicsoftware.rte.RteExecutor.EvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorEndpoint.InvokeEvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorBridge.EvaluateOpcode(RteExecutorBridge* , Int32 taskID, Int32 opCode, UnmanagedExpVal* expVals, Int32 size, UnmanagedExpVal* resVal), Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:24:56.911     [Error  ] - [MgGui.dll] DNObjectCollectionIsn: "7" Method: "SendMessage" Exception: "System.NullReferenceException: Object reference not set to an instance of an object.
+   at com.magicsoftware.unipaas.util.ReflectionServices.GetMemeberInfo(Type type, String name, Boolean isStatic, Nullable`1 hashCode)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)", Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:24:56.925     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.WriteDotnetExceptionToLog(Exception exception, Object obj, String opcode, String memberName)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateDotNetOperation(Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resManagedVal)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateOpcode(TaskBase currTask, Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resultVal)
+   at com.magicsoftware.rte.RteExecutor.EvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorEndpoint.InvokeEvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorBridge.EvaluateOpcode(RteExecutorBridge* , Int32 taskID, Int32 opCode, UnmanagedExpVal* expVals, Int32 size, UnmanagedExpVal* resVal), Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:24:57.144     [Error  ] - [MgGui.dll] DNObjectCollectionIsn: "7" Method: "SendMessage" Exception: "System.NullReferenceException: Object reference not set to an instance of an object.
+   at com.magicsoftware.unipaas.util.ReflectionServices.GetMemeberInfo(Type type, String name, Boolean isStatic, Nullable`1 hashCode)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)", Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:24:57.156     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.WriteDotnetExceptionToLog(Exception exception, Object obj, String opcode, String memberName)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateDotNetOperation(Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resManagedVal)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateOpcode(TaskBase currTask, Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resultVal)
+   at com.magicsoftware.rte.RteExecutor.EvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorEndpoint.InvokeEvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorBridge.EvaluateOpcode(RteExecutorBridge* , Int32 taskID, Int32 opCode, UnmanagedExpVal* expVals, Int32 size, UnmanagedExpVal* resVal), Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:24:57.358     [Error  ] - [MgGui.dll] DNObjectCollectionIsn: "7" Method: "SendMessage" Exception: "System.NullReferenceException: Object reference not set to an instance of an object.
+   at com.magicsoftware.unipaas.util.ReflectionServices.GetMemeberInfo(Type type, String name, Boolean isStatic, Nullable`1 hashCode)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)", Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:24:57.370     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.WriteDotnetExceptionToLog(Exception exception, Object obj, String opcode, String memberName)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateDotNetOperation(Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resManagedVal)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateOpcode(TaskBase currTask, Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resultVal)
+   at com.magicsoftware.rte.RteExecutor.EvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorEndpoint.InvokeEvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorBridge.EvaluateOpcode(RteExecutorBridge* , Int32 taskID, Int32 opCode, UnmanagedExpVal* expVals, Int32 size, UnmanagedExpVal* resVal), Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:24:57.568     [Error  ] - [MgGui.dll] DNObjectCollectionIsn: "7" Method: "SendMessage" Exception: "System.NullReferenceException: Object reference not set to an instance of an object.
+   at com.magicsoftware.unipaas.util.ReflectionServices.GetMemeberInfo(Type type, String name, Boolean isStatic, Nullable`1 hashCode)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)", Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:24:57.580     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.WriteDotnetExceptionToLog(Exception exception, Object obj, String opcode, String memberName)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateDotNetOperation(Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resManagedVal)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateOpcode(TaskBase currTask, Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resultVal)
+   at com.magicsoftware.rte.RteExecutor.EvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorEndpoint.InvokeEvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorBridge.EvaluateOpcode(RteExecutorBridge* , Int32 taskID, Int32 opCode, UnmanagedExpVal* expVals, Int32 size, UnmanagedExpVal* resVal), Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:24:57.770     [Error  ] - [MgGui.dll] DNObjectCollectionIsn: "7" Method: "SendMessage" Exception: "System.NullReferenceException: Object reference not set to an instance of an object.
+   at com.magicsoftware.unipaas.util.ReflectionServices.GetMemeberInfo(Type type, String name, Boolean isStatic, Nullable`1 hashCode)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)", Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:24:57.784     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.WriteDotnetExceptionToLog(Exception exception, Object obj, String opcode, String memberName)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateDotNetOperation(Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resManagedVal)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateOpcode(TaskBase currTask, Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resultVal)
+   at com.magicsoftware.rte.RteExecutor.EvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorEndpoint.InvokeEvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorBridge.EvaluateOpcode(RteExecutorBridge* , Int32 taskID, Int32 opCode, UnmanagedExpVal* expVals, Int32 size, UnmanagedExpVal* resVal), Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:24:57.976     [Error  ] - [MgGui.dll] DNObjectCollectionIsn: "7" Method: "SendMessage" Exception: "System.NullReferenceException: Object reference not set to an instance of an object.
+   at com.magicsoftware.unipaas.util.ReflectionServices.GetMemeberInfo(Type type, String name, Boolean isStatic, Nullable`1 hashCode)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)", Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:24:57.989     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.WriteDotnetExceptionToLog(Exception exception, Object obj, String opcode, String memberName)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateDotNetOperation(Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resManagedVal)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateOpcode(TaskBase currTask, Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resultVal)
+   at com.magicsoftware.rte.RteExecutor.EvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorEndpoint.InvokeEvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorBridge.EvaluateOpcode(RteExecutorBridge* , Int32 taskID, Int32 opCode, UnmanagedExpVal* expVals, Int32 size, UnmanagedExpVal* resVal), Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:25:00.098     [Error  ] - [MgGui.dll] DNObjectCollectionIsn: "7" Method: "SendMessage" Exception: "System.NullReferenceException: Object reference not set to an instance of an object.
+   at com.magicsoftware.unipaas.util.ReflectionServices.GetMemeberInfo(Type type, String name, Boolean isStatic, Nullable`1 hashCode)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)", Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:25:00.110     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.WriteDotnetExceptionToLog(Exception exception, Object obj, String opcode, String memberName)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateDotNetOperation(Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resManagedVal)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateOpcode(TaskBase currTask, Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resultVal)
+   at com.magicsoftware.rte.RteExecutor.EvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorEndpoint.InvokeEvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorBridge.EvaluateOpcode(RteExecutorBridge* , Int32 taskID, Int32 opCode, UnmanagedExpVal* expVals, Int32 size, UnmanagedExpVal* resVal), Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:25:01.988     [Error  ] - [MgGui.dll] DNObjectCollectionIsn: "7" Method: "SendMessage" Exception: "System.NullReferenceException: Object reference not set to an instance of an object.
+   at com.magicsoftware.unipaas.util.ReflectionServices.GetMemeberInfo(Type type, String name, Boolean isStatic, Nullable`1 hashCode)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)", Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:25:02.000     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.WriteDotnetExceptionToLog(Exception exception, Object obj, String opcode, String memberName)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateDotNetOperation(Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resManagedVal)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateOpcode(TaskBase currTask, Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resultVal)
+   at com.magicsoftware.rte.RteExecutor.EvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorEndpoint.InvokeEvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorBridge.EvaluateOpcode(RteExecutorBridge* , Int32 taskID, Int32 opCode, UnmanagedExpVal* expVals, Int32 size, UnmanagedExpVal* resVal), Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:25:09.058     [Error  ] - [MgGui.dll] DNObjectCollectionIsn: "7" Method: "Dispose" Exception: "System.NullReferenceException: Object reference not set to an instance of an object.
+   at com.magicsoftware.unipaas.util.ReflectionServices.GetMemeberInfo(Type type, String name, Boolean isStatic, Nullable`1 hashCode)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)", Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:25:09.068     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.WriteDotnetExceptionToLog(Exception exception, Object obj, String opcode, String memberName)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateDotNetOperation(Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resManagedVal)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateOpcode(TaskBase currTask, Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resultVal)
+   at com.magicsoftware.rte.RteExecutor.EvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorEndpoint.InvokeEvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorBridge.EvaluateOpcode(RteExecutorBridge* , Int32 taskID, Int32 opCode, UnmanagedExpVal* expVals, Int32 size, UnmanagedExpVal* resVal), Program: "#TSTO112A_Publisher".
+ <12> 13/10/2018 19:25:26.526     [Error  ] - [MgGui.dll] Apache.NMS.NMSException : 
+   at com.magicsoftware.unipaas.util.ReflectionServices.InvokeMethod(MethodBase methodInfo, Object obj, Object[] parameters, Boolean alwaysGuiThread)
+   at com.magicsoftware.unipaas.gui.low.GuiInteractiveBase.onReflectionInvoke()
+   at com.magicsoftware.unipaas.gui.low.GuiInteractiveBase.Run()
+Durable consumer is in use, Program: "#TSTO112B_Subscriber".
+ <12> 13/10/2018 19:25:26.537     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(Exception ex)
+   at com.magicsoftware.unipaas.gui.low.GuiInteractiveBase.Run()
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at System.Windows.Forms.Control.InvokeMarshaledCallbackDo(ThreadMethodEntry tme)
+   at System.Windows.Forms.Control.InvokeMarshaledCallbackHelper(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Windows.Forms.Control.InvokeMarshaledCallback(ThreadMethodEntry tme)
+   at System.Windows.Forms.Control.InvokeMarshaledCallbacks()
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.Form.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at com.magicsoftware.unipaas.gui.low.GUIMain.messageLoop()
+   at com.magicsoftware.unipaas.Manager.MessageLoop()
+   at com.magicsoftware.rte.RTEmanager.ExecuteMainThread(String args)
+   at com.magicsoftware.rte.RTEmanager.Main(), Program: "#TSTO112B_Subscriber".
+ <12> 13/10/2018 19:25:26.551     [Error  ] - [MgGui.dll] DNObjectCollectionIsn: "7" Method: "DeleteDurableConsumer" Exception: "Apache.NMS.NMSException: Durable consumer is in use
+   at com.magicsoftware.unipaas.util.ReflectionServices.InvokeMethod(MethodBase methodInfo, Object obj, Object[] parameters, Boolean alwaysGuiThread)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)", Program: "#TSTO112B_Subscriber".
+ <12> 13/10/2018 19:25:26.569     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.WriteDotnetExceptionToLog(Exception exception, Object obj, String opcode, String memberName)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateDotNetOperation(Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resManagedVal)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateOpcode(TaskBase currTask, Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resultVal)
+   at com.magicsoftware.rte.RteExecutor.EvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorEndpoint.InvokeEvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorBridge.EvaluateOpcode(RteExecutorBridge* , Int32 taskID, Int32 opCode, UnmanagedExpVal* expVals, Int32 size, UnmanagedExpVal* resVal), Program: "#TSTO112B_Subscriber".
+ <16> 13/10/2018 19:28:18.804     [Error  ] - [MgGui.dll] Apache.NMS.NMSException : 
+   at com.magicsoftware.unipaas.util.ReflectionServices.InvokeMethod(MethodBase methodInfo, Object obj, Object[] parameters, Boolean alwaysGuiThread)
+   at com.magicsoftware.unipaas.gui.low.GuiInteractiveBase.onReflectionInvoke()
+   at com.magicsoftware.unipaas.gui.low.GuiInteractiveBase.Run()
+Durable consumer is in use, Program: "#TSTO112B_Subscriber".
+ <16> 13/10/2018 19:28:18.815     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(Exception ex)
+   at com.magicsoftware.unipaas.gui.low.GuiInteractiveBase.Run()
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at System.Windows.Forms.Control.InvokeMarshaledCallbackDo(ThreadMethodEntry tme)
+   at System.Windows.Forms.Control.InvokeMarshaledCallbackHelper(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Windows.Forms.Control.InvokeMarshaledCallback(ThreadMethodEntry tme)
+   at System.Windows.Forms.Control.InvokeMarshaledCallbacks()
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.Form.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at com.magicsoftware.unipaas.gui.low.GUIMain.messageLoop()
+   at com.magicsoftware.unipaas.Manager.MessageLoop()
+   at com.magicsoftware.rte.RTEmanager.ExecuteMainThread(String args)
+   at com.magicsoftware.rte.RTEmanager.Main(), Program: "#TSTO112B_Subscriber".
+ <16> 13/10/2018 19:28:18.830     [Error  ] - [MgGui.dll] DNObjectCollectionIsn: "7" Method: "DeleteDurableConsumer" Exception: "Apache.NMS.NMSException: Durable consumer is in use
+   at com.magicsoftware.unipaas.util.ReflectionServices.InvokeMethod(MethodBase methodInfo, Object obj, Object[] parameters, Boolean alwaysGuiThread)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)", Program: "#TSTO112B_Subscriber".
+ <16> 13/10/2018 19:28:18.850     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.WriteDotnetExceptionToLog(Exception exception, Object obj, String opcode, String memberName)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateDotNetOperation(Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resManagedVal)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateOpcode(TaskBase currTask, Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resultVal)
+   at com.magicsoftware.rte.RteExecutor.EvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorEndpoint.InvokeEvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorBridge.EvaluateOpcode(RteExecutorBridge* , Int32 taskID, Int32 opCode, UnmanagedExpVal* expVals, Int32 size, UnmanagedExpVal* resVal), Program: "#TSTO112B_Subscriber".
+ <-1> 13/10/2018 19:48:02.519     [Error  ] - Failed to Load Assembly : "C:\xpa\samples\XpaDemo\XpaDemo\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 13/10/2018 19:48:02.600     [Error  ] - Failed to Load Assembly : "C:\xpa\samples\XpaDemo\XpaDemo\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 13/10/2018 19:48:02.780     [Error  ] - Failed to Load Assembly : "C:\Magic\XpaDemo\XpaDemo\external\Dotnet\XpaTQueue\SenderConsole\bin\Debug\Apache.NMS.dll"
+"Could not load file or assembly 'Apache.NMS.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 13/10/2018 19:48:02.864     [Error  ] - Failed to Load Assembly : "C:\Magic\XpaDemo\XpaDemo\external\Dotnet\XpaTQueue\SenderConsole\bin\Debug\Apache.NMS.ActiveMQ.dll"
+"Could not load file or assembly 'Apache.NMS.ActiveMQ.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 13/10/2018 19:48:02.967     [Error  ] - Failed to Load Assembly : "C:\Magic\XpaDemo\XpaDemo\external\Dotnet\XpaTQueue\SenderConsole\bin\Debug\Apache.NMS.dll"
+"Could not load file or assembly 'Apache.NMS.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 13/10/2018 19:48:03.031     [Error  ] - Failed to Load Assembly : "C:\Magic\XpaDemo\XpaDemo\external\Dotnet\XpaTQueue\SenderConsole\bin\Debug\Apache.NMS.ActiveMQ.dll"
+"Could not load file or assembly 'Apache.NMS.ActiveMQ.dll' or one of its dependencies. The system cannot find the path specified."
+ <9> 13/10/2018 19:48:06.433     [Error  ] - [MgGui.dll] System.IO.FileNotFoundException : 
+   at com.magicsoftware.unipaas.util.ReflectionServices.CreateInstance(Type type, ConstructorInfo constructorInfo, Object[] parameters)
+   at com.magicsoftware.unipaas.gui.low.GuiInteractiveBase.onReflectionInvoke()
+   at com.magicsoftware.unipaas.gui.low.GuiInteractiveBase.Run()
+Could not load file or assembly 'Apache.NMS.ActiveMQ, Version=1.7.2.4108, Culture=neutral, PublicKeyToken=82756feee3957618' or one of its dependencies. The system cannot find the file specified., Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:48:06.445     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(Exception ex)
+   at com.magicsoftware.unipaas.gui.low.GuiInteractiveBase.Run()
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at System.Windows.Forms.Control.InvokeMarshaledCallbackDo(ThreadMethodEntry tme)
+   at System.Windows.Forms.Control.InvokeMarshaledCallbackHelper(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Windows.Forms.Control.InvokeMarshaledCallback(ThreadMethodEntry tme)
+   at System.Windows.Forms.Control.InvokeMarshaledCallbacks()
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.Form.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at com.magicsoftware.unipaas.gui.low.GUIMain.messageLoop()
+   at com.magicsoftware.unipaas.Manager.MessageLoop()
+   at com.magicsoftware.rte.RTEmanager.ExecuteMainThread(String args)
+   at com.magicsoftware.rte.RTEmanager.Main(), Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:48:06.461     [Error  ] - [MgGui.dll] FieldIdx: "" ctor Exception: "System.IO.FileNotFoundException: Could not load file or assembly 'Apache.NMS.ActiveMQ, Version=1.7.2.4108, Culture=neutral, PublicKeyToken=82756feee3957618' or one of its dependencies. The system cannot find the file specified.
+File name: 'Apache.NMS.ActiveMQ, Version=1.7.2.4108, Culture=neutral, PublicKeyToken=82756feee3957618'
+   at com.magicsoftware.unipaas.util.ReflectionServices.CreateInstance(Type type, ConstructorInfo constructorInfo, Object[] parameters)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_ctor(ExpVal resVal, ExpVal[] Exp_params)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+", Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:48:06.480     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.WriteDotnetExceptionToLog(Exception exception, Object obj, String opcode, String memberName)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_ctor(ExpVal resVal, ExpVal[] Exp_params)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateDotNetOperation(Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resManagedVal)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateOpcode(TaskBase currTask, Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resultVal)
+   at com.magicsoftware.rte.RteExecutor.EvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorEndpoint.InvokeEvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorBridge.EvaluateOpcode(RteExecutorBridge* , Int32 taskID, Int32 opCode, UnmanagedExpVal* expVals, Int32 size, UnmanagedExpVal* resVal), Program: "#TSTO112A_Publisher".
+ <10> 13/10/2018 19:48:07.910     [Error  ] - [MgGui.dll] System.IO.FileNotFoundException : 
+   at com.magicsoftware.unipaas.util.ReflectionServices.CreateInstance(Type type, ConstructorInfo constructorInfo, Object[] parameters)
+   at com.magicsoftware.unipaas.gui.low.GuiInteractiveBase.onReflectionInvoke()
+   at com.magicsoftware.unipaas.gui.low.GuiInteractiveBase.Run()
+Could not load file or assembly 'Apache.NMS.ActiveMQ, Version=1.7.2.4108, Culture=neutral, PublicKeyToken=82756feee3957618' or one of its dependencies. The system cannot find the file specified., Program: "#TSTO112B_Subscriber".
+ <10> 13/10/2018 19:48:07.921     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(Exception ex)
+   at com.magicsoftware.unipaas.gui.low.GuiInteractiveBase.Run()
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at System.Windows.Forms.Control.InvokeMarshaledCallbackDo(ThreadMethodEntry tme)
+   at System.Windows.Forms.Control.InvokeMarshaledCallbackHelper(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Windows.Forms.Control.InvokeMarshaledCallback(ThreadMethodEntry tme)
+   at System.Windows.Forms.Control.InvokeMarshaledCallbacks()
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.Form.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at com.magicsoftware.unipaas.gui.low.GUIMain.messageLoop()
+   at com.magicsoftware.unipaas.Manager.MessageLoop()
+   at com.magicsoftware.rte.RTEmanager.ExecuteMainThread(String args)
+   at com.magicsoftware.rte.RTEmanager.Main(), Program: "#TSTO112B_Subscriber".
+ <10> 13/10/2018 19:48:07.939     [Error  ] - [MgGui.dll] FieldIdx: "" ctor Exception: "System.IO.FileNotFoundException: Could not load file or assembly 'Apache.NMS.ActiveMQ, Version=1.7.2.4108, Culture=neutral, PublicKeyToken=82756feee3957618' or one of its dependencies. The system cannot find the file specified.
+File name: 'Apache.NMS.ActiveMQ, Version=1.7.2.4108, Culture=neutral, PublicKeyToken=82756feee3957618'
+   at com.magicsoftware.unipaas.util.ReflectionServices.CreateInstance(Type type, ConstructorInfo constructorInfo, Object[] parameters)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_ctor(ExpVal resVal, ExpVal[] Exp_params)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+", Program: "#TSTO112B_Subscriber".
+ <10> 13/10/2018 19:48:07.961     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.WriteDotnetExceptionToLog(Exception exception, Object obj, String opcode, String memberName)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_ctor(ExpVal resVal, ExpVal[] Exp_params)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateDotNetOperation(Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resManagedVal)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateOpcode(TaskBase currTask, Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resultVal)
+   at com.magicsoftware.rte.RteExecutor.EvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorEndpoint.InvokeEvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorBridge.EvaluateOpcode(RteExecutorBridge* , Int32 taskID, Int32 opCode, UnmanagedExpVal* expVals, Int32 size, UnmanagedExpVal* resVal), Program: "#TSTO112B_Subscriber".
+ <9> 13/10/2018 19:48:12.367     [Error  ] - [MgGui.dll] DNObjectCollectionIsn: "7" Method: "SendMessage" Exception: "System.NullReferenceException: Object reference not set to an instance of an object.
+   at com.magicsoftware.unipaas.util.ReflectionServices.GetMemeberInfo(Type type, String name, Boolean isStatic, Nullable`1 hashCode)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)", Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:48:12.380     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.WriteDotnetExceptionToLog(Exception exception, Object obj, String opcode, String memberName)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateDotNetOperation(Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resManagedVal)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateOpcode(TaskBase currTask, Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resultVal)
+   at com.magicsoftware.rte.RteExecutor.EvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorEndpoint.InvokeEvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorBridge.EvaluateOpcode(RteExecutorBridge* , Int32 taskID, Int32 opCode, UnmanagedExpVal* expVals, Int32 size, UnmanagedExpVal* resVal), Program: "#TSTO112A_Publisher".
+ <10> 13/10/2018 19:48:17.500     [Error  ] - [MgGui.dll] DNObjectCollectionIsn: "11" Method: "DeleteDurableConsumer" Exception: "System.NullReferenceException: Object reference not set to an instance of an object.
+   at com.magicsoftware.unipaas.util.ReflectionServices.GetMemeberInfo(Type type, String name, Boolean isStatic, Nullable`1 hashCode)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)", Program: "#TSTO112B_Subscriber".
+ <10> 13/10/2018 19:48:17.511     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.WriteDotnetExceptionToLog(Exception exception, Object obj, String opcode, String memberName)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateDotNetOperation(Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resManagedVal)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateOpcode(TaskBase currTask, Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resultVal)
+   at com.magicsoftware.rte.RteExecutor.EvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorEndpoint.InvokeEvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorBridge.EvaluateOpcode(RteExecutorBridge* , Int32 taskID, Int32 opCode, UnmanagedExpVal* expVals, Int32 size, UnmanagedExpVal* resVal), Program: "#TSTO112B_Subscriber".
+ <10> 13/10/2018 19:48:17.520     [Error  ] - [MgGui.dll] DNObjectCollectionIsn: "11" Method: "Dispose" Exception: "System.NullReferenceException: Object reference not set to an instance of an object.
+   at com.magicsoftware.unipaas.util.ReflectionServices.GetMemeberInfo(Type type, String name, Boolean isStatic, Nullable`1 hashCode)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)", Program: "#TSTO112B_Subscriber".
+ <10> 13/10/2018 19:48:17.529     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.WriteDotnetExceptionToLog(Exception exception, Object obj, String opcode, String memberName)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateDotNetOperation(Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resManagedVal)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateOpcode(TaskBase currTask, Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resultVal)
+   at com.magicsoftware.rte.RteExecutor.EvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorEndpoint.InvokeEvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorBridge.EvaluateOpcode(RteExecutorBridge* , Int32 taskID, Int32 opCode, UnmanagedExpVal* expVals, Int32 size, UnmanagedExpVal* resVal), Program: "#TSTO112B_Subscriber".
+ <11> 13/10/2018 19:48:19.544     [Error  ] - [MgGui.dll] System.IO.FileNotFoundException : 
+   at com.magicsoftware.unipaas.util.ReflectionServices.CreateInstance(Type type, ConstructorInfo constructorInfo, Object[] parameters)
+   at com.magicsoftware.unipaas.gui.low.GuiInteractiveBase.onReflectionInvoke()
+   at com.magicsoftware.unipaas.gui.low.GuiInteractiveBase.Run()
+Could not load file or assembly 'Apache.NMS.ActiveMQ, Version=1.7.2.4108, Culture=neutral, PublicKeyToken=82756feee3957618' or one of its dependencies. The system cannot find the file specified., Program: "#TSTO112B_Subscriber".
+ <11> 13/10/2018 19:48:19.555     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(Exception ex)
+   at com.magicsoftware.unipaas.gui.low.GuiInteractiveBase.Run()
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at System.Windows.Forms.Control.InvokeMarshaledCallbackDo(ThreadMethodEntry tme)
+   at System.Windows.Forms.Control.InvokeMarshaledCallbackHelper(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Windows.Forms.Control.InvokeMarshaledCallback(ThreadMethodEntry tme)
+   at System.Windows.Forms.Control.InvokeMarshaledCallbacks()
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.Form.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at com.magicsoftware.unipaas.gui.low.GUIMain.messageLoop()
+   at com.magicsoftware.unipaas.Manager.MessageLoop()
+   at com.magicsoftware.rte.RTEmanager.ExecuteMainThread(String args)
+   at com.magicsoftware.rte.RTEmanager.Main(), Program: "#TSTO112B_Subscriber".
+ <11> 13/10/2018 19:48:19.572     [Error  ] - [MgGui.dll] FieldIdx: "" ctor Exception: "System.IO.FileNotFoundException: Could not load file or assembly 'Apache.NMS.ActiveMQ, Version=1.7.2.4108, Culture=neutral, PublicKeyToken=82756feee3957618' or one of its dependencies. The system cannot find the file specified.
+File name: 'Apache.NMS.ActiveMQ, Version=1.7.2.4108, Culture=neutral, PublicKeyToken=82756feee3957618'
+   at com.magicsoftware.unipaas.util.ReflectionServices.CreateInstance(Type type, ConstructorInfo constructorInfo, Object[] parameters)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_ctor(ExpVal resVal, ExpVal[] Exp_params)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+", Program: "#TSTO112B_Subscriber".
+ <11> 13/10/2018 19:48:19.597     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.WriteDotnetExceptionToLog(Exception exception, Object obj, String opcode, String memberName)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_ctor(ExpVal resVal, ExpVal[] Exp_params)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateDotNetOperation(Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resManagedVal)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateOpcode(TaskBase currTask, Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resultVal)
+   at com.magicsoftware.rte.RteExecutor.EvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorEndpoint.InvokeEvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorBridge.EvaluateOpcode(RteExecutorBridge* , Int32 taskID, Int32 opCode, UnmanagedExpVal* expVals, Int32 size, UnmanagedExpVal* resVal), Program: "#TSTO112B_Subscriber".
+ <9> 13/10/2018 19:48:20.858     [Error  ] - [MgGui.dll] DNObjectCollectionIsn: "7" Method: "SendMessage" Exception: "System.NullReferenceException: Object reference not set to an instance of an object.
+   at com.magicsoftware.unipaas.util.ReflectionServices.GetMemeberInfo(Type type, String name, Boolean isStatic, Nullable`1 hashCode)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)", Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:48:20.872     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.WriteDotnetExceptionToLog(Exception exception, Object obj, String opcode, String memberName)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateDotNetOperation(Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resManagedVal)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateOpcode(TaskBase currTask, Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resultVal)
+   at com.magicsoftware.rte.RteExecutor.EvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorEndpoint.InvokeEvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorBridge.EvaluateOpcode(RteExecutorBridge* , Int32 taskID, Int32 opCode, UnmanagedExpVal* expVals, Int32 size, UnmanagedExpVal* resVal), Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:48:21.422     [Error  ] - [MgGui.dll] DNObjectCollectionIsn: "7" Method: "SendMessage" Exception: "System.NullReferenceException: Object reference not set to an instance of an object.
+   at com.magicsoftware.unipaas.util.ReflectionServices.GetMemeberInfo(Type type, String name, Boolean isStatic, Nullable`1 hashCode)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)", Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:48:21.435     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.WriteDotnetExceptionToLog(Exception exception, Object obj, String opcode, String memberName)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateDotNetOperation(Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resManagedVal)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateOpcode(TaskBase currTask, Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resultVal)
+   at com.magicsoftware.rte.RteExecutor.EvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorEndpoint.InvokeEvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorBridge.EvaluateOpcode(RteExecutorBridge* , Int32 taskID, Int32 opCode, UnmanagedExpVal* expVals, Int32 size, UnmanagedExpVal* resVal), Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:48:21.614     [Error  ] - [MgGui.dll] DNObjectCollectionIsn: "7" Method: "SendMessage" Exception: "System.NullReferenceException: Object reference not set to an instance of an object.
+   at com.magicsoftware.unipaas.util.ReflectionServices.GetMemeberInfo(Type type, String name, Boolean isStatic, Nullable`1 hashCode)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)", Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:48:21.628     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.WriteDotnetExceptionToLog(Exception exception, Object obj, String opcode, String memberName)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateDotNetOperation(Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resManagedVal)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateOpcode(TaskBase currTask, Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resultVal)
+   at com.magicsoftware.rte.RteExecutor.EvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorEndpoint.InvokeEvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorBridge.EvaluateOpcode(RteExecutorBridge* , Int32 taskID, Int32 opCode, UnmanagedExpVal* expVals, Int32 size, UnmanagedExpVal* resVal), Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:48:21.804     [Error  ] - [MgGui.dll] DNObjectCollectionIsn: "7" Method: "SendMessage" Exception: "System.NullReferenceException: Object reference not set to an instance of an object.
+   at com.magicsoftware.unipaas.util.ReflectionServices.GetMemeberInfo(Type type, String name, Boolean isStatic, Nullable`1 hashCode)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)", Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:48:21.815     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.WriteDotnetExceptionToLog(Exception exception, Object obj, String opcode, String memberName)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateDotNetOperation(Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resManagedVal)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateOpcode(TaskBase currTask, Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resultVal)
+   at com.magicsoftware.rte.RteExecutor.EvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorEndpoint.InvokeEvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorBridge.EvaluateOpcode(RteExecutorBridge* , Int32 taskID, Int32 opCode, UnmanagedExpVal* expVals, Int32 size, UnmanagedExpVal* resVal), Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:48:21.985     [Error  ] - [MgGui.dll] DNObjectCollectionIsn: "7" Method: "SendMessage" Exception: "System.NullReferenceException: Object reference not set to an instance of an object.
+   at com.magicsoftware.unipaas.util.ReflectionServices.GetMemeberInfo(Type type, String name, Boolean isStatic, Nullable`1 hashCode)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)", Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:48:21.996     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.WriteDotnetExceptionToLog(Exception exception, Object obj, String opcode, String memberName)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateDotNetOperation(Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resManagedVal)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateOpcode(TaskBase currTask, Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resultVal)
+   at com.magicsoftware.rte.RteExecutor.EvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorEndpoint.InvokeEvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorBridge.EvaluateOpcode(RteExecutorBridge* , Int32 taskID, Int32 opCode, UnmanagedExpVal* expVals, Int32 size, UnmanagedExpVal* resVal), Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:48:22.185     [Error  ] - [MgGui.dll] DNObjectCollectionIsn: "7" Method: "SendMessage" Exception: "System.NullReferenceException: Object reference not set to an instance of an object.
+   at com.magicsoftware.unipaas.util.ReflectionServices.GetMemeberInfo(Type type, String name, Boolean isStatic, Nullable`1 hashCode)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)", Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:48:22.197     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.WriteDotnetExceptionToLog(Exception exception, Object obj, String opcode, String memberName)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateDotNetOperation(Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resManagedVal)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateOpcode(TaskBase currTask, Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resultVal)
+   at com.magicsoftware.rte.RteExecutor.EvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorEndpoint.InvokeEvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorBridge.EvaluateOpcode(RteExecutorBridge* , Int32 taskID, Int32 opCode, UnmanagedExpVal* expVals, Int32 size, UnmanagedExpVal* resVal), Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:48:23.405     [Error  ] - [MgGui.dll] DNObjectCollectionIsn: "7" Method: "Dispose" Exception: "System.NullReferenceException: Object reference not set to an instance of an object.
+   at com.magicsoftware.unipaas.util.ReflectionServices.GetMemeberInfo(Type type, String name, Boolean isStatic, Nullable`1 hashCode)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)", Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:48:23.415     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.WriteDotnetExceptionToLog(Exception exception, Object obj, String opcode, String memberName)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateDotNetOperation(Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resManagedVal)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateOpcode(TaskBase currTask, Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resultVal)
+   at com.magicsoftware.rte.RteExecutor.EvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorEndpoint.InvokeEvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorBridge.EvaluateOpcode(RteExecutorBridge* , Int32 taskID, Int32 opCode, UnmanagedExpVal* expVals, Int32 size, UnmanagedExpVal* resVal), Program: "#TSTO112A_Publisher".
+ <11> 13/10/2018 19:48:24.742     [Error  ] - [MgGui.dll] DNObjectCollectionIsn: "11" Method: "DeleteDurableConsumer" Exception: "System.NullReferenceException: Object reference not set to an instance of an object.
+   at com.magicsoftware.unipaas.util.ReflectionServices.GetMemeberInfo(Type type, String name, Boolean isStatic, Nullable`1 hashCode)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)", Program: "#TSTO112B_Subscriber".
+ <11> 13/10/2018 19:48:24.751     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.WriteDotnetExceptionToLog(Exception exception, Object obj, String opcode, String memberName)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateDotNetOperation(Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resManagedVal)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateOpcode(TaskBase currTask, Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resultVal)
+   at com.magicsoftware.rte.RteExecutor.EvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorEndpoint.InvokeEvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorBridge.EvaluateOpcode(RteExecutorBridge* , Int32 taskID, Int32 opCode, UnmanagedExpVal* expVals, Int32 size, UnmanagedExpVal* resVal), Program: "#TSTO112B_Subscriber".
+ <11> 13/10/2018 19:48:24.760     [Error  ] - [MgGui.dll] DNObjectCollectionIsn: "11" Method: "Dispose" Exception: "System.NullReferenceException: Object reference not set to an instance of an object.
+   at com.magicsoftware.unipaas.util.ReflectionServices.GetMemeberInfo(Type type, String name, Boolean isStatic, Nullable`1 hashCode)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)", Program: "#TSTO112B_Subscriber".
+ <11> 13/10/2018 19:48:24.769     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.WriteDotnetExceptionToLog(Exception exception, Object obj, String opcode, String memberName)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateDotNetOperation(Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resManagedVal)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateOpcode(TaskBase currTask, Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resultVal)
+   at com.magicsoftware.rte.RteExecutor.EvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorEndpoint.InvokeEvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorBridge.EvaluateOpcode(RteExecutorBridge* , Int32 taskID, Int32 opCode, UnmanagedExpVal* expVals, Int32 size, UnmanagedExpVal* resVal), Program: "#TSTO112B_Subscriber".
+ <12> 13/10/2018 19:48:50.102     [Error  ] - [MgGui.dll] System.IO.FileNotFoundException : 
+   at com.magicsoftware.unipaas.util.ReflectionServices.CreateInstance(Type type, ConstructorInfo constructorInfo, Object[] parameters)
+   at com.magicsoftware.unipaas.gui.low.GuiInteractiveBase.onReflectionInvoke()
+   at com.magicsoftware.unipaas.gui.low.GuiInteractiveBase.Run()
+Could not load file or assembly 'Apache.NMS.ActiveMQ, Version=1.7.2.4108, Culture=neutral, PublicKeyToken=82756feee3957618' or one of its dependencies. The system cannot find the file specified., Program: "#TSTO112B_Subscriber".
+ <12> 13/10/2018 19:48:50.112     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(Exception ex)
+   at com.magicsoftware.unipaas.gui.low.GuiInteractiveBase.Run()
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at System.Windows.Forms.Control.InvokeMarshaledCallbackDo(ThreadMethodEntry tme)
+   at System.Windows.Forms.Control.InvokeMarshaledCallbackHelper(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Windows.Forms.Control.InvokeMarshaledCallback(ThreadMethodEntry tme)
+   at System.Windows.Forms.Control.InvokeMarshaledCallbacks()
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.Form.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at com.magicsoftware.unipaas.gui.low.GUIMain.messageLoop()
+   at com.magicsoftware.unipaas.Manager.MessageLoop()
+   at com.magicsoftware.rte.RTEmanager.ExecuteMainThread(String args)
+   at com.magicsoftware.rte.RTEmanager.Main(), Program: "#TSTO112B_Subscriber".
+ <12> 13/10/2018 19:48:50.134     [Error  ] - [MgGui.dll] FieldIdx: "" ctor Exception: "System.IO.FileNotFoundException: Could not load file or assembly 'Apache.NMS.ActiveMQ, Version=1.7.2.4108, Culture=neutral, PublicKeyToken=82756feee3957618' or one of its dependencies. The system cannot find the file specified.
+File name: 'Apache.NMS.ActiveMQ, Version=1.7.2.4108, Culture=neutral, PublicKeyToken=82756feee3957618'
+   at com.magicsoftware.unipaas.util.ReflectionServices.CreateInstance(Type type, ConstructorInfo constructorInfo, Object[] parameters)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_ctor(ExpVal resVal, ExpVal[] Exp_params)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+", Program: "#TSTO112B_Subscriber".
+ <12> 13/10/2018 19:48:50.164     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.WriteDotnetExceptionToLog(Exception exception, Object obj, String opcode, String memberName)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_ctor(ExpVal resVal, ExpVal[] Exp_params)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateDotNetOperation(Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resManagedVal)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateOpcode(TaskBase currTask, Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resultVal)
+   at com.magicsoftware.rte.RteExecutor.EvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorEndpoint.InvokeEvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorBridge.EvaluateOpcode(RteExecutorBridge* , Int32 taskID, Int32 opCode, UnmanagedExpVal* expVals, Int32 size, UnmanagedExpVal* resVal), Program: "#TSTO112B_Subscriber".
+ <12> 13/10/2018 19:49:10.656     [Error  ] - [MgGui.dll] DNObjectCollectionIsn: "7" Method: "DeleteDurableConsumer" Exception: "System.NullReferenceException: Object reference not set to an instance of an object.
+   at com.magicsoftware.unipaas.util.ReflectionServices.GetMemeberInfo(Type type, String name, Boolean isStatic, Nullable`1 hashCode)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)", Program: "#TSTO112B_Subscriber".
+ <12> 13/10/2018 19:49:10.666     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.WriteDotnetExceptionToLog(Exception exception, Object obj, String opcode, String memberName)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateDotNetOperation(Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resManagedVal)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateOpcode(TaskBase currTask, Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resultVal)
+   at com.magicsoftware.rte.RteExecutor.EvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorEndpoint.InvokeEvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorBridge.EvaluateOpcode(RteExecutorBridge* , Int32 taskID, Int32 opCode, UnmanagedExpVal* expVals, Int32 size, UnmanagedExpVal* resVal), Program: "#TSTO112B_Subscriber".
+ <12> 13/10/2018 19:49:10.675     [Error  ] - [MgGui.dll] DNObjectCollectionIsn: "7" Method: "Dispose" Exception: "System.NullReferenceException: Object reference not set to an instance of an object.
+   at com.magicsoftware.unipaas.util.ReflectionServices.GetMemeberInfo(Type type, String name, Boolean isStatic, Nullable`1 hashCode)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)", Program: "#TSTO112B_Subscriber".
+ <12> 13/10/2018 19:49:10.684     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.WriteDotnetExceptionToLog(Exception exception, Object obj, String opcode, String memberName)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateDotNetOperation(Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resManagedVal)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateOpcode(TaskBase currTask, Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resultVal)
+   at com.magicsoftware.rte.RteExecutor.EvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorEndpoint.InvokeEvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorBridge.EvaluateOpcode(RteExecutorBridge* , Int32 taskID, Int32 opCode, UnmanagedExpVal* expVals, Int32 size, UnmanagedExpVal* resVal), Program: "#TSTO112B_Subscriber".
+ <13> 13/10/2018 19:49:13.058     [Error  ] - [MgGui.dll] System.IO.FileNotFoundException : 
+   at com.magicsoftware.unipaas.util.ReflectionServices.CreateInstance(Type type, ConstructorInfo constructorInfo, Object[] parameters)
+   at com.magicsoftware.unipaas.gui.low.GuiInteractiveBase.onReflectionInvoke()
+   at com.magicsoftware.unipaas.gui.low.GuiInteractiveBase.Run()
+Could not load file or assembly 'Apache.NMS.ActiveMQ, Version=1.7.2.4108, Culture=neutral, PublicKeyToken=82756feee3957618' or one of its dependencies. The system cannot find the file specified., Program: "#TSTO112A_Publisher".
+ <13> 13/10/2018 19:49:13.067     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(Exception ex)
+   at com.magicsoftware.unipaas.gui.low.GuiInteractiveBase.Run()
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at System.Windows.Forms.Control.InvokeMarshaledCallbackDo(ThreadMethodEntry tme)
+   at System.Windows.Forms.Control.InvokeMarshaledCallbackHelper(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Windows.Forms.Control.InvokeMarshaledCallback(ThreadMethodEntry tme)
+   at System.Windows.Forms.Control.InvokeMarshaledCallbacks()
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.Form.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at com.magicsoftware.unipaas.gui.low.GUIMain.messageLoop()
+   at com.magicsoftware.unipaas.Manager.MessageLoop()
+   at com.magicsoftware.rte.RTEmanager.ExecuteMainThread(String args)
+   at com.magicsoftware.rte.RTEmanager.Main(), Program: "#TSTO112A_Publisher".
+ <13> 13/10/2018 19:49:13.088     [Error  ] - [MgGui.dll] FieldIdx: "" ctor Exception: "System.IO.FileNotFoundException: Could not load file or assembly 'Apache.NMS.ActiveMQ, Version=1.7.2.4108, Culture=neutral, PublicKeyToken=82756feee3957618' or one of its dependencies. The system cannot find the file specified.
+File name: 'Apache.NMS.ActiveMQ, Version=1.7.2.4108, Culture=neutral, PublicKeyToken=82756feee3957618'
+   at com.magicsoftware.unipaas.util.ReflectionServices.CreateInstance(Type type, ConstructorInfo constructorInfo, Object[] parameters)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_ctor(ExpVal resVal, ExpVal[] Exp_params)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+", Program: "#TSTO112A_Publisher".
+ <13> 13/10/2018 19:49:13.112     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.WriteDotnetExceptionToLog(Exception exception, Object obj, String opcode, String memberName)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_ctor(ExpVal resVal, ExpVal[] Exp_params)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateDotNetOperation(Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resManagedVal)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateOpcode(TaskBase currTask, Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resultVal)
+   at com.magicsoftware.rte.RteExecutor.EvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorEndpoint.InvokeEvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorBridge.EvaluateOpcode(RteExecutorBridge* , Int32 taskID, Int32 opCode, UnmanagedExpVal* expVals, Int32 size, UnmanagedExpVal* resVal), Program: "#TSTO112A_Publisher".
+ <13> 13/10/2018 19:49:14.228     [Error  ] - [MgGui.dll] DNObjectCollectionIsn: "7" Method: "SendMessage" Exception: "System.NullReferenceException: Object reference not set to an instance of an object.
+   at com.magicsoftware.unipaas.util.ReflectionServices.GetMemeberInfo(Type type, String name, Boolean isStatic, Nullable`1 hashCode)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)", Program: "#TSTO112A_Publisher".
+ <13> 13/10/2018 19:49:14.240     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.WriteDotnetExceptionToLog(Exception exception, Object obj, String opcode, String memberName)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateDotNetOperation(Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resManagedVal)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateOpcode(TaskBase currTask, Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resultVal)
+   at com.magicsoftware.rte.RteExecutor.EvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorEndpoint.InvokeEvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorBridge.EvaluateOpcode(RteExecutorBridge* , Int32 taskID, Int32 opCode, UnmanagedExpVal* expVals, Int32 size, UnmanagedExpVal* resVal), Program: "#TSTO112A_Publisher".
+ <13> 13/10/2018 19:49:18.089     [Error  ] - [MgGui.dll] DNObjectCollectionIsn: "7" Method: "SendMessage" Exception: "System.NullReferenceException: Object reference not set to an instance of an object.
+   at com.magicsoftware.unipaas.util.ReflectionServices.GetMemeberInfo(Type type, String name, Boolean isStatic, Nullable`1 hashCode)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)", Program: "#TSTO112A_Publisher".
+ <13> 13/10/2018 19:49:18.108     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.WriteDotnetExceptionToLog(Exception exception, Object obj, String opcode, String memberName)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateDotNetOperation(Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resManagedVal)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateOpcode(TaskBase currTask, Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resultVal)
+   at com.magicsoftware.rte.RteExecutor.EvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorEndpoint.InvokeEvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorBridge.EvaluateOpcode(RteExecutorBridge* , Int32 taskID, Int32 opCode, UnmanagedExpVal* expVals, Int32 size, UnmanagedExpVal* resVal), Program: "#TSTO112A_Publisher".
+ <13> 13/10/2018 19:49:39.806     [Error  ] - [MgGui.dll] DNObjectCollectionIsn: "7" Method: "SendMessage" Exception: "System.NullReferenceException: Object reference not set to an instance of an object.
+   at com.magicsoftware.unipaas.util.ReflectionServices.GetMemeberInfo(Type type, String name, Boolean isStatic, Nullable`1 hashCode)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)", Program: "#TSTO112A_Publisher".
+ <13> 13/10/2018 19:49:39.828     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.WriteDotnetExceptionToLog(Exception exception, Object obj, String opcode, String memberName)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateDotNetOperation(Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resManagedVal)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateOpcode(TaskBase currTask, Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resultVal)
+   at com.magicsoftware.rte.RteExecutor.EvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorEndpoint.InvokeEvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorBridge.EvaluateOpcode(RteExecutorBridge* , Int32 taskID, Int32 opCode, UnmanagedExpVal* expVals, Int32 size, UnmanagedExpVal* resVal), Program: "#TSTO112A_Publisher".
+ <13> 13/10/2018 19:49:40.647     [Error  ] - [MgGui.dll] DNObjectCollectionIsn: "7" Method: "SendMessage" Exception: "System.NullReferenceException: Object reference not set to an instance of an object.
+   at com.magicsoftware.unipaas.util.ReflectionServices.GetMemeberInfo(Type type, String name, Boolean isStatic, Nullable`1 hashCode)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)", Program: "#TSTO112A_Publisher".
+ <13> 13/10/2018 19:49:40.660     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.WriteDotnetExceptionToLog(Exception exception, Object obj, String opcode, String memberName)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateDotNetOperation(Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resManagedVal)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateOpcode(TaskBase currTask, Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resultVal)
+   at com.magicsoftware.rte.RteExecutor.EvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorEndpoint.InvokeEvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorBridge.EvaluateOpcode(RteExecutorBridge* , Int32 taskID, Int32 opCode, UnmanagedExpVal* expVals, Int32 size, UnmanagedExpVal* resVal), Program: "#TSTO112A_Publisher".
+ <13> 13/10/2018 19:49:42.164     [Error  ] - [MgGui.dll] DNObjectCollectionIsn: "7" Method: "Dispose" Exception: "System.NullReferenceException: Object reference not set to an instance of an object.
+   at com.magicsoftware.unipaas.util.ReflectionServices.GetMemeberInfo(Type type, String name, Boolean isStatic, Nullable`1 hashCode)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)", Program: "#TSTO112A_Publisher".
+ <13> 13/10/2018 19:49:42.174     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.WriteDotnetExceptionToLog(Exception exception, Object obj, String opcode, String memberName)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateDotNetOperation(Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resManagedVal)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateOpcode(TaskBase currTask, Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resultVal)
+   at com.magicsoftware.rte.RteExecutor.EvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorEndpoint.InvokeEvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorBridge.EvaluateOpcode(RteExecutorBridge* , Int32 taskID, Int32 opCode, UnmanagedExpVal* expVals, Int32 size, UnmanagedExpVal* resVal), Program: "#TSTO112A_Publisher".
+ <14> 13/10/2018 19:49:44.435     [Error  ] - [MgGui.dll] System.IO.FileNotFoundException : 
+   at com.magicsoftware.unipaas.util.ReflectionServices.CreateInstance(Type type, ConstructorInfo constructorInfo, Object[] parameters)
+   at com.magicsoftware.unipaas.gui.low.GuiInteractiveBase.onReflectionInvoke()
+   at com.magicsoftware.unipaas.gui.low.GuiInteractiveBase.Run()
+Could not load file or assembly 'Apache.NMS.ActiveMQ, Version=1.7.2.4108, Culture=neutral, PublicKeyToken=82756feee3957618' or one of its dependencies. The system cannot find the file specified., Program: "#TSTO112A_Publisher".
+ <14> 13/10/2018 19:49:44.446     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(Exception ex)
+   at com.magicsoftware.unipaas.gui.low.GuiInteractiveBase.Run()
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at System.Windows.Forms.Control.InvokeMarshaledCallbackDo(ThreadMethodEntry tme)
+   at System.Windows.Forms.Control.InvokeMarshaledCallbackHelper(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Windows.Forms.Control.InvokeMarshaledCallback(ThreadMethodEntry tme)
+   at System.Windows.Forms.Control.InvokeMarshaledCallbacks()
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.Form.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at com.magicsoftware.unipaas.gui.low.GUIMain.messageLoop()
+   at com.magicsoftware.unipaas.Manager.MessageLoop()
+   at com.magicsoftware.rte.RTEmanager.ExecuteMainThread(String args)
+   at com.magicsoftware.rte.RTEmanager.Main(), Program: "#TSTO112A_Publisher".
+ <14> 13/10/2018 19:49:44.466     [Error  ] - [MgGui.dll] FieldIdx: "" ctor Exception: "System.IO.FileNotFoundException: Could not load file or assembly 'Apache.NMS.ActiveMQ, Version=1.7.2.4108, Culture=neutral, PublicKeyToken=82756feee3957618' or one of its dependencies. The system cannot find the file specified.
+File name: 'Apache.NMS.ActiveMQ, Version=1.7.2.4108, Culture=neutral, PublicKeyToken=82756feee3957618'
+   at com.magicsoftware.unipaas.util.ReflectionServices.CreateInstance(Type type, ConstructorInfo constructorInfo, Object[] parameters)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_ctor(ExpVal resVal, ExpVal[] Exp_params)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+", Program: "#TSTO112A_Publisher".
+ <14> 13/10/2018 19:49:44.490     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.WriteDotnetExceptionToLog(Exception exception, Object obj, String opcode, String memberName)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_ctor(ExpVal resVal, ExpVal[] Exp_params)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateDotNetOperation(Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resManagedVal)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateOpcode(TaskBase currTask, Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resultVal)
+   at com.magicsoftware.rte.RteExecutor.EvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorEndpoint.InvokeEvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorBridge.EvaluateOpcode(RteExecutorBridge* , Int32 taskID, Int32 opCode, UnmanagedExpVal* expVals, Int32 size, UnmanagedExpVal* resVal), Program: "#TSTO112A_Publisher".
+ <14> 13/10/2018 19:49:45.679     [Error  ] - [MgGui.dll] DNObjectCollectionIsn: "7" Method: "SendMessage" Exception: "System.NullReferenceException: Object reference not set to an instance of an object.
+   at com.magicsoftware.unipaas.util.ReflectionServices.GetMemeberInfo(Type type, String name, Boolean isStatic, Nullable`1 hashCode)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)", Program: "#TSTO112A_Publisher".
+ <14> 13/10/2018 19:49:45.691     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.WriteDotnetExceptionToLog(Exception exception, Object obj, String opcode, String memberName)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateDotNetOperation(Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resManagedVal)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateOpcode(TaskBase currTask, Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resultVal)
+   at com.magicsoftware.rte.RteExecutor.EvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorEndpoint.InvokeEvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorBridge.EvaluateOpcode(RteExecutorBridge* , Int32 taskID, Int32 opCode, UnmanagedExpVal* expVals, Int32 size, UnmanagedExpVal* resVal), Program: "#TSTO112A_Publisher".
+ <15> 13/10/2018 19:49:47.352     [Error  ] - [MgGui.dll] System.IO.FileNotFoundException : 
+   at com.magicsoftware.unipaas.util.ReflectionServices.CreateInstance(Type type, ConstructorInfo constructorInfo, Object[] parameters)
+   at com.magicsoftware.unipaas.gui.low.GuiInteractiveBase.onReflectionInvoke()
+   at com.magicsoftware.unipaas.gui.low.GuiInteractiveBase.Run()
+Could not load file or assembly 'Apache.NMS.ActiveMQ, Version=1.7.2.4108, Culture=neutral, PublicKeyToken=82756feee3957618' or one of its dependencies. The system cannot find the file specified., Program: "#TSTO112B_Subscriber".
+ <15> 13/10/2018 19:49:47.360     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(Exception ex)
+   at com.magicsoftware.unipaas.gui.low.GuiInteractiveBase.Run()
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at System.Windows.Forms.Control.InvokeMarshaledCallbackDo(ThreadMethodEntry tme)
+   at System.Windows.Forms.Control.InvokeMarshaledCallbackHelper(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Windows.Forms.Control.InvokeMarshaledCallback(ThreadMethodEntry tme)
+   at System.Windows.Forms.Control.InvokeMarshaledCallbacks()
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.Form.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at com.magicsoftware.unipaas.gui.low.GUIMain.messageLoop()
+   at com.magicsoftware.unipaas.Manager.MessageLoop()
+   at com.magicsoftware.rte.RTEmanager.ExecuteMainThread(String args)
+   at com.magicsoftware.rte.RTEmanager.Main(), Program: "#TSTO112B_Subscriber".
+ <15> 13/10/2018 19:49:47.383     [Error  ] - [MgGui.dll] FieldIdx: "" ctor Exception: "System.IO.FileNotFoundException: Could not load file or assembly 'Apache.NMS.ActiveMQ, Version=1.7.2.4108, Culture=neutral, PublicKeyToken=82756feee3957618' or one of its dependencies. The system cannot find the file specified.
+File name: 'Apache.NMS.ActiveMQ, Version=1.7.2.4108, Culture=neutral, PublicKeyToken=82756feee3957618'
+   at com.magicsoftware.unipaas.util.ReflectionServices.CreateInstance(Type type, ConstructorInfo constructorInfo, Object[] parameters)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_ctor(ExpVal resVal, ExpVal[] Exp_params)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+", Program: "#TSTO112B_Subscriber".
+ <15> 13/10/2018 19:49:47.405     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.WriteDotnetExceptionToLog(Exception exception, Object obj, String opcode, String memberName)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_ctor(ExpVal resVal, ExpVal[] Exp_params)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateDotNetOperation(Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resManagedVal)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateOpcode(TaskBase currTask, Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resultVal)
+   at com.magicsoftware.rte.RteExecutor.EvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorEndpoint.InvokeEvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorBridge.EvaluateOpcode(RteExecutorBridge* , Int32 taskID, Int32 opCode, UnmanagedExpVal* expVals, Int32 size, UnmanagedExpVal* resVal), Program: "#TSTO112B_Subscriber".
+ <15> 13/10/2018 19:49:49.243     [Error  ] - [MgGui.dll] DNObjectCollectionIsn: "11" Method: "DeleteDurableConsumer" Exception: "System.NullReferenceException: Object reference not set to an instance of an object.
+   at com.magicsoftware.unipaas.util.ReflectionServices.GetMemeberInfo(Type type, String name, Boolean isStatic, Nullable`1 hashCode)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)", Program: "#TSTO112B_Subscriber".
+ <15> 13/10/2018 19:49:49.250     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.WriteDotnetExceptionToLog(Exception exception, Object obj, String opcode, String memberName)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateDotNetOperation(Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resManagedVal)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateOpcode(TaskBase currTask, Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resultVal)
+   at com.magicsoftware.rte.RteExecutor.EvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorEndpoint.InvokeEvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorBridge.EvaluateOpcode(RteExecutorBridge* , Int32 taskID, Int32 opCode, UnmanagedExpVal* expVals, Int32 size, UnmanagedExpVal* resVal), Program: "#TSTO112B_Subscriber".
+ <15> 13/10/2018 19:49:49.259     [Error  ] - [MgGui.dll] DNObjectCollectionIsn: "11" Method: "Dispose" Exception: "System.NullReferenceException: Object reference not set to an instance of an object.
+   at com.magicsoftware.unipaas.util.ReflectionServices.GetMemeberInfo(Type type, String name, Boolean isStatic, Nullable`1 hashCode)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)", Program: "#TSTO112B_Subscriber".
+ <15> 13/10/2018 19:49:49.268     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.WriteDotnetExceptionToLog(Exception exception, Object obj, String opcode, String memberName)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateDotNetOperation(Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resManagedVal)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateOpcode(TaskBase currTask, Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resultVal)
+   at com.magicsoftware.rte.RteExecutor.EvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorEndpoint.InvokeEvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorBridge.EvaluateOpcode(RteExecutorBridge* , Int32 taskID, Int32 opCode, UnmanagedExpVal* expVals, Int32 size, UnmanagedExpVal* resVal), Program: "#TSTO112B_Subscriber".
+ <14> 13/10/2018 19:50:08.721     [Error  ] - [MgGui.dll] DNObjectCollectionIsn: "7" Method: "Dispose" Exception: "System.NullReferenceException: Object reference not set to an instance of an object.
+   at com.magicsoftware.unipaas.util.ReflectionServices.GetMemeberInfo(Type type, String name, Boolean isStatic, Nullable`1 hashCode)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)", Program: "#TSTO112A_Publisher".
+ <14> 13/10/2018 19:50:08.734     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.WriteDotnetExceptionToLog(Exception exception, Object obj, String opcode, String memberName)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateDotNetOperation(Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resManagedVal)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateOpcode(TaskBase currTask, Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resultVal)
+   at com.magicsoftware.rte.RteExecutor.EvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorEndpoint.InvokeEvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorBridge.EvaluateOpcode(RteExecutorBridge* , Int32 taskID, Int32 opCode, UnmanagedExpVal* expVals, Int32 size, UnmanagedExpVal* resVal), Program: "#TSTO112A_Publisher".
+ <-1> 13/10/2018 19:50:31.863     [Error  ] - Failed to Load Assembly : "C:\xpa\samples\XpaDemo\XpaDemo\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 13/10/2018 19:50:31.938     [Error  ] - Failed to Load Assembly : "C:\xpa\samples\XpaDemo\XpaDemo\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 13/10/2018 19:50:32.093     [Error  ] - Failed to Load Assembly : "C:\Magic\XpaDemo\XpaDemo\external\Dotnet\XpaTQueue\SenderConsole\bin\Debug\Apache.NMS.dll"
+"Could not load file or assembly 'Apache.NMS.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 13/10/2018 19:50:32.159     [Error  ] - Failed to Load Assembly : "C:\Magic\XpaDemo\XpaDemo\external\Dotnet\XpaTQueue\SenderConsole\bin\Debug\Apache.NMS.ActiveMQ.dll"
+"Could not load file or assembly 'Apache.NMS.ActiveMQ.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 13/10/2018 19:50:32.247     [Error  ] - Failed to Load Assembly : "C:\Magic\XpaDemo\XpaDemo\external\Dotnet\XpaTQueue\SenderConsole\bin\Debug\Apache.NMS.dll"
+"Could not load file or assembly 'Apache.NMS.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 13/10/2018 19:50:32.310     [Error  ] - Failed to Load Assembly : "C:\Magic\XpaDemo\XpaDemo\external\Dotnet\XpaTQueue\SenderConsole\bin\Debug\Apache.NMS.ActiveMQ.dll"
+"Could not load file or assembly 'Apache.NMS.ActiveMQ.dll' or one of its dependencies. The system cannot find the path specified."
+ <9> 13/10/2018 19:50:35.992     [Error  ] - [MgGui.dll] System.IO.FileNotFoundException : 
+   at com.magicsoftware.unipaas.util.ReflectionServices.CreateInstance(Type type, ConstructorInfo constructorInfo, Object[] parameters)
+   at com.magicsoftware.unipaas.gui.low.GuiInteractiveBase.onReflectionInvoke()
+   at com.magicsoftware.unipaas.gui.low.GuiInteractiveBase.Run()
+Could not load file or assembly 'Apache.NMS.ActiveMQ, Version=1.7.2.4108, Culture=neutral, PublicKeyToken=82756feee3957618' or one of its dependencies. The system cannot find the file specified., Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:50:36.003     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(Exception ex)
+   at com.magicsoftware.unipaas.gui.low.GuiInteractiveBase.Run()
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at System.Windows.Forms.Control.InvokeMarshaledCallbackDo(ThreadMethodEntry tme)
+   at System.Windows.Forms.Control.InvokeMarshaledCallbackHelper(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Windows.Forms.Control.InvokeMarshaledCallback(ThreadMethodEntry tme)
+   at System.Windows.Forms.Control.InvokeMarshaledCallbacks()
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.Form.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at com.magicsoftware.unipaas.gui.low.GUIMain.messageLoop()
+   at com.magicsoftware.unipaas.Manager.MessageLoop()
+   at com.magicsoftware.rte.RTEmanager.ExecuteMainThread(String args)
+   at com.magicsoftware.rte.RTEmanager.Main(), Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:50:36.028     [Error  ] - [MgGui.dll] FieldIdx: "" ctor Exception: "System.IO.FileNotFoundException: Could not load file or assembly 'Apache.NMS.ActiveMQ, Version=1.7.2.4108, Culture=neutral, PublicKeyToken=82756feee3957618' or one of its dependencies. The system cannot find the file specified.
+File name: 'Apache.NMS.ActiveMQ, Version=1.7.2.4108, Culture=neutral, PublicKeyToken=82756feee3957618'
+   at com.magicsoftware.unipaas.util.ReflectionServices.CreateInstance(Type type, ConstructorInfo constructorInfo, Object[] parameters)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_ctor(ExpVal resVal, ExpVal[] Exp_params)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+", Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:50:36.056     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.WriteDotnetExceptionToLog(Exception exception, Object obj, String opcode, String memberName)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_ctor(ExpVal resVal, ExpVal[] Exp_params)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateDotNetOperation(Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resManagedVal)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateOpcode(TaskBase currTask, Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resultVal)
+   at com.magicsoftware.rte.RteExecutor.EvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorEndpoint.InvokeEvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorBridge.EvaluateOpcode(RteExecutorBridge* , Int32 taskID, Int32 opCode, UnmanagedExpVal* expVals, Int32 size, UnmanagedExpVal* resVal), Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:50:41.340     [Error  ] - [MgGui.dll] DNObjectCollectionIsn: "7" Method: "SendMessage" Exception: "System.NullReferenceException: Object reference not set to an instance of an object.
+   at com.magicsoftware.unipaas.util.ReflectionServices.GetMemeberInfo(Type type, String name, Boolean isStatic, Nullable`1 hashCode)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)", Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:50:41.350     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.WriteDotnetExceptionToLog(Exception exception, Object obj, String opcode, String memberName)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateDotNetOperation(Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resManagedVal)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateOpcode(TaskBase currTask, Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resultVal)
+   at com.magicsoftware.rte.RteExecutor.EvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorEndpoint.InvokeEvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorBridge.EvaluateOpcode(RteExecutorBridge* , Int32 taskID, Int32 opCode, UnmanagedExpVal* expVals, Int32 size, UnmanagedExpVal* resVal), Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:51:07.046     [Error  ] - [MgGui.dll] DNObjectCollectionIsn: "7" Method: "Dispose" Exception: "System.NullReferenceException: Object reference not set to an instance of an object.
+   at com.magicsoftware.unipaas.util.ReflectionServices.GetMemeberInfo(Type type, String name, Boolean isStatic, Nullable`1 hashCode)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)", Program: "#TSTO112A_Publisher".
+ <9> 13/10/2018 19:51:07.061     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.WriteDotnetExceptionToLog(Exception exception, Object obj, String opcode, String memberName)
+   at com.magicsoftware.unipaas.management.exp.GuiExpressionEvaluator.eval_op_dn_method(ExpVal resVal, ExpVal[] expParams)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateDotNetOperation(Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resManagedVal)
+   at com.magicsoftware.rte.exp.RteExpressionEvaluator.EvaluateOpcode(TaskBase currTask, Int32 opcode, ManagedExpVal[] managedExpVals, ManagedExpVal& resultVal)
+   at com.magicsoftware.rte.RteExecutor.EvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorEndpoint.InvokeEvaluateOpcode(Int32 taskID, Int32 opCode, IntPtr expVals, Int32 size, IntPtr& resVal)
+   at RteExecutorBridge.EvaluateOpcode(RteExecutorBridge* , Int32 taskID, Int32 opCode, UnmanagedExpVal* expVals, Int32 size, UnmanagedExpVal* resVal), Program: "#TSTO112A_Publisher".

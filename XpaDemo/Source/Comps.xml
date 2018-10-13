@@ -5,7 +5,7 @@
     <Version val="13030.00"/>
     <WithIsn val="Y"/>
     <Exe comp="-1"/>
-    <LastIsn val="20"/>
+    <LastIsn val="22"/>
     <LastIsnFolder val="2"/>
     <Folders>
       <Folder id="2">
@@ -639,12 +639,10 @@
             <PublicName val="AES_DeriveKey"/>
           </Object>
           <Object>
-            <id val="13"/>
             <ItemIsn val="9"/>
             <PublicName val="AES_Encrypt (mgcrypt)"/>
           </Object>
           <Object>
-            <id val="14"/>
             <ItemIsn val="10"/>
             <PublicName val="AES_Encrypt (magic)"/>
           </Object>
@@ -675,6 +673,56 @@
         <AssemblyPath val="%XPATEST_HOME%XpaTHttpDNet.dll"/>
         <UseSpecificVersion val="N"/>
         <isGuiThreadExecution val="N"/>
+      </Component>
+      <Component FolderIsn="1" id="22" name="XpaTQueue">
+        <Description val="XpaDemo project XpaTQueue component"/>
+        <ComponentType val="Magic xpa"/>
+        <Type val="U"/>
+        <LoadImmediate val="N"/>
+        <LastISN val="6"/>
+        <CompId val="2116376599-42747-18026-9C77B5814"/>
+        <Revision val="1.0"/>
+        <MciFile val="C:\Magic\XpaDemo\XpaDemo\Components\XpaTQueue\XpaTQueue.eci"/>
+        <ProjectFile val="C:\Magic\XpaDemo\XpaDemo\Components\XpaTQueue\XpaTQueue.edp"/>
+        <CABINET_FILE val="%Components%XpaTQueue.ecf"/>
+        <ComponentPrograms>
+          <Object>
+            <id val="6"/>
+            <ItemIsn val="1"/>
+            <PublicName val="#TSTO100A_ReceiveEvents"/>
+          </Object>
+          <Object>
+            <id val="5"/>
+            <ItemIsn val="2"/>
+            <PublicName val="#TSTO100B_ReceiveEvents"/>
+          </Object>
+          <Object>
+            <id val="7"/>
+            <ItemIsn val="3"/>
+            <PublicName val="#TSTO100C_ReceiveEvents"/>
+          </Object>
+          <Object>
+            <id val="11"/>
+            <ItemIsn val="4"/>
+            <PublicName val="#TSTB100_Start"/>
+          </Object>
+          <Object>
+            <id val="14"/>
+            <ItemIsn val="5"/>
+            <PublicName val="#TSTO112A_Publisher"/>
+          </Object>
+          <Object>
+            <id val="10"/>
+            <ItemIsn val="6"/>
+            <PublicName val="#TSTO112B_Subscriber"/>
+          </Object>
+        </ComponentPrograms>
+      </Component>
+      <Component FolderIsn="1" id="21">
+        <ComponentType val="Magic xpa"/>
+        <Type val="U"/>
+        <LoadImmediate val="N"/>
+        <LastISN val="32"/>
       </Component>
     </Components>
     <Aliases LastIsnAliases="6">

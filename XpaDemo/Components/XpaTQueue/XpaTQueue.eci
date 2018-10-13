@@ -1,0 +1,23 @@
+       // Magic ECI Generator                                          //
+       // Created by   :----No User logged in----         //
+       // Created Date :13/10/2018 Time :19:19:51              //
+       // File Name    :C:\Magic\XpaDemo\XpaDemo\Components\XpaTQueue\XpaTQueue.eci         //
+COMPID = 2116376599-42747-18026-9C77B5814
+NAME = "XpaTQueue"
+DESC = "XpaDemo project XpaTQueue component"
+COMPTYPE = "Magic xpa"
+IMMED = "N"
+PROJECTFILE = "C:\Magic\XpaDemo\XpaDemo\Components\XpaTQueue\XpaTQueue.edp"
+CABINETFILE = "%Components%XpaTQueue.ecf"
+VRSN = 1.0
+HLPFILE = ""
+HLPKEY = ""
+
+PRG=PUBLIC="#TSTO100A_ReceiveEvents" RMK="" HELPKEY=""
+PRG=PUBLIC="#TSTO100B_ReceiveEvents" RMK="" HELPKEY=""
+PRG=PUBLIC="#TSTO100C_ReceiveEvents" RMK="" HELPKEY=""
+PRG=PUBLIC="#TSTB100_Start" RMK="" HELPKEY=""
+PRG=PUBLIC="#TSTO112A_Publisher" RMK="" HELPKEY=""
+PRG=PUBLIC="#TSTO112B_Subscriber" RMK="" HELPKEY=""
+
+[ENVIRONMENT]

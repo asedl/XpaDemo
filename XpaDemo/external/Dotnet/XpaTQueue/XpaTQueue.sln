@@ -3,11 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XpaTQueue", "XpaTQueue\XpaTQueue.csproj", "{55D1E6E5-4D09-4F78-BF75-77DD9F1630D1}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{234FBC6B-4EFF-4FB4-8A61-EC9D33D74F20}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SenderConsole", "SenderConsole\SenderConsole.csproj", "{AD96BDD4-814C-4976-A485-F4AB335FCE39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XpaTQueue", "XpaTQueue\XpaTQueue.csproj", "{55D1E6E5-4D09-4F78-BF75-77DD9F1630D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +15,6 @@ Global
 		{55D1E6E5-4D09-4F78-BF75-77DD9F1630D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55D1E6E5-4D09-4F78-BF75-77DD9F1630D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55D1E6E5-4D09-4F78-BF75-77DD9F1630D1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{234FBC6B-4EFF-4FB4-8A61-EC9D33D74F20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{234FBC6B-4EFF-4FB4-8A61-EC9D33D74F20}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{234FBC6B-4EFF-4FB4-8A61-EC9D33D74F20}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{234FBC6B-4EFF-4FB4-8A61-EC9D33D74F20}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AD96BDD4-814C-4976-A485-F4AB335FCE39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AD96BDD4-814C-4976-A485-F4AB335FCE39}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AD96BDD4-814C-4976-A485-F4AB335FCE39}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AD96BDD4-814C-4976-A485-F4AB335FCE39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -5,7 +5,7 @@
     <Version val="13030.00"/>
     <WithIsn val="Y"/>
     <Exe comp="-1"/>
-    <LastIsn val="29"/>
+    <LastIsn val="32"/>
     <LastIsnFolder val="0"/>
     <Folders/>
   </Header>
@@ -78,9 +78,9 @@
         <Type val="D"/>
         <LoadImmediate val="Y"/>
         <AssemblyName val="Apache.NMS, Version=1.7.1.3894, Culture=neutral, PublicKeyToken=82756feee3957618"/>
-        <AssemblyPath val="C:\Magic\XpaDemo\XpaDemo\external\Dotnet\XpaTQueue\SenderConsole\bin\Debug\Apache.NMS.dll"/>
+        <AssemblyPath val="C:\Apache\apache-activemq-5.15.6\Apache.NMS-1.7.1-bin\net-4.0\release\Apache.NMS.dll"/>
         <UseSpecificVersion val="N"/>
-        <isGuiThreadExecution val="Y"/>
+        <isGuiThreadExecution val="N"/>
       </Component>
       <Component id="13" name="Apache.NMS.ActiveMQ">
         <Description val="Apache.NMS.ActiveMQ"/>
@@ -88,7 +88,17 @@
         <Type val="D"/>
         <LoadImmediate val="Y"/>
         <AssemblyName val="Apache.NMS.ActiveMQ, Version=1.7.2.4108, Culture=neutral, PublicKeyToken=82756feee3957618"/>
-        <AssemblyPath val="C:\Magic\XpaDemo\XpaDemo\external\Dotnet\XpaTQueue\SenderConsole\bin\Debug\Apache.NMS.ActiveMQ.dll"/>
+        <AssemblyPath val="C:\Apache\apache-activemq-5.15.6\Apache.NMS.ActiveMQ-1.7.2-bin\build\net-4.0\release\Apache.NMS.ActiveMQ.dll"/>
+        <UseSpecificVersion val="N"/>
+        <isGuiThreadExecution val="N"/>
+      </Component>
+      <Component id="30" name="XpaTQueue">
+        <Description val="XpaTQueue"/>
+        <ComponentType val=".NET"/>
+        <Type val="D"/>
+        <LoadImmediate val="Y"/>
+        <AssemblyName val="XpaTQueue, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+        <AssemblyPath val="C:\Magic\XpaDemo\XpaDemo\external\Dotnet\XpaTQueue\XpaTQueue\bin\Debug\netstandard2.0\XpaTQueue.dll"/>
         <UseSpecificVersion val="N"/>
         <isGuiThreadExecution val="Y"/>
       </Component>

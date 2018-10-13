@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Connection:keep-alive
+ Access-Control-Allow-Origin:*
+ Access-Control-Allow-Credentials:true
+ Content-Length:99
+ Content-Type:application/json
+ Date:Sat, 06 Oct 2018 19:09:28 GMT
+ Server:gunicorn/19.9.0
+ Via:1.1 vegur
+ 

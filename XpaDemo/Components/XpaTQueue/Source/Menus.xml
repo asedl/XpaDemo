@@ -322,7 +322,7 @@
           <Prompt comp="-1"/>
           <Menu>
             <MenuType val="1"/>
-            <LastIsn val="2"/>
+            <LastIsn val="5"/>
             <MenuEntry id="2">
               <MenuType val="2"/>
               <Description_U val="#TSTO100A"/>
@@ -330,6 +330,27 @@
               <Help comp="-1"/>
               <Prompt comp="-1"/>
               <Program ObjIsn="6" comp="-1" obj="6"/>
+              <SourceContext val="67"/>
+            </MenuEntry>
+            <MenuEntry id="3">
+              <MenuType val="5"/>
+            </MenuEntry>
+            <MenuEntry id="4">
+              <MenuType val="2"/>
+              <Description_U val="#TSTO112 Start Publisher"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Program ObjIsn="14" comp="-1" obj="14"/>
+              <SourceContext val="67"/>
+            </MenuEntry>
+            <MenuEntry id="5">
+              <MenuType val="2"/>
+              <Description_U val="#TSTO112 Start Subscriber"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Program ObjIsn="10" comp="-1" obj="10"/>
               <SourceContext val="67"/>
             </MenuEntry>
           </Menu>

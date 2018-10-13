@@ -28,12 +28,12 @@
           <RunProjectAs val="O"/>
           <FormType val="N"/>
           <DotNetObjectExists val="Y"/>
-          <LastModified _date="736979" _time="47570" date="12/10/2018" time="13:12:50"/>
+          <LastModified _date="736980" _time="62366" date="13/10/2018" time="17:19:26"/>
         </Header>
         <ItemIsn val="3"/>
         <Resource>
           <Columns>
-            <Column id="1" name="??">
+            <Column id="1" name="gv.XpatQueueObject">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_BLOB" id="1"/>
                 <Size id="174" val="28"/>
