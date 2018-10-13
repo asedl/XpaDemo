@@ -1,6 +1,0 @@
-C:\xpa\samples\XpaDemo\XpaDemo\external\Dotnet\XpaTHttpDNet\XpaTHttpDNet\obj\Release\XpaTHttpDNet.csprojAssemblyReference.cache
-C:\xpa\samples\XpaDemo\XpaDemo\external\Dotnet\XpaTHttpDNet\XpaTHttpDNet\bin\Release\XpaTHttpDNet.dll
-C:\xpa\samples\XpaDemo\XpaDemo\external\Dotnet\XpaTHttpDNet\XpaTHttpDNet\bin\Release\XpaTHttpDNet.pdb
-C:\xpa\samples\XpaDemo\XpaDemo\external\Dotnet\XpaTHttpDNet\XpaTHttpDNet\obj\Release\XpaTHttpDNet.csproj.CoreCompileInputs.cache
-C:\xpa\samples\XpaDemo\XpaDemo\external\Dotnet\XpaTHttpDNet\XpaTHttpDNet\obj\Release\XpaTHttpDNet.dll
-C:\xpa\samples\XpaDemo\XpaDemo\external\Dotnet\XpaTHttpDNet\XpaTHttpDNet\obj\Release\XpaTHttpDNet.pdb

@@ -1,0 +1,4 @@
+﻿ <-1> 13/10/2018 21:45:31.984     [Error  ] - Failed to Load Assembly : "C:\xpa\samples\XpaDemo\XpaDemo\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 13/10/2018 21:45:32.069     [Error  ] - Failed to Load Assembly : "C:\xpa\samples\XpaDemo\XpaDemo\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."

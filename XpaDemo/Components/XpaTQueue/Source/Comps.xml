@@ -5,7 +5,7 @@
     <Version val="13030.00"/>
     <WithIsn val="Y"/>
     <Exe comp="-1"/>
-    <LastIsn val="32"/>
+    <LastIsn val="35"/>
     <LastIsnFolder val="0"/>
     <Folders/>
   </Header>
@@ -68,7 +68,7 @@
         <Type val="D"/>
         <LoadImmediate val="Y"/>
         <AssemblyName val="XpaTHttpDNet, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
-        <AssemblyPath val="C:\Magic\XpaDemo\XpaDemo\XpaTHttpDNet.dll"/>
+        <AssemblyPath val="C:\MagicProjects\XpaDemo\bin\XpaTHttpDNet.dll"/>
         <UseSpecificVersion val="N"/>
         <isGuiThreadExecution val="N"/>
       </Component>
@@ -78,9 +78,9 @@
         <Type val="D"/>
         <LoadImmediate val="Y"/>
         <AssemblyName val="Apache.NMS, Version=1.7.1.3894, Culture=neutral, PublicKeyToken=82756feee3957618"/>
-        <AssemblyPath val="C:\Apache\apache-activemq-5.15.6\Apache.NMS-1.7.1-bin\net-4.0\release\Apache.NMS.dll"/>
+        <AssemblyPath val="%XPATEST_HOME%bin\Apache.NMS.dll"/>
         <UseSpecificVersion val="N"/>
-        <isGuiThreadExecution val="N"/>
+        <isGuiThreadExecution val="Y"/>
       </Component>
       <Component id="13" name="Apache.NMS.ActiveMQ">
         <Description val="Apache.NMS.ActiveMQ"/>
@@ -88,9 +88,9 @@
         <Type val="D"/>
         <LoadImmediate val="Y"/>
         <AssemblyName val="Apache.NMS.ActiveMQ, Version=1.7.2.4108, Culture=neutral, PublicKeyToken=82756feee3957618"/>
-        <AssemblyPath val="C:\Apache\apache-activemq-5.15.6\Apache.NMS.ActiveMQ-1.7.2-bin\build\net-4.0\release\Apache.NMS.ActiveMQ.dll"/>
+        <AssemblyPath val="%XPATEST_HOME%bin\Apache.NMS.ActiveMQ.dll"/>
         <UseSpecificVersion val="N"/>
-        <isGuiThreadExecution val="N"/>
+        <isGuiThreadExecution val="Y"/>
       </Component>
       <Component id="30" name="XpaTQueue">
         <Description val="XpaTQueue"/>
@@ -98,7 +98,7 @@
         <Type val="D"/>
         <LoadImmediate val="Y"/>
         <AssemblyName val="XpaTQueue, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
-        <AssemblyPath val="C:\Magic\XpaDemo\XpaDemo\external\Dotnet\XpaTQueue\XpaTQueue\bin\Debug\netstandard2.0\XpaTQueue.dll"/>
+        <AssemblyPath val="%XPATEST_HOME%bin\XpaTQueue.dll"/>
         <UseSpecificVersion val="N"/>
         <isGuiThreadExecution val="Y"/>
       </Component>
