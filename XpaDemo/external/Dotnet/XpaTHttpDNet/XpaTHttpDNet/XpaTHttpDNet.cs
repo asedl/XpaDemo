@@ -162,7 +162,7 @@ namespace XpaTHttpDNet
     public class AlarmClock
     {
         private bool snoozePressed = false;
-        private int nrings = 0;
+        private int nrings = 99;
         private bool stop = false;
 
         // The Stop property indicates whether the
@@ -213,6 +213,7 @@ namespace XpaTHttpDNet
         //
         public void Start()
         {
+/*
             for (; ; )
             {
                 nrings++;
@@ -234,6 +235,7 @@ namespace XpaTHttpDNet
                     OnAlarm(e);
                 }
             }
+            */
         }
 
         public void ManualEvent() {

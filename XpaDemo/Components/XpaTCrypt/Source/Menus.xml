@@ -594,7 +594,7 @@
           <Prompt comp="-1"/>
           <Menu>
             <MenuType val="1"/>
-            <LastIsn val="19"/>
+            <LastIsn val="22"/>
             <MenuEntry id="11">
               <MenuType val="2"/>
               <Description_U val="TSTO001_SHA-256"/>
@@ -673,6 +673,43 @@
               <Help comp="-1"/>
               <Prompt comp="-1"/>
               <Program ObjIsn="22" comp="-1" obj="22"/>
+              <SourceContext val="67"/>
+            </MenuEntry>
+            <MenuEntry id="20">
+              <MenuType val="2"/>
+              <Description_U val="TST0998_Crypt32"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Program ObjIsn="23" comp="-1" obj="23"/>
+              <SourceContext val="67"/>
+            </MenuEntry>
+            <MenuEntry id="21">
+              <MenuType val="2"/>
+              <Description_U val="TST0997_Blobtest1"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Program ObjIsn="24" comp="-1" obj="24"/>
+              <Arguments>
+                <Argument>
+                  <Skip val="Y"/>
+                </Argument>
+              </Arguments>
+              <SourceContext val="67"/>
+            </MenuEntry>
+            <MenuEntry id="22">
+              <MenuType val="2"/>
+              <Description_U val="TST0997_Blobtest2"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Program ObjIsn="25" comp="-1" obj="25"/>
+              <Arguments>
+                <Argument>
+                  <Skip val="Y"/>
+                </Argument>
+              </Arguments>
               <SourceContext val="67"/>
             </MenuEntry>
           </Menu>

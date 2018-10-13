@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="13030.00"/>
+    <WithIsn val="Y"/>
+    <_InternalTask val="N"/>
+    <IsRoot val="N"/>
+    <InIndex val="N"/>
+    <UniqueISNConvState val="12"/>
+  </Header>
+
+  <ProgramsRepository>
+    <Programs>
+      <Task MainProgram="N">
+        <Header Description="#TSTO110_ApacheMQ_Send" ISN_2="1" LastIsn="1" id="9">
+          <ExecutionRight comp="-1"/>
+          <Resident val="N"/>
+          <SQL val="N"/>
+          <ReturnValue>
+            <ReturnValueAttr/>
+            <ParametersAttributes/>
+          </ReturnValue>
+          <SqlWhereExist val="N"/>
+          <TaskType val="O"/>
+          <External val="N"/>
+          <Offline val="N"/>
+          <FormType val="N"/>
+          <DotNetObjectExists val="Y"/>
+          <LastModified _date="736980" _time="5662" date="13/10/2018" time="01:34:22"/>
+        </Header>
+        <Resource>
+          <Columns/>
+        </Resource>
+        <Information>
+          <Key>
+            <Mode val="N"/>
+          </Key>
+          <DB comp="-1"/>
+          <Sort>
+            <CLS val="A"/>
+          </Sort>
+          <ForceRecordDelete DEL="N"/>
+          <EndTaskCondition val="N"/>
+          <EvaluateEndCondition val="B"/>
+          <InitialMode val="M"/>
+          <Locate Direction="A"/>
+          <Range Direction="A"/>
+          <VarRange/>
+          <TaskProperties>
+            <SelectionTable val="N"/>
+            <ConfirmUpdate CNFU="N"/>
+            <ConfirmCancel val="N"/>
+            <ErrorStrategy val="R"/>
+            <LockingStrategy val="M"/>
+            <CacheStrategy val="D"/>
+            <ForceRecordSuffix val="N"/>
+            <TransactionMode val="D"/>
+            <TransactionBegin val="P"/>
+            <PreloadView val="N"/>
+            <AllowEmptyDataview val="Y"/>
+            <KeepCreatedContext val="N"/>
+          </TaskProperties>
+          <SIDE_WIN>
+            <AllowOptions val="Y"/>
+            <AllowQuery val="Y"/>
+            <AllowModify val="Y"/>
+            <AllowCreate val="Y"/>
+            <AllowDelete val="Y"/>
+            <AllowLocate val="Y"/>
+            <AllowRange val="Y"/>
+            <AllowIndexChange val="Y"/>
+            <AllowSorting val="Y"/>
+            <AllowIOFiles val="Y"/>
+            <RecordCycle val="Y"/>
+            <AllowEvents val="Y"/>
+            <AllowIndexOptimization val="Y"/>
+            <AllowLocationInQuery val="Y"/>
+            <AllowPrintingData val="N"/>
+          </SIDE_WIN>
+          <WIN>
+            <OpenTaskWindow val="Y"/>
+            <CloseTaskWindow val="Y"/>
+            <ForegroundWindow val="Y"/>
+            <FlipFld val="N"/>
+            <RefreshTaskWindow ReturnValue="N"/>
+          </WIN>
+          <BOX>
+            <Direction val="V"/>
+          </BOX>
+        </Information>
+        <TaskLogic>
+          <LogicUnit id="1" propagate="78">
+            <Level val="R"/>
+            <Type val="M"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="S"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <LogicLines>
+              <LogicLine>
+                <DATAVIEW_SRC FlowIsn="1" Type="M">
+                  <Condition val="N"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </DATAVIEW_SRC>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="3" propagate="78">
+            <Level val="H"/>
+            <Type val="U"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="U"/>
+              <PublicObject comp="-1" obj="1"/>
+            </Event>
+            <Expanded val="1"/>
+            <LogicLines>
+              <LogicLine>
+                <Remark FlowIsn="3">
+                  <Type val="2"/>
+                  <Text val=" "/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <Invoke FlowIsn="4">
+                  <OperationType val="."/>
+                  <TaskID comp="-1"/>
+                  <Lock val="N"/>
+                  <Arguments>
+                    <Argument>
+                      <Skip val="N"/>
+                      <DotNetType val="void"/>
+                    </Argument>
+                  </Arguments>
+                  <Wait val="Y"/>
+                  <SyncData val="N"/>
+                  <FunctionName val="func"/>
+                  <SnippetCode val="using System;&#xA;using System.Collections.Generic;&#xA;using System.Text;&#xA;&#xA;using Apache.NMS;&#xA;using Apache.NMS.Util;&#xA;&#xA;public static class Snippet&#xA;{&#xA;&#x9;public static void func()&#xA;&#x9;{&#xA;&#x9;&#x9;String sUri = &quot;activemq:tcp://localhost:61616&quot;;&#xA;&#x9;&#x9;AMQConnector.Connect(sUri);&#xA;&#x9;}&#xA;&#xA;}&#xA;&#xA;public class AMQConnector&#xA;{&#xA;    public static void Connect(String sUri)&#xA;    {&#xA;        Uri connecturi = new Uri(sUri);        &#xA;        IConnectionFactory factory = new NMSConnectionFactory(connecturi);&#xA;        using(IConnection connection = factory.CreateConnection())&#xA;        using(ISession session = connection.CreateSession())&#xA;        {&#xA;            IDestination destination = SessionUtil.GetDestination(session, &quot;queue://Magic.AMQConnector&quot;);&#xA;&#xA;            // Create a producer&#xA;            using(IMessageProducer producer = session.CreateProducer(destination))&#xA;            {&#xA;                // Start the connection so that messages will be processed.&#xA;                connection.Start();&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;producer.DeliveryMode = MsgDeliveryMode.Persistent;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#xA;                // Send a message&#xA;                ITextMessage request = session.CreateTextMessage(&quot;Hello from Magic!&quot;);&#xA;                request.NMSCorrelationID = &quot;abc&quot;;&#xA;                request.Properties[&quot;NMSXGroupID&quot;] = &quot;cheese&quot;;&#xA;                request.Properties[&quot;myHeader&quot;] = &quot;Cheddar&quot;;&#xA;&#xA;                producer.Send(request);&#xA;            }&#xA;        }&#xA;    }&#xA;}&#xA;"/>
+                  <CompiledCode val="TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA4fug4AtAnNIbgBTM0hVGhpcyBwcm9ncmFtIGNhbm5vdCBiZSBydW4gaW4gRE9TIG1vZGUuDQ0KJAAAAAAAAABQRQAATAEDAHAvwVsAAAAAAAAAAOAAAiELAQsAAAgAAAAGAAAAAAAAzicAAAAgAAAAQAAAAAAAEAAgAAAAAgAABAAAAAAAAAAEAAAAAAAAAACAAAAAAgAAAAAAAAMAQIUAABAAABAAAAAAEAAAEAAAAAAAABAAAAAAAAAAAAAAAHwnAABPAAAAAEAAAKgCAAAAAAAAAAAAAAAAAAAAAAAAAGAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAACAAAAAAAAAAAAAAACCAAAEgAAAAAAAAAAAAAAC50ZXh0AAAA1AcAAAAgAAAACAAAAAIAAAAAAAAAAAAAAAAAACAAAGAucnNyYwAAAKgCAAAAQAAAAAQAAAAKAAAAAAAAAAAAAAAAAABAAABALnJlbG9jAAAMAAAAAGAAAAACAAAADgAAAAAAAAAAAAAAAAAAQAAAQgAAAAAAAAAAAAAAAAAAAACwJwAAAAAAAEgAAAACAAUAZCEAABgGAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABMwAQANAAAAAQAAEXIBAABwCgYoAgAABioAAAAbMAMAvAAAAAIAABECcwMAAAoKBhaNAQAAAXMEAAAKCwdvBQAACgwIbwYAAAoNCXI/AABwKAcAAAoTBAkRBG8IAAAKEwUIbwkAAAoRBRZvCgAACglydQAAcG8LAAAKEwYRBnKZAABwbwwAAAoRBm8NAAAKcqEAAHByuQAAcG8OAAAKEQZvDQAACnLHAABwctkAAHBvDgAAChEFEQZvDwAACt4MEQUsBxEFbxAAAArc3goJLAYJbxAAAArc3goILAYIbxAAAArcKgEoAAACADkAXpcADAAAAAACACIAg6UACgAAAAACABsAlrEACgAAAAAeAigRAAAKKkJTSkIBAAEAAAAAAAwAAAB2NC4wLjMwMzE5AAAAAAUAbAAAANQBAAAjfgAAQAIAADQCAAAjU3RyaW5ncwAAAAB0BAAA7AAAACNVUwBgBQAAEAAAACNHVUlEAAAAcAUAAKgAAAAjQmxvYgAAAAAAAAACAAABRxUCAAkAAAAA+iUzABYAAAEAAAARAAAAAwAAAAMAAAABAAAAEQAAAAIAAAACAAAAAQAAAAMAAAAAAAoAAQAAAAAABgA8ADUABgB7AFsABgCbAFsACgDCADUADgDRAMYADgDmAMYADgD5AMYADgAWAcYADgA9AS0BDgBJAcYADgBlAcYADgCFAcYADgCWAcYADgC3AcYADgDWAcYADgD0AcYABgAfAjUAAAAAAAEAAAAAAAEAAQCBARAAFwAAAAUAAQABAAEAEAAfAAAABQABAAIAUCAAAAAAlgBDAAoAAQBsIAAAAACWAEgADgABAFwhAAAAAIYYUAATAAIAAAABAFYAEQBQABcAGQBQABMAIQBQACAAKQBQAC4AMQAFATYAOQAfATsASQBWAUAAQQB2AUgAYQCQARMAWQCmAU8AQQDEAVUAeQDfASAAeQACAlsAgQARAmAAWQAaAmYAiQArAhMACQBQABMALgALAH0ALgATAIYAHABsAASAAAAAAAAAAAAAAAAAAAAAALkAAAAEAAAAAAAAAAAAAAABACwAAAAAAAQAAAAAAAAAAAAAAAEANQAAAAAAAQAHAAEANg8AAAAAJQDGAAAAAAAAAAA8TW9kdWxlPgBvZjF1dWZpai5kbGwAU25pcHBldABBTVFDb25uZWN0b3IAbXNjb3JsaWIAU3lzdGVtAE9iamVjdABmdW5jAENvbm5lY3QALmN0b3IAc1VyaQBTeXN0ZW0uUnVudGltZS5Db21waWxlclNlcnZpY2VzAENvbXBpbGF0aW9uUmVsYXhhdGlvbnNBdHRyaWJ1dGUAUnVudGltZUNvbXBhdGliaWxpdHlBdHRyaWJ1dGUAb2YxdXVmaWoAVXJpAEFwYWNoZS5OTVMATk1TQ29ubmVjdGlvbkZhY3RvcnkASUNvbm5lY3Rpb25GYWN0b3J5AElDb25uZWN0aW9uAENyZWF0ZUNvbm5lY3Rpb24ASVNlc3Npb24AQ3JlYXRlU2Vzc2lvbgBBcGFjaGUuTk1TLlV0aWwAU2Vzc2lvblV0aWwASURlc3RpbmF0aW9uAEdldERlc3RpbmF0aW9uAElNZXNzYWdlUHJvZHVjZXIAQ3JlYXRlUHJvZHVjZXIASVN0YXJ0YWJsZQBTdGFydABNc2dEZWxpdmVyeU1vZGUAc2V0X0RlbGl2ZXJ5TW9kZQBJVGV4dE1lc3NhZ2UAQ3JlYXRlVGV4dE1lc3NhZ2UASU1lc3NhZ2UAc2V0X05NU0NvcnJlbGF0aW9uSUQASVByaW1pdGl2ZU1hcABnZXRfUHJvcGVydGllcwBzZXRfSXRlbQBTZW5kAElEaXNwb3NhYmxlAERpc3Bvc2UAAAA9YQBjAHQAaQB2AGUAbQBxADoAdABjAHAAOgAvAC8AbABvAGMAYQBsAGgAbwBzAHQAOgA2ADEANgAxADYAADVxAHUAZQB1AGUAOgAvAC8ATQBhAGcAaQBjAC4AQQBNAFEAQwBvAG4AbgBlAGMAdABvAHIAACNIAGUAbABsAG8AIABmAHIAbwBtACAATQBhAGcAaQBjACEAAAdhAGIAYwAAF04ATQBTAFgARwByAG8AdQBwAEkARAAADWMAaABlAGUAcwBlAAARbQB5AEgAZQBhAGQAZQByAAAPQwBoAGUAZABkAGEAcgAAAAAAeF+I0nQTGki6XHSuk6TywAAIt3pcVhk04IkDAAABBAABAQ4DIAABBCABAQgDBwEOBCABAQ4IgnVv7uOVdhgHIAIBEhEdHAQgABIdBCAAEiEHAAISKRIhDgYgARItEikFIAEBETUFIAESOQ4EIAASQQUgAgEOHAUgAQESPRAHBxIREhkSHRIhEikSLRI5CAEACAAAAAAAHgEAAQBUAhZXcmFwTm9uRXhjZXB0aW9uVGhyb3dzAQAAAKQnAAAAAAAAAAAAAL4nAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwJwAAAAAAAAAAAAAAAF9Db3JEbGxNYWluAG1zY29yZWUuZGxsAAAAAAD/JQAgABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAQAAAAGAAAgAAAAAAAAAAAAAAAAAAAAQABAAAAMAAAgAAAAAAAAAAAAAAAAAAAAQAAAAAASAAAAFhAAABMAgAAAAAAAAAAAABMAjQAAABWAFMAXwBWAEUAUgBTAEkATwBOAF8ASQBOAEYATwAAAAAAvQTv/gAAAQAAAAAAAAAAAAAAAAAAAAAAPwAAAAAAAAAEAAAAAgAAAAAAAAAAAAAAAAAAAEQAAAABAFYAYQByAEYAaQBsAGUASQBuAGYAbwAAAAAAJAAEAAAAVAByAGEAbgBzAGwAYQB0AGkAbwBuAAAAAAAAALAErAEAAAEAUwB0AHIAaQBuAGcARgBpAGwAZQBJAG4AZgBvAAAAiAEAAAEAMAAwADAAMAAwADQAYgAwAAAALAACAAEARgBpAGwAZQBEAGUAcwBjAHIAaQBwAHQAaQBvAG4AAAAAACAAAAAwAAgAAQBGAGkAbABlAFYAZQByAHMAaQBvAG4AAAAAADAALgAwAC4AMAAuADAAAAA8AA0AAQBJAG4AdABlAHIAbgBhAGwATgBhAG0AZQAAAG8AZgAxAHUAdQBmAGkAagAuAGQAbABsAAAAAAAoAAIAAQBMAGUAZwBhAGwAQwBvAHAAeQByAGkAZwBoAHQAAAAgAAAARAANAAEATwByAGkAZwBpAG4AYQBsAEYAaQBsAGUAbgBhAG0AZQAAAG8AZgAxAHUAdQBmAGkAagAuAGQAbABsAAAAAAA0AAgAAQBQAHIAbwBkAHUAYwB0AFYAZQByAHMAaQBvAG4AAAAwAC4AMAAuADAALgAwAAAAOAAIAAEAQQBzAHMAZQBtAGIAbAB5ACAAVgBlAHIAcwBpAG8AbgAAADAALgAwAC4AMAAuADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAADAAAANA3AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="/>
+                  <SnippetLanguage val="C"/>
+                  <ForCompactFramework val="N"/>
+                  <isGuiThreadExecution val="Y"/>
+                  <CompileTime HighDateTime="30696068" LowDateTime="318939346"/>
+                  <AssemblyIds val="-279589575,1181783956,"/>
+                  <RetainFocus val="N"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Invoke>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+        </TaskLogic>
+        <TaskForms>
+          <FormEntry _last_isn="1" _last_test_id="1" id="1">
+            <PropertyList model="FORM_GUI0">
+              <_Comment id="218"/>
+              <FormName id="311" valUnicode="#TSTO110_ApacheMQ_Send"/>
+            </PropertyList>
+            <Control PDOD="128" _test_id="1" id="1">
+              <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+                <X id="21" val="10"/>
+                <Y id="22" val="180"/>
+                <Width id="23" val="112"/>
+                <Height id="24" val="14"/>
+                <Format id="82" valUnicode="Send Message"/>
+                <RaiseEvent id="234">
+                  <EventType val="U"/>
+                  <PublicObject comp="-1" obj="1"/>
+                </RaiseEvent>
+                <TabOrder id="314" val="1"/>
+              </PropertyList>
+            </Control>
+          </FormEntry>
+        </TaskForms>
+        <EVNT DESC="SendMessage" FORCE_EXIT="N" id="1">
+          <Event>
+            <EventType val="N"/>
+            <PublicObject comp="-1"/>
+          </Event>
+        </EVNT>
+      </Task>
+    </Programs>
+  </ProgramsRepository>
+
+</Application>

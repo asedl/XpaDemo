@@ -6,3 +6,9 @@ C:\xpa\samples\XpaDemo\XpaDemo\external\Dotnet\XpaTHttpDNet\XpaTHttpDNet\obj\Deb
 C:\xpa\samples\XpaDemo\XpaDemo\XpaTHttpDNet.dll
 C:\xpa\samples\XpaDemo\XpaDemo\XpaTHttpDNet.pdb
 C:\xpa\samples\XpaDemo\XpaDemo\external\Dotnet\XpaTHttpDNet\XpaTHttpDNet\obj\Debug\XpaTHttpDNet.csprojAssemblyReference.cache
+C:\Magic\XpaDemo\XpaDemo\external\Dotnet\XpaTHttpDNet\XpaTHttpDNet\obj\Debug\XpaTHttpDNet.csproj.CoreCompileInputs.cache
+C:\Magic\XpaDemo\XpaDemo\external\Dotnet\XpaTHttpDNet\XpaTHttpDNet\obj\Debug\XpaTHttpDNet.dll
+C:\Magic\XpaDemo\XpaDemo\external\Dotnet\XpaTHttpDNet\XpaTHttpDNet\obj\Debug\XpaTHttpDNet.pdb
+C:\Magic\XpaDemo\XpaDemo\XpaTHttpDNet.dll
+C:\Magic\XpaDemo\XpaDemo\XpaTHttpDNet.pdb
+C:\Magic\XpaDemo\XpaDemo\external\Dotnet\XpaTHttpDNet\XpaTHttpDNet\obj\Debug\XpaTHttpDNet.csprojResolveAssemblyReference.cache

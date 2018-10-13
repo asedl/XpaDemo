@@ -7,6 +7,67 @@
 
   <RIAExecutionPlatform Val="Desktop"/>
 
+  <Breakpoints>
+    <DelAll/>
+    <Breakpoint>
+      <Condition Val=""/>
+      <Location Val="TST0998_Crypt32"/>
+      <HandlerId Val="3"/>
+      <OperationId Val="10"/>
+      <LineIndex Val="3"/>
+      <HandlerDesc Val="Record Suffix"/>
+      <Count Val="0"/>
+      <Enable Val="1"/>
+      <Component1 Val="-230813863"/>
+      <Component2 Val="58150"/>
+      <Component3 Val="18832"/>
+      <Component4 Val="-813820767"/>
+      <Component5 Val="-60386614"/>
+      <Prog Val="23"/>
+      <Subtask Val="1"/>
+      <Type Val="1"/>
+      <Operation Val="10"/>
+    </Breakpoint>
+    <Breakpoint>
+      <Condition Val=""/>
+      <Location Val="TST0998_Crypt32"/>
+      <HandlerId Val="3"/>
+      <OperationId Val="24"/>
+      <LineIndex Val="5"/>
+      <HandlerDesc Val="Record Suffix"/>
+      <Count Val="0"/>
+      <Enable Val="1"/>
+      <Component1 Val="-230813863"/>
+      <Component2 Val="58150"/>
+      <Component3 Val="18832"/>
+      <Component4 Val="-813820767"/>
+      <Component5 Val="-60386614"/>
+      <Prog Val="23"/>
+      <Subtask Val="1"/>
+      <Type Val="1"/>
+      <Operation Val="24"/>
+    </Breakpoint>
+    <Breakpoint>
+      <Condition Val=""/>
+      <Location Val="TST0997_Blobtest1"/>
+      <HandlerId Val="3"/>
+      <OperationId Val="58"/>
+      <LineIndex Val="4"/>
+      <HandlerDesc Val="Record Suffix"/>
+      <Count Val="0"/>
+      <Enable Val="1"/>
+      <Component1 Val="-230813863"/>
+      <Component2 Val="58150"/>
+      <Component3 Val="18832"/>
+      <Component4 Val="-813820767"/>
+      <Component5 Val="-60386614"/>
+      <Prog Val="24"/>
+      <Subtask Val="1"/>
+      <Type Val="1"/>
+      <Operation Val="58"/>
+    </Breakpoint>
+  </Breakpoints>
+
   <WatchListItems>
     <RestData/>
   </WatchListItems>
