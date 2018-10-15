@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="13030.00"/>
+    <WithIsn val="Y"/>
+    <_InternalTask val="N"/>
+    <IsRoot val="N"/>
+    <InIndex val="N"/>
+    <UniqueISNConvState val="12"/>
+  </Header>
+
+  <ProgramsRepository>
+    <Programs>
+      <Task MainProgram="N">
+        <Header Description="BWCLN004_HttpGet(async)" ISN_2="1" LastIsn="1" id="19">
+          <ExecutionRight comp="-1"/>
+          <Resident val="N"/>
+          <SQL val="N"/>
+          <ReturnValue>
+            <ReturnValueAttr/>
+            <TSK_PARAMS val="4"/>
+            <ParametersAttributes>
+              <Attr MgAttr="A"/>
+              <Attr MgAttr="U"/>
+              <Attr MgAttr="U"/>
+              <Attr MgAttr="O"/>
+            </ParametersAttributes>
+          </ReturnValue>
+          <PARALLEL_EXECUTION>
+            <INITIATE_MAIN_PROG val="N"/>
+            <COPY_GLOBAL_PARAMS val="N"/>
+            <SingleInstance val="N"/>
+          </PARALLEL_EXECUTION>
+          <SqlWhereExist val="N"/>
+          <TaskType val="B"/>
+          <External val="N"/>
+          <Offline val="N"/>
+          <FormType val="N"/>
+          <DotNetObjectExists val="Y"/>
+          <LastModified _date="736844" _time="79877" date="30/05/2018" time="22:11:17"/>
+        </Header>
+        <ItemIsn val="9"/>
+        <Resource>
+          <Columns>
+            <Column id="1" name="pi.NotifyContext">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <Picture id="157" valUnicode="128"/>
+                <Size id="174" val="128"/>
+                <_Flip id="194"/>
+                <_FieldStyle id="276" val="1"/>
+              </PropertyList>
+            </Column>
+            <Column id="2" name="pi.Uri">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_UNICODE" comp="-1" id="1" obj="31"/>
+                <DbColumnName id="178"/>
+                <Type id="179"/>
+                <UserType id="180"/>
+              </PropertyList>
+            </Column>
+            <Column id="3" name="pi.ResponseFile">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_UNICODE" comp="-1" id="1" obj="29"/>
+                <DbColumnName id="178"/>
+                <Type id="179"/>
+                <UserType id="180"/>
+              </PropertyList>
+            </Column>
+            <Column id="4" name="po.Response">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_BLOB" id="1"/>
+                <StoredAs id="173" val="29"/>
+                <Size id="174" val="28"/>
+                <Definition id="175" val="1"/>
+                <_FieldStyle id="276" val="1"/>
+                <Content id="434" val="3"/>
+                <PartOfDataview id="449"/>
+              </PropertyList>
+            </Column>
+            <Column id="5" name="Filename_ResponseHeaders">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_UNICODE" comp="-1" id="1" obj="29"/>
+                <DbColumnName id="178"/>
+                <Type id="179"/>
+                <UserType id="180"/>
+              </PropertyList>
+            </Column>
+            <Column id="6" name="BlobUnicode">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_BLOB" id="1"/>
+                <StoredAs id="173" val="34"/>
+                <Size id="174" val="28"/>
+                <Definition id="175" val="1"/>
+                <_FieldStyle id="276" val="1"/>
+                <Content id="434" val="2"/>
+                <PartOfDataview id="449"/>
+              </PropertyList>
+            </Column>
+            <Column id="7" name="BlobHeaders">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_BLOB" id="1"/>
+                <StoredAs id="173" val="33"/>
+                <Size id="174" val="28"/>
+                <Definition id="175" val="1"/>
+                <_FieldStyle id="276" val="1"/>
+                <Content id="434" val="1"/>
+                <PartOfDataview id="449"/>
+              </PropertyList>
+            </Column>
+            <Column id="8" name="Success">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_LOGICAL" id="1"/>
+                <_FieldStyle id="276" val="1"/>
+              </PropertyList>
+            </Column>
+            <Column id="9" name="nSizeResponse">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_NUMERIC" id="1"/>
+                <Picture id="157" valUnicode="9"/>
+                <_Dec id="181"/>
+                <_Whole id="182" val="9"/>
+                <_Negative id="192"/>
+                <_FieldStyle id="276" val="1"/>
+              </PropertyList>
+            </Column>
+          </Columns>
+        </Resource>
+        <Information>
+          <Key>
+            <Mode val="N"/>
+          </Key>
+          <DB comp="-1"/>
+          <Sort>
+            <CLS val="A"/>
+          </Sort>
+          <ForceRecordDelete DEL="N"/>
+          <EndTaskCondition val="Y"/>
+          <EvaluateEndCondition val="A"/>
+          <InitialMode val="M"/>
+          <Locate Direction="A"/>
+          <Range Direction="A"/>
+          <VarRange/>
+          <TaskProperties>
+            <SelectionTable val="N"/>
+            <ConfirmUpdate CNFU="N"/>
+            <ConfirmCancel val="N"/>
+            <ErrorStrategy val="A"/>
+            <LockingStrategy val="M"/>
+            <CacheStrategy val="T"/>
+            <ForceRecordSuffix val="N"/>
+            <TransactionMode val="P"/>
+            <TransactionBegin val="N"/>
+            <PreloadView val="N"/>
+            <AllowEmptyDataview val="N"/>
+            <KeepCreatedContext val="N"/>
+          </TaskProperties>
+          <SIDE_WIN>
+            <AllowOptions val="N"/>
+            <AllowQuery val="Y"/>
+            <AllowModify val="Y"/>
+            <AllowCreate val="Y"/>
+            <AllowDelete val="Y"/>
+            <AllowLocate val="Y"/>
+            <AllowRange val="Y"/>
+            <AllowIndexChange val="Y"/>
+            <AllowSorting val="Y"/>
+            <AllowIOFiles val="Y"/>
+            <RecordCycle val="Y"/>
+            <AllowEvents val="Y"/>
+            <AllowIndexOptimization val="Y"/>
+            <AllowLocationInQuery val="Y"/>
+            <AllowPrintingData val="N"/>
+          </SIDE_WIN>
+          <WIN>
+            <OpenTaskWindow val="N"/>
+            <CloseTaskWindow val="Y"/>
+            <ForegroundWindow val="Y"/>
+            <FlipFld val="N"/>
+            <RefreshTaskWindow ReturnValue="N"/>
+          </WIN>
+          <BOX>
+            <Direction val="V"/>
+          </BOX>
+        </Information>
+        <TaskLogic>
+          <LogicUnit id="2" propagate="78">
+            <Level val="R"/>
+            <Type val="M"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="S"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <LogicLines>
+              <LogicLine>
+                <DATAVIEW_SRC FlowIsn="2" Type="M">
+                  <Condition val="N"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </DATAVIEW_SRC>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="3">
+                  <Type val="0"/>
+                  <Text val="Note: Parallel execution"/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="4">
+                  <Type val="0"/>
+                  <Text val=" "/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="1" FlowIsn="5" id="1">
+                  <Column val="1"/>
+                  <Type val="V"/>
+                  <IsParameter val="Y"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="2" FlowIsn="6" id="2">
+                  <Column val="2"/>
+                  <Type val="V"/>
+                  <IsParameter val="Y"/>
+                  <DIFF_UPDATE val="T"/>
+                  <PartOfDataview val="N"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="3" FlowIsn="7" id="3">
+                  <Column val="3"/>
+                  <Type val="V"/>
+                  <IsParameter val="Y"/>
+                  <DIFF_UPDATE val="T"/>
+                  <PartOfDataview val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="4" FlowIsn="8" id="4">
+                  <Column val="4"/>
+                  <Type val="V"/>
+                  <IsParameter val="Y"/>
+                  <DIFF_UPDATE val="T"/>
+                  <PartOfDataview val="N"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="9">
+                  <Type val="0"/>
+                  <Text val=" "/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="5" FlowIsn="10" id="5">
+                  <Column val="5"/>
+                  <Type val="V"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <PartOfDataview val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="6" FlowIsn="11" id="6">
+                  <Column val="6"/>
+                  <Type val="V"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <PartOfDataview val="N"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="7" FlowIsn="12" id="7">
+                  <Column val="7"/>
+                  <Type val="V"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <PartOfDataview val="N"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="8" FlowIsn="13" id="8">
+                  <Column val="8"/>
+                  <Type val="V"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="9" FlowIsn="14" id="9">
+                  <Column val="9"/>
+                  <Type val="V"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="15">
+                  <Type val="0"/>
+                  <Text val=" "/>
+                </Remark>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="3" propagate="78">
+            <Level val="R"/>
+            <Type val="S"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="S"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <Expanded val="1"/>
+            <LogicLines>
+              <LogicLine>
+                <Update FlowIsn="16">
+                  <FieldID val="5"/>
+                  <WithValue val="1"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Update>
+              </LogicLine>
+              <LogicLine>
+                <Invoke FlowIsn="17">
+                  <OperationType val="."/>
+                  <TaskID comp="-1"/>
+                  <Lock val="N"/>
+                  <Arguments>
+                    <Argument>
+                      <Variable val="4"/>
+                      <Skip val="N"/>
+                      <DotNetType val="System.String"/>
+                    </Argument>
+                    <Argument>
+                      <Variable val="2"/>
+                      <Skip val="N"/>
+                      <Name val="url"/>
+                      <DotNetType val="System.String"/>
+                    </Argument>
+                    <Argument>
+                      <Variable val="3"/>
+                      <Skip val="N"/>
+                      <Name val="filenameBody"/>
+                      <DotNetType val="System.String"/>
+                    </Argument>
+                  </Arguments>
+                  <Wait val="Y"/>
+                  <SyncData val="N"/>
+                  <ReturnValue val="4"/>
+                  <FunctionName val="asyncHttpRequest"/>
+                  <SnippetCode val="using System;  &#xA;using System.Net;  &#xA;using System.Threading;  &#xA;using System.Text;  &#xA;using System.IO;  &#xA;&#xA;// The RequestState class passes data across async calls.  &#xA;public class RequestState&#xA;{&#xA;    public int BufferSize { get; private set; }&#xA;    public StringBuilder ResponseContent { get; set; }&#xA;    public byte[] BufferRead { get; set; }&#xA;    public HttpWebRequest Request { get; set; }&#xA;    public WebResponse Response { get; set; }&#xA;    public Stream ResponseStream { get; set; }&#xA;&#xA;    public RequestState()&#xA;    {&#xA;        BufferSize = 4096;&#xA;        BufferRead = new byte[BufferSize];&#xA;        ResponseContent = new StringBuilder();&#xA;        Request = null;&#xA;        ResponseStream = null;&#xA;    }&#xA;}&#xA;&#xA;public class AsyncRequest&#xA;{&#xA;    public static ManualResetEvent allDone = null;&#xA;&#xA;    public String Run(String url, String fnameBody)&#xA;    {&#xA;&#x9;&#x9;String Response = null;&#xA;        allDone = new ManualResetEvent(false);&#xA;&#xA;        Uri httpSite = new Uri(url);&#xA;&#xA;        try&#xA;        {&#xA;            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(httpSite);&#xA;&#xA;            request.Method = &quot;GET&quot;;&#xA;            request.Proxy = null;&#xA;&#xA;            RequestState state = new RequestState();&#xA;            state.Request = request;&#xA;&#xA;            IAsyncResult result = request.BeginGetResponse(new AsyncCallback(RespCallbackAsync), state);&#xA;            allDone.WaitOne();&#xA;            allDone.Reset();&#xA;            allDone.Close();&#xA;&#xA;&#x9;&#x9;&#x9;Response = state.ResponseContent.ToString();&#xA;            File.WriteAllText(fnameBody, Response);&#xA;&#xA;        }&#xA;        catch (Exception ex)&#xA;        {&#xA;&#x9;&#x9;&#x9;LogException (ex);&#xA;&#x9;&#x9;&#x9;throw;&#xA;        }&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;return Response;&#xA;    }&#xA;&#xA;    private void RespCallbackAsync(IAsyncResult ar)&#xA;    {&#xA;        // Get the RequestState object from the async result.  &#xA;        RequestState rs = (RequestState)ar.AsyncState;&#xA;&#xA;        // Get the WebRequest from RequestState.  &#xA;        WebRequest req = rs.Request;&#xA;&#xA;        // Call EndGetResponse, which produces the WebResponse object  &#xA;        //  that came from the request issued above.  &#xA;        WebResponse resp = req.EndGetResponse(ar);&#xA;        rs.Response = resp;&#xA;&#xA;        //  Start reading data from the response stream.  &#xA;        Stream ResponseStream = resp.GetResponseStream();&#xA;&#xA;        // Store the response stream in RequestState to read   &#xA;        // the stream asynchronously.  &#xA;        rs.ResponseStream = ResponseStream;&#xA;&#xA;        //  Pass rs.BufferRead to BeginRead. Read data into rs.BufferRead  &#xA;        IAsyncResult iarRead = ResponseStream.BeginRead(rs.BufferRead, 0,&#xA;           rs.BufferSize, new AsyncCallback(ReadCallback), rs);&#xA;    }&#xA;&#xA;    private void ReadCallback(IAsyncResult result)&#xA;    {&#xA;        try&#xA;        {&#xA;            // Get RequestState&#xA;            RequestState state = (RequestState)result.AsyncState;&#xA;&#xA;            // determine how many bytes have been read&#xA;            int bytesRead = state.ResponseStream.EndRead(result);&#xA;&#xA;            if (bytesRead > 0) // stream has not reached the end yet&#xA;            {&#xA;                // append the read data to the ResponseContent and...&#xA;                state.ResponseContent.Append(Encoding.ASCII.GetString(state.BufferRead, 0, bytesRead));&#xA;&#xA;                // ...read the next piece of data from the stream&#xA;                state.ResponseStream.BeginRead(state.BufferRead, 0, state.BufferSize,&#xA;                    new AsyncCallback(ReadCallback), state);&#xA;            }&#xA;            else // end of the stream reached&#xA;            {&#xA;                // close the stream and the response&#xA;                state.ResponseStream.Close();&#xA;                state.Response.Close();&#xA;                allDone.Set();&#xA;            }&#xA;        }&#xA;        catch (Exception ex)&#xA;        {&#x9;&#x9;&#x9;&#xA;&#x9;&#x9;&#x9;LogException (ex);&#xA;            // Error handling&#xA;            RequestState state = (RequestState)result.AsyncState;&#xA;            if (state.Response != null)&#xA;                state.Response.Close();&#xA;&#x9;&#x9;&#x9;throw;&#xA;        }&#xA;    }&#xA;&#x9;&#xA;&#x9;public static void LogException (Exception e) {&#xA;   &#x9;&#x9;Console.WriteLine(&quot;An exception ({0}) occurred.&quot;, e.GetType().Name);&#xA; &#x9;   &#x9;Console.WriteLine(&quot;   Message:\n{0}&quot;, e.Message);&#xA;   &#x9;&#x9;Console.WriteLine(&quot;   Stack Trace:\n   {0}&quot;, e.StackTrace);&#xA;   &#x9;&#x9;Exception ie = e.InnerException;&#xA;   &#x9;&#x9;if (ie != null) {&#xA;      &#x9;&#x9;Console.WriteLine(&quot;   The Inner Exception:&quot;);&#xA;      &#x9;&#x9;Console.WriteLine(&quot;      Exception Name: {0}&quot;, ie.GetType().Name);&#xA;      &#x9;&#x9;Console.WriteLine(&quot;      Message: {0}\n&quot;, ie.Message);&#xA;      &#x9;&#x9;Console.WriteLine(&quot;      Stack Trace:\n   {0}\n&quot;, ie.StackTrace);&#xA;   &#x9;&#x9;}&#x9;&#xA;&#x9;}&#xA;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;public static class Snippet&#xA;{&#xA;&#x9;public static System.String asyncHttpRequest(System.String url, System.String filenameBody)&#xA;&#x9;{      &#x9;&#x9;&#xA;        AsyncRequest c = new AsyncRequest();&#xA;        return c.Run(url, filenameBody);&#x9;&#x9;&#xA;&#x9;}&#xA;&#x9;&#xA;&#xA;}"/>
+                  <CompiledCode val="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AAAEAAAAAAAAAAAAAAABAEIAAAAAAAAAADxNb2R1bGU+AGZwZ3l2c2txLmRsbABSZXF1ZXN0U3RhdGUAQXN5bmNSZXF1ZXN0AFNuaXBwZXQAbXNjb3JsaWIAU3lzdGVtAE9iamVjdABnZXRfQnVmZmVyU2l6ZQBzZXRfQnVmZmVyU2l6ZQBTeXN0ZW0uVGV4dABTdHJpbmdCdWlsZGVyAGdldF9SZXNwb25zZUNvbnRlbnQAc2V0X1Jlc3BvbnNlQ29udGVudABnZXRfQnVmZmVyUmVhZABzZXRfQnVmZmVyUmVhZABTeXN0ZW0uTmV0AEh0dHBXZWJSZXF1ZXN0AGdldF9SZXF1ZXN0AHNldF9SZXF1ZXN0AFdlYlJlc3BvbnNlAGdldF9SZXNwb25zZQBzZXRfUmVzcG9uc2UAU3lzdGVtLklPAFN0cmVhbQBnZXRfUmVzcG9uc2VTdHJlYW0Ac2V0X1Jlc3BvbnNlU3RyZWFtAC5jdG9yADxCdWZmZXJTaXplPmtfX0JhY2tpbmdGaWVsZAA8UmVzcG9uc2VDb250ZW50PmtfX0JhY2tpbmdGaWVsZAA8QnVmZmVyUmVhZD5rX19CYWNraW5nRmllbGQAPFJlcXVlc3Q+a19fQmFja2luZ0ZpZWxkADxSZXNwb25zZT5rX19CYWNraW5nRmllbGQAPFJlc3BvbnNlU3RyZWFtPmtfX0JhY2tpbmdGaWVsZABCdWZmZXJTaXplAFJlc3BvbnNlQ29udGVudABCdWZmZXJSZWFkAFJlcXVlc3QAUmVzcG9uc2UAUmVzcG9uc2VTdHJlYW0AU3lzdGVtLlRocmVhZGluZwBNYW51YWxSZXNldEV2ZW50AGFsbERvbmUAUnVuAElBc3luY1Jlc3VsdABSZXNwQ2FsbGJhY2tBc3luYwBSZWFkQ2FsbGJhY2sARXhjZXB0aW9uAExvZ0V4Y2VwdGlvbgBhc3luY0h0dHBSZXF1ZXN0AHZhbHVlAHVybABmbmFtZUJvZHkAYXIAcmVzdWx0AGUAZmlsZW5hbWVCb2R5AFN5c3RlbS5SdW50aW1lLkNvbXBpbGVyU2VydmljZXMAQ29tcGlsYXRpb25SZWxheGF0aW9uc0F0dHJpYnV0ZQBSdW50aW1lQ29tcGF0aWJpbGl0eUF0dHJpYnV0ZQBmcGd5dnNrcQBD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"/>
+                  <SnippetLanguage val="C"/>
+                  <ForCompactFramework val="N"/>
+                  <isGuiThreadExecution val="N"/>
+                  <CompileTime HighDateTime="30668882" LowDateTime="1507606025"/>
+                  <RetainFocus val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Invoke>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+        </TaskLogic>
+        <TaskForms>
+          <FormEntry id="1">
+            <PropertyList model="FORM_GUI0">
+              <_Comment id="218"/>
+              <FormName id="311" valUnicode="HttpGet(Magic .NET / asyn)"/>
+              <PersistentFormState id="493"/>
+            </PropertyList>
+          </FormEntry>
+        </TaskForms>
+        <Expressions>
+          <Expression id="1">
+            <ExpSyntax val="Trim({0,3}) &amp; '.headers.out'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+        </Expressions>
+      </Task>
+    </Programs>
+  </ProgramsRepository>
+
+</Application>

@@ -1,0 +1,4 @@
+﻿ <-1> 15/10/2018 03:57:19.509     [Error  ] - Component Files not found : Roslyn.ecf
+ <-1> 15/10/2018 03:57:19.583     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 15/10/2018 03:57:19.664     [Error  ] - Component Files not found : xpa_project_scan.ecf
+ <-1> 15/10/2018 03:57:19.864     [Error  ] - Cabinet File Name cannot be empty.

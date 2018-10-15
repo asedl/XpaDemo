@@ -1,0 +1,1614 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="13030.00"/>
+    <WithIsn val="Y"/>
+    <LastIsn val="2"/>
+  </Header>
+
+  <MenusRepository>
+    <Menus>
+      <Menu>
+        <MenuType val="4"/>
+        <ToolNumber val="1"/>
+        <Name val="Default Pulldown menu"/>
+        <LastIsn val="5"/>
+        <MenuEntry id="1">
+          <MenuType val="1"/>
+          <Description_U val="&amp;File"/>
+          <Right comp="-1"/>
+          <Help comp="-1"/>
+          <Prompt comp="-1"/>
+          <Menu>
+            <MenuType val="1"/>
+            <LastIsn val="7"/>
+            <MenuEntry id="1">
+              <MenuType val="3"/>
+              <Flags val="1088"/>
+              <Description_U val="&amp;Open Application"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="23"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="1"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="2">
+              <MenuType val="3"/>
+              <Flags val="1088"/>
+              <Description_U val="&amp;Close Application"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="24"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="21"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="3">
+              <MenuType val="5"/>
+            </MenuEntry>
+            <MenuEntry id="4">
+              <MenuType val="3"/>
+              <Flags val="1024"/>
+              <Description_U val="Printer &amp;Setup"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="162"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="153"/>
+                <ToolGroup val="999"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="5">
+              <MenuType val="5"/>
+            </MenuEntry>
+            <MenuEntry id="6">
+              <MenuType val="3"/>
+              <Description_U val="E&amp;xit"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="28"/>
+                <PublicObject comp="-1"/>
+              </Event>
+            </MenuEntry>
+          </Menu>
+        </MenuEntry>
+        <MenuEntry id="2">
+          <MenuType val="1"/>
+          <Description_U val="&amp;Edit"/>
+          <Right comp="-1"/>
+          <Help comp="-1"/>
+          <Prompt comp="-1"/>
+          <Menu>
+            <MenuType val="1"/>
+            <LastIsn val="17"/>
+            <MenuEntry id="1">
+              <MenuType val="3"/>
+              <Description_U val="C&amp;ancel"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="33"/>
+                <PublicObject comp="-1"/>
+              </Event>
+            </MenuEntry>
+            <MenuEntry id="2">
+              <MenuType val="3"/>
+              <Flags val="1024"/>
+              <Description_U val="&amp;Undo Editing"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="180"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="115"/>
+                <ToolGroup val="999"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="3">
+              <MenuType val="5"/>
+            </MenuEntry>
+            <MenuEntry id="4">
+              <MenuType val="3"/>
+              <Flags val="1024"/>
+              <Description_U val="Cu&amp;t"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="11"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="78"/>
+                <ToolGroup val="999"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="5">
+              <MenuType val="3"/>
+              <Flags val="1024"/>
+              <Description_U val="&amp;Copy"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="239"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="79"/>
+                <ToolGroup val="999"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="6">
+              <MenuType val="3"/>
+              <Flags val="1024"/>
+              <Description_U val="&amp;Paste"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="240"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="80"/>
+                <ToolGroup val="999"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="7">
+              <MenuType val="5"/>
+            </MenuEntry>
+            <MenuEntry id="8">
+              <MenuType val="3"/>
+              <Flags val="1024"/>
+              <Description_U val="C&amp;reate Line"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="37"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="195"/>
+                <ToolGroup val="999"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="9">
+              <MenuType val="3"/>
+              <Flags val="1024"/>
+              <Description_U val="&amp;Delete Line"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="36"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="196"/>
+                <ToolGroup val="999"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="10">
+              <MenuType val="3"/>
+              <Flags val="1024"/>
+              <Description_U val="S&amp;elect All"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="286"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="194"/>
+                <ToolGroup val="999"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="11">
+              <MenuType val="5"/>
+            </MenuEntry>
+            <MenuEntry id="12">
+              <MenuType val="3"/>
+              <Flags val="1024"/>
+              <Description_U val="&amp;Zoom"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="34"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="199"/>
+                <ToolGroup val="999"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="13">
+              <MenuType val="3"/>
+              <Flags val="1024"/>
+              <Description_U val="&amp;Wide"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="35"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="198"/>
+                <ToolGroup val="999"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="14">
+              <MenuType val="5"/>
+            </MenuEntry>
+            <MenuEntry id="15">
+              <MenuType val="3"/>
+              <Flags val="1024"/>
+              <Description_U val="D&amp;itto"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="77"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="197"/>
+                <ToolGroup val="999"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="16">
+              <MenuType val="3"/>
+              <Flags val="1024"/>
+              <Description_U val="&amp;Set to NULL"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="209"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="200"/>
+                <ToolGroup val="999"/>
+              </Tool>
+            </MenuEntry>
+          </Menu>
+        </MenuEntry>
+        <MenuEntry id="3">
+          <MenuType val="1"/>
+          <Description_U val="&amp;Options"/>
+          <Right comp="-1"/>
+          <Help comp="-1"/>
+          <Prompt comp="-1"/>
+          <Menu>
+            <MenuType val="1"/>
+            <LastIsn val="18"/>
+            <MenuEntry id="1">
+              <MenuType val="3"/>
+              <Flags val="1088"/>
+              <Description_U val="&amp;Modify Records"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="30"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="23"/>
+                <ToolGroup val="1"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="2">
+              <MenuType val="3"/>
+              <Flags val="1088"/>
+              <Description_U val="&amp;Create Records"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="31"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="24"/>
+                <ToolGroup val="1"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="3">
+              <MenuType val="3"/>
+              <Flags val="1088"/>
+              <Description_U val="&amp;Query Records"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="32"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="25"/>
+                <ToolGroup val="1"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="4">
+              <MenuType val="5"/>
+            </MenuEntry>
+            <MenuEntry id="5">
+              <MenuType val="3"/>
+              <Flags val="1088"/>
+              <Description_U val="&amp;Locate"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="122"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="26"/>
+                <ToolGroup val="2"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="6">
+              <MenuType val="3"/>
+              <Flags val="1088"/>
+              <Description_U val="Locate &amp;Next"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="165"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="27"/>
+                <ToolGroup val="2"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="7">
+              <MenuType val="3"/>
+              <Flags val="1088"/>
+              <Description_U val="&amp;Range of Records"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="123"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="28"/>
+                <ToolGroup val="2"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="8">
+              <MenuType val="3"/>
+              <Flags val="1088"/>
+              <Description_U val="&amp;View by Key"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="124"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="29"/>
+                <ToolGroup val="2"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="9">
+              <MenuType val="3"/>
+              <Flags val="1088"/>
+              <Description_U val="Sor&amp;t Records"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="125"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="30"/>
+                <ToolGroup val="2"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="10">
+              <MenuType val="3"/>
+              <Flags val="1024"/>
+              <Description_U val="&amp;Print Data"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="160"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="193"/>
+                <ToolGroup val="999"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="11">
+              <MenuType val="5"/>
+            </MenuEntry>
+            <MenuEntry id="12">
+              <MenuType val="3"/>
+              <Flags val="1088"/>
+              <Description_U val="Begin Table"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="72"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="32"/>
+                <ToolGroup val="4"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="13">
+              <MenuType val="3"/>
+              <Flags val="1088"/>
+              <Description_U val="Previous Screen"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="66"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="34"/>
+                <ToolGroup val="4"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="14">
+              <MenuType val="3"/>
+              <Flags val="1088"/>
+              <Description_U val="Previous Row"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="64"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="36"/>
+                <ToolGroup val="4"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="15">
+              <MenuType val="3"/>
+              <Flags val="1088"/>
+              <Description_U val="Next Row"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="65"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="37"/>
+                <ToolGroup val="4"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="16">
+              <MenuType val="3"/>
+              <Flags val="1088"/>
+              <Description_U val="Next Screen"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="67"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="35"/>
+                <ToolGroup val="4"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="17">
+              <MenuType val="3"/>
+              <Flags val="1088"/>
+              <Description_U val="End Table"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="73"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="33"/>
+                <ToolGroup val="4"/>
+              </Tool>
+            </MenuEntry>
+          </Menu>
+        </MenuEntry>
+        <MenuEntry id="4">
+          <MenuType val="1"/>
+          <Description_U val="&amp;Window"/>
+          <Right comp="-1"/>
+          <Help comp="-1"/>
+          <Prompt comp="-1"/>
+          <Menu>
+            <MenuType val="1"/>
+            <LastIsn val="7"/>
+            <MenuEntry id="1">
+              <MenuType val="3"/>
+              <Flags val="1024"/>
+              <Description_U val="Close &amp;All"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="370"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="208"/>
+                <ToolGroup val="999"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="2">
+              <MenuType val="5"/>
+            </MenuEntry>
+            <MenuEntry id="3">
+              <MenuType val="3"/>
+              <Flags val="1024"/>
+              <Description_U val="&amp;Next Window"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="462"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="206"/>
+                <ToolGroup val="999"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="4">
+              <MenuType val="3"/>
+              <Flags val="1024"/>
+              <Description_U val="&amp;Previous Window"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="463"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="205"/>
+                <ToolGroup val="999"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="5">
+              <MenuType val="5"/>
+            </MenuEntry>
+            <MenuEntry id="6">
+              <MenuType val="7"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+            </MenuEntry>
+          </Menu>
+        </MenuEntry>
+      </Menu>
+      <Menu>
+        <MenuType val="4"/>
+        <ToolNumber val="2"/>
+        <Name val="Default Pulldown menu"/>
+        <LastIsn val="13"/>
+        <MenuEntry id="1">
+          <MenuType val="1"/>
+          <Description_U val="&amp;File"/>
+          <Right comp="-1"/>
+          <Help comp="-1"/>
+          <Prompt comp="-1"/>
+          <Menu>
+            <MenuType val="1"/>
+            <LastIsn val="9"/>
+            <MenuEntry id="1">
+              <MenuType val="3"/>
+              <Description_U val="&amp;Open Application"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="23"/>
+                <PublicObject comp="-1"/>
+              </Event>
+            </MenuEntry>
+            <MenuEntry id="2">
+              <MenuType val="3"/>
+              <Flags val="1088"/>
+              <Description_U val="&amp;Close Application"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="24"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="21"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="3">
+              <MenuType val="3"/>
+              <Description_U val="Open Form Designer"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="578"/>
+                <PublicObject comp="-1"/>
+              </Event>
+            </MenuEntry>
+            <MenuEntry id="4">
+              <MenuType val="3"/>
+              <Description_U val="&amp;Shell to OS"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="27"/>
+                <PublicObject comp="-1"/>
+              </Event>
+            </MenuEntry>
+            <MenuEntry id="5">
+              <MenuType val="5"/>
+            </MenuEntry>
+            <MenuEntry id="6">
+              <MenuType val="3"/>
+              <Flags val="1024"/>
+              <Description_U val="Printer &amp;Setup"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="162"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="153"/>
+                <ToolGroup val="999"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="7">
+              <MenuType val="5"/>
+            </MenuEntry>
+            <MenuEntry id="8">
+              <MenuType val="3"/>
+              <Description_U val="E&amp;xit"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="28"/>
+                <PublicObject comp="-1"/>
+              </Event>
+            </MenuEntry>
+          </Menu>
+        </MenuEntry>
+        <MenuEntry id="2">
+          <MenuType val="1"/>
+          <Description_U val="&amp;Edit"/>
+          <Right comp="-1"/>
+          <Help comp="-1"/>
+          <Prompt comp="-1"/>
+          <Menu>
+            <MenuType val="1"/>
+            <LastIsn val="17"/>
+            <MenuEntry id="1">
+              <MenuType val="3"/>
+              <Description_U val="C&amp;ancel"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="33"/>
+                <PublicObject comp="-1"/>
+              </Event>
+            </MenuEntry>
+            <MenuEntry id="2">
+              <MenuType val="3"/>
+              <Flags val="1024"/>
+              <Description_U val="&amp;Undo Editing"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="180"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="115"/>
+                <ToolGroup val="999"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="3">
+              <MenuType val="5"/>
+            </MenuEntry>
+            <MenuEntry id="4">
+              <MenuType val="3"/>
+              <Flags val="1024"/>
+              <Description_U val="Cu&amp;t"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="11"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="78"/>
+                <ToolGroup val="999"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="5">
+              <MenuType val="3"/>
+              <Flags val="1024"/>
+              <Description_U val="&amp;Copy"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="239"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="79"/>
+                <ToolGroup val="999"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="6">
+              <MenuType val="3"/>
+              <Flags val="1024"/>
+              <Description_U val="&amp;Paste"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="240"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="80"/>
+                <ToolGroup val="999"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="7">
+              <MenuType val="5"/>
+            </MenuEntry>
+            <MenuEntry id="8">
+              <MenuType val="3"/>
+              <Flags val="1024"/>
+              <Description_U val="C&amp;reate Line"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="37"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="195"/>
+                <ToolGroup val="999"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="9">
+              <MenuType val="3"/>
+              <Flags val="1024"/>
+              <Description_U val="&amp;Delete Line"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="36"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="196"/>
+                <ToolGroup val="999"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="10">
+              <MenuType val="3"/>
+              <Flags val="1024"/>
+              <Description_U val="S&amp;elect All"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="286"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="194"/>
+                <ToolGroup val="999"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="11">
+              <MenuType val="5"/>
+            </MenuEntry>
+            <MenuEntry id="12">
+              <MenuType val="3"/>
+              <Flags val="1024"/>
+              <Description_U val="&amp;Zoom"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="34"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="199"/>
+                <ToolGroup val="999"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="13">
+              <MenuType val="3"/>
+              <Flags val="1024"/>
+              <Description_U val="&amp;Wide"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="35"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="198"/>
+                <ToolGroup val="999"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="14">
+              <MenuType val="5"/>
+            </MenuEntry>
+            <MenuEntry id="15">
+              <MenuType val="3"/>
+              <Flags val="1024"/>
+              <Description_U val="D&amp;itto"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="77"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="197"/>
+                <ToolGroup val="999"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="16">
+              <MenuType val="3"/>
+              <Flags val="1024"/>
+              <Description_U val="&amp;Set to NULL"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="209"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="200"/>
+                <ToolGroup val="999"/>
+              </Tool>
+            </MenuEntry>
+          </Menu>
+        </MenuEntry>
+        <MenuEntry id="3">
+          <MenuType val="1"/>
+          <Description_U val="Office"/>
+          <Right comp="-1"/>
+          <Help comp="-1"/>
+          <Prompt comp="-1"/>
+          <Menu>
+            <MenuType val="1"/>
+            <LastIsn val="2"/>
+            <MenuEntry id="1">
+              <MenuType val="2"/>
+              <Description_U val="Excel->CSV (ScanDir)"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Program ObjIsn="25" comp="-1" obj="25"/>
+              <SourceContext val="67"/>
+            </MenuEntry>
+          </Menu>
+        </MenuEntry>
+        <MenuEntry id="4">
+          <MenuType val="1"/>
+          <Description_U val="&amp;XML Test(s)"/>
+          <Right comp="-1"/>
+          <Help comp="-1"/>
+          <Prompt comp="-1"/>
+          <Menu>
+            <MenuType val="1"/>
+            <LastIsn val="2"/>
+            <MenuEntry id="1">
+              <MenuType val="2"/>
+              <Name val="ExportCustomers"/>
+              <Description_U val="ExportCustomers (final)"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Program ObjIsn="33" comp="-1" obj="33"/>
+              <SourceContext val="67"/>
+              <AccessKeyID val="266"/>
+            </MenuEntry>
+          </Menu>
+        </MenuEntry>
+        <MenuEntry id="5">
+          <MenuType val="1"/>
+          <Description_U val="&amp;Http"/>
+          <Right comp="-1"/>
+          <Help comp="-1"/>
+          <Prompt comp="-1"/>
+          <Menu>
+            <MenuType val="1"/>
+            <LastIsn val="4"/>
+            <MenuEntry id="1">
+              <MenuType val="2"/>
+              <Description_U val="HttpGet (Examples)"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Program ObjIsn="14" comp="-1" obj="14"/>
+              <SourceContext val="67"/>
+            </MenuEntry>
+            <MenuEntry id="2">
+              <MenuType val="5"/>
+            </MenuEntry>
+            <MenuEntry id="3">
+              <MenuType val="2"/>
+              <Description_U val="OSOAP001_GreetingsClient"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Program comp="11" obj="2"/>
+              <SourceContext val="67"/>
+            </MenuEntry>
+          </Menu>
+        </MenuEntry>
+        <MenuEntry id="6">
+          <MenuType val="1"/>
+          <Description_U val="&amp;Scripts"/>
+          <Right comp="-1"/>
+          <Help comp="-1"/>
+          <Prompt comp="-1"/>
+          <Menu>
+            <MenuType val="1"/>
+            <LastIsn val="2"/>
+            <MenuEntry id="1">
+              <MenuType val="2"/>
+              <Description_U val="Browse Templates"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Program ObjIsn="28" comp="-1" obj="28"/>
+              <SourceContext val="67"/>
+            </MenuEntry>
+          </Menu>
+        </MenuEntry>
+        <MenuEntry id="7">
+          <MenuType val="1"/>
+          <Description_U val="&amp;Pomo"/>
+          <Right comp="-1"/>
+          <Help comp="-1"/>
+          <Prompt comp="-1"/>
+          <Menu>
+            <MenuType val="1"/>
+            <LastIsn val="3"/>
+            <MenuEntry id="1">
+              <MenuType val="2"/>
+              <Description_U val="OPOMO001_ScanXpaProject"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Program ObjIsn="50" comp="-1" obj="50"/>
+              <SourceContext val="67"/>
+            </MenuEntry>
+            <MenuEntry id="2">
+              <MenuType val="2"/>
+              <Description_U val="OPOML003_ShowXpaProjectComps"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Program comp="9" obj="11"/>
+              <SourceContext val="67"/>
+            </MenuEntry>
+          </Menu>
+        </MenuEntry>
+        <MenuEntry id="8">
+          <MenuType val="1"/>
+          <Description_U val="XpaTCrypt"/>
+          <Right comp="-1"/>
+          <Help comp="-1"/>
+          <Prompt comp="-1"/>
+          <Menu>
+            <MenuType val="1"/>
+            <LastIsn val="5"/>
+            <MenuEntry id="1">
+              <MenuType val="2"/>
+              <Description_U val="XpaTCrypt.TSTO001_SHA-256"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Program comp="12" obj="4"/>
+              <SourceContext val="67"/>
+            </MenuEntry>
+            <MenuEntry id="2">
+              <MenuType val="2"/>
+              <Description_U val="XpaTCrypt.TSTO002_AES_Encrypt"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Program comp="12" obj="5"/>
+              <SourceContext val="67"/>
+            </MenuEntry>
+            <MenuEntry id="3">
+              <MenuType val="2"/>
+              <Description_U val="XpaTCrypt.TSTO003_Random"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Program comp="12" obj="6"/>
+              <SourceContext val="67"/>
+            </MenuEntry>
+            <MenuEntry id="4">
+              <MenuType val="2"/>
+              <Description_U val="XpaTCrypt.TSTO004_Hexdigits"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Program comp="12" obj="7"/>
+              <SourceContext val="67"/>
+            </MenuEntry>
+          </Menu>
+        </MenuEntry>
+        <MenuEntry id="9">
+          <MenuType val="1"/>
+          <Description_U val="&amp;Messaging (ActiveMq)"/>
+          <Right comp="-1"/>
+          <Help comp="-1"/>
+          <Prompt comp="-1"/>
+          <Menu>
+            <MenuType val="1"/>
+            <LastIsn val="3"/>
+            <MenuEntry id="1">
+              <MenuType val="2"/>
+              <Description_U val="TSTO112A Publisher"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Program comp="14" obj="5"/>
+              <SourceContext val="67"/>
+            </MenuEntry>
+            <MenuEntry id="2">
+              <MenuType val="2"/>
+              <Description_U val="TSTO112A Subscriber"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Program comp="-1"/>
+              <SourceContext val="67"/>
+            </MenuEntry>
+          </Menu>
+        </MenuEntry>
+        <MenuEntry id="10">
+          <MenuType val="1"/>
+          <Description_U val="&amp;Options"/>
+          <Right comp="-1"/>
+          <Help comp="-1"/>
+          <Prompt comp="-1"/>
+          <Menu>
+            <MenuType val="1"/>
+            <LastIsn val="18"/>
+            <MenuEntry id="1">
+              <MenuType val="3"/>
+              <Flags val="1088"/>
+              <Description_U val="&amp;Modify Records"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="30"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="23"/>
+                <ToolGroup val="1"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="2">
+              <MenuType val="3"/>
+              <Flags val="1088"/>
+              <Description_U val="&amp;Create Records"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="31"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="24"/>
+                <ToolGroup val="1"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="3">
+              <MenuType val="3"/>
+              <Flags val="1088"/>
+              <Description_U val="&amp;Query Records"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="32"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="25"/>
+                <ToolGroup val="1"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="4">
+              <MenuType val="5"/>
+            </MenuEntry>
+            <MenuEntry id="5">
+              <MenuType val="3"/>
+              <Flags val="1088"/>
+              <Description_U val="&amp;Locate"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="122"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="26"/>
+                <ToolGroup val="2"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="6">
+              <MenuType val="3"/>
+              <Flags val="1088"/>
+              <Description_U val="Locate &amp;Next"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="165"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="27"/>
+                <ToolGroup val="2"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="7">
+              <MenuType val="3"/>
+              <Flags val="1088"/>
+              <Description_U val="&amp;Range of Records"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="123"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="28"/>
+                <ToolGroup val="2"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="8">
+              <MenuType val="3"/>
+              <Flags val="1088"/>
+              <Description_U val="&amp;View by Key"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="124"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="29"/>
+                <ToolGroup val="2"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="9">
+              <MenuType val="3"/>
+              <Flags val="1088"/>
+              <Description_U val="Sor&amp;t Records"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="125"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="30"/>
+                <ToolGroup val="2"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="10">
+              <MenuType val="3"/>
+              <Flags val="1024"/>
+              <Description_U val="&amp;Print Data"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="160"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="193"/>
+                <ToolGroup val="999"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="11">
+              <MenuType val="5"/>
+            </MenuEntry>
+            <MenuEntry id="12">
+              <MenuType val="3"/>
+              <Flags val="1088"/>
+              <Description_U val="Begin Table"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="72"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="32"/>
+                <ToolGroup val="4"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="13">
+              <MenuType val="3"/>
+              <Flags val="1088"/>
+              <Description_U val="Previous Screen"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="66"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="34"/>
+                <ToolGroup val="4"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="14">
+              <MenuType val="3"/>
+              <Flags val="1088"/>
+              <Description_U val="Previous Row"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="64"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="36"/>
+                <ToolGroup val="4"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="15">
+              <MenuType val="3"/>
+              <Flags val="1088"/>
+              <Description_U val="Next Row"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="65"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="37"/>
+                <ToolGroup val="4"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="16">
+              <MenuType val="3"/>
+              <Flags val="1088"/>
+              <Description_U val="Next Screen"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="67"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="35"/>
+                <ToolGroup val="4"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="17">
+              <MenuType val="3"/>
+              <Flags val="1088"/>
+              <Description_U val="End Table"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="73"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="33"/>
+                <ToolGroup val="4"/>
+              </Tool>
+            </MenuEntry>
+          </Menu>
+        </MenuEntry>
+        <MenuEntry id="11">
+          <MenuType val="1"/>
+          <Description_U val="&amp;Window"/>
+          <Right comp="-1"/>
+          <Help comp="-1"/>
+          <Prompt comp="-1"/>
+          <Menu>
+            <MenuType val="1"/>
+            <LastIsn val="7"/>
+            <MenuEntry id="1">
+              <MenuType val="3"/>
+              <Flags val="1024"/>
+              <Description_U val="Close &amp;All"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="370"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="208"/>
+                <ToolGroup val="999"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="2">
+              <MenuType val="5"/>
+            </MenuEntry>
+            <MenuEntry id="3">
+              <MenuType val="3"/>
+              <Flags val="1024"/>
+              <Description_U val="&amp;Next Window"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="462"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="206"/>
+                <ToolGroup val="999"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="4">
+              <MenuType val="3"/>
+              <Flags val="1024"/>
+              <Description_U val="&amp;Previous Window"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="463"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Tool>
+                <ToolNumber val="205"/>
+                <ToolGroup val="999"/>
+              </Tool>
+            </MenuEntry>
+            <MenuEntry id="5">
+              <MenuType val="5"/>
+            </MenuEntry>
+            <MenuEntry id="6">
+              <MenuType val="7"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+            </MenuEntry>
+          </Menu>
+        </MenuEntry>
+        <MenuEntry id="12">
+          <MenuType val="1"/>
+          <Description_U val="&amp;Help"/>
+          <Right comp="-1"/>
+          <Help comp="-1"/>
+          <Prompt comp="-1"/>
+          <Menu>
+            <MenuType val="1"/>
+            <LastIsn val="8"/>
+            <MenuEntry id="1">
+              <MenuType val="2"/>
+              <Description_U val="OUTIL001About"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Program ObjIsn="36" comp="-1" obj="36"/>
+              <SourceContext val="67"/>
+            </MenuEntry>
+            <MenuEntry id="2">
+              <MenuType val="2"/>
+              <Description_U val="OUTIL002_Components"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Program ObjIsn="37" comp="-1" obj="37"/>
+              <SourceContext val="67"/>
+            </MenuEntry>
+            <MenuEntry id="3">
+              <MenuType val="5"/>
+            </MenuEntry>
+            <MenuEntry id="4">
+              <MenuType val="2"/>
+              <Description_U val="Check Configuration"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Program ObjIsn="38" comp="-1" obj="38"/>
+              <Arguments>
+                <Argument>
+                  <Skip val="Y"/>
+                </Argument>
+              </Arguments>
+              <SourceContext val="67"/>
+            </MenuEntry>
+            <MenuEntry id="5">
+              <MenuType val="2"/>
+              <Description_U val="Create Shortcuts ..."/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Program ObjIsn="38" comp="-1" obj="38"/>
+              <Arguments>
+                <Argument>
+                  <Variable val="2"/>
+                  <Skip val="N"/>
+                </Argument>
+              </Arguments>
+              <SourceContext val="67"/>
+            </MenuEntry>
+            <MenuEntry id="6">
+              <MenuType val="5"/>
+            </MenuEntry>
+            <MenuEntry id="7">
+              <MenuType val="3"/>
+              <Description_U val="&amp;Help"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="156"/>
+                <PublicObject comp="-1"/>
+              </Event>
+            </MenuEntry>
+          </Menu>
+        </MenuEntry>
+      </Menu>
+    </Menus>
+  </MenusRepository>
+
+</Application>

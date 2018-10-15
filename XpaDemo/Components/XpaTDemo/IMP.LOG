@@ -1,0 +1,8 @@
+Import warnings from file: C:\Magic\XpaDemo\XpaDemo\Temp\Project.xml (15/10/18 03:57:19)
+========================================================================================
+
+Component Files not found : Roslyn.ecf
+Component Files not found : DatabaseComp.ecf
+Component Files not found : xpa_project_scan.ecf
+Cabinet File Name cannot be empty.
+
