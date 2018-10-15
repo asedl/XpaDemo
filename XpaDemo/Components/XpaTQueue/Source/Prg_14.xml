@@ -13,8 +13,8 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="#TSTO112A_Publisher" ISN_2="1" LastIsn="1" id="14">
-          <Public val="#TSTO112A_Publisher"/>
+        <Header Description="#TSTO112A_Publish (Produce)" ISN_2="1" LastIsn="1" id="14">
+          <Public val="#TSTO112A_Publish"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -33,7 +33,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="Y"/>
-          <LastModified _date="736980" _time="69527" date="13/10/2018" time="19:18:47"/>
+          <LastModified _date="736982" _time="56820" date="15/10/2018" time="15:47:00"/>
         </Header>
         <ItemIsn val="6"/>
         <Resource>

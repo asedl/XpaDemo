@@ -14,6 +14,8 @@
     <Programs>
       <Task MainProgram="N">
         <Header Description="#TSTO111_ApacheMQ_Send" ISN_2="1" LastIsn="1" id="9">
+          <Comment val="#TSTO111_ApacheMQ_Send is a smple for using Magic Xpa's .NET sinipplets to send messages via ApacheMQ (as alternative to implementing that in an external class library / assembly). For simple things that will do."/>
+          <Public val="#TSTO111_ApacheMQ_Send"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -32,7 +34,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="Y"/>
-          <LastModified _date="736981" _time="1443" date="14/10/2018" time="00:24:03"/>
+          <LastModified _date="736982" _time="65707" date="15/10/2018" time="18:15:07"/>
         </Header>
         <ItemIsn val="1"/>
         <Resource>

@@ -13,8 +13,8 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="#TSTO112B_Subscriber #2" ISN_2="1" LastIsn="1" id="19">
-          <Public val="#TSTO112B_Subscriber #2"/>
+        <Header Description="#TSTO112B_Subscribe/Consume" ISN_2="1" LastIsn="1" id="19">
+          <Public val="#TSTO112B_Subscribe"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -28,9 +28,9 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="Y"/>
-          <LastModified _date="736982" _time="48266" date="15/10/2018" time="13:24:26"/>
+          <LastModified _date="736982" _time="64769" date="15/10/2018" time="17:59:29"/>
         </Header>
-        <ItemIsn val="20"/>
+        <ItemIsn val="29"/>
         <Resource>
           <Columns>
             <Column id="1" name="SimpleTopicSubscriber">
@@ -61,16 +61,6 @@
                 <PartOfDataview id="449"/>
               </PropertyList>
             </Column>
-            <Column id="12" name="v.ThreadId">
-              <PropertyList model="FIELD">
-                <Model attr_obj="FIELD_NUMERIC" id="1"/>
-                <Picture id="157" valUnicode="N10"/>
-                <_Dec id="181"/>
-                <_Whole id="182" val="10"/>
-                <_Negative id="192" val="Y"/>
-                <_FieldStyle id="276" val="1"/>
-              </PropertyList>
-            </Column>
             <Column id="18" name="v.ConnectionString">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_BLOB" id="1"/>
@@ -80,6 +70,58 @@
                 <_FieldStyle id="276" val="1"/>
                 <Content id="434" val="2"/>
                 <PartOfDataview id="449"/>
+              </PropertyList>
+            </Column>
+            <Column id="20" name="v.TopicName">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_UNICODE" id="1"/>
+                <Picture id="157" valUnicode="255"/>
+                <Size id="174" val="510"/>
+                <_FieldStyle id="276" val="1"/>
+              </PropertyList>
+            </Column>
+            <Column id="21" name="v.ClientId">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_UNICODE" id="1"/>
+                <Picture id="157" valUnicode="255"/>
+                <Size id="174" val="510"/>
+                <_FieldStyle id="276" val="1"/>
+              </PropertyList>
+            </Column>
+            <Column id="22" name="v.ConsumerId">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_UNICODE" id="1"/>
+                <Picture id="157" valUnicode="255"/>
+                <Size id="174" val="510"/>
+                <_FieldStyle id="276" val="1"/>
+              </PropertyList>
+            </Column>
+            <Column id="24" name="v.dwProcessId">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_NUMERIC" id="1"/>
+                <Picture id="157" valUnicode="N10"/>
+                <_Dec id="181"/>
+                <_Whole id="182" val="10"/>
+                <_Negative id="192" val="Y"/>
+                <_FieldStyle id="276" val="1"/>
+              </PropertyList>
+            </Column>
+            <Column id="25" name="v.dwThreadId">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_NUMERIC" id="1"/>
+                <Picture id="157" valUnicode="N10"/>
+                <_Dec id="181"/>
+                <_Whole id="182" val="10"/>
+                <_Negative id="192" val="Y"/>
+                <_FieldStyle id="276" val="1"/>
+              </PropertyList>
+            </Column>
+            <Column id="27" name="v.StatusBarText">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_UNICODE" id="1"/>
+                <Picture id="157" valUnicode="500"/>
+                <Size id="174" val="1000"/>
+                <_FieldStyle id="276" val="1"/>
               </PropertyList>
             </Column>
             <Column id="14" name="sender">
@@ -92,7 +134,7 @@
                 <ObjectType id="478" val="System.Object"/>
               </PropertyList>
             </Column>
-            <Column id="15" name="e">
+            <Column id="15" name="e.EventArgs">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_BLOB" id="1"/>
                 <StoredAs id="173" val="29"/>
@@ -213,7 +255,7 @@
                   <Column val="16"/>
                   <Type val="V"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="7"/>
+                  <_DitIndexForToolkit val="11"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -225,22 +267,9 @@
                   <Column val="5"/>
                   <Type val="V"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="9"/>
+                  <_DitIndexForToolkit val="13"/>
                   <DIFF_UPDATE val="T"/>
                   <PartOfDataview val="N"/>
-                  <Condition val="Y"/>
-                  <Modifier val="S"/>
-                  <Direction val="C"/>
-                </Select>
-              </LogicLine>
-              <LogicLine>
-                <Select FieldID="14" FlowIsn="95" id="14">
-                  <ASS val="13"/>
-                  <Column val="12"/>
-                  <Type val="V"/>
-                  <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="4"/>
-                  <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
                   <Direction val="C"/>
@@ -265,6 +294,89 @@
                   <Direction val="C"/>
                 </Select>
               </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="190">
+                  <Type val="0"/>
+                  <Text val=" "/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="22" FlowIsn="191" id="22">
+                  <Column val="20"/>
+                  <Type val="V"/>
+                  <IsParameter val="N"/>
+                  <_DitIndexForToolkit val="4"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="23" FlowIsn="192" id="23">
+                  <Column val="21"/>
+                  <Type val="V"/>
+                  <IsParameter val="N"/>
+                  <_DitIndexForToolkit val="6"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="24" FlowIsn="193" id="24">
+                  <Column val="22"/>
+                  <Type val="V"/>
+                  <IsParameter val="N"/>
+                  <_DitIndexForToolkit val="8"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="203">
+                  <Type val="0"/>
+                  <Text val=" "/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="26" FlowIsn="204" id="26">
+                  <ASS val="24"/>
+                  <Column val="24"/>
+                  <Type val="V"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="27" FlowIsn="205" id="27">
+                  <ASS val="13"/>
+                  <Column val="25"/>
+                  <Type val="V"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="29" FlowIsn="276" id="29">
+                  <Column val="27"/>
+                  <Type val="V"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
             </LogicLines>
           </LogicUnit>
           <LogicUnit id="18" propagate="78">
@@ -281,6 +393,36 @@
             </Event>
             <Expanded val="1"/>
             <LogicLines>
+              <LogicLine>
+                <Remark FlowIsn="271">
+                  <Type val="2"/>
+                  <Text val="XpaTQueue.dll (.NET class library / assembly) will raise this event whe a message for our topic comes in."/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="272">
+                  <Type val="2"/>
+                  <Text val="Parameter e.EventArgs has (besides other things) a reference to that message."/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="273">
+                  <Type val="2"/>
+                  <Text val="Note: The &quot;manual&quot; acknowledgement ofg the messages currently does not work resp. is not yet implemented"/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="274">
+                  <Type val="2"/>
+                  <Text val="ActiveMQ will default to &quot;Automatic acknowledgment&quot; and remove the message from queues and persistency layers if it has been"/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="275">
+                  <Type val="2"/>
+                  <Text val="delivered to all registered subscribers (-> durability)"/>
+                </Remark>
+              </LogicLine>
               <LogicLine>
                 <Select FieldID="16" FlowIsn="126" id="16">
                   <Column val="14"/>
@@ -332,20 +474,45 @@
                 </Update>
               </LogicLine>
               <LogicLine>
-                <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" Exp="12" FlowIsn="87" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TitleTxt="Warning" VR_DISP="B">
-                  <AppendToErrorLog val="N"/>
+                <Update FlowIsn="277">
+                  <FieldID val="29"/>
+                  <WithValue val="29"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
                   <Condition val="Y"/>
                   <Modifier val="B"/>
                   <Direction val="C"/>
-                </STP>
+                </Update>
               </LogicLine>
               <LogicLine>
-                <Evaluate FlowIsn="114">
-                  <Expression val="14"/>
-                  <Condition val="Y"/>
-                  <Modifier val="B"/>
-                  <Direction val="C"/>
-                </Evaluate>
+                <Remark FlowIsn="278">
+                  <Type val="2"/>
+                  <Text val=" "/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="279">
+                  <Type val="2"/>
+                  <Text val="&quot;Manual Acknowledgement&quot; (currently not fully implemented)"/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="280">
+                  <Type val="2"/>
+                  <Text val="ActiveMQ will remove the message no matter if acknowledged here or not"/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="281">
+                  <Type val="2"/>
+                  <Text val="Plan is to acknowledge only if processing in Magic was successful and then either keep it in the queues or"/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="282">
+                  <Type val="2"/>
+                  <Text val="move to a bad (poisoned) messages queue"/>
+                </Remark>
               </LogicLine>
               <LogicLine>
                 <Select FieldID="15" FlowIsn="115" id="15">
@@ -372,13 +539,114 @@
               <LogicLine>
                 <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" Exp="16" FlowIsn="117" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TitleTxt="Warning" VR_DISP="B">
                   <AppendToErrorLog val="N"/>
-                  <Condition val="Y"/>
+                  <Condition val="N"/>
                   <Modifier val="B"/>
                   <Direction val="C"/>
                 </STP>
               </LogicLine>
               <LogicLine>
+                <Remark FlowIsn="186">
+                  <Type val="2"/>
+                  <Text val=" "/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
                 <Remark FlowIsn="129">
+                  <Type val="2"/>
+                  <Text val=" "/>
+                </Remark>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="21" propagate="78">
+            <Level val="H"/>
+            <Type val="U"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="U"/>
+              <PublicObject comp="-1" obj="2"/>
+            </Event>
+            <Expanded val="1"/>
+            <LogicLines>
+              <LogicLine>
+                <Remark FlowIsn="187">
+                  <Type val="2"/>
+                  <Text val="Raised by Button click. User wants us to connect to ActiveMQ and subscribe for messages on a specific topic .."/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <Update FlowIsn="242">
+                  <FieldID val="29"/>
+                  <WithValue val="26"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Update>
+              </LogicLine>
+              <LogicLine>
+                <Update FlowIsn="13">
+                  <FieldID val="2"/>
+                  <WithValue val="2"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Update>
+              </LogicLine>
+              <LogicLine>
+                <Update FlowIsn="189">
+                  <FieldID val="29"/>
+                  <WithValue val="27"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Update>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="283">
+                  <Type val="2"/>
+                  <Text val=" "/>
+                </Remark>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="24" propagate="78">
+            <Level val="H"/>
+            <Type val="U"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="U"/>
+              <PublicObject comp="-1" obj="3"/>
+            </Event>
+            <Expanded val="1"/>
+            <LogicLines>
+              <LogicLine>
+                <Remark FlowIsn="34">
+                  <Type val="2"/>
+                  <Text val="Delete Consumer and Subscription ...."/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <Evaluate FlowIsn="28">
+                  <Expression val="6"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Evaluate>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="284">
                   <Type val="2"/>
                   <Text val=" "/>
                 </Remark>
@@ -398,20 +666,6 @@
             </Event>
             <Expanded val="1"/>
             <LogicLines>
-              <LogicLine>
-                <Remark FlowIsn="34">
-                  <Type val="2"/>
-                  <Text val="Delete Consumer and Subscription ...."/>
-                </Remark>
-              </LogicLine>
-              <LogicLine>
-                <Evaluate FlowIsn="28">
-                  <Expression val="6"/>
-                  <Condition val="Y"/>
-                  <Modifier val="B"/>
-                  <Direction val="C"/>
-                </Evaluate>
-              </LogicLine>
               <LogicLine>
                 <Evaluate FlowIsn="24">
                   <Expression val="5"/>
@@ -442,6 +696,30 @@
             <Expanded val="1"/>
             <LogicLines>
               <LogicLine>
+                <Remark FlowIsn="196">
+                  <Type val="2"/>
+                  <Text val=" "/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="197">
+                  <Type val="2"/>
+                  <Text val="Read Config file and set defaults ..."/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="198">
+                  <Type val="2"/>
+                  <Text val=" "/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="199">
+                  <Type val="2"/>
+                  <Text val="Currently we have/read conection string from config file only ..."/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
                 <CallTask FlowIsn="154">
                   <OperationType val="P"/>
                   <TaskID comp="-1" obj="23"/>
@@ -462,12 +740,6 @@
                   <Modifier val="S"/>
                   <Direction val="C"/>
                 </CallTask>
-              </LogicLine>
-              <LogicLine>
-                <Remark FlowIsn="179">
-                  <Type val="2"/>
-                  <Text val=" "/>
-                </Remark>
               </LogicLine>
               <LogicLine>
                 <BLOCK EndBlock="159" EndBlockSegment="159" FlowIsn="158" Type="I">
@@ -491,21 +763,15 @@
                 <END_BLK FlowIsn="159"/>
               </LogicLine>
               <LogicLine>
-                <Remark FlowIsn="157">
+                <Remark FlowIsn="264">
                   <Type val="2"/>
-                  <Text val=" "/>
+                  <Text val="Currently there is a problem with failover URIs. We hardcode the connection string to avoid this"/>
                 </Remark>
               </LogicLine>
               <LogicLine>
-                <Remark FlowIsn="35">
-                  <Type val="2"/>
-                  <Text val="Start subscription to messages for topic XpaTopic by creating a subscriber ..."/>
-                </Remark>
-              </LogicLine>
-              <LogicLine>
-                <Update FlowIsn="13">
-                  <FieldID val="2"/>
-                  <WithValue val="2"/>
+                <Update FlowIsn="265">
+                  <FieldID val="20"/>
+                  <WithValue val="28"/>
                   <Incremental val="N"/>
                   <ForcedUpdate val="Y"/>
                   <Condition val="Y"/>
@@ -513,21 +779,68 @@
                   <Direction val="C"/>
                 </Update>
               </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="200">
+                  <Type val="2"/>
+                  <Text val=" "/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <Update FlowIsn="201">
+                  <FieldID val="22"/>
+                  <WithValue val="22"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Update>
+              </LogicLine>
+              <LogicLine>
+                <Update FlowIsn="202">
+                  <FieldID val="23"/>
+                  <WithValue val="23"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Update>
+              </LogicLine>
+              <LogicLine>
+                <Update FlowIsn="240">
+                  <FieldID val="24"/>
+                  <WithValue val="25"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Update>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="157">
+                  <Type val="2"/>
+                  <Text val=" "/>
+                </Remark>
+              </LogicLine>
             </LogicLines>
           </LogicUnit>
         </TaskLogic>
         <TaskForms>
-          <FormEntry _last_isn="12" _last_test_id="12" id="1">
+          <FormEntry _last_isn="20" _last_test_id="20" id="1">
             <PropertyList model="FORM_GUI0">
               <Width id="23" val="663"/>
               <Height id="24" val="289"/>
+              <_WindowSort id="133"/>
               <_Comment id="218"/>
               <FormName id="311" valUnicode="#TSTO112_Subscriber"/>
+              <_TabbingOrder id="318" val="2"/>
             </PropertyList>
             <Control _test_id="8" id="8">
               <PropertyList model="CTRL_GUI0_STATIC">
                 <Text id="19" valUnicode="Connection (Broker URI):"/>
-                <X id="21" val="14"/>
+                <X id="21" val="19"/>
                 <Y id="22" val="9"/>
                 <Width id="23" val="172"/>
                 <Height id="24" val="11"/>
@@ -538,7 +851,7 @@
             </Control>
             <Control PDOD="128" _test_id="7" id="7">
               <PropertyList model="CTRL_GUI0_EDIT">
-                <X id="21" val="10"/>
+                <X id="21" val="19"/>
                 <Y id="22" val="22"/>
                 <Width id="23" val="558"/>
                 <Height id="24" val="10"/>
@@ -547,33 +860,97 @@
                 <AllowCRInData id="74" val="Y"/>
                 <PasswordEdit id="85"/>
                 <_Orientation id="143"/>
+                <TabInto id="269" val="Y"/>
                 <TabOrder id="314" val="1"/>
+                <AllowedDirection id="317" val="3"/>
               </PropertyList>
             </Control>
-            <Control _test_id="4" id="4">
+            <Control _test_id="15" id="15">
               <PropertyList model="CTRL_GUI0_STATIC">
-                <Text id="19" valUnicode="v.ThreadId"/>
-                <X id="21" val="11"/>
-                <Y id="22" val="153"/>
-                <Width id="23" val="43"/>
-                <Height id="24" val="9"/>
-                <Font id="50" val="1"/>
+                <Text id="19" valUnicode="Topic Name"/>
+                <X id="21" val="19"/>
+                <Y id="22" val="32"/>
+                <Width id="23" val="172"/>
+                <Height id="24" val="12"/>
                 <Style id="63" val="7"/>
                 <EnableRTF id="69"/>
                 <_Orientation id="143"/>
               </PropertyList>
             </Control>
-            <Control _test_id="3" id="3">
+            <Control _test_id="14" id="14">
               <PropertyList model="CTRL_GUI0_EDIT">
                 <Model ID="MODEL_GUI_INT" id="1">
-                  <Var FieldID="14"/>
+                  <Var FieldID="22"/>
                 </Model>
-                <X id="21" val="58"/>
-                <Y id="22" val="153"/>
-                <Width id="23" val="56"/>
+                <X id="21" val="19"/>
+                <Y id="22" val="45"/>
+                <Width id="23" val="558"/>
                 <Height id="24" val="10"/>
-                <Data FieldID="14" id="43"/>
-                <ControlName id="46" val="v.ThreadId"/>
+                <Data FieldID="22" id="43"/>
+                <ControlName id="46" val="v.TopicName"/>
+                <MultiLineEdit id="71" val="Y"/>
+                <AllowCRInData id="74" val="Y"/>
+                <PasswordEdit id="85"/>
+                <_Orientation id="143"/>
+                <TabOrder id="314" val="2"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="17" id="17">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19" valUnicode="Client Id"/>
+                <X id="21" val="19"/>
+                <Y id="22" val="56"/>
+                <Width id="23" val="172"/>
+                <Height id="24" val="12"/>
+                <Style id="63" val="7"/>
+                <EnableRTF id="69"/>
+                <_Orientation id="143"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="16" id="16">
+              <PropertyList model="CTRL_GUI0_EDIT">
+                <Model ID="MODEL_GUI_INT" id="1">
+                  <Var FieldID="23"/>
+                </Model>
+                <X id="21" val="19"/>
+                <Y id="22" val="69"/>
+                <Width id="23" val="558"/>
+                <Height id="24" val="10"/>
+                <Data FieldID="23" id="43"/>
+                <ControlName id="46" val="v.ClientId_0001"/>
+                <MultiLineEdit id="71" val="Y"/>
+                <AllowCRInData id="74" val="Y"/>
+                <PasswordEdit id="85"/>
+                <_Orientation id="143"/>
+                <TabOrder id="314" val="3"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="19" id="19">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19" valUnicode="Consumer Id"/>
+                <X id="21" val="19"/>
+                <Y id="22" val="80"/>
+                <Width id="23" val="172"/>
+                <Height id="24" val="12"/>
+                <Style id="63" val="7"/>
+                <EnableRTF id="69"/>
+                <_Orientation id="143"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="18" id="18">
+              <PropertyList model="CTRL_GUI0_EDIT">
+                <Model ID="MODEL_GUI_INT" id="1">
+                  <Var FieldID="24"/>
+                </Model>
+                <X id="21" val="19"/>
+                <Y id="22" val="93"/>
+                <Width id="23" val="558"/>
+                <Height id="24" val="10"/>
+                <Data FieldID="24" id="43"/>
+                <ControlName id="46" val="v.ConsumerId_0001"/>
+                <MultiLineEdit id="71" val="Y"/>
+                <AllowCRInData id="74" val="Y"/>
+                <PasswordEdit id="85"/>
                 <_Orientation id="143"/>
                 <TabOrder id="314" val="4"/>
               </PropertyList>
@@ -581,10 +958,10 @@
             <Control _test_id="9" id="9">
               <PropertyList model="CTRL_GUI0_STATIC">
                 <Text id="19" valUnicode="Received Message"/>
-                <X id="21" val="11"/>
-                <Y id="22" val="41"/>
-                <Width id="23" val="557"/>
-                <Height id="24" val="108"/>
+                <X id="21" val="10"/>
+                <Y id="22" val="129"/>
+                <Width id="23" val="641"/>
+                <Height id="24" val="132"/>
                 <StaticType id="70" val="128"/>
                 <_Orientation id="143"/>
               </PropertyList>
@@ -593,7 +970,7 @@
               <PropertyList model="CTRL_GUI0_STATIC">
                 <Text id="19" valUnicode="MessageId"/>
                 <X id="21" val="19"/>
-                <Y id="22" val="51"/>
+                <Y id="22" val="139"/>
                 <Width id="23" val="172"/>
                 <Height id="24" val="11"/>
                 <Style id="63" val="7"/>
@@ -607,20 +984,20 @@
                   <Var FieldID="18"/>
                 </Model>
                 <X id="21" val="19"/>
-                <Y id="22" val="64"/>
-                <Width id="23" val="200"/>
+                <Y id="22" val="152"/>
+                <Width id="23" val="543"/>
                 <Height id="24" val="10"/>
                 <Data FieldID="18" id="43"/>
                 <ControlName id="46" val="MessageId"/>
                 <_Orientation id="143"/>
-                <TabOrder id="314" val="2"/>
+                <TabOrder id="314" val="5"/>
               </PropertyList>
             </Control>
             <Control ISN_FATHER="9" _test_id="11" id="11">
               <PropertyList model="CTRL_GUI0_STATIC">
                 <Text id="19" valUnicode="Message (Text)"/>
                 <X id="21" val="19"/>
-                <Y id="22" val="76"/>
+                <Y id="22" val="164"/>
                 <Width id="23" val="172"/>
                 <Height id="24" val="11"/>
                 <Style id="63" val="7"/>
@@ -631,9 +1008,9 @@
             <Control ISN_FATHER="9" PDOD="128" _test_id="2" id="2">
               <PropertyList model="CTRL_GUI0_EDIT">
                 <X id="21" val="19"/>
-                <Y id="22" val="92"/>
-                <Width id="23" val="544"/>
-                <Height id="24" val="53"/>
+                <Y id="22" val="180"/>
+                <Width id="23" val="620"/>
+                <Height id="24" val="69"/>
                 <Data FieldID="6" id="43"/>
                 <MultiLineEdit id="71" val="Y"/>
                 <HorizontalScroll id="72"/>
@@ -642,16 +1019,56 @@
                 <PasswordEdit id="85"/>
                 <_Orientation id="143"/>
                 <ShowScrollBars id="273"/>
-                <TabOrder id="314" val="3"/>
+                <TabOrder id="314" val="6"/>
                 <MultilineWordwrapScroll id="455" val="3"/>
+              </PropertyList>
+            </Control>
+            <Control PDOD="128" _test_id="13" id="13">
+              <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+                <X id="21" val="19"/>
+                <Y id="22" val="271"/>
+                <Width id="23" val="124"/>
+                <Height id="24" val="14"/>
+                <Format id="82" valUnicode="Subscribe to Topic"/>
+                <RaiseEvent id="234">
+                  <EventType val="U"/>
+                  <PublicObject comp="-1" obj="2"/>
+                </RaiseEvent>
+                <TabOrder id="314" val="7"/>
+              </PropertyList>
+            </Control>
+            <Control PDOD="128" _test_id="20" id="20">
+              <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+                <X id="21" val="148"/>
+                <Y id="22" val="271"/>
+                <Width id="23" val="124"/>
+                <Height id="24" val="14"/>
+                <Format id="82" valUnicode="Delete (durable) consumer"/>
+                <RaiseEvent id="234">
+                  <EventType val="U"/>
+                  <PublicObject comp="-1" obj="3"/>
+                </RaiseEvent>
+                <TabOrder id="314" val="8"/>
               </PropertyList>
             </Control>
           </FormEntry>
         </TaskForms>
         <Expressions>
           <Expression id="2">
-            <ExpSyntax val="DotNet.XpaTQueue.SimpleTopicSubscriber('XpaTopic', Trim({0,20}), 'XpaSubscriber', 'XpaConsumer')"/>
+            <ExpSyntax val="DotNet.XpaTQueue.SimpleTopicSubscriber(Trim({0,22}), Trim({0,20}), Trim({0,23}), Trim({0,24}))"/>
             <ExpAttribute val="O"/>
+          </Expression>
+          <Expression id="22">
+            <ExpSyntax val="'XpaTopic'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="25">
+            <ExpSyntax val="'XpaTQueue.Consumer'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="23">
+            <ExpSyntax val="'ClientId/XpaTQueue/pid:' &amp; Trim(Str({0,26},'')) &amp; '/tid:' &amp; Trim(Str({0,27},''))"/>
+            <ExpAttribute val="A"/>
           </Expression>
           <Expression id="6">
             <ExpSyntax val="{0,2}.DeleteDurableConsumer()"/>
@@ -661,17 +1078,13 @@
             <ExpSyntax val="{0,2}.Dispose()"/>
             <ExpAttribute val="O"/>
           </Expression>
-          <Expression id="12">
-            <ExpSyntax val="Trim(Str(GetCurrentThreadId(),'')) &amp; ':' &amp; Trim({0,6})"/>
-            <ExpAttribute val="A"/>
+          <Expression id="24">
+            <ExpSyntax val="GetCurrentProcessId()"/>
+            <ExpAttribute val="N"/>
           </Expression>
           <Expression id="13">
             <ExpSyntax val="GetCurrentThreadId()"/>
             <ExpAttribute val="N"/>
-          </Expression>
-          <Expression id="14">
-            <ExpSyntax val="Delay(30)"/>
-            <ExpAttribute val="B"/>
           </Expression>
           <Expression id="15">
             <ExpSyntax val="{0,17}.Acknowledge('message acknowledged', 99999)"/>
@@ -697,8 +1110,36 @@
             <ExpSyntax val="'tcp://localhost:61616'"/>
             <ExpAttribute val="A"/>
           </Expression>
+          <Expression id="28">
+            <ExpSyntax val="'failover:(tcp://localhost:61616)?initialReconnectDelay=100'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="29">
+            <ExpSyntax val="'Received message with following id from ActiveMQ: ' &amp; Trim({0,18})"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="26">
+            <ExpSyntax val="StatusBarSetText('Trying to connect to: ' &amp; Trim({0,20}) &amp;' and subscribe for topic with name: ' &amp; Trim({0,22}))"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="27">
+            <ExpSyntax val="'(FINISHED)' &amp; Trim({0,29})"/>
+            <ExpAttribute val="A"/>
+          </Expression>
         </Expressions>
         <EVNT DESC="SendMessage" FORCE_EXIT="N" id="1">
+          <Event>
+            <EventType val="N"/>
+            <PublicObject comp="-1"/>
+          </Event>
+        </EVNT>
+        <EVNT DESC="Subscribe" FORCE_EXIT="N" id="2">
+          <Event>
+            <EventType val="N"/>
+            <PublicObject comp="-1"/>
+          </Event>
+        </EVNT>
+        <EVNT DESC="DeleteDurableConsumer" FORCE_EXIT="N" id="3">
           <Event>
             <EventType val="N"/>
             <PublicObject comp="-1"/>

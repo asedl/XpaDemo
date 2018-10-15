@@ -7,29 +7,6 @@
 
   <RIAExecutionPlatform Val="Desktop"/>
 
-  <Breakpoints>
-    <DelAll/>
-    <Breakpoint>
-      <Condition Val=""/>
-      <Location Val="#TSTO112B_Subscriber #2"/>
-      <HandlerId Val="4"/>
-      <OperationId Val="154"/>
-      <LineIndex Val="19"/>
-      <HandlerDesc Val="Record Prefix"/>
-      <Count Val="0"/>
-      <Enable Val="1"/>
-      <Component1 Val="-1332452073"/>
-      <Component2 Val="42448"/>
-      <Component3 Val="17678"/>
-      <Component4 Val="1329964693"/>
-      <Component5 Val="1220071523"/>
-      <Prog Val="19"/>
-      <Subtask Val="1"/>
-      <Type Val="1"/>
-      <Operation Val="154"/>
-    </Breakpoint>
-  </Breakpoints>
-
   <WatchListItems>
     <RestData/>
   </WatchListItems>
