@@ -1,0 +1,36 @@
+﻿ <-1> 14/10/2018 13:29:43.260     [Error  ] - Component Files not found : Roslyn.ecf
+ <-1> 14/10/2018 13:29:43.366     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 14/10/2018 13:29:43.425     [Error  ] - Component Files not found : xpa_project_scan.ecf
+ <-1> 14/10/2018 13:29:43.826     [Error  ] - Cabinet File Name cannot be empty.
+ <-1> 14/10/2018 13:29:43.905     [Error  ] - Cabinet File Name cannot be empty.
+ <-1> 14/10/2018 13:40:08.119     [Error  ] - Component Files not found : Roslyn.ecf
+ <-1> 14/10/2018 13:40:08.183     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 14/10/2018 13:40:08.245     [Error  ] - Component Files not found : xpa_project_scan.ecf
+ <-1> 14/10/2018 13:40:08.501     [Error  ] - Cabinet File Name cannot be empty.
+ <-1> 14/10/2018 13:40:08.566     [Error  ] - Cabinet File Name cannot be empty.
+ <-1> 14/10/2018 13:45:58.486     [Error  ] - java.lang.NoClassDefFoundError: com/magic/examples/net/http/HttpRequest
+Caused by: java.lang.ClassNotFoundException: com.magic.examples.net.http.HttpRequest
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+ <-1> 14/10/2018 13:46:07.948     [Error  ] - File not found:: curl --trace-ascii "C:\Magic\XpaDemo\XpaDemo\temp\TemplateRequest_16_Response.curl.out" -D "C:\Magic\XpaDemo\XpaDemo\temp\TemplateRequest_16_Response.headers.out" -o "C:\Magic\XpaDemo\XpaDemo\temp\TemplateRequest_16_Response" "https://tls-v1-2.badssl.com:1012/", Program: "OWCLN001_xpatest_uris.Browse - xpatest_uris.BWCLN003_HttpGet(cURL)".
+ <-1> 14/10/2018 13:46:58.323     [Error  ] - java.lang.NoClassDefFoundError: com/magic/examples/net/http/HttpRequest
+Caused by: java.lang.ClassNotFoundException: com.magic.examples.net.http.HttpRequest
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+ <-1> 14/10/2018 13:47:04.921     [Error  ] - File not found:: scriptcs "Templates\scripts\cs\WebclientRequest.cs" -- https://expired.badssl.com/ C:\Magic\XpaDemo\XpaDemo\temp\TemplateRequest_15_Response, Program: "OWCLN001_xpatest_uris.Browse - xpatest_uris.BWCLN210_ExeScript_csscript".
+ <-1> 14/10/2018 13:47:22.561     [Error  ] - java.lang.NoClassDefFoundError: com/magic/examples/net/http/HttpRequest
+Caused by: java.lang.ClassNotFoundException: com.magic.examples.net.http.HttpRequest
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+ <-1> 14/10/2018 13:57:16.715     [Error  ] - Component Files not found : Roslyn.ecf
+ <-1> 14/10/2018 13:57:16.775     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 14/10/2018 13:57:16.834     [Error  ] - Component Files not found : xpa_project_scan.ecf
+ <-1> 14/10/2018 13:57:17.034     [Error  ] - Cabinet File Name cannot be empty.
+ <-1> 14/10/2018 13:57:17.097     [Error  ] - Cabinet File Name cannot be empty.
+ <-1> 14/10/2018 14:12:45.204     [Error  ] - Wrong number of arguments in user function/procedure, Program: "GetAsyncKeyState_Test.GetAsyncKeyState".

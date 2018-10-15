@@ -21,33 +21,20 @@ using Apache.NMS;
 
 namespace XpaTQueue
 {
-    public delegate void MessageReceivedDelegate(string message);
-
-    public class QueueEventArgs : EventArgs
+    public class MessageReceivedEventArgs : EventArgs
     {
-        private int nrings;
-
-        //Constructor.
-        //
-        public QueueEventArgs(int nrings)
+        public MessageReceivedEventArgs(ITextMessage textMessageIncoming)
         {
-            this.nrings = nrings;
+            this.textMessage = textMessageIncoming;
         }
-
-        public int NumRings
-        {
-            get { return nrings; }
-        }
-
-        public string EventText
-        {
-            get
-            {
-                return ("EventText: " + nrings);
-            }
+        public ITextMessage textMessage;
+        public int Acknowledge(string messageId, int acode) {
+            // TODO: Implement Acknowledgement of Messages processed by the consumer
+            // Note that this will require to alter the ActiveMQ session to no longer automatically
+            // acknowledging messages when they have delivered. Maybe we change this to "transactional" 
+            return 999;
         }
     }
-
 
     // When instantiated object subscribes to a ActiveMQ topic.
     // Topic name, broker uri and other things have to be specified when object is created (see constructor)
@@ -64,27 +51,9 @@ namespace XpaTQueue
         private readonly IMessageConsumer consumer;
         private bool isDisposed = false;
 
-        // Delegate declaration.
-        //
-        public delegate void QueueEventHandler(object sender, QueueEventArgs e);
+        public delegate void CustomEventHandler(object sender, MessageReceivedEventArgs a);
+        public event EventHandler<MessageReceivedEventArgs> RaiseCustomEvent;
 
-        public event MessageReceivedDelegate OnMessageReceived;
-
-        public event QueueEventHandler QueueEvent;
-
-        // The protected OnQueueEvent method raises the event by invoking
-        // the delegates. The sender is always this, the current instance
-        // of the class.
-        //
-        protected virtual void OnQueueEvent(QueueEventArgs e)
-        {
-            QueueEventHandler handler = QueueEvent;
-            if (handler != null)
-            {
-                // Invokes the delegates.
-                handler(this, e);
-            }
-        }
 
         public SimpleTopicSubscriber(string topicName, string brokerUri, string clientId, string consumerId)
         {
@@ -93,6 +62,7 @@ namespace XpaTQueue
             this.connectionFactory = new ConnectionFactory(brokerUri);
             this.connection = this.connectionFactory.CreateConnection();
             this.connection.ClientId = clientId;
+
             this.connection.Start();
             this.session = connection.CreateSession();
             ActiveMQTopic topic = new ActiveMQTopic(topicName);
@@ -103,14 +73,18 @@ namespace XpaTQueue
 
         public void OnMessage(IMessage message)
         {
-            ITextMessage textMessage = message as ITextMessage;
-            if (this.OnMessageReceived != null)
-            {
-                this.OnMessageReceived(textMessage.Text);
+            OnRaiseMessageReceivedEvent(new MessageReceivedEventArgs(message as ITextMessage));
+        }
 
-//                QueueEventArgs e = new QueueEventArgs(0);
-//                OnQueueEvent(e);
-            }
+        // Wrap event invocations inside a protected virtual method
+        // to allow derived classes to override the event invocation behavior
+        protected virtual void OnRaiseMessageReceivedEvent(MessageReceivedEventArgs e)
+        {
+            // Make a temporary copy of the event to avoid possibility of
+            // a race condition if the last subscriber unsubscribes
+            // immediately after the null check and before the event is raised.
+            EventHandler<MessageReceivedEventArgs> handler = RaiseCustomEvent;
+            handler?.Invoke(this, e);
         }
 
         public void DeleteDurableConsumer() {

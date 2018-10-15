@@ -13,7 +13,7 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="12">
+        <Header ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="15">
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -36,7 +36,7 @@
           <Key>
             <Mode val="N"/>
           </Key>
-          <DB comp="-1"/>
+          <DB/>
           <Sort>
             <CLS val="A"/>
           </Sort>

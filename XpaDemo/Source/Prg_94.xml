@@ -31,7 +31,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736845" _time="48460" date="31/05/2018" time="13:27:40"/>
+          <LastModified _date="736981" _time="49470" date="14/10/2018" time="13:44:30"/>
         </Header>
         <ReturnValueExpression val="9"/>
         <ItemIsn val="11"/>
@@ -406,6 +406,33 @@
               <LogicLine>
                 <END_BLK FlowIsn="27"/>
               </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="40">
+                  <Type val="2"/>
+                  <Text val=" "/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <BLOCK EndBlock="42" EndBlockSegment="42" FlowIsn="41" Type="I">
+                  <Condition Exp="10"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </BLOCK>
+              </LogicLine>
+              <LogicLine>
+                <Update FlowIsn="43">
+                  <FieldID val="2"/>
+                  <WithValue val="11"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Update>
+              </LogicLine>
+              <LogicLine>
+                <END_BLK FlowIsn="42"/>
+              </LogicLine>
             </LogicLines>
           </LogicUnit>
         </TaskLogic>
@@ -442,6 +469,10 @@
             <ExpSyntax val="{0,6}='X'"/>
             <ExpAttribute val="B"/>
           </Expression>
+          <Expression id="10">
+            <ExpSyntax val="{0,6}='E'"/>
+            <ExpAttribute val="B"/>
+          </Expression>
           <Expression id="3">
             <ExpSyntax val="Trim(Translate({0,7}))"/>
             <ExpAttribute val="A"/>
@@ -449,6 +480,10 @@
           <Expression id="9">
             <ExpSyntax val="{0,2}"/>
             <ExpAttribute val="U"/>
+          </Expression>
+          <Expression id="11">
+            <ExpSyntax val="OSEnvGet(Trim({0,5}))"/>
+            <ExpAttribute val="A"/>
           </Expression>
         </Expressions>
       </Task>

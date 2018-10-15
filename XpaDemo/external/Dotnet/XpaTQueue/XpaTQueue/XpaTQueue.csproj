@@ -4,6 +4,15 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>C:\Magic\XpaDemo\XpaDemo\bin\</OutputPath>
+    <DocumentationFile>C:\Magic\XpaDemo\XpaDemo\external\Dotnet\XpaTQueue\XpaTQueue\XpaTQueue.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>C:\Magic\XpaDemo\XpaDemo\bin\</OutputPath>
+  </PropertyGroup>
+
   <ItemGroup>
     <Reference Include="Apache.NMS">
       <HintPath>..\..\..\..\..\..\..\Apache\apache-activemq-5.15.6\Apache.NMS-1.7.1-bin\net-4.0\debug\Apache.NMS.dll</HintPath>

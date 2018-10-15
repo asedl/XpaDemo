@@ -1,26 +1,30 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<Application>
+ <Application>
+ 
+<Header>
 
-  <Header>
-    <Version val="13030.00"/>
-    <WithIsn val="Y"/>
-    <Exe comp="-1"/>
-    <LastIsn val="21"/>
-    <LastIsnFolder val="3"/>
-    <Folders>
-      <Folder id="3">
-        <Name val="Memory Tables"/>
-      </Folder>
-    </Folders>
-  </Header>
+  <Version val="13030.00"/>
 
-  <DataSourceRepository>
-    <DataObjects>
-      <DataObject PhysicalName="Filelist" Resident="N" UniqueISNConvState="12" data_source="Memory" id="20" length="2233" name="Filelist" offset="315"/>
-      <DataObject Comment="/* This contains the &quot;tree mode&quot; menu used for these programs */" FolderIsn="3" PhysicalName="Generic_Tree" Resident="N" UniqueISNConvState="12" data_source="Memory" id="21" length="4593" name="Generic Tree" offset="2549"/>
-    </DataObjects>
-  </DataSourceRepository>
+  <WithIsn val="Y"/>
 
-  <LastModified val="30694160-125969238"/>
+  <Exe comp="-1"/>
 
-</Application>
+  <LastIsn val="21"/>
+
+  <LastIsnFolder val="3"/>
+
+  <Folders>
+    <Folder id="3">
+      <Name val="Memory Tables"/>
+    </Folder>
+  </Folders>
+
+</Header>
+ <DataSourceRepository>
+  <DataObjects>
+ 
+ 
+ 
+<DataObject PhysicalName="Filelist" Resident="N" UniqueISNConvState="12" data_source="Memory" id="20" name="Filelist" offset="294" length="2233"/> 
+<DataObject Comment="/* This contains the &quot;tree mode&quot; menu used for these programs */" FolderIsn="3" PhysicalName="Generic_Tree" Resident="N" UniqueISNConvState="12" data_source="Memory" id="21" name="Generic Tree" offset="2528" length="4448"/>  </DataObjects>
+ </DataSourceRepository>
+ <LastModified val="30696369-35321157"/>  </Application>

@@ -28,9 +28,9 @@
           <RunProjectAs val="O"/>
           <FormType val="N"/>
           <DotNetObjectExists val="Y"/>
-          <LastModified _date="736980" _time="62366" date="13/10/2018" time="17:19:26"/>
+          <LastModified _date="736982" _time="7568" date="15/10/2018" time="02:06:08"/>
         </Header>
-        <ItemIsn val="3"/>
+        <ItemIsn val="4"/>
         <Resource>
           <Columns>
             <Column id="1" name="gv.XpatQueueObject">
@@ -60,6 +60,16 @@
                 <Definition id="175" val="1"/>
                 <_FieldStyle id="276" val="5"/>
                 <ObjectType id="478" val="XpaTHttpDNet.AlarmEventArgs"/>
+              </PropertyList>
+            </Column>
+            <Column id="4" name="v.ThreadId">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_NUMERIC" id="1"/>
+                <Picture id="157" valUnicode="N10"/>
+                <_Dec id="181"/>
+                <_Whole id="182" val="10"/>
+                <_Negative id="192" val="Y"/>
+                <_FieldStyle id="276" val="1"/>
               </PropertyList>
             </Column>
           </Columns>
@@ -203,6 +213,50 @@
                   <Direction val="C"/>
                 </STP>
               </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="7">
+                  <Type val="2"/>
+                  <Text val=" "/>
+                </Remark>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="3" propagate="78">
+            <Level val="F"/>
+            <Scope val="G"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="F"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <TXT val="GetCurrentThreadId"/>
+            <ReturnValueExpression val="2"/>
+            <Expanded val="1"/>
+            <LogicLines>
+              <LogicLine>
+                <Select FieldID="4" FlowIsn="8" id="4">
+                  <Column val="4"/>
+                  <Type val="V"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Update FlowIsn="9">
+                  <FieldID val="4"/>
+                  <WithValue val="3"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Update>
+              </LogicLine>
             </LogicLines>
           </LogicUnit>
         </TaskLogic>
@@ -229,6 +283,14 @@
           <Expression id="1">
             <ExpSyntax val="'Global handler for Alarm Event'"/>
             <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="2">
+            <ExpSyntax val="{0,4}"/>
+            <ExpAttribute val="N"/>
+          </Expression>
+          <Expression id="3">
+            <ExpSyntax val="CallDLL('Kernel32.GetCurrentThreadId', '4')"/>
+            <ExpAttribute val="*"/>
           </Expression>
         </Expressions>
       </Task>
