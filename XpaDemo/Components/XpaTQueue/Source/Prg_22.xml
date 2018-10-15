@@ -13,8 +13,7 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="#TSTO100A" ISN_2="1" LastIsn="1" id="6">
-          <Public val="#TSTO100A_ReceiveEvents"/>
+        <Header ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="22">
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -28,7 +27,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736979" _time="47411" date="12/10/2018" time="13:10:11"/>
+          <LastModified date="00/00/0000" time="00:00:00"/>
         </Header>
         <Resource>
           <Columns/>
@@ -37,7 +36,7 @@
           <Key>
             <Mode val="N"/>
           </Key>
-          <DB comp="-1"/>
+          <DB/>
           <Sort>
             <CLS val="A"/>
           </Sort>
@@ -112,64 +111,12 @@
               </LogicLine>
             </LogicLines>
           </LogicUnit>
-          <LogicUnit id="3" propagate="78">
-            <Level val="R"/>
-            <Type val="P"/>
-            <Scope val="S"/>
-            <EngineDirective val="S"/>
-            <ShowMessage val="Y"/>
-            <Condition val="89"/>
-            <Event>
-              <EventType val="S"/>
-              <PublicObject comp="-1"/>
-            </Event>
-            <Expanded val="1"/>
-            <LogicLines>
-              <LogicLine>
-                <Remark FlowIsn="3">
-                  <Type val="2"/>
-                  <Text val=" "/>
-                </Remark>
-              </LogicLine>
-              <LogicLine>
-                <Remark FlowIsn="5">
-                  <Type val="2"/>
-                  <Text val="Start a (parallel) program which will create an event source and handles receiving of events"/>
-                </Remark>
-              </LogicLine>
-              <LogicLine>
-                <Remark FlowIsn="6">
-                  <Type val="2"/>
-                  <Text val="It the program is not parallel (running in a different thread) this specific .NET implementation would"/>
-                </Remark>
-              </LogicLine>
-              <LogicLine>
-                <Remark FlowIsn="7">
-                  <Type val="2"/>
-                  <Text val="otherwise blog the main UI thread and Magic would freeze"/>
-                </Remark>
-              </LogicLine>
-              <LogicLine>
-                <CallTask FlowIsn="4">
-                  <OperationType val="P"/>
-                  <TaskID comp="-1" obj="5"/>
-                  <Lock val="N"/>
-                  <Wait val="Y"/>
-                  <SyncData val="N"/>
-                  <RetainFocus val="N"/>
-                  <Condition val="Y"/>
-                  <Modifier val="S"/>
-                  <Direction val="C"/>
-                </CallTask>
-              </LogicLine>
-            </LogicLines>
-          </LogicUnit>
         </TaskLogic>
         <TaskForms>
           <FormEntry id="1">
             <PropertyList model="FORM_GUI0">
               <_Comment id="218"/>
-              <FormName id="311" valUnicode="#TSTO100A"/>
+              <FormName id="311"/>
             </PropertyList>
           </FormEntry>
         </TaskForms>

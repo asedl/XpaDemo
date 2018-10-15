@@ -28,9 +28,9 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="Y"/>
-          <LastModified _date="736982" _time="9420" date="15/10/2018" time="02:37:00"/>
+          <LastModified _date="736982" _time="48266" date="15/10/2018" time="13:24:26"/>
         </Header>
-        <ItemIsn val="18"/>
+        <ItemIsn val="20"/>
         <Resource>
           <Columns>
             <Column id="1" name="SimpleTopicSubscriber">
@@ -69,6 +69,17 @@
                 <_Whole id="182" val="10"/>
                 <_Negative id="192" val="Y"/>
                 <_FieldStyle id="276" val="1"/>
+              </PropertyList>
+            </Column>
+            <Column id="18" name="v.ConnectionString">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_BLOB" id="1"/>
+                <StoredAs id="173" val="34"/>
+                <Size id="174" val="28"/>
+                <Definition id="175" val="1"/>
+                <_FieldStyle id="276" val="1"/>
+                <Content id="434" val="2"/>
+                <PartOfDataview id="449"/>
               </PropertyList>
             </Column>
             <Column id="14" name="sender">
@@ -202,7 +213,7 @@
                   <Column val="16"/>
                   <Type val="V"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="5"/>
+                  <_DitIndexForToolkit val="7"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -214,7 +225,7 @@
                   <Column val="5"/>
                   <Type val="V"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="1"/>
+                  <_DitIndexForToolkit val="9"/>
                   <DIFF_UPDATE val="T"/>
                   <PartOfDataview val="N"/>
                   <Condition val="Y"/>
@@ -228,8 +239,27 @@
                   <Column val="12"/>
                   <Type val="V"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="3"/>
+                  <_DitIndexForToolkit val="4"/>
                   <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="155">
+                  <Type val="0"/>
+                  <Text val=" "/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="20" FlowIsn="156" id="20">
+                  <Column val="18"/>
+                  <Type val="V"/>
+                  <IsParameter val="N"/>
+                  <_DitIndexForToolkit val="2"/>
+                  <DIFF_UPDATE val="T"/>
+                  <PartOfDataview val="N"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
                   <Direction val="C"/>
@@ -412,6 +442,61 @@
             <Expanded val="1"/>
             <LogicLines>
               <LogicLine>
+                <CallTask FlowIsn="154">
+                  <OperationType val="P"/>
+                  <TaskID comp="-1" obj="23"/>
+                  <Lock val="N"/>
+                  <Arguments>
+                    <Argument>
+                      <Skip val="Y"/>
+                    </Argument>
+                    <Argument>
+                      <Variable val="20"/>
+                      <Skip val="N"/>
+                    </Argument>
+                  </Arguments>
+                  <Wait val="Y"/>
+                  <SyncData val="N"/>
+                  <RetainFocus val="N"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </CallTask>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="179">
+                  <Type val="2"/>
+                  <Text val=" "/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <BLOCK EndBlock="159" EndBlockSegment="159" FlowIsn="158" Type="I">
+                  <Condition Exp="20"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </BLOCK>
+              </LogicLine>
+              <LogicLine>
+                <Update FlowIsn="160">
+                  <FieldID val="20"/>
+                  <WithValue val="21"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Update>
+              </LogicLine>
+              <LogicLine>
+                <END_BLK FlowIsn="159"/>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="157">
+                  <Type val="2"/>
+                  <Text val=" "/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
                 <Remark FlowIsn="35">
                   <Type val="2"/>
                   <Text val="Start subscription to messages for topic XpaTopic by creating a subscriber ..."/>
@@ -432,34 +517,44 @@
           </LogicUnit>
         </TaskLogic>
         <TaskForms>
-          <FormEntry _last_isn="6" _last_test_id="6" id="1">
+          <FormEntry _last_isn="12" _last_test_id="12" id="1">
             <PropertyList model="FORM_GUI0">
+              <Width id="23" val="663"/>
+              <Height id="24" val="289"/>
               <_Comment id="218"/>
               <FormName id="311" valUnicode="#TSTO112_Subscriber"/>
             </PropertyList>
-            <Control PDOD="128" _test_id="2" id="2">
+            <Control _test_id="8" id="8">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19" valUnicode="Connection (Broker URI):"/>
+                <X id="21" val="14"/>
+                <Y id="22" val="9"/>
+                <Width id="23" val="172"/>
+                <Height id="24" val="11"/>
+                <Style id="63" val="7"/>
+                <EnableRTF id="69"/>
+                <_Orientation id="143"/>
+              </PropertyList>
+            </Control>
+            <Control PDOD="128" _test_id="7" id="7">
               <PropertyList model="CTRL_GUI0_EDIT">
                 <X id="21" val="10"/>
-                <Y id="22" val="7"/>
-                <Width id="23" val="302"/>
-                <Height id="24" val="126"/>
-                <Data FieldID="6" id="43"/>
+                <Y id="22" val="22"/>
+                <Width id="23" val="558"/>
+                <Height id="24" val="10"/>
+                <Data FieldID="20" id="43"/>
                 <MultiLineEdit id="71" val="Y"/>
-                <HorizontalScroll id="72"/>
-                <VerticalScroll id="73" val="Y"/>
                 <AllowCRInData id="74" val="Y"/>
                 <PasswordEdit id="85"/>
                 <_Orientation id="143"/>
-                <ShowScrollBars id="273"/>
                 <TabOrder id="314" val="1"/>
-                <MultilineWordwrapScroll id="455" val="3"/>
               </PropertyList>
             </Control>
             <Control _test_id="4" id="4">
               <PropertyList model="CTRL_GUI0_STATIC">
                 <Text id="19" valUnicode="v.ThreadId"/>
-                <X id="21" val="10"/>
-                <Y id="22" val="145"/>
+                <X id="21" val="11"/>
+                <Y id="22" val="153"/>
                 <Width id="23" val="43"/>
                 <Height id="24" val="9"/>
                 <Font id="50" val="1"/>
@@ -473,47 +568,89 @@
                 <Model ID="MODEL_GUI_INT" id="1">
                   <Var FieldID="14"/>
                 </Model>
-                <X id="21" val="57"/>
-                <Y id="22" val="145"/>
+                <X id="21" val="58"/>
+                <Y id="22" val="153"/>
                 <Width id="23" val="56"/>
                 <Height id="24" val="10"/>
                 <Data FieldID="14" id="43"/>
                 <ControlName id="46" val="v.ThreadId"/>
                 <_Orientation id="143"/>
-                <TabOrder id="314" val="2"/>
+                <TabOrder id="314" val="4"/>
               </PropertyList>
             </Control>
-            <Control _test_id="6" id="6">
+            <Control _test_id="9" id="9">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19" valUnicode="Received Message"/>
+                <X id="21" val="11"/>
+                <Y id="22" val="41"/>
+                <Width id="23" val="557"/>
+                <Height id="24" val="108"/>
+                <StaticType id="70" val="128"/>
+                <_Orientation id="143"/>
+              </PropertyList>
+            </Control>
+            <Control ISN_FATHER="9" _test_id="10" id="10">
               <PropertyList model="CTRL_GUI0_STATIC">
                 <Text id="19" valUnicode="MessageId"/>
-                <X id="21" val="10"/>
-                <Y id="22" val="162"/>
-                <Width id="23" val="43"/>
-                <Height id="24" val="9"/>
-                <Font id="50" val="1"/>
+                <X id="21" val="19"/>
+                <Y id="22" val="51"/>
+                <Width id="23" val="172"/>
+                <Height id="24" val="11"/>
                 <Style id="63" val="7"/>
                 <EnableRTF id="69"/>
+                <_Orientation id="143"/>
               </PropertyList>
             </Control>
-            <Control _test_id="5" id="5">
+            <Control ISN_FATHER="9" _test_id="5" id="5">
               <PropertyList model="CTRL_GUI0_EDIT">
                 <Model ID="MODEL_GUI_INT" id="1">
                   <Var FieldID="18"/>
                 </Model>
-                <X id="21" val="57"/>
-                <Y id="22" val="162"/>
+                <X id="21" val="19"/>
+                <Y id="22" val="64"/>
                 <Width id="23" val="200"/>
                 <Height id="24" val="10"/>
                 <Data FieldID="18" id="43"/>
                 <ControlName id="46" val="MessageId"/>
+                <_Orientation id="143"/>
+                <TabOrder id="314" val="2"/>
+              </PropertyList>
+            </Control>
+            <Control ISN_FATHER="9" _test_id="11" id="11">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19" valUnicode="Message (Text)"/>
+                <X id="21" val="19"/>
+                <Y id="22" val="76"/>
+                <Width id="23" val="172"/>
+                <Height id="24" val="11"/>
+                <Style id="63" val="7"/>
+                <EnableRTF id="69"/>
+                <_Orientation id="143"/>
+              </PropertyList>
+            </Control>
+            <Control ISN_FATHER="9" PDOD="128" _test_id="2" id="2">
+              <PropertyList model="CTRL_GUI0_EDIT">
+                <X id="21" val="19"/>
+                <Y id="22" val="92"/>
+                <Width id="23" val="544"/>
+                <Height id="24" val="53"/>
+                <Data FieldID="6" id="43"/>
+                <MultiLineEdit id="71" val="Y"/>
+                <HorizontalScroll id="72"/>
+                <VerticalScroll id="73" val="Y"/>
+                <AllowCRInData id="74" val="Y"/>
+                <PasswordEdit id="85"/>
+                <_Orientation id="143"/>
+                <ShowScrollBars id="273"/>
                 <TabOrder id="314" val="3"/>
+                <MultilineWordwrapScroll id="455" val="3"/>
               </PropertyList>
             </Control>
           </FormEntry>
         </TaskForms>
         <Expressions>
           <Expression id="2">
-            <ExpSyntax val="DotNet.XpaTQueue.SimpleTopicSubscriber('XpaTopic', 'tcp://localhost:61616', 'XpaSubscriber', 'XpaConsumer')"/>
+            <ExpSyntax val="DotNet.XpaTQueue.SimpleTopicSubscriber('XpaTopic', Trim({0,20}), 'XpaSubscriber', 'XpaConsumer')"/>
             <ExpAttribute val="O"/>
           </Expression>
           <Expression id="6">
@@ -551,6 +688,14 @@
           <Expression id="19">
             <ExpSyntax val="{0,17}.textMessage.NMSMessageId"/>
             <ExpAttribute val="O"/>
+          </Expression>
+          <Expression id="20">
+            <ExpSyntax val="Len(Trim({0,20}))=0"/>
+            <ExpAttribute val="B"/>
+          </Expression>
+          <Expression id="21">
+            <ExpSyntax val="'tcp://localhost:61616'"/>
+            <ExpAttribute val="A"/>
           </Expression>
         </Expressions>
         <EVNT DESC="SendMessage" FORCE_EXIT="N" id="1">

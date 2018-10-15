@@ -25,7 +25,7 @@
         <DotNetObjectExists val="Y"/>
         <LastModified _date="736982" _time="7568" date="15/10/2018" time="02:06:08"/>
       </Header>
-      <SourceFileTimeStamp _date="584389" date="01/01/1601" time="00:00:00"/>
+      <SourceFileTimeStamp _date="736982" _time="368" date="15/10/2018" time="00:06:08"/>
     </Program>
     <Program>
       <Header ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="4">
@@ -47,95 +47,6 @@
       <SourceFileTimeStamp _date="736978" _time="38470" date="11/10/2018" time="10:41:10"/>
     </Program>
     <Program>
-      <Header Description="#TSTO100A" ISN_2="1" LastIsn="1" id="6">
-        <Public val="#TSTO100A_ReceiveEvents"/>
-        <ExecutionRight comp="-1"/>
-        <Resident val="N"/>
-        <SQL val="N"/>
-        <ReturnValue>
-          <ReturnValueAttr/>
-          <ParametersAttributes/>
-        </ReturnValue>
-        <SqlWhereExist val="N"/>
-        <TaskType val="O"/>
-        <External val="N"/>
-        <Offline val="N"/>
-        <FormType val="N"/>
-        <DotNetObjectExists val="N"/>
-        <LastModified _date="736979" _time="47411" date="12/10/2018" time="13:10:11"/>
-      </Header>
-      <SourceFileTimeStamp _date="736979" _time="40211" date="12/10/2018" time="11:10:11"/>
-    </Program>
-    <Program>
-      <Header Description="#TSTO100B_ReceiveEvents" ISN_2="1" LastIsn="1" id="5">
-        <Public val="#TSTO100B_ReceiveEvents"/>
-        <ExecutionRight comp="-1"/>
-        <Resident val="N"/>
-        <SQL val="N"/>
-        <ReturnValue>
-          <ReturnValueAttr/>
-          <ParametersAttributes/>
-        </ReturnValue>
-        <PARALLEL_EXECUTION>
-          <INITIATE_MAIN_PROG val="Y"/>
-          <COPY_GLOBAL_PARAMS val="Y"/>
-          <SingleInstance val="Y"/>
-        </PARALLEL_EXECUTION>
-        <SqlWhereExist val="N"/>
-        <TaskType val="O"/>
-        <External val="N"/>
-        <Offline val="N"/>
-        <FormType val="N"/>
-        <DotNetObjectExists val="Y"/>
-        <LastModified _date="736978" _time="55103" date="11/10/2018" time="15:18:23"/>
-      </Header>
-      <SourceFileTimeStamp _date="736978" _time="47903" date="11/10/2018" time="13:18:23"/>
-    </Program>
-    <Program>
-      <Header Description="#TSTO100C_ReceiveEvents" ISN_2="1" LastIsn="1" id="7">
-        <Public val="#TSTO100C_ReceiveEvents"/>
-        <ExecutionRight comp="-1"/>
-        <Resident val="N"/>
-        <SQL val="N"/>
-        <ReturnValue>
-          <ReturnValueAttr/>
-          <ParametersAttributes/>
-        </ReturnValue>
-        <PARALLEL_EXECUTION>
-          <INITIATE_MAIN_PROG val="Y"/>
-          <COPY_GLOBAL_PARAMS val="Y"/>
-          <SingleInstance val="Y"/>
-        </PARALLEL_EXECUTION>
-        <SqlWhereExist val="N"/>
-        <TaskType val="O"/>
-        <External val="N"/>
-        <Offline val="N"/>
-        <FormType val="N"/>
-        <DotNetObjectExists val="Y"/>
-        <LastModified _date="736979" _time="47681" date="12/10/2018" time="13:14:41"/>
-      </Header>
-      <SourceFileTimeStamp _date="736979" _time="40481" date="12/10/2018" time="11:14:41"/>
-    </Program>
-    <Program>
-      <Header ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="8">
-        <ExecutionRight comp="-1"/>
-        <Resident val="N"/>
-        <SQL val="N"/>
-        <ReturnValue>
-          <ReturnValueAttr/>
-          <ParametersAttributes/>
-        </ReturnValue>
-        <SqlWhereExist val="N"/>
-        <TaskType val="O"/>
-        <External val="N"/>
-        <Offline val="N"/>
-        <FormType val="N"/>
-        <DotNetObjectExists val="N"/>
-        <LastModified date="00/00/0000" time="00:00:00"/>
-      </Header>
-      <SourceFileTimeStamp _date="736979" _time="56947" date="12/10/2018" time="15:49:07"/>
-    </Program>
-    <Program>
       <Header Description="#TSTB100_Start" ISN_2="1" LastIsn="1" id="11">
         <Public val="#TSTB100_Start"/>
         <ExecutionRight comp="-1"/>
@@ -151,9 +62,9 @@
         <Offline val="N"/>
         <FormType val="N"/>
         <DotNetObjectExists val="N"/>
-        <LastModified _date="736980" _time="69545" date="13/10/2018" time="19:19:05"/>
+        <LastModified _date="736982" _time="49230" date="15/10/2018" time="13:40:30"/>
       </Header>
-      <SourceFileTimeStamp _date="736980" _time="62345" date="13/10/2018" time="17:19:05"/>
+      <SourceFileTimeStamp _date="736982" _time="42030" date="15/10/2018" time="11:40:30"/>
     </Program>
     <Program>
       <Header Description="#TSTO111_ApacheMQ_Send" ISN_2="1" LastIsn="1" id="9">
@@ -243,31 +154,6 @@
       <SourceFileTimeStamp _date="736980" _time="62327" date="13/10/2018" time="17:18:47"/>
     </Program>
     <Program>
-      <Header Description="#TSTO112B_Subscriber #1" ISN_2="1" LastIsn="1" id="10">
-        <Public val="#TSTO112B_Subscriber #1"/>
-        <ExecutionRight comp="-1"/>
-        <Resident val="N"/>
-        <SQL val="N"/>
-        <ReturnValue>
-          <ReturnValueAttr/>
-          <ParametersAttributes/>
-        </ReturnValue>
-        <PARALLEL_EXECUTION>
-          <INITIATE_MAIN_PROG val="Y"/>
-          <COPY_GLOBAL_PARAMS val="Y"/>
-          <SingleInstance val="N"/>
-        </PARALLEL_EXECUTION>
-        <SqlWhereExist val="N"/>
-        <TaskType val="O"/>
-        <External val="N"/>
-        <Offline val="N"/>
-        <FormType val="N"/>
-        <DotNetObjectExists val="Y"/>
-        <LastModified _date="736982" _time="7184" date="15/10/2018" time="01:59:44"/>
-      </Header>
-      <SourceFileTimeStamp _date="736981" _time="86384" date="14/10/2018" time="23:59:44"/>
-    </Program>
-    <Program>
       <Header Description="#TSTO112B_Subscriber #2" ISN_2="1" LastIsn="1" id="19">
         <Public val="#TSTO112B_Subscriber #2"/>
         <ExecutionRight comp="-1"/>
@@ -283,9 +169,9 @@
         <Offline val="N"/>
         <FormType val="N"/>
         <DotNetObjectExists val="Y"/>
-        <LastModified _date="736982" _time="9420" date="15/10/2018" time="02:37:00"/>
+        <LastModified _date="736982" _time="48266" date="15/10/2018" time="13:24:26"/>
       </Header>
-      <SourceFileTimeStamp _date="736982" _time="2220" date="15/10/2018" time="00:37:00"/>
+      <SourceFileTimeStamp _date="736982" _time="41066" date="15/10/2018" time="11:24:26"/>
     </Program>
     <Program>
       <Header ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="15">
@@ -385,9 +271,52 @@
         <Offline val="N"/>
         <FormType val="N"/>
         <DotNetObjectExists val="Y"/>
-        <LastModified _date="736981" _time="13318" date="14/10/2018" time="03:41:58"/>
+        <LastModified _date="736982" _time="49652" date="15/10/2018" time="13:47:32"/>
       </Header>
-      <SourceFileTimeStamp _date="736981" _time="6118" date="14/10/2018" time="01:41:58"/>
+      <SourceFileTimeStamp _date="736982" _time="42452" date="15/10/2018" time="11:47:32"/>
+    </Program>
+    <Program>
+      <Header ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="22">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified date="00/00/0000" time="00:00:00"/>
+      </Header>
+      <SourceFileTimeStamp _date="736982" _time="36422" date="15/10/2018" time="10:07:02"/>
+    </Program>
+    <Program>
+      <Header Description="#XPAMQB900_ReadConfig" ISN_2="1" LastIsn="4" id="23">
+        <Public val="#XPAMQB900_ReadConfig"/>
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <TSK_PARAMS val="2"/>
+          <ParametersAttributes>
+            <Attr MgAttr="U"/>
+            <Attr MgAttr="O"/>
+          </ParametersAttributes>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="B"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="736982" _time="47701" date="15/10/2018" time="13:15:01"/>
+      </Header>
+      <SourceFileTimeStamp _date="736982" _time="40501" date="15/10/2018" time="11:15:01"/>
     </Program>
     <Program>
       <Header ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="20">

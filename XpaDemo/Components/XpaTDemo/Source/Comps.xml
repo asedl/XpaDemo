@@ -5,7 +5,7 @@
     <Version val="13030.00"/>
     <WithIsn val="Y"/>
     <Exe comp="-1"/>
-    <LastIsn val="15"/>
+    <LastIsn val="17"/>
     <LastIsnFolder val="2"/>
     <Folders>
       <Folder id="1">
@@ -727,11 +727,25 @@
           </Object>
         </ComponentPrograms>
       </Component>
-      <Component FolderIsn="2" id="15">
-        <ComponentType val="Magic xpa"/>
-        <Type val="U"/>
-        <LoadImmediate val="N"/>
-        <LastISN val="32"/>
+      <Component FolderIsn="2" id="15" name="exontrol.exbutton">
+        <Description val="exontrol.exbutton"/>
+        <ComponentType val=".NET"/>
+        <Type val="D"/>
+        <LoadImmediate val="Y"/>
+        <AssemblyName val="exontrol.exbutton, Version=16.0.6702.28587, Culture=neutral, PublicKeyToken=e0a0f2f4525dc60b"/>
+        <AssemblyPath val="C:\Program Files (x86)\Exontrol\ExButton.NET\Sample\exontrol.exbutton.dll"/>
+        <UseSpecificVersion val="N"/>
+        <isGuiThreadExecution val="Y"/>
+      </Component>
+      <Component FolderIsn="2" id="16" name="exontrol.explorertree">
+        <Description val="exontrol.explorertree"/>
+        <ComponentType val=".NET"/>
+        <Type val="D"/>
+        <LoadImmediate val="Y"/>
+        <AssemblyName val="exontrol.explorertree, Version=12.0.6785.31251, Culture=neutral, PublicKeyToken=6a8e3b20ee725922"/>
+        <AssemblyPath val="C:\Program Files (x86)\Exontrol\ExplorerTree.NET\Sample\exontrol.explorertree.dll"/>
+        <UseSpecificVersion val="N"/>
+        <isGuiThreadExecution val="Y"/>
       </Component>
     </Components>
     <Aliases LastIsnAliases="3">

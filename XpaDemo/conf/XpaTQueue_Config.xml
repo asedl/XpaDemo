@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XpatQueue>
+  <TransportOptions initialReconnectDelay="10" maxReconnectDelay="30000"/>
+  <Brokers>
+    <Broker type="AMQ" uri="tcp://localhost:61616" />
+    <Broker type="AMQ" uri="tcp://test1.andreas.org:61616" />
+    <Broker type="AMQ" uri="tcp://test2.andreas.org:61616" />
+  </Brokers>
+</XpatQueue>
+  

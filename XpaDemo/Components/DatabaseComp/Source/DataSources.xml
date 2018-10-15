@@ -25,7 +25,6 @@
  <DataSourceRepository>
   <DataObjects>
  
- 
 <DataObject FolderIsn="1" PhysicalName="xpatest_uris" Public="xpatest_uris" Resident="N" UniqueISNConvState="12" data_source="XPATest" id="16" name="xpatest_uris">
 
   <Encrypt val="N"/>
@@ -43,6 +42,8 @@
   <ObjectType val="T"/>
 
   <Position val="D"/>
+
+  <PositionIndex val="-2"/>
 
   <IndexesLastIsn val="2"/>
 

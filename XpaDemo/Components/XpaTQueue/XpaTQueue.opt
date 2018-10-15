@@ -11,11 +11,11 @@
     <DelAll/>
     <Breakpoint>
       <Condition Val=""/>
-      <Location Val="#TSTO100B_ReceiveEvents"/>
-      <HandlerId Val="3"/>
-      <OperationId Val="9"/>
-      <LineIndex Val="16"/>
-      <HandlerDesc Val="Event:AlarmClock.Alarm"/>
+      <Location Val="#TSTO112B_Subscriber #2"/>
+      <HandlerId Val="4"/>
+      <OperationId Val="154"/>
+      <LineIndex Val="19"/>
+      <HandlerDesc Val="Record Prefix"/>
       <Count Val="0"/>
       <Enable Val="1"/>
       <Component1 Val="-1332452073"/>
@@ -23,10 +23,10 @@
       <Component3 Val="17678"/>
       <Component4 Val="1329964693"/>
       <Component5 Val="1220071523"/>
-      <Prog Val="5"/>
+      <Prog Val="19"/>
       <Subtask Val="1"/>
       <Type Val="1"/>
-      <Operation Val="9"/>
+      <Operation Val="154"/>
     </Breakpoint>
   </Breakpoints>
 
