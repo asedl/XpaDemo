@@ -1,0 +1,219 @@
+See the end of this message for details on invoking 
+just-in-time (JIT) debugging instead of this dialog box.
+
+************** Exception Text **************
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at exontrol.EXG2ANTTLib.exg2antt.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+************** Loaded Assemblies **************
+mscorlib
+    Assembly Version: 4.0.0.0
+    Win32 Version: 4.7.3190.0 built by: NET472REL1LAST_C
+    CodeBase: file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/mscorlib.dll
+----------------------------------------
+MgxpaRuntime
+    Assembly Version: 3.3.0.292
+    Win32 Version: 3.3.0.292
+    CodeBase: file:///C:/Magic/Xpa3.3/MgxpaRuntime.exe
+----------------------------------------
+MgGui
+    Assembly Version: 1.0.0.0
+    Win32 Version: 3.3.0.292
+    CodeBase: file:///C:/Magic/Xpa3.3/RIAModules/Desktop/MgGui.DLL
+----------------------------------------
+MgCore
+    Assembly Version: 0.0.0.0
+    Win32 Version: 3.3.0.292
+    CodeBase: file:///C:/Magic/Xpa3.3/MgCore.DLL
+----------------------------------------
+MgUtils
+    Assembly Version: 1.0.0.0
+    Win32 Version: 3.3.0.292
+    CodeBase: file:///C:/Magic/Xpa3.3/RIAModules/Desktop/MgUtils.DLL
+----------------------------------------
+System.Windows.Forms
+    Assembly Version: 4.0.0.0
+    Win32 Version: 4.7.3056.0 built by: NET472REL1
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Windows.Forms/v4.0_4.0.0.0__b77a5c561934e089/System.Windows.Forms.dll
+----------------------------------------
+System
+    Assembly Version: 4.0.0.0
+    Win32 Version: 4.7.3190.0 built by: NET472REL1LAST_C
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System/v4.0_4.0.0.0__b77a5c561934e089/System.dll
+----------------------------------------
+System.Drawing
+    Assembly Version: 4.0.0.0
+    Win32 Version: 4.7.3056.0 built by: NET472REL1
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Drawing/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Drawing.dll
+----------------------------------------
+MgControls
+    Assembly Version: 1.0.0.0
+    Win32 Version: 3.3.0.292
+    CodeBase: file:///C:/Magic/Xpa3.3/RIAModules/Desktop/MgControls.DLL
+----------------------------------------
+MgNative
+    Assembly Version: 1.0.0.0
+    Win32 Version: 3.3.0.292
+    CodeBase: file:///C:/Magic/Xpa3.3/RIAModules/Desktop/MgNative.DLL
+----------------------------------------
+System.Configuration
+    Assembly Version: 4.0.0.0
+    Win32 Version: 4.7.3056.0 built by: NET472REL1
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Configuration/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Configuration.dll
+----------------------------------------
+System.Core
+    Assembly Version: 4.0.0.0
+    Win32 Version: 4.7.3190.0 built by: NET472REL1LAST_C
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Core/v4.0_4.0.0.0__b77a5c561934e089/System.Core.dll
+----------------------------------------
+System.Xml
+    Assembly Version: 4.0.0.0
+    Win32 Version: 4.7.3056.0 built by: NET472REL1
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Xml/v4.0_4.0.0.0__b77a5c561934e089/System.Xml.dll
+----------------------------------------
+MgDotNet
+    Assembly Version: 3.3.0.292
+    Win32 Version: 3.3.0.292
+    CodeBase: file:///C:/Magic/Xpa3.3/MgDotNet.DLL
+----------------------------------------
+System.Security
+    Assembly Version: 4.0.0.0
+    Win32 Version: 4.7.3101.0 built by: NET472REL1LAST_B
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Security/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Security.dll
+----------------------------------------
+System.Numerics
+    Assembly Version: 4.0.0.0
+    Win32 Version: 4.7.3056.0 built by: NET472REL1
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Numerics/v4.0_4.0.0.0__b77a5c561934e089/System.Numerics.dll
+----------------------------------------
+System.Data.SqlXml
+    Assembly Version: 4.0.0.0
+    Win32 Version: 4.7.3056.0 built by: NET472REL1
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Data.SqlXml/v4.0_4.0.0.0__b77a5c561934e089/System.Data.SqlXml.dll
+----------------------------------------
+Microsoft.GeneratedCode
+    Assembly Version: 1.0.0.0
+    Win32 Version: 4.7.3056.0 built by: NET472REL1
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Xml/v4.0_4.0.0.0__b77a5c561934e089/System.Xml.dll
+----------------------------------------
+System.Windows
+    Assembly Version: 4.0.0.0
+    Win32 Version: 4.7.3056.0
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Windows/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Windows.dll
+----------------------------------------
+Accessibility
+    Assembly Version: 4.0.0.0
+    Win32 Version: 4.7.3056.0 built by: NET472REL1
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/Accessibility/v4.0_4.0.0.0__b03f5f7f11d50a3a/Accessibility.dll
+----------------------------------------
+exontrol.exg2antt
+    Assembly Version: 18.0.6862.17945
+    Win32 Version: 18.0.1.2
+    CodeBase: file:///C:/Magic/XpaDemo/XpaDemo/Test/exontrol.exg2antt.dll
+----------------------------------------
+System.Data
+    Assembly Version: 4.0.0.0
+    Win32 Version: 4.7.3160.0 built by: NET472REL1LAST_C
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_32/System.Data/v4.0_4.0.0.0__b77a5c561934e089/System.Data.dll
+----------------------------------------
+System.Transactions
+    Assembly Version: 4.0.0.0
+    Win32 Version: 4.7.3056.0 built by: NET472REL1
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_32/System.Transactions/v4.0_4.0.0.0__b77a5c561934e089/System.Transactions.dll
+----------------------------------------
+System.Runtime.Caching
+    Assembly Version: 4.0.0.0
+    Win32 Version: 4.7.3056.0
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Runtime.Caching/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Runtime.Caching.dll
+----------------------------------------
+System.EnterpriseServices
+    Assembly Version: 4.0.0.0
+    Win32 Version: 4.7.3056.0 built by: NET472REL1
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_32/System.EnterpriseServices/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.EnterpriseServices.dll
+----------------------------------------
+System.DirectoryServices
+    Assembly Version: 4.0.0.0
+    Win32 Version: 4.7.3056.0 built by: NET472REL1
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.DirectoryServices/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.DirectoryServices.dll
+----------------------------------------
+System.Runtime.Remoting
+    Assembly Version: 4.0.0.0
+    Win32 Version: 4.7.3056.0 built by: NET472REL1
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Runtime.Remoting/v4.0_4.0.0.0__b77a5c561934e089/System.Runtime.Remoting.dll
+----------------------------------------
+System.Web
+    Assembly Version: 4.0.0.0
+    Win32 Version: 4.7.3160.0 built by: NET472REL1LAST_C
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_32/System.Web/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Web.dll
+----------------------------------------
+Microsoft.Office.Interop.Excel
+    Assembly Version: 15.0.0.0
+    Win32 Version: 15.0.4569.1506
+    CodeBase: file:///C:/WINDOWS/assembly/GAC_MSIL/Microsoft.Office.Interop.Excel/15.0.0.0__71e9bce111e9429c/Microsoft.Office.Interop.Excel.dll
+----------------------------------------
+office
+    Assembly Version: 15.0.0.0
+    Win32 Version: 15.0.4613.1000
+    CodeBase: file:///C:/WINDOWS/assembly/GAC_MSIL/office/15.0.0.0__71e9bce111e9429c/office.dll
+----------------------------------------
+stdole
+    Assembly Version: 7.0.3300.0
+    Win32 Version: 7.00.9466
+    CodeBase: file:///C:/WINDOWS/assembly/GAC/stdole/7.0.3300.0__b03f5f7f11d50a3a/stdole.dll
+----------------------------------------
+Microsoft.Vbe.Interop
+    Assembly Version: 15.0.0.0
+    Win32 Version: 15.0.4561.1000
+    CodeBase: file:///C:/WINDOWS/assembly/GAC_MSIL/Microsoft.Vbe.Interop/15.0.0.0__71e9bce111e9429c/Microsoft.Vbe.Interop.dll
+----------------------------------------
+Microsoft.CSharp
+    Assembly Version: 4.0.0.0
+    Win32 Version: 4.7.3056.0
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/Microsoft.CSharp/v4.0_4.0.0.0__b03f5f7f11d50a3a/Microsoft.CSharp.dll
+----------------------------------------
+System.Dynamic
+    Assembly Version: 4.0.0.0
+    Win32 Version: 4.7.3056.0
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Dynamic/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Dynamic.dll
+----------------------------------------
+Microsoft.GeneratedCode
+    Assembly Version: 1.0.0.0
+    Win32 Version: 4.7.3056.0 built by: NET472REL1
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Xml/v4.0_4.0.0.0__b77a5c561934e089/System.Xml.dll
+----------------------------------------
+Microsoft.GeneratedCode
+    Assembly Version: 1.0.0.0
+    Win32 Version: 4.7.3056.0 built by: NET472REL1
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Xml/v4.0_4.0.0.0__b77a5c561934e089/System.Xml.dll
+----------------------------------------
+MgRuntimeDesigner
+    Assembly Version: 1.0.0.0
+    Win32 Version: 3.3.0.292
+    CodeBase: file:///C:/Magic/Xpa3.3/RIAModules/Desktop/MgRuntimeDesigner.DLL
+----------------------------------------
+Anonymously Hosted DynamicMethods Assembly
+    Assembly Version: 0.0.0.0
+    Win32 Version: 4.7.3190.0 built by: NET472REL1LAST_C
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_32/mscorlib/v4.0_4.0.0.0__b77a5c561934e089/mscorlib.dll
+----------------------------------------
+
+************** JIT Debugging **************
+To enable just-in-time (JIT) debugging, the .config file for this
+application or computer (machine.config) must have the
+jitDebugging value set in the system.windows.forms section.
+The application must also be compiled with debugging
+enabled.
+
+For example:
+
+<configuration>
+    <system.windows.forms jitDebugging="true" />
+</configuration>
+
+When JIT debugging is enabled, any unhandled exception
+will be sent to the JIT debugger registered on the computer
+rather than be handled by this dialog box.
