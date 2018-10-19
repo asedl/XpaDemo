@@ -1,0 +1,14 @@
+{
+    "data": [
+      <!$MGREPEAT>
+      <!$MGIF_FIRSTLINE>
+      <!$MGELSE>
+      ,
+      <!$MGENDIF>
+      [
+        "<!$MG_VAR_NAME>",
+        "<!$MG_VAR_VALUE>"
+      ]
+     <!$MGENDREPEAT>
+  ]
+}
