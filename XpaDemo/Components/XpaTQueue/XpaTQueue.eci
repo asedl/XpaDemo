@@ -1,23 +1,27 @@
        // Magic ECI Generator                                          //
        // Created by   :----No User logged in----         //
-       // Created Date :13/10/2018 Time :19:19:51              //
-       // File Name    :C:\Magic\XpaDemo\XpaDemo\Components\XpaTQueue\XpaTQueue.eci         //
-COMPID = 2116376599-42747-18026-9C77B5814
-NAME = "XpaTQueue"
-DESC = "XpaDemo project XpaTQueue component"
+       // Created Date :19/10/2018 Time :00:42:28              //
+       // File Name    :C:\xpa\XpaDemo\XpaDemo\Components\XpaTQueue\XpaTQueue.eci         //
+COMPID = 2447069108-30701-20088-9B441553A
+NAME = "XpatQueue"
+DESC = ""
 COMPTYPE = "Magic xpa"
 IMMED = "N"
-PROJECTFILE = "C:\Magic\XpaDemo\XpaDemo\Components\XpaTQueue\XpaTQueue.edp"
+PROJECTFILE = "C:\xpa\XpaDemo\XpaDemo\Components\XpaTQueue\XpaTQueue.edp"
 CABINETFILE = "%Components%XpaTQueue.ecf"
-VRSN = 1.0
+VRSN =
 HLPFILE = ""
 HLPKEY = ""
 
-PRG=PUBLIC="#TSTO100A_ReceiveEvents" RMK="" HELPKEY=""
-PRG=PUBLIC="#TSTO100B_ReceiveEvents" RMK="" HELPKEY=""
-PRG=PUBLIC="#TSTO100C_ReceiveEvents" RMK="" HELPKEY=""
+File=PUBLIC="XPATQUEUE_BROKERS" RMK="" HELPKEY=""
 PRG=PUBLIC="#TSTB100_Start" RMK="" HELPKEY=""
-PRG=PUBLIC="#TSTO112A_Publisher" RMK="" HELPKEY=""
-PRG=PUBLIC="#TSTO112B_Subscriber" RMK="" HELPKEY=""
+PRG=PUBLIC="#TSTO112B_Subscribe" RMK="" HELPKEY=""
+PRG=PUBLIC="#TSTO112A_Publish" RMK="" HELPKEY=""
+PRG=PUBLIC="#XPAMQB901_AMQ_Admin" RMK="" HELPKEY=""
+PRG=PUBLIC="#XPAMQB900_ReadConfig" RMK="" HELPKEY=""
+PRG=PUBLIC="#TSTO111_ApacheMQ_Send" RMK="" HELPKEY=""
+PRG=PUBLIC="#XPAMQO101_ConsumeMessage" RMK="" HELPKEY=""
+PRG=PUBLIC="#XPAMQB100_SendMessage" RMK="" HELPKEY=""
+PRG=PUBLIC="#XPAMQB101_ConsumeMessage" RMK="" HELPKEY=""
 
 [ENVIRONMENT]

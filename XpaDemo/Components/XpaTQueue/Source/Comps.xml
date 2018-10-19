@@ -68,7 +68,7 @@
         <Type val="D"/>
         <LoadImmediate val="Y"/>
         <AssemblyName val="XpaTHttpDNet, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
-        <AssemblyPath val="C:\MagicProjects\XpaDemo\bin\XpaTHttpDNet.dll"/>
+        <AssemblyPath val="%XPATEST_HOME%bin\XpaTHttpDNet.dll"/>
         <UseSpecificVersion val="N"/>
         <isGuiThreadExecution val="N"/>
       </Component>

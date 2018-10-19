@@ -684,68 +684,69 @@
         <UseSpecificVersion val="N"/>
         <isGuiThreadExecution val="N"/>
       </Component>
-      <Component FolderIsn="2" id="14" name="XpaTQueue">
-        <Description val="XpaDemo project XpaTQueue component"/>
+      <Component FolderIsn="2" id="14" name="XpatQueue">
         <ComponentType val="Magic xpa"/>
         <Type val="U"/>
         <LoadImmediate val="N"/>
-        <LastISN val="6"/>
-        <CompId val="2116376599-42747-18026-9C77B5814"/>
-        <Revision val="1.0"/>
-        <MciFile val="C:\Magic\XpaDemo\XpaDemo\Components\XpaTQueue\XpaTQueue.eci"/>
-        <ProjectFile val="C:\Magic\XpaDemo\XpaDemo\Components\XpaTQueue\XpaTQueue.edp"/>
+        <LastISN val="15"/>
+        <CompId val="2447069108-30701-20088-9B441553A"/>
+        <MciFile val="C:\xpa\XpaDemo\XpaDemo\Components\XpaTQueue\XpaTQueue.eci"/>
+        <ProjectFile val="C:\xpa\XpaDemo\XpaDemo\Components\XpaTQueue\XpaTQueue.edp"/>
         <CABINET_FILE val="%Components%XpaTQueue.ecf"/>
+        <ComponentDataObjects>
+          <Object>
+            <id val="1"/>
+            <ItemIsn val="7"/>
+            <PublicName val="XPATQUEUE_BROKERS"/>
+          </Object>
+        </ComponentDataObjects>
         <ComponentPrograms>
-          <Object>
-            <id val="6"/>
-            <ItemIsn val="1"/>
-            <PublicName val="#TSTO100A_ReceiveEvents"/>
-          </Object>
-          <Object>
-            <id val="5"/>
-            <ItemIsn val="2"/>
-            <PublicName val="#TSTO100B_ReceiveEvents"/>
-          </Object>
-          <Object>
-            <id val="7"/>
-            <ItemIsn val="3"/>
-            <PublicName val="#TSTO100C_ReceiveEvents"/>
-          </Object>
           <Object>
             <id val="11"/>
             <ItemIsn val="4"/>
             <PublicName val="#TSTB100_Start"/>
           </Object>
           <Object>
-            <id val="14"/>
-            <ItemIsn val="5"/>
-            <PublicName val="#TSTO112A_Publisher"/>
+            <id val="19"/>
+            <ItemIsn val="8"/>
+            <PublicName val="#TSTO112B_Subscribe"/>
           </Object>
           <Object>
-            <ItemIsn val="6"/>
-            <PublicName val="#TSTO112B_Subscriber"/>
+            <id val="14"/>
+            <ItemIsn val="9"/>
+            <PublicName val="#TSTO112A_Publish"/>
+          </Object>
+          <Object>
+            <id val="31"/>
+            <ItemIsn val="15"/>
+            <PublicName val="#XPAMQB901_AMQ_Admin"/>
+          </Object>
+          <Object>
+            <id val="23"/>
+            <ItemIsn val="10"/>
+            <PublicName val="#XPAMQB900_ReadConfig"/>
+          </Object>
+          <Object>
+            <id val="9"/>
+            <ItemIsn val="11"/>
+            <PublicName val="#TSTO111_ApacheMQ_Send"/>
+          </Object>
+          <Object>
+            <id val="18"/>
+            <ItemIsn val="12"/>
+            <PublicName val="#XPAMQO101_ConsumeMessage"/>
+          </Object>
+          <Object>
+            <id val="16"/>
+            <ItemIsn val="13"/>
+            <PublicName val="#XPAMQB100_SendMessage"/>
+          </Object>
+          <Object>
+            <id val="17"/>
+            <ItemIsn val="14"/>
+            <PublicName val="#XPAMQB101_ConsumeMessage"/>
           </Object>
         </ComponentPrograms>
-      </Component>
-      <Component FolderIsn="2" id="15" name="exontrol.exbutton">
-        <Description val="exontrol.exbutton"/>
-        <ComponentType val=".NET"/>
-        <Type val="D"/>
-        <LoadImmediate val="Y"/>
-        <AssemblyName val="exontrol.exbutton, Version=16.0.6702.28587, Culture=neutral, PublicKeyToken=e0a0f2f4525dc60b"/>
-        <AssemblyPath val="C:\Program Files (x86)\Exontrol\ExButton.NET\Sample\exontrol.exbutton.dll"/>
-        <UseSpecificVersion val="N"/>
-        <isGuiThreadExecution val="Y"/>
-      </Component>
-      <Component FolderIsn="2" id="16" name="exontrol.explorertree">
-        <Description val="exontrol.explorertree"/>
-        <ComponentType val=".NET"/>
-        <Type val="D"/>
-        <LoadImmediate val="Y"/>
-        <AssemblyName val="exontrol.explorertree, Version=12.0.6785.31251, Culture=neutral, PublicKeyToken=6a8e3b20ee725922"/>
-        <AssemblyPath val="C:\Program Files (x86)\Exontrol\ExplorerTree.NET\Sample\exontrol.explorertree.dll"/>
-        <UseSpecificVersion val="N"/>
-        <isGuiThreadExecution val="Y"/>
       </Component>
     </Components>
     <Aliases LastIsnAliases="3">
