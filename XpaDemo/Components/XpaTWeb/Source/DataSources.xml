@@ -1,0 +1,82 @@
+ <Application>
+ 
+<Header>
+
+  <Version val="13030.00"/>
+
+  <WithIsn val="Y"/>
+
+  <Exe comp="-1"/>
+
+  <LastIsn val="1"/>
+
+  <LastIsnFolder val="0"/>
+
+  <Folders/>
+
+</Header>
+ <DataSourceRepository>
+  <DataObjects>
+ 
+<DataObject PhysicalName="CGIENV" Resident="N" UniqueISNConvState="12" data_source="XPATest" id="1" name="CGIENV">
+
+  <Encrypt val="N"/>
+
+  <Cache val="D"/>
+
+  <IdentifyRowModifications val="U"/>
+
+  <HasHint val="Y"/>
+
+  <Cursor val="D"/>
+
+  <CheckExistence val="D"/>
+
+  <ObjectType val="T"/>
+
+  <Position val="D"/>
+
+  <PositionIndex val="-2"/>
+
+  <MetaTreeRTIndex val="-1"/>
+
+  <Columns>
+    <Column id="1" name="NAME">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_UNICODE" id="1"/>
+        <Picture id="157" valUnicode="100"/>
+        <StoredAs id="173" val="32"/>
+        <Size id="174" val="200"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="NAME"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="NAME" PIC_U="100" Size="200" allowed_null="N" attribute="U" context_cookies="Y" database_definition="2" id="231" storage="32" translate="3"/>
+        <DefaultStorage id="274" val="Y"/>
+        <_FieldStyle id="276" val="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="2" name="VALUE">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_BLOB" id="1"/>
+        <StoredAs id="173" val="34"/>
+        <Size id="174" val="28"/>
+        <Definition id="175" val="1"/>
+        <DbColumnName id="178" val="VALUE"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="VALUE" Size="28" allowed_null="Y" attribute="O" context_cookies="Y" database_definition="1" id="231" storage="34"/>
+        <DefaultStorage id="274" val="Y"/>
+        <_FieldStyle id="276" val="1"/>
+        <Content id="434" val="2"/>
+      </PropertyList>
+    </Column>
+  </Columns>
+
+  <Indexes/>
+
+  <ForeignKeys/>
+
+  <WebS/>
+
+</DataObject>  </DataObjects>
+ </DataSourceRepository>
+  </Application>
