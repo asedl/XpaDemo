@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+	<title>XpaDemo Relocate</title>
+	<script type="text/javascript" language="javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script type="text/javascript" class="init">
+
+
+
+
+function Relocate() {
+ 
+	var uri = $("#url").val();
+    var url = "/MagicSingleUserEditionScripts/MGrqispi.dll?AppName=XpaTWeb&PrgName=WEB0100_Relocate&ARGUMENTS=-A" + uri;
+    $.ajax({
+        cache: false,
+        url: url,
+        context: document.body,
+        async: true,
+        success: function (data) {
+			if (data.redirect) {
+            	// data.redirect contains the string URL to redirect to
+            	window.location.href = data.redirect;
+			}
+			else {
+				document.open();
+document.write(data);
+document.close();
+			}		
+        }
+    });
+
+    return false;
+}
+
+	$(document).ready(function() {
+		$('#btnRelocate').on('click', function (e) {
+        e.preventDefault();
+        Relocate($("#url").text());
+        return false;
+    });
+	} );
+</script>
+</head>
+<body class="wide comments example">
+	<div class="row-fluid page-title">
+		<div class="span12">
+		   <h1>Relocate</h1>
+		</div>
+	</div>
+    <div class="control">
+        <label for="url">Enter an URI:</label>
+        <input type="url" name="url" id="url"
+			placeholder="https://example.com" size="100" required />
+   </div>
+   <div class="control-group">
+	<div class="controls">
+	  <button id="btnReloace" class="btn btn-primary" onClick="Relocate()">Relocate</button>
+	</div>
+  </div>
+  <div id="div_response"></div>
+</body>
+</html>

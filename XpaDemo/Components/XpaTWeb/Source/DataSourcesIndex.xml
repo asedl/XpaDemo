@@ -1,23 +1,21 @@
- <Application>
- 
-<Header>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
 
-  <Version val="13030.00"/>
+  <Header>
+    <Version val="13030.00"/>
+    <WithIsn val="Y"/>
+    <Exe comp="-1"/>
+    <LastIsn val="1"/>
+    <LastIsnFolder val="0"/>
+    <Folders/>
+  </Header>
 
-  <WithIsn val="Y"/>
+  <DataSourceRepository>
+    <DataObjects>
+      <DataObject PhysicalName="CGIENV" Resident="N" UniqueISNConvState="12" data_source="XPATest" id="1" length="1753" name="CGIENV" offset="230"/>
+    </DataObjects>
+  </DataSourceRepository>
 
-  <Exe comp="-1"/>
+  <LastModified val="3069743725168383"/>
 
-  <LastIsn val="1"/>
-
-  <LastIsnFolder val="0"/>
-
-  <Folders/>
-
-</Header>
- <DataSourceRepository>
-  <DataObjects>
- 
-<DataObject PhysicalName="CGIENV" Resident="N" UniqueISNConvState="12" data_source="XPATest" id="1" name="CGIENV" offset="213" length="1691"/>  </DataObjects>
- </DataSourceRepository>
- <LastModified val="30697414-66430046"/>  </Application>
+</Application>

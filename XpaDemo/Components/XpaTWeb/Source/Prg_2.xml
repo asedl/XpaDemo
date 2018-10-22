@@ -28,7 +28,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736986" _time="60928" date="19/10/2018" time="16:55:28"/>
+          <LastModified _date="736989" _time="61202" date="22/10/2018" time="17:00:02"/>
         </Header>
         <Resource>
           <IO id="1">
@@ -149,20 +149,6 @@
                 </Remark>
               </LogicLine>
               <LogicLine>
-                <Evaluate FlowIsn="4">
-                  <Expression val="1"/>
-                  <Condition val="N"/>
-                  <Modifier val="B"/>
-                  <Direction val="C"/>
-                </Evaluate>
-              </LogicLine>
-              <LogicLine>
-                <Remark FlowIsn="5">
-                  <Type val="2"/>
-                  <Text val=" "/>
-                </Remark>
-              </LogicLine>
-              <LogicLine>
                 <CallTask FlowIsn="6">
                   <OperationType val="T"/>
                   <TaskID comp="-1" obj="2"/>
@@ -206,7 +192,7 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="736986" _time="60928" date="19/10/2018" time="16:55:28"/>
+            <LastModified _date="736989" _time="61202" date="22/10/2018" time="17:00:02"/>
           </Header>
           <ItemIsn val="4"/>
           <Resource>
@@ -426,7 +412,7 @@
           <TaskForms>
             <FormEntry CLSS="1" id="2">
               <PropertyList model="FORM_MERGE">
-                <FileName id="4" val="C:\Magic\XpaDemo\XpaDemo\Components\XpaTWeb\www\merge\test.json"/>
+                <FileName Exp="4" id="4" val="C:\xpa\XpaDemo\XpaDemo\Components\XpaTWeb\www\merge\test.json"/>
                 <TagsTable id="7">
                   <MERGE_PARM Exp="2" PIC_U="5" TXT_U="FIRSTLINE" id="1"/>
                   <MERGE_PARM FieldID="2" PIC_U="100" TXT_U="VAR_NAME" id="2"/>
@@ -449,6 +435,10 @@
             <Expression id="3">
               <ExpSyntax val="EscapeForJSON({0,3})"/>
               <ExpAttribute val="O"/>
+            </Expression>
+            <Expression id="4">
+              <ExpSyntax val="Trim(Translate('%XPATWEB_HOME%www\merge\test.json'))"/>
+              <ExpAttribute val="A"/>
             </Expression>
           </Expressions>
         </Task>

@@ -1,0 +1,7 @@
+# Helicon ISAPI_Rewrite configuration file
+# Version 3.1.0.112
+
+
+RewriteEngine On
+
+RewriteRule .*/(XpaDemo/ShowCGI)/(.*)? /MagicSingleUserScripts/AppName=XpaTWeb&PrgName=GetCGIEnvironment&$2
