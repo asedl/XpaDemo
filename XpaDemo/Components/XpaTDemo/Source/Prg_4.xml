@@ -27,7 +27,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736991" _time="2072" date="24/10/2018" time="00:34:32"/>
+          <LastModified _date="736991" _time="66344" date="24/10/2018" time="18:25:44"/>
         </Header>
         <ItemIsn val="4"/>
         <Resource>
@@ -145,7 +145,7 @@
                   <INT_RCMP_INFO>
                     <v>4</v>
                   </INT_RCMP_INFO>
-                  <_DitIndexForToolkit val="2"/>
+                  <_DitIndexForToolkit val="1"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -161,7 +161,7 @@
                   <INT_RCMP_INFO>
                     <v>5</v>
                   </INT_RCMP_INFO>
-                  <_DitIndexForToolkit val="4"/>
+                  <_DitIndexForToolkit val="3"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -174,7 +174,7 @@
                   <Column val="3"/>
                   <Type val="V"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="6"/>
+                  <_DitIndexForToolkit val="5"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -185,25 +185,13 @@
           </LogicUnit>
         </TaskLogic>
         <TaskForms>
-          <FormEntry _last_isn="8" _last_test_id="8" id="1">
+          <FormEntry _last_isn="10" _last_test_id="10" id="1">
             <PropertyList model="FORM_GUI0">
-              <Model id="1"/>
               <Width id="23" val="613"/>
               <Height id="24" val="309"/>
               <_Comment id="218"/>
               <FormName id="311" valUnicode="FontTest"/>
             </PropertyList>
-            <Control _test_id="6" id="6">
-              <PropertyList model="CTRL_GUI0_STATIC">
-                <Text id="19" valUnicode="v.Edit:"/>
-                <X id="21" val="4"/>
-                <Y id="22" val="8"/>
-                <Width id="23" val="25"/>
-                <Height id="24" val="9"/>
-                <Style id="63" val="7"/>
-                <EnableRTF id="69"/>
-              </PropertyList>
-            </Control>
             <Control _test_id="3" id="3">
               <PropertyList model="CTRL_GUI0_EDIT">
                 <Model ID="MODEL_GUI_INT" id="1">
@@ -216,6 +204,7 @@
                 <Data FieldID="1" id="43"/>
                 <ControlName id="46" val="v.Edit"/>
                 <Font id="50" val="11"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="1"/>
               </PropertyList>
             </Control>
@@ -228,6 +217,7 @@
                 <Height id="24" val="9"/>
                 <Style id="63" val="7"/>
                 <EnableRTF id="69"/>
+                <_Orientation id="143"/>
               </PropertyList>
             </Control>
             <Control _test_id="4" id="4">
@@ -241,6 +231,7 @@
                 <Height id="24" val="10"/>
                 <Data FieldID="3" id="43"/>
                 <ControlName id="46" val="Uval"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="2"/>
               </PropertyList>
             </Control>
@@ -253,6 +244,7 @@
                 <Height id="24" val="9"/>
                 <Style id="63" val="7"/>
                 <EnableRTF id="69"/>
+                <_Orientation id="143"/>
               </PropertyList>
             </Control>
             <Control _test_id="5" id="5">
@@ -266,16 +258,40 @@
                 <Height id="24" val="10"/>
                 <Data FieldID="4" id="43"/>
                 <ControlName id="46" val="UvalHex"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="3"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="9" id="9">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19"/>
+                <X id="21" val="8"/>
+                <Y id="22" val="87"/>
+                <Width id="23" val="107"/>
+                <Height id="24" val="84"/>
+                <ControlName id="46" val="?"/>
+                <Font id="50" val="12"/>
+                <Style id="63" val="7"/>
+                <EnableRTF id="69"/>
+                <_Orientation id="143"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="10" id="10">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19" valUnicode=""/>
+                <X id="21" val="8"/>
+                <Y id="22" val="171"/>
+                <Width id="23" val="459"/>
+                <Height id="24" val="84"/>
+                <Font id="50" val="12"/>
+                <Style id="63" val="7"/>
+                <EnableRTF id="69"/>
+                <_Orientation id="143"/>
               </PropertyList>
             </Control>
           </FormEntry>
         </TaskForms>
         <Expressions>
-          <Expression id="1">
-            <ExpSyntax val="Trim({0,1})"/>
-            <ExpAttribute val="A"/>
-          </Expression>
           <Expression id="2">
             <ExpSyntax val="UnicodeVal(Left({0,1},1))"/>
             <ExpAttribute val="N"/>
