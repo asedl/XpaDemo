@@ -27,9 +27,9 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736989" _time="85156" date="22/10/2018" time="23:39:16"/>
+          <LastModified _date="736990" _time="6049" date="23/10/2018" time="01:40:49"/>
         </Header>
-        <ItemIsn val="3"/>
+        <ItemIsn val="4"/>
         <Resource>
           <Columns>
             <Column id="2" name="v.Uri">
@@ -43,11 +43,19 @@
             <Column id="3" name="v.Response">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_BLOB" id="1"/>
-                <StoredAs id="173" val="34"/>
+                <StoredAs id="173" val="29"/>
                 <Size id="174" val="28"/>
                 <Definition id="175" val="1"/>
                 <_FieldStyle id="276" val="1"/>
-                <Content id="434" val="2"/>
+                <Content id="434" val="3"/>
+              </PropertyList>
+            </Column>
+            <Column id="4" name="v.ResponseHeader">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_BLOB" id="1"/>
+                <Size id="174" val="28"/>
+                <Definition id="175" val="1"/>
+                <_FieldStyle id="276" val="1"/>
               </PropertyList>
             </Column>
           </Columns>
@@ -153,6 +161,18 @@
                   <Column val="3"/>
                   <Type val="V"/>
                   <IsParameter val="N"/>
+                  <_DitIndexForToolkit val="4"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="4" FlowIsn="8" id="4">
+                  <Column val="4"/>
+                  <Type val="V"/>
+                  <IsParameter val="N"/>
                   <_DitIndexForToolkit val="3"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
@@ -192,13 +212,25 @@
                   <Direction val="C"/>
                 </Update>
               </LogicLine>
+              <LogicLine>
+                <Update FlowIsn="9">
+                  <FieldID val="4"/>
+                  <WithValue val="3"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Update>
+              </LogicLine>
             </LogicLines>
           </LogicUnit>
         </TaskLogic>
         <TaskForms>
-          <FormEntry _last_isn="4" _last_test_id="4" id="1">
+          <FormEntry _last_isn="5" _last_test_id="5" id="1">
             <PropertyList model="FORM_GUI0">
-              <Width id="23" val="693"/>
+              <Width id="23" val="908"/>
+              <Height id="24" val="329"/>
               <_Comment id="218"/>
               <FormName id="311" valUnicode="GetPage"/>
             </PropertyList>
@@ -212,6 +244,7 @@
                 <Font id="50" val="1"/>
                 <Style id="63" val="7"/>
                 <EnableRTF id="69"/>
+                <_Orientation id="143"/>
               </PropertyList>
             </Control>
             <Control _test_id="1" id="1">
@@ -221,10 +254,11 @@
                 </Model>
                 <X id="21" val="8"/>
                 <Y id="22" val="16"/>
-                <Width id="23" val="676"/>
+                <Width id="23" val="887"/>
                 <Height id="24" val="10"/>
                 <Data FieldID="2" id="43"/>
                 <ControlName id="46" val="v.Uri"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="1"/>
               </PropertyList>
             </Control>
@@ -232,13 +266,28 @@
               <PropertyList model="CTRL_GUI0_EDIT">
                 <X id="21" val="11"/>
                 <Y id="22" val="50"/>
-                <Width id="23" val="672"/>
+                <Width id="23" val="883"/>
+                <Height id="24" val="130"/>
+                <Data FieldID="4" id="43"/>
+                <MultiLineEdit id="71" val="Y"/>
+                <AllowCRInData id="74" val="Y"/>
+                <PasswordEdit id="85"/>
+                <_Orientation id="143"/>
+                <TabOrder id="314" val="3"/>
+              </PropertyList>
+            </Control>
+            <Control PDOD="128" _test_id="5" id="5">
+              <PropertyList model="CTRL_GUI0_EDIT">
+                <X id="21" val="12"/>
+                <Y id="22" val="184"/>
+                <Width id="23" val="883"/>
                 <Height id="24" val="130"/>
                 <Data FieldID="3" id="43"/>
                 <MultiLineEdit id="71" val="Y"/>
                 <AllowCRInData id="74" val="Y"/>
                 <PasswordEdit id="85"/>
-                <TabOrder id="314" val="3"/>
+                <_Orientation id="143"/>
+                <TabOrder id="314" val="4"/>
               </PropertyList>
             </Control>
             <Control PDOD="128" _test_id="3" id="3">
@@ -259,12 +308,16 @@
         </TaskForms>
         <Expressions>
           <Expression id="1">
-            <ExpSyntax val="'https://xpademo.westeurope.cloudapp.azure.com/XpaDemo/ShowCGI/'"/>
+            <ExpSyntax val="'http://xpademo.westeurope.cloudapp.azure.com/MagicSingleUserEditionScripts/MGrqispi.dll?AppName=XpaTWeb&amp;PrgName=WEB0100_Relocate&amp;ARGUMENTS=-Ahttps://xpademo.westeurope.cloudapp.azure.com/MagicSingleUserEditionScripts/Mgrqispi.dll?AppName=XpaTWeb&amp;PrgName=GetCGIEnvironment'"/>
             <ExpAttribute val="A"/>
           </Expression>
           <Expression id="2">
             <ExpSyntax val="HTTPCall('GET', Trim({0,2}), NULL())"/>
             <ExpAttribute val="O"/>
+          </Expression>
+          <Expression id="3">
+            <ExpSyntax val="HTTPLastHeader('')"/>
+            <ExpAttribute val="A"/>
           </Expression>
         </Expressions>
         <EVNT DESC="HttpCall" FORCE_EXIT="N" id="1">

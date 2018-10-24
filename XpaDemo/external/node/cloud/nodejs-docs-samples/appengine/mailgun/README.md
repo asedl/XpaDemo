@@ -1,0 +1,1 @@
+This has moved to [Send Email with Mailgun and Node.js on Google App Engine Flexible Environment](https://cloud.google.com/community/tutorials/send-email-with-mailgun-and-nodejs-on-google-app-engine).
