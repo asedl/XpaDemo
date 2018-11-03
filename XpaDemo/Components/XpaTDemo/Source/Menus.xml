@@ -601,29 +601,11 @@
             </MenuEntry>
             <MenuEntry id="3">
               <MenuType val="2"/>
-              <Description_U val="WaitTest02"/>
+              <Description_U val="TmerTest"/>
               <Right comp="-1"/>
               <Help comp="-1"/>
               <Prompt comp="-1"/>
-              <Program ObjIsn="58" comp="-1" obj="58"/>
-              <SourceContext val="67"/>
-            </MenuEntry>
-            <MenuEntry id="4">
-              <MenuType val="2"/>
-              <Description_U val="WaitTest03"/>
-              <Right comp="-1"/>
-              <Help comp="-1"/>
-              <Prompt comp="-1"/>
-              <Program ObjIsn="59" comp="-1" obj="59"/>
-              <SourceContext val="67"/>
-            </MenuEntry>
-            <MenuEntry id="5">
-              <MenuType val="2"/>
-              <Description_U val="WaitTest04"/>
-              <Right comp="-1"/>
-              <Help comp="-1"/>
-              <Prompt comp="-1"/>
-              <Program ObjIsn="60" comp="-1" obj="60"/>
+              <Program ObjIsn="63" comp="-1" obj="63"/>
               <SourceContext val="67"/>
             </MenuEntry>
           </Menu>

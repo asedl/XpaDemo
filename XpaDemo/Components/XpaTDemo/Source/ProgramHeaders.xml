@@ -204,6 +204,25 @@
       <SourceFileTimeStamp _date="737001" _time="28740" date="03/11/2018" time="07:59:00"/>
     </Program>
     <Program>
+      <Header Description="TimerTest" ISN_2="1" LastIsn="1" id="63">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="Y"/>
+        <LastModified _date="737001" _time="40738" date="03/11/2018" time="11:18:58"/>
+      </Header>
+      <SourceFileTimeStamp _date="737001" _time="37138" date="03/11/2018" time="10:18:58"/>
+    </Program>
+    <Program>
       <Header ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="61">
         <ExecutionRight comp="-1"/>
         <Resident val="N"/>

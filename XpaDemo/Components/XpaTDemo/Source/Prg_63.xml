@@ -1,0 +1,872 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="13030.00"/>
+    <WithIsn val="Y"/>
+    <_InternalTask val="N"/>
+    <IsRoot val="N"/>
+    <InIndex val="N"/>
+    <UniqueISNConvState val="12"/>
+  </Header>
+
+  <ProgramsRepository>
+    <Programs>
+      <Task MainProgram="N">
+        <Header Description="TimerTest" ISN_2="1" LastIsn="1" id="63">
+          <ExecutionRight comp="-1"/>
+          <Resident val="N"/>
+          <SQL val="N"/>
+          <ReturnValue>
+            <ReturnValueAttr/>
+            <ParametersAttributes/>
+          </ReturnValue>
+          <SqlWhereExist val="N"/>
+          <TaskType val="O"/>
+          <External val="N"/>
+          <Offline val="N"/>
+          <FormType val="N"/>
+          <DotNetObjectExists val="Y"/>
+          <LastModified _date="737001" _time="40738" date="03/11/2018" time="11:18:58"/>
+        </Header>
+        <ItemIsn val="8"/>
+        <Resource>
+          <Columns>
+            <Column id="1" name="Timer">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_BLOB" id="1"/>
+                <Size id="174" val="28"/>
+                <Definition id="175" val="1"/>
+                <_FieldStyle id="276" val="5"/>
+                <ObjectType id="478" val="System.Windows.Forms.Timer"/>
+              </PropertyList>
+            </Column>
+            <Column id="4" name="TimerAsString">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_UNICODE" id="1"/>
+                <Picture id="157" valUnicode="1000"/>
+                <Size id="174" val="2000"/>
+                <_FieldStyle id="276" val="1"/>
+              </PropertyList>
+            </Column>
+            <Column id="5" name="TickCount">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_NUMERIC" id="1"/>
+                <Picture id="157" valUnicode="9"/>
+                <_Dec id="181"/>
+                <_Whole id="182" val="9"/>
+                <_Negative id="192"/>
+                <_FieldStyle id="276" val="1"/>
+              </PropertyList>
+            </Column>
+            <Column id="8" name="DelayVal">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_NUMERIC" id="1"/>
+                <Picture id="157" valUnicode="9"/>
+                <_Dec id="181"/>
+                <_Whole id="182" val="9"/>
+                <_Negative id="192"/>
+                <_FieldStyle id="276" val="1"/>
+              </PropertyList>
+            </Column>
+            <Column id="2" name="sender">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_BLOB" id="1"/>
+                <StoredAs id="173" val="29"/>
+                <Size id="174" val="28"/>
+                <Definition id="175" val="1"/>
+                <_FieldStyle id="276" val="5"/>
+                <ObjectType id="478" val="System.Object"/>
+              </PropertyList>
+            </Column>
+            <Column id="3" name="e">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_BLOB" id="1"/>
+                <StoredAs id="173" val="29"/>
+                <Size id="174" val="28"/>
+                <Definition id="175" val="1"/>
+                <_FieldStyle id="276" val="5"/>
+                <ObjectType id="478" val="System.EventArgs"/>
+              </PropertyList>
+            </Column>
+            <Column id="7" name="pi.Start/Stop">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_UNICODE" id="1"/>
+                <Picture id="157" valUnicode="20"/>
+                <Size id="174" val="40"/>
+                <_FieldStyle id="276" val="1"/>
+              </PropertyList>
+            </Column>
+          </Columns>
+        </Resource>
+        <Information>
+          <Key>
+            <Mode val="N"/>
+          </Key>
+          <DB comp="-1"/>
+          <Sort>
+            <CLS val="A"/>
+          </Sort>
+          <ForceRecordDelete DEL="N"/>
+          <EndTaskCondition val="N"/>
+          <EvaluateEndCondition val="B"/>
+          <InitialMode val="M"/>
+          <Locate Direction="A"/>
+          <Range Direction="A"/>
+          <VarRange/>
+          <TaskProperties>
+            <SelectionTable val="N"/>
+            <ConfirmUpdate CNFU="N"/>
+            <ConfirmCancel val="N"/>
+            <ErrorStrategy val="R"/>
+            <LockingStrategy val="M"/>
+            <CacheStrategy val="D"/>
+            <ForceRecordSuffix val="N"/>
+            <TransactionMode val="D"/>
+            <TransactionBegin val="P"/>
+            <PreloadView val="N"/>
+            <AllowEmptyDataview val="Y"/>
+            <KeepCreatedContext val="N"/>
+          </TaskProperties>
+          <SIDE_WIN>
+            <AllowOptions val="Y"/>
+            <AllowQuery val="Y"/>
+            <AllowModify val="Y"/>
+            <AllowCreate val="Y"/>
+            <AllowDelete val="Y"/>
+            <AllowLocate val="Y"/>
+            <AllowRange val="Y"/>
+            <AllowIndexChange val="Y"/>
+            <AllowSorting val="Y"/>
+            <AllowIOFiles val="Y"/>
+            <RecordCycle val="Y"/>
+            <AllowEvents val="Y"/>
+            <AllowIndexOptimization val="Y"/>
+            <AllowLocationInQuery val="Y"/>
+            <AllowPrintingData val="N"/>
+          </SIDE_WIN>
+          <WIN>
+            <OpenTaskWindow val="Y"/>
+            <CloseTaskWindow val="Y"/>
+            <ForegroundWindow val="Y"/>
+            <FlipFld val="N"/>
+            <RefreshTaskWindow ReturnValue="N"/>
+          </WIN>
+          <BOX>
+            <Direction val="V"/>
+          </BOX>
+        </Information>
+        <TaskLogic>
+          <LogicUnit id="1" propagate="78">
+            <Level val="R"/>
+            <Type val="M"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="S"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <LogicLines>
+              <LogicLine>
+                <DATAVIEW_SRC FlowIsn="1" Type="M">
+                  <Condition val="N"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </DATAVIEW_SRC>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="1" FlowIsn="3" id="1">
+                  <Column val="1"/>
+                  <Type val="V"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="4" FlowIsn="17" id="4">
+                  <Column val="4"/>
+                  <Type val="V"/>
+                  <IsParameter val="N"/>
+                  <_DitIndexForToolkit val="2"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="5" FlowIsn="33" id="5">
+                  <Column val="5"/>
+                  <Type val="V"/>
+                  <IsParameter val="N"/>
+                  <_DitIndexForToolkit val="4"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="8" FlowIsn="57" id="8">
+                  <ASS val="15"/>
+                  <Column val="8"/>
+                  <Type val="V"/>
+                  <IsParameter val="N"/>
+                  <_DitIndexForToolkit val="5"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="3" propagate="78">
+            <Level val="T"/>
+            <Type val="P"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="S"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <Expanded val="1"/>
+            <LogicLines>
+              <LogicLine>
+                <Update FlowIsn="4">
+                  <FieldID val="1"/>
+                  <WithValue val="1"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Update>
+              </LogicLine>
+              <LogicLine>
+                <Evaluate FlowIsn="5">
+                  <Expression val="2"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Evaluate>
+              </LogicLine>
+              <LogicLine>
+                <Evaluate FlowIsn="6">
+                  <Expression val="3"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Evaluate>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="14">
+                  <Type val="2"/>
+                  <Text val=" "/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="7">
+                  <Type val="2"/>
+                  <Text val=" "/>
+                </Remark>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="5" propagate="78">
+            <Level val="T"/>
+            <Type val="S"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="S"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <Expanded val="1"/>
+            <LogicLines>
+              <LogicLine>
+                <Evaluate FlowIsn="15">
+                  <Expression val="6"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Evaluate>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="16">
+                  <Type val="2"/>
+                  <Text val=" "/>
+                </Remark>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="4" propagate="78">
+            <Level val="H"/>
+            <Type val="U"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event FieldID="1">
+              <EventType val="D"/>
+              <EventText val="Tick"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <Expanded val="1"/>
+            <LogicLines>
+              <LogicLine>
+                <Select FieldID="2" FlowIsn="8" id="2">
+                  <Column val="2"/>
+                  <Type val="V"/>
+                  <IsParameter val="Y"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="3" FlowIsn="9" id="3">
+                  <Column val="3"/>
+                  <Type val="V"/>
+                  <IsParameter val="Y"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="18">
+                  <Type val="2"/>
+                  <Text val=" "/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <Evaluate FlowIsn="11">
+                  <Expression val="4"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Evaluate>
+              </LogicLine>
+              <LogicLine>
+                <Update FlowIsn="19">
+                  <FieldID val="4"/>
+                  <WithValue val="7"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Update>
+              </LogicLine>
+              <LogicLine>
+                <Update FlowIsn="34">
+                  <FieldID val="5"/>
+                  <WithValue val="8"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Update>
+              </LogicLine>
+              <LogicLine>
+                <Evaluate FlowIsn="13">
+                  <Expression val="3"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Evaluate>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="58">
+                  <Type val="2"/>
+                  <Text val=" "/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="52">
+                  <Type val="2"/>
+                  <Text val=" "/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="35">
+                  <Type val="2"/>
+                  <Text val=" "/>
+                </Remark>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="8" propagate="78">
+            <Level val="H"/>
+            <Type val="U"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="U"/>
+              <PublicObject comp="-1" obj="2"/>
+            </Event>
+            <Expanded val="1"/>
+            <LogicLines>
+              <LogicLine>
+                <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" Exp="17" FlowIsn="61" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TitleTxt="Warning" VR_DISP="S">
+                  <AppendToErrorLog val="N"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </STP>
+              </LogicLine>
+              <LogicLine>
+                <Evaluate FlowIsn="59">
+                  <Expression val="16"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Evaluate>
+              </LogicLine>
+              <LogicLine>
+                <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" Exp="18" FlowIsn="62" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TitleTxt="Warning" VR_DISP="S">
+                  <AppendToErrorLog val="N"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </STP>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="60">
+                  <Type val="2"/>
+                  <Text val=" "/>
+                </Remark>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="10" propagate="78">
+            <Level val="H"/>
+            <Type val="U"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="U"/>
+              <PublicObject comp="-1" obj="3"/>
+            </Event>
+            <Expanded val="1"/>
+            <LogicLines>
+              <LogicLine>
+                <Remark FlowIsn="91">
+                  <Type val="2"/>
+                  <Text val="Suspend thread by DelayVal*100 milliseconds"/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="92">
+                  <Type val="2"/>
+                  <Text val="We need to stop the timer before, otherwise the Tick events will be queud and handled when execution continues .."/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <RaiseEvent FlowIsn="93">
+                  <Event>
+                    <EventType val="U"/>
+                    <PublicObject comp="-1" obj="1"/>
+                  </Event>
+                  <Wait val="89"/>
+                  <Arguments>
+                    <Argument>
+                      <Expression val="12"/>
+                      <Skip val="N"/>
+                    </Argument>
+                  </Arguments>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </RaiseEvent>
+              </LogicLine>
+              <LogicLine>
+                <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" Exp="19" FlowIsn="84" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TitleTxt="Warning" VR_DISP="S">
+                  <AppendToErrorLog val="N"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </STP>
+              </LogicLine>
+              <LogicLine>
+                <Evaluate FlowIsn="85">
+                  <Expression val="21"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Evaluate>
+              </LogicLine>
+              <LogicLine>
+                <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" Exp="20" FlowIsn="86" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TitleTxt="Warning" VR_DISP="S">
+                  <AppendToErrorLog val="N"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </STP>
+              </LogicLine>
+              <LogicLine>
+                <RaiseEvent FlowIsn="94">
+                  <Event>
+                    <EventType val="U"/>
+                    <PublicObject comp="-1" obj="1"/>
+                  </Event>
+                  <Wait val="89"/>
+                  <Arguments>
+                    <Argument>
+                      <Expression val="11"/>
+                      <Skip val="N"/>
+                    </Argument>
+                  </Arguments>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </RaiseEvent>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="83">
+                  <Type val="2"/>
+                  <Text val=" "/>
+                </Remark>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="7" propagate="78">
+            <Level val="H"/>
+            <Type val="U"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="U"/>
+              <PublicObject comp="-1" obj="1"/>
+            </Event>
+            <Expanded val="1"/>
+            <LogicLines>
+              <LogicLine>
+                <Select FieldID="7" FlowIsn="53" id="7">
+                  <Column val="7"/>
+                  <Type val="V"/>
+                  <IsParameter val="Y"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Evaluate FlowIsn="54">
+                  <Expression val="3"/>
+                  <Condition Exp="13"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Evaluate>
+              </LogicLine>
+              <LogicLine>
+                <Evaluate FlowIsn="55">
+                  <Expression val="4"/>
+                  <Condition Exp="14"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Evaluate>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+        </TaskLogic>
+        <TaskForms>
+          <FormEntry _last_isn="11" _last_test_id="11" id="1">
+            <PropertyList model="FORM_GUI0">
+              <Width id="23" val="580"/>
+              <_Comment id="218"/>
+              <FormName id="311" valUnicode="TimerTest"/>
+            </PropertyList>
+            <Control _test_id="2" id="2">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19" valUnicode="TimerAsString:"/>
+                <X id="21" val="2"/>
+                <Y id="22" val="8"/>
+                <Width id="23" val="79"/>
+                <Height id="24" val="9"/>
+                <Style id="63" val="7"/>
+                <EnableRTF id="69"/>
+                <_Orientation id="143"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="1" id="1">
+              <PropertyList model="CTRL_GUI0_EDIT">
+                <Model ID="MODEL_GUI_INT" id="1">
+                  <Var FieldID="4"/>
+                </Model>
+                <X id="21" val="90"/>
+                <Y id="22" val="8"/>
+                <Width id="23" val="245"/>
+                <Height id="24" val="9"/>
+                <Data FieldID="4" id="43"/>
+                <ControlName id="46" val="TimerAsString"/>
+                <_Orientation id="143"/>
+                <TabOrder id="314" val="1"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="4" id="4">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19" valUnicode="TickCount"/>
+                <X id="21" val="18"/>
+                <Y id="22" val="21"/>
+                <Width id="23" val="64"/>
+                <Height id="24" val="9"/>
+                <Font id="50" val="1"/>
+                <Style id="63" val="7"/>
+                <EnableRTF id="69"/>
+                <_Orientation id="143"/>
+              </PropertyList>
+            </Control>
+            <Control PDOD="1" _test_id="3" id="3">
+              <PropertyList model="CTRL_GUI0_EDIT">
+                <Model ID="MODEL_GUI_INT" id="1">
+                  <Var FieldID="5"/>
+                </Model>
+                <X id="21" val="90"/>
+                <Y id="22" val="21"/>
+                <Width id="23" val="46"/>
+                <Height id="24" val="10"/>
+                <Data FieldID="5" id="43"/>
+                <ControlName id="46" val="TickCount"/>
+                <_Orientation id="143"/>
+                <TabOrder id="314" val="2"/>
+              </PropertyList>
+            </Control>
+            <Control PDOD="1" _test_id="10" id="10">
+              <PropertyList model="CTRL_GUI0_EDIT">
+                <Model ID="MODEL_GUI_INT" id="1">
+                  <Var FieldID="8"/>
+                </Model>
+                <X id="21" val="90"/>
+                <Y id="22" val="34"/>
+                <Width id="23" val="46"/>
+                <Height id="24" val="10"/>
+                <Data FieldID="8" id="43"/>
+                <ControlName id="46" val="DelayVal"/>
+                <TabOrder id="314" val="3"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="11" id="11">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19" valUnicode="Delay (0.1 seconds)"/>
+                <X id="21" val="4"/>
+                <Y id="22" val="35"/>
+                <Width id="23" val="82"/>
+                <Height id="24" val="9"/>
+                <Font id="50" val="1"/>
+                <Style id="63" val="7"/>
+                <EnableRTF id="69"/>
+              </PropertyList>
+            </Control>
+            <Control PDOD="128" _test_id="6" id="6">
+              <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+                <X id="21" val="4"/>
+                <Y id="22" val="177"/>
+                <Width id="23" val="84"/>
+                <Height id="24" val="18"/>
+                <Format id="82" valUnicode="Start"/>
+                <Arguments id="126">
+                  <Arguments>
+                    <Argument>
+                      <Expression val="11"/>
+                      <Skip val="N"/>
+                    </Argument>
+                  </Arguments>
+                </Arguments>
+                <RaiseEvent id="234">
+                  <EventType val="U"/>
+                  <PublicObject comp="-1" obj="1"/>
+                </RaiseEvent>
+                <TabOrder id="314" val="4"/>
+              </PropertyList>
+            </Control>
+            <Control PDOD="128" _test_id="7" id="7">
+              <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+                <X id="21" val="93"/>
+                <Y id="22" val="177"/>
+                <Width id="23" val="84"/>
+                <Height id="24" val="18"/>
+                <Format id="82" valUnicode="Stop"/>
+                <Arguments id="126">
+                  <Arguments>
+                    <Argument>
+                      <Expression val="12"/>
+                      <Skip val="N"/>
+                    </Argument>
+                  </Arguments>
+                </Arguments>
+                <RaiseEvent id="234">
+                  <EventType val="U"/>
+                  <PublicObject comp="-1" obj="1"/>
+                </RaiseEvent>
+                <TabOrder id="314" val="5"/>
+              </PropertyList>
+            </Control>
+            <Control PDOD="128" _test_id="8" id="8">
+              <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+                <X id="21" val="182"/>
+                <Y id="22" val="177"/>
+                <Width id="23" val="84"/>
+                <Height id="24" val="18"/>
+                <Format id="82" valUnicode="Delay()"/>
+                <Arguments id="126">
+                  <Arguments>
+                    <Argument>
+                      <Expression val="12"/>
+                      <Skip val="N"/>
+                    </Argument>
+                  </Arguments>
+                </Arguments>
+                <RaiseEvent id="234">
+                  <EventType val="U"/>
+                  <PublicObject comp="-1" obj="2"/>
+                </RaiseEvent>
+                <TabOrder id="314" val="6"/>
+              </PropertyList>
+            </Control>
+            <Control PDOD="128" _test_id="9" id="9">
+              <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+                <X id="21" val="271"/>
+                <Y id="22" val="177"/>
+                <Width id="23" val="84"/>
+                <Height id="24" val="18"/>
+                <Format id="82" valUnicode="Sleep()"/>
+                <Arguments id="126">
+                  <Arguments>
+                    <Argument>
+                      <Expression val="12"/>
+                      <Skip val="N"/>
+                    </Argument>
+                  </Arguments>
+                </Arguments>
+                <RaiseEvent id="234">
+                  <EventType val="U"/>
+                  <PublicObject comp="-1" obj="3"/>
+                </RaiseEvent>
+                <TabOrder id="314" val="7"/>
+              </PropertyList>
+            </Control>
+          </FormEntry>
+        </TaskForms>
+        <Expressions>
+          <Expression id="1">
+            <ExpSyntax val="DotNet.System.Windows.Forms.Timer()"/>
+            <ExpAttribute val="O"/>
+          </Expression>
+          <Expression id="2">
+            <ExpSyntax val="DNSet({0,1}.Interval, 500)"/>
+            <ExpAttribute val="O"/>
+          </Expression>
+          <Expression id="3">
+            <ExpSyntax val="{0,1}.Start()"/>
+            <ExpAttribute val="O"/>
+          </Expression>
+          <Expression id="4">
+            <ExpSyntax val="{0,1}.Stop()"/>
+            <ExpAttribute val="O"/>
+          </Expression>
+          <Expression id="6">
+            <ExpSyntax val="{0,1}.Dispose()"/>
+            <ExpAttribute val="O"/>
+          </Expression>
+          <Expression id="7">
+            <ExpSyntax val="{0,1}.ToString()"/>
+            <ExpAttribute val="O"/>
+          </Expression>
+          <Expression id="8">
+            <ExpSyntax val="{0,5}+1"/>
+            <ExpAttribute val="N"/>
+          </Expression>
+          <Expression id="11">
+            <ExpSyntax val="'START'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="12">
+            <ExpSyntax val="'STOP'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="13">
+            <ExpSyntax val="{0,7}='START'"/>
+            <ExpAttribute val="B"/>
+          </Expression>
+          <Expression id="14">
+            <ExpSyntax val="{0,7}='STOP'"/>
+            <ExpAttribute val="B"/>
+          </Expression>
+          <Expression id="15">
+            <ExpSyntax val="100"/>
+            <ExpAttribute val="N"/>
+          </Expression>
+          <Expression id="16">
+            <ExpSyntax val="Delay({0,8})"/>
+            <ExpAttribute val="B"/>
+          </Expression>
+          <Expression id="21">
+            <ExpSyntax val="CallDLL('Kernel32.Sleep', '40', {0,8}*100)"/>
+            <ExpAttribute val="*"/>
+          </Expression>
+          <Expression id="17">
+            <ExpSyntax val="'Start Delay: ' &amp; Trim(Str({0,8},''))"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="18">
+            <ExpSyntax val="'Delay over.'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="19">
+            <ExpSyntax val="'Start Sleep: ' &amp; Trim(Str({0,8}*100,''))"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="20">
+            <ExpSyntax val="'Sleep over.'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+        </Expressions>
+        <EVNT DESC="Start/Stop" FORCE_EXIT="N" id="1">
+          <Event>
+            <EventType val="N"/>
+            <PublicObject comp="-1"/>
+          </Event>
+          <EVENT_PARAMETER ATTR="U" NAME="Start/Stop" PICT_U="20" id="1">
+            <MODEL>
+              <PublicObject comp="-1"/>
+            </MODEL>
+          </EVENT_PARAMETER>
+        </EVNT>
+        <EVNT DESC="Delay" FORCE_EXIT="N" id="2">
+          <Event>
+            <EventType val="N"/>
+            <PublicObject comp="-1"/>
+          </Event>
+        </EVNT>
+        <EVNT DESC="Sleep" FORCE_EXIT="N" id="3">
+          <Event>
+            <EventType val="N"/>
+            <PublicObject comp="-1"/>
+          </Event>
+        </EVNT>
+      </Task>
+    </Programs>
+  </ProgramsRepository>
+
+</Application>
