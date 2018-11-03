@@ -5,9 +5,12 @@
     <Version val="13030.00"/>
     <WithIsn val="Y"/>
     <Exe comp="-1"/>
-    <LastIsn val="55"/>
-    <LastIsnFolder val="8"/>
+    <LastIsn val="62"/>
+    <LastIsnFolder val="9"/>
     <Folders>
+      <Folder id="9">
+        <Name val="Wait"/>
+      </Folder>
       <Folder id="1">
         <Name val="Test"/>
       </Folder>
@@ -44,7 +47,10 @@
       <Program id="55"/>
       <Program id="5"/>
       <Program id="6"/>
-      <Program FolderIsn="1" id="7"/>
+      <Program FolderIsn="9" id="56"/>
+      <Program FolderIsn="9" id="62"/>
+      <Program FolderIsn="9" id="57"/>
+      <Program FolderIsn="9" id="61"/>
       <Program FolderIsn="1" id="10"/>
       <Program FolderIsn="1" id="11"/>
       <Program FolderIsn="1" id="12"/>

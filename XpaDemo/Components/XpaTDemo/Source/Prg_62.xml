@@ -13,7 +13,7 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="TestScreen01" ISN_2="1" LastIsn="1" id="7">
+        <Header Description="StartTwo" ISN_2="1" LastIsn="1" id="62">
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -22,25 +22,15 @@
             <ParametersAttributes/>
           </ReturnValue>
           <SqlWhereExist val="N"/>
-          <TaskType val="O"/>
+          <TaskType val="B"/>
           <External val="N"/>
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736894" _time="74729" date="19/07/2018" time="20:45:29"/>
+          <LastModified _date="737001" _time="32392" date="03/11/2018" time="08:59:52"/>
         </Header>
-        <ItemIsn val="1"/>
         <Resource>
-          <Columns>
-            <Column id="1" name="ModelText20">
-              <PropertyList model="FIELD">
-                <Model attr_obj="FIELD_UNICODE" comp="-1" id="1" obj="39"/>
-                <DbColumnName id="178"/>
-                <Type id="179"/>
-                <UserType id="180"/>
-              </PropertyList>
-            </Column>
-          </Columns>
+          <Columns/>
         </Resource>
         <Information>
           <Key>
@@ -51,8 +41,8 @@
             <CLS val="A"/>
           </Sort>
           <ForceRecordDelete DEL="N"/>
-          <EndTaskCondition val="N"/>
-          <EvaluateEndCondition val="B"/>
+          <EndTaskCondition val="Y"/>
+          <EvaluateEndCondition val="A"/>
           <InitialMode val="M"/>
           <Locate Direction="A"/>
           <Range Direction="A"/>
@@ -61,18 +51,18 @@
             <SelectionTable val="N"/>
             <ConfirmUpdate CNFU="N"/>
             <ConfirmCancel val="N"/>
-            <ErrorStrategy val="R"/>
+            <ErrorStrategy val="A"/>
             <LockingStrategy val="M"/>
-            <CacheStrategy val="D"/>
+            <CacheStrategy val="T"/>
             <ForceRecordSuffix val="N"/>
-            <TransactionMode val="D"/>
-            <TransactionBegin val="P"/>
+            <TransactionMode val="P"/>
+            <TransactionBegin val="N"/>
             <PreloadView val="N"/>
-            <AllowEmptyDataview val="Y"/>
+            <AllowEmptyDataview val="N"/>
             <KeepCreatedContext val="N"/>
           </TaskProperties>
           <SIDE_WIN>
-            <AllowOptions val="Y"/>
+            <AllowOptions val="N"/>
             <AllowQuery val="Y"/>
             <AllowModify val="Y"/>
             <AllowCreate val="Y"/>
@@ -89,7 +79,7 @@
             <AllowPrintingData val="N"/>
           </SIDE_WIN>
           <WIN>
-            <OpenTaskWindow val="Y"/>
+            <OpenTaskWindow val="N"/>
             <CloseTaskWindow val="Y"/>
             <ForegroundWindow val="Y"/>
             <FlipFld val="N"/>
@@ -100,7 +90,7 @@
           </BOX>
         </Information>
         <TaskLogic>
-          <LogicUnit id="2" propagate="78">
+          <LogicUnit id="1" propagate="78">
             <Level val="R"/>
             <Type val="M"/>
             <Scope val="S"/>
@@ -113,68 +103,68 @@
             </Event>
             <LogicLines>
               <LogicLine>
-                <DATAVIEW_SRC FlowIsn="2" Type="M">
+                <DATAVIEW_SRC FlowIsn="1" Type="M">
                   <Condition val="N"/>
                   <Modifier val="B"/>
                   <Direction val="C"/>
                 </DATAVIEW_SRC>
               </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="3" propagate="78">
+            <Level val="R"/>
+            <Type val="S"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="S"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <Expanded val="1"/>
+            <LogicLines>
               <LogicLine>
                 <Remark FlowIsn="3">
-                  <Type val="0"/>
+                  <Type val="2"/>
                   <Text val=" "/>
                 </Remark>
               </LogicLine>
               <LogicLine>
-                <Select FieldID="1" FlowIsn="4" id="1">
-                  <Column val="1"/>
-                  <Type val="V"/>
-                  <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="2"/>
-                  <DIFF_UPDATE val="T"/>
-                  <PartOfDataview val="Y"/>
+                <CallTask FlowIsn="4">
+                  <OperationType val="P"/>
+                  <TaskID comp="-1" obj="57"/>
+                  <Lock val="N"/>
+                  <Wait val="Y"/>
+                  <SyncData val="N"/>
+                  <RetainFocus val="N"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
                   <Direction val="C"/>
-                </Select>
+                </CallTask>
+              </LogicLine>
+              <LogicLine>
+                <CallTask FlowIsn="5">
+                  <OperationType val="P"/>
+                  <TaskID comp="-1" obj="57"/>
+                  <Lock val="N"/>
+                  <Wait val="Y"/>
+                  <SyncData val="N"/>
+                  <RetainFocus val="N"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </CallTask>
               </LogicLine>
             </LogicLines>
           </LogicUnit>
         </TaskLogic>
         <TaskForms>
-          <FormEntry _last_isn="2" _last_test_id="2" id="1">
+          <FormEntry id="1">
             <PropertyList model="FORM_GUI0">
               <_Comment id="218"/>
-              <FormName id="311" valUnicode="TestScreen01"/>
+              <FormName id="311" valUnicode="StartTwo"/>
             </PropertyList>
-            <Control _test_id="2" id="1">
-              <PropertyList model="CTRL_GUI0_STATIC">
-                <Text id="19" valUnicode="ModelText20"/>
-                <X id="21" val="9"/>
-                <Y id="22" val="13"/>
-                <Width id="23" val="53"/>
-                <Height id="24" val="9"/>
-                <Font id="50" val="1"/>
-                <Style id="63" val="7"/>
-                <EnableRTF id="69"/>
-                <_Orientation id="143"/>
-              </PropertyList>
-            </Control>
-            <Control _test_id="1" id="2">
-              <PropertyList model="CTRL_GUI0_EDIT">
-                <Model ID="MODEL_GUI_INT" id="1">
-                  <Var FieldID="1"/>
-                </Model>
-                <X id="21" val="74"/>
-                <Y id="22" val="13"/>
-                <Width id="23" val="109"/>
-                <Height id="24" val="10"/>
-                <Data FieldID="1" id="43"/>
-                <ControlName id="46" val="ModelText20"/>
-                <_Orientation id="143"/>
-                <TabOrder id="314" val="1"/>
-              </PropertyList>
-            </Control>
           </FormEntry>
         </TaskForms>
       </Task>
