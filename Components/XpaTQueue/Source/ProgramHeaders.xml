@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="13030.00"/>
+    <WithIsn val="Y"/>
+  </Header>
+
+  <ProgramsRepositoryHeaders>
+    <Program>
+      <Header Description="Main Program" ISN_2="1" LastIsn="1" id="1">
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="B"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <Closeopentasks val="N"/>
+        <RunProjectAs val="O"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="Y"/>
+        <LastModified _date="736982" _time="56768" date="15/10/2018" time="15:46:08"/>
+      </Header>
+      <SourceFileTimeStamp _date="584389" date="01/01/1601" time="00:00:00"/>
+    </Program>
+    <Program>
+      <Header ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="4">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified date="00/00/0000" time="00:00:00"/>
+      </Header>
+      <SourceFileTimeStamp _date="737007" _time="55327" date="09/11/2018" time="15:22:07"/>
+    </Program>
+    <Program>
+      <Header Description="### Publish/Subscribe ###" ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="26">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified date="00/00/0000" time="00:00:00"/>
+      </Header>
+      <SourceFileTimeStamp _date="737007" _time="55327" date="09/11/2018" time="15:22:07"/>
+    </Program>
+    <Program>
+      <Header Description="#TSTB100_Start" ISN_2="1" LastIsn="1" id="11">
+        <Comment val="#TSTB100_Start Starts two (parallel) programs/tasks.&#xD;&#xA;1.) #TSTO112A_Publish (Produce) which does publich messages to a specific topic&#xD;&#xA;2.) #TSTO112B_Subscribe/Consume which subscribes and consumes messages for that specific topic"/>
+        <Public val="#TSTB100_Start"/>
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="B"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="736982" _time="65460" date="15/10/2018" time="18:11:00"/>
+      </Header>
+      <SourceFileTimeStamp _date="737007" _time="55327" date="09/11/2018" time="15:22:07"/>
+    </Program>
+    <Program>
+      <Header Description="#TSTO112B_Subscribe/Consume" ISN_2="1" LastIsn="1" id="19">
+        <Public val="#TSTO112B_Subscribe"/>
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="Y"/>
+        <LastModified _date="736982" _time="64769" date="15/10/2018" time="17:59:29"/>
+      </Header>
+      <SourceFileTimeStamp _date="737007" _time="55327" date="09/11/2018" time="15:22:07"/>
+    </Program>
+    <Program>
+      <Header Description="#TSTO112A_Publish (Produce)" ISN_2="1" LastIsn="1" id="14">
+        <Public val="#TSTO112A_Publish"/>
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <PARALLEL_EXECUTION>
+          <INITIATE_MAIN_PROG val="Y"/>
+          <COPY_GLOBAL_PARAMS val="Y"/>
+          <SingleInstance val="N"/>
+        </PARALLEL_EXECUTION>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="Y"/>
+        <LastModified _date="736982" _time="56820" date="15/10/2018" time="15:47:00"/>
+      </Header>
+      <SourceFileTimeStamp _date="737007" _time="55327" date="09/11/2018" time="15:22:07"/>
+    </Program>
+    <Program>
+      <Header ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="29">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified date="00/00/0000" time="00:00:00"/>
+      </Header>
+      <SourceFileTimeStamp _date="737007" _time="55327" date="09/11/2018" time="15:22:07"/>
+    </Program>
+    <Program>
+      <Header Description="### Administration ####" ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="30">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified date="00/00/0000" time="00:00:00"/>
+      </Header>
+      <SourceFileTimeStamp _date="737007" _time="55327" date="09/11/2018" time="15:22:07"/>
+    </Program>
+    <Program>
+      <Header Description="#XPAMQB901_AMQ_Admin" ISN_2="1" LastIsn="1" id="31">
+        <Public val="#XPAMQB901_AMQ_Admin"/>
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="B"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="736986" _time="2277" date="19/10/2018" time="00:37:57"/>
+      </Header>
+      <SourceFileTimeStamp _date="737007" _time="55327" date="09/11/2018" time="15:22:07"/>
+    </Program>
+    <Program>
+      <Header Description="#XPAMQB900_ReadConfig" ISN_2="1" LastIsn="1" id="23">
+        <Public val="#XPAMQB900_ReadConfig"/>
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <TSK_PARAMS val="2"/>
+          <ParametersAttributes>
+            <Attr MgAttr="U"/>
+            <Attr MgAttr="O"/>
+          </ParametersAttributes>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="B"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="736982" _time="47701" date="15/10/2018" time="13:15:01"/>
+      </Header>
+      <SourceFileTimeStamp _date="737008" _time="82974" date="10/11/2018" time="23:02:54"/>
+    </Program>
+    <Program>
+      <Header ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="27">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified date="00/00/0000" time="00:00:00"/>
+      </Header>
+      <SourceFileTimeStamp _date="737007" _time="55327" date="09/11/2018" time="15:22:07"/>
+    </Program>
+    <Program>
+      <Header Description="### Old test stuff ###" ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="28">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified date="00/00/0000" time="00:00:00"/>
+      </Header>
+      <SourceFileTimeStamp _date="737007" _time="55327" date="09/11/2018" time="15:22:07"/>
+    </Program>
+    <Program>
+      <Header Description="#TSTO111_ApacheMQ_Send" ISN_2="1" LastIsn="1" id="9">
+        <Comment val="#TSTO111_ApacheMQ_Send is a smple for using Magic Xpa's .NET sinipplets to send messages via ApacheMQ (as alternative to implementing that in an external class library / assembly). For simple things that will do."/>
+        <Public val="#TSTO111_ApacheMQ_Send"/>
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <PARALLEL_EXECUTION>
+          <INITIATE_MAIN_PROG val="Y"/>
+          <COPY_GLOBAL_PARAMS val="Y"/>
+          <SingleInstance val="Y"/>
+        </PARALLEL_EXECUTION>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="Y"/>
+        <LastModified _date="736982" _time="65707" date="15/10/2018" time="18:15:07"/>
+      </Header>
+      <SourceFileTimeStamp _date="737007" _time="55327" date="09/11/2018" time="15:22:07"/>
+    </Program>
+    <Program>
+      <Header Description="#XPAMQO101_ConsumeMessage" ISN_2="1" LastIsn="1" id="18">
+        <Public val="#XPAMQO101_ConsumeMessage"/>
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <PARALLEL_EXECUTION>
+          <INITIATE_MAIN_PROG val="Y"/>
+          <COPY_GLOBAL_PARAMS val="Y"/>
+          <SingleInstance val="Y"/>
+        </PARALLEL_EXECUTION>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="736981" _time="13636" date="14/10/2018" time="03:47:16"/>
+      </Header>
+      <SourceFileTimeStamp _date="737007" _time="55327" date="09/11/2018" time="15:22:07"/>
+    </Program>
+    <Program>
+      <Header Description="#XPAMQB100_SendMessage" ISN_2="1" LastIsn="1" id="16">
+        <Public val="#XPAMQB100_SendMessage"/>
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <TSK_PARAMS val="6"/>
+          <ParametersAttributes>
+            <Attr MgAttr="U"/>
+            <Attr MgAttr="U"/>
+            <Attr MgAttr="O"/>
+            <Attr MgAttr="U"/>
+            <Attr MgAttr="U"/>
+            <Attr MgAttr="U"/>
+          </ParametersAttributes>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="B"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="Y"/>
+        <LastModified _date="736981" _time="2747" date="14/10/2018" time="00:45:47"/>
+      </Header>
+      <SourceFileTimeStamp _date="737007" _time="55327" date="09/11/2018" time="15:22:07"/>
+    </Program>
+    <Program>
+      <Header Description="#XPAMQB101_ConsumeMessage" ISN_2="1" LastIsn="1" id="17">
+        <Public val="#XPAMQB101_ConsumeMessage"/>
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <TSK_PARAMS val="8"/>
+          <ParametersAttributes>
+            <Attr MgAttr="U"/>
+            <Attr MgAttr="U"/>
+            <Attr MgAttr="N"/>
+            <Attr MgAttr="U"/>
+            <Attr MgAttr="O"/>
+            <Attr MgAttr="U"/>
+            <Attr MgAttr="U"/>
+            <Attr MgAttr="U"/>
+          </ParametersAttributes>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="B"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="Y"/>
+        <LastModified _date="736982" _time="49652" date="15/10/2018" time="13:47:32"/>
+      </Header>
+      <SourceFileTimeStamp _date="737007" _time="55327" date="09/11/2018" time="15:22:07"/>
+    </Program>
+    <Program>
+      <Header ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="22">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified date="00/00/0000" time="00:00:00"/>
+      </Header>
+      <SourceFileTimeStamp _date="737007" _time="55327" date="09/11/2018" time="15:22:07"/>
+    </Program>
+    <Program>
+      <Header ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="20">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified date="00/00/0000" time="00:00:00"/>
+      </Header>
+      <SourceFileTimeStamp _date="737007" _time="55327" date="09/11/2018" time="15:22:07"/>
+    </Program>
+  </ProgramsRepositoryHeaders>
+
+</Application>

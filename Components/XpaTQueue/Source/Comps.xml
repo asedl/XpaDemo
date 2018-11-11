@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="13030.00"/>
+    <WithIsn val="Y"/>
+    <Exe comp="-1"/>
+    <LastIsn val="35"/>
+    <LastIsnFolder val="0"/>
+    <Folders/>
+  </Header>
+
+  <ComponentsRepository>
+    <Components>
+      <Component id="7" name="System">
+        <Description val="System"/>
+        <ComponentType val=".NET"/>
+        <Type val="D"/>
+        <LoadImmediate val="Y"/>
+        <AssemblyName val="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"/>
+        <AssemblyPath val="C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll"/>
+        <UseSpecificVersion val="N"/>
+        <isGuiThreadExecution val="N"/>
+      </Component>
+      <Component id="26" name="System.Xml">
+        <Description val="System.Xml"/>
+        <ComponentType val=".NET"/>
+        <Type val="D"/>
+        <LoadImmediate val="Y"/>
+        <AssemblyName val="System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"/>
+        <AssemblyPath val="C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll"/>
+        <UseSpecificVersion val="N"/>
+        <isGuiThreadExecution val="N"/>
+      </Component>
+      <Component id="27" name="System.Transactions">
+        <Description val="System.Transactions"/>
+        <ComponentType val=".NET"/>
+        <Type val="D"/>
+        <LoadImmediate val="Y"/>
+        <AssemblyName val="System.Transactions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"/>
+        <AssemblyPath val="C:\WINDOWS\Microsoft.Net\assembly\GAC_64\System.Transactions\v4.0_4.0.0.0__b77a5c561934e089\System.Transactions.dll"/>
+        <UseSpecificVersion val="N"/>
+        <isGuiThreadExecution val="Y"/>
+      </Component>
+      <Component id="8" name="System.Windows">
+        <Description val="System.Windows"/>
+        <ComponentType val=".NET"/>
+        <Type val="D"/>
+        <LoadImmediate val="Y"/>
+        <AssemblyName val="System.Windows, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/>
+        <AssemblyPath val="C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Windows\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Windows.dll"/>
+        <UseSpecificVersion val="N"/>
+        <isGuiThreadExecution val="N"/>
+      </Component>
+      <Component id="9" name="System.Windows.Forms">
+        <Description val="System.Windows.Forms"/>
+        <ComponentType val=".NET"/>
+        <Type val="D"/>
+        <LoadImmediate val="Y"/>
+        <AssemblyName val="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"/>
+        <AssemblyPath val="C:\WINDOWS\assembly\GAC_MSIL\System.Windows.Forms\2.0.0.0__b77a5c561934e089\System.Windows.Forms.dll"/>
+        <UseSpecificVersion val="N"/>
+        <isGuiThreadExecution val="Y"/>
+      </Component>
+      <Component id="5" name="XpaTHttpDNet">
+        <Description val="XpaTHttpDNet"/>
+        <ComponentType val=".NET"/>
+        <Type val="D"/>
+        <LoadImmediate val="Y"/>
+        <AssemblyName val="XpaTHttpDNet, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+        <AssemblyPath val="%XPADEMO_HOME%\bin\XpaTHttpDNet.dll"/>
+        <UseSpecificVersion val="N"/>
+        <isGuiThreadExecution val="N"/>
+      </Component>
+      <Component id="11" name="Apache.NMS">
+        <Description val="Apache.NMS"/>
+        <ComponentType val=".NET"/>
+        <Type val="D"/>
+        <LoadImmediate val="Y"/>
+        <AssemblyName val="Apache.NMS, Version=1.7.1.3894, Culture=neutral, PublicKeyToken=82756feee3957618"/>
+        <AssemblyPath val="%XPADEMO_HOME%\bin\Apache.NMS.dll"/>
+        <UseSpecificVersion val="N"/>
+        <isGuiThreadExecution val="Y"/>
+      </Component>
+      <Component id="13" name="Apache.NMS.ActiveMQ">
+        <Description val="Apache.NMS.ActiveMQ"/>
+        <ComponentType val=".NET"/>
+        <Type val="D"/>
+        <LoadImmediate val="Y"/>
+        <AssemblyName val="Apache.NMS.ActiveMQ, Version=1.7.2.4108, Culture=neutral, PublicKeyToken=82756feee3957618"/>
+        <AssemblyPath val="%XPADEMO_HOME%\bin\Apache.NMS.ActiveMQ.dll"/>
+        <UseSpecificVersion val="N"/>
+        <isGuiThreadExecution val="Y"/>
+      </Component>
+      <Component id="30" name="XpaTQueue">
+        <Description val="XpaTQueue"/>
+        <ComponentType val=".NET"/>
+        <Type val="D"/>
+        <LoadImmediate val="Y"/>
+        <AssemblyName val="XpaTQueue, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+        <AssemblyPath val="%XPADEMO_HOME%\bin\XpaTQueue.dll"/>
+        <UseSpecificVersion val="N"/>
+        <isGuiThreadExecution val="Y"/>
+      </Component>
+    </Components>
+    <Aliases LastIsnAliases="1">
+      <Alias id="1">
+        <name val="AlarmClock"/>
+        <DotNetType val="XpaTHttpDNet.AlarmClock"/>
+      </Alias>
+    </Aliases>
+  </ComponentsRepository>
+
+</Application>

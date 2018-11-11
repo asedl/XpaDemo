@@ -1,0 +1,6 @@
+xparun_exe=D:\XpaDemo\bin\Xpa\MgxpaStudio.exe
+xparun_workingdir=D:\XpaDemo\bin\Xpa
+xparun_parameters=@D:\XpaDemo\XpaTDemo.ini
+xparun_envexpand=Y
+xparun_inidir=%TEMP%\
+xparun_wait=E

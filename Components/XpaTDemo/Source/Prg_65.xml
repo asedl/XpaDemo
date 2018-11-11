@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="13030.00"/>
+    <WithIsn val="Y"/>
+    <_InternalTask val="N"/>
+    <IsRoot val="N"/>
+    <InIndex val="N"/>
+    <UniqueISNConvState val="12"/>
+  </Header>
+
+  <ProgramsRepository>
+    <Programs>
+      <Task MainProgram="N">
+        <Header Description="ConsoleOutput" ISN_2="1" LastIsn="1" id="65">
+          <ExecutionRight comp="-1"/>
+          <Resident val="N"/>
+          <SQL val="N"/>
+          <ReturnValue>
+            <ReturnValueAttr/>
+            <ParametersAttributes/>
+          </ReturnValue>
+          <SqlWhereExist val="N"/>
+          <TaskType val="B"/>
+          <External val="N"/>
+          <Offline val="N"/>
+          <FormType val="N"/>
+          <DotNetObjectExists val="Y"/>
+          <LastModified _date="737007" _time="82009" date="09/11/2018" time="22:46:49"/>
+        </Header>
+        <Resource>
+          <Columns/>
+        </Resource>
+        <Information>
+          <Key>
+            <Mode val="N"/>
+          </Key>
+          <DB comp="-1"/>
+          <Sort>
+            <CLS val="A"/>
+          </Sort>
+          <ForceRecordDelete DEL="N"/>
+          <EndTaskCondition val="Y"/>
+          <EvaluateEndCondition val="A"/>
+          <InitialMode val="M"/>
+          <Locate Direction="A"/>
+          <Range Direction="A"/>
+          <VarRange/>
+          <TaskProperties>
+            <SelectionTable val="N"/>
+            <ConfirmUpdate CNFU="N"/>
+            <ConfirmCancel val="N"/>
+            <ErrorStrategy val="A"/>
+            <LockingStrategy val="M"/>
+            <CacheStrategy val="T"/>
+            <ForceRecordSuffix val="N"/>
+            <TransactionMode val="P"/>
+            <TransactionBegin val="N"/>
+            <PreloadView val="N"/>
+            <AllowEmptyDataview val="N"/>
+            <KeepCreatedContext val="N"/>
+          </TaskProperties>
+          <SIDE_WIN>
+            <AllowOptions val="N"/>
+            <AllowQuery val="Y"/>
+            <AllowModify val="Y"/>
+            <AllowCreate val="Y"/>
+            <AllowDelete val="Y"/>
+            <AllowLocate val="Y"/>
+            <AllowRange val="Y"/>
+            <AllowIndexChange val="Y"/>
+            <AllowSorting val="Y"/>
+            <AllowIOFiles val="Y"/>
+            <RecordCycle val="Y"/>
+            <AllowEvents val="Y"/>
+            <AllowIndexOptimization val="Y"/>
+            <AllowLocationInQuery val="Y"/>
+            <AllowPrintingData val="N"/>
+          </SIDE_WIN>
+          <WIN>
+            <OpenTaskWindow val="N"/>
+            <CloseTaskWindow val="Y"/>
+            <ForegroundWindow val="Y"/>
+            <FlipFld val="N"/>
+            <RefreshTaskWindow ReturnValue="N"/>
+          </WIN>
+          <BOX>
+            <Direction val="V"/>
+          </BOX>
+        </Information>
+        <TaskLogic>
+          <LogicUnit id="1" propagate="78">
+            <Level val="R"/>
+            <Type val="M"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="S"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <LogicLines>
+              <LogicLine>
+                <DATAVIEW_SRC FlowIsn="1" Type="M">
+                  <Condition val="N"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </DATAVIEW_SRC>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="3" propagate="78">
+            <Level val="R"/>
+            <Type val="S"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="S"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <Expanded val="1"/>
+            <LogicLines>
+              <LogicLine>
+                <Remark FlowIsn="3">
+                  <Type val="2"/>
+                  <Text val=" "/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <Invoke FlowIsn="4">
+                  <OperationType val="."/>
+                  <TaskID comp="-1"/>
+                  <Lock val="N"/>
+                  <Arguments>
+                    <Argument>
+                      <Skip val="N"/>
+                      <DotNetType val="void"/>
+                    </Argument>
+                  </Arguments>
+                  <Wait val="Y"/>
+                  <SyncData val="N"/>
+                  <FunctionName val="func"/>
+                  <SnippetCode val="using System;&#xA;using System.Collections.Generic;&#xA;using System.Text;&#xA;using System.Threading.Tasks;&#xA;using System.Windows;&#xA;&#xA;using System.IO;&#xA;using System.Runtime.InteropServices;&#xA;using Microsoft.Win32.SafeHandles;&#xA;&#xA;&#xA;public static class Snippet&#xA;{&#xA;&#x9;public static void func()&#xA;&#x9;{&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;            AllocConsole();&#xA;            IntPtr stdHandle = GetStdHandle(STD_OUTPUT_HANDLE);&#xA;            SafeFileHandle safeFileHandle = new SafeFileHandle(stdHandle, true);&#xA;            FileStream fileStream = new FileStream(safeFileHandle, FileAccess.Write);&#xA;            Encoding encoding = System.Text.Encoding.GetEncoding(MY_CODE_PAGE);&#xA;            StreamWriter standardOutput = new StreamWriter(fileStream, encoding);&#xA;            standardOutput.AutoFlush = true;&#xA;            Console.SetOut(standardOutput);&#xA;&#xA;            Console.WriteLine(&quot;This text you can see in console window.&quot;);&#xA;&#xA;&#x9;}&#xA;&#xA;&#x9;        [DllImport(&quot;kernel32.dll&quot;,&#xA;            EntryPoint = &quot;GetStdHandle&quot;,&#xA;            SetLastError = true,&#xA;            CharSet = CharSet.Auto,&#xA;            CallingConvention = CallingConvention.StdCall)]&#xA;        private static extern IntPtr GetStdHandle(int nStdHandle);&#xA;&#xA;        [DllImport(&quot;kernel32.dll&quot;,&#xA;            EntryPoint = &quot;AllocConsole&quot;,&#xA;            SetLastError = true,&#xA;            CharSet = CharSet.Auto,&#xA;            CallingConvention = CallingConvention.StdCall)]&#xA;&#xA;        private static extern int AllocConsole();&#xA;        private const int STD_OUTPUT_HANDLE = -11;&#xA;        private const int MY_CODE_PAGE = 437;&#xA;&#xA;}"/>
+                  <CompiledCode val="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aQBvAG4AAAAwAC4AMAAuADAALgAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAwAAADQNQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="/>
+                  <SnippetLanguage val="C"/>
+                  <ForCompactFramework val="N"/>
+                  <isGuiThreadExecution val="N"/>
+                  <CompileTime HighDateTime="30701685" LowDateTime="3063710665"/>
+                  <RetainFocus val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Invoke>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+        </TaskLogic>
+        <TaskForms>
+          <FormEntry id="1">
+            <PropertyList model="FORM_GUI0">
+              <_Comment id="218"/>
+              <FormName id="311" valUnicode="ConsoleOutput"/>
+            </PropertyList>
+          </FormEntry>
+        </TaskForms>
+      </Task>
+    </Programs>
+  </ProgramsRepository>
+
+</Application>

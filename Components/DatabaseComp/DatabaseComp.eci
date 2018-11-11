@@ -1,0 +1,49 @@
+       // Magic ECI Generator                                          //
+       // Created by   :----No User logged in----         //
+       // Created Date :10/11/2018 Time :23:44:29              //
+       // File Name    :D:\XpaDemo\Components\DatabaseComp\DatabaseComp.eci         //
+COMPID = 3268370059-58198-18916-A94554F61
+NAME = "DatabaseComp"
+DESC = ""
+COMPTYPE = "Magic xpa"
+IMMED = "Y"
+PROJECTFILE = "D:\XpaDemo\Components\DatabaseComp\DatabaseComp.edp"
+CABINETFILE = "%Components%DatabaseComp.ecf"
+VRSN = 1.0
+HLPFILE = ""
+HLPKEY = ""
+
+MODEL=PUBLIC="Filename (Path)" RMK="" HELPKEY=""
+MODEL=PUBLIC="CommandLine" RMK="" HELPKEY=""
+MODEL=PUBLIC="Uri" RMK="" HELPKEY=""
+MODEL=PUBLIC="ResponseBody(Binary)" RMK="" HELPKEY=""
+MODEL=PUBLIC="ResponseBody(Unicode)" RMK="" HELPKEY=""
+MODEL=PUBLIC="ResponseBody(Ansi)" RMK="" HELPKEY=""
+MODEL=PUBLIC="objid" RMK="" HELPKEY=""
+MODEL=PUBLIC="script_id" RMK="" HELPKEY=""
+MODEL=PUBLIC="script_source" RMK="" HELPKEY=""
+MODEL=PUBLIC="TemplateId" RMK="" HELPKEY=""
+MODEL=PUBLIC="TemplateSource" RMK="" HELPKEY=""
+MODEL=PUBLIC="Filename" RMK="" HELPKEY=""
+MODEL=PUBLIC="Parameter(Blob)" RMK="" HELPKEY=""
+MODEL=PUBLIC="Parameter(Unicode1000)" RMK="" HELPKEY=""
+MODEL=PUBLIC="Parameters(Vector)" RMK="" HELPKEY=""
+File=PUBLIC="xpatest_uris" RMK="" HELPKEY=""
+File=PUBLIC="xpatest_templates" RMK="" HELPKEY=""
+File=PUBLIC="xpatest_dotnet_locations" RMK="" HELPKEY=""
+File=PUBLIC="xpatest_components" RMK="" HELPKEY=""
+File=PUBLIC="Categories" RMK="" HELPKEY=""
+File=PUBLIC="Tree" RMK="" HELPKEY=""
+File=PUBLIC="OrderDetails" RMK="" HELPKEY=""
+File=PUBLIC="Territories" RMK="" HELPKEY=""
+File=PUBLIC="Region_" RMK="" HELPKEY=""
+File=PUBLIC="Feedback" RMK="" HELPKEY=""
+File=PUBLIC="Products" RMK="" HELPKEY=""
+File=PUBLIC="Suppliers" RMK="" HELPKEY=""
+File=PUBLIC="Customers" RMK="" HELPKEY=""
+File=PUBLIC="Employees" RMK="" HELPKEY=""
+File=PUBLIC="Invoices" RMK="" HELPKEY=""
+File=PUBLIC="Shippers" RMK="" HELPKEY=""
+File=PUBLIC="Orders" RMK="" HELPKEY=""
+
+[ENVIRONMENT]

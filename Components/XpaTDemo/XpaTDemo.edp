@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <_Project>
+    <ProjectName val="XpaTDemo"/>
+    <VCProjectID val="0"/>
+    <VCActive val="N"/>
+    <WorkOffline val="N"/>
+    <SourceDirectory val="Source"/>
+    <ExportsDirectory val="Exports"/>
+    <GUID val="{FF1DEB7B-9B1B-4ACC-8692-37664AD0BB8A}"/>
+    <Version min="13020.10"/>
+    <SourceVersion val="13030.00"/>
+    <ReferencedProjects>
+      <RefProject FileName="DatabaseComp\DatabaseComp.edp" ProjectName="DatabaseComp"/>
+      <RefProject FileName="Scripting\Roslyn\Roslyn.edp" ProjectName="Roslyn"/>
+      <RefProject FileName="XpaTCrypt\XpaTCrypt.edp" ProjectName="XpaTCrypt"/>
+      <RefProject FileName="XpaTDemo\XpaTDemo.edp" ProjectName="XpaTDemo"/>
+      <RefProject FileName="XpaTHelp\XpaTHelp.edp" ProjectName="XpaTHelp"/>
+      <RefProject FileName="XpaTMobile\XpaTMobile.edp" ProjectName="XpaTMobile"/>
+      <RefProject FileName="XpaTQueue\XpaTQueue.edp" ProjectName="XpaTQueue"/>
+      <RefProject FileName="XpaTSoap\XpaTSoap.edp" ProjectName="XpaTSoap"/>
+      <RefProject FileName="XpaTUtils\XpaTUtils.edp" ProjectName="XpaTUtils"/>
+      <RefProject FileName="XpaTWeb\XpaTWeb.edp" ProjectName="XpaTWeb"/>
+    </ReferencedProjects>
+  </_Project>
+
+</Application>

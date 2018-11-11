@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="13030.00"/>
+    <WithIsn val="Y"/>
+    <Exe comp="-1"/>
+    <LastIsn val="10"/>
+    <LastIsnFolder val="0"/>
+    <Folders/>
+  </Header>
+
+  <DataSourceRepository>
+    <DataObjects>
+      <DataObject PhysicalName="Criteria" Resident="N" UniqueISNConvState="12" data_source="Memory" id="1" length="13438" name="Criteria" offset="231"/>
+      <DataObject PhysicalName="RangeExpression" Resident="N" UniqueISNConvState="12" data_source="Memory" id="2" length="2034" name="RangeExpression" offset="13670"/>
+      <DataObject Comment="This table stores generated reports information when the user opts for 'Save Report' from wizard.&#xD;&#xA;The database for this table can be user defined.&#xD;&#xA;It will also store the information of 'TaskVariables' table in a blob variable (Variable name - TaskVariables Data)" PhysicalName="PrintDataInformation" Resident="N" UniqueISNConvState="12" data_source="Memory" id="3" length="9510" name="PrintDataInformation" offset="15705"/>
+      <DataObject PhysicalName="PrintDataSelection" Resident="N" UniqueISNConvState="12" data_source="Memory" id="4" length="4562" name="PrintDataSelection" offset="25216"/>
+      <DataObject PhysicalName="ViewByKey" Resident="N" UniqueISNConvState="12" data_source="Memory" id="5" length="3178" name="ViewByKey" offset="29779"/>
+      <DataObject PhysicalName="ExcelSelectedColummns" Resident="N" UniqueISNConvState="12" data_source="Memory" id="6" length="5577" name="ExcelSelectedColummns" offset="32958"/>
+      <DataObject PhysicalName="ExcelInfo" Resident="N" UniqueISNConvState="12" data_source="Memory" id="7" length="2823" name="ExcelInfo" offset="38536"/>
+      <DataObject PhysicalName="ExcelSelectedColummnsLocal" Resident="N" UniqueISNConvState="12" data_source="Local" id="8" length="5893" name="ExcelSelectedColummns (Local)" offset="41360"/>
+      <DataObject PhysicalName="ExcelInfoLocal" Resident="N" UniqueISNConvState="12" data_source="Local" id="9" length="2916" name="ExcelInfo (Local)" offset="47254"/>
+      <DataObject PhysicalName="TestDS" Resident="N" UniqueISNConvState="12" data_source="Memory" id="10" length="7418" name="TestDS" offset="50171"/>
+    </DataObjects>
+  </DataSourceRepository>
+
+  <LastModified val="30701631-9359440"/>
+
+</Application>
