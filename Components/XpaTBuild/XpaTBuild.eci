@@ -1,0 +1,39 @@
+       // Magic ECI Generator                                          //
+       // Created by   :----No User logged in----         //
+       // Created Date :12/11/2018 Time :19:32:39              //
+       // File Name    :D:\XpaDemo\Components\XpaTBuild\XpaTBuild.eci         //
+COMPID = 354930035-42976-18223-BD88AC6D6
+NAME = "XpaTBuild"
+DESC = "XpaTBuild component of XpaDemo project"
+COMPTYPE = "Magic xpa"
+IMMED = "N"
+PROJECTFILE = "D:\XpaDemo\Components\XpaTBuild\XpaTBuild.edp"
+CABINETFILE = "%Components%XpaTBuild.ecf"
+VRSN = 0.0.0
+HLPFILE = ""
+HLPKEY = ""
+
+
+[ENVIRONMENT]
+CENTURYST="1930"
+BATCH_PAINT="0"
+ALLOW_CRT="1"
+ALLOW_UPD="0"
+ISAM_TRANS="0"
+KBD_IDLE="1"
+CNTR_SCREEN="0"
+REP_AFTM="0"
+DATE_MODE="E"
+
+[DATABASES]
+"Local=DBMS, 11, , local.sqlite , , , , , NoMagicRecordLock, DontChangeFileInToolkit, CheckDefinition, NoCheckKey, NoFileLocks, , , CheckExist, 0, , NoAS400SrvrSort,"
+
+[SERVERS]
+"Default Broker=0,5115,,DESKTOP-FSG2HTV//11-5-2018//17:49:20,10,,1"
+"DEFAULT=0,,,,10,,1"
+
+[SERVICES]
+"Default Service=Default Broker,,,"
+
+[LOGICAL_NAMES]
+"XPADEMO_HOME=D:\XpaDemo"
