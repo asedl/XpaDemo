@@ -1,4 +1,4 @@
-xparun_exe=D:\Magic.Projects\XpaDemo\dev\bin\Xpa\MgxpaStudio.exe
+xparun_exe=D:\Magic.Projects\XpaDemo\dev\bin\Xpa\MgxpaRuntime.exe
 xparun_workingdir=D:\Magic.Projects\XpaDemo\dev\bin\Xpa
 xparun_parameters=@D:\Magic.Projects\XpaDemo\dev\XpaTDemo.ini
 xparun_envexpand=Y

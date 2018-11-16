@@ -13,7 +13,7 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="OUTIL003_CheckConfiguration" ISN_2="1" LastIsn="5" id="38">
+        <Header Description="OUTIL003_CheckConfigurationY" ISN_2="1" LastIsn="5" id="38">
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -30,9 +30,9 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737009" _time="45613" date="11/11/2018" time="12:40:13"/>
+          <LastModified _date="737014" _time="7230" date="16/11/2018" time="02:00:30"/>
         </Header>
-        <ItemIsn val="13"/>
+        <ItemIsn val="17"/>
         <Resource>
           <Columns>
             <Column id="1" name="pi.ForceConfig">
@@ -123,6 +123,20 @@
               </PropertyList>
             </Column>
             <Column id="13" name="v.Restart">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_LOGICAL" id="1"/>
+                <_FieldStyle id="276" val="1"/>
+              </PropertyList>
+            </Column>
+            <Column id="16" name="v.@Ini_Template">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_UNICODE" id="1"/>
+                <Picture id="157" valUnicode="255"/>
+                <Size id="174" val="510"/>
+                <_FieldStyle id="276" val="1"/>
+              </PropertyList>
+            </Column>
+            <Column id="17" name="v.TemplateExists">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_LOGICAL" id="1"/>
                 <_FieldStyle id="276" val="1"/>
@@ -383,6 +397,34 @@
                   <Direction val="C"/>
                 </Select>
               </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="51">
+                  <Type val="0"/>
+                  <Text val=" "/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="16" FlowIsn="52" id="16">
+                  <Column val="16"/>
+                  <Type val="V"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="17" FlowIsn="86" id="17">
+                  <Column val="17"/>
+                  <Type val="V"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
             </LogicLines>
           </LogicUnit>
           <LogicUnit id="3" propagate="78">
@@ -579,13 +621,55 @@
                 </Update>
               </LogicLine>
               <LogicLine>
-                <Remark FlowIsn="41">
+                <Remark FlowIsn="82">
                   <Type val="2"/>
                   <Text val=" "/>
                 </Remark>
               </LogicLine>
               <LogicLine>
-                <Remark FlowIsn="42">
+                <Remark FlowIsn="84">
+                  <Type val="2"/>
+                  <Text val="If XPA:HOME is not set correctly or empty we won't find the Template for the new .INI and should not"/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="85">
+                  <Type val="2"/>
+                  <Text val="even try to build it from Template in Task Create @Ini"/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <Update FlowIsn="83">
+                  <FieldID val="16"/>
+                  <WithValue val="17"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Update>
+              </LogicLine>
+              <LogicLine>
+                <Update FlowIsn="87">
+                  <FieldID val="17"/>
+                  <WithValue val="18"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Update>
+              </LogicLine>
+              <LogicLine>
+                <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" Exp="19" FlowIsn="88" IMG_DEF_CHG="N" Image="C" Mode="E" TTL_DEF_CHG="N" TitleTxt="Error" VR_DISP="B">
+                  <AppendToErrorLog val="Y"/>
+                  <Condition Exp="20"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </STP>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="53">
                   <Type val="2"/>
                   <Text val=" "/>
                 </Remark>
@@ -613,6 +697,12 @@
                   <OperationType val="T"/>
                   <TaskID comp="-1" obj="5"/>
                   <Lock val="N"/>
+                  <Arguments>
+                    <Argument>
+                      <Variable val="16"/>
+                      <Skip val="N"/>
+                    </Argument>
+                  </Arguments>
                   <Wait val="Y"/>
                   <SyncData val="N"/>
                   <RetainFocus val="N"/>
@@ -642,7 +732,7 @@
               </LogicLine>
               <LogicLine>
                 <BLOCK EndBlock="50" EndBlockSegment="50" FlowIsn="48" Type="E">
-                  <Condition val="Y"/>
+                  <Condition Exp="21"/>
                   <Modifier val="B"/>
                   <Direction val="C"/>
                 </BLOCK>
@@ -670,7 +760,7 @@
           <FormEntry id="1">
             <PropertyList model="FORM_GUI0">
               <_Comment id="218"/>
-              <FormName id="311" valUnicode="OUTIL003_CheckConfiguration"/>
+              <FormName id="311" valUnicode="OUTIL003_CheckConfigurationY"/>
             </PropertyList>
           </FormEntry>
         </TaskForms>
@@ -678,6 +768,10 @@
           <Expression id="1">
             <ExpSyntax val="Trim(Translate('%XPADEMO_HOME%'))"/>
             <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="20">
+            <ExpSyntax val="NOT ({0,17})"/>
+            <ExpAttribute val="B"/>
           </Expression>
           <Expression id="2">
             <ExpSyntax val="'FALSE'LOG"/>
@@ -700,7 +794,7 @@
             <ExpAttribute val="B"/>
           </Expression>
           <Expression id="7">
-            <ExpSyntax val="NOT ({0,10}) OR {0,11}"/>
+            <ExpSyntax val="(NOT ({0,10}) OR {0,11}) AND {0,17}"/>
             <ExpAttribute val="B"/>
           </Expression>
           <Expression id="8">
@@ -734,6 +828,22 @@
           <Expression id="15">
             <ExpSyntax val="Trim(Translate('%WorkingDir%')) &amp; AppName() &amp; '.ini'"/>
             <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="17">
+            <ExpSyntax val="Trim(Translate('%XPADEMO_HOME%\Templates\ini\XpaDemo.ini'))"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="18">
+            <ExpSyntax val="FileExist({0,16})"/>
+            <ExpAttribute val="B"/>
+          </Expression>
+          <Expression id="19">
+            <ExpSyntax val="'Template for new @.INI does not exist: ' &amp; Trim({0,16})"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="21">
+            <ExpSyntax val="{0,17}"/>
+            <ExpAttribute val="B"/>
           </Expression>
         </Expressions>
         <EVNT DESC="CheckDBAccess" FORCE_EXIT="N" id="1">
@@ -2407,15 +2517,19 @@
             <SQL val="N"/>
             <ReturnValue>
               <ReturnValueAttr/>
-              <ParametersAttributes/>
+              <TSK_PARAMS val="1"/>
+              <ParametersAttributes>
+                <Attr MgAttr="U"/>
+              </ParametersAttributes>
             </ReturnValue>
             <SqlWhereExist val="N"/>
             <TaskType val="B"/>
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="737009" _time="45604" date="11/11/2018" time="12:40:04"/>
+            <LastModified _date="737013" _time="62605" date="15/11/2018" time="17:23:25"/>
           </Header>
+          <ItemIsn val="1"/>
           <Resource>
             <IO id="1">
               <Description val="@Ini"/>
@@ -2435,7 +2549,16 @@
               <Vis2LogTranslation val="N"/>
               <FlipLines val="N"/>
             </IO>
-            <Columns/>
+            <Columns>
+              <Column id="1" name="pi.@INI_Template">
+                <PropertyList model="FIELD">
+                  <Model attr_obj="FIELD_UNICODE" id="1"/>
+                  <Picture id="157" valUnicode="255"/>
+                  <Size id="174" val="510"/>
+                  <_FieldStyle id="276" val="1"/>
+                </PropertyList>
+              </Column>
+            </Columns>
           </Resource>
           <Information>
             <Key>
@@ -2513,6 +2636,17 @@
                     <Modifier val="B"/>
                     <Direction val="C"/>
                   </DATAVIEW_SRC>
+                </LogicLine>
+                <LogicLine>
+                  <Select FieldID="1" FlowIsn="9" id="1">
+                    <Column val="1"/>
+                    <Type val="V"/>
+                    <IsParameter val="Y"/>
+                    <DIFF_UPDATE val="T"/>
+                    <Condition val="Y"/>
+                    <Modifier val="S"/>
+                    <Direction val="C"/>
+                  </Select>
                 </LogicLine>
                 <LogicLine>
                   <Remark FlowIsn="3">
@@ -2620,7 +2754,7 @@
           <TaskForms>
             <FormEntry CLSS="1" id="2">
               <PropertyList model="FORM_MERGE">
-                <FileName id="4" val="%XPADEMO_HOME%\Templates\ini\XpaDemo.ini"/>
+                <FileName Exp="4" id="4" val="%XPADEMO_HOME%\Templates\ini\XpaDemo.ini"/>
                 <TagsTable id="7">
                   <MERGE_PARM Exp="1" PIC_U="255" TXT_U="XPADEMO_HOME" id="1"/>
                 </TagsTable>
@@ -2640,6 +2774,10 @@
             </Expression>
             <Expression id="3">
               <ExpSyntax val="{1,9}"/>
+              <ExpAttribute val="U"/>
+            </Expression>
+            <Expression id="4">
+              <ExpSyntax val="{0,1}"/>
               <ExpAttribute val="U"/>
             </Expression>
           </Expressions>

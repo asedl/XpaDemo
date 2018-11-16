@@ -31,7 +31,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737008" _time="85799" date="10/11/2018" time="23:49:59"/>
+          <LastModified _date="737013" _time="16442" date="15/11/2018" time="04:34:02"/>
         </Header>
         <ReturnValueExpression val="9"/>
         <ItemIsn val="10"/>
@@ -194,6 +194,7 @@
                   <Column val="1"/>
                   <Type val="R"/>
                   <IsParameter val="N"/>
+                  <Locate MAX="11" MIN="11"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="N"/>
                   <Modifier val="S"/>
@@ -308,6 +309,17 @@
                   <Modifier val="B"/>
                   <Direction val="C"/>
                 </STP>
+              </LogicLine>
+              <LogicLine>
+                <Update FlowIsn="35">
+                  <FieldID val="2"/>
+                  <WithValue val="12"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Update>
               </LogicLine>
               <LogicLine>
                 <Remark FlowIsn="18">
@@ -448,6 +460,10 @@
             <ExpSyntax val="{0,1}>0"/>
             <ExpAttribute val="B"/>
           </Expression>
+          <Expression id="11">
+            <ExpSyntax val="{0,1}"/>
+            <ExpAttribute val="N"/>
+          </Expression>
           <Expression id="3">
             <ExpSyntax val="NOT({0,10})"/>
             <ExpAttribute val="B"/>
@@ -478,6 +494,10 @@
           </Expression>
           <Expression id="10">
             <ExpSyntax val="OSEnvGet(Trim({0,4}))"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="12">
+            <ExpSyntax val="''"/>
             <ExpAttribute val="A"/>
           </Expression>
         </Expressions>
