@@ -7,6 +7,29 @@
 
   <RIAExecutionPlatform Val="Desktop"/>
 
+  <Breakpoints>
+    <DelAll/>
+    <Breakpoint>
+      <Condition Val=""/>
+      <Location Val="Download&amp;PrintPdf"/>
+      <HandlerId Val="3"/>
+      <OperationId Val="4"/>
+      <LineIndex Val="3"/>
+      <HandlerDesc Val="Record Suffix"/>
+      <Count Val="0"/>
+      <Enable Val="1"/>
+      <Component1 Val="188838788"/>
+      <Component2 Val="54927"/>
+      <Component3 Val="17977"/>
+      <Component4 Val="1584099755"/>
+      <Component5 Val="-106674104"/>
+      <Prog Val="8"/>
+      <Subtask Val="1"/>
+      <Type Val="1"/>
+      <Operation Val="4"/>
+    </Breakpoint>
+  </Breakpoints>
+
   <WatchListItems>
     <RestData/>
   </WatchListItems>

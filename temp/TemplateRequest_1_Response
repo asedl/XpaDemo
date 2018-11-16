@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="pingback" href="https://www.magicsoftware.com/xmlrpc.php" />
+	<title>Magic Software | Systems Integration Platform, Business Automation</title>
+<link rel="alternate" hreflang="en" href="https://www.magicsoftware.com" />
+<link rel="alternate" hreflang="de" href="https://www.magicsoftware.com/de/" />
+<link rel="alternate" hreflang="hu" href="https://www.magicsoftware.com/hu/" />
+<link rel="alternate" hreflang="ja" href="https://www.magicsoftware.com/ja/" />
+<link rel="alternate" hreflang="pt-br" href="https://www.magicsoftware.com/pt-br/" />
+<link rel="alternate" hreflang="es" href="https://www.magicsoftware.com/es/" />
+
+<!-- This site is optimized with the Yoast SEO plugin v9.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Magic Software offers centralized integration platforms that allow you to quickly connect your SaaS enterprise applications and automate business processes."/>
+<link rel="canonical" href="https://www.magicsoftware.com/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Magic Software | Systems Integration Platform, Business Automation" />
+<meta property="og:description" content="Magic Software offers centralized integration platforms that allow you to quickly connect your SaaS enterprise applications and automate business processes." />
+<meta property="og:url" content="https://www.magicsoftware.com/" />
+<meta property="og:site_name" content="Magic Software" />
+<meta property="og:image" content="https://www.magicsoftware.com/wp-content/uploads/2018/06/homepage-share.jpg" />
+<meta property="og:image:secure_url" content="https://www.magicsoftware.com/wp-content/uploads/2018/06/homepage-share.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="Magic Software offers centralized integration platforms that allow you to quickly connect your SaaS enterprise applications and automate business processes." />
+<meta name="twitter:title" content="Magic Software | Systems Integration Platform, Business Automation" />
+<meta name="twitter:site" content="@MagicSoftware" />
+<meta name="twitter:image" content="https://www.magicsoftware.com/wp-content/uploads/2018/06/homepage-share.jpg" />
+<meta name="twitter:creator" content="@MagicSoftware" />
+<script type='application/ld+json'>{"@context":"https:\/\/schema.org","@type":"WebSite","@id":"#website","url":"https:\/\/www.magicsoftware.com\/","name":"Magic Software","potentialAction":{"@type":"SearchAction","target":"https:\/\/www.magicsoftware.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<script type='application/ld+json'>{"@context":"https:\/\/schema.org","@type":"Organization","url":"https:\/\/www.magicsoftware.com\/","sameAs":["https:\/\/www.facebook.com\/MagicSoftwareEnterprises\/","https:\/\/www.linkedin.com\/company\/magic-software-enterprises\/","https:\/\/twitter.com\/MagicSoftware"],"@id":"https:\/\/www.magicsoftware.com\/#organization","name":"Magic Software Enterprises","logo":"https:\/\/www.magicsoftware.com\/wp-content\/uploads\/2018\/05\/magic-logo-300.png"}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//www.magicsoftware.com' />
+<link rel='dns-prefetch' href='//munchkin.marketo.net' />
+<link rel='dns-prefetch' href='//app-sj01.marketo.com' />
+<link rel='dns-prefetch' href='//a.optmnstr.com' />
+<link rel='dns-prefetch' href='//use.typekit.net' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//use.fontawesome.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Magic Software &raquo; Feed" href="https://www.magicsoftware.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Magic Software &raquo; Comments Feed" href="https://www.magicsoftware.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Magic Software &raquo; Homepage Comments Feed" href="https://www.magicsoftware.com/home-page/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.magicsoftware.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.8"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='bootstrap-style-css'  href='https://www.magicsoftware.com/wp-content/themes/magic/css/bootstrap.min.css?ver=4.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-datepicker-css'  href='https://www.magicsoftware.com/wp-content/themes/magic/css/bootstrap-datepicker.standalone.min.css?ver=4.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='typekit-style-css'  href='https://use.typekit.net/art5eog.css?ver=4.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='google-fonts-css'  href='https://fonts.googleapis.com/css?family=Lato%7COpen+Sans&#038;ver=4.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='fontawesome-css'  href='https://use.fontawesome.com/releases/v5.0.6/css/all.css?ver=4.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='main-style-css'  href='https://www.magicsoftware.com/wp-content/themes/magic/style.css?ver=4.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='wpml-legacy-horizontal-list-0-css'  href='//www.magicsoftware.com/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/legacy-list-horizontal/style.css?ver=1' type='text/css' media='all' />
+<style id='wpml-legacy-horizontal-list-0-inline-css' type='text/css'>
+.wpml-ls-statics-footer a:hover,.wpml-ls-statics-footer a:focus {color:#a3a3a3;}
+</style>
+<script type='text/javascript' src='https://www.magicsoftware.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://www.magicsoftware.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' data-cfasync="false" id="omapi-script" async="async" src='https://a.optmnstr.com/app/js/api.min.js'></script>
+<link rel='https://api.w.org/' href='https://www.magicsoftware.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.magicsoftware.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.magicsoftware.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.9.8" />
+<link rel='shortlink' href='https://www.magicsoftware.com/' />
+<link rel="alternate" type="application/json+oembed" href="https://www.magicsoftware.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.magicsoftware.com%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.magicsoftware.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.magicsoftware.com%2F&#038;format=xml" />
+<meta name="generator" content="WPML ver:4.0.8 stt:1,3,23,28,43,2;" />
+<link rel="icon" href="https://www.magicsoftware.com/wp-content/uploads/2018/05/cropped-magic-logo-512-sq-72-01-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://www.magicsoftware.com/wp-content/uploads/2018/05/cropped-magic-logo-512-sq-72-01-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://www.magicsoftware.com/wp-content/uploads/2018/05/cropped-magic-logo-512-sq-72-01-180x180.png" />
+<meta name="msapplication-TileImage" content="https://www.magicsoftware.com/wp-content/uploads/2018/05/cropped-magic-logo-512-sq-72-01-270x270.png" />
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-P9MVFP');</script> 
+</head>
+
+<body class="home page-template-default page page-id-2 lang-en">
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P9MVFP"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+			<div class="home-header" style="background:url(https://www.magicsoftware.com/wp-content/uploads/2018/08/home-top-banner.jpg)">
+				<section class="content-section video-section">
+			<div class="pattern-overlay">
+				<!-- <a id="bgndVideo" class="player" data-property="{videoURL:'https://youtu.be/9YGL3amPmyc',containment:'.video-section', quality:'large', autoPlay:true, mute:true, opacity:1}"></a> -->
+
+			</div>
+			<video preload="preload" id="video" autoplay="autoplay" loop="loop" muted>
+				<source src="https://www.magicsoftware.com/wp-content/themes/magic/videos/animation-for-web.webm" type="video/webm"></source>
+				<source src="https://www.magicsoftware.com/wp-content/themes/magic/videos/animation-for-web.ogv" type="video/ogv"></source>
+				<source src="https://www.magicsoftware.com/wp-content/themes/magic/videos/animation-for-web.mp4" type="video/mp4"></source>
+			</video> 
+		</section>
+				<div class="header">
+			<div class="main-header clearfix">
+				<div class="col-md-2">
+					<div class="log-wrap text-center">
+												<div class="logo">
+							<a href="https://www.magicsoftware.com">
+								<img src="https://www.magicsoftware.com/wp-content/uploads/2018/10/magic-white-logo-60x71-2.svg" alt="Magic Software">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-10">
+					<div class="header-nav-wrap">
+						<div class="header-nav">
+							<div class="nav-bar">
+								<ul class="nav">
+		<li class="nav-item dropdown open megamenu">
+		<span class="nav-link dropdown-toggle" data-toggle="dropdown">
+			<span>Integrate</span><span class="caret"></span>
+		</span>
+		<div class="dropdown-menu">
+			<ul class="list-unstyled col-lg-3 col-sm-6" role="menu">
+				<li id="menu-item-6837" class="mega-menu-title menu-item menu-item-type-post_type menu-item-object-page menu-item-6837"><a href="https://www.magicsoftware.com/integration-platform/">Products</a></li>
+<li id="menu-item-299" class="menu-item menu-item-type-post_type menu-item-object-products menu-item-299"><a href="https://www.magicsoftware.com/integration-platform/xpi/">Magic xpi Integration Platform</a></li>
+<li id="menu-item-13885" class="menu-item menu-item-type-post_type menu-item-object-products menu-item-13885"><a href="https://www.magicsoftware.com/integration-platform/xpc/">Magic xpc iPaaS</a></li>
+<li id="menu-item-16065" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16065"><a href="https://www.magicsoftware.com/success-stories/?products-category=resources-magic-xpi">Success Stories</a></li>
+			</ul>
+			<ul class="list-unstyled col-lg-3 col-sm-6" role="menu">
+				<li id="menu-item-6838" class="mega-menu-title menu-item menu-item-type-post_type menu-item-object-page menu-item-6838"><a href="https://www.magicsoftware.com/integration-solutions/">Solutions</a></li>
+<li id="menu-item-307" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-307"><a href="https://www.magicsoftware.com/integration-solutions/edi-data-integration/">Data Integration (EDI/ B2B)</a></li>
+<li id="menu-item-306" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-306"><a href="https://www.magicsoftware.com/integration-solutions/middleware/">Middleware</a></li>
+<li id="menu-item-316" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-316"><a href="https://www.magicsoftware.com/integration-solutions/application-integration/">Application Integration (EAI)</a></li>
+<li id="menu-item-315" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-315"><a href="https://www.magicsoftware.com/integration-solutions/cloud-integration/">Cloud Integration</a></li>
+<li id="menu-item-314" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-314"><a href="https://www.magicsoftware.com/integration-solutions/crm-integration/">CRM Integration</a></li>
+			</ul>
+			<ul class="list-unstyled col-lg-3 col-sm-6" role="menu">
+				<li id="menu-item-6839" class="mega-menu-title menu-item menu-item-type-post_type menu-item-object-page menu-item-6839"><a href="https://www.magicsoftware.com/integration-solutions/">By IT Systems</a></li>
+<li id="menu-item-780" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-780"><a href="https://www.magicsoftware.com/integration-solutions/microsoft-dynamics-365/">Microsoft Dynamics 365 Integration</a></li>
+<li id="menu-item-866" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-866"><a href="https://www.magicsoftware.com/integration-solutions/microsoft-sharepoint/">Microsoft SharePoint Integration</a></li>
+<li id="menu-item-867" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-867"><a href="https://www.magicsoftware.com/integration-solutions/oracle-agile-plm/">Oracle Agile PLM Integration</a></li>
+<li id="menu-item-12107" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12107"><a href="https://www.magicsoftware.com/integration-solutions/oracle-cx/">Oracle CX Cloud Integration</a></li>
+<li id="menu-item-1135" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1135"><a href="https://www.magicsoftware.com/integration-solutions/oracle-ebs/">Oracle EBS Integration</a></li>
+<li id="menu-item-12109" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12109"><a href="https://www.magicsoftware.com/integration-solutions/oracle-jd-edwards/">Oracle JD Edwards Integration</a></li>
+<li id="menu-item-1163" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1163"><a href="https://www.magicsoftware.com/integration-solutions/salesforce/">Salesforce Integration</a></li>
+<li id="menu-item-1162" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1162"><a href="https://www.magicsoftware.com/integration-solutions/sap-business-one/">SAP Business One Integration</a></li>
+<li id="menu-item-1161" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1161"><a href="https://www.magicsoftware.com/integration-solutions/sap-erp/">SAP ERP Integration</a></li>
+<li id="menu-item-1160" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1160"><a href="https://www.magicsoftware.com/integration-solutions/sugar-crm/">SugarCRM Integration</a></li>
+<li id="menu-item-12108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12108"><a href="https://www.magicsoftware.com/integration-solutions/syspro/">SYSPRO Integration</a></li>
+			</ul>
+			<ul class="list-unstyled col-lg-3 col-sm-6" role="menu">
+				<li id="menu-item-6840" class="mega-menu-title menu-item menu-item-type-post_type menu-item-object-page menu-item-6840"><a href="https://www.magicsoftware.com/integration-solutions/">By Industries</a></li>
+<li id="menu-item-835" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-835"><a href="https://www.magicsoftware.com/integration-solutions/finance/">Finance</a></li>
+<li id="menu-item-828" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-828"><a href="https://www.magicsoftware.com/integration-solutions/healthcare/">Healthcare</a></li>
+<li id="menu-item-811" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-811"><a href="https://www.magicsoftware.com/integration-solutions/manufacturing/">Manufacturing</a></li>
+<li id="menu-item-812" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-812"><a href="https://www.magicsoftware.com/integration-solutions/retail/">Retail</a></li>
+			</ul>
+		</div>
+	</li>
+				<li class="nav-item dropdown">
+				<span class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">
+					<span>Develop</span>
+				</span>
+				<div class="dropdown-menu">
+					<ul class="list-unstyled" role="menu">
+						<li id="menu-item-1210" class="menu-item menu-item-type-post_type menu-item-object-app-dev-platform menu-item-1210"><a href="https://www.magicsoftware.com/app-development-platform/xpa/">Magic xpa Low-Code Platform</a></li>
+<li id="menu-item-12111" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12111"><a href="https://www.magicsoftware.com/magic-xpa-web-application-framework/">Magic xpa’s Web Application Framework</a></li>
+<li id="menu-item-1846" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1846"><a href="https://www.magicsoftware.com/success-stories/">Success Stories</a></li>
+					</ul>
+				</div>
+			</li>
+						<li class="nav-item dropdown megamenu">
+				<span class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">
+					<span>Company</span>
+				</span>
+				<div class="dropdown-menu">
+					<ul class="list-unstyled col-lg-3 col-sm-6" role="menu">
+						<li id="menu-item-11502" class="mega-menu-title menu-item menu-item-type-post_type menu-item-object-page menu-item-11502"><a href="https://www.magicsoftware.com/about-us/">About us</a></li>
+<li id="menu-item-11503" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11503"><a href="https://www.magicsoftware.com/about-us/">Overview</a></li>
+<li id="menu-item-380" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-380"><a href="https://www.magicsoftware.com/about-us/leadership/">Leadership</a></li>
+<li id="menu-item-447" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-447"><a href="https://www.magicsoftware.com/about-us/offices-distributors/">Worldwide Offices</a></li>
+<li id="menu-item-15427" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15427"><a href="https://www.magicsoftware.com/about-us/careers/">Careers</a></li>
+<li id="menu-item-12164" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12164"><a href="https://www.magicsoftware.com/privacy-policy/">Privacy Policy</a></li>
+					</ul>
+					<ul class="list-unstyled col-lg-3 col-sm-6" role="menu">
+						<li id="menu-item-6887" class="mega-menu-title menu-item menu-item-type-post_type menu-item-object-page menu-item-6887"><a href="https://www.magicsoftware.com/news/">News &#038; Events</a></li>
+<li id="menu-item-661" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-661"><a href="https://www.magicsoftware.com/press-releases/">Press Releases</a></li>
+<li id="menu-item-692" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-692"><a href="https://www.magicsoftware.com/media/">Media Coverage</a></li>
+<li id="menu-item-376" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-376"><a href="https://www.magicsoftware.com/events/">Events</a></li>
+<li id="menu-item-518" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-518"><a href="https://www.magicsoftware.com/magic-blog/">Magic Blog</a></li>
+					</ul>
+					<ul class="list-unstyled col-lg-3 col-sm-6" role="menu">
+						<li id="menu-item-6902" class="mega-menu-title menu-item menu-item-type-post_type menu-item-object-page menu-item-6902"><a href="https://www.magicsoftware.com/contact/">Talk To Us</a></li>
+<li id="menu-item-1856" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1856"><a href="https://www.magicsoftware.com/contact/message/">Contact Us</a></li>
+<li id="menu-item-1861" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1861"><a href="https://www.magicsoftware.com/contact/schedule-demo/">Book Your Demo Now</a></li>
+<li id="menu-item-8878" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8878"><a href="https://www.magicsoftware.com/contact/request-trial/">Request a Trial</a></li>
+<li id="menu-item-19078" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19078"><a href="https://www.magicsoftware.com/contact/partner/">Become a Partner</a></li>
+					</ul>
+					<ul class="list-unstyled col-lg-3 col-sm-6" role="menu">
+						<li id="menu-item-6903" class="mega-menu-title menu-item menu-item-type-post_type menu-item-object-page menu-item-6903"><a href="https://www.magicsoftware.com/investors/">Investor Relations</a></li>
+<li id="menu-item-1659" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1659"><a href="https://www.magicsoftware.com/investors/">Investors Overview</a></li>
+<li id="menu-item-1661" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1661"><a href="https://www.magicsoftware.com/investors/quarterly-results/">Quarterly Results</a></li>
+<li id="menu-item-1660" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1660"><a href="https://www.magicsoftware.com/investors/annual-reports/">Annual Reports</a></li>
+<li id="menu-item-11454" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11454"><a href="https://www.magicsoftware.com/investors/investor-news/">Investor News</a></li>
+					</ul>
+				</div>
+			</li>
+			<li class="nav-item dropdown">
+		<span class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">
+			<span>Resources</span>
+		</span>
+		<div class="dropdown-menu">
+			<ul class="list-unstyled" role="menu">
+				<li id="menu-item-3385" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3385"><a href="https://www.magicsoftware.com/resource-center/">Resource Center</a></li>
+<li id="menu-item-3386" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3386"><a href="https://www.magicsoftware.com/success-stories/">Success Stories</a></li>
+<li id="menu-item-12155" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12155"><a href="https://www.magicsoftware.com/resource-center/?resource-type=self-paced-training">Self-Paced Training</a></li>
+			</ul>
+		</div>
+	</li>
+	<li class="nav-item dropdown">
+		<span class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">
+			<span>Support</span>
+		</span>
+		<div class="dropdown-menu">
+			<ul class="list-unstyled" role="menu">
+				<li id="menu-item-1094" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1094"><a href="https://www.magicsoftware.com/magic-support-center/">Magic Support Center</a></li>
+<li id="menu-item-17965" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17965"><a href="https://www.magicsoftware.com/magic-support-center/product-updates/">Product Releases</a></li>
+<li id="menu-item-7877" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7877"><a href="https://www.magicsoftware.com/training/">Training</a></li>
+<li id="menu-item-4765" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4765"><a href="https://www.magicsoftware.com/magic-support-center/product-lifecycle-policy/">Product Lifecycle Policy</a></li>
+<li id="menu-item-2225" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2225"><a href="https://www.magicsoftware.com/professional-services/">Professional Services</a></li>
+<li id="menu-item-1116" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1116"><a target="_blank" href="http://kb.magicsoftware.com/?utm_source=website&#038;utm_medium=menu">Magic Knowledge Center</a></li>
+			</ul>
+		</div>
+	</li>
+	<li class="nav-item dropdown">
+		<span class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">
+			<span>Partners</span>
+		</span>
+		<div class="dropdown-menu">
+			<ul class="list-unstyled" role="menu">
+				<li id="menu-item-5420" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5420"><a href="https://www.magicsoftware.com/integration-partner-program/">Integration Partner Program</a></li>
+<li id="menu-item-1867" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1867"><a target="_blank" href="http://info.magicsoftware.com/integration-partner-program.html?utm_source=website&#038;utm_medium=cta-strip">Become a Partner</a></li>
+<li id="menu-item-5208" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5208"><a target="_blank" href="https://partner.magicsoftware.com/">Partner Login</a></li>
+			</ul>
+		</div>
+	</li>
+</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-5 text-center header-right-panel-bh">
+					<div class="uper-right-wrap">
+						<div class="uper-right">
+							<a href="https://www.magicsoftware.com/contact/message/" class="request-demo-btn">
+								Contact Us							</a>
+							<span class="search-icon search-top-style search-home">
+								<span class="search-icon-svg"></span>
+								<div class="search-top-style-box">
+									<span>Search the Websites</span>
+									<form id="searchform" method="get" action="https://www.magicsoftware.com">
+										<input class="search-input" name="s" id="s" type="search" placeholder="" />
+										<input class="submit-btn" type="Submit" value="Search">
+									</form>
+								</div>
+							</span>
+
+														<div class="dropdown lang-btn">
+																<button type="button" class=" dropdown-toggle lang-btn-img" data-toggle="dropdown">
+									<img class="lag-img" src="https://www.magicsoftware.com/wp-content/themes/magic/images/language-icon_03.png">EN								</button>
+								<div class="dropdown-menu">
+																				<a class="dropdown-item" href="https://www.magicsoftware.com/de/">
+												Deutsch											</a>
+																					<a class="dropdown-item" href="https://www.magicsoftware.com/hu/">
+												Magyar											</a>
+																					<a class="dropdown-item" href="https://www.magicsoftware.com/ja/">
+												日本語											</a>
+																					<a class="dropdown-item" href="https://www.magicsoftware.com/pt-br/">
+												Português											</a>
+																					<a class="dropdown-item" href="https://www.magicsoftware.com/es/">
+												Español											</a>
+																		</div>
+							</div>
+												</div>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="container overvid">
+			<div class="section-1 row">
+				<div class="heading-section text-center">
+					<h1>Faster Integration. Workflow Automation.</h1>
+					<h2>Digital Transformation.</h2>
+									</div>
+				<div class="hm-banner-btn d-flex justify-content-center">
+																<a href="https://www.magicsoftware.com/integration-platform/xpi/">Integrate with Magic xpi</a>
+									</div>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+
+	<section class="section-2 intigrad-page-2-col home-page-intigrated-section2" id="sid1" data-name="section-home-3-blocks">
+	<div class="container">
+		<div class="colon-3-inner-wrap block-3-wrapper">
+			<div class="row">
+										<div class="col-md-4 text-center">
+							<div class="card">
+								<div class="card-block">
+									<p class="card-subtitle">
+										White Paper									</p>
+									<p class="card-title">
+										Get It Right: Salesforce and SAP Integration									</p>
+									<p class="card-text">
+										Learn how to quickly and easily integrate Salesforce and SAP									</p>
+								</div>
+								                                <a href="https://www.magicsoftware.com/campaigns/salesforce-sap-integration/?utm_source=website&utm_medium=homepage&utm_campaign=HQ_18_GEN_Get%20It%20Right:%20Salesforce%20and%20SAP%20Integration" class="btn-3-blocks" target="_blank">
+                                    <span class="fl-link"></span>
+                                    <span>
+                                    Download Now                                    </span>
+                                </a>
+							</div>
+						</div>
+											<div class="col-md-4 text-center">
+							<div class="card">
+								<div class="card-block">
+									<p class="card-subtitle">
+										White Paper									</p>
+									<p class="card-title">
+										Why Hybrid Integration Provides the Best of Two Worlds									</p>
+									<p class="card-text">
+										What is hybrid integration and why do you need it?									</p>
+								</div>
+								                                <a href=" https://www.magicsoftware.com/campaigns/why-hybrid-integration/?utm_source=website&utm_medium=homepage&utm_campaign=HQ_18_GEN_Why-Hybrid-Integration-Provides-the-Best-of-Two-Worlds" class="btn-3-blocks" target="_blank">
+                                    <span class="fl-link"></span>
+                                    <span>
+                                    Download Now                                    </span>
+                                </a>
+							</div>
+						</div>
+											<div class="col-md-4 text-center">
+							<div class="card">
+								<div class="card-block">
+									<p class="card-subtitle">
+										White Paper									</p>
+									<p class="card-title">
+										PLM Planning: Requirements for an Integration Platform									</p>
+									<p class="card-text">
+										Find out what is the impact of PLM integration on enterprise systems									</p>
+								</div>
+								                                <a href="http://info.magicsoftware.com/HQ_18_GEN_PLM_Planning_Determining_the_Requirements_for_an_Integration_Platform_EN_LP.html?utm_source=website&utm_medium=homepage&utm_campaign=HQ%D6%B9_18%D6%B9%D6%B9_GEN%D6%B9%D6%B9_PLM_Planning_Determining_the_Requirements_for_an_Integration_Plat" class="btn-3-blocks" target="_blank">
+                                    <span class="fl-link"></span>
+                                    <span>
+                                    Download Now                                    </span>
+                                </a>
+							</div>
+						</div>
+									<div class="clearfix"></div>
+			</div>
+			<div class="col-12 text-center ssp-link">
+				<a href="https://www.magicsoftware.com/success-stories/">
+					<img src="https://www.magicsoftware.com/wp-content/themes/magic/images/svg/hand.svg" /> Check our Success Stories				</a>
+			</div>
+		</div>
+        		<div class="section-1-partner text-center">
+            <h2 class="text-center hm-brands-title">Over 35 years of expertise and <br/>
+<strong>trusted by thousands of leading companies</strong></h2>
+			<div class="content navbar">
+				<ul class="nav dislay-center justify-content-center">
+											<li class="nav-item">
+														<a class="nav-link" href="https://www.magicsoftware.com/success-story/coca-cola/">
+															<img src="https://www.magicsoftware.com/wp-content/uploads/2018/10/logo-color_coca-cola.svg" alt="">
+														</a>
+													</li>
+											<li class="nav-item">
+														<a class="nav-link" href="https://www.magicsoftware.com/success-story/christie/">
+															<img src="https://www.magicsoftware.com/wp-content/uploads/2018/10/logo-color_christie.svg" alt="">
+														</a>
+													</li>
+											<li class="nav-item">
+														<a class="nav-link" href="https://www.magicsoftware.com/success-story/db-schenker/">
+															<img src="https://www.magicsoftware.com/wp-content/uploads/2018/10/logo-color_db-schenker.svg" alt="">
+														</a>
+													</li>
+											<li class="nav-item">
+															<img src="https://www.magicsoftware.com/wp-content/uploads/2018/10/logo-color_thermo-fischer.svg" alt="">
+													</li>
+											<li class="nav-item">
+														<a class="nav-link" href="https://www.magicsoftware.com/success-story/sennheiser/">
+															<img src="https://www.magicsoftware.com/wp-content/uploads/2018/10/logo-color_sennheiser.svg" alt="">
+														</a>
+													</li>
+											<li class="nav-item">
+															<img src="https://www.magicsoftware.com/wp-content/uploads/2018/10/logo-color_sony-dadc.svg" alt="">
+													</li>
+											<li class="nav-item">
+															<img src="https://www.magicsoftware.com/wp-content/uploads/2018/10/logo-color_autoscout.svg" alt="">
+													</li>
+											<li class="nav-item">
+														<a class="nav-link" href="https://www.magicsoftware.com/success-story/assa-abloy/">
+															<img src="https://www.magicsoftware.com/wp-content/uploads/2018/10/logo-color_assa-abloy.svg" alt="">
+														</a>
+													</li>
+											<li class="nav-item">
+															<img src="https://www.magicsoftware.com/wp-content/uploads/2018/10/logo-color_aerzen.svg" alt="">
+													</li>
+											<li class="nav-item">
+															<img src="https://www.magicsoftware.com/wp-content/uploads/2018/10/logo-color_leumi.svg" alt="">
+													</li>
+											<li class="nav-item">
+															<img src="https://www.magicsoftware.com/wp-content/uploads/2018/10/logo-color_continental.svg" alt="">
+													</li>
+									</ul>
+			</div>
+		</div>
+			</div>
+	<div class="clearfix"></div>
+</section>
+<section class="Why-Magic" id="sid2" data-name="section-home-4-blocks">
+	<div class="container">
+		<div class="row">
+			<div class="why-section-hed col-md-12 text-center">
+				<span>Why Magic?</span>
+			</div>
+			<div class="col-md-6 why-card-control">
+				<div class="card-block text-center why-card">
+										<img src="https://www.magicsoftware.com/wp-content/uploads/2018/05/Code-Free.svg" alt='' />
+					<h2>Code Free</h2>
+				</div>
+				<div class="why-card-hover text-center">
+					<span>Code Free</span>
+					<p>Our no code, low maintenance platforms let you streamline business processes, whether you’re an integration specialist or a business analyst.</p>
+										<a href="https://www.magicsoftware.com/integration-platform/" class="home-page-hover-effect-btn">
+						Check Out Our Integration Platforms					</a>
+									</div>
+				<span class="why-card-juint-right"><img src="https://www.magicsoftware.com/wp-content/themes/magic/images/juinter-new_03.png" /></span> <span class="why-card-juint-bottom"><img src="https://www.magicsoftware.com/wp-content/themes/magic/images/juinter-new_03-down.png" /></span>
+			</div>
+			<div class="col-md-6 why-card-control">
+				<div class="card-block text-center why-card">
+										<img src="https://www.magicsoftware.com/wp-content/uploads/2018/05/All-Environments.svg" alt='All Environments Icon' />
+					<h2>All Environments</h2>
+				</div>
+				<div class="why-card-hover text-center">
+					<span>All Environments</span>
+					<p>Developed to meet the needs of agile businesses, our solutions can integrate all your apps, databases, APIs and more across the cloud, on-premise or both.</p>
+										<a href="https://www.magicsoftware.com/integration-solutions/" class="home-page-hover-effect-btn">
+						View Our Integration Solutions					</a>
+									</div>
+				<span class="why-card-juint-bottom"><img src="https://www.magicsoftware.com/wp-content/themes/magic/images/juinter-new_03-down.png" /></span>
+			</div>
+			<div class="col-md-6 why-card-control">
+				<div class="card-block text-center why-card">
+										<img src="https://www.magicsoftware.com/wp-content/uploads/2018/05/Integration-Hub.svg" alt='' />
+					<h2>Integration Hub</h2>
+				</div>
+				<div class="why-card-hover text-center">
+					<span>Integration Hub</span>
+					<p>With our centralized platform and 100+ components, including certified connectors for Salesforce, SAP and many others, the sky’s the limit when it comes to addressing your integration needs.</p>
+										<a href="https://www.magicsoftware.com/integration-platform/" class="home-page-hover-effect-btn">
+						Check Out Our Integration Platforms					</a>
+									</div>
+				<span class="why-card-juint-right"><img src="https://www.magicsoftware.com/wp-content/themes/magic/images/juinter-new_03.png" /></span> <span class="why-card-juint-bottom"></span>
+			</div>
+			<div class="col-md-6 why-card-control">
+				<div class="card-block text-center why-card">
+										<img src="https://www.magicsoftware.com/wp-content/uploads/2018/05/Global-Expertise.svg" alt='' />
+					<h2>Global Expertise</h2>
+				</div>
+				<div class="why-card-hover text-center">
+					<span>Global Expertise</span>
+					<p>Our Professional Services team has over 30 years of experience and provides their extensive knowledge to help you manage your end-to-end integration projects.</p>
+										<a href="https://www.magicsoftware.com/about-us/" class="home-page-hover-effect-btn">
+						Learn More About Magic Software					</a>
+									</div>
+			</div>
+		</div>
+	</div>
+	<div class="clearfix"></div>
+</section>
+<section class="selected-partner xpa-success-story" id="sid3" data-name="section-home-ss">
+	<div class="contain">
+		<div class="row">
+			<!-- <div class="selected-section-hed col-md-12 text-center">
+				<h2>Selected Partners & Customers</h2>
+			</div>
+			<div class="partner-customer col-md-12 text-center">
+				<div class="customer-wrap text-center col-md-12">
+					<ul class="nav customer-nav">
+															<li class="nav-item">
+																				<a class="nav-link" href="https://www.magicsoftware.com/success-stories/coca-cola/"><img src="https://www.magicsoftware.com/wp-content/uploads/2018/07/coca-cola-grey-19.png" alt="" /></a>
+									</li>
+																	<li class="nav-item">
+																				<a class="nav-link" href="https://www.magicsoftware.com/success-stories/milbon/"><img src="https://www.magicsoftware.com/wp-content/uploads/2018/07/milbon-grey-21.png" alt="" /></a>
+									</li>
+																	<li class="nav-item">
+																				<a class="nav-link" href=" https://www.magicsoftware.com/success-story/sennheiser/"><img src="https://www.magicsoftware.com/wp-content/uploads/2018/07/sennheiser-grey-20.png" alt="" /></a>
+									</li>
+																	<li class="nav-item">
+																				<a class="nav-link" href="https://www.magicsoftware.com/success-stories/assa-abloy/"><img src="https://www.magicsoftware.com/wp-content/uploads/2018/07/assa-abloy-grey-25.png" alt="" /></a>
+									</li>
+																	<li class="nav-item">
+																				<a class="nav-link" href="https://www.magicsoftware.com/success-stories/westmor/"><img src="https://www.magicsoftware.com/wp-content/uploads/2018/07/westmor-grey-22.png" alt="" /></a>
+									</li>
+																	<li class="nav-item">
+																				<a class="nav-link" href="https://www.magicsoftware.com/success-stories/koos-manufacturing/"><img src="https://www.magicsoftware.com/wp-content/uploads/2018/07/ag-grey-28.png" alt="" /></a>
+									</li>
+													</ul>
+				</div>
+			</div> -->
+			<div class="container">
+				<div class="sucess-story col-md-12">
+					<div class="selected-section-hed success-heading col-md-12 text-center">
+						<span>Success Stories</span>
+											</div>
+					<div class="sucess-story-card">
+													<div class="col-md-4">
+								<div class="card mb-4 box-shadow success-story-card">
+																		<img class="card-img-top" src="https://www.magicsoftware.com/wp-content/uploads/2018/06/coca-cola-thumb.jpg" alt="">
+									<div class="card-body">
+										<div class="card-body-wrap">
+											<span>
+												Coca-Cola Sorocaba<small class="sucess-card-head-liner"></small>
+											</span>
+											<h5 class="card-text card-frnt-text">
+												Coca-Cola Sorocaba Increases Control Over Production with Integration Project Based on Magic xpi											</h5>
+											<a href="https://www.magicsoftware.com/success-story/coca-cola/" class="readmore-btn btn btn-primary btn-lg">
+												Read Story											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+														<div class="col-md-4">
+								<div class="card mb-4 box-shadow success-story-card">
+																		<img class="card-img-top" src="https://www.magicsoftware.com/wp-content/uploads/2018/06/christie-thumb-29.jpg" alt="">
+									<div class="card-body">
+										<div class="card-body-wrap">
+											<span>
+												Christie Digital<small class="sucess-card-head-liner"></small>
+											</span>
+											<h5 class="card-text card-frnt-text">
+												Christie Digital Sharpens Multiple Business Processes with Magic xpi Integration Platform											</h5>
+											<a href="https://www.magicsoftware.com/success-story/christie/" class="readmore-btn btn btn-primary btn-lg">
+												Read Story											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+														<div class="col-md-4">
+								<div class="card mb-4 box-shadow success-story-card">
+																		<img class="card-img-top" src="https://www.magicsoftware.com/wp-content/uploads/2018/05/success-card-img_14.png" alt="">
+									<div class="card-body">
+										<div class="card-body-wrap">
+											<span>
+												Sennheiser<small class="sucess-card-head-liner"></small>
+											</span>
+											<h5 class="card-text card-frnt-text">
+												Sennheiser Adopts a Sound Approach to Systems Integration											</h5>
+											<a href="https://www.magicsoftware.com/success-story/sennheiser/" class="readmore-btn btn btn-primary btn-lg">
+												Read Story											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+													<div class="clearfix"></div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="clearfix"></div>
+</section>
+<div class="clearfix"></div>
+<section class="section-home-events-news" id="sid4" data-name="section-home-events-news">
+	<div class="container-fluid">
+		<div class="row">
+                                <div class="col-xl-6 col-12 ev-news-wrap" style="background:url('https://www.magicsoftware.com/wp-content/uploads/2018/08/sugar-pic-.jpg')no-repeat scroll center center / cover;">
+                        <div class="overlay"></div>
+                        <div>
+                            <div class="block-ev-news">
+                                <h4>Latest Event</h4>                          
+                                                                <div class="event-news-box">
+                                    <p>October 10, 2018</p>
+                                    <h2>
+                                        <a href="https://www.magicsoftware.com/events/sugarcon-2018/">
+                                            Sugarcon<br>2018                                        </a>
+                                    </h2>
+                                                                        <p class="event-address">3707 S Las Vegas Blvd Las Vegas, NV 89109, United States</p>
+                                    <a class="btn-frnt-page" href="https://www.magicsoftware.com/events/">
+                                        Explore<img class="aero-event" src="https://www.magicsoftware.com/wp-content/themes/magic/images/svg/white-arrow.svg" alt="aero" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="col-xl-6 col-12 ev-news-wrap" style="background-image:url('');">
+                <div>
+                    <div class="block-ev-news">
+                        <h4>Recent News</h4>
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                                                    <div class="event-news-box carousel-item active">
+                                        <p>November 13, 2018</p>
+                                        <a href="https://www.magicsoftware.com/press-release/magic-delivers-record-breaking-revenues-of-72-million-for-the-third-quarter-of-2018-with-10-year-over-year-growth/">
+                                            <h3>Magic Delivers Record-Breaking Revenues of $72 Million for the Third Quarter of 2018 with 10% Year over Year Growth</h3>
+                                        </a>
+                                        <p></p>
+                                        <a class="btn-frnt-page" href="https://www.magicsoftware.com/press-releases/">
+                                            Explore<img class="aero-event" src="https://www.magicsoftware.com/wp-content/themes/magic/images/svg/white-arrow.svg" alt="aero" />
+                                        </a>
+                                    </div>
+                                                                        <div class="event-news-box carousel-item">
+                                        <p>October 16, 2018</p>
+                                        <a href="https://www.magicsoftware.com/press-release/magic-to-announce-third-quarter-2018-financial-results-on-november-13-2018/">
+                                            <h3>Magic to Announce Third Quarter 2018 Financial Results on November 13, 2018</h3>
+                                        </a>
+                                        <p></p>
+                                        <a class="btn-frnt-page" href="https://www.magicsoftware.com/press-releases/">
+                                            Explore<img class="aero-event" src="https://www.magicsoftware.com/wp-content/themes/magic/images/svg/white-arrow.svg" alt="aero" />
+                                        </a>
+                                    </div>
+                                                                        <div class="event-news-box carousel-item">
+                                        <p>October 10, 2018</p>
+                                        <a href="https://www.magicsoftware.com/press-release/magic-xpi-integration-platform-achieves-sap-certified-integration-with-sap-s-4hana/">
+                                            <h3>Magic xpi Integration Platform Achieves SAP-Certified Integration with SAP S/4HANA®</h3>
+                                        </a>
+                                        <p></p>
+                                        <a class="btn-frnt-page" href="https://www.magicsoftware.com/press-releases/">
+                                            Explore<img class="aero-event" src="https://www.magicsoftware.com/wp-content/themes/magic/images/svg/white-arrow.svg" alt="aero" />
+                                        </a>
+                                    </div>
+                                                                        <div class="event-news-box carousel-item">
+                                        <p>September 5, 2018</p>
+                                        <a href="https://www.magicsoftware.com/press-release/west-coast-reduction-streamlines-payment-processes-with-magic-xpi-integration-platform/">
+                                            <h3>West Coast Reduction Streamlines Payment Processes with Magic xpi Integration Platform</h3>
+                                        </a>
+                                        <p></p>
+                                        <a class="btn-frnt-page" href="https://www.magicsoftware.com/press-releases/">
+                                            Explore<img class="aero-event" src="https://www.magicsoftware.com/wp-content/themes/magic/images/svg/white-arrow.svg" alt="aero" />
+                                        </a>
+                                    </div>
+                                                                        <div class="event-news-box carousel-item">
+                                        <p>August 12, 2018</p>
+                                        <a href="https://www.magicsoftware.com/press-release/magic-reports-strong-momentum-with-record-breaking-operational-results-and-announces-distribution-of-cash-dividend-of-7-6-million-for-the-first-half-of-2018/">
+                                            <h3>Magic Reports Strong Momentum with Record-Breaking Operational Results and Announces Distribution of Cash Dividend of $7.6 Million for the First Half of 2018</h3>
+                                        </a>
+                                        <p></p>
+                                        <a class="btn-frnt-page" href="https://www.magicsoftware.com/press-releases/">
+                                            Explore<img class="aero-event" src="https://www.magicsoftware.com/wp-content/themes/magic/images/svg/white-arrow.svg" alt="aero" />
+                                        </a>
+                                    </div>
+                                                                </div>
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+	</div>
+	<div class="clearfix"></div>
+</section>	<section class="footer-section inner-footer-uper">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="footer-social-section col-md-12">
+				<div class="footer-social col-md-5">
+					<strong>Follow Us</strong>
+					<ul class="nav footer-social-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="https://www.linkedin.com/company/magic-software-enterprises/" target="_blank">
+								<img src="https://www.magicsoftware.com/wp-content/themes/magic/images/linkedin.png" alt="Linkedin" />
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="https://twitter.com/@MagicSoftware" target="_blank">
+								<img src="https://www.magicsoftware.com/wp-content/themes/magic/images/twitter_38.png" alt="twitter" />
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="https://www.facebook.com/MagicSoftware" target="_blank">
+								<img src="https://www.magicsoftware.com/wp-content/themes/magic/images/facebook_41.png" alt="facebook" />
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="https://www.youtube.com/MagicSoftware" target="_blank">
+								<img src="https://www.magicsoftware.com/wp-content/themes/magic/images/youtube_43.png" alt="youtube" />
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-3 footer-social-apx">
+					<strong>Subscribe to Our Newsletter</strong>
+				</div>
+				<div class="col-md-4">
+					<form class="flag newsletter-form" id="mktoForm_8568" data-form-id="8568"></form>
+										<div id="translateMap">{
+						"en-us": {
+																				"FirstName": {
+								"placeholder": "Name"							},																				"LastName": {
+								"placeholder": "Last Name"							},																				"Email": {
+								"placeholder": "Email"							},																				"Company": {
+								"placeholder": "Company"							},																				"Department": {
+								"placeholder": "Departament"							},																				"Country__c": {
+								"placeholder": "Country"							},																				"Phone": {
+								"placeholder": "Phone"							},																				"Requested_quote__c": {
+								"placeholder": "Leave your message"							},																				"Opt_in__c": {
+								"label": "I understand and agree to the \u003Ca href=\u0022https:\/\/www.magicsoftware.com\/privacy-policy\u0022 target=\u0022_blank;\u0022\u003Eprivacy policy\u003C\/a\u003E; I'd like to receive interesting information about integration, automation and business app development."							},																				"": {
+								"submit": "Submit"							},													"thank_you": {
+								"placeholder": "\u003Cp style=\u0022font-size: 35px; padding: 12px 0px; font-weight: bold; text-align: center;\u0022\u003E\u003Cimg class=\u0022wp-image-13388 aligncenter\u0022 src=\u0022https:\/\/www.magicsoftware.com\/wp-content\/uploads\/2018\/08\/animat-checkmark.gif\u0022 alt=\u0022\u0022 width=\u0022121\u0022 height=\u0022121\u0022 \/\u003EThank you!\u003C\/p\u003E\n\u003Cp style=\u0022text-align: center;\u0022\u003EYour form was successfully sent.\u003C\/p\u003E\n\u003Cp style=\u0022text-align: center;\u0022\u003EWe will get back to you soon.\u003C\/p\u003E\n"							}
+												}
+					}
+										</div>
+					<div id="successAndErrorMessages"></div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="footer footer-social-section col-md-12 inner-footer">
+				<div class="col-md-3">
+					<div class="footer-card">
+						<ul>
+							<li id="menu-item-3372" class="bold-menu menu-item menu-item-type-post_type menu-item-object-page menu-item-3372"><a href="https://www.magicsoftware.com/integration-platform/">Integration Platforms</a></li>
+<li id="menu-item-3845" class="menu-item menu-item-type-post_type menu-item-object-products menu-item-3845"><a href="https://www.magicsoftware.com/integration-platform/xpi/">Magic xpi Integration Platform</a></li>
+<li id="menu-item-3846" class="menu-item menu-item-type-post_type menu-item-object-products menu-item-3846"><a href="https://www.magicsoftware.com/integration-platform/xpc/">Magic xpc iPaaS</a></li>
+<li id="menu-item-3847" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3847"><a href="https://www.magicsoftware.com/integration-solutions/">Integration Solutions</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="footer-card">
+						<ul>
+							<li id="menu-item-3375" class="bold-menu menu-item menu-item-type-post_type menu-item-object-app-dev-platform menu-item-3375"><a href="https://www.magicsoftware.com/app-development-platform/xpa/">App Development Platform</a></li>
+<li id="menu-item-3376" class="menu-item menu-item-type-post_type menu-item-object-app-dev-platform menu-item-3376"><a href="https://www.magicsoftware.com/app-development-platform/xpa/">Magic xpa Low-Code Platform</a></li>
+<li id="menu-item-12112" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12112"><a href="https://www.magicsoftware.com/magic-xpa-web-application-framework/">Magic xpa’s Web Application Framework</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="footer-card">
+						<ul>
+							<li id="menu-item-12113" class="bold-menu menu-item menu-item-type-post_type menu-item-object-page menu-item-12113"><a href="https://www.magicsoftware.com/about-us/">About Magic</a></li>
+<li id="menu-item-3378" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3378"><a href="https://www.magicsoftware.com/about-us/leadership/">Leadership</a></li>
+<li id="menu-item-3379" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3379"><a href="https://www.magicsoftware.com/about-us/offices-distributors/">Worldwide Offices</a></li>
+<li id="menu-item-12159" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12159"><a href="https://www.magicsoftware.com/press-releases/">Press Releases</a></li>
+<li id="menu-item-12158" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12158"><a href="https://www.magicsoftware.com/privacy-policy/">Privacy Policy</a></li>
+<li id="menu-item-14023" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14023"><a href="https://www.magicsoftware.com/terms-of-use/">Terms of Use</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="footer-card">
+						<ul>
+							<li id="menu-item-3381" class="bold-menu menu-item menu-item-type-post_type menu-item-object-page menu-item-3381"><a href="https://www.magicsoftware.com/resource-center/">Resources</a></li>
+<li id="menu-item-3382" class="bold-menu menu-item menu-item-type-post_type menu-item-object-page menu-item-3382"><a href="https://www.magicsoftware.com/magic-support-center/">Support</a></li>
+<li id="menu-item-3383" class="bold-menu menu-item menu-item-type-post_type menu-item-object-page menu-item-3383"><a href="https://www.magicsoftware.com/investors/">Investors</a></li>
+<li id="menu-item-12114" class="bold-menu menu-item menu-item-type-post_type menu-item-object-page menu-item-12114"><a href="https://www.magicsoftware.com/integration-partner-program/">Partners</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="copyright text-center">
+						<div class="footer-logo">
+				<a href="https://www.magicsoftware.com">
+					<img src="https://www.magicsoftware.com/wp-content/uploads/2018/05/magic-logo-blue@3x.png" alt="Magic Software">
+				</a>
+			</div>
+			<div class="copyright-text">
+				<p>© Magic Software Enterprises</p>
+			</div>
+		</div>
+	</div>
+
+</section>
+<!-- This site is converting visitors into subscribers and customers with OptinMonster - https://optinmonster.com :: Campaign Title: Magicians Meeting 2018 --><script type="text/javascript" src="https://a.optmnstr.com/app/js/api.min.js" data-campaign="x2vwvlixwi2e4m1muyqq" data-user="50160" data-env="production"></script><!-- / OptinMonster -->		<script type="text/javascript">var x2vwvlixwi2e4m1muyqq_shortcode = true;</script>
+		
+<div class="wpml-ls-statics-footer wpml-ls wpml-ls-legacy-list-horizontal">
+	<ul><li class="wpml-ls-slot-footer wpml-ls-item wpml-ls-item-en wpml-ls-current-language wpml-ls-first-item wpml-ls-item-legacy-list-horizontal">
+				<a href="https://www.magicsoftware.com" class="wpml-ls-link"><span class="wpml-ls-native">English</span></a>
+			</li><li class="wpml-ls-slot-footer wpml-ls-item wpml-ls-item-de wpml-ls-item-legacy-list-horizontal">
+				<a href="https://www.magicsoftware.com/de/" class="wpml-ls-link"><span class="wpml-ls-native">Deutsch</span></a>
+			</li><li class="wpml-ls-slot-footer wpml-ls-item wpml-ls-item-hu wpml-ls-item-legacy-list-horizontal">
+				<a href="https://www.magicsoftware.com/hu/" class="wpml-ls-link"><span class="wpml-ls-native">Magyar</span></a>
+			</li><li class="wpml-ls-slot-footer wpml-ls-item wpml-ls-item-ja wpml-ls-item-legacy-list-horizontal">
+				<a href="https://www.magicsoftware.com/ja/" class="wpml-ls-link"><span class="wpml-ls-native">日本語</span></a>
+			</li><li class="wpml-ls-slot-footer wpml-ls-item wpml-ls-item-pt-br wpml-ls-item-legacy-list-horizontal">
+				<a href="https://www.magicsoftware.com/pt-br/" class="wpml-ls-link"><span class="wpml-ls-native">Português</span></a>
+			</li><li class="wpml-ls-slot-footer wpml-ls-item wpml-ls-item-es wpml-ls-last-item wpml-ls-item-legacy-list-horizontal">
+				<a href="https://www.magicsoftware.com/es/" class="wpml-ls-link"><span class="wpml-ls-native">Español</span></a>
+			</li></ul>
+</div><script type='text/javascript' src='https://www.magicsoftware.com/wp-content/themes/magic/js/popper.min.js'></script>
+<script type='text/javascript' src='https://www.magicsoftware.com/wp-content/themes/magic/js/bootstrap.min.js'></script>
+<script type='text/javascript' src='https://www.magicsoftware.com/wp-content/themes/magic/js/jquery.mb.YTPlayer.js'></script>
+<script type='text/javascript' src='//munchkin.marketo.net/munchkin-beta.js'></script>
+<script type='text/javascript' src='//app-sj01.marketo.com/js/forms2/js/forms2.js'></script>
+<script type='text/javascript' src='https://www.magicsoftware.com/wp-content/themes/magic/js/bootstrap-datepicker.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var MyAjax = {"ajaxurl":"https:\/\/www.magicsoftware.com\/wp-admin\/admin-ajax.php","posts":"null","current_page":"1","max_page":null,"security":"9805be7a1c"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.magicsoftware.com/wp-content/themes/magic/js/scripts.js'></script>
+<script type='text/javascript' src='https://www.magicsoftware.com/wp-includes/js/comment-reply.min.js?ver=4.9.8'></script>
+<script type='text/javascript' src='https://www.magicsoftware.com/wp-includes/js/wp-embed.min.js?ver=4.9.8'></script>
+		<script type="text/javascript">var omapi_localized = { ajax: 'https://www.magicsoftware.com/wp-admin/admin-ajax.php?optin-monster-ajax-route=1', nonce: '9cfc589408', slugs: {"x2vwvlixwi2e4m1muyqq":{"slug":"x2vwvlixwi2e4m1muyqq","mailpoet":false}} };</script>
+		</body>
+</html>

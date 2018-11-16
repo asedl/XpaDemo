@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Connection:keep-alive
+ Link:<https://www.magicsoftware.com/wp-json/>; rel="https://api.w.org/",<https://www.magicsoftware.com/>; rel=shortlink
+ X-Pantheon-Styx-Hostname:styx-fe4-6fcb9446cf-mtbcw
+ X-Pingback:https://www.magicsoftware.com/xmlrpc.php
+ X-Styx-Req-Id:styx-1707c1c474c74155274d3992e8ccfbb3
+ Accept-Ranges:bytes,bytes,bytes,bytes
+ Cache-Control:public, max-age=60
+ Content-Type:text/html; charset=UTF-8
+ Set-Cookie:multi-device-switcher=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/; secure
+ Server:nginx
+ Via:1.1 varnish,1.1 varnish
+ Age:0,0,0
+ Date:Fri, 16 Nov 2018 01:03:52 GMT
+ X-Served-By:cache-mdw17380-MDW, cache-mad9445-MAD
+ X-Cache:MISS, MISS
+ X-Cache-Hits:0, 0
+ X-Timer:S1542330230.052864,VS0,VE2071
+ Vary:Accept-Encoding, Cookie, Cookie
+ transfer-encoding:chunked
+ 
