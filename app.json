@@ -1,0 +1,22 @@
+{
+  "name": "XpaDemo",
+  "description": "Magic XPA SingleUser Demo application",
+  "scripts": {
+  },
+  "env": {
+    "XPADEMO_HOME": "C:\\TEMP"
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/java"
+    },
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
