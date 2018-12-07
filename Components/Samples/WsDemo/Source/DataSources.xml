@@ -1,0 +1,137 @@
+ <Application>
+ 
+<Header>
+
+  <Version val="13030.00"/>
+
+  <WithIsn val="Y"/>
+
+  <Exe comp="-1"/>
+
+  <LastIsn val="1"/>
+
+  <LastIsnFolder val="0"/>
+
+  <Folders/>
+
+</Header>
+ <DataSourceRepository>
+  <DataObjects>
+ 
+<DataObject PhysicalName="Temp_Authors" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="1" name="Temp_Authors">
+
+  <Encrypt val="N"/>
+
+  <Cache val="D"/>
+
+  <IdentifyRowModifications val="U"/>
+
+  <HasHint val="Y"/>
+
+  <Cursor val="D"/>
+
+  <CheckExistence val="D"/>
+
+  <ObjectType val="T"/>
+
+  <Position val="D"/>
+
+  <PositionIndex val="-1"/>
+
+  <IndexesLastIsn val="1"/>
+
+  <MetaTreeRTIndex val="-1"/>
+
+  <Columns>
+    <Column id="1" name="id">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_UNICODE" id="1"/>
+        <Picture id="157" valUnicode="128"/>
+        <StoredAs id="173" val="32"/>
+        <Size id="174" val="256"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="id"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="id" PIC_U="128" Size="256" allowed_null="N" attribute="U" context_cookies="Y" database_definition="2" id="231" storage="32" translate="3"/>
+        <DefaultStorage id="274" val="Y"/>
+        <_FieldStyle id="276" val="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="2" name="rowOrder">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Picture id="157" valUnicode="9"/>
+        <StoredAs id="173" val="4"/>
+        <Size id="174" val="4"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="rowOrder"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="9"/>
+        <_Negative id="192"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="rowOrder" PIC_U="9" Size="4" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+        <DefaultStorage id="274" val="Y"/>
+        <_FieldStyle id="276" val="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="3" name="author_id">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Picture id="157" valUnicode="9"/>
+        <StoredAs id="173" val="4"/>
+        <Size id="174" val="4"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="author_id"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="9"/>
+        <_Negative id="192"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="author_id" PIC_U="9" Size="4" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+        <DefaultStorage id="274" val="Y"/>
+        <_FieldStyle id="276" val="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="4" name="author_name">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_UNICODE" id="1"/>
+        <Picture id="157" valUnicode="255"/>
+        <StoredAs id="173" val="32"/>
+        <Size id="174" val="510"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="author_name"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="author_name" PIC_U="255" Size="510" allowed_null="N" attribute="U" context_cookies="Y" database_definition="2" id="231" storage="32" translate="3"/>
+        <DefaultStorage id="274" val="Y"/>
+        <_FieldStyle id="276" val="1"/>
+      </PropertyList>
+    </Column>
+  </Columns>
+
+  <Indexes>
+    <Index id="1" name="pk_temp_authors">
+      <Mode val="S"/>
+      <Order val="T"/>
+      <Range val="Q"/>
+      <IndexType val="R"/>
+      <PhysicalName val="pk_temp_authors"/>
+      <HasHint val="Y"/>
+      <Clustered val="N"/>
+      <DropOnReindex val="N"/>
+      <Primary val="Y"/>
+      <Segments>
+        <Segment>
+          <Size val="4"/>
+          <Column val="3"/>
+          <Order val="A"/>
+        </Segment>
+      </Segments>
+    </Index>
+  </Indexes>
+
+  <ForeignKeys/>
+
+  <WebS/>
+
+</DataObject>  </DataObjects>
+ </DataSourceRepository>
+  </Application>

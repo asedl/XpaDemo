@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <_Project>
+    <ProjectName val="WsDemo"/>
+    <VCProjectID val="0"/>
+    <VCActive val="N"/>
+    <WorkOffline val="N"/>
+    <SourceDirectory val="Source"/>
+    <ExportsDirectory val="Exports"/>
+    <GUID val="{10305D04-C1EC-4849-A97E-CEDB0F62FADB}"/>
+    <Version min="13020.10"/>
+    <SourceVersion val="13030.00"/>
+  </_Project>
+
+</Application>

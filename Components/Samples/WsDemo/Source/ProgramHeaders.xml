@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="13030.00"/>
+    <WithIsn val="Y"/>
+  </Header>
+
+  <ProgramsRepositoryHeaders>
+    <Program>
+      <Header Description="Main Program" ISN_2="1" LastIsn="1" id="1">
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="B"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <Closeopentasks val="N"/>
+        <RunProjectAs val="O"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="737035" _time="59264" date="07/12/2018" time="16:27:44"/>
+      </Header>
+      <SourceFileTimeStamp _date="737035" _time="55664" date="07/12/2018" time="15:27:44"/>
+    </Program>
+    <Program>
+      <Header ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="2">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified date="00/00/0000" time="00:00:00"/>
+      </Header>
+      <SourceFileTimeStamp _date="737035" _time="55671" date="07/12/2018" time="15:27:51"/>
+    </Program>
+    <Program>
+      <Header Description="GetAuthors" ISN_2="1" LastIsn="2" id="3">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="B"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="737035" _time="66629" date="07/12/2018" time="18:30:29"/>
+      </Header>
+      <SourceFileTimeStamp _date="737035" _time="63029" date="07/12/2018" time="17:30:29"/>
+    </Program>
+    <Program>
+      <Header Description="Read_XML_Response" ISN_2="2" LastIsn="4" id="4">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <TSK_PARAMS val="1"/>
+          <ParametersAttributes>
+            <Attr MgAttr="U"/>
+          </ParametersAttributes>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="B"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="737035" _time="66839" date="07/12/2018" time="18:33:59"/>
+      </Header>
+      <SourceFileTimeStamp _date="737035" _time="63239" date="07/12/2018" time="17:33:59"/>
+    </Program>
+  </ProgramsRepositoryHeaders>
+
+</Application>
