@@ -1,0 +1,159 @@
+﻿ <-1> 30/11/2018 23:33:03.281     [Error  ] - Print Data File cannot be opened, Program: "Browse - DatabaseComp.Products".
+ <-1> 25/01/2019 18:23:07.283     [Error  ] - Component Files not found : Roslyn.ecf
+ <-1> 25/01/2019 18:23:07.361     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 25/01/2019 18:23:07.428     [Error  ] - Component Files not found : xpa_project_scan.ecf
+ <-1> 25/01/2019 18:23:08.241     [Error  ] - Failed to Load Assembly : "D:\Magic.Projects\XpaDemo\devbin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 25/01/2019 18:23:08.376     [Error  ] - Failed to Load Assembly : "D:\Magic.Projects\XpaDemo\devbin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 25/01/2019 18:23:08.484     [Error  ] - Failed to Load Assembly : "D:\Magic.Projects\XpaDemo\devbin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 25/01/2019 18:23:08.543     [Error  ] - Failed to Load Assembly : "D:\Magic.Projects\XpaDemo\devbin\Apache.NMS.dll"
+"Could not load file or assembly 'Apache.NMS.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 25/01/2019 18:23:08.599     [Error  ] - Failed to Load Assembly : "D:\Magic.Projects\XpaDemo\devbin\Apache.NMS.ActiveMQ.dll"
+"Could not load file or assembly 'Apache.NMS.ActiveMQ.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 25/01/2019 18:23:08.656     [Error  ] - Failed to Load Assembly : "D:\Magic.Projects\XpaDemo\devbin\XpaTQueue.dll"
+"Could not load file or assembly 'XpaTQueue.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 25/01/2019 18:23:08.712     [Error  ] - Failed to Load Assembly : "D:\Magic.Projects\XpaDemo\devbin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 25/01/2019 18:23:08.768     [Error  ] - Failed to Load Assembly : "D:\Magic.Projects\XpaDemo\devbin\Apache.NMS.dll"
+"Could not load file or assembly 'Apache.NMS.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 25/01/2019 18:23:08.824     [Error  ] - Failed to Load Assembly : "D:\Magic.Projects\XpaDemo\devbin\Apache.NMS.ActiveMQ.dll"
+"Could not load file or assembly 'Apache.NMS.ActiveMQ.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 25/01/2019 18:23:08.879     [Error  ] - Failed to Load Assembly : "D:\Magic.Projects\XpaDemo\devbin\XpaTQueue.dll"
+"Could not load file or assembly 'XpaTQueue.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 25/01/2019 18:40:43.952     [Error  ] - Cabinet File Name cannot be empty.
+ <-1> 25/01/2019 18:40:44.039     [Error  ] - Cabinet File Name cannot be empty.
+ <-1> 25/01/2019 18:59:10.600     [Error  ] - [MgGui.dll] Value cannot be null.
+Parameter name: from, Program: "XpaTMail_001_Send.SendMail (C#)".
+ <-1> 25/01/2019 18:59:10.642     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.com.magicsoftware.rte.dotnet.DNSnippetManager.ExecuteDotNetSnippet(String assemblyName, String methodName, IntPtr& expValsPtr, Int32 expValsCount)
+   at com.magicsoftware.rte.RteExecutor.ExecuteDotNetSnippet(String assemblyName, String methodName, IntPtr& expValsPtr, Int32 expValsCount)
+   at RteExecutorEndpoint.InvokeExecuteDotNetSnippet(String assemblyName, String methodName, IntPtr& expValsPtr, Int32 expValsCount)
+   at RteExecutorBridge.ExecuteDotNetSnippet(RteExecutorBridge* , SByte* assemblyName, SByte* methodName, UnmanagedExpVal** expVals, Int32 expValsCount)
+   at CoreExecutorEndpoint.EventsLoop()
+   at CoreExecutorGateway.EventsLoop()
+   at com.magicsoftware.rte.RTEmanager.ExecuteWorkThread()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart(), Program: "XpaTMail_001_Send.SendMail (C#)".
+ <-1> 25/01/2019 18:59:25.398     [Error  ] - [MgGui.dll] Value cannot be null.
+Parameter name: from, Program: "XpaTMail_001_Send.SendMail (C#)".
+ <-1> 25/01/2019 18:59:25.432     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.com.magicsoftware.rte.dotnet.DNSnippetManager.ExecuteDotNetSnippet(String assemblyName, String methodName, IntPtr& expValsPtr, Int32 expValsCount)
+   at com.magicsoftware.rte.RteExecutor.ExecuteDotNetSnippet(String assemblyName, String methodName, IntPtr& expValsPtr, Int32 expValsCount)
+   at RteExecutorEndpoint.InvokeExecuteDotNetSnippet(String assemblyName, String methodName, IntPtr& expValsPtr, Int32 expValsCount)
+   at RteExecutorBridge.ExecuteDotNetSnippet(RteExecutorBridge* , SByte* assemblyName, SByte* methodName, UnmanagedExpVal** expVals, Int32 expValsCount)
+   at CoreExecutorEndpoint.EventsLoop()
+   at CoreExecutorGateway.EventsLoop()
+   at com.magicsoftware.rte.RTEmanager.ExecuteWorkThread()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart(), Program: "XpaTMail_001_Send.SendMail (C#)".
+ <-1> 25/01/2019 19:01:04.492     [Error  ] - [MgGui.dll] Value cannot be null.
+Parameter name: from, Program: "XpaTMail_001_Send.SendMail (C#)".
+ <-1> 25/01/2019 19:01:04.536     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.com.magicsoftware.rte.dotnet.DNSnippetManager.ExecuteDotNetSnippet(String assemblyName, String methodName, IntPtr& expValsPtr, Int32 expValsCount)
+   at com.magicsoftware.rte.RteExecutor.ExecuteDotNetSnippet(String assemblyName, String methodName, IntPtr& expValsPtr, Int32 expValsCount)
+   at RteExecutorEndpoint.InvokeExecuteDotNetSnippet(String assemblyName, String methodName, IntPtr& expValsPtr, Int32 expValsCount)
+   at RteExecutorBridge.ExecuteDotNetSnippet(RteExecutorBridge* , SByte* assemblyName, SByte* methodName, UnmanagedExpVal** expVals, Int32 expValsCount)
+   at CoreExecutorEndpoint.EventsLoop()
+   at CoreExecutorGateway.EventsLoop()
+   at com.magicsoftware.rte.RTEmanager.ExecuteWorkThread()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart(), Program: "XpaTMail_001_Send.SendMail (C#)".
+ <-1> 25/01/2019 19:01:29.544     [Error  ] - [MgGui.dll] Value cannot be null.
+Parameter name: from, Program: "XpaTMail_001_Send.SendMail (C#)".
+ <-1> 25/01/2019 19:01:29.581     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.com.magicsoftware.rte.dotnet.DNSnippetManager.ExecuteDotNetSnippet(String assemblyName, String methodName, IntPtr& expValsPtr, Int32 expValsCount)
+   at com.magicsoftware.rte.RteExecutor.ExecuteDotNetSnippet(String assemblyName, String methodName, IntPtr& expValsPtr, Int32 expValsCount)
+   at RteExecutorEndpoint.InvokeExecuteDotNetSnippet(String assemblyName, String methodName, IntPtr& expValsPtr, Int32 expValsCount)
+   at RteExecutorBridge.ExecuteDotNetSnippet(RteExecutorBridge* , SByte* assemblyName, SByte* methodName, UnmanagedExpVal** expVals, Int32 expValsCount)
+   at CoreExecutorEndpoint.EventsLoop()
+   at CoreExecutorGateway.EventsLoop()
+   at com.magicsoftware.rte.RTEmanager.ExecuteWorkThread()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart(), Program: "XpaTMail_001_Send.SendMail (C#)".
+ <-1> 25/01/2019 19:04:59.078     [Error  ] - System.Net.Mail.SmtpException: Failure sending mail. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:25
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.ServicePoint.GetConnection(PooledStream PooledStream, Object owner, Boolean async, IPAddress& address, Socket& abortSocket, Socket& abortSocket6)
+   at System.Net.PooledStream.Activate(Object owningObject, Boolean async, GeneralAsyncDelegate asyncCallback)
+   at System.Net.PooledStream.Activate(Object owningObject, GeneralAsyncDelegate asyncCallback)
+   at System.Net.ConnectionPool.GetConnection(Object owningObject, GeneralAsyncDelegate asyncCallback, Int32 creationTimeout)
+   at System.Net.Mail.SmtpConnection.GetConnection(ServicePoint servicePoint)
+   at System.Net.Mail.SmtpTransport.GetConnection(ServicePoint servicePoint)
+   at System.Net.Mail.SmtpClient.GetConnection()
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   --- End of inner exception stack trace ---
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at Snippet.SendMail(String& sServer, String& sTo, String& sFrom, String& sSubject, String& sBody)
+ <-1> 25/01/2019 19:09:45.806     [Error  ] - System.Net.Mail.SmtpException: Failure sending mail. ---> System.Net.WebException: The remote name could not be resolved: 'localhost:1025'
+   at System.Net.ServicePoint.GetConnection(PooledStream PooledStream, Object owner, Boolean async, IPAddress& address, Socket& abortSocket, Socket& abortSocket6)
+   at System.Net.PooledStream.Activate(Object owningObject, Boolean async, GeneralAsyncDelegate asyncCallback)
+   at System.Net.PooledStream.Activate(Object owningObject, GeneralAsyncDelegate asyncCallback)
+   at System.Net.ConnectionPool.GetConnection(Object owningObject, GeneralAsyncDelegate asyncCallback, Int32 creationTimeout)
+   at System.Net.Mail.SmtpConnection.GetConnection(ServicePoint servicePoint)
+   at System.Net.Mail.SmtpTransport.GetConnection(ServicePoint servicePoint)
+   at System.Net.Mail.SmtpClient.GetConnection()
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   --- End of inner exception stack trace ---
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at Snippet.SendMail(String& sServer, String& sTo, String& sFrom, String& sSubject, String& sBody)
+ <-1> 25/01/2019 19:12:36.059     [Error  ] - [MgGui.dll] The specified string is not in the form required for an e-mail address., Program: "XpaTMail_001_Send.SendMail (C#)".
+ <-1> 25/01/2019 19:12:36.098     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.com.magicsoftware.rte.dotnet.DNSnippetManager.ExecuteDotNetSnippet(String assemblyName, String methodName, IntPtr& expValsPtr, Int32 expValsCount)
+   at com.magicsoftware.rte.RteExecutor.ExecuteDotNetSnippet(String assemblyName, String methodName, IntPtr& expValsPtr, Int32 expValsCount)
+   at RteExecutorEndpoint.InvokeExecuteDotNetSnippet(String assemblyName, String methodName, IntPtr& expValsPtr, Int32 expValsCount)
+   at RteExecutorBridge.ExecuteDotNetSnippet(RteExecutorBridge* , SByte* assemblyName, SByte* methodName, UnmanagedExpVal** expVals, Int32 expValsCount)
+   at CoreExecutorEndpoint.EventsLoop()
+   at CoreExecutorGateway.EventsLoop()
+   at com.magicsoftware.rte.RTEmanager.ExecuteWorkThread()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart(), Program: "XpaTMail_001_Send.SendMail (C#)".
+ <-1> 25/01/2019 19:13:11.668     [Error  ] - [MgGui.dll] The specified string is not in the form required for an e-mail address., Program: "XpaTMail_001_Send.SendMail (C#)".
+ <-1> 25/01/2019 19:13:11.707     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.com.magicsoftware.rte.dotnet.DNSnippetManager.ExecuteDotNetSnippet(String assemblyName, String methodName, IntPtr& expValsPtr, Int32 expValsCount)
+   at com.magicsoftware.rte.RteExecutor.ExecuteDotNetSnippet(String assemblyName, String methodName, IntPtr& expValsPtr, Int32 expValsCount)
+   at RteExecutorEndpoint.InvokeExecuteDotNetSnippet(String assemblyName, String methodName, IntPtr& expValsPtr, Int32 expValsCount)
+   at RteExecutorBridge.ExecuteDotNetSnippet(RteExecutorBridge* , SByte* assemblyName, SByte* methodName, UnmanagedExpVal** expVals, Int32 expValsCount)
+   at CoreExecutorEndpoint.EventsLoop()
+   at CoreExecutorGateway.EventsLoop()
+   at com.magicsoftware.rte.RTEmanager.ExecuteWorkThread()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart(), Program: "XpaTMail_001_Send.SendMail (C#)".

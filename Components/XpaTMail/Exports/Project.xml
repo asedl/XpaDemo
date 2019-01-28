@@ -1,0 +1,2002 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="13030.00"/>
+    <APPLICATION val="Y"/>
+    <WithIsn val="N"/>
+    <WITH_MODELS val="N"/>
+    <MAIN_PRG_VARS val="0"/>
+    <MAIN_PRG_DSPS val="1"/>
+    <LNK END="0" START="0"/>
+  </Header>
+
+
+
+<RightsRepository>
+
+  <Rights/>
+
+</RightsRepository>
+<ComponentsRepository>
+
+  <Components>
+    <Component name="UserFunctionality">
+      <Description val="Handles the Range, Locate, Sort and Print Data internal events"/>
+      <ComponentType val="Magic xpa"/>
+      <Type val="U"/>
+      <LoadImmediate val="Y"/>
+      <Comment val="This component provides an interface for the user to perform Range, Locate, Sort and Print Data.The component does not expose any object. It has logic units for handling the Range, Locate, Sort and Print Data internal events.The source code for this component is available in the Add_On\UserFunctionality directory, so you can customize the screens of the component as you wish."/>
+      <CompId val="738976342-28670-18720-BFE77D42E"/>
+      <MciFile val="D:\Magic.Projects\XpaDemo\dev\bin\Xpa\Add_On\UserFunctionality\UserFunctionality.eci"/>
+      <CABINET_FILE val="%EngineDir%Add_On\UserFunctionality\UserFunctionality.ecf"/>
+    </Component>
+    <Component name="System.Windows">
+      <Description val="System.Windows"/>
+      <ComponentType val=".NET"/>
+      <Type val="D"/>
+      <LoadImmediate val="Y"/>
+      <AssemblyName val="System.Windows, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/>
+      <AssemblyPath val="C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Windows\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Windows.dll"/>
+      <UseSpecificVersion val="N"/>
+      <isGuiThreadExecution val="N"/>
+    </Component>
+    <Component name="System.Windows.Forms">
+      <Description val="System.Windows.Forms"/>
+      <ComponentType val=".NET"/>
+      <Type val="D"/>
+      <LoadImmediate val="Y"/>
+      <AssemblyName val="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"/>
+      <AssemblyPath val="C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll"/>
+      <UseSpecificVersion val="N"/>
+      <isGuiThreadExecution val="Y"/>
+    </Component>
+    <Component name="System.Net">
+      <Description val="System.Net"/>
+      <ComponentType val=".NET"/>
+      <Type val="D"/>
+      <LoadImmediate val="Y"/>
+      <AssemblyName val="System.Net, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/>
+      <AssemblyPath val="C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Net\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Net.dll"/>
+      <UseSpecificVersion val="N"/>
+      <isGuiThreadExecution val="N"/>
+    </Component>
+  </Components>
+
+</ComponentsRepository>
+<ModelsRepository>
+
+  <Models/>
+
+</ModelsRepository>
+<HelpRepository>
+
+  <HelpScreens/>
+
+</HelpRepository>
+ <DataSourceRepository>
+  <DataObjects>
+ 
+ </DataObjects>
+ </DataSourceRepository>
+ 
+<ProgramsRepository>
+<Programs>
+
+<Task MainProgram="Y">
+
+  <Header Description="Main Program">
+    <Resident val="N"/>
+    <SQL val="N"/>
+    <ReturnValue>
+      <ReturnValueAttr/>
+      <ParametersAttributes/>
+    </ReturnValue>
+    <SqlWhereExist val="N"/>
+    <TaskType val="B"/>
+    <External val="N"/>
+    <Offline val="N"/>
+    <Closeopentasks val="N"/>
+    <RunProjectAs val="O"/>
+    <FormType val="N"/>
+    <DotNetObjectExists val="N"/>
+    <LastModified _date="737084" _time="66250" date="25/01/2019" time="18:24:10"/>
+  </Header>
+
+  <Resource>
+    <Columns/>
+  </Resource>
+
+  <Information>
+    <Key>
+      <Mode val="N"/>
+    </Key>
+    <DB/>
+    <Sort>
+      <CLS val="A"/>
+    </Sort>
+    <ForceRecordDelete DEL="N"/>
+    <EndTaskCondition val="N"/>
+    <EvaluateEndCondition val="I"/>
+    <InitialMode val="E"/>
+    <Locate Direction="A"/>
+    <Range Direction="A"/>
+    <TaskProperties>
+      <SelectionTable val="N"/>
+      <ConfirmUpdate CNFU="N"/>
+      <ConfirmCancel val="N"/>
+      <ErrorStrategy val="R"/>
+      <LockingStrategy val="M"/>
+      <CacheStrategy val="N"/>
+      <ForceRecordSuffix val="N"/>
+      <TransactionMode val="P"/>
+      <TransactionBegin val="N"/>
+      <PreloadView val="N"/>
+      <AllowEmptyDataview val="N"/>
+      <KeepCreatedContext val="N"/>
+    </TaskProperties>
+    <SIDE_WIN>
+      <AllowOptions val="N"/>
+      <AllowQuery val="Y"/>
+      <AllowModify val="N"/>
+      <AllowCreate val="N"/>
+      <AllowDelete val="N"/>
+      <AllowLocate val="N"/>
+      <AllowRange val="N"/>
+      <AllowIndexChange val="N"/>
+      <AllowSorting val="N"/>
+      <AllowIOFiles val="N"/>
+      <RecordCycle val="Y"/>
+      <AllowEvents val="N"/>
+      <AllowIndexOptimization val="N"/>
+      <AllowLocationInQuery val="N"/>
+      <AllowPrintingData val="N"/>
+    </SIDE_WIN>
+    <WIN>
+      <OpenTaskWindow val="Y"/>
+      <CloseTaskWindow val="Y"/>
+      <ForegroundWindow val="Y"/>
+      <FlipFld val="N"/>
+      <RefreshTaskWindow ReturnValue="N"/>
+    </WIN>
+    <BOX>
+      <Direction val="V"/>
+    </BOX>
+  </Information>
+
+  <TaskLogic>
+    <LogicUnit propagate="78">
+      <Level val="R"/>
+      <Type val="M"/>
+      <Scope val="S"/>
+      <EngineDirective val="S"/>
+      <ShowMessage val="Y"/>
+      <Condition val="89"/>
+      <Event>
+        <EventType val="S"/>
+        <PublicObject comp="-1"/>
+      </Event>
+    </LogicUnit>
+  </TaskLogic>
+
+  <TaskForms>
+    <FormEntry>
+      <PropertyList model="FORM_GUI0">
+        <X id="21"/>
+        <Y id="22"/>
+        <Width id="23" val="320"/>
+        <Height id="24" val="200"/>
+        <FormUnits id="33" val="1"/>
+        <VerticalFactor id="34" val="8"/>
+        <HorizontalFactor id="35" val="4"/>
+        <Color id="51" val="3"/>
+        <_Comment id="218"/>
+        <FormName id="311" valUnicode="XpaTMail"/>
+        <WindowType id="358" val="11"/>
+        <StartupMode id="362" val="2"/>
+        <_PulldownMenu id="441" obj="1"/>
+      </PropertyList>
+    </FormEntry>
+  </TaskForms>
+
+</Task>
+<Task MainProgram="N">
+
+  <Header ISEMPTY_TSK="1">
+    <ExecutionRight/>
+    <Resident val="N"/>
+    <SQL val="N"/>
+    <ReturnValue>
+      <ReturnValueAttr/>
+      <ParametersAttributes/>
+    </ReturnValue>
+    <SqlWhereExist val="N"/>
+    <TaskType val="O"/>
+    <External val="N"/>
+    <Offline val="N"/>
+    <FormType val="N"/>
+    <DotNetObjectExists val="N"/>
+    <LastModified date="00/00/0000" time="00:00:00"/>
+  </Header>
+
+  <Resource>
+    <Columns/>
+  </Resource>
+
+  <Information>
+    <Key>
+      <Mode val="N"/>
+    </Key>
+    <DB/>
+    <Sort>
+      <CLS val="A"/>
+    </Sort>
+    <ForceRecordDelete DEL="N"/>
+    <EndTaskCondition val="N"/>
+    <EvaluateEndCondition val="B"/>
+    <InitialMode val="M"/>
+    <Locate Direction="A"/>
+    <Range Direction="A"/>
+    <TaskProperties>
+      <SelectionTable val="N"/>
+      <ConfirmUpdate CNFU="N"/>
+      <ConfirmCancel val="N"/>
+      <ErrorStrategy val="R"/>
+      <LockingStrategy val="M"/>
+      <CacheStrategy val="D"/>
+      <ForceRecordSuffix val="N"/>
+      <TransactionMode val="D"/>
+      <TransactionBegin val="P"/>
+      <PreloadView val="N"/>
+      <AllowEmptyDataview val="Y"/>
+      <KeepCreatedContext val="N"/>
+    </TaskProperties>
+    <SIDE_WIN>
+      <AllowOptions val="Y"/>
+      <AllowQuery val="Y"/>
+      <AllowModify val="Y"/>
+      <AllowCreate val="Y"/>
+      <AllowDelete val="Y"/>
+      <AllowLocate val="Y"/>
+      <AllowRange val="Y"/>
+      <AllowIndexChange val="Y"/>
+      <AllowSorting val="Y"/>
+      <AllowIOFiles val="Y"/>
+      <RecordCycle val="Y"/>
+      <AllowEvents val="Y"/>
+      <AllowIndexOptimization val="Y"/>
+      <AllowLocationInQuery val="Y"/>
+      <AllowPrintingData val="N"/>
+    </SIDE_WIN>
+    <WIN>
+      <OpenTaskWindow val="Y"/>
+      <CloseTaskWindow val="Y"/>
+      <ForegroundWindow val="Y"/>
+      <FlipFld val="N"/>
+      <RefreshTaskWindow ReturnValue="N"/>
+    </WIN>
+    <BOX>
+      <Direction val="V"/>
+    </BOX>
+  </Information>
+
+  <TaskLogic>
+    <LogicUnit propagate="78">
+      <Level val="R"/>
+      <Type val="M"/>
+      <Scope val="S"/>
+      <EngineDirective val="S"/>
+      <ShowMessage val="Y"/>
+      <Condition val="89"/>
+      <Event>
+        <EventType val="S"/>
+        <PublicObject comp="-1"/>
+      </Event>
+      <LogicLines>
+        <LogicLine>
+          <DATAVIEW_SRC Type="M">
+            <Condition val="N"/>
+            <Modifier val="B"/>
+            <Direction val="C"/>
+          </DATAVIEW_SRC>
+        </LogicLine>
+      </LogicLines>
+    </LogicUnit>
+  </TaskLogic>
+
+  <TaskForms>
+    <FormEntry>
+      <PropertyList model="FORM_GUI0">
+        <_Comment id="218"/>
+        <FormName id="311"/>
+      </PropertyList>
+    </FormEntry>
+  </TaskForms>
+
+</Task>
+<Task MainProgram="N">
+
+  <Header Description="XpaTMail_001_Send">
+    <Public val="XpaTMail_001_Send"/>
+    <ExecutionRight/>
+    <Resident val="N"/>
+    <SQL val="N"/>
+    <ReturnValue>
+      <ReturnValueAttr/>
+      <TSK_PARAMS val="9"/>
+      <ParametersAttributes>
+        <Attr MgAttr="U"/>
+        <Attr MgAttr="N"/>
+        <Attr MgAttr="U"/>
+        <Attr MgAttr="U"/>
+        <Attr MgAttr="N"/>
+        <Attr MgAttr="O"/>
+        <Attr MgAttr="O"/>
+        <Attr MgAttr="O"/>
+        <Attr MgAttr="O"/>
+      </ParametersAttributes>
+    </ReturnValue>
+    <SqlWhereExist val="N"/>
+    <TaskType val="B"/>
+    <External val="N"/>
+    <Offline val="N"/>
+    <FormType val="N"/>
+    <DotNetObjectExists val="Y"/>
+    <LastModified _date="737084" _time="70227" date="25/01/2019" time="19:30:27"/>
+  </Header>
+
+  <Resource>
+    <Columns>
+      <Column id="1" name="pi.Server (Server:Port)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_UNICODE" id="1"/>
+          <Picture id="157" valUnicode="200"/>
+          <Size id="174" val="400"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Column>
+      <Column id="2" name="pi.Servertype">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="5"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="5"/>
+          <_Negative id="192"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Column>
+      <Column id="3" name="pi.Username">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_UNICODE" id="1"/>
+          <Picture id="157" valUnicode="100"/>
+          <Size id="174" val="200"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Column>
+      <Column id="4" name="pi,Password">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_UNICODE" id="1"/>
+          <Picture id="157" valUnicode="100"/>
+          <Size id="174" val="200"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Column>
+      <Column id="5" name="po.Errorcode">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="N10"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="10"/>
+          <_Negative id="192" val="Y"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Column>
+      <Column id="9" name="pi.To">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_BLOB" id="1"/>
+          <StoredAs id="173" val="34"/>
+          <Size id="174" val="28"/>
+          <Definition id="175" val="1"/>
+          <_FieldStyle id="276" val="1"/>
+          <Content id="434" val="2"/>
+        </PropertyList>
+      </Column>
+      <Column id="10" name="Pi.From">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_BLOB" id="1"/>
+          <StoredAs id="173" val="34"/>
+          <Size id="174" val="28"/>
+          <Definition id="175" val="1"/>
+          <_FieldStyle id="276" val="1"/>
+          <Content id="434" val="2"/>
+        </PropertyList>
+      </Column>
+      <Column id="11" name="pi.Subject">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_BLOB" id="1"/>
+          <StoredAs id="173" val="34"/>
+          <Size id="174" val="28"/>
+          <Definition id="175" val="1"/>
+          <_FieldStyle id="276" val="1"/>
+          <Content id="434" val="2"/>
+        </PropertyList>
+      </Column>
+      <Column id="12" name="pi.Body (Message)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_BLOB" id="1"/>
+          <StoredAs id="173" val="34"/>
+          <Size id="174" val="28"/>
+          <Definition id="175" val="1"/>
+          <_FieldStyle id="276" val="1"/>
+          <Content id="434" val="2"/>
+        </PropertyList>
+      </Column>
+      <Column id="7" name="v.Server (Host)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_UNICODE" id="1"/>
+          <Picture id="157" valUnicode="200"/>
+          <Size id="174" val="400"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Column>
+      <Column id="8" name="v.Server (Port)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="5"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="5"/>
+          <_Negative id="192"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Column>
+    </Columns>
+  </Resource>
+
+  <Information>
+    <Key>
+      <Mode val="N"/>
+    </Key>
+    <DB/>
+    <Sort>
+      <CLS val="A"/>
+    </Sort>
+    <ForceRecordDelete DEL="N"/>
+    <EndTaskCondition val="Y"/>
+    <EvaluateEndCondition val="A"/>
+    <InitialMode val="M"/>
+    <Locate Direction="A"/>
+    <Range Direction="A"/>
+    <TaskProperties>
+      <SelectionTable val="N"/>
+      <ConfirmUpdate CNFU="N"/>
+      <ConfirmCancel val="N"/>
+      <ErrorStrategy val="A"/>
+      <LockingStrategy val="M"/>
+      <CacheStrategy val="T"/>
+      <ForceRecordSuffix val="N"/>
+      <TransactionMode val="P"/>
+      <TransactionBegin val="N"/>
+      <PreloadView val="N"/>
+      <AllowEmptyDataview val="N"/>
+      <KeepCreatedContext val="N"/>
+    </TaskProperties>
+    <SIDE_WIN>
+      <AllowOptions val="N"/>
+      <AllowQuery val="Y"/>
+      <AllowModify val="Y"/>
+      <AllowCreate val="Y"/>
+      <AllowDelete val="Y"/>
+      <AllowLocate val="Y"/>
+      <AllowRange val="Y"/>
+      <AllowIndexChange val="Y"/>
+      <AllowSorting val="Y"/>
+      <AllowIOFiles val="Y"/>
+      <RecordCycle val="Y"/>
+      <AllowEvents val="Y"/>
+      <AllowIndexOptimization val="Y"/>
+      <AllowLocationInQuery val="Y"/>
+      <AllowPrintingData val="N"/>
+    </SIDE_WIN>
+    <WIN>
+      <OpenTaskWindow val="N"/>
+      <CloseTaskWindow val="Y"/>
+      <ForegroundWindow val="Y"/>
+      <FlipFld val="N"/>
+      <RefreshTaskWindow ReturnValue="N"/>
+    </WIN>
+    <BOX>
+      <Direction val="V"/>
+    </BOX>
+  </Information>
+
+  <TaskLogic>
+    <LogicUnit propagate="78">
+      <Level val="R"/>
+      <Type val="M"/>
+      <Scope val="S"/>
+      <EngineDirective val="S"/>
+      <ShowMessage val="Y"/>
+      <Condition val="89"/>
+      <_TotalVariabls val="11"/>
+      <_TotalVirtuals val="11"/>
+      <Event>
+        <EventType val="S"/>
+        <PublicObject comp="-1"/>
+      </Event>
+      <LogicLines>
+        <LogicLine>
+          <DATAVIEW_SRC Type="M">
+            <Condition val="N"/>
+            <Modifier val="B"/>
+            <Direction val="C"/>
+          </DATAVIEW_SRC>
+        </LogicLine>
+        <LogicLine>
+          <Select Name="A">
+            <Column val="1"/>
+            <Type val="V"/>
+            <IsParameter val="Y"/>
+            <DIFF_UPDATE val="T"/>
+            <Condition val="Y"/>
+            <Modifier val="S"/>
+            <Direction val="C"/>
+          </Select>
+        </LogicLine>
+        <LogicLine>
+          <Select Name="B">
+            <Column val="2"/>
+            <Type val="V"/>
+            <IsParameter val="Y"/>
+            <DIFF_UPDATE val="T"/>
+            <Condition val="Y"/>
+            <Modifier val="S"/>
+            <Direction val="C"/>
+          </Select>
+        </LogicLine>
+        <LogicLine>
+          <Select Name="C">
+            <Column val="3"/>
+            <Type val="V"/>
+            <IsParameter val="Y"/>
+            <DIFF_UPDATE val="T"/>
+            <Condition val="Y"/>
+            <Modifier val="S"/>
+            <Direction val="C"/>
+          </Select>
+        </LogicLine>
+        <LogicLine>
+          <Select Name="D">
+            <Column val="4"/>
+            <Type val="V"/>
+            <IsParameter val="Y"/>
+            <DIFF_UPDATE val="T"/>
+            <Condition val="Y"/>
+            <Modifier val="S"/>
+            <Direction val="C"/>
+          </Select>
+        </LogicLine>
+        <LogicLine>
+          <Select Name="E">
+            <Column val="5"/>
+            <Type val="V"/>
+            <IsParameter val="Y"/>
+            <DIFF_UPDATE val="T"/>
+            <Condition val="Y"/>
+            <Modifier val="S"/>
+            <Direction val="C"/>
+          </Select>
+        </LogicLine>
+        <LogicLine>
+          <Select Name="F">
+            <Column val="6"/>
+            <Type val="V"/>
+            <IsParameter val="Y"/>
+            <DIFF_UPDATE val="T"/>
+            <Condition val="Y"/>
+            <Modifier val="S"/>
+            <Direction val="C"/>
+          </Select>
+        </LogicLine>
+        <LogicLine>
+          <Select Name="G">
+            <Column val="7"/>
+            <Type val="V"/>
+            <IsParameter val="Y"/>
+            <DIFF_UPDATE val="T"/>
+            <Condition val="Y"/>
+            <Modifier val="S"/>
+            <Direction val="C"/>
+          </Select>
+        </LogicLine>
+        <LogicLine>
+          <Select Name="H">
+            <Column val="8"/>
+            <Type val="V"/>
+            <IsParameter val="Y"/>
+            <DIFF_UPDATE val="T"/>
+            <Condition val="Y"/>
+            <Modifier val="S"/>
+            <Direction val="C"/>
+          </Select>
+        </LogicLine>
+        <LogicLine>
+          <Select Name="I">
+            <Column val="9"/>
+            <Type val="V"/>
+            <IsParameter val="Y"/>
+            <DIFF_UPDATE val="T"/>
+            <Condition val="Y"/>
+            <Modifier val="S"/>
+            <Direction val="C"/>
+          </Select>
+        </LogicLine>
+        <LogicLine>
+          <Remark>
+            <Type val="0"/>
+            <Text val=" "/>
+          </Remark>
+        </LogicLine>
+        <LogicLine>
+          <Select Name="J">
+            <ASS val="2"/>
+            <Column val="10"/>
+            <Type val="V"/>
+            <IsParameter val="N"/>
+            <DIFF_UPDATE val="T"/>
+            <Condition val="Y"/>
+            <Modifier val="S"/>
+            <Direction val="C"/>
+          </Select>
+        </LogicLine>
+        <LogicLine>
+          <Select Name="K">
+            <ASS val="15"/>
+            <Column val="11"/>
+            <Type val="V"/>
+            <IsParameter val="N"/>
+            <DIFF_UPDATE val="T"/>
+            <Condition val="Y"/>
+            <Modifier val="S"/>
+            <Direction val="C"/>
+          </Select>
+        </LogicLine>
+      </LogicLines>
+    </LogicUnit>
+    <LogicUnit propagate="78">
+      <Level val="T"/>
+      <Type val="P"/>
+      <Scope val="S"/>
+      <EngineDirective val="S"/>
+      <ShowMessage val="Y"/>
+      <Condition val="89"/>
+      <Event>
+        <EventType val="S"/>
+        <PublicObject comp="-1"/>
+      </Event>
+      <Expanded val="1"/>
+      <LogicLines>
+        <LogicLine>
+          <Remark>
+            <Type val="2"/>
+            <Text val=" "/>
+          </Remark>
+        </LogicLine>
+        <LogicLine>
+          <Update>
+            <Variable val="E"/>
+            <WithValue val="1"/>
+            <Incremental val="N"/>
+            <ForcedUpdate val="Y"/>
+            <Condition val="Y"/>
+            <Modifier val="B"/>
+            <Direction val="C"/>
+          </Update>
+        </LogicLine>
+        <LogicLine>
+          <Remark>
+            <Type val="2"/>
+            <Text val=" "/>
+          </Remark>
+        </LogicLine>
+        <LogicLine>
+          <Remark>
+            <Type val="2"/>
+            <Text val="Defaultparameter ...."/>
+          </Remark>
+        </LogicLine>
+        <LogicLine>
+          <Update>
+            <Variable val="A"/>
+            <WithValue val="2"/>
+            <Incremental val="N"/>
+            <ForcedUpdate val="Y"/>
+            <Condition Exp="9"/>
+            <Modifier val="B"/>
+            <Direction val="C"/>
+          </Update>
+        </LogicLine>
+        <LogicLine>
+          <Update>
+            <Variable val="B"/>
+            <WithValue val="3"/>
+            <Incremental val="N"/>
+            <ForcedUpdate val="Y"/>
+            <Condition Exp="10"/>
+            <Modifier val="B"/>
+            <Direction val="C"/>
+          </Update>
+        </LogicLine>
+        <LogicLine>
+          <Update>
+            <Variable val="C"/>
+            <WithValue val="4"/>
+            <Incremental val="N"/>
+            <ForcedUpdate val="Y"/>
+            <Condition val="Y"/>
+            <Modifier val="B"/>
+            <Direction val="C"/>
+          </Update>
+        </LogicLine>
+        <LogicLine>
+          <Update>
+            <Variable val="D"/>
+            <WithValue val="5"/>
+            <Incremental val="N"/>
+            <ForcedUpdate val="Y"/>
+            <Condition val="Y"/>
+            <Modifier val="B"/>
+            <Direction val="C"/>
+          </Update>
+        </LogicLine>
+        <LogicLine>
+          <Update>
+            <Variable val="F"/>
+            <WithValue val="6"/>
+            <Incremental val="N"/>
+            <ForcedUpdate val="Y"/>
+            <Condition Exp="11"/>
+            <Modifier val="B"/>
+            <Direction val="C"/>
+          </Update>
+        </LogicLine>
+        <LogicLine>
+          <Update>
+            <Variable val="G"/>
+            <WithValue val="6"/>
+            <Incremental val="N"/>
+            <ForcedUpdate val="Y"/>
+            <Condition Exp="12"/>
+            <Modifier val="B"/>
+            <Direction val="C"/>
+          </Update>
+        </LogicLine>
+        <LogicLine>
+          <Update>
+            <Variable val="H"/>
+            <WithValue val="7"/>
+            <Incremental val="N"/>
+            <ForcedUpdate val="Y"/>
+            <Condition Exp="13"/>
+            <Modifier val="B"/>
+            <Direction val="C"/>
+          </Update>
+        </LogicLine>
+        <LogicLine>
+          <Update>
+            <Variable val="I"/>
+            <WithValue val="8"/>
+            <Incremental val="N"/>
+            <ForcedUpdate val="Y"/>
+            <Condition Exp="14"/>
+            <Modifier val="B"/>
+            <Direction val="C"/>
+          </Update>
+        </LogicLine>
+        <LogicLine>
+          <Remark>
+            <Type val="2"/>
+            <Text val=" "/>
+          </Remark>
+        </LogicLine>
+      </LogicLines>
+    </LogicUnit>
+    <LogicUnit propagate="78">
+      <Level val="R"/>
+      <Type val="S"/>
+      <Scope val="S"/>
+      <EngineDirective val="S"/>
+      <ShowMessage val="Y"/>
+      <Condition val="89"/>
+      <Event>
+        <EventType val="S"/>
+        <PublicObject comp="-1"/>
+      </Event>
+      <Expanded val="1"/>
+      <LogicLines>
+        <LogicLine>
+          <Remark>
+            <Type val="2"/>
+            <Text val=" "/>
+          </Remark>
+        </LogicLine>
+        <LogicLine>
+          <Remark>
+            <Type val="2"/>
+            <Text val=" "/>
+          </Remark>
+        </LogicLine>
+        <LogicLine>
+          <Remark>
+            <Type val="2"/>
+            <Text val=" "/>
+          </Remark>
+        </LogicLine>
+        <LogicLine>
+          <CallTask>
+            <OperationType val="T"/>
+            <TaskID obj="1"/>
+            <Lock val="N"/>
+            <Arguments>
+              <Argument>
+                <Var val="J"/>
+                <Skip val="N"/>
+              </Argument>
+              <Argument>
+                <Var val="K"/>
+                <Skip val="N"/>
+              </Argument>
+              <Argument>
+                <Var val="F"/>
+                <Skip val="N"/>
+              </Argument>
+              <Argument>
+                <Var val="G"/>
+                <Skip val="N"/>
+              </Argument>
+              <Argument>
+                <Var val="H"/>
+                <Skip val="N"/>
+              </Argument>
+              <Argument>
+                <Var val="I"/>
+                <Skip val="N"/>
+              </Argument>
+            </Arguments>
+            <Wait val="Y"/>
+            <SyncData val="N"/>
+            <RetainFocus val="N"/>
+            <Condition val="Y"/>
+            <Modifier val="S"/>
+            <Direction val="C"/>
+          </CallTask>
+        </LogicLine>
+      </LogicLines>
+    </LogicUnit>
+  </TaskLogic>
+
+  <TaskForms>
+    <FormEntry>
+      <PropertyList model="FORM_GUI0">
+        <_Comment id="218"/>
+        <FormName id="311" valUnicode="XpaTMail_001_Send"/>
+      </PropertyList>
+    </FormEntry>
+  </TaskForms>
+
+  <Expressions>
+    <Expression>
+      <ExpSyntax val="-99999"/>
+      <ExpAttribute val="N"/>
+    </Expression>
+    <Expression>
+      <ExpSyntax val="'localhost'"/>
+      <ExpAttribute val="A"/>
+    </Expression>
+    <Expression>
+      <ExpSyntax val="1"/>
+      <ExpAttribute val="N"/>
+    </Expression>
+    <Expression>
+      <ExpSyntax val="''"/>
+      <ExpAttribute val="A"/>
+    </Expression>
+    <Expression>
+      <ExpSyntax val="''"/>
+      <ExpAttribute val="A"/>
+    </Expression>
+    <Expression>
+      <ExpSyntax val="'test@example.com'"/>
+      <ExpAttribute val="A"/>
+    </Expression>
+    <Expression>
+      <ExpSyntax val="'Testmail: Subject'"/>
+      <ExpAttribute val="A"/>
+    </Expression>
+    <Expression>
+      <ExpSyntax val="'Testmail: Body'"/>
+      <ExpAttribute val="A"/>
+    </Expression>
+    <Expression>
+      <ExpSyntax val="A=''"/>
+      <ExpAttribute val="B"/>
+    </Expression>
+    <Expression>
+      <ExpSyntax val="B=0"/>
+      <ExpAttribute val="B"/>
+    </Expression>
+    <Expression>
+      <ExpSyntax val="ISNULL(F) OR F=''"/>
+      <ExpAttribute val="B"/>
+    </Expression>
+    <Expression>
+      <ExpSyntax val="ISNULL(G) OR G=''"/>
+      <ExpAttribute val="B"/>
+    </Expression>
+    <Expression>
+      <ExpSyntax val="ISNULL(H) OR H=''"/>
+      <ExpAttribute val="B"/>
+    </Expression>
+    <Expression>
+      <ExpSyntax val="ISNULL(I) OR I=''"/>
+      <ExpAttribute val="B"/>
+    </Expression>
+    <Expression>
+      <ExpSyntax val="1025"/>
+      <ExpAttribute val="N"/>
+    </Expression>
+  </Expressions>
+
+  <Task MainProgram="N">
+    <Header Description="SendMail (C#)">
+      <ExecutionRight/>
+      <Resident val="N"/>
+      <SQL val="N"/>
+      <ReturnValue>
+        <ReturnValueAttr/>
+        <TSK_PARAMS val="6"/>
+        <ParametersAttributes>
+          <Attr MgAttr="U"/>
+          <Attr MgAttr="N"/>
+          <Attr MgAttr="O"/>
+          <Attr MgAttr="O"/>
+          <Attr MgAttr="O"/>
+          <Attr MgAttr="O"/>
+        </ParametersAttributes>
+      </ReturnValue>
+      <SqlWhereExist val="N"/>
+      <TaskType val="B"/>
+      <External val="N"/>
+      <FormType val="N"/>
+      <DotNetObjectExists val="Y"/>
+      <LastModified _date="737084" _time="69383" date="25/01/2019" time="19:16:23"/>
+    </Header>
+    <Resource>
+      <Columns>
+        <Column id="7" name="sServer">
+          <PropertyList model="FIELD">
+            <Model attr_obj="FIELD_UNICODE" id="1"/>
+            <Picture id="157" valUnicode="200"/>
+            <Size id="174" val="400"/>
+            <_FieldStyle id="276" val="1"/>
+          </PropertyList>
+        </Column>
+        <Column id="10" name="iPort">
+          <PropertyList model="FIELD">
+            <Model attr_obj="FIELD_NUMERIC" id="1"/>
+            <Picture id="157" valUnicode="5"/>
+            <_Dec id="181"/>
+            <_Whole id="182" val="5"/>
+            <_Negative id="192"/>
+            <_FieldStyle id="276" val="1"/>
+          </PropertyList>
+        </Column>
+        <Column id="1" name="sTo">
+          <PropertyList model="FIELD">
+            <Model attr_obj="FIELD_BLOB" id="1"/>
+            <StoredAs id="173" val="34"/>
+            <Size id="174" val="28"/>
+            <Definition id="175" val="1"/>
+            <_FieldStyle id="276" val="1"/>
+            <Content id="434" val="2"/>
+          </PropertyList>
+        </Column>
+        <Column id="2" name="sFrom">
+          <PropertyList model="FIELD">
+            <Model attr_obj="FIELD_BLOB" id="1"/>
+            <StoredAs id="173" val="34"/>
+            <Size id="174" val="28"/>
+            <Definition id="175" val="1"/>
+            <_FieldStyle id="276" val="1"/>
+            <Content id="434" val="2"/>
+          </PropertyList>
+        </Column>
+        <Column id="3" name="sSubject">
+          <PropertyList model="FIELD">
+            <Model attr_obj="FIELD_BLOB" id="1"/>
+            <StoredAs id="173" val="34"/>
+            <Size id="174" val="28"/>
+            <Definition id="175" val="1"/>
+            <_FieldStyle id="276" val="1"/>
+            <Content id="434" val="2"/>
+          </PropertyList>
+        </Column>
+        <Column id="4" name="sBody">
+          <PropertyList model="FIELD">
+            <Model attr_obj="FIELD_BLOB" id="1"/>
+            <StoredAs id="173" val="34"/>
+            <Size id="174" val="28"/>
+            <Definition id="175" val="1"/>
+            <_FieldStyle id="276" val="1"/>
+            <Content id="434" val="2"/>
+          </PropertyList>
+        </Column>
+        <Column id="9" name="sReturnvalue">
+          <PropertyList model="FIELD">
+            <Model attr_obj="FIELD_BLOB" id="1"/>
+            <StoredAs id="173" val="34"/>
+            <Size id="174" val="28"/>
+            <Definition id="175" val="1"/>
+            <_FieldStyle id="276" val="1"/>
+            <Content id="434" val="2"/>
+          </PropertyList>
+        </Column>
+      </Columns>
+    </Resource>
+    <Information>
+      <Key>
+        <Mode val="N"/>
+      </Key>
+      <DB/>
+      <Sort>
+        <CLS val="A"/>
+      </Sort>
+      <ForceRecordDelete DEL="N"/>
+      <EndTaskCondition val="Y"/>
+      <EvaluateEndCondition val="A"/>
+      <InitialMode val="M"/>
+      <Locate Direction="A"/>
+      <Range Direction="A"/>
+      <TaskProperties>
+        <SelectionTable val="N"/>
+        <ConfirmUpdate CNFU="N"/>
+        <ConfirmCancel val="N"/>
+        <ErrorStrategy val="A"/>
+        <LockingStrategy val="I"/>
+        <CacheStrategy val="N"/>
+        <ForceRecordSuffix val="N"/>
+        <TransactionMode val="W"/>
+        <TransactionBegin val="T"/>
+        <PreloadView val="N"/>
+        <AllowEmptyDataview val="N"/>
+        <KeepCreatedContext val="N"/>
+      </TaskProperties>
+      <SIDE_WIN>
+        <AllowOptions val="N"/>
+        <AllowQuery val="Y"/>
+        <AllowModify val="Y"/>
+        <AllowCreate val="Y"/>
+        <AllowDelete val="Y"/>
+        <AllowLocate val="Y"/>
+        <AllowRange val="Y"/>
+        <AllowIndexChange val="Y"/>
+        <AllowSorting val="Y"/>
+        <AllowIOFiles val="Y"/>
+        <RecordCycle val="Y"/>
+        <AllowEvents val="Y"/>
+        <AllowIndexOptimization val="Y"/>
+        <AllowLocationInQuery val="Y"/>
+        <AllowPrintingData val="N"/>
+      </SIDE_WIN>
+      <WIN>
+        <OpenTaskWindow val="N"/>
+        <CloseTaskWindow val="Y"/>
+        <ForegroundWindow val="Y"/>
+        <FlipFld val="N"/>
+        <RefreshTaskWindow ReturnValue="N"/>
+      </WIN>
+      <BOX>
+        <Direction val="V"/>
+      </BOX>
+    </Information>
+    <TaskLogic>
+      <LogicUnit propagate="78">
+        <Level val="R"/>
+        <Type val="M"/>
+        <Scope val="S"/>
+        <EngineDirective val="S"/>
+        <ShowMessage val="Y"/>
+        <Condition val="89"/>
+        <_TotalVariabls val="7"/>
+        <_TotalVirtuals val="7"/>
+        <Event>
+          <EventType val="S"/>
+          <PublicObject comp="-1"/>
+        </Event>
+        <LogicLines>
+          <LogicLine>
+            <DATAVIEW_SRC Type="M">
+              <Condition val="N"/>
+              <Modifier val="B"/>
+              <Direction val="C"/>
+            </DATAVIEW_SRC>
+          </LogicLine>
+          <LogicLine>
+            <Select Name="L">
+              <Column val="1"/>
+              <Type val="V"/>
+              <IsParameter val="Y"/>
+              <DIFF_UPDATE val="T"/>
+              <Condition val="Y"/>
+              <Modifier val="S"/>
+              <Direction val="C"/>
+            </Select>
+          </LogicLine>
+          <LogicLine>
+            <Select Name="M">
+              <Column val="2"/>
+              <Type val="V"/>
+              <IsParameter val="Y"/>
+              <DIFF_UPDATE val="T"/>
+              <Condition val="Y"/>
+              <Modifier val="S"/>
+              <Direction val="C"/>
+            </Select>
+          </LogicLine>
+          <LogicLine>
+            <Select Name="N">
+              <Column val="3"/>
+              <Type val="V"/>
+              <IsParameter val="Y"/>
+              <DIFF_UPDATE val="T"/>
+              <Condition val="Y"/>
+              <Modifier val="S"/>
+              <Direction val="C"/>
+            </Select>
+          </LogicLine>
+          <LogicLine>
+            <Select Name="O">
+              <Column val="4"/>
+              <Type val="V"/>
+              <IsParameter val="Y"/>
+              <DIFF_UPDATE val="T"/>
+              <Condition val="Y"/>
+              <Modifier val="S"/>
+              <Direction val="C"/>
+            </Select>
+          </LogicLine>
+          <LogicLine>
+            <Select Name="P">
+              <Column val="5"/>
+              <Type val="V"/>
+              <IsParameter val="Y"/>
+              <DIFF_UPDATE val="T"/>
+              <Condition val="Y"/>
+              <Modifier val="S"/>
+              <Direction val="C"/>
+            </Select>
+          </LogicLine>
+          <LogicLine>
+            <Select Name="Q">
+              <Column val="6"/>
+              <Type val="V"/>
+              <IsParameter val="Y"/>
+              <DIFF_UPDATE val="T"/>
+              <Condition val="Y"/>
+              <Modifier val="S"/>
+              <Direction val="C"/>
+            </Select>
+          </LogicLine>
+          <LogicLine>
+            <Remark>
+              <Type val="0"/>
+              <Text val=" "/>
+            </Remark>
+          </LogicLine>
+          <LogicLine>
+            <Select Name="R">
+              <Column val="7"/>
+              <Type val="V"/>
+              <IsParameter val="N"/>
+              <DIFF_UPDATE val="T"/>
+              <Condition val="Y"/>
+              <Modifier val="S"/>
+              <Direction val="C"/>
+            </Select>
+          </LogicLine>
+          <LogicLine>
+            <Remark>
+              <Type val="0"/>
+              <Text val=" "/>
+            </Remark>
+          </LogicLine>
+        </LogicLines>
+      </LogicUnit>
+      <LogicUnit propagate="78">
+        <Level val="R"/>
+        <Type val="S"/>
+        <Scope val="S"/>
+        <EngineDirective val="S"/>
+        <ShowMessage val="Y"/>
+        <Condition val="89"/>
+        <Event>
+          <EventType val="S"/>
+          <PublicObject comp="-1"/>
+        </Event>
+        <Expanded val="1"/>
+        <LogicLines>
+          <LogicLine>
+            <Remark>
+              <Type val="2"/>
+              <Text val=" "/>
+            </Remark>
+          </LogicLine>
+          <LogicLine>
+            <Invoke>
+              <OperationType val="."/>
+              <TaskID/>
+              <Lock val="Y"/>
+              <Arguments>
+                <Argument>
+                  <Var val="R"/>
+                  <Skip val="N"/>
+                  <DotNetType val="System.String"/>
+                </Argument>
+                <Argument>
+                  <Var val="L"/>
+                  <Skip val="N"/>
+                  <Name val="sServer"/>
+                  <DotNetType val="System.String"/>
+                </Argument>
+                <Argument>
+                  <Var val="M"/>
+                  <Skip val="N"/>
+                  <Name val="wPort"/>
+                  <DotNetType val="System.Int32"/>
+                </Argument>
+                <Argument>
+                  <Var val="N"/>
+                  <Skip val="N"/>
+                  <Name val="sTo"/>
+                  <DotNetType val="System.String"/>
+                </Argument>
+                <Argument>
+                  <Var val="O"/>
+                  <Skip val="N"/>
+                  <Name val="sFrom"/>
+                  <DotNetType val="System.String"/>
+                </Argument>
+                <Argument>
+                  <Var val="P"/>
+                  <Skip val="N"/>
+                  <Name val="sSubject"/>
+                  <VT_Type val="4"/>
+                  <DotNetType val="System.String"/>
+                </Argument>
+                <Argument>
+                  <Var val="Q"/>
+                  <Skip val="N"/>
+                  <Name val="sBody"/>
+                  <VT_Type val="4"/>
+                  <DotNetType val="System.String"/>
+                </Argument>
+              </Arguments>
+              <Wait val="Y"/>
+              <SyncData val="N"/>
+              <RETDVAL val="R"/>
+              <FunctionName val="SendMail"/>
+              <SnippetCode val="using System;&#xA;using System.Net.Mail;&#xA;&#xA;public static class Snippet&#xA;{&#xA;&#x9;public static System.String SendMail(System.String sServer, System.Int32 wPort, System.String sTo, System.String sFrom, ref System.String sSubject, ref System.String sBody)&#xA;&#x9;{&#xA;&#x9;&#x9;String sRetval = &quot;&quot;;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;try {&#xA;&#x9;&#x9;&#x9;MailMessage message = new MailMessage(sFrom, sTo);&#xA;&#x9;&#x9;&#x9;message.Subject = sSubject;&#xA;&#x9;&#x9;&#x9;message.Body = sBody;&#xA;&#x9;&#xA;&#x9;&#x9;&#x9;SmtpClient client = new SmtpClient(sServer, wPort);&#xA;&#x9;&#x9;&#x9;&#xA;&#x9;&#x9;&#x9;// Credentials are necessary if the server requires the client &#xA;&#x9;&#x9;&#x9;// to authenticate before it will send email on the client's behalf.&#xA;&#x9;&#x9;&#x9;client.UseDefaultCredentials = true;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;&#x9;client.Send(message);&#xA;&#x9;&#x9;}  &#xA;&#x9;&#x9;catch (Exception ex) {&#xA;&#x9;&#x9;&#x9;sRetval = ex.ToString();&#x9;&#x9;&#x9;  &#xA;&#x9;&#x9;}&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;return sRetval;&#xA;&#x9;}&#xA;}"/>
+              <CompiledCode val="TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA4fug4AtAnNIbgBTM0hVGhpcyBwcm9ncmFtIGNhbm5vdCBiZSBydW4gaW4gRE9TIG1vZGUuDQ0KJAAAAAAAAABQRQAATAEDAHNSS1wAAAAAAAAAAOAAAiELAQsAAAYAAAAGAAAAAAAAfiQAAAAgAAAAQAAAAAAAEAAgAAAAAgAABAAAAAAAAAAEAAAAAAAAAACAAAAAAgAAAAAAAAMAQIUAABAAABAAAAAAEAAAEAAAAAAAABAAAAAAAAAAAAAAACgkAABTAAAAAEAAAKgCAAAAAAAAAAAAAAAAAAAAAAAAAGAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAACAAAAAAAAAAAAAAACCAAAEgAAAAAAAAAAAAAAC50ZXh0AAAAhAQAAAAgAAAABgAAAAIAAAAAAAAAAAAAAAAAACAAAGAucnNyYwAAAKgCAAAAQAAAAAQAAAAIAAAAAAAAAAAAAAAAAABAAABALnJlbG9jAAAMAAAAAGAAAAACAAAADAAAAAAAAAAAAAAAAAAAQAAAQgAAAAAAAAAAAAAAAAAAAABgJAAAAAAAAEgAAAACAAUAsCAAAHgDAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABswAgBEAAAAAQAAEXIBAABwCgUEcwMAAAoLBw4EUG8EAAAKBw4FUG8FAAAKAgNzBgAACgwIF28HAAAKCAdvCAAACt4KDQlvCQAACgreAAYqARAAAAAABgAyOAAKBgAAAUJTSkIBAAEAAAAAAAwAAAB2NC4wLjMwMzE5AAAAAAUAbAAAAEABAAAjfgAArAEAAEQBAAAjU3RyaW5ncwAAAADwAgAABAAAACNVUwD0AgAAEAAAACNHVUlEAAAABAMAAHQAAAAjQmxvYgAAAAAAAAACAAABRxUCAAkAAAAA+iUzABYAAAEAAAAGAAAAAgAAAAEAAAAGAAAACQAAAAIAAAABAAAAAQAAAAIAAAAAAAoAAQAAAAAABgAvACgABgCGAGYABgCsAGYACgDjANMACgAEAdMABgA3ASgAAAAAAAEAAAAAAAEAAQCBARAAFwAAAAUAAQABAFAgAAAAAJYANgAKAAEAAAABAD8AAAACAEcAAAADAE0AAAAEAFEAAAAFAFcAAAAGAGAAEQCmABYAGQCmABsAIQCmAB8AIQDvACUAIQD7ACUAKQCmACoAKQAPATAAKQApATUACQAuATsALgALAEkALgATAFIAPwAEgAAAAAAAAAAAAAAAAAAAAADKAAAABAAAAAAAAAAAAAAAAQAfAAAAAAAEAAAAAAAAAAAAAAABACgAAAAAAAAAADxNb2R1bGU+ADBqMGZmem4wLmRsbABTbmlwcGV0AG1zY29ybGliAFN5c3RlbQBPYmplY3QAU2VuZE1haWwAc1NlcnZlcgB3UG9ydABzVG8Ac0Zyb20Ac1N1YmplY3QAc0JvZHkAU3lzdGVtLlJ1bnRpbWUuQ29tcGlsZXJTZXJ2aWNlcwBDb21waWxhdGlvblJlbGF4YXRpb25zQXR0cmlidXRlAC5jdG9yAFJ1bnRpbWVDb21wYXRpYmlsaXR5QXR0cmlidXRlADBqMGZmem4wAFN5c3RlbS5OZXQuTWFpbABNYWlsTWVzc2FnZQBzZXRfU3ViamVjdABzZXRfQm9keQBTbXRwQ2xpZW50AHNldF9Vc2VEZWZhdWx0Q3JlZGVudGlhbHMAU2VuZABUb1N0cmluZwBFeGNlcHRpb24AAAAAAAEAAO3AmT+pba5BsIiKd+qOQzAACLd6XFYZNOCJCwAGDg4IDg4QDhAOBCABAQgDIAABBSACAQ4OBCABAQ4FIAIBDggEIAEBAgUgAQESEQMgAA4JBwQOEhESFRIZCAEACAAAAAAAHgEAAQBUAhZXcmFwTm9uRXhjZXB0aW9uVGhyb3dzAQAAAFAkAAAAAAAAAAAAAG4kAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgJAAAAAAAAAAAAAAAAAAAAABfQ29yRGxsTWFpbgBtc2NvcmVlLmRsbAAAAAAA/yUAIAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAEAAAABgAAIAAAAAAAAAAAAAAAAAAAAEAAQAAADAAAIAAAAAAAAAAAAAAAAAAAAEAAAAAAEgAAABYQAAATAIAAAAAAAAAAAAATAI0AAAAVgBTAF8AVgBFAFIAUwBJAE8ATgBfAEkATgBGAE8AAAAAAL0E7/4AAAEAAAAAAAAAAAAAAAAAAAAAAD8AAAAAAAAABAAAAAIAAAAAAAAAAAAAAAAAAABEAAAAAQBWAGEAcgBGAGkAbABlAEkAbgBmAG8AAAAAACQABAAAAFQAcgBhAG4AcwBsAGEAdABpAG8AbgAAAAAAAACwBKwBAAABAFMAdAByAGkAbgBnAEYAaQBsAGUASQBuAGYAbwAAAIgBAAABADAAMAAwADAAMAA0AGIAMAAAACwAAgABAEYAaQBsAGUARABlAHMAYwByAGkAcAB0AGkAbwBuAAAAAAAgAAAAMAAIAAEARgBpAGwAZQBWAGUAcgBzAGkAbwBuAAAAAAAwAC4AMAAuADAALgAwAAAAPAANAAEASQBuAHQAZQByAG4AYQBsAE4AYQBtAGUAAAAwAGoAMABmAGYAegBuADAALgBkAGwAbAAAAAAAKAACAAEATABlAGcAYQBsAEMAbwBwAHkAcgBpAGcAaAB0AAAAIAAAAEQADQABAE8AcgBpAGcAaQBuAGEAbABGAGkAbABlAG4AYQBtAGUAAAAwAGoAMABmAGYAegBuADAALgBkAGwAbAAAAAAANAAIAAEAUAByAG8AZAB1AGMAdABWAGUAcgBzAGkAbwBuAAAAMAAuADAALgAwAC4AMAAAADgACAABAEEAcwBzAGUAbQBiAGwAeQAgAFYAZQByAHMAaQBvAG4AAAAwAC4AMAAuADAALgAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAwAAACANAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="/>
+              <SnippetLanguage val="C"/>
+              <ForCompactFramework val="N"/>
+              <isGuiThreadExecution val="N"/>
+              <CompileTime HighDateTime="30717146" LowDateTime="299928361"/>
+              <RetainFocus val="Y"/>
+              <Condition val="Y"/>
+              <Modifier val="S"/>
+              <Direction val="C"/>
+            </Invoke>
+          </LogicLine>
+          <LogicLine>
+            <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" Exp="1" IMG_DEF_CHG="N" Image="C" Mode="E" TTL_DEF_CHG="N" TitleTxt="Error" VR_DISP="B">
+              <AppendToErrorLog val="Y"/>
+              <Condition Exp="2"/>
+              <Modifier val="B"/>
+              <Direction val="C"/>
+            </STP>
+          </LogicLine>
+        </LogicLines>
+      </LogicUnit>
+    </TaskLogic>
+    <TaskForms>
+      <FormEntry>
+        <PropertyList model="FORM_GUI0">
+          <_Comment id="218"/>
+          <FormName id="311" valUnicode="SendMail (C#)"/>
+        </PropertyList>
+      </FormEntry>
+    </TaskForms>
+    <Expressions>
+      <Expression>
+        <ExpSyntax val="R"/>
+        <ExpAttribute val="O"/>
+      </Expression>
+      <Expression>
+        <ExpSyntax val="Len(Trim(R))>0"/>
+        <ExpAttribute val="B"/>
+      </Expression>
+    </Expressions>
+  </Task>
+
+</Task>
+</Programs>
+</ProgramsRepository>
+
+<MenusRepository>
+
+  <Menus>
+    <Menu>
+      <MenuType val="4"/>
+      <ToolNumber val="1"/>
+      <Name val="Default Pulldown menu"/>
+      <MenuEntry>
+        <MenuType val="1"/>
+        <Description_U val="&amp;File"/>
+        <Right/>
+        <Help/>
+        <Prompt/>
+        <Menu>
+          <MenuType val="1"/>
+          <MenuEntry>
+            <MenuType val="3"/>
+            <Flags val="1088"/>
+            <Description_U val="&amp;Open Application"/>
+            <Right/>
+            <Help/>
+            <Prompt/>
+            <Event>
+              <EventType val="I"/>
+              <InternalEventID val="23"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <Tool>
+              <ToolNumber val="1"/>
+            </Tool>
+          </MenuEntry>
+          <MenuEntry>
+            <MenuType val="3"/>
+            <Flags val="1088"/>
+            <Description_U val="&amp;Close Application"/>
+            <Right/>
+            <Help/>
+            <Prompt/>
+            <Event>
+              <EventType val="I"/>
+              <InternalEventID val="24"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <Tool>
+              <ToolNumber val="21"/>
+            </Tool>
+          </MenuEntry>
+          <MenuEntry>
+            <MenuType val="5"/>
+          </MenuEntry>
+          <MenuEntry>
+            <MenuType val="3"/>
+            <Flags val="1024"/>
+            <Description_U val="Printer &amp;Setup"/>
+            <Right/>
+            <Help/>
+            <Prompt/>
+            <Event>
+              <EventType val="I"/>
+              <InternalEventID val="162"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <Tool>
+              <ToolNumber val="153"/>
+              <ToolGroup val="999"/>
+            </Tool>
+          </MenuEntry>
+          <MenuEntry>
+            <MenuType val="5"/>
+          </MenuEntry>
+          <MenuEntry>
+            <MenuType val="3"/>
+            <Description_U val="E&amp;xit"/>
+            <Right/>
+            <Help/>
+            <Prompt/>
+            <Event>
+              <EventType val="I"/>
+              <InternalEventID val="28"/>
+              <PublicObject comp="-1"/>
+            </Event>
+          </MenuEntry>
+        </Menu>
+      </MenuEntry>
+      <MenuEntry>
+        <MenuType val="1"/>
+        <Description_U val="&amp;Edit"/>
+        <Right/>
+        <Help/>
+        <Prompt/>
+        <Menu>
+          <MenuType val="1"/>
+          <MenuEntry>
+            <MenuType val="3"/>
+            <Description_U val="C&amp;ancel"/>
+            <Right/>
+            <Help/>
+            <Prompt/>
+            <Event>
+              <EventType val="I"/>
+              <InternalEventID val="33"/>
+              <PublicObject comp="-1"/>
+            </Event>
+          </MenuEntry>
+          <MenuEntry>
+            <MenuType val="3"/>
+            <Flags val="1024"/>
+            <Description_U val="&amp;Undo Editing"/>
+            <Right/>
+            <Help/>
+            <Prompt/>
+            <Event>
+              <EventType val="I"/>
+              <InternalEventID val="180"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <Tool>
+              <ToolNumber val="115"/>
+              <ToolGroup val="999"/>
+            </Tool>
+          </MenuEntry>
+          <MenuEntry>
+            <MenuType val="5"/>
+          </MenuEntry>
+          <MenuEntry>
+            <MenuType val="3"/>
+            <Flags val="1024"/>
+            <Description_U val="Cu&amp;t"/>
+            <Right/>
+            <Help/>
+            <Prompt/>
+            <Event>
+              <EventType val="I"/>
+              <InternalEventID val="11"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <Tool>
+              <ToolNumber val="78"/>
+              <ToolGroup val="999"/>
+            </Tool>
+          </MenuEntry>
+          <MenuEntry>
+            <MenuType val="3"/>
+            <Flags val="1024"/>
+            <Description_U val="&amp;Copy"/>
+            <Right/>
+            <Help/>
+            <Prompt/>
+            <Event>
+              <EventType val="I"/>
+              <InternalEventID val="239"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <Tool>
+              <ToolNumber val="79"/>
+              <ToolGroup val="999"/>
+            </Tool>
+          </MenuEntry>
+          <MenuEntry>
+            <MenuType val="3"/>
+            <Flags val="1024"/>
+            <Description_U val="&amp;Paste"/>
+            <Right/>
+            <Help/>
+            <Prompt/>
+            <Event>
+              <EventType val="I"/>
+              <InternalEventID val="240"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <Tool>
+              <ToolNumber val="80"/>
+              <ToolGroup val="999"/>
+            </Tool>
+          </MenuEntry>
+          <MenuEntry>
+            <MenuType val="5"/>
+          </MenuEntry>
+          <MenuEntry>
+            <MenuType val="3"/>
+            <Flags val="1024"/>
+            <Description_U val="C&amp;reate Line"/>
+            <Right/>
+            <Help/>
+            <Prompt/>
+            <Event>
+              <EventType val="I"/>
+              <InternalEventID val="37"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <Tool>
+              <ToolNumber val="195"/>
+              <ToolGroup val="999"/>
+            </Tool>
+          </MenuEntry>
+          <MenuEntry>
+            <MenuType val="3"/>
+            <Flags val="1024"/>
+            <Description_U val="&amp;Delete Line"/>
+            <Right/>
+            <Help/>
+            <Prompt/>
+            <Event>
+              <EventType val="I"/>
+              <InternalEventID val="36"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <Tool>
+              <ToolNumber val="196"/>
+              <ToolGroup val="999"/>
+            </Tool>
+          </MenuEntry>
+          <MenuEntry>
+            <MenuType val="3"/>
+            <Flags val="1024"/>
+            <Description_U val="S&amp;elect All"/>
+            <Right/>
+            <Help/>
+            <Prompt/>
+            <Event>
+              <EventType val="I"/>
+              <InternalEventID val="286"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <Tool>
+              <ToolNumber val="194"/>
+              <ToolGroup val="999"/>
+            </Tool>
+          </MenuEntry>
+          <MenuEntry>
+            <MenuType val="5"/>
+          </MenuEntry>
+          <MenuEntry>
+            <MenuType val="3"/>
+            <Flags val="1024"/>
+            <Description_U val="&amp;Zoom"/>
+            <Right/>
+            <Help/>
+            <Prompt/>
+            <Event>
+              <EventType val="I"/>
+              <InternalEventID val="34"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <Tool>
+              <ToolNumber val="199"/>
+              <ToolGroup val="999"/>
+            </Tool>
+          </MenuEntry>
+          <MenuEntry>
+            <MenuType val="3"/>
+            <Flags val="1024"/>
+            <Description_U val="&amp;Wide"/>
+            <Right/>
+            <Help/>
+            <Prompt/>
+            <Event>
+              <EventType val="I"/>
+              <InternalEventID val="35"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <Tool>
+              <ToolNumber val="198"/>
+              <ToolGroup val="999"/>
+            </Tool>
+          </MenuEntry>
+          <MenuEntry>
+            <MenuType val="5"/>
+          </MenuEntry>
+          <MenuEntry>
+            <MenuType val="3"/>
+            <Flags val="1024"/>
+            <Description_U val="D&amp;itto"/>
+            <Right/>
+            <Help/>
+            <Prompt/>
+            <Event>
+              <EventType val="I"/>
+              <InternalEventID val="77"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <Tool>
+              <ToolNumber val="197"/>
+              <ToolGroup val="999"/>
+            </Tool>
+          </MenuEntry>
+          <MenuEntry>
+            <MenuType val="3"/>
+            <Flags val="1024"/>
+            <Description_U val="&amp;Set to NULL"/>
+            <Right/>
+            <Help/>
+            <Prompt/>
+            <Event>
+              <EventType val="I"/>
+              <InternalEventID val="209"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <Tool>
+              <ToolNumber val="200"/>
+              <ToolGroup val="999"/>
+            </Tool>
+          </MenuEntry>
+        </Menu>
+      </MenuEntry>
+      <MenuEntry>
+        <MenuType val="1"/>
+        <Description_U val="&amp;Options"/>
+        <Right/>
+        <Help/>
+        <Prompt/>
+        <Menu>
+          <MenuType val="1"/>
+          <MenuEntry>
+            <MenuType val="3"/>
+            <Flags val="1088"/>
+            <Description_U val="&amp;Modify Records"/>
+            <Right/>
+            <Help/>
+            <Prompt/>
+            <Event>
+              <EventType val="I"/>
+              <InternalEventID val="30"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <Tool>
+              <ToolNumber val="23"/>
+              <ToolGroup val="1"/>
+            </Tool>
+          </MenuEntry>
+          <MenuEntry>
+            <MenuType val="3"/>
+            <Flags val="1088"/>
+            <Description_U val="&amp;Create Records"/>
+            <Right/>
+            <Help/>
+            <Prompt/>
+            <Event>
+              <EventType val="I"/>
+              <InternalEventID val="31"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <Tool>
+              <ToolNumber val="24"/>
+              <ToolGroup val="1"/>
+            </Tool>
+          </MenuEntry>
+          <MenuEntry>
+            <MenuType val="3"/>
+            <Flags val="1088"/>
+            <Description_U val="&amp;Query Records"/>
+            <Right/>
+            <Help/>
+            <Prompt/>
+            <Event>
+              <EventType val="I"/>
+              <InternalEventID val="32"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <Tool>
+              <ToolNumber val="25"/>
+              <ToolGroup val="1"/>
+            </Tool>
+          </MenuEntry>
+          <MenuEntry>
+            <MenuType val="5"/>
+          </MenuEntry>
+          <MenuEntry>
+            <MenuType val="3"/>
+            <Flags val="1088"/>
+            <Description_U val="&amp;Locate"/>
+            <Right/>
+            <Help/>
+            <Prompt/>
+            <Event>
+              <EventType val="I"/>
+              <InternalEventID val="122"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <Tool>
+              <ToolNumber val="26"/>
+              <ToolGroup val="2"/>
+            </Tool>
+          </MenuEntry>
+          <MenuEntry>
+            <MenuType val="3"/>
+            <Flags val="1088"/>
+            <Description_U val="Locate &amp;Next"/>
+            <Right/>
+            <Help/>
+            <Prompt/>
+            <Event>
+              <EventType val="I"/>
+              <InternalEventID val="165"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <Tool>
+              <ToolNumber val="27"/>
+              <ToolGroup val="2"/>
+            </Tool>
+          </MenuEntry>
+          <MenuEntry>
+            <MenuType val="3"/>
+            <Flags val="1088"/>
+            <Description_U val="&amp;Range of Records"/>
+            <Right/>
+            <Help/>
+            <Prompt/>
+            <Event>
+              <EventType val="I"/>
+              <InternalEventID val="123"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <Tool>
+              <ToolNumber val="28"/>
+              <ToolGroup val="2"/>
+            </Tool>
+          </MenuEntry>
+          <MenuEntry>
+            <MenuType val="3"/>
+            <Flags val="1088"/>
+            <Description_U val="&amp;View by Key"/>
+            <Right/>
+            <Help/>
+            <Prompt/>
+            <Event>
+              <EventType val="I"/>
+              <InternalEventID val="124"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <Tool>
+              <ToolNumber val="29"/>
+              <ToolGroup val="2"/>
+            </Tool>
+          </MenuEntry>
+          <MenuEntry>
+            <MenuType val="3"/>
+            <Flags val="1088"/>
+            <Description_U val="Sor&amp;t Records"/>
+            <Right/>
+            <Help/>
+            <Prompt/>
+            <Event>
+              <EventType val="I"/>
+              <InternalEventID val="125"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <Tool>
+              <ToolNumber val="30"/>
+              <ToolGroup val="2"/>
+            </Tool>
+          </MenuEntry>
+          <MenuEntry>
+            <MenuType val="3"/>
+            <Flags val="1024"/>
+            <Description_U val="&amp;Print Data"/>
+            <Right/>
+            <Help/>
+            <Prompt/>
+            <Event>
+              <EventType val="I"/>
+              <InternalEventID val="160"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <Tool>
+              <ToolNumber val="193"/>
+              <ToolGroup val="999"/>
+            </Tool>
+          </MenuEntry>
+          <MenuEntry>
+            <MenuType val="5"/>
+          </MenuEntry>
+          <MenuEntry>
+            <MenuType val="3"/>
+            <Flags val="1088"/>
+            <Description_U val="Begin Table"/>
+            <Right/>
+            <Help/>
+            <Prompt/>
+            <Event>
+              <EventType val="I"/>
+              <InternalEventID val="72"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <Tool>
+              <ToolNumber val="32"/>
+              <ToolGroup val="4"/>
+            </Tool>
+          </MenuEntry>
+          <MenuEntry>
+            <MenuType val="3"/>
+            <Flags val="1088"/>
+            <Description_U val="Previous Screen"/>
+            <Right/>
+            <Help/>
+            <Prompt/>
+            <Event>
+              <EventType val="I"/>
+              <InternalEventID val="66"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <Tool>
+              <ToolNumber val="34"/>
+              <ToolGroup val="4"/>
+            </Tool>
+          </MenuEntry>
+          <MenuEntry>
+            <MenuType val="3"/>
+            <Flags val="1088"/>
+            <Description_U val="Previous Row"/>
+            <Right/>
+            <Help/>
+            <Prompt/>
+            <Event>
+              <EventType val="I"/>
+              <InternalEventID val="64"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <Tool>
+              <ToolNumber val="36"/>
+              <ToolGroup val="4"/>
+            </Tool>
+          </MenuEntry>
+          <MenuEntry>
+            <MenuType val="3"/>
+            <Flags val="1088"/>
+            <Description_U val="Next Row"/>
+            <Right/>
+            <Help/>
+            <Prompt/>
+            <Event>
+              <EventType val="I"/>
+              <InternalEventID val="65"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <Tool>
+              <ToolNumber val="37"/>
+              <ToolGroup val="4"/>
+            </Tool>
+          </MenuEntry>
+          <MenuEntry>
+            <MenuType val="3"/>
+            <Flags val="1088"/>
+            <Description_U val="Next Screen"/>
+            <Right/>
+            <Help/>
+            <Prompt/>
+            <Event>
+              <EventType val="I"/>
+              <InternalEventID val="67"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <Tool>
+              <ToolNumber val="35"/>
+              <ToolGroup val="4"/>
+            </Tool>
+          </MenuEntry>
+          <MenuEntry>
+            <MenuType val="3"/>
+            <Flags val="1088"/>
+            <Description_U val="End Table"/>
+            <Right/>
+            <Help/>
+            <Prompt/>
+            <Event>
+              <EventType val="I"/>
+              <InternalEventID val="73"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <Tool>
+              <ToolNumber val="33"/>
+              <ToolGroup val="4"/>
+            </Tool>
+          </MenuEntry>
+        </Menu>
+      </MenuEntry>
+      <MenuEntry>
+        <MenuType val="1"/>
+        <Description_U val="&amp;Window"/>
+        <Right/>
+        <Help/>
+        <Prompt/>
+        <Menu>
+          <MenuType val="1"/>
+          <MenuEntry>
+            <MenuType val="3"/>
+            <Flags val="1024"/>
+            <Description_U val="Close &amp;All"/>
+            <Right/>
+            <Help/>
+            <Prompt/>
+            <Event>
+              <EventType val="I"/>
+              <InternalEventID val="370"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <Tool>
+              <ToolNumber val="208"/>
+              <ToolGroup val="999"/>
+            </Tool>
+          </MenuEntry>
+          <MenuEntry>
+            <MenuType val="5"/>
+          </MenuEntry>
+          <MenuEntry>
+            <MenuType val="3"/>
+            <Flags val="1024"/>
+            <Description_U val="&amp;Next Window"/>
+            <Right/>
+            <Help/>
+            <Prompt/>
+            <Event>
+              <EventType val="I"/>
+              <InternalEventID val="462"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <Tool>
+              <ToolNumber val="206"/>
+              <ToolGroup val="999"/>
+            </Tool>
+          </MenuEntry>
+          <MenuEntry>
+            <MenuType val="3"/>
+            <Flags val="1024"/>
+            <Description_U val="&amp;Previous Window"/>
+            <Right/>
+            <Help/>
+            <Prompt/>
+            <Event>
+              <EventType val="I"/>
+              <InternalEventID val="463"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <Tool>
+              <ToolNumber val="205"/>
+              <ToolGroup val="999"/>
+            </Tool>
+          </MenuEntry>
+          <MenuEntry>
+            <MenuType val="5"/>
+          </MenuEntry>
+          <MenuEntry>
+            <MenuType val="7"/>
+            <Right/>
+            <Help/>
+            <Prompt/>
+          </MenuEntry>
+        </Menu>
+      </MenuEntry>
+    </Menu>
+  </Menus>
+
+</MenusRepository>
+<ProjectProperties>
+
+  <ProjectData>
+    <GUID val="{977B51F4-A209-4703-8ECB-740F617BE794}"/>
+    <RemoteFlowMonitorRight/>
+    <Programs/>
+    <NulArithmetic val="N"/>
+    <WindowSortBy val="R"/>
+    <_SystemPulldownMenu obj="1"/>
+    <_SystemContextMenu/>
+    <ExposeComment val="N"/>
+    <ProjectName val="XpaTMail"/>
+  </ProjectData>
+
+</ProjectProperties>
+</Application>

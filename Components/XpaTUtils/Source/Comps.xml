@@ -5,22 +5,187 @@
     <Version val="13030.00"/>
     <WithIsn val="Y"/>
     <Exe comp="-1"/>
-    <LastIsn val="1"/>
+    <LastIsn val="2"/>
     <LastIsnFolder val="0"/>
     <Folders/>
   </Header>
 
   <ComponentsRepository>
     <Components>
-      <Component id="1" name="UserFunctionality">
-        <Description val="Handles the Range, Locate, Sort and Print Data internal events"/>
+      <Component id="2" name="DatabaseComp">
         <ComponentType val="Magic xpa"/>
         <Type val="U"/>
         <LoadImmediate val="Y"/>
-        <Comment val="This component provides an interface for the user to perform Range, Locate, Sort and Print Data.The component does not expose any object. It has logic units for handling the Range, Locate, Sort and Print Data internal events.The source code for this component is available in the Add_On\UserFunctionality directory, so you can customize the screens of the component as you wish."/>
-        <CompId val="738976342-28670-18720-BFE77D42E"/>
-        <MciFile val="C:\magic\Magic XPA 3.3\Add_On\UserFunctionality\UserFunctionality.eci"/>
-        <CABINET_FILE val="%EngineDir%Add_On\UserFunctionality\UserFunctionality.ecf"/>
+        <LastISN val="32"/>
+        <CompId val="3268370059-58198-18916-A94554F61"/>
+        <Revision val="1.0"/>
+        <MciFile val="D:\Magic.Projects\XpaDemo\dev\Components\DatabaseComp\DatabaseComp.eci"/>
+        <ProjectFile val="D:\XpaDemo\Components\DatabaseComp\DatabaseComp.edp"/>
+        <CABINET_FILE val="D:\Magic.Projects\XpaDemo\dev\Components\DatabaseComp.ecf"/>
+        <ComponentModels>
+          <Object>
+            <id val="31"/>
+            <ItemIsn val="1"/>
+            <PublicName val="Filename (Path)"/>
+          </Object>
+          <Object>
+            <id val="32"/>
+            <ItemIsn val="2"/>
+            <PublicName val="CommandLine"/>
+          </Object>
+          <Object>
+            <id val="37"/>
+            <ItemIsn val="3"/>
+            <PublicName val="Uri"/>
+          </Object>
+          <Object>
+            <id val="38"/>
+            <ItemIsn val="4"/>
+            <PublicName val="ResponseBody(Binary)"/>
+          </Object>
+          <Object>
+            <id val="39"/>
+            <ItemIsn val="5"/>
+            <PublicName val="ResponseBody(Unicode)"/>
+          </Object>
+          <Object>
+            <id val="40"/>
+            <ItemIsn val="6"/>
+            <PublicName val="ResponseBody(Ansi)"/>
+          </Object>
+          <Object>
+            <id val="63"/>
+            <ItemIsn val="7"/>
+            <PublicName val="objid"/>
+          </Object>
+          <Object>
+            <id val="55"/>
+            <ItemIsn val="8"/>
+            <PublicName val="script_id"/>
+          </Object>
+          <Object>
+            <id val="56"/>
+            <ItemIsn val="9"/>
+            <PublicName val="script_source"/>
+          </Object>
+          <Object>
+            <id val="57"/>
+            <ItemIsn val="10"/>
+            <PublicName val="TemplateId"/>
+          </Object>
+          <Object>
+            <id val="58"/>
+            <ItemIsn val="11"/>
+            <PublicName val="TemplateSource"/>
+          </Object>
+          <Object>
+            <id val="59"/>
+            <ItemIsn val="12"/>
+            <PublicName val="Filename"/>
+          </Object>
+          <Object>
+            <id val="60"/>
+            <ItemIsn val="13"/>
+            <PublicName val="Parameter(Blob)"/>
+          </Object>
+          <Object>
+            <id val="61"/>
+            <ItemIsn val="14"/>
+            <PublicName val="Parameter(Unicode1000)"/>
+          </Object>
+          <Object>
+            <id val="62"/>
+            <ItemIsn val="15"/>
+            <PublicName val="Parameters(Vector)"/>
+          </Object>
+        </ComponentModels>
+        <ComponentDataObjects>
+          <Object>
+            <id val="16"/>
+            <ItemIsn val="16"/>
+            <PublicName val="xpatest_uris"/>
+          </Object>
+          <Object>
+            <id val="17"/>
+            <ItemIsn val="17"/>
+            <PublicName val="xpatest_templates"/>
+          </Object>
+          <Object>
+            <id val="18"/>
+            <ItemIsn val="18"/>
+            <PublicName val="xpatest_dotnet_locations"/>
+          </Object>
+          <Object>
+            <id val="33"/>
+            <ItemIsn val="19"/>
+            <PublicName val="xpatest_components"/>
+          </Object>
+          <Object>
+            <id val="20"/>
+            <ItemIsn val="20"/>
+            <PublicName val="Categories"/>
+          </Object>
+          <Object>
+            <id val="21"/>
+            <ItemIsn val="21"/>
+            <PublicName val="Tree"/>
+          </Object>
+          <Object>
+            <id val="22"/>
+            <ItemIsn val="22"/>
+            <PublicName val="OrderDetails"/>
+          </Object>
+          <Object>
+            <id val="23"/>
+            <ItemIsn val="23"/>
+            <PublicName val="Territories"/>
+          </Object>
+          <Object>
+            <id val="24"/>
+            <ItemIsn val="24"/>
+            <PublicName val="Region_"/>
+          </Object>
+          <Object>
+            <id val="25"/>
+            <ItemIsn val="25"/>
+            <PublicName val="Feedback"/>
+          </Object>
+          <Object>
+            <id val="26"/>
+            <ItemIsn val="26"/>
+            <PublicName val="Products"/>
+          </Object>
+          <Object>
+            <id val="27"/>
+            <ItemIsn val="27"/>
+            <PublicName val="Suppliers"/>
+          </Object>
+          <Object>
+            <id val="28"/>
+            <ItemIsn val="28"/>
+            <PublicName val="Customers"/>
+          </Object>
+          <Object>
+            <id val="29"/>
+            <ItemIsn val="29"/>
+            <PublicName val="Employees"/>
+          </Object>
+          <Object>
+            <id val="30"/>
+            <ItemIsn val="30"/>
+            <PublicName val="Invoices"/>
+          </Object>
+          <Object>
+            <id val="31"/>
+            <ItemIsn val="31"/>
+            <PublicName val="Shippers"/>
+          </Object>
+          <Object>
+            <id val="32"/>
+            <ItemIsn val="32"/>
+            <PublicName val="Orders"/>
+          </Object>
+        </ComponentDataObjects>
       </Component>
     </Components>
   </ComponentsRepository>

@@ -1,0 +1,399 @@
+﻿ <-1> 15/11/2018 16:39:11.440     [Error  ] - "Java Virtual Machine: Cannot be loaded (status: -1)"
+ <-1> 15/11/2018 16:39:11.945     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 15/11/2018 16:39:12.002     [Error  ] - Component Files not found : Utilities.ecf
+ <-1> 15/11/2018 16:39:12.058     [Error  ] - Component Files not found : Roslyn.ecf
+ <-1> 15/11/2018 16:39:12.115     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 15/11/2018 16:39:12.171     [Error  ] - Component Files not found : xpa-project-scan.ecf
+ <-1> 15/11/2018 16:39:12.227     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 15/11/2018 16:39:12.284     [Error  ] - Component Files not found : XpaTSoap.ecf
+ <-1> 15/11/2018 16:39:12.341     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 15/11/2018 16:39:12.398     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 15/11/2018 16:39:12.455     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 15/11/2018 16:39:12.512     [Error  ] - Component Files not found : Utilities.ecf
+ <-1> 15/11/2018 16:39:12.568     [Error  ] - Component Files not found : Roslyn.ecf
+ <-1> 15/11/2018 16:39:12.624     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 15/11/2018 16:39:12.682     [Error  ] - Component Files not found : xpa-project-scan.ecf
+ <-1> 15/11/2018 16:39:12.738     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 15/11/2018 16:39:12.796     [Error  ] - Component Files not found : XpaTSoap.ecf
+ <-1> 15/11/2018 16:39:12.852     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 15/11/2018 16:39:12.909     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 15/11/2018 16:39:13.492     [Error  ] - Java Virtual Machine: Cannot be loaded (status: -1)
+ <-1> 15/11/2018 16:39:13.516     [Error  ] - "Java Virtual Machine: Cannot be loaded (status: -1)"
+ <-1> 15/11/2018 16:39:13.615     [Error  ] - Failed to Load Assembly : "D:\XpaDemo\bin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 15/11/2018 16:39:13.673     [Error  ] - Failed to Load Assembly : "D:\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 15/11/2018 16:39:13.730     [Error  ] - Failed to Load Assembly : "D:\XpaDemo\bin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 15/11/2018 16:39:13.787     [Error  ] - Failed to Load Assembly : "D:\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 15/11/2018 16:39:13.943     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 15/11/2018 16:39:13.950     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 15/11/2018 16:39:13.957     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 15/11/2018 16:39:13.966     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 15/11/2018 16:39:13.975     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 15/11/2018 16:39:13.983     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 15/11/2018 16:39:13.994     [Error  ] - Component Files not found : XpaTSoap.ecf
+ <-1> 15/11/2018 16:39:14.001     [Error  ] - Component Files not found : xpa-project-scan.ecf
+ <-1> 15/11/2018 16:39:14.008     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 15/11/2018 16:39:14.015     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 15/11/2018 16:39:14.021     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 15/11/2018 16:39:14.027     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 15/11/2018 16:39:14.032     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 15/11/2018 16:39:14.038     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 15/11/2018 16:39:14.046     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 15/11/2018 16:39:14.052     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 15/11/2018 16:39:14.058     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 15/11/2018 16:39:14.063     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 15/11/2018 16:39:14.070     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <404139611606624832> 15/11/2018 17:08:33.040     [Error  ] - Component Files not found : Roslyn.ecf, Program: "Main Program".
+ <404139611606624832> 15/11/2018 17:08:33.048     [Error  ] - Component Files not found : Roslyn.ecf, Program: "".
+ <404139611606624832> 15/11/2018 17:08:33.057     [Error  ] - Component Files not found : Roslyn.ecf, Program: "Main Program".
+ <-1> 15/11/2018 17:09:06.846     [Error  ] - Error - run-time engine was not found. Please restart the studio in order to run the application
+ <-1> 15/11/2018 17:09:34.189     [Error  ] - Error - run-time engine was not found. Please restart the studio in order to run the application
+ <-1> 15/11/2018 17:16:10.929     [Error  ] - "Java Virtual Machine: Cannot be loaded (status: -1)"
+ <-1> 15/11/2018 17:16:11.208     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 15/11/2018 17:16:11.278     [Error  ] - Component Files not found : Utilities.ecf
+ <-1> 15/11/2018 17:16:11.336     [Error  ] - Component Files not found : Roslyn.ecf
+ <-1> 15/11/2018 17:16:11.398     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 15/11/2018 17:16:11.457     [Error  ] - Component Files not found : xpa-project-scan.ecf
+ <-1> 15/11/2018 17:16:11.514     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 15/11/2018 17:16:11.574     [Error  ] - Component Files not found : XpaTSoap.ecf
+ <-1> 15/11/2018 17:16:11.632     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 15/11/2018 17:16:11.690     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 15/11/2018 17:16:11.749     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 15/11/2018 17:16:11.809     [Error  ] - Component Files not found : Utilities.ecf
+ <-1> 15/11/2018 17:16:11.868     [Error  ] - Component Files not found : Roslyn.ecf
+ <-1> 15/11/2018 17:16:11.928     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 15/11/2018 17:16:11.986     [Error  ] - Component Files not found : xpa-project-scan.ecf
+ <-1> 15/11/2018 17:16:12.044     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 15/11/2018 17:16:12.104     [Error  ] - Component Files not found : XpaTSoap.ecf
+ <-1> 15/11/2018 17:16:12.161     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 15/11/2018 17:16:12.220     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 15/11/2018 17:16:12.723     [Error  ] - Java Virtual Machine: Cannot be loaded (status: -1)
+ <-1> 15/11/2018 17:16:12.733     [Error  ] - "Java Virtual Machine: Cannot be loaded (status: -1)"
+ <-1> 15/11/2018 17:16:12.930     [Error  ] - Failed to Load Assembly : "D:\XpaDemo\bin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 15/11/2018 17:16:12.988     [Error  ] - Failed to Load Assembly : "D:\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 15/11/2018 17:16:13.047     [Error  ] - Failed to Load Assembly : "D:\XpaDemo\bin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 15/11/2018 17:16:13.106     [Error  ] - Failed to Load Assembly : "D:\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 15/11/2018 17:16:13.223     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 15/11/2018 17:16:13.230     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 15/11/2018 17:16:13.237     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 15/11/2018 17:16:13.262     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 15/11/2018 17:16:13.270     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 15/11/2018 17:16:13.280     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 15/11/2018 17:16:13.293     [Error  ] - Component Files not found : XpaTSoap.ecf
+ <-1> 15/11/2018 17:16:13.301     [Error  ] - Component Files not found : xpa-project-scan.ecf
+ <-1> 15/11/2018 17:16:13.309     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 15/11/2018 17:16:13.316     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 15/11/2018 17:16:13.326     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 15/11/2018 17:16:13.334     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 15/11/2018 17:16:13.346     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 15/11/2018 17:16:13.357     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 15/11/2018 17:16:13.363     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 15/11/2018 17:16:13.371     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 15/11/2018 17:16:13.378     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 15/11/2018 17:16:13.384     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 15/11/2018 17:16:13.391     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <256806834114462464> 15/11/2018 17:23:52.268     [Error  ] - Template for new @.INI does not exist: D:\\XpaDemo\\\\Templates\\ini\\XpaDemo.ini
+ <102117053494630176> 15/11/2018 17:24:35.351     [Error  ] - Template for new @.INI does not exist: D:\\XpaDemo\\\\Templates\\ini\\XpaDemo.ini
+ <-1> 16/11/2018 00:30:55.911     [Error  ] - "Java Virtual Machine: Cannot be loaded (status: -1)"
+ <-1> 16/11/2018 00:30:56.618     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 16/11/2018 00:30:56.670     [Error  ] - Component Files not found : Utilities.ecf
+ <-1> 16/11/2018 00:30:56.722     [Error  ] - Component Files not found : Roslyn.ecf
+ <-1> 16/11/2018 00:30:56.774     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 16/11/2018 00:30:56.825     [Error  ] - Component Files not found : xpa-project-scan.ecf
+ <-1> 16/11/2018 00:30:56.877     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 16/11/2018 00:30:56.928     [Error  ] - Component Files not found : XpaTSoap.ecf
+ <-1> 16/11/2018 00:30:56.981     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 16/11/2018 00:30:57.032     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 16/11/2018 00:30:57.086     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 16/11/2018 00:30:57.138     [Error  ] - Component Files not found : Utilities.ecf
+ <-1> 16/11/2018 00:30:57.190     [Error  ] - Component Files not found : Roslyn.ecf
+ <-1> 16/11/2018 00:30:57.241     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 16/11/2018 00:30:57.292     [Error  ] - Component Files not found : xpa-project-scan.ecf
+ <-1> 16/11/2018 00:30:57.344     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 16/11/2018 00:30:57.396     [Error  ] - Component Files not found : XpaTSoap.ecf
+ <-1> 16/11/2018 00:30:57.448     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 16/11/2018 00:30:57.501     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 16/11/2018 00:30:58.220     [Error  ] - Java Virtual Machine: Cannot be loaded (status: -1)
+ <-1> 16/11/2018 00:30:58.222     [Error  ] - "Java Virtual Machine: Cannot be loaded (status: -1)"
+ <-1> 16/11/2018 00:30:58.644     [Error  ] - Failed to Load Assembly : "D:\XpaDemo\bin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 16/11/2018 00:30:58.696     [Error  ] - Failed to Load Assembly : "D:\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 16/11/2018 00:30:58.748     [Error  ] - Failed to Load Assembly : "D:\XpaDemo\bin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 16/11/2018 00:30:58.800     [Error  ] - Failed to Load Assembly : "D:\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 16/11/2018 00:30:59.033     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 16/11/2018 00:30:59.034     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 16/11/2018 00:30:59.035     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 16/11/2018 00:30:59.056     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 16/11/2018 00:30:59.057     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 16/11/2018 00:30:59.058     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 16/11/2018 00:30:59.063     [Error  ] - Component Files not found : XpaTSoap.ecf
+ <-1> 16/11/2018 00:30:59.064     [Error  ] - Component Files not found : xpa-project-scan.ecf
+ <-1> 16/11/2018 00:30:59.064     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 16/11/2018 00:30:59.065     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 16/11/2018 00:30:59.066     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 16/11/2018 00:30:59.066     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 16/11/2018 00:30:59.067     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 16/11/2018 00:30:59.068     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 16/11/2018 00:30:59.068     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 16/11/2018 00:30:59.069     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 16/11/2018 00:30:59.070     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 16/11/2018 00:30:59.070     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 16/11/2018 00:30:59.071     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <436733505331815296> 16/11/2018 00:31:08.914     [Error  ] - Template for new @.INI does not exist: D:\\XpaDemo\\\\Templates\\ini\\XpaDemo.ini
+ <466912858688568064> 16/11/2018 00:31:18.812     [Error  ] - Component Files not found : Roslyn.ecf, Program: "Main Program".
+ <466912858688568064> 16/11/2018 00:31:18.813     [Error  ] - Component Files not found : Roslyn.ecf, Program: "".
+ <466912858688568064> 16/11/2018 00:31:18.816     [Error  ] - Component Files not found : Roslyn.ecf, Program: "Main Program".
+ <-1> 16/11/2018 00:31:47.044     [Error  ] - Java Virtual Machine: Cannot be loaded (status: -1)
+ <-1> 16/11/2018 00:31:47.046     [Error  ] - "Java Virtual Machine: Cannot be loaded (status: -1)"
+ <-1> 16/11/2018 00:31:47.420     [Error  ] - Failed to Load Assembly : "D:\XpaDemo\bin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 16/11/2018 00:31:47.497     [Error  ] - Failed to Load Assembly : "D:\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 16/11/2018 00:31:47.549     [Error  ] - Failed to Load Assembly : "D:\XpaDemo\bin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 16/11/2018 00:31:47.601     [Error  ] - Failed to Load Assembly : "D:\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 16/11/2018 00:31:47.768     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 16/11/2018 00:31:47.769     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 16/11/2018 00:31:47.770     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 16/11/2018 00:31:47.791     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 16/11/2018 00:31:47.792     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 16/11/2018 00:31:47.793     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 16/11/2018 00:31:47.798     [Error  ] - Component Files not found : XpaTSoap.ecf
+ <-1> 16/11/2018 00:31:47.799     [Error  ] - Component Files not found : xpa-project-scan.ecf
+ <-1> 16/11/2018 00:31:47.799     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 16/11/2018 00:31:47.800     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 16/11/2018 00:31:47.801     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 16/11/2018 00:31:47.802     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 16/11/2018 00:31:47.803     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 16/11/2018 00:31:47.804     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 16/11/2018 00:31:47.805     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 16/11/2018 00:31:47.806     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 16/11/2018 00:31:47.806     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 16/11/2018 00:31:47.807     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 16/11/2018 00:31:47.808     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <544831582163753024> 16/11/2018 00:32:13.895     [Error  ] - Template for new @.INI does not exist: D:\\XpaDemo\\\\Templates\\ini\\XpaDemo.ini
+ <39218225487205816> 16/11/2018 00:32:31.989     [Error  ] - Template for new @.INI does not exist: D:\\XpaDemo\\\\Templates\\ini\\XpaDemo.ini
+ <39218225487205816> 16/11/2018 00:32:36.321     [Error  ] - Component Files not found : Roslyn.ecf, Program: "Main Program".
+ <39218225487205816> 16/11/2018 00:32:36.323     [Error  ] - Component Files not found : Roslyn.ecf, Program: "".
+ <39218225487205816> 16/11/2018 00:32:36.324     [Error  ] - Component Files not found : Roslyn.ecf, Program: "Main Program".
+ <-1> 16/11/2018 00:33:09.019     [Error  ] - Java Virtual Machine: Cannot be loaded (status: -1)
+ <-1> 16/11/2018 00:33:09.020     [Error  ] - "Java Virtual Machine: Cannot be loaded (status: -1)"
+ <-1> 16/11/2018 00:33:09.415     [Error  ] - Failed to Load Assembly : "D:\XpaDemo\bin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 16/11/2018 00:33:09.471     [Error  ] - Failed to Load Assembly : "D:\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 16/11/2018 00:33:09.523     [Error  ] - Failed to Load Assembly : "D:\XpaDemo\bin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 16/11/2018 00:33:09.575     [Error  ] - Failed to Load Assembly : "D:\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 16/11/2018 00:33:09.718     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 16/11/2018 00:33:09.728     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 16/11/2018 00:33:09.729     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 16/11/2018 00:33:09.751     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 16/11/2018 00:33:09.752     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 16/11/2018 00:33:09.753     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 16/11/2018 00:33:09.758     [Error  ] - Component Files not found : XpaTSoap.ecf
+ <-1> 16/11/2018 00:33:09.759     [Error  ] - Component Files not found : xpa-project-scan.ecf
+ <-1> 16/11/2018 00:33:09.760     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 16/11/2018 00:33:09.761     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 16/11/2018 00:33:09.762     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 16/11/2018 00:33:09.763     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 16/11/2018 00:33:09.764     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 16/11/2018 00:33:09.765     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 16/11/2018 00:33:09.766     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 16/11/2018 00:33:09.767     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 16/11/2018 00:33:09.767     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 16/11/2018 00:33:09.768     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 16/11/2018 00:33:09.769     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 02/01/2019 12:53:58.737     [Error  ] - "Java Virtual Machine: Cannot be loaded (status: -1)"
+ <-1> 02/01/2019 12:53:59.232     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 02/01/2019 12:53:59.290     [Error  ] - Component Files not found : Utilities.ecf
+ <-1> 02/01/2019 12:53:59.347     [Error  ] - Component Files not found : Roslyn.ecf
+ <-1> 02/01/2019 12:53:59.404     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 02/01/2019 12:53:59.461     [Error  ] - Component Files not found : xpa-project-scan.ecf
+ <-1> 02/01/2019 12:53:59.519     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 02/01/2019 12:53:59.577     [Error  ] - Component Files not found : XpaTSoap.ecf
+ <-1> 02/01/2019 12:53:59.636     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 02/01/2019 12:53:59.693     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 02/01/2019 12:53:59.751     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 02/01/2019 12:53:59.809     [Error  ] - Component Files not found : Utilities.ecf
+ <-1> 02/01/2019 12:53:59.866     [Error  ] - Component Files not found : Roslyn.ecf
+ <-1> 02/01/2019 12:53:59.924     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 02/01/2019 12:53:59.982     [Error  ] - Component Files not found : xpa-project-scan.ecf
+ <-1> 02/01/2019 12:54:00.040     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 02/01/2019 12:54:00.100     [Error  ] - Component Files not found : XpaTSoap.ecf
+ <-1> 02/01/2019 12:54:00.157     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 02/01/2019 12:54:00.214     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 02/01/2019 12:54:00.786     [Error  ] - Java Virtual Machine: Cannot be loaded (status: -1)
+ <-1> 02/01/2019 12:54:00.796     [Error  ] - "Java Virtual Machine: Cannot be loaded (status: -1)"
+ <-1> 02/01/2019 12:54:00.922     [Error  ] - Failed to Load Assembly : "D:\bin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 02/01/2019 12:54:00.980     [Error  ] - Failed to Load Assembly : "D:\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 02/01/2019 12:54:01.039     [Error  ] - Failed to Load Assembly : "D:\bin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 02/01/2019 12:54:01.096     [Error  ] - Failed to Load Assembly : "D:\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 02/01/2019 12:54:01.310     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 02/01/2019 12:54:01.317     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 02/01/2019 12:54:01.325     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 02/01/2019 12:54:01.348     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 02/01/2019 12:54:01.357     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 02/01/2019 12:54:01.363     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 02/01/2019 12:54:01.376     [Error  ] - Component Files not found : XpaTSoap.ecf
+ <-1> 02/01/2019 12:54:01.382     [Error  ] - Component Files not found : xpa-project-scan.ecf
+ <-1> 02/01/2019 12:54:01.388     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 02/01/2019 12:54:01.395     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 02/01/2019 12:54:01.402     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 02/01/2019 12:54:01.410     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 02/01/2019 12:54:01.417     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 02/01/2019 12:54:01.424     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 02/01/2019 12:54:01.431     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 02/01/2019 12:54:01.437     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 02/01/2019 12:54:01.443     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 02/01/2019 12:54:01.449     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 02/01/2019 12:54:01.455     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <550278353232176704> 02/01/2019 12:54:03.579     [Error  ] - Template for new @.INI does not exist: \\Templates\\ini\\XpaDemo.ini
+ <-1> 02/01/2019 16:21:42.906     [Error  ] - "Java Virtual Machine: Cannot be loaded (status: -1)"
+ <-1> 02/01/2019 16:21:43.078     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 02/01/2019 16:21:43.136     [Error  ] - Component Files not found : Utilities.ecf
+ <-1> 02/01/2019 16:21:43.200     [Error  ] - Component Files not found : Roslyn.ecf
+ <-1> 02/01/2019 16:21:43.267     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 02/01/2019 16:21:43.324     [Error  ] - Component Files not found : xpa-project-scan.ecf
+ <-1> 02/01/2019 16:21:43.381     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 02/01/2019 16:21:43.456     [Error  ] - Component Files not found : XpaTSoap.ecf
+ <-1> 02/01/2019 16:21:43.526     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 02/01/2019 16:21:43.596     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 02/01/2019 16:21:43.662     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 02/01/2019 16:21:43.721     [Error  ] - Component Files not found : Utilities.ecf
+ <-1> 02/01/2019 16:21:43.779     [Error  ] - Component Files not found : Roslyn.ecf
+ <-1> 02/01/2019 16:21:43.838     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 02/01/2019 16:21:43.894     [Error  ] - Component Files not found : xpa-project-scan.ecf
+ <-1> 02/01/2019 16:21:43.954     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 02/01/2019 16:21:44.011     [Error  ] - Component Files not found : XpaTSoap.ecf
+ <-1> 02/01/2019 16:21:44.067     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 02/01/2019 16:21:44.128     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 02/01/2019 16:21:44.596     [Error  ] - Java Virtual Machine: Cannot be loaded (status: -1)
+ <-1> 02/01/2019 16:21:44.605     [Error  ] - "Java Virtual Machine: Cannot be loaded (status: -1)"
+ <-1> 02/01/2019 16:21:44.729     [Error  ] - Failed to Load Assembly : "D:\bin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 02/01/2019 16:21:44.808     [Error  ] - Failed to Load Assembly : "D:\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 02/01/2019 16:21:44.866     [Error  ] - Failed to Load Assembly : "D:\bin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 02/01/2019 16:21:44.925     [Error  ] - Failed to Load Assembly : "D:\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 02/01/2019 16:21:45.061     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 02/01/2019 16:21:45.135     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 02/01/2019 16:21:45.144     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 02/01/2019 16:21:45.177     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 02/01/2019 16:21:45.184     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 02/01/2019 16:21:45.191     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 02/01/2019 16:21:45.200     [Error  ] - Component Files not found : XpaTSoap.ecf
+ <-1> 02/01/2019 16:21:45.207     [Error  ] - Component Files not found : xpa-project-scan.ecf
+ <-1> 02/01/2019 16:21:45.213     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 02/01/2019 16:21:45.218     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 02/01/2019 16:21:45.225     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 02/01/2019 16:21:45.231     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 02/01/2019 16:21:45.238     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 02/01/2019 16:21:45.244     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 02/01/2019 16:21:45.250     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 02/01/2019 16:21:45.255     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 02/01/2019 16:21:45.261     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 02/01/2019 16:21:45.267     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 02/01/2019 16:21:45.272     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <369405817757791744> 02/01/2019 16:21:47.576     [Error  ] - Template for new @.INI does not exist: \\Templates\\ini\\XpaDemo.ini
+ <114812072232814704> 02/01/2019 16:23:39.862     [Error  ] - Component Files not found : DatabaseComp.ecf, Program: "OXMLT001_ExportCustomers".
+ <114812072232814704> 02/01/2019 16:23:39.876     [Error  ] - Component Files not found : DatabaseComp.ecf, Program: "OXMLT001_ExportCustomers".
+ <-1> 04/01/2019 08:23:11.357     [Error  ] - "Java Virtual Machine: Cannot be loaded (status: -1)"
+ <-1> 04/01/2019 08:23:11.817     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 04/01/2019 08:23:11.877     [Error  ] - Component Files not found : Utilities.ecf
+ <-1> 04/01/2019 08:23:11.934     [Error  ] - Component Files not found : Roslyn.ecf
+ <-1> 04/01/2019 08:23:11.992     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 04/01/2019 08:23:12.049     [Error  ] - Component Files not found : xpa-project-scan.ecf
+ <-1> 04/01/2019 08:23:12.107     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 04/01/2019 08:23:12.165     [Error  ] - Component Files not found : XpaTSoap.ecf
+ <-1> 04/01/2019 08:23:12.225     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 04/01/2019 08:23:12.282     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 04/01/2019 08:23:12.340     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 04/01/2019 08:23:12.400     [Error  ] - Component Files not found : Utilities.ecf
+ <-1> 04/01/2019 08:23:12.457     [Error  ] - Component Files not found : Roslyn.ecf
+ <-1> 04/01/2019 08:23:12.517     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 04/01/2019 08:23:12.574     [Error  ] - Component Files not found : xpa-project-scan.ecf
+ <-1> 04/01/2019 08:23:12.631     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 04/01/2019 08:23:12.691     [Error  ] - Component Files not found : XpaTSoap.ecf
+ <-1> 04/01/2019 08:23:12.752     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 04/01/2019 08:23:12.813     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 04/01/2019 08:23:13.315     [Error  ] - Java Virtual Machine: Cannot be loaded (status: -1)
+ <-1> 04/01/2019 08:23:13.326     [Error  ] - "Java Virtual Machine: Cannot be loaded (status: -1)"
+ <-1> 04/01/2019 08:23:13.478     [Error  ] - Failed to Load Assembly : "D:\bin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 04/01/2019 08:23:13.536     [Error  ] - Failed to Load Assembly : "D:\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 04/01/2019 08:23:13.595     [Error  ] - Failed to Load Assembly : "D:\bin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 04/01/2019 08:23:13.654     [Error  ] - Failed to Load Assembly : "D:\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 04/01/2019 08:23:13.940     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 04/01/2019 08:23:13.947     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 04/01/2019 08:23:13.954     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 04/01/2019 08:23:13.982     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 04/01/2019 08:23:13.988     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 04/01/2019 08:23:13.994     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 04/01/2019 08:23:14.005     [Error  ] - Component Files not found : XpaTSoap.ecf
+ <-1> 04/01/2019 08:23:14.012     [Error  ] - Component Files not found : xpa-project-scan.ecf
+ <-1> 04/01/2019 08:23:14.019     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 04/01/2019 08:23:14.026     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 04/01/2019 08:23:14.032     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 04/01/2019 08:23:14.040     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 04/01/2019 08:23:14.046     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 04/01/2019 08:23:14.052     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 04/01/2019 08:23:14.058     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 04/01/2019 08:23:14.064     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 04/01/2019 08:23:14.071     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 04/01/2019 08:23:14.077     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 04/01/2019 08:23:14.085     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <351468734632972480> 04/01/2019 08:23:16.907     [Error  ] - Template for new @.INI does not exist: \\Templates\\ini\\XpaDemo.ini
+ <148877047148940896> 04/01/2019 08:23:23.413     [Error  ] - Component Files not found : Roslyn.ecf, Program: "Main Program".
+ <148877047148940896> 04/01/2019 08:23:23.420     [Error  ] - Component Files not found : Roslyn.ecf, Program: "".
+ <148877047148940896> 04/01/2019 08:23:23.427     [Error  ] - Component Files not found : Roslyn.ecf, Program: "Main Program".
+ <-1> 04/01/2019 08:24:02.535     [Error  ] - Java Virtual Machine: Cannot be loaded (status: -1)
+ <-1> 04/01/2019 08:24:02.544     [Error  ] - "Java Virtual Machine: Cannot be loaded (status: -1)"
+ <-1> 04/01/2019 08:24:02.685     [Error  ] - Failed to Load Assembly : "D:\bin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 04/01/2019 08:24:02.744     [Error  ] - Failed to Load Assembly : "D:\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 04/01/2019 08:24:02.804     [Error  ] - Failed to Load Assembly : "D:\bin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 04/01/2019 08:24:02.862     [Error  ] - Failed to Load Assembly : "D:\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 04/01/2019 08:24:03.008     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 04/01/2019 08:24:03.014     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 04/01/2019 08:24:03.021     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 04/01/2019 08:24:03.042     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 04/01/2019 08:24:03.049     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 04/01/2019 08:24:03.055     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 04/01/2019 08:24:03.065     [Error  ] - Component Files not found : XpaTSoap.ecf
+ <-1> 04/01/2019 08:24:03.071     [Error  ] - Component Files not found : xpa-project-scan.ecf
+ <-1> 04/01/2019 08:24:03.077     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 04/01/2019 08:24:03.084     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 04/01/2019 08:24:03.089     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 04/01/2019 08:24:03.095     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 04/01/2019 08:24:03.103     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 04/01/2019 08:24:03.109     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 04/01/2019 08:24:03.115     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 04/01/2019 08:24:03.121     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 04/01/2019 08:24:03.127     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 04/01/2019 08:24:03.134     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 04/01/2019 08:24:03.140     [Error  ] - Component Files not found : XpaTQueue.ecf

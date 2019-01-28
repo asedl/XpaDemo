@@ -1,0 +1,7 @@
+﻿ <-1> 30/11/2018 23:23:32.215     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 30/11/2018 23:23:32.570     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 30/11/2018 23:23:32.580     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 30/11/2018 23:24:02.427     [Error  ] - "Java Virtual Machine: Cannot be loaded (status: -1)"
+ <-1> 30/11/2018 23:24:03.659     [Error  ] - Java Virtual Machine: Cannot be loaded (status: -1)
+ <-1> 30/11/2018 23:24:03.671     [Error  ] - "Java Virtual Machine: Cannot be loaded (status: -1)"
+ <288254222229192896> 30/11/2018 23:25:13.800     [Error  ] - Create error: Products, Program: "Browse - DatabaseComp.Products".

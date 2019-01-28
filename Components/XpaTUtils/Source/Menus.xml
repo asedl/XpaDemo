@@ -13,7 +13,7 @@
         <MenuType val="4"/>
         <ToolNumber val="1"/>
         <Name val="Default Pulldown menu"/>
-        <LastIsn val="5"/>
+        <LastIsn val="6"/>
         <MenuEntry id="1">
           <MenuType val="1"/>
           <Description_U val="&amp;File"/>
@@ -311,6 +311,26 @@
                 <ToolNumber val="200"/>
                 <ToolGroup val="999"/>
               </Tool>
+            </MenuEntry>
+          </Menu>
+        </MenuEntry>
+        <MenuEntry id="6">
+          <MenuType val="1"/>
+          <Description_U val="&amp;Test"/>
+          <Right comp="-1"/>
+          <Help comp="-1"/>
+          <Prompt comp="-1"/>
+          <Menu>
+            <MenuType val="1"/>
+            <LastIsn val="2"/>
+            <MenuEntry id="2">
+              <MenuType val="2"/>
+              <Description_U val="Products"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Program ObjIsn="9" comp="-1" obj="9"/>
+              <SourceContext val="67"/>
             </MenuEntry>
           </Menu>
         </MenuEntry>
@@ -659,21 +679,6 @@
               <Prompt comp="-1"/>
             </MenuEntry>
           </Menu>
-        </MenuEntry>
-      </Menu>
-      <Menu>
-        <MenuType val="4"/>
-        <ToolNumber val="2"/>
-        <Name val="Default Pulldown menu"/>
-        <LastIsn val="2"/>
-        <MenuEntry id="1">
-          <MenuType val="2"/>
-          <Description_U val="Demo_PrettyPrintJSON"/>
-          <Right comp="-1"/>
-          <Help comp="-1"/>
-          <Prompt comp="-1"/>
-          <Program ObjIsn="2" comp="-1" obj="2"/>
-          <SourceContext val="67"/>
         </MenuEntry>
       </Menu>
     </Menus>

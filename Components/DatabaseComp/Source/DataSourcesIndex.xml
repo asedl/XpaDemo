@@ -1,45 +1,48 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<Application>
+ <Application>
+ 
+<Header>
 
-  <Header>
-    <Version val="13030.00"/>
-    <WithIsn val="Y"/>
-    <Exe comp="-1"/>
-    <LastIsn val="33"/>
-    <LastIsnFolder val="2"/>
-    <Folders>
-      <Folder id="1">
-        <Name val="XPATest (Database)"/>
-      </Folder>
-      <Folder id="2">
-        <Name val="RIADemo (database)"/>
-      </Folder>
-    </Folders>
-  </Header>
+  <Version val="13030.00"/>
 
-  <DataSourceRepository>
-    <DataObjects>
-      <DataObject FolderIsn="1" PhysicalName="xpatest_uris" Public="xpatest_uris" Resident="N" UniqueISNConvState="12" data_source="XPATest" id="16" length="2817" name="xpatest_uris" offset="396"/>
-      <DataObject FolderIsn="1" PhysicalName="xpatest_templates" Public="xpatest_templates" Resident="N" UniqueISNConvState="12" data_source="XPATest" id="17" length="2314" name="xpatest_templates" offset="3214"/>
-      <DataObject FolderIsn="1" PhysicalName="xpatest_dotnet_locations" Public="xpatest_dotnet_locations" Resident="N" UniqueISNConvState="12" data_source="XPATest" id="18" length="4505" name="xpatest_dotnet_locations" offset="5529"/>
-      <DataObject FolderIsn="1" PhysicalName="xpatest_components" Public="xpatest_components" Resident="N" UniqueISNConvState="12" data_source="XPATest" id="33" length="5964" name="xpatest_components" offset="10035"/>
-      <DataObject FolderIsn="1" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="19" length="354" offset="16000"/>
-      <DataObject FolderIsn="2" PhysicalName="Categories" Public="Categories" Resident="N" UniqueISNConvState="12" data_source="RIADemo" id="20" length="5003" name="Categories" offset="16355"/>
-      <DataObject FolderIsn="2" PhysicalName="Tree" Public="Tree" Resident="N" UniqueISNConvState="12" data_source="RIADemo" id="21" length="3105" name="Tree" offset="21359"/>
-      <DataObject FolderIsn="2" PhysicalName="OrderDetails" Public="OrderDetails" Resident="N" UniqueISNConvState="12" data_source="RIADemo" id="22" length="6101" name="OrderDetails" offset="24465"/>
-      <DataObject FolderIsn="2" PhysicalName="Territories" Public="Territories" Resident="N" UniqueISNConvState="12" data_source="RIADemo" id="23" length="3910" name="Territories" offset="30567"/>
-      <DataObject FolderIsn="2" PhysicalName="Region_" Public="Region_" Resident="N" UniqueISNConvState="12" data_source="RIADemo" id="24" length="2430" name="Region_" offset="34478"/>
-      <DataObject FolderIsn="2" PhysicalName="Feedback" Public="Feedback" Resident="N" UniqueISNConvState="12" data_source="RIADemo" id="25" length="9231" name="Feedback" offset="36909"/>
-      <DataObject FolderIsn="2" PhysicalName="Products" Public="Products" Resident="N" UniqueISNConvState="12" data_source="RIADemo" id="26" length="11464" name="Products" offset="46141"/>
-      <DataObject FolderIsn="2" PhysicalName="Suppliers" Public="Suppliers" Resident="N" UniqueISNConvState="12" data_source="RIADemo" id="27" length="12148" name="Suppliers" offset="57606"/>
-      <DataObject FolderIsn="2" PhysicalName="Customers" Public="Customers" Resident="N" UniqueISNConvState="12" data_source="RIADemo" id="28" length="12904" name="Customers" offset="69755"/>
-      <DataObject FolderIsn="2" PhysicalName="Employees" Public="Employees" Resident="N" UniqueISNConvState="12" data_source="RIADemo" id="29" length="19287" name="Employees" offset="82660"/>
-      <DataObject FolderIsn="2" PhysicalName="Invoices" Public="Invoices" Resident="N" UniqueISNConvState="12" data_source="RIADemo" id="30" length="26668" name="Invoices" offset="101948"/>
-      <DataObject FolderIsn="2" PhysicalName="Shippers" Public="Shippers" Resident="N" UniqueISNConvState="12" data_source="RIADemo" id="31" length="3872" name="Shippers" offset="128617"/>
-      <DataObject FolderIsn="2" PhysicalName="Orders" Public="Orders" Resident="N" UniqueISNConvState="12" data_source="RIADemo" id="32" length="16731" name="Orders" offset="132490"/>
-    </DataObjects>
-  </DataSourceRepository>
+  <WithIsn val="Y"/>
 
-  <LastModified val="30701631-9806971"/>
+  <Exe comp="-1"/>
 
-</Application>
+  <LastIsn val="33"/>
+
+  <LastIsnFolder val="2"/>
+
+  <Folders>
+    <Folder id="1">
+      <Name val="XPATest (Database)"/>
+    </Folder>
+    <Folder id="2">
+      <Name val="RIADemo (database)"/>
+    </Folder>
+  </Folders>
+
+</Header>
+ <DataSourceRepository>
+  <DataObjects>
+ 
+ 
+<DataObject FolderIsn="1" PhysicalName="xpatest_uris" Public="xpatest_uris" Resident="N" UniqueISNConvState="12" data_source="XPATest" id="16" name="xpatest_uris" offset="372" length="2817"/> 
+<DataObject FolderIsn="1" PhysicalName="xpatest_templates" Public="xpatest_templates" Resident="N" UniqueISNConvState="12" data_source="XPATest" id="17" name="xpatest_templates" offset="3190" length="2314"/> 
+<DataObject FolderIsn="1" PhysicalName="xpatest_dotnet_locations" Public="xpatest_dotnet_locations" Resident="N" UniqueISNConvState="12" data_source="XPATest" id="18" name="xpatest_dotnet_locations" offset="5505" length="4505"/> 
+<DataObject FolderIsn="1" PhysicalName="xpatest_components" Public="xpatest_components" Resident="N" UniqueISNConvState="12" data_source="XPATest" id="33" name="xpatest_components" offset="10011" length="5964"/> 
+<DataObject FolderIsn="1" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="19" offset="15976" length="354"/> 
+<DataObject FolderIsn="2" PhysicalName="Categories" Public="Categories" Resident="N" UniqueISNConvState="12" data_source="RIADemo" id="20" name="Categories" offset="16331" length="5003"/> 
+<DataObject FolderIsn="2" PhysicalName="Tree" Public="Tree" Resident="N" UniqueISNConvState="12" data_source="RIADemo" id="21" name="Tree" offset="21335" length="3105"/> 
+<DataObject FolderIsn="2" PhysicalName="OrderDetails" Public="OrderDetails" Resident="N" UniqueISNConvState="12" data_source="RIADemo" id="22" name="OrderDetails" offset="24441" length="6101"/> 
+<DataObject FolderIsn="2" PhysicalName="Territories" Public="Territories" Resident="N" UniqueISNConvState="12" data_source="RIADemo" id="23" name="Territories" offset="30543" length="3910"/> 
+<DataObject FolderIsn="2" PhysicalName="Region_" Public="Region_" Resident="N" UniqueISNConvState="12" data_source="RIADemo" id="24" name="Region_" offset="34454" length="2430"/> 
+<DataObject FolderIsn="2" PhysicalName="Feedback" Public="Feedback" Resident="N" UniqueISNConvState="12" data_source="RIADemo" id="25" name="Feedback" offset="36885" length="9231"/> 
+<DataObject FolderIsn="2" PhysicalName="Products" Public="Products" Resident="N" UniqueISNConvState="12" data_source="RIADemo" id="26" name="Products" offset="46117" length="11186"/> 
+<DataObject FolderIsn="2" PhysicalName="Suppliers" Public="Suppliers" Resident="N" UniqueISNConvState="12" data_source="RIADemo" id="27" name="Suppliers" offset="57304" length="12148"/> 
+<DataObject FolderIsn="2" PhysicalName="Customers" Public="Customers" Resident="N" UniqueISNConvState="12" data_source="RIADemo" id="28" name="Customers" offset="69453" length="12904"/> 
+<DataObject FolderIsn="2" PhysicalName="Employees" Public="Employees" Resident="N" UniqueISNConvState="12" data_source="RIADemo" id="29" name="Employees" offset="82358" length="19287"/> 
+<DataObject FolderIsn="2" PhysicalName="Invoices" Public="Invoices" Resident="N" UniqueISNConvState="12" data_source="RIADemo" id="30" name="Invoices" offset="101646" length="26668"/> 
+<DataObject FolderIsn="2" PhysicalName="Shippers" Public="Shippers" Resident="N" UniqueISNConvState="12" data_source="RIADemo" id="31" name="Shippers" offset="128315" length="3872"/> 
+<DataObject FolderIsn="2" PhysicalName="Orders" Public="Orders" Resident="N" UniqueISNConvState="12" data_source="RIADemo" id="32" name="Orders" offset="132188" length="16731"/>  </DataObjects>
+ </DataSourceRepository>
+ <LastModified val="30705915-62815225"/>  </Application>

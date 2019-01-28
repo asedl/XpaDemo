@@ -9,14 +9,14 @@
 
   <ProjectProperties>
     <ProjectData>
-      <GUID val="{0B417384-D68F-4639-AB71-6B5E4848A4F9}"/>
+      <GUID val="{977B51F4-A209-4703-8ECB-740F617BE794}"/>
       <RemoteFlowMonitorRight comp="-1"/>
       <NulArithmetic val="N"/>
       <WindowSortBy val="R"/>
-      <_SystemPulldownMenu comp="-1" obj="2"/>
+      <_SystemPulldownMenu comp="-1" obj="1"/>
       <_SystemContextMenu comp="-1"/>
       <ExposeComment val="N"/>
-      <ProjectName val="XpaTUtils"/>
+      <ProjectName val="XpaTMail"/>
     </ProjectData>
   </ProjectProperties>
 
