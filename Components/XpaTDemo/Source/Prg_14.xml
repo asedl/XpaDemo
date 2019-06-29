@@ -1865,7 +1865,7 @@
               <ExpAttribute val="B"/>
             </Expression>
             <Expression id="11">
-              <ExpSyntax val="Trim(Translate('%XPADEMO_HOME%')) &amp; '\temp\TemplateRequest_' &amp; Trim(Str({0,1},'')) &amp; '_Response'"/>
+              <ExpSyntax val="Trim(Translate('%XPADEMO_HOME%')) &amp; 'temp\TemplateRequest_' &amp; Trim(Str({0,1},'')) &amp; '_Response'"/>
               <ExpAttribute val="A"/>
             </Expression>
             <Expression id="12">

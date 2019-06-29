@@ -13,7 +13,7 @@
       <RemoteFlowMonitorRight comp="-1"/>
       <NulArithmetic val="N"/>
       <WindowSortBy val="R"/>
-      <_SystemPulldownMenu comp="-1"/>
+      <_SystemPulldownMenu comp="-1" obj="3"/>
       <_SystemContextMenu comp="-1"/>
       <ExposeComment val="N"/>
       <ProjectName val="XpaTDemo"/>

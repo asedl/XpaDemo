@@ -397,3 +397,331 @@
  <-1> 04/01/2019 08:24:03.127     [Error  ] - Component Files not found : XpaTQueue.ecf
  <-1> 04/01/2019 08:24:03.134     [Error  ] - Component Files not found : XpaTQueue.ecf
  <-1> 04/01/2019 08:24:03.140     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 17/06/2019 22:02:48.071     [Error  ] - "Java Virtual Machine: Cannot be loaded (status: -1)"
+ <-1> 17/06/2019 22:02:48.465     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 17/06/2019 22:02:48.521     [Error  ] - Component Files not found : Utilities.ecf
+ <-1> 17/06/2019 22:02:48.576     [Error  ] - Component Files not found : Roslyn.ecf
+ <-1> 17/06/2019 22:02:48.632     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 17/06/2019 22:02:48.688     [Error  ] - Component Files not found : xpa-project-scan.ecf
+ <-1> 17/06/2019 22:02:48.747     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 17/06/2019 22:02:48.804     [Error  ] - Component Files not found : XpaTSoap.ecf
+ <-1> 17/06/2019 22:02:48.862     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 17/06/2019 22:02:48.919     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 17/06/2019 22:02:48.976     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 17/06/2019 22:02:49.031     [Error  ] - Component Files not found : Utilities.ecf
+ <-1> 17/06/2019 22:02:49.087     [Error  ] - Component Files not found : Roslyn.ecf
+ <-1> 17/06/2019 22:02:49.144     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 17/06/2019 22:02:49.199     [Error  ] - Component Files not found : xpa-project-scan.ecf
+ <-1> 17/06/2019 22:02:49.255     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 17/06/2019 22:02:49.316     [Error  ] - Component Files not found : XpaTSoap.ecf
+ <-1> 17/06/2019 22:02:49.371     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 17/06/2019 22:02:49.426     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 17/06/2019 22:02:49.977     [Error  ] - Java Virtual Machine: Cannot be loaded (status: -1)
+ <-1> 17/06/2019 22:02:49.983     [Error  ] - "Java Virtual Machine: Cannot be loaded (status: -1)"
+ <-1> 17/06/2019 22:02:50.136     [Error  ] - Failed to Load Assembly : "C:\bin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 17/06/2019 22:02:50.192     [Error  ] - Failed to Load Assembly : "C:\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 17/06/2019 22:02:50.251     [Error  ] - Failed to Load Assembly : "C:\bin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 17/06/2019 22:02:50.307     [Error  ] - Failed to Load Assembly : "C:\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 17/06/2019 22:02:50.582     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 17/06/2019 22:02:50.588     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 17/06/2019 22:02:50.593     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 17/06/2019 22:02:50.601     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 17/06/2019 22:02:50.608     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 17/06/2019 22:02:50.615     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 17/06/2019 22:02:50.631     [Error  ] - Component Files not found : XpaTSoap.ecf
+ <-1> 17/06/2019 22:02:50.636     [Error  ] - Component Files not found : xpa-project-scan.ecf
+ <-1> 17/06/2019 22:02:50.641     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 17/06/2019 22:02:50.648     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 17/06/2019 22:02:50.653     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 17/06/2019 22:02:50.658     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 17/06/2019 22:02:50.663     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 17/06/2019 22:02:50.668     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 17/06/2019 22:02:50.673     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 17/06/2019 22:02:50.677     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 17/06/2019 22:02:50.682     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 17/06/2019 22:02:50.687     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 17/06/2019 22:02:50.692     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:18:34.547     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 29/06/2019 03:18:34.610     [Error  ] - Component Files not found : Utilities.ecf
+ <-1> 29/06/2019 03:18:34.668     [Error  ] - Component Files not found : Roslyn.ecf
+ <-1> 29/06/2019 03:18:34.724     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 29/06/2019 03:18:34.780     [Error  ] - Component Files not found : xpa-project-scan.ecf
+ <-1> 29/06/2019 03:18:34.836     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 29/06/2019 03:18:34.892     [Error  ] - Component Files not found : XpaTSoap.ecf
+ <-1> 29/06/2019 03:18:34.948     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 29/06/2019 03:18:35.005     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:18:35.062     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 29/06/2019 03:18:35.118     [Error  ] - Component Files not found : Utilities.ecf
+ <-1> 29/06/2019 03:18:35.176     [Error  ] - Component Files not found : Roslyn.ecf
+ <-1> 29/06/2019 03:18:35.233     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 29/06/2019 03:18:35.289     [Error  ] - Component Files not found : xpa-project-scan.ecf
+ <-1> 29/06/2019 03:18:35.345     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 29/06/2019 03:18:35.402     [Error  ] - Component Files not found : XpaTSoap.ecf
+ <-1> 29/06/2019 03:18:35.458     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 29/06/2019 03:18:35.515     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:18:37.872     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 29/06/2019 03:18:37.930     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 29/06/2019 03:18:37.989     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 29/06/2019 03:18:38.045     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 29/06/2019 03:18:38.319     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 29/06/2019 03:18:38.324     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 29/06/2019 03:18:38.329     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 29/06/2019 03:18:38.337     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 29/06/2019 03:18:38.344     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 29/06/2019 03:18:38.350     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 29/06/2019 03:18:38.398     [Error  ] - Component Files not found : XpaTSoap.ecf
+ <-1> 29/06/2019 03:18:38.404     [Error  ] - Component Files not found : xpa-project-scan.ecf
+ <-1> 29/06/2019 03:18:38.410     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 29/06/2019 03:18:38.415     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 29/06/2019 03:18:38.421     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 29/06/2019 03:18:38.426     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 29/06/2019 03:18:38.431     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:18:38.437     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:18:38.442     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:18:38.447     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:18:38.453     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:18:38.458     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:18:38.463     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:22:10.483     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 29/06/2019 03:22:10.540     [Error  ] - Component Files not found : Utilities.ecf
+ <-1> 29/06/2019 03:22:10.596     [Error  ] - Component Files not found : Roslyn.ecf
+ <-1> 29/06/2019 03:22:10.653     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 29/06/2019 03:22:10.708     [Error  ] - Component Files not found : xpa-project-scan.ecf
+ <-1> 29/06/2019 03:22:10.763     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 29/06/2019 03:22:10.819     [Error  ] - Component Files not found : XpaTSoap.ecf
+ <-1> 29/06/2019 03:22:10.875     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 29/06/2019 03:22:10.931     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:22:10.990     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 29/06/2019 03:22:11.045     [Error  ] - Component Files not found : Utilities.ecf
+ <-1> 29/06/2019 03:22:11.103     [Error  ] - Component Files not found : Roslyn.ecf
+ <-1> 29/06/2019 03:22:11.159     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 29/06/2019 03:22:11.215     [Error  ] - Component Files not found : xpa-project-scan.ecf
+ <-1> 29/06/2019 03:22:11.271     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 29/06/2019 03:22:11.327     [Error  ] - Component Files not found : XpaTSoap.ecf
+ <-1> 29/06/2019 03:22:11.384     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 29/06/2019 03:22:11.441     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:22:12.079     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 29/06/2019 03:22:12.138     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 29/06/2019 03:22:12.201     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 29/06/2019 03:22:12.260     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 29/06/2019 03:22:12.327     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 29/06/2019 03:22:12.335     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 29/06/2019 03:22:12.341     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 29/06/2019 03:22:12.349     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 29/06/2019 03:22:12.357     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 29/06/2019 03:22:12.363     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 29/06/2019 03:22:12.420     [Error  ] - Component Files not found : XpaTSoap.ecf
+ <-1> 29/06/2019 03:22:12.427     [Error  ] - Component Files not found : xpa-project-scan.ecf
+ <-1> 29/06/2019 03:22:12.437     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 29/06/2019 03:22:12.445     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 29/06/2019 03:22:12.452     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 29/06/2019 03:22:12.459     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 29/06/2019 03:22:12.466     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:22:12.475     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:22:12.483     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:22:12.491     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:22:12.497     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:22:12.504     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:22:12.511     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:22:46.084     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 29/06/2019 03:22:46.141     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 29/06/2019 03:22:46.198     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 29/06/2019 03:22:46.256     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 29/06/2019 03:22:46.312     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 29/06/2019 03:22:46.319     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 29/06/2019 03:22:46.325     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 29/06/2019 03:22:46.353     [Error  ] - Component Files not found : XpaTSoap.ecf
+ <-1> 29/06/2019 03:22:46.359     [Error  ] - Component Files not found : xpa-project-scan.ecf
+ <-1> 29/06/2019 03:22:46.364     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 29/06/2019 03:22:46.369     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 29/06/2019 03:22:46.374     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 29/06/2019 03:22:46.380     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 29/06/2019 03:22:46.386     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:22:46.391     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:22:46.396     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:22:46.404     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:22:46.410     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:22:46.416     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:22:46.422     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:22:46.427     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 29/06/2019 03:22:46.434     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 29/06/2019 03:22:46.440     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 29/06/2019 03:42:58.328     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 29/06/2019 03:42:58.396     [Error  ] - Component Files not found : Utilities.ecf
+ <-1> 29/06/2019 03:42:58.457     [Error  ] - Component Files not found : Roslyn.ecf
+ <-1> 29/06/2019 03:42:58.515     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 29/06/2019 03:42:58.576     [Error  ] - Component Files not found : xpa-project-scan.ecf
+ <-1> 29/06/2019 03:42:58.642     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 29/06/2019 03:42:58.705     [Error  ] - Component Files not found : XpaTSoap.ecf
+ <-1> 29/06/2019 03:42:58.767     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 29/06/2019 03:42:58.826     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:42:58.894     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 29/06/2019 03:42:58.953     [Error  ] - Component Files not found : Utilities.ecf
+ <-1> 29/06/2019 03:42:59.011     [Error  ] - Component Files not found : Roslyn.ecf
+ <-1> 29/06/2019 03:42:59.070     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 29/06/2019 03:42:59.128     [Error  ] - Component Files not found : xpa-project-scan.ecf
+ <-1> 29/06/2019 03:42:59.188     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 29/06/2019 03:42:59.246     [Error  ] - Component Files not found : XpaTSoap.ecf
+ <-1> 29/06/2019 03:42:59.307     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 29/06/2019 03:42:59.372     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:43:03.358     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 29/06/2019 03:43:03.420     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 29/06/2019 03:43:03.479     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 29/06/2019 03:43:03.547     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 29/06/2019 03:43:03.879     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 29/06/2019 03:43:03.889     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 29/06/2019 03:43:03.899     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 29/06/2019 03:43:03.910     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 29/06/2019 03:43:03.921     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 29/06/2019 03:43:03.928     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 29/06/2019 03:43:04.003     [Error  ] - Component Files not found : XpaTSoap.ecf
+ <-1> 29/06/2019 03:43:04.010     [Error  ] - Component Files not found : xpa-project-scan.ecf
+ <-1> 29/06/2019 03:43:04.018     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 29/06/2019 03:43:04.025     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 29/06/2019 03:43:04.033     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 29/06/2019 03:43:04.042     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 29/06/2019 03:43:04.050     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:43:04.058     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:43:04.066     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:43:04.074     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:43:04.083     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:43:04.090     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:43:04.100     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <255454559598808096> 29/06/2019 03:43:52.901     [Error  ] - Problem opening the template file - %%XPADEMO_HOME\Templates\scripts\wsh\CreateShortcut.vbs, Program: "OUTIL003_CheckConfigurationY.MissingSettings.CreateShortcutScript".
+ <255454559598808096> 29/06/2019 03:44:00.309     [Error  ] - Problem opening the template file - %%XPADEMO_HOME\Templates\scripts\wsh\CreateShortcut.vbs, Program: "OUTIL003_CheckConfigurationY.MissingSettings.CreateShortcutScript".
+ <412013253010488256> 29/06/2019 03:44:27.940     [Error  ] - Component Files not found : DatabaseComp.ecf, Program: "OXMLT001_ExportCustomers".
+ <412013253010488256> 29/06/2019 03:44:27.962     [Error  ] - Component Files not found : DatabaseComp.ecf, Program: "OXMLT001_ExportCustomers".
+ <-1> 29/06/2019 03:44:58.190     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 29/06/2019 03:44:58.252     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 29/06/2019 03:44:58.311     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 29/06/2019 03:44:58.376     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 29/06/2019 03:44:58.624     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 29/06/2019 03:44:58.641     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 29/06/2019 03:44:58.651     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 29/06/2019 03:44:58.667     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 29/06/2019 03:44:58.678     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 29/06/2019 03:44:58.686     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 29/06/2019 03:44:58.783     [Error  ] - Component Files not found : XpaTSoap.ecf
+ <-1> 29/06/2019 03:44:58.795     [Error  ] - Component Files not found : xpa-project-scan.ecf
+ <-1> 29/06/2019 03:44:58.805     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 29/06/2019 03:44:58.813     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 29/06/2019 03:44:58.821     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 29/06/2019 03:44:58.829     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 29/06/2019 03:44:58.839     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:44:58.849     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:44:58.858     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:44:58.871     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:44:58.879     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:44:58.887     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:44:58.895     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:59:07.919     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 29/06/2019 03:59:08.046     [Error  ] - Component Files not found : Utilities.ecf
+ <-1> 29/06/2019 03:59:08.106     [Error  ] - Component Files not found : Roslyn.ecf
+ <-1> 29/06/2019 03:59:08.164     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 29/06/2019 03:59:08.223     [Error  ] - Component Files not found : xpa-project-scan.ecf
+ <-1> 29/06/2019 03:59:08.281     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 29/06/2019 03:59:08.341     [Error  ] - Component Files not found : XpaTSoap.ecf
+ <-1> 29/06/2019 03:59:08.400     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 29/06/2019 03:59:08.458     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:59:08.519     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 29/06/2019 03:59:08.577     [Error  ] - Component Files not found : Utilities.ecf
+ <-1> 29/06/2019 03:59:08.637     [Error  ] - Component Files not found : Roslyn.ecf
+ <-1> 29/06/2019 03:59:08.695     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 29/06/2019 03:59:08.761     [Error  ] - Component Files not found : xpa-project-scan.ecf
+ <-1> 29/06/2019 03:59:08.819     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 29/06/2019 03:59:08.876     [Error  ] - Component Files not found : XpaTSoap.ecf
+ <-1> 29/06/2019 03:59:08.935     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 29/06/2019 03:59:08.992     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:59:12.338     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the file specified."
+ <-1> 29/06/2019 03:59:12.409     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the file specified."
+ <-1> 29/06/2019 03:59:12.625     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 29/06/2019 03:59:12.634     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 29/06/2019 03:59:12.642     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 29/06/2019 03:59:12.655     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 29/06/2019 03:59:12.663     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 29/06/2019 03:59:12.674     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 29/06/2019 03:59:12.751     [Error  ] - Component Files not found : XpaTSoap.ecf
+ <-1> 29/06/2019 03:59:12.760     [Error  ] - Component Files not found : xpa-project-scan.ecf
+ <-1> 29/06/2019 03:59:12.769     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 29/06/2019 03:59:12.779     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 29/06/2019 03:59:12.790     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 29/06/2019 03:59:12.798     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 29/06/2019 03:59:12.807     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:59:12.818     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:59:12.828     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:59:12.839     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:59:12.849     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:59:12.860     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:59:12.871     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:59:27.868     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the file specified."
+ <-1> 29/06/2019 03:59:27.927     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the file specified."
+ <-1> 29/06/2019 03:59:28.005     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 29/06/2019 03:59:28.014     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 29/06/2019 03:59:28.016     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 29/06/2019 03:59:28.144     [Error  ] - Component Files not found : XpaTSoap.ecf
+ <-1> 29/06/2019 03:59:28.153     [Error  ] - Component Files not found : xpa-project-scan.ecf
+ <-1> 29/06/2019 03:59:28.161     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 29/06/2019 03:59:28.172     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 29/06/2019 03:59:28.179     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 29/06/2019 03:59:28.188     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 29/06/2019 03:59:28.196     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:59:28.205     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:59:28.214     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:59:28.222     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:59:28.229     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:59:28.239     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:59:28.248     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 03:59:28.256     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 29/06/2019 03:59:28.263     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 29/06/2019 03:59:28.272     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 29/06/2019 04:00:02.064     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the file specified."
+ <-1> 29/06/2019 04:00:02.123     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the file specified."
+ <-1> 29/06/2019 04:00:02.190     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 29/06/2019 04:00:02.199     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 29/06/2019 04:00:02.206     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 29/06/2019 04:00:02.255     [Error  ] - Component Files not found : XpaTSoap.ecf
+ <-1> 29/06/2019 04:00:02.266     [Error  ] - Component Files not found : xpa-project-scan.ecf
+ <-1> 29/06/2019 04:00:02.282     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 29/06/2019 04:00:02.297     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 29/06/2019 04:00:02.310     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 29/06/2019 04:00:02.323     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 29/06/2019 04:00:02.334     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 04:00:02.345     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 04:00:02.358     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 04:00:02.373     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 04:00:02.385     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 04:00:02.393     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 04:00:02.402     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 29/06/2019 04:00:02.413     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 29/06/2019 04:00:02.426     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 29/06/2019 04:00:02.441     [Error  ] - Component Files not found : XpaTHelp.ecf

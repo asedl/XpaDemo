@@ -1,6 +1,6 @@
-xparun_exe=C:\XpaDemo\bin\Xpa\MgxpaRuntime.exe
-xparun_workingdir=C:\XpaDemo\bin\Xpa
-xparun_parameters=@C:\XpaDemo\XpaTDemo.ini
+xparun_exe=C:\Magic\Magic xpa 3.3 Single User Edition\MgxpaRuntime.exe
+xparun_workingdir=C:\Magic\Magic xpa 3.3 Single User Edition
+xparun_parameters=@C:\Magic\projects\XpaDemo\XpaTDemo.ini
 xparun_envexpand=Y
 xparun_inidir=%TEMP%\
 xparun_wait=E

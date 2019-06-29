@@ -28,7 +28,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736841" _time="63384" date="27/05/2018" time="17:36:24"/>
+          <LastModified _date="737239" _time="17303" date="29/06/2019" time="04:48:23"/>
         </Header>
         <ItemIsn val="9"/>
         <Resource>
@@ -60,7 +60,7 @@
                 <UserType id="180"/>
               </PropertyList>
             </Column>
-            <Column id="4" name="v.Filename_XML1 (Output)">
+            <Column id="4" name="v.Filename_XML (Output)">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_UNICODE" comp="-1" id="1" obj="1"/>
                 <DbColumnName id="178"/>
@@ -68,7 +68,7 @@
                 <UserType id="180"/>
               </PropertyList>
             </Column>
-            <Column id="5" name="v.Filename_XML2 (Output)">
+            <Column id="5" name="v.Filename_XSD (Output)">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_UNICODE" comp="-1" id="1" obj="1"/>
                 <DbColumnName id="178"/>
@@ -77,14 +77,6 @@
               </PropertyList>
             </Column>
             <Column id="6" name="v,Filename_XSLT (Template)">
-              <PropertyList model="FIELD">
-                <Model attr_obj="FIELD_UNICODE" comp="-1" id="1" obj="1"/>
-                <DbColumnName id="178"/>
-                <Type id="179"/>
-                <UserType id="180"/>
-              </PropertyList>
-            </Column>
-            <Column id="7" name="v.Filename_XSL (Output)">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_UNICODE" comp="-1" id="1" obj="1"/>
                 <DbColumnName id="178"/>
@@ -270,18 +262,6 @@
                 </Select>
               </LogicLine>
               <LogicLine>
-                <Select FieldID="7" FlowIsn="11" id="7">
-                  <Column val="7"/>
-                  <Type val="V"/>
-                  <IsParameter val="N"/>
-                  <DIFF_UPDATE val="T"/>
-                  <PartOfDataview val="N"/>
-                  <Condition val="Y"/>
-                  <Modifier val="S"/>
-                  <Direction val="C"/>
-                </Select>
-              </LogicLine>
-              <LogicLine>
                 <Select FieldID="8" FlowIsn="12" id="8">
                   <Column val="8"/>
                   <Type val="V"/>
@@ -340,7 +320,7 @@
               <LogicLine>
                 <Update FlowIsn="17">
                   <FieldID val="4"/>
-                  <WithValue val="1"/>
+                  <WithValue val="4"/>
                   <Incremental val="N"/>
                   <ForcedUpdate val="Y"/>
                   <Condition val="Y"/>
@@ -357,12 +337,12 @@
               <LogicLine>
                 <Remark FlowIsn="19">
                   <Type val="2"/>
-                  <Text val="XSL Resultfile (will be created)"/>
+                  <Text val="XSD Resultfile (will be created)"/>
                 </Remark>
               </LogicLine>
               <LogicLine>
                 <Update FlowIsn="20">
-                  <FieldID val="7"/>
+                  <FieldID val="5"/>
                   <WithValue val="2"/>
                   <Incremental val="N"/>
                   <ForcedUpdate val="Y"/>
@@ -431,21 +411,21 @@
           </FormEntry>
         </TaskForms>
         <Expressions>
-          <Expression id="1">
-            <ExpSyntax val="Trim(Translate('%WorkingDir%Export\CustomersList.xml'))"/>
+          <Expression id="2">
+            <ExpSyntax val="Trim(Translate('%XPADEMO_HOME%\Export\CustomersList.xsd'))"/>
             <ExpAttribute val="A"/>
           </Expression>
-          <Expression id="2">
-            <ExpSyntax val="Trim(Translate('%WorkingDir%Export\CustomersList.xsl'))"/>
+          <Expression id="4">
+            <ExpSyntax val="Trim(Translate('%XPADEMO_HOME%\Export\CustomersList.xml'))"/>
             <ExpAttribute val="A"/>
           </Expression>
           <Expression id="3">
-            <ExpSyntax val="Trim(Translate('%WorkingDir%Templates\Customerlist.xsl'))"/>
+            <ExpSyntax val="Trim(Translate('%XPADEMO_HOME%\Templates\Customerlist.xsl'))"/>
             <ExpAttribute val="A"/>
           </Expression>
         </Expressions>
         <Task MainProgram="N">
-          <Header Description="ExportCustomers" ISN_2="2" id="33">
+          <Header Description="ExportCustomers" ISN_2="2" LastIsn="2" id="33">
             <ExecutionRight comp="-1"/>
             <Resident val="N"/>
             <SQL val="N"/>
@@ -458,9 +438,9 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="736841" _time="63384" date="27/05/2018" time="17:36:24"/>
+            <LastModified _date="737239" _time="17031" date="29/06/2019" time="04:43:51"/>
           </Header>
-          <ItemIsn val="11"/>
+          <ItemIsn val="13"/>
           <Resource>
             <DB id="1">
               <DataObject comp="8" obj="26"/>
@@ -470,7 +450,18 @@
               <Cache val="Y"/>
               <IdentifyRowModifications val="84"/>
             </DB>
-            <Columns/>
+            <Columns>
+              <Column id="1" name="Ndx">
+                <PropertyList model="FIELD">
+                  <Model attr_obj="FIELD_NUMERIC" id="1"/>
+                  <Picture id="157" valUnicode="9"/>
+                  <_Dec id="181"/>
+                  <_Whole id="182" val="9"/>
+                  <_Negative id="192"/>
+                  <_FieldStyle id="276" val="1"/>
+                </PropertyList>
+              </Column>
+            </Columns>
           </Resource>
           <Information>
             <Key>
@@ -554,11 +545,30 @@
                   </DATAVIEW_SRC>
                 </LogicLine>
                 <LogicLine>
+                  <Remark FlowIsn="63">
+                    <Type val="0"/>
+                    <Text val=" "/>
+                  </Remark>
+                </LogicLine>
+                <LogicLine>
+                  <Select FieldID="13" FlowIsn="64" id="13">
+                    <ASS val="13"/>
+                    <Column val="1"/>
+                    <Type val="V"/>
+                    <IsParameter val="N"/>
+                    <_DitIndexForToolkit val="25"/>
+                    <DIFF_UPDATE val="T"/>
+                    <Condition val="Y"/>
+                    <Modifier val="S"/>
+                    <Direction val="C"/>
+                  </Select>
+                </LogicLine>
+                <LogicLine>
                   <Select FieldID="1" FlowIsn="3" id="1">
                     <Column val="1"/>
                     <Type val="R"/>
                     <IsParameter val="N"/>
-                    <_DitIndexForToolkit val="13"/>
+                    <_DitIndexForToolkit val="14"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
@@ -570,7 +580,7 @@
                     <Column val="2"/>
                     <Type val="R"/>
                     <IsParameter val="N"/>
-                    <_DitIndexForToolkit val="14"/>
+                    <_DitIndexForToolkit val="15"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
@@ -582,7 +592,7 @@
                     <Column val="3"/>
                     <Type val="R"/>
                     <IsParameter val="N"/>
-                    <_DitIndexForToolkit val="15"/>
+                    <_DitIndexForToolkit val="16"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
@@ -594,7 +604,7 @@
                     <Column val="4"/>
                     <Type val="R"/>
                     <IsParameter val="N"/>
-                    <_DitIndexForToolkit val="16"/>
+                    <_DitIndexForToolkit val="17"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
@@ -606,7 +616,7 @@
                     <Column val="5"/>
                     <Type val="R"/>
                     <IsParameter val="N"/>
-                    <_DitIndexForToolkit val="17"/>
+                    <_DitIndexForToolkit val="18"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
@@ -618,7 +628,7 @@
                     <Column val="6"/>
                     <Type val="R"/>
                     <IsParameter val="N"/>
-                    <_DitIndexForToolkit val="18"/>
+                    <_DitIndexForToolkit val="19"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
@@ -630,7 +640,7 @@
                     <Column val="7"/>
                     <Type val="R"/>
                     <IsParameter val="N"/>
-                    <_DitIndexForToolkit val="19"/>
+                    <_DitIndexForToolkit val="20"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
@@ -642,7 +652,7 @@
                     <Column val="8"/>
                     <Type val="R"/>
                     <IsParameter val="N"/>
-                    <_DitIndexForToolkit val="20"/>
+                    <_DitIndexForToolkit val="21"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
@@ -654,7 +664,7 @@
                     <Column val="9"/>
                     <Type val="R"/>
                     <IsParameter val="N"/>
-                    <_DitIndexForToolkit val="21"/>
+                    <_DitIndexForToolkit val="22"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
@@ -666,7 +676,7 @@
                     <Column val="10"/>
                     <Type val="R"/>
                     <IsParameter val="N"/>
-                    <_DitIndexForToolkit val="22"/>
+                    <_DitIndexForToolkit val="23"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
@@ -678,7 +688,7 @@
                     <Column val="11"/>
                     <Type val="R"/>
                     <IsParameter val="N"/>
-                    <_DitIndexForToolkit val="23"/>
+                    <_DitIndexForToolkit val="24"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
@@ -725,49 +735,8 @@
                 <EventType val="U"/>
                 <PublicObject comp="-1" obj="2"/>
               </Event>
+              <Expanded val="1"/>
               <LogicLines>
-                <LogicLine>
-                  <BLOCK EndBlock="18" EndBlockSegment="18" FlowIsn="16" Type="I">
-                    <Condition Exp="4"/>
-                    <Modifier val="B"/>
-                    <Direction val="C"/>
-                  </BLOCK>
-                </LogicLine>
-                <LogicLine>
-                  <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" Exp="8" FlowIsn="17" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TitleTxt="Warning" VR_DISP="B">
-                    <AppendToErrorLog val="N"/>
-                    <Condition val="Y"/>
-                    <Modifier val="B"/>
-                    <Direction val="C"/>
-                  </STP>
-                </LogicLine>
-                <LogicLine>
-                  <END_BLK FlowIsn="18"/>
-                </LogicLine>
-                <LogicLine>
-                  <Remark FlowIsn="19">
-                    <Type val="2"/>
-                    <Text val=" "/>
-                  </Remark>
-                </LogicLine>
-                <LogicLine>
-                  <BLOCK EndBlock="22" EndBlockSegment="22" FlowIsn="20" Type="I">
-                    <Condition Exp="5"/>
-                    <Modifier val="B"/>
-                    <Direction val="C"/>
-                  </BLOCK>
-                </LogicLine>
-                <LogicLine>
-                  <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" Exp="9" FlowIsn="21" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TitleTxt="Warning" VR_DISP="B">
-                    <AppendToErrorLog val="N"/>
-                    <Condition val="Y"/>
-                    <Modifier val="B"/>
-                    <Direction val="C"/>
-                  </STP>
-                </LogicLine>
-                <LogicLine>
-                  <END_BLK FlowIsn="22"/>
-                </LogicLine>
                 <LogicLine>
                   <Remark FlowIsn="23">
                     <Type val="2"/>
@@ -825,6 +794,12 @@
               </Event>
               <Expanded val="1"/>
               <LogicLines>
+                <LogicLine>
+                  <Remark FlowIsn="45">
+                    <Type val="2"/>
+                    <Text val=" "/>
+                  </Remark>
+                </LogicLine>
                 <LogicLine>
                   <RaiseEvent FlowIsn="29">
                     <Event>
@@ -994,7 +969,7 @@
             </LogicUnit>
           </TaskLogic>
           <TaskForms>
-            <FormEntry _last_isn="24" _last_test_id="31" id="1">
+            <FormEntry _last_isn="27" _last_test_id="34" id="1">
               <PropertyList model="FORM_GUI0">
                 <Width id="23" val="1570"/>
                 <Height id="24" val="317"/>
@@ -1006,18 +981,25 @@
                   <Placement bottom="100" id="20" right="100"/>
                   <X id="21" val="8"/>
                   <Y id="22" val="8"/>
-                  <Width id="23" val="1548"/>
+                  <Width id="23" val="1601"/>
                   <Height id="24" val="282"/>
                   <TitleHeight id="79" val="11"/>
-                  <RowHeight id="80" val="12"/>
-                  <Elements id="81" val="11"/>
+                  <RowHeight id="80" val="13"/>
+                  <Elements id="81" val="12"/>
                   <_WindowWidth id="241" val="1548"/>
+                </PropertyList>
+              </Control>
+              <Control ISN_FATHER="1" PDOD="128" _test_id="33" id="26">
+                <PropertyList model="CTRL_GUI0_COLUMN">
+                  <Width id="23" val="53"/>
+                  <ControlLayer id="25" val="1"/>
+                  <ColumnTitle id="139" valUnicode="Ndx"/>
                 </PropertyList>
               </Control>
               <Control ISN_FATHER="1" PDOD="128" _test_id="13" id="2">
                 <PropertyList model="CTRL_GUI0_COLUMN">
                   <Width id="23" val="49"/>
-                  <ControlLayer id="25" val="1"/>
+                  <ControlLayer id="25" val="2"/>
                   <Sortable id="134" val="Y"/>
                   <ColumnTitle id="139" valUnicode="CustomerID"/>
                 </PropertyList>
@@ -1025,7 +1007,7 @@
               <Control ISN_FATHER="1" PDOD="128" _test_id="14" id="3">
                 <PropertyList model="CTRL_GUI0_COLUMN">
                   <Width id="23" val="221"/>
-                  <ControlLayer id="25" val="2"/>
+                  <ControlLayer id="25" val="3"/>
                   <Sortable id="134" val="Y"/>
                   <ColumnTitle id="139" valUnicode="CompanyName"/>
                 </PropertyList>
@@ -1033,28 +1015,28 @@
               <Control ISN_FATHER="1" PDOD="128" _test_id="15" id="4">
                 <PropertyList model="CTRL_GUI0_COLUMN">
                   <Width id="23" val="168"/>
-                  <ControlLayer id="25" val="3"/>
+                  <ControlLayer id="25" val="4"/>
                   <ColumnTitle id="139" valUnicode="ContactName"/>
                 </PropertyList>
               </Control>
               <Control ISN_FATHER="1" PDOD="128" _test_id="16" id="5">
                 <PropertyList model="CTRL_GUI0_COLUMN">
                   <Width id="23" val="168"/>
-                  <ControlLayer id="25" val="4"/>
+                  <ControlLayer id="25" val="5"/>
                   <ColumnTitle id="139" valUnicode="ContactTitle"/>
                 </PropertyList>
               </Control>
               <Control ISN_FATHER="1" PDOD="128" _test_id="17" id="6">
                 <PropertyList model="CTRL_GUI0_COLUMN">
                   <Width id="23" val="328"/>
-                  <ControlLayer id="25" val="5"/>
+                  <ControlLayer id="25" val="6"/>
                   <ColumnTitle id="139" valUnicode="Address"/>
                 </PropertyList>
               </Control>
               <Control ISN_FATHER="1" PDOD="128" _test_id="18" id="7">
                 <PropertyList model="CTRL_GUI0_COLUMN">
                   <Width id="23" val="88"/>
-                  <ControlLayer id="25" val="6"/>
+                  <ControlLayer id="25" val="7"/>
                   <Sortable id="134" val="Y"/>
                   <ColumnTitle id="139" valUnicode="City"/>
                 </PropertyList>
@@ -1062,7 +1044,7 @@
               <Control ISN_FATHER="1" PDOD="128" _test_id="19" id="8">
                 <PropertyList model="CTRL_GUI0_COLUMN">
                   <Width id="23" val="88"/>
-                  <ControlLayer id="25" val="7"/>
+                  <ControlLayer id="25" val="8"/>
                   <Sortable id="134" val="Y"/>
                   <ColumnTitle id="139" valUnicode="Region"/>
                 </PropertyList>
@@ -1070,7 +1052,7 @@
               <Control ISN_FATHER="1" PDOD="128" _test_id="20" id="9">
                 <PropertyList model="CTRL_GUI0_COLUMN">
                   <Width id="23" val="61"/>
-                  <ControlLayer id="25" val="8"/>
+                  <ControlLayer id="25" val="9"/>
                   <Sortable id="134" val="Y"/>
                   <ColumnTitle id="139" valUnicode="PostalCode"/>
                 </PropertyList>
@@ -1078,21 +1060,21 @@
               <Control ISN_FATHER="1" PDOD="128" _test_id="21" id="10">
                 <PropertyList model="CTRL_GUI0_COLUMN">
                   <Width id="23" val="88"/>
-                  <ControlLayer id="25" val="9"/>
+                  <ControlLayer id="25" val="10"/>
                   <ColumnTitle id="139" valUnicode="Country"/>
                 </PropertyList>
               </Control>
               <Control ISN_FATHER="1" PDOD="128" _test_id="22" id="11">
                 <PropertyList model="CTRL_GUI0_COLUMN">
                   <Width id="23" val="136"/>
-                  <ControlLayer id="25" val="10"/>
+                  <ControlLayer id="25" val="11"/>
                   <ColumnTitle id="139" valUnicode="Phone"/>
                 </PropertyList>
               </Control>
               <Control ISN_FATHER="1" PDOD="128" _test_id="23" id="12">
                 <PropertyList model="CTRL_GUI0_COLUMN">
                   <Width id="23" val="136"/>
-                  <ControlLayer id="25" val="11"/>
+                  <ControlLayer id="25" val="12"/>
                   <ColumnTitle id="139" valUnicode="Fax"/>
                 </PropertyList>
               </Control>
@@ -1102,16 +1084,16 @@
                     <Var FieldID="1"/>
                   </Model>
                   <Placement bottom="100" id="20" right="100"/>
-                  <X id="21" val="10"/>
+                  <X id="21" val="63"/>
                   <Y id="22" val="21"/>
                   <Width id="23" val="29"/>
                   <Height id="24" val="10"/>
-                  <ControlLayer id="25" val="1"/>
+                  <ControlLayer id="25" val="2"/>
                   <Data FieldID="1" id="43"/>
                   <ControlName id="46" val="CustomerID"/>
                   <Style id="63" val="1"/>
                   <_Orientation id="143"/>
-                  <TabOrder id="314" val="1"/>
+                  <TabOrder id="314" val="2"/>
                   <Border id="452"/>
                 </PropertyList>
               </Control>
@@ -1121,16 +1103,16 @@
                     <Var FieldID="2"/>
                   </Model>
                   <Placement bottom="100" id="20" right="100"/>
-                  <X id="21" val="59"/>
+                  <X id="21" val="112"/>
                   <Y id="22" val="21"/>
                   <Width id="23" val="216"/>
                   <Height id="24" val="10"/>
-                  <ControlLayer id="25" val="2"/>
+                  <ControlLayer id="25" val="3"/>
                   <Data FieldID="2" id="43"/>
                   <ControlName id="46" val="CompanyName"/>
                   <Style id="63" val="1"/>
                   <_Orientation id="143"/>
-                  <TabOrder id="314" val="2"/>
+                  <TabOrder id="314" val="3"/>
                   <Border id="452"/>
                 </PropertyList>
               </Control>
@@ -1140,16 +1122,16 @@
                     <Var FieldID="3"/>
                   </Model>
                   <Placement bottom="100" id="20" right="100"/>
-                  <X id="21" val="280"/>
+                  <X id="21" val="333"/>
                   <Y id="22" val="21"/>
                   <Width id="23" val="163"/>
                   <Height id="24" val="10"/>
-                  <ControlLayer id="25" val="3"/>
+                  <ControlLayer id="25" val="4"/>
                   <Data FieldID="3" id="43"/>
                   <ControlName id="46" val="ContactName"/>
                   <Style id="63" val="1"/>
                   <_Orientation id="143"/>
-                  <TabOrder id="314" val="3"/>
+                  <TabOrder id="314" val="4"/>
                   <Border id="452"/>
                 </PropertyList>
               </Control>
@@ -1159,16 +1141,16 @@
                     <Var FieldID="4"/>
                   </Model>
                   <Placement bottom="100" id="20" right="100"/>
-                  <X id="21" val="448"/>
+                  <X id="21" val="501"/>
                   <Y id="22" val="21"/>
                   <Width id="23" val="163"/>
                   <Height id="24" val="10"/>
-                  <ControlLayer id="25" val="4"/>
+                  <ControlLayer id="25" val="5"/>
                   <Data FieldID="4" id="43"/>
                   <ControlName id="46" val="ContactTitle"/>
                   <Style id="63" val="1"/>
                   <_Orientation id="143"/>
-                  <TabOrder id="314" val="4"/>
+                  <TabOrder id="314" val="5"/>
                   <Border id="452"/>
                 </PropertyList>
               </Control>
@@ -1178,16 +1160,16 @@
                     <Var FieldID="5"/>
                   </Model>
                   <Placement bottom="100" id="20" right="100"/>
-                  <X id="21" val="616"/>
+                  <X id="21" val="669"/>
                   <Y id="22" val="21"/>
                   <Width id="23" val="323"/>
                   <Height id="24" val="10"/>
-                  <ControlLayer id="25" val="5"/>
+                  <ControlLayer id="25" val="6"/>
                   <Data FieldID="5" id="43"/>
                   <ControlName id="46" val="Address"/>
                   <Style id="63" val="1"/>
                   <_Orientation id="143"/>
-                  <TabOrder id="314" val="5"/>
+                  <TabOrder id="314" val="6"/>
                   <Border id="452"/>
                 </PropertyList>
               </Control>
@@ -1197,16 +1179,16 @@
                     <Var FieldID="6"/>
                   </Model>
                   <Placement bottom="100" id="20" right="100"/>
-                  <X id="21" val="944"/>
+                  <X id="21" val="997"/>
                   <Y id="22" val="21"/>
                   <Width id="23" val="83"/>
                   <Height id="24" val="10"/>
-                  <ControlLayer id="25" val="6"/>
+                  <ControlLayer id="25" val="7"/>
                   <Data FieldID="6" id="43"/>
                   <ControlName id="46" val="City"/>
                   <Style id="63" val="1"/>
                   <_Orientation id="143"/>
-                  <TabOrder id="314" val="6"/>
+                  <TabOrder id="314" val="7"/>
                   <Border id="452"/>
                 </PropertyList>
               </Control>
@@ -1216,16 +1198,16 @@
                     <Var FieldID="7"/>
                   </Model>
                   <Placement bottom="100" id="20" right="100"/>
-                  <X id="21" val="1032"/>
+                  <X id="21" val="1085"/>
                   <Y id="22" val="21"/>
                   <Width id="23" val="83"/>
                   <Height id="24" val="10"/>
-                  <ControlLayer id="25" val="7"/>
+                  <ControlLayer id="25" val="8"/>
                   <Data FieldID="7" id="43"/>
                   <ControlName id="46" val="Region"/>
                   <Style id="63" val="1"/>
                   <_Orientation id="143"/>
-                  <TabOrder id="314" val="7"/>
+                  <TabOrder id="314" val="8"/>
                   <Border id="452"/>
                 </PropertyList>
               </Control>
@@ -1235,16 +1217,16 @@
                     <Var FieldID="8"/>
                   </Model>
                   <Placement bottom="100" id="20" right="100"/>
-                  <X id="21" val="1120"/>
+                  <X id="21" val="1173"/>
                   <Y id="22" val="21"/>
                   <Width id="23" val="56"/>
                   <Height id="24" val="10"/>
-                  <ControlLayer id="25" val="8"/>
+                  <ControlLayer id="25" val="9"/>
                   <Data FieldID="8" id="43"/>
                   <ControlName id="46" val="PostalCode"/>
                   <Style id="63" val="1"/>
                   <_Orientation id="143"/>
-                  <TabOrder id="314" val="8"/>
+                  <TabOrder id="314" val="9"/>
                   <Border id="452"/>
                 </PropertyList>
               </Control>
@@ -1254,16 +1236,16 @@
                     <Var FieldID="9"/>
                   </Model>
                   <Placement bottom="100" id="20" right="100"/>
-                  <X id="21" val="1181"/>
+                  <X id="21" val="1234"/>
                   <Y id="22" val="21"/>
                   <Width id="23" val="83"/>
                   <Height id="24" val="10"/>
-                  <ControlLayer id="25" val="9"/>
+                  <ControlLayer id="25" val="10"/>
                   <Data FieldID="9" id="43"/>
                   <ControlName id="46" val="Country"/>
                   <Style id="63" val="1"/>
                   <_Orientation id="143"/>
-                  <TabOrder id="314" val="9"/>
+                  <TabOrder id="314" val="10"/>
                   <Border id="452"/>
                 </PropertyList>
               </Control>
@@ -1273,16 +1255,16 @@
                     <Var FieldID="10"/>
                   </Model>
                   <Placement bottom="100" id="20" right="100"/>
-                  <X id="21" val="1269"/>
+                  <X id="21" val="1322"/>
                   <Y id="22" val="21"/>
                   <Width id="23" val="131"/>
                   <Height id="24" val="10"/>
-                  <ControlLayer id="25" val="10"/>
+                  <ControlLayer id="25" val="11"/>
                   <Data FieldID="10" id="43"/>
                   <ControlName id="46" val="Phone"/>
                   <Style id="63" val="1"/>
                   <_Orientation id="143"/>
-                  <TabOrder id="314" val="10"/>
+                  <TabOrder id="314" val="11"/>
                   <Border id="452"/>
                 </PropertyList>
               </Control>
@@ -1292,16 +1274,35 @@
                     <Var FieldID="11"/>
                   </Model>
                   <Placement bottom="100" id="20" right="100"/>
-                  <X id="21" val="1405"/>
+                  <X id="21" val="1458"/>
                   <Y id="22" val="21"/>
                   <Width id="23" val="131"/>
                   <Height id="24" val="10"/>
-                  <ControlLayer id="25" val="11"/>
+                  <ControlLayer id="25" val="12"/>
                   <Data FieldID="11" id="43"/>
                   <ControlName id="46" val="Fax"/>
                   <Style id="63" val="1"/>
                   <_Orientation id="143"/>
-                  <TabOrder id="314" val="11"/>
+                  <TabOrder id="314" val="12"/>
+                  <Border id="452"/>
+                </PropertyList>
+              </Control>
+              <Control ISN_FATHER="1" PDOD="1" _test_id="34" id="27">
+                <PropertyList model="CTRL_GUI0_EDIT">
+                  <Model ID="MODEL_GUI_INT_TBL" id="1">
+                    <Var FieldID="13"/>
+                  </Model>
+                  <Placement bottom="100" id="20" right="100"/>
+                  <X id="21" val="12"/>
+                  <Y id="22" val="22"/>
+                  <Width id="23" val="46"/>
+                  <Height id="24" val="10"/>
+                  <ControlLayer id="25" val="1"/>
+                  <Data FieldID="13" id="43"/>
+                  <ControlName id="46" val="Ndx"/>
+                  <Style id="63" val="1"/>
+                  <_Orientation id="143"/>
+                  <TabOrder id="314" val="1"/>
                   <Border id="452"/>
                 </PropertyList>
               </Control>
@@ -1316,14 +1317,14 @@
                     <EventType val="U"/>
                     <PublicObject comp="-1" obj="1"/>
                   </RaiseEvent>
-                  <TabOrder id="314" val="12"/>
+                  <TabOrder id="314" val="13"/>
                 </PropertyList>
               </Control>
             </FormEntry>
           </TaskForms>
           <Expressions>
             <Expression id="1">
-              <ExpSyntax val="DataViewToXML(0, {1,2}, '', {1,4}, {1,7}, '', 2)"/>
+              <ExpSyntax val="DataViewToXML(0, {1,2}, '', {1,4}, {1,5}, '', 2)"/>
               <ExpAttribute val="B"/>
             </Expression>
             <Expression id="2">
@@ -1334,28 +1335,12 @@
               <ExpSyntax val="CallProg('{47,-1}'PROG, {1,1}, {1,2})"/>
               <ExpAttribute val="*"/>
             </Expression>
-            <Expression id="4">
-              <ExpSyntax val="FileExist({1,4})"/>
-              <ExpAttribute val="B"/>
-            </Expression>
-            <Expression id="5">
-              <ExpSyntax val="{1,7}&lt;>'' AND FileExist({1,7})"/>
-              <ExpAttribute val="B"/>
-            </Expression>
             <Expression id="6">
               <ExpSyntax val="Len(Trim({1,6}))>0 AND NOT(FileExist(Trim({1,6})))"/>
               <ExpAttribute val="B"/>
             </Expression>
             <Expression id="7">
               <ExpSyntax val="''"/>
-              <ExpAttribute val="A"/>
-            </Expression>
-            <Expression id="8">
-              <ExpSyntax val="Trim({1,4}) &amp; ' already exists and will be overwritten'"/>
-              <ExpAttribute val="A"/>
-            </Expression>
-            <Expression id="9">
-              <ExpSyntax val="Trim({1,7}) &amp; ' already exists and will be overwritten'"/>
               <ExpAttribute val="A"/>
             </Expression>
             <Expression id="10">
@@ -1366,8 +1351,18 @@
               <ExpSyntax val="Trim({1,4}) &amp; '.out.xml'"/>
               <ExpAttribute val="A"/>
             </Expression>
+            <Expression id="13">
+              <ExpSyntax val="Counter(0)"/>
+              <ExpAttribute val="N"/>
+            </Expression>
           </Expressions>
           <EVNT DESC="BtnExport" FORCE_EXIT="N" id="1">
+            <Event>
+              <EventType val="N"/>
+              <PublicObject comp="-1"/>
+            </Event>
+          </EVNT>
+          <EVNT DESC="BtnExport (Magic)" FORCE_EXIT="N" id="4">
             <Event>
               <EventType val="N"/>
               <PublicObject comp="-1"/>

@@ -426,11 +426,11 @@
             <ExpAttribute val="B"/>
           </Expression>
           <Expression id="4">
-            <ExpSyntax val="FileExist(Trim(Translate('%XPADEMO_HOME%')) &amp; '\' &amp; Trim({0,5}))"/>
+            <ExpSyntax val="FileExist(Trim(Translate('%XPADEMO_HOME%')) &amp; Trim({0,5}))"/>
             <ExpAttribute val="B"/>
           </Expression>
           <Expression id="5">
-            <ExpSyntax val="Trim(Translate('%XPADEMO_HOME%')) &amp; '\' &amp; Trim({0,5})"/>
+            <ExpSyntax val="Trim(Translate('%XPADEMO_HOME%')) &amp; Trim({0,5})"/>
             <ExpAttribute val="A"/>
           </Expression>
           <Expression id="6">

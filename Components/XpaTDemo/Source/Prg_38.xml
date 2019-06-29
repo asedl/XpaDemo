@@ -30,7 +30,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737014" _time="7230" date="16/11/2018" time="02:00:30"/>
+          <LastModified _date="737239" _time="15205" date="29/06/2019" time="04:13:25"/>
         </Header>
         <ItemIsn val="17"/>
         <Resource>
@@ -2141,7 +2141,7 @@
               <External val="N"/>
               <FormType val="N"/>
               <DotNetObjectExists val="N"/>
-              <LastModified _date="737009" _time="45613" date="11/11/2018" time="12:40:13"/>
+              <LastModified _date="737239" _time="14933" date="29/06/2019" time="04:08:53"/>
             </Header>
             <ItemIsn val="8"/>
             <Resource>
@@ -2464,7 +2464,7 @@
             <TaskForms>
               <FormEntry CLSS="1" id="2">
                 <PropertyList model="FORM_MERGE">
-                  <FileName id="4" val="%XPADEMO_HOME%\Templates\scripts\wsh\CreateShortcut.vbs"/>
+                  <FileName id="4" val="C:\Magic\projects\XpaDemo\Templates\scripts\wsh\CreateShortcut.vbs"/>
                   <TagsTable id="7">
                     <MERGE_PARM Exp="1" PIC_U="255" TXT_U="XPADEMO_HOME" id="1"/>
                     <MERGE_PARM Exp="2" PIC_U="255" TXT_U="LINK_FILENAME" id="2"/>
@@ -2754,7 +2754,7 @@
           <TaskForms>
             <FormEntry CLSS="1" id="2">
               <PropertyList model="FORM_MERGE">
-                <FileName Exp="4" id="4" val="%XPADEMO_HOME%\Templates\ini\XpaDemo.ini"/>
+                <FileName Exp="4" id="4" val="%XPADEMO_HOME%Templates\ini\XpaDemo.ini"/>
                 <TagsTable id="7">
                   <MERGE_PARM Exp="1" PIC_U="255" TXT_U="XPADEMO_HOME" id="1"/>
                 </TagsTable>

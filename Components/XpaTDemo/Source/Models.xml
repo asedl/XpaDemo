@@ -4,7 +4,7 @@
   <Header>
     <Version val="13030.00"/>
     <WithIsn val="Y"/>
-    <LastIsn val="39"/>
+    <LastIsn val="45"/>
     <LastIsnFolder val="1"/>
     <Folders>
       <Folder id="1">
@@ -320,6 +320,57 @@
           <Height id="24" val="100"/>
           <DefaultImageFile id="88"/>
           <ButtonStyle id="96" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="40" name="PortNo">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Range id="98" valUnicode="1024-65535"/>
+          <Picture id="157" valUnicode="5"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="5"/>
+          <_Negative id="192"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="41" name="IPEndPoint">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_BLOB" id="1"/>
+          <Size id="174" val="28"/>
+          <_FieldStyle id="276" val="5"/>
+          <ObjectType id="478" val="System.Net.IPEndPoint"/>
+        </PropertyList>
+      </Object>
+      <Object id="42" name="UdpClient">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_BLOB" id="1"/>
+          <Size id="174" val="28"/>
+          <_FieldStyle id="276" val="5"/>
+          <ObjectType id="478" val="System.Net.Sockets.UdpClient"/>
+        </PropertyList>
+      </Object>
+      <Object id="43" name="TcpListener">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_BLOB" id="1"/>
+          <Size id="174" val="28"/>
+          <_FieldStyle id="276" val="5"/>
+          <ObjectType id="478" val="System.Net.Sockets.TcpListener"/>
+        </PropertyList>
+      </Object>
+      <Object id="44" name="TcpClient">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_BLOB" id="1"/>
+          <Size id="174" val="28"/>
+          <_FieldStyle id="276" val="5"/>
+          <ObjectType id="478" val="System.Net.Sockets.TcpClient"/>
+        </PropertyList>
+      </Object>
+      <Object id="45" name="NetworkStream">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_BLOB" id="1"/>
+          <Size id="174" val="28"/>
+          <_FieldStyle id="276" val="5"/>
+          <ObjectType id="478" val="System.Net.Sockets.NetworkStream"/>
         </PropertyList>
       </Object>
       <Object FolderIsn="1" id="39" name="ModelText20">
