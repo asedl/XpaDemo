@@ -2,12 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="348c36ab-57fc-4111-9519-f2b0694ec677" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Components/XpaTUtils/Source/Prg_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Components/XpaTUtils/Source/Prg_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/XpaTUtils/Source/Prg_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/XpaTUtils/Source/ProgramHeaders.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Components/XpaTUtils/Source/ProgramHeaders.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/XpaTUtils/Source/Progs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Components/XpaTUtils/Source/Progs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/XpaTUtils/XpaTUtils.opt" beforeDir="false" afterPath="$PROJECT_DIR$/Components/XpaTUtils/XpaTUtils.opt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XpaTDemo.ini" beforeDir="false" afterPath="$PROJECT_DIR$/XpaTDemo.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doc/Components/XpaTJson/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doc/Samples/XpaTHttp/Mitigate_Magic_TLS_Issues.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dev.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dev.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/XpaTDemo/Source/DataSourcesIndex.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Components/XpaTDemo/Source/DataSourcesIndex.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/XpaTDemo/Source/Prg_14.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Components/XpaTDemo/Source/Prg_14.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/XpaTDemo/Source/ProgramHeaders.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Components/XpaTDemo/Source/ProgramHeaders.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/XpaTDemo/mgerror.log" beforeDir="false" afterPath="$PROJECT_DIR$/Components/XpaTDemo/mgerror.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/XPATest.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/Data/XPATest.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/XpaHttp.md" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/XpaHttp.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Export/CustomersList.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/Export/CustomersList.xsd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mgerror.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/TemplateRequest_1_Response" beforeDir="false" afterPath="$PROJECT_DIR$/temp/TemplateRequest_1_Response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/TemplateRequest_1_Response.headers.out" beforeDir="false" afterPath="$PROJECT_DIR$/temp/TemplateRequest_1_Response.headers.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/TemplateRequest_1_Response.html" beforeDir="false" afterPath="$PROJECT_DIR$/temp/TemplateRequest_1_Response.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,42 +28,33 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1145749255">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="md" value="5" />
-          <entry key="png" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Image" value="3" />
-          <entry key="Markdown" value="5" />
-        </counts>
-      </usages-collector>
-    </session>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/Doc/Components/XpaTJson/README.md">
+                <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                  <state split_layout="SPLIT">
+                    <first_editor relative-caret-position="544">
+                      <caret line="32" selection-start-line="32" selection-end-line="32" />
+                    </first_editor>
+                    <second_editor />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Doc/Components/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Doc/Components/XpaTSoap/XpaTSoap.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -65,26 +66,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Doc/Components/XpaTQueue/ActiveMQ.md">
+        <entry file="file://$PROJECT_DIR$/Doc/Components/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Doc/Components/XpaTQueue/Samples/TSTO112_Subscriber.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Doc/Components/XpaTQueue/Samples/TSTO112_Subscriber.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="561">
-                <caret line="33" column="68" selection-start-line="33" selection-start-column="68" selection-end-line="33" selection-end-column="68" />
+              <first_editor relative-caret-position="51">
+                <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="28" />
               </first_editor>
               <second_editor />
             </state>
@@ -92,7 +78,43 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Doc/Components/XpaTCrypt/Charsets_Encodeing.md">
+        <entry file="file://$PROJECT_DIR$/Doc/Samples/XpaTHttp/OWCLN001_xpatest_uris.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="952">
+                <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Doc/XpaHttp.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="510">
+                <caret line="30" column="315" selection-start-line="30" selection-start-column="282" selection-end-line="30" selection-end-column="315" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Doc/Samples/XpaTHttp/Mitigate_Magic_TLS_Issues.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="816">
+                <caret line="48" selection-start-line="48" selection-end-line="48" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Doc/Databases/XPATEST/xpatest_components.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor />
@@ -102,7 +124,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Doc/Components/XpaTCrypt/Padding.md">
+        <entry file="file://$PROJECT_DIR$/Doc/Tools/README.MD">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor />
@@ -112,21 +134,29 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Doc/Components/XpaTCrypt/padding_issue.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Doc/Components/XpaTCrypt/padding_issue_error.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Doc/Components/XpaTCrypt/TSTO002_AES_Encrypt.md">
+        <entry file="file://$PROJECT_DIR$/Doc/Tools/XpaRunner.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor />
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Export/CustomersList.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="32" column="48" selection-end-line="93" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Export/CustomersList.xsd">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -136,45 +166,78 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/Components/XpaTBuild/package.json" />
-    </packageJsonPaths>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/conf/XpaTests.settings" />
+        <option value="$PROJECT_DIR$/StartStudio.settings" />
+        <option value="$PROJECT_DIR$/StartRuntime.settings" />
+        <option value="$PROJECT_DIR$/Doc/Components/XpaTJson/README.md" />
+        <option value="$PROJECT_DIR$/Doc/XpaHttp.md" />
+        <option value="$PROJECT_DIR$/Doc/Samples/XpaTHttp/Mitigate_Magic_TLS_Issues.md" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2845" />
-    <option name="y" value="131" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="123" />
+    <option name="y" value="188" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dev" type="462c0819:PsiDirectoryNode" />
+              <item name="XpaDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XpaDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XpaDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XpaDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Doc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XpaDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XpaDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Doc" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XpaDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XpaDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Doc" type="462c0819:PsiDirectoryNode" />
+              <item name="Samples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XpaDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XpaDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Doc" type="462c0819:PsiDirectoryNode" />
+              <item name="Samples" type="462c0819:PsiDirectoryNode" />
+              <item name="XpaTHttp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XpaDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XpaDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Export" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="C:/Ionic/mywicket1" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -200,18 +263,29 @@
       <updated>1542330823230</updated>
       <workItem from="1542330827001" duration="2025000" />
       <workItem from="1542400033503" duration="75000" />
+      <workItem from="1560984576585" duration="1323000" />
+      <workItem from="1561784682133" duration="3923000" />
+      <workItem from="1561790866427" duration="4235000" />
+      <workItem from="1562328015955" duration="4837000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2100000" />
+    <option name="totallyTimeSpent" value="16418000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2552" y="1" width="2576" height="1416" extended-state="6" />
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13396375" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16971382" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Learn" order="7" />
+      <window_info anchor="bottom" id="SonarLint" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -221,21 +295,47 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32955715" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.329653" />
+      <window_info anchor="bottom" id="Log4jMonitor" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" visible="true" weight="0.25396827" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="SciView" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.ini" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.settings" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Doc/XpaHttp.md">
+    <entry file="file://$PROJECT_DIR$/Scripts/dotnet-install.ps1">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/httpget_01.vbs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/httpget_02.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/InstallJava.ps1">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Doc/Components/XpaTCrypt/assets/TSTO002_AES_Encrypt.PNG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Doc/Components/XpaTCrypt/Samples/TSTO005_DeriveKey.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
@@ -243,7 +343,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Doc/NamingConventions.md">
+    <entry file="file://$PROJECT_DIR$/Doc/Components/XpaTQueue/Samples/TSTO112_Subscriber.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Doc/Components/XpaTQueue/Samples/TSTO112_Subscriber.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="561">
+            <caret line="33" column="68" selection-start-line="33" selection-start-column="68" selection-end-line="33" selection-end-column="68" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/XpaTests.settings">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Templates/Customerlist.xsl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Start XPA Runtime (XpaDemo).lnk" />
+    <entry file="file://$PROJECT_DIR$/conf/XpaTQueue_Config.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StartRuntime.settings">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StartStudio.settings">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="18" lean-forward="true" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XpaTDemo.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StartRuntime.runtimeconfig.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgerror.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Templates/RemoveNamespaces.xsl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Templates/ini/XpaDemo.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Doc/Docker.MD">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
@@ -259,19 +442,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/dotnet-install.ps1">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/httpget_01.vbs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/httpget_02.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/InstallJava.ps1">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Doc/Components/XpaTBuild/README.md">
+    <entry file="file://$PROJECT_DIR$/Doc/NamingConventions.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
@@ -279,10 +450,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Doc/Components/XpaTCrypt/assets/TSTO002_AES_Encrypt.PNG">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Doc/Components/XpaTCrypt/Samples/TSTO005_DeriveKey.md">
+    <entry file="file://$PROJECT_DIR$/Doc/Components/XpaTBuild/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
@@ -298,34 +466,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Doc/Components/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Doc/Components/XpaTSoap/XpaTSoap.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Doc/Components/XpaTQueue/ActiveMQ.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Doc/Components/XpaTQueue/Samples/TSTO112_Subscriber.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Doc/Components/XpaTCrypt/Charsets_Encodeing.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Doc/Components/XpaTCrypt/general_dll_issues.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
@@ -355,11 +504,121 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Doc/Components/XpaTQueue/Samples/TSTO112_Subscriber.md">
+    <entry file="file://$PROJECT_DIR$/Doc/Components/XpaTHelp/XpaTHelp.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="561">
-            <caret line="33" column="68" selection-start-line="33" selection-start-column="68" selection-end-line="33" selection-end-column="68" />
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Doc/Components/XpaTQueue/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Doc/Components/XpaTQueue/ActiveMQ.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Doc/Components/XpaTSoap/XpaTSoap.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Doc/Components/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="51">
+            <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="28" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Doc/Databases/XPATEST/xpatest_components.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Doc/Tools/README.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Doc/Tools/XpaRunner.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Export/CustomersList.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="48" selection-end-line="93" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Export/CustomersList.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Doc/Components/XpaTJson/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="544">
+            <caret line="32" selection-start-line="32" selection-end-line="32" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Doc/Samples/XpaTHttp/OWCLN001_xpatest_uris.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="952">
+            <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Doc/XpaHttp.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="510">
+            <caret line="30" column="315" selection-start-line="30" selection-start-column="282" selection-end-line="30" selection-end-column="315" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Doc/Samples/XpaTHttp/Mitigate_Magic_TLS_Issues.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="816">
+            <caret line="48" selection-start-line="48" selection-end-line="48" />
           </first_editor>
           <second_editor />
         </state>

@@ -25,6 +25,9 @@ a solution because MSE admitted to him that these new modules for Http support i
 There's a plan to check if JMS / Message Queues could help and allow sufficient performance. 
 That would solve the issues with the asynchronous and stateless nature of this stuff and would add "guaranteed delivery" and such fetures at minimal costs.
 
+Another option to mitigate Magic Http,TLS issues and more is to work with a proxy configuration. 
++ [Intercept HTTPS CONNECT messages with SSL-Bump](https://wiki.squid-cache.org/ConfigExamples/Intercept/SslBumpExplicit)
 
-
+Squid is a quite powerful and popular proxy. Apache Http and NGINX offer solutions for these problems too. A document how you can quickly fire up a test enviroment in order to chack if it helps with your "Magic & Internet / TLS problems" you can finde here in the XpaDemo project: [Magic on Windows with Squid proxy](./Samples/XpaTHttp/Mitigate_Magic_TLS_Issues.md) 
+ 
 

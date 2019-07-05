@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="13030.00"/>
+    <WithIsn val="Y"/>
+  </Header>
+
+  <ProgramsRepositoryHeaders>
+    <Program>
+      <Header Description="Main Program" ISN_2="1" LastIsn="1" id="1">
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="B"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <Closeopentasks val="N"/>
+        <RunProjectAs val="O"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="736133" _time="49999" date="18/06/2016" time="13:53:19"/>
+      </Header>
+      <SourceFileTimeStamp _date="737239" _time="20582" date="29/06/2019" time="05:43:02"/>
+    </Program>
+    <Program>
+      <Header Description="Magic Logging" ISN_2="1" LastIsn="1" id="2">
+        <Public val="MagicLogging"/>
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="737239" _time="27906" date="29/06/2019" time="07:45:06"/>
+      </Header>
+      <SourceFileTimeStamp _date="737239" _time="20706" date="29/06/2019" time="05:45:06"/>
+    </Program>
+  </ProgramsRepositoryHeaders>
+
+</Application>

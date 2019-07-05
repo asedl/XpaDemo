@@ -29,7 +29,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="Y"/>
-          <LastModified _date="737008" _time="83162" date="10/11/2018" time="23:06:02"/>
+          <LastModified _date="737245" _time="48214" date="05/07/2019" time="13:23:34"/>
         </Header>
         <ItemIsn val="4"/>
         <Resource>
@@ -283,7 +283,7 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="Y"/>
-            <LastModified _date="737008" _time="83162" date="10/11/2018" time="23:06:02"/>
+            <LastModified _date="737245" _time="48214" date="05/07/2019" time="13:23:34"/>
           </Header>
           <ItemIsn val="11"/>
           <Resource>
@@ -1176,6 +1176,7 @@
                 <EventType val="U"/>
                 <PublicObject comp="-1" obj="4"/>
               </Event>
+              <Expanded val="1"/>
               <LogicLines>
                 <LogicLine>
                   <RaiseEvent FlowIsn="62">
@@ -1865,7 +1866,7 @@
               <ExpAttribute val="B"/>
             </Expression>
             <Expression id="11">
-              <ExpSyntax val="Trim(Translate('%XPADEMO_HOME%')) &amp; 'temp\TemplateRequest_' &amp; Trim(Str({0,1},'')) &amp; '_Response'"/>
+              <ExpSyntax val="Trim(Translate('%XPADEMO_HOME%')) &amp; '\temp\TemplateRequest_' &amp; Trim(Str({0,1},'')) &amp; '_Response'"/>
               <ExpAttribute val="A"/>
             </Expression>
             <Expression id="12">

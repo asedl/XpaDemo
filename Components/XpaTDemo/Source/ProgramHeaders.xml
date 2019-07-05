@@ -522,7 +522,7 @@
       <SourceFileTimeStamp _date="737216" _time="38705" date="06/06/2019" time="10:45:05"/>
     </Program>
     <Program>
-      <Header Description="OWCLN001_xpatest_uris" ISN_2="1" LastIsn="2" id="14">
+      <Header Description="OWCLN001_xpatest_uris" ISN_2="1" LastIsn="1" id="14">
         <Comment val="@@CREATED: May 15, 2018&#xD;&#xA;@@HISTORY:&#xD;&#xA;&#xD;&#xA;Online Line Mode Browse program for table xpatest_uris which does contain URLs.&#xD;&#xA;Basically a test program for various functions on a URL called by clicking the corresponding button.&#xD;&#xA;&#xD;&#xA;"/>
         <Public val="OWCLN001_xpatest_uris"/>
         <ExecutionRight comp="-1"/>
@@ -538,9 +538,9 @@
         <Offline val="N"/>
         <FormType val="N"/>
         <DotNetObjectExists val="Y"/>
-        <LastModified _date="737008" _time="83162" date="10/11/2018" time="23:06:02"/>
+        <LastModified _date="737245" _time="48214" date="05/07/2019" time="13:23:34"/>
       </Header>
-      <SourceFileTimeStamp _date="737239" _time="5481" date="29/06/2019" time="01:31:21"/>
+      <SourceFileTimeStamp _date="737245" _time="41014" date="05/07/2019" time="11:23:34"/>
     </Program>
     <Program>
       <Header Description="BWCLN002_HttpGet (Apache)" ISN_2="1" LastIsn="1" id="15">

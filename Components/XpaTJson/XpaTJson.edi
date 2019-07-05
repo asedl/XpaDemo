@@ -1,0 +1,18 @@
+       // Magic ECI Generator                                          //
+       // Created by   :----No User logged in----         //
+       // Created Date :29/06/2019 Time :08:03:00              //
+       // File Name    :C:\Magic\projects\XpaDemo\Projects\XpaTJson\XpaTJson.edi         //
+COMPID = 3195402883-32579-19063-9C29347C8
+NAME = "XpaTJson"
+DESC = "Json demo / utilities component of XpaTDemo project"
+COMPTYPE = "Magic xpa"
+IMMED = "Y"
+PROJECTFILE = "C:\Magic\projects\XpaDemo\Components\XpaTJson\XpaTJson.edp"
+CABINETFILE = "C:\Magic\projects\XpaDemo\Components\XpaTJson\XpaTJson.ecf"
+VRSN =
+HLPFILE = ""
+HLPKEY = ""
+
+PRG=PUBLIC="XpaTJson" RMK="" HELPKEY=""
+
+[ENVIRONMENT]
