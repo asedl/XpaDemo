@@ -1,4 +1,4 @@
-#Magic on Windows with Squid proxy
+# Magic on Windows with Squid proxy
 In of the recent discussions in magicu-l regarding Magic Http functions & support for later TLS versions we recommended to mitigate the issues by working with a proxy. Here is a brief description to install/configure such an environment, in order to be able to test this approach. 
 
 
