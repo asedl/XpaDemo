@@ -362,7 +362,7 @@
           <Prompt comp="-1"/>
           <Menu>
             <MenuType val="1"/>
-            <LastIsn val="2"/>
+            <LastIsn val="3"/>
             <MenuEntry id="1">
               <MenuType val="2"/>
               <Name val="ExportCustomers"/>
@@ -373,6 +373,15 @@
               <Program ObjIsn="33" comp="-1" obj="33"/>
               <SourceContext val="67"/>
               <AccessKeyID val="266"/>
+            </MenuEntry>
+            <MenuEntry id="3">
+              <MenuType val="2"/>
+              <Description_U val="mdsgrouper"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Program ObjIsn="73" comp="-1" obj="73"/>
+              <SourceContext val="67"/>
             </MenuEntry>
           </Menu>
         </MenuEntry>

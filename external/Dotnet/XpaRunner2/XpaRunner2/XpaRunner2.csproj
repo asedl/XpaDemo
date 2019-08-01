@@ -52,7 +52,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="CommandLine">
-      <HintPath>D:\Temp\commandline\src\CommandLine\bin\Debug\CommandLine.dll</HintPath>
+      <HintPath>..\..\..\..\CommandLine.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

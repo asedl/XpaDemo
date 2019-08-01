@@ -1,15 +1,17 @@
 # Dockerfile for XpaDemo project
 
 # For Magic XPA (Windows version) we need the windowservercore ....
-FROM microsoft/windowsservercore
+FROM mcr.microsoft.com/windows/servercore:1809
 
 MAINTAINER  Andreas Sedlmeier <sedlmeier@hotmail.com>
 
-COPY . c:/XpaDemo
 
-# Install and start Microsoft IIS which we do need for some samples ...
-RUN dism /online /enable-feature /all /featurename:iis-webserver /NoRestart
-RUN echo "Hello World - Dockerfile" > c:\inetpub\wwwroot\index.html
+
+# ENV chocolateyUseWindowsCompression false
+RUN powershell -Command \
+    iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1')); \
+    choco feature disable --name showDownloadProgress
+
 
 # Install Java 8 (32-Bit) .....
 ENV JAVA_HOME=C:\\XpaDemo\\bin\\jre1.8.0_192
@@ -25,6 +27,11 @@ ENV COMPLUS_NGenProtectedProcess_FeatureEnabled 0
 RUN \Windows\Microsoft.NET\Framework64\v4.0.30319\ngen update & \
     \Windows\Microsoft.NET\Framework\v4.0.30319\ngen update
 
-WORKDIR c:/XpaDemo/bin/Xpa
 
-RUN powershell.exe
+COPY . c:/Magic/projects/XpaDemo
+
+
+EXPOSE 80
+
+WORKDIR c:/Magic/projects/XpaDemo/bin/xpa-su-3.3
+ENTRYPOINT ["c:/Magic/projects/XpaDemo/XpaRunner.exe"]

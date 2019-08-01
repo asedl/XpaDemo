@@ -5,7 +5,7 @@
     <Version val="13030.00"/>
     <WithIsn val="Y"/>
     <Exe comp="-1"/>
-    <LastIsn val="21"/>
+    <LastIsn val="22"/>
     <LastIsnFolder val="2"/>
     <Folders>
       <Folder id="1">
@@ -779,6 +779,16 @@
             <PublicName val="#XPAMQB101_ConsumeMessage"/>
           </Object>
         </ComponentPrograms>
+      </Component>
+      <Component FolderIsn="2" id="22" name="Microsoft.Office.Interop.Excel">
+        <Description val="Microsoft.Office.Interop.Excel"/>
+        <ComponentType val=".NET"/>
+        <Type val="D"/>
+        <LoadImmediate val="Y"/>
+        <AssemblyName val="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c"/>
+        <AssemblyPath val="C:\WINDOWS\assembly\GAC_MSIL\Microsoft.Office.Interop.Excel\15.0.0.0__71e9bce111e9429c\Microsoft.Office.Interop.Excel.dll"/>
+        <UseSpecificVersion val="N"/>
+        <isGuiThreadExecution val="N"/>
       </Component>
     </Components>
     <Aliases LastIsnAliases="3">
