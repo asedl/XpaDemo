@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="Root">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element minOccurs="0" maxOccurs="1" name="EmployeeInfo">
+          <xsd:complexType>
+            <xsd:all>
+              <xsd:element minOccurs="0" maxOccurs="1" name="Name" />
+              <xsd:element minOccurs="0" maxOccurs="1" name="Date" />
+              <xsd:element minOccurs="0" maxOccurs="1" name="Code" />
+            </xsd:all>
+          </xsd:complexType>
+        </xsd:element>
+        <xsd:element minOccurs="0" maxOccurs="unbounded" name="ExpenseItem">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="Date" type="xsd:date"/>
+              <xsd:element name="Description" type="xsd:string"/>
+              <xsd:element name="Amount" type="xsd:decimal" />
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>
