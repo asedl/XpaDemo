@@ -14,7 +14,7 @@ With Docker available it should then be easy to get us a test environment up & r
 
 1.) Start Squid (a pretty popular proxy) by tying following in a command prmpt: 
 ```cmd
-ocker run -d --name magic_squid -p 3128:3128 datadog/squid
+docker run -d --name magic_squid -p 3128:3128 datadog/squid
 ```
 This will download you a container image with Squid preinstalled. The proxy is configured to listen on its default port 3128 for HTTP/HTTPS connections and because of the port mapping we can talk to squid on port 3128, from any machine in the newtwork which can reach this host. 
 
