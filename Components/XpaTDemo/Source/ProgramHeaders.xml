@@ -578,6 +578,47 @@
       <SourceFileTimeStamp _date="737272" _time="54346" date="01/08/2019" time="15:05:46"/>
     </Program>
     <Program>
+      <Header ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="76">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified date="00/00/0000" time="00:00:00"/>
+      </Header>
+      <SourceFileTimeStamp _date="737296" _time="58361" date="25/08/2019" time="16:12:41"/>
+    </Program>
+    <Program>
+      <Header Description="mgtest_mapdrive" ISN_2="1" LastIsn="1" id="77">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <TSK_PARAMS val="1"/>
+          <ParametersAttributes>
+            <Attr MgAttr="U"/>
+          </ParametersAttributes>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="B"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="737296" _time="66283" date="25/08/2019" time="18:24:43"/>
+      </Header>
+      <SourceFileTimeStamp _date="737296" _time="59083" date="25/08/2019" time="16:24:43"/>
+    </Program>
+    <Program>
       <Header Description="Rich Client - DatabaseComponen" ISN_2="1" LastIsn="1" id="13">
         <ExecutionRight comp="-1"/>
         <Resident val="N"/>

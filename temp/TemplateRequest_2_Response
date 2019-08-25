@@ -1,0 +1,7 @@
+{
+  "headers": {
+    "Accept": "*/*", 
+    "Cache-Control": "max-age=259200", 
+    "Host": "httpbin.org"
+  }
+}

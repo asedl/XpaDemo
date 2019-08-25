@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns1:Root xmlns:ns1="http://www.w3schools.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ns1:ExpenseItem>
+		<ns1:Date>2001-01-01</ns1:Date>
+		<ns1:Description>Airfare</ns1:Description>
+		<ns1:Amount>500.34</ns1:Amount>
+	</ns1:ExpenseItem>
+	<ns1:ExpenseItem>
+		<ns1:Date>2001-01-01</ns1:Date>
+		<ns1:Description>Hotel</ns1:Description>
+		<ns1:Amount>200</ns1:Amount>
+	</ns1:ExpenseItem>
+	<ns1:ExpenseItem>
+		<ns1:Date>2001-01-01</ns1:Date>
+		<ns1:Description>Taxi Fare</ns1:Description>
+		<ns1:Amount>100</ns1:Amount>
+	</ns1:ExpenseItem>
+	<ns1:ExpenseItem>
+		<ns1:Date>2001-01-01</ns1:Date>
+		<ns1:Description>Long Distance Phone Charges</ns1:Description>
+		<ns1:Amount>57.89</ns1:Amount>
+	</ns1:ExpenseItem>
+	<ns1:ExpenseItem>
+		<ns1:Date>2001-01-01</ns1:Date>
+		<ns1:Description>Food</ns1:Description>
+		<ns1:Amount>82.19</ns1:Amount>
+	</ns1:ExpenseItem>
+	<ns1:ExpenseItem>
+		<ns1:Date>2001-01-02</ns1:Date>
+		<ns1:Description>Food</ns1:Description>
+		<ns1:Amount>17.89</ns1:Amount>
+	</ns1:ExpenseItem>
+	<ns1:ExpenseItem>
+		<ns1:Date>2001-01-02</ns1:Date>
+		<ns1:Description>Personal Items</ns1:Description>
+		<ns1:Amount>32.54</ns1:Amount>
+	</ns1:ExpenseItem>
+	<ns1:ExpenseItem>
+		<ns1:Date>2001-01-03</ns1:Date>
+		<ns1:Description>Taxi Fare</ns1:Description>
+		<ns1:Amount>75</ns1:Amount>
+	</ns1:ExpenseItem>
+	<ns1:ExpenseItem>
+		<ns1:Date>2001-01-03</ns1:Date>
+		<ns1:Description>Food</ns1:Description>
+		<ns1:Amount>36.45</ns1:Amount>
+	</ns1:ExpenseItem>
+	<ns1:ExpenseItem>
+		<ns1:Date>2001-01-03</ns1:Date>
+		<ns1:Description>New Suit</ns1:Description>
+		<ns1:Amount>750</ns1:Amount>
+	</ns1:ExpenseItem>
+</ns1:Root>

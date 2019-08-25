@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Access-Control-Allow-Credentials:true
+ Access-Control-Allow-Origin:*
+ Referrer-Policy:no-referrer-when-downgrade
+ X-Content-Type-Options:nosniff
+ X-Frame-Options:DENY
+ X-XSS-Protection:1; mode=block
+ X-Cache:MISS from c38127a10393
+ X-Cache-Lookup:MISS from c38127a10393:3128
+ Connection:keep-alive
+ Content-Length:111
+ Content-Type:application/json
+ Date:Fri, 05 Jul 2019 11:48:36 GMT
+ Server:nginx
+ Via:1.1 c38127a10393 (squid/3.5.12)
+ 

@@ -35,7 +35,7 @@
           <FormType val="U"/>
           <DotNetObjectExists val="N"/>
           <ToBeMigrated val="Y"/>
-          <LastModified _date="736031" _time="46974" date="08/03/2016" time="13:02:54"/>
+          <LastModified _date="737292" _time="84171" date="21/08/2019" time="23:22:51"/>
         </Header>
         <ItemIsn val="53"/>
         <Resource>
@@ -1041,6 +1041,7 @@
               <EventType val="S"/>
               <PublicObject comp="-1"/>
             </Event>
+            <Expanded val="1"/>
             <LogicLines>
               <LogicLine>
                 <RaiseEvent FlowIsn="50">
@@ -1172,6 +1173,7 @@
               <EventType val="S"/>
               <PublicObject comp="-1"/>
             </Event>
+            <Expanded val="1"/>
             <LogicLines>
               <LogicLine>
                 <Select FieldID="38" FlowIsn="59" id="38">
@@ -2638,7 +2640,7 @@
         <VarRangeInfo Mode="E" VarRangeVeeIsn="9" id="1"/>
         <VarRangeInfo Mode="E" VarRangeVeeIsn="8" id="2"/>
         <Task MainProgram="N">
-          <Header Description="CheckDuplicate" ISN_2="2" id="20">
+          <Header Description="CheckDuplicate" ISN_2="2" LastIsn="2" id="20">
             <ExecutionRight comp="-1"/>
             <Resident val="N"/>
             <SQL val="N"/>
