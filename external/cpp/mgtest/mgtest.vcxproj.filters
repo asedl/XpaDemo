@@ -30,6 +30,12 @@
     <ClInclude Include="printing.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
+    <ClInclude Include="asprise_ocr_api.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="test_ocr.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -42,6 +48,9 @@
       <Filter>Quelldateien</Filter>
     </ClCompile>
     <ClCompile Include="printing.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="test_ocr.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>

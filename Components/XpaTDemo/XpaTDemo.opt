@@ -7,6 +7,29 @@
 
   <RIAExecutionPlatform Val="Desktop"/>
 
+  <Breakpoints>
+    <DelAll/>
+    <Breakpoint>
+      <Condition Val=""/>
+      <Location Val="OXMLT002_ExportProducts.BrowseProducts"/>
+      <HandlerId Val="5"/>
+      <OperationId Val="36"/>
+      <LineIndex Val="20"/>
+      <HandlerDesc Val="Event:BtnExport"/>
+      <Count Val="0"/>
+      <Enable Val="1"/>
+      <Component1 Val="-14816389"/>
+      <Component2 Val="39707"/>
+      <Component3 Val="19148"/>
+      <Component4 Val="1714918022"/>
+      <Component5 Val="-1967402934"/>
+      <Prog Val="78"/>
+      <Subtask Val="2"/>
+      <Type Val="1"/>
+      <Operation Val="36"/>
+    </Breakpoint>
+  </Breakpoints>
+
   <WatchListItems>
     <RestData/>
   </WatchListItems>

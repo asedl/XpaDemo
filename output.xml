@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="aocr.xsl"?>
+<asprise-ocr input="C:\Magic\projects\XpaDemo\Test\Ocr\MS-45-SNC.jpg" time-start="2019-09-28 18:09:34" version-format="15" runtime="Asprise OCR 15.3 - Evaluation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://asprise.com/ocr/files/schema/15/aocr.xsd">
+  <page no="0" width="1024" height="555" words="83" confidence="61" time-taken="2.747">
+    <block id="5" type="text" subtype="line" x="842" y="27" width="40" height="10" words="1" confidence="69" font-name="Times_New_Roman_Bold" font-size="21" font-bold="1" font-italic="0" font-serif="1" baseline="37" xheight="10" ascent="5" descent="-5">ANEXA</block>
+    <block id="6" type="text" subtype="line" x="21" y="37" width="954" height="17" words="9" confidence="57" font-name="Times_New_Roman_Bold" font-size="23" font-bold="1" font-italic="0" font-serif="1" baseline="54" xheight="11" ascent="5" descent="-4">A, 34545-51“: , A B 19-1110“ “ ucsmusmmmsiumwcuunz</block>
+    <block id="7" type="text" subtype="line" x="21" y="57" width="853" height="17" words="8" confidence="66" font-name="Trebuchet_MS_Bold_Italic" font-size="25" font-bold="1" font-italic="1" font-serif="0" baseline="70" xheight="12" ascent="6" descent="-5"><![CDATA[J Am'o'mlusum ‘ x 29.12100: |.1 29.11100: "002332565]]></block>
+    <block id="8" type="text" subtype="line" x="22" y="77" width="925" height="22" words="11" confidence="63" font-name="Verdana" font-size="20" font-bold="0" font-italic="0" font-serif="0" baseline="90" xheight="11" ascent="4" descent="-4">m DACIA FY1540 G 1102 » v. “5“5jSM _ 7</block>
+    <block id="9" type="text" subtype="line" x="22" y="99" width="918" height="13" words="7" confidence="64" font-name="Times_New_Roman_Bold" font-size="25" font-bold="1" font-italic="0" font-serif="1" baseline="111" xheight="12" ascent="6" descent="-5">D2 51) L9)“ m 1591 225. rNswechEmchPEmomcE</block>
+    <block id="a" type="text" subtype="line" x="22" y="119" width="513" height="18" words="11" confidence="51" font-name="Times_New_Roman_Bold" font-size="25" font-bold="1" font-italic="0" font-serif="1" baseline="132" xheight="12" ascent="6" descent="-5"><![CDATA[Dig ].OGANW_ W H > 7 W , P3 BENZINA u]]></block>
+    <block id="b" type="text" subtype="line" x="23" y="136" width="789" height="20" words="6" confidence="57" font-name="Verdana_Bold" font-size="22" font-bold="1" font-italic="0" font-serif="0" baseline="153" xheight="12" ascent="6" descent="-3">E hu1unAm4057xs9s ‘ a an i</block>
+    <block id="c" type="text" subtype="line" x="23" y="160" width="522" height="14" words="5" confidence="73" font-name="Trebuchet_MS" font-size="19" font-bold="0" font-italic="0" font-serif="0" baseline="173" xheight="11" ascent="3" descent="-4">K el‘ZDOl/IIS‘OJH‘W 5.15 52</block>
+    <block id="d" type="text" subtype="line" x="23" y="149" width="877" height="65" words="8" confidence="56" font-name="Times_New_Roman_Bold" font-size="29" font-bold="1" font-italic="0" font-serif="1" baseline="195" xheight="13" ascent="10" descent="-5"><![CDATA[021 c,2.1SUCIli ’ x 1:350an 151(90va alum 1"“‘1'0"]]></block>
+    <block id="e" type="text" subtype="line" x="362" y="205" width="397" height="16" words="3" confidence="50" font-name="Times_New_Roman_Bold" font-size="21" font-bold="1" font-italic="0" font-serif="1" baseline="213" xheight="10" ascent="5" descent="-5">muNW1 . N</block>
+    <block id="f" type="text" subtype="line" x="23" y="223" width="130" height="13" words="3" confidence="79" font-name="Times_New_Roman_Bold" font-size="16" font-bold="1" font-italic="0" font-serif="1" baseline="235" xheight="8" ascent="4" descent="-4">0.2 2 NICOLAE</block>
+    <block id="10" type="text" subtype="line" x="23" y="264" width="217" height="13" words="6" confidence="72" font-name="Times_New_Roman_Bold" font-size="18" font-bold="1" font-italic="0" font-serif="1" baseline="276" xheight="8" ascent="4" descent="-4">0.2 3 Sn. PODEI NA‘JO mun</block>
+    <block id="11" type="text" subtype="line" x="73" y="283" width="202" height="17" words="3" confidence="60" font-name="Times_New_Roman_Bold" font-size="18" font-bold="1" font-italic="0" font-serif="1" baseline="297" xheight="8" ascent="4" descent="-4">SIGHISOARA Imi‘ MURES</block>
+    <block id="12" type="text" subtype="line" x="22" y="514" width="170" height="12" words="2" confidence="66" font-name="Verdana_Italic" font-size="16" font-bold="0" font-italic="1" font-serif="0" baseline="526" xheight="8" ascent="4" descent="-4">WW 1400233</block>
+ <table id="2" x="811" y="216" width="109" height="156" rows="2" cols="3" cells="2" words="7" confidence="46">
+  <cell id="1" x="811" y="216" width="108" height="78" row="0" col="0" rowspan="1" colspan="2" largestContentArea="468">
+    <block id="13" type="text" subtype="line" x="823" y="222" width="83" height="24" words="1" confidence="38" font-name="Century_Schoolbook_L_Bold_Italic" font-size="28" font-bold="1" font-italic="1" font-serif="1" baseline="244" xheight="17" ascent="5" descent="-5">fish?</block>
+    <block id="14" type="text" subtype="line" x="822" y="258" width="81" height="28" words="2" confidence="55" font-name="Century_Schoolbook_L_Bold_Italic" font-size="26" font-bold="1" font-italic="1" font-serif="1" baseline="278" xheight="16" ascent="5" descent="-4">my M</block>
+  </cell>
+  <cell id="3" x="811" y="294" width="109" height="78" row="1" col="1" rowspan="1" colspan="2">
+    <block id="15" type="text" subtype="line" x="827" y="307" width="79" height="32" words="2" confidence="41" font-name="Times_New_Roman_Bold" font-size="23" font-bold="1" font-italic="0" font-serif="1" baseline="326" xheight="10" ascent="8" descent="-4">[1:1 3)?</block>
+    <block id="16" type="text" subtype="line" x="827" y="333" width="92" height="35" words="2" confidence="49" font-name="Times_New_Roman_Bold" font-size="26" font-bold="1" font-italic="0" font-serif="1" baseline="358" xheight="12" ascent="7" descent="-6">#th ‘</block>
+  </cell>
+ </table>
+  </page>
+</asprise-ocr>

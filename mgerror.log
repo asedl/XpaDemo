@@ -1,0 +1,539 @@
+﻿ <-1> 31/07/2019 01:03:41.700     [Error  ] - "Java Virtual Machine: Cannot be loaded (status: 126)"
+ <-1> 31/07/2019 01:03:47.655     [Error  ] - "Java Virtual Machine: Cannot be loaded (status: 126)"
+ <-1> 31/07/2019 01:03:47.924     [Error  ] - Component Files not found : Roslyn.ecf
+ <-1> 31/07/2019 01:03:47.979     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 31/07/2019 01:03:48.035     [Error  ] - Component Files not found : xpa_project_scan.ecf
+ <-1> 31/07/2019 01:03:48.563     [Error  ] - Java Virtual Machine: Cannot be loaded (status: 126)
+ <-1> 31/07/2019 01:03:48.571     [Error  ] - "Java Virtual Machine: Cannot be loaded (status: 126)"
+ <-1> 31/07/2019 01:03:48.800     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the file specified."
+ <-1> 31/07/2019 01:03:48.857     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the file specified."
+ <-1> 31/07/2019 01:04:09.699     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the file specified."
+ <-1> 31/07/2019 01:04:09.755     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the file specified."
+ <-1> 31/07/2019 01:04:42.695     [Error  ] - Java Virtual Machine: Cannot be loaded (status: 126), Program: "OXMLT001_ExportCustomers.ExportCustomers.BXMLT001_Transform (XSLT)".
+ <-1> 31/07/2019 01:04:42.700     [Error  ] - "Java Virtual Machine: Cannot be loaded (status: 126)", Program: "OXMLT001_ExportCustomers.ExportCustomers.BXMLT001_Transform (XSLT)".
+ <-1> 31/07/2019 01:04:42.706     [Error  ] - Java Virtual Machine: Cannot be loaded (status: 126), Program: "OXMLT001_ExportCustomers.ExportCustomers.BXMLT001_Transform (XSLT)".
+ <-1> 31/07/2019 01:04:42.712     [Error  ] - "Java Virtual Machine: Cannot be loaded (status: 126)", Program: "OXMLT001_ExportCustomers.ExportCustomers.BXMLT001_Transform (XSLT)".
+ <-1> 31/07/2019 01:05:20.717     [Error  ] - Java Virtual Machine: Cannot be loaded (status: 126)
+ <-1> 31/07/2019 01:05:20.730     [Error  ] - "Java Virtual Machine: Cannot be loaded (status: 126)"
+ <-1> 31/07/2019 01:05:20.904     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the file specified."
+ <-1> 31/07/2019 01:05:20.968     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the file specified."
+
+==============================================
+PID 18072	31/07/2019 01:08:04
+==============================================
+
+
+ <-1> 31/07/2019 01:12:20.657     [Error  ] - Component Files not found : Roslyn.ecf
+ <-1> 31/07/2019 01:12:20.713     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 31/07/2019 01:12:20.768     [Error  ] - Component Files not found : xpa_project_scan.ecf
+ <-1> 31/07/2019 01:12:21.692     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the file specified."
+ <-1> 31/07/2019 01:12:21.748     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the file specified."
+ <-1> 31/07/2019 01:14:31.198     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\XpaDemoTests.dll"
+"Could not load file or assembly 'XpaDemoTests.dll' or one of its dependencies. The system cannot find the file specified."
+ <-1> 31/07/2019 01:14:31.262     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\XpaDemoTests.dll"
+"Could not load file or assembly 'XpaDemoTests.dll' or one of its dependencies. The system cannot find the file specified."
+ <-1> 31/07/2019 01:14:40.633     [Error  ] - Component Files not found : Roslyn.ecf
+ <-1> 31/07/2019 01:14:40.688     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 31/07/2019 01:14:40.751     [Error  ] - Component Files not found : xpa_project_scan.ecf
+ <-1> 31/07/2019 01:14:41.420     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the file specified."
+ <-1> 31/07/2019 01:14:41.484     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the file specified."
+ <-1> 01/08/2019 16:26:30.697     [Error  ] - Component Files not found : Roslyn.ecf
+ <-1> 01/08/2019 16:26:30.759     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 01/08/2019 16:26:30.816     [Error  ] - Component Files not found : xpa_project_scan.ecf
+ <-1> 01/08/2019 16:26:31.783     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the file specified."
+ <-1> 01/08/2019 16:26:31.841     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the file specified."
+ <-1> 01/08/2019 16:29:02.907     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the file specified."
+ <-1> 01/08/2019 16:29:02.964     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the file specified."
+ <-1> 01/08/2019 16:29:10.909     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the file specified."
+ <-1> 01/08/2019 16:29:10.965     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the file specified."
+ <-1> 01/08/2019 16:29:30.944     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the file specified."
+ <-1> 01/08/2019 16:29:31.004     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the file specified."
+ <-1> 01/08/2019 16:29:35.953     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the file specified."
+ <-1> 01/08/2019 16:29:36.014     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the file specified."
+ <-1> 01/08/2019 17:05:51.612     [Error  ] - [MgGui.dll] XML Parse Error, Program: "XmlToExcel".
+ <-1> 01/08/2019 17:05:51.627     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.com.magicsoftware.rte.dotnet.DNSnippetManager.ExecuteDotNetSnippet(String assemblyName, String methodName, IntPtr& expValsPtr, Int32 expValsCount)
+   at com.magicsoftware.rte.RteExecutor.ExecuteDotNetSnippet(String assemblyName, String methodName, IntPtr& expValsPtr, Int32 expValsCount)
+   at RteExecutorEndpoint.InvokeExecuteDotNetSnippet(String assemblyName, String methodName, IntPtr& expValsPtr, Int32 expValsCount)
+   at RteExecutorBridge.ExecuteDotNetSnippet(RteExecutorBridge* , SByte* assemblyName, SByte* methodName, UnmanagedExpVal** expVals, Int32 expValsCount)
+   at CoreExecutorEndpoint.EventsLoop()
+   at CoreExecutorGateway.EventsLoop()
+   at com.magicsoftware.rte.RTEmanager.ExecuteWorkThread()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart(), Program: "XmlToExcel".
+ <-1> 01/08/2019 17:06:25.241     [Error  ] - [MgGui.dll] XML Parse Error, Program: "XmlToExcel".
+ <-1> 01/08/2019 17:06:25.247     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.com.magicsoftware.rte.dotnet.DNSnippetManager.ExecuteDotNetSnippet(String assemblyName, String methodName, IntPtr& expValsPtr, Int32 expValsCount)
+   at com.magicsoftware.rte.RteExecutor.ExecuteDotNetSnippet(String assemblyName, String methodName, IntPtr& expValsPtr, Int32 expValsCount)
+   at RteExecutorEndpoint.InvokeExecuteDotNetSnippet(String assemblyName, String methodName, IntPtr& expValsPtr, Int32 expValsCount)
+   at RteExecutorBridge.ExecuteDotNetSnippet(RteExecutorBridge* , SByte* assemblyName, SByte* methodName, UnmanagedExpVal** expVals, Int32 expValsCount)
+   at CoreExecutorEndpoint.EventsLoop()
+   at CoreExecutorGateway.EventsLoop()
+   at com.magicsoftware.rte.RTEmanager.ExecuteWorkThread()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart(), Program: "XmlToExcel".
+ <-1> 01/08/2019 18:40:47.438     [Error  ] - Component Files not found : Roslyn.ecf
+ <-1> 01/08/2019 18:40:47.504     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 01/08/2019 18:40:47.563     [Error  ] - Component Files not found : xpa_project_scan.ecf
+ <-1> 01/08/2019 18:40:49.342     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the file specified."
+ <-1> 01/08/2019 18:40:49.415     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the file specified."
+
+==============================================
+PID 20764	01/08/2019 22:40:48
+==============================================
+
+
+ <-1> 12/08/2019 17:14:37.829     [Error  ] - Unexpected return code: 400 Bad Request, Program: "Test1_Ingrambook".
+ <-1> 12/08/2019 17:15:34.698     [Error  ] - Unexpected return code: 400 Bad Request, Program: "Test1_Ingrambook".
+ <-1> 12/08/2019 17:16:29.706     [Error  ] - Unexpected return code: 400 Bad Request, Program: "Test1_Ingrambook".
+ <-1> 12/08/2019 17:16:54.058     [Error  ] - Unexpected return code: 400 Bad Request, Program: "Test1_Ingrambook".
+ <-1> 12/08/2019 17:17:24.363     [Error  ] - Unexpected return code: 400 Bad Request, Program: "Test1_Ingrambook".
+ <-1> 12/08/2019 17:19:02.577     [Error  ] - Unexpected return code: 400 Bad Request, Program: "Test1_Ingrambook".
+ <-1> 12/08/2019 17:19:38.060     [Error  ] - Error - run-time engine was not found. Please restart the studio in order to run the application
+ <-1> 12/08/2019 17:20:07.953     [Error  ] - Error - run-time engine was not found. Please restart the studio in order to run the application
+
+==============================================
+PID 3492	12/08/2019 17:20:08
+==============================================
+
+
+ <-1> 12/08/2019 19:21:33.938     [Error  ] - Unexpected return code: 400 Bad Request, Program: "Test1_Ingrambook".
+ <-1> 12/08/2019 19:25:19.127     [Error  ] - Unexpected return code: 400 Bad Request, Program: "Test1_Ingrambook".
+ <-1> 12/08/2019 19:26:56.291     [Error  ] - Unexpected return code: 400 Bad Request, Program: "Test1_Ingrambook".
+
+==============================================
+PID 25340	12/08/2019 19:27:04
+==============================================
+
+
+ <-1> 12/08/2019 19:27:42.430     [Error  ] - Unexpected return code: 400 Bad Request, Program: "Test1_Ingrambook".
+ <-1> 12/08/2019 19:32:22.184     [Error  ] - Unexpected return code: 400 Bad Request, Program: "Test1_Ingrambook".
+ <-1> 12/08/2019 19:34:01.937     [Error  ] - Unexpected return code: 400 Bad Request, Program: "Test1_Ingrambook".
+ <-1> 12/08/2019 19:36:08.681     [Error  ] - Unexpected return code: 400 Bad Request, Program: "Test1_Ingrambook".
+ <-1> 12/08/2019 19:38:05.133     [Error  ] - Unexpected return code: 400 Bad Request, Program: "Test1_Ingrambook".
+ <-1> 12/08/2019 19:53:05.165     [Error  ] - Unexpected return code: 400 Bad Request, Program: "Test1_Ingrambook".
+ <-1> 21/08/2019 14:25:19.976     [Error  ] - Component Files not found : Roslyn.ecf
+ <-1> 21/08/2019 14:25:20.039     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 21/08/2019 14:25:20.102     [Error  ] - Component Files not found : xpa_project_scan.ecf
+ <-1> 21/08/2019 14:25:22.474     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the file specified."
+ <-1> 21/08/2019 14:25:22.593     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the file specified."
+
+==============================================
+PID 3128	21/08/2019 15:49:54
+==============================================
+
+
+ <-1> 21/08/2019 22:41:13.406     [Error  ] - Component Files not found : Roslyn.ecf
+ <-1> 21/08/2019 22:41:13.470     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 21/08/2019 22:41:13.526     [Error  ] - Component Files not found : xpa_project_scan.ecf
+ <-1> 21/08/2019 22:41:14.441     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the file specified."
+ <-1> 21/08/2019 22:41:14.565     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the file specified."
+ <2> 21/08/2019 22:42:05.276     [Error  ] - JavaReflectionManager::JavaReflectionManager - "java.lang.NoClassDefFoundError: com/magicsoftware/xpa/utils/reflection/JarFileEntriesNames
+Caused by: java.lang.ClassNotFoundException: com.magicsoftware.xpa.utils.reflection.JarFileEntriesNames
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+"
+ <-1> 21/08/2019 22:42:05.443     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the file specified."
+ <-1> 21/08/2019 22:42:05.572     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the file specified."
+
+==============================================
+PID 6692	21/08/2019 23:27:28
+==============================================
+
+
+ <-1> 25/08/2019 18:12:26.340     [Error  ] - Component Files not found : Roslyn.ecf
+ <-1> 25/08/2019 18:12:26.403     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 25/08/2019 18:12:26.460     [Error  ] - Component Files not found : xpa_project_scan.ecf
+ <-1> 25/08/2019 18:12:27.329     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the file specified."
+ <-1> 25/08/2019 18:12:27.451     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the file specified."
+
+==============================================
+PID 24012	25/08/2019 18:24:44
+==============================================
+
+
+ <-1> 27/08/2019 13:31:30.720     [Error  ] - Component Files not found : Roslyn.ecf
+ <-1> 27/08/2019 13:31:30.783     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 27/08/2019 13:31:30.838     [Error  ] - Component Files not found : xpa_project_scan.ecf
+ <-1> 27/08/2019 13:31:33.196     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the file specified."
+ <-1> 27/08/2019 13:31:33.318     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the file specified."
+ <-1> 27/08/2019 13:57:09.280     [Error  ] - Component Files not found : Roslyn.ecf
+ <-1> 27/08/2019 13:57:09.336     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 27/08/2019 13:57:09.392     [Error  ] - Component Files not found : xpa_project_scan.ecf
+ <-1> 27/08/2019 13:57:10.080     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the file specified."
+ <-1> 27/08/2019 13:57:10.141     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the file specified."
+ <-1> 27/08/2019 18:19:54.333     [Error  ] - Component Files not found : Roslyn.ecf
+ <-1> 27/08/2019 18:19:54.395     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 27/08/2019 18:19:54.452     [Error  ] - Component Files not found : xpa_project_scan.ecf
+ <-1> 27/08/2019 18:19:55.099     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the file specified."
+ <-1> 27/08/2019 18:19:55.160     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemo\bin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the file specified."
+
+==============================================
+PID 19652	28/08/2019 21:22:11
+==============================================
+
+
+ <-1> 12/09/2019 09:51:27.845     [Error  ] - "Java Virtual Machine: Cannot be loaded (status: 126)"
+ <-1> 12/09/2019 09:51:28.105     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 12/09/2019 09:51:28.169     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 12/09/2019 09:51:28.232     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 12/09/2019 09:51:28.294     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 12/09/2019 09:51:28.511     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 12/09/2019 09:51:28.569     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 12/09/2019 09:51:28.625     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 12/09/2019 09:51:28.705     [Error  ] - Component Files not found : _UserFunctionality.ecf
+ <-1> 12/09/2019 09:51:28.761     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 12/09/2019 09:51:28.818     [Error  ] - Component Files not found : XpaTHelp.ecf
+ <-1> 12/09/2019 09:51:28.880     [Error  ] - Component Files not found : XpaTSoap.ecf
+ <-1> 12/09/2019 09:51:28.936     [Error  ] - Component Files not found : xpa-project-scan.ecf
+ <-1> 12/09/2019 09:51:28.996     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 12/09/2019 09:51:29.054     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 12/09/2019 09:51:29.110     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 12/09/2019 09:51:29.167     [Error  ] - Component Files not found : XpaTCrypt.ecf
+ <-1> 12/09/2019 09:51:29.223     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 12/09/2019 09:51:29.280     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 12/09/2019 09:51:29.337     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 12/09/2019 09:51:29.394     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 12/09/2019 09:51:29.451     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 12/09/2019 09:51:29.508     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 12/09/2019 09:51:29.565     [Error  ] - Component Files not found : XpaTQueue.ecf
+ <-1> 28/09/2019 17:08:24.181     [Error  ] - Component Files not found : Roslyn.ecf
+ <-1> 28/09/2019 17:08:24.246     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 28/09/2019 17:08:24.304     [Error  ] - Component Files not found : xpa_project_scan.ecf
+ <-1> 28/09/2019 17:08:25.401     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:08:25.460     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:08:25.595     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:08:25.653     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:08:25.902     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:08:25.967     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:08:26.093     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:08:26.156     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\Apache.NMS.dll"
+"Could not load file or assembly 'Apache.NMS.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:08:26.216     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\Apache.NMS.ActiveMQ.dll"
+"Could not load file or assembly 'Apache.NMS.ActiveMQ.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:08:26.280     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTQueue.dll"
+"Could not load file or assembly 'XpaTQueue.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:08:26.346     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:08:26.405     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\Apache.NMS.dll"
+"Could not load file or assembly 'Apache.NMS.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:08:26.469     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\Apache.NMS.ActiveMQ.dll"
+"Could not load file or assembly 'Apache.NMS.ActiveMQ.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:08:26.531     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTQueue.dll"
+"Could not load file or assembly 'XpaTQueue.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:17:58.155     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:17:58.221     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:17:58.429     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:17:58.498     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:17:58.966     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:17:59.033     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:17:59.190     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:17:59.254     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\Apache.NMS.dll"
+"Could not load file or assembly 'Apache.NMS.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:17:59.323     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\Apache.NMS.ActiveMQ.dll"
+"Could not load file or assembly 'Apache.NMS.ActiveMQ.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:17:59.393     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTQueue.dll"
+"Could not load file or assembly 'XpaTQueue.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:17:59.457     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:17:59.520     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\Apache.NMS.dll"
+"Could not load file or assembly 'Apache.NMS.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:17:59.588     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\Apache.NMS.ActiveMQ.dll"
+"Could not load file or assembly 'Apache.NMS.ActiveMQ.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:17:59.654     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTQueue.dll"
+"Could not load file or assembly 'XpaTQueue.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:18:50.776     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:18:50.840     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:18:51.076     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:18:51.155     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:18:51.728     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:18:51.794     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:18:51.956     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:18:52.036     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\Apache.NMS.dll"
+"Could not load file or assembly 'Apache.NMS.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:18:52.108     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\Apache.NMS.ActiveMQ.dll"
+"Could not load file or assembly 'Apache.NMS.ActiveMQ.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:18:52.176     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTQueue.dll"
+"Could not load file or assembly 'XpaTQueue.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:18:52.253     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:18:52.320     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\Apache.NMS.dll"
+"Could not load file or assembly 'Apache.NMS.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:18:52.390     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\Apache.NMS.ActiveMQ.dll"
+"Could not load file or assembly 'Apache.NMS.ActiveMQ.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:18:52.463     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTQueue.dll"
+"Could not load file or assembly 'XpaTQueue.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:20:43.443     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:20:43.513     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:20:43.680     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:20:43.748     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:20:44.119     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:20:44.183     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:20:44.306     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:20:44.369     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\Apache.NMS.dll"
+"Could not load file or assembly 'Apache.NMS.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:20:44.433     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\Apache.NMS.ActiveMQ.dll"
+"Could not load file or assembly 'Apache.NMS.ActiveMQ.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:20:44.496     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTQueue.dll"
+"Could not load file or assembly 'XpaTQueue.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:20:44.561     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:20:44.629     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\Apache.NMS.dll"
+"Could not load file or assembly 'Apache.NMS.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:20:44.698     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\Apache.NMS.ActiveMQ.dll"
+"Could not load file or assembly 'Apache.NMS.ActiveMQ.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:20:44.770     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTQueue.dll"
+"Could not load file or assembly 'XpaTQueue.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:23:43.627     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:23:43.692     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:23:43.865     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:23:43.927     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:23:44.283     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:23:44.346     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:23:44.488     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:23:44.551     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\Apache.NMS.dll"
+"Could not load file or assembly 'Apache.NMS.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:23:44.614     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\Apache.NMS.ActiveMQ.dll"
+"Could not load file or assembly 'Apache.NMS.ActiveMQ.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:23:44.678     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTQueue.dll"
+"Could not load file or assembly 'XpaTQueue.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:23:44.740     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:23:44.803     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\Apache.NMS.dll"
+"Could not load file or assembly 'Apache.NMS.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:23:44.882     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\Apache.NMS.ActiveMQ.dll"
+"Could not load file or assembly 'Apache.NMS.ActiveMQ.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:23:44.944     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTQueue.dll"
+"Could not load file or assembly 'XpaTQueue.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:35:37.719     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:35:37.783     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:35:37.949     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:35:38.012     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:35:38.354     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:35:38.415     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:35:38.547     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:35:38.613     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\Apache.NMS.dll"
+"Could not load file or assembly 'Apache.NMS.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:35:38.680     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\Apache.NMS.ActiveMQ.dll"
+"Could not load file or assembly 'Apache.NMS.ActiveMQ.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:35:38.749     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTQueue.dll"
+"Could not load file or assembly 'XpaTQueue.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:35:38.813     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:35:38.922     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\Apache.NMS.dll"
+"Could not load file or assembly 'Apache.NMS.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:35:38.984     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\Apache.NMS.ActiveMQ.dll"
+"Could not load file or assembly 'Apache.NMS.ActiveMQ.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:35:39.053     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTQueue.dll"
+"Could not load file or assembly 'XpaTQueue.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:55:29.129     [Error  ] - Component Files not found : Roslyn.ecf
+ <-1> 28/09/2019 17:55:29.186     [Error  ] - Component Files not found : DatabaseComp.ecf
+ <-1> 28/09/2019 17:55:29.243     [Error  ] - Component Files not found : xpa_project_scan.ecf
+ <-1> 28/09/2019 17:55:30.219     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:55:30.277     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:55:30.414     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:55:30.472     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:55:30.708     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:55:30.766     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:55:30.863     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:55:30.921     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\Apache.NMS.dll"
+"Could not load file or assembly 'Apache.NMS.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:55:30.981     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\Apache.NMS.ActiveMQ.dll"
+"Could not load file or assembly 'Apache.NMS.ActiveMQ.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:55:31.042     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTQueue.dll"
+"Could not load file or assembly 'XpaTQueue.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:55:31.103     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:55:31.160     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\Apache.NMS.dll"
+"Could not load file or assembly 'Apache.NMS.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:55:31.231     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\Apache.NMS.ActiveMQ.dll"
+"Could not load file or assembly 'Apache.NMS.ActiveMQ.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 17:55:31.290     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTQueue.dll"
+"Could not load file or assembly 'XpaTQueue.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 18:00:37.151     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 18:00:37.214     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 18:00:37.379     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 18:00:37.440     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 18:00:37.796     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 18:00:37.857     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 18:00:37.983     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 18:00:38.049     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\Apache.NMS.dll"
+"Could not load file or assembly 'Apache.NMS.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 18:00:38.119     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\Apache.NMS.ActiveMQ.dll"
+"Could not load file or assembly 'Apache.NMS.ActiveMQ.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 18:00:38.179     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTQueue.dll"
+"Could not load file or assembly 'XpaTQueue.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 18:00:38.241     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 18:00:38.303     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\Apache.NMS.dll"
+"Could not load file or assembly 'Apache.NMS.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 18:00:38.369     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\Apache.NMS.ActiveMQ.dll"
+"Could not load file or assembly 'Apache.NMS.ActiveMQ.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 18:00:38.431     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTQueue.dll"
+"Could not load file or assembly 'XpaTQueue.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 18:09:06.107     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 18:09:06.170     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 18:09:06.344     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 18:09:06.409     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 18:09:06.767     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 18:09:06.828     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 18:09:06.971     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 18:09:07.034     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\Apache.NMS.dll"
+"Could not load file or assembly 'Apache.NMS.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 18:09:07.097     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\Apache.NMS.ActiveMQ.dll"
+"Could not load file or assembly 'Apache.NMS.ActiveMQ.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 18:09:07.159     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTQueue.dll"
+"Could not load file or assembly 'XpaTQueue.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 18:09:07.224     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 18:09:07.309     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\Apache.NMS.dll"
+"Could not load file or assembly 'Apache.NMS.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 18:09:07.371     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\Apache.NMS.ActiveMQ.dll"
+"Could not load file or assembly 'Apache.NMS.ActiveMQ.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 18:09:07.441     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTQueue.dll"
+"Could not load file or assembly 'XpaTQueue.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 18:13:38.404     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 18:13:38.467     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 18:13:38.651     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 18:13:38.713     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\MgConsole.dll"
+"Could not load file or assembly 'MgConsole.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 18:13:39.073     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 18:13:39.135     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 18:13:39.272     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 18:13:39.337     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\Apache.NMS.dll"
+"Could not load file or assembly 'Apache.NMS.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 18:13:39.399     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\Apache.NMS.ActiveMQ.dll"
+"Could not load file or assembly 'Apache.NMS.ActiveMQ.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 18:13:39.471     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTQueue.dll"
+"Could not load file or assembly 'XpaTQueue.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 18:13:39.536     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTHttpDNet.dll"
+"Could not load file or assembly 'XpaTHttpDNet.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 18:13:39.610     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\Apache.NMS.dll"
+"Could not load file or assembly 'Apache.NMS.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 18:13:39.673     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\Apache.NMS.ActiveMQ.dll"
+"Could not load file or assembly 'Apache.NMS.ActiveMQ.dll' or one of its dependencies. The system cannot find the path specified."
+ <-1> 28/09/2019 18:13:39.741     [Error  ] - Failed to Load Assembly : "C:\Magic\projects\XpaDemobin\XpaTQueue.dll"
+"Could not load file or assembly 'XpaTQueue.dll' or one of its dependencies. The system cannot find the path specified."

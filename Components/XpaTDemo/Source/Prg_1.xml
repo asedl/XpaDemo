@@ -28,7 +28,7 @@
           <RunProjectAs val="O"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737009" _time="45096" date="11/11/2018" time="12:31:36"/>
+          <LastModified _date="737299" _time="76930" date="28.08.2019" time="21:22:10"/>
         </Header>
         <ItemIsn val="4"/>
         <Resource>
@@ -167,6 +167,18 @@
                 </Select>
               </LogicLine>
             </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="4" propagate="78">
+            <Level val="H"/>
+            <Type val="U"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="U"/>
+              <PublicObject comp="-1"/>
+            </Event>
           </LogicUnit>
           <LogicUnit id="2" propagate="78">
             <Level val="F"/>

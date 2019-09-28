@@ -8,7 +8,7 @@
 
   <Exe comp="-1"/>
 
-  <LastIsn val="33"/>
+  <LastIsn val="34"/>
 
   <LastIsnFolder val="2"/>
 
@@ -24,6 +24,7 @@
 </Header>
  <DataSourceRepository>
   <DataObjects>
+ 
  
  
 <DataObject FolderIsn="1" PhysicalName="xpatest_uris" Public="xpatest_uris" Resident="N" UniqueISNConvState="12" data_source="XPATest" id="16" name="xpatest_uris">
@@ -1352,7 +1353,7 @@
   <WebS/>
 
 </DataObject> 
-<DataObject FolderIsn="2" PhysicalName="Products" Public="Products" Resident="N" UniqueISNConvState="12" data_source="RIADemo" id="26" name="Products">
+<DataObject FolderIsn="2" PhysicalName="_Products" Public="_Products" Resident="N" UniqueISNConvState="12" data_source="RIADemo" id="26" name="_Products">
 
   <Encrypt val="N"/>
 
@@ -1596,6 +1597,312 @@
         <_Negative id="192"/>
         <_FieldPhysical Name="Discontinued" PIC_U="1" Size="2" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
         <PartOfDatetime id="244"/>
+        <_FieldStyle id="276" val="1"/>
+      </PropertyList>
+    </Column>
+  </Columns>
+
+  <Indexes>
+    <Index id="1" name="pK_PRODUCTS">
+      <Mode val="S"/>
+      <Order val="T"/>
+      <Range val="Q"/>
+      <IndexType val="R"/>
+      <PhysicalName val="sqlite_autoindex_Products_1"/>
+      <HasHint val="N"/>
+      <Clustered val="N"/>
+      <DropOnReindex val="Y"/>
+      <Primary val="N"/>
+      <Segments>
+        <Segment>
+          <Size val="4"/>
+          <Column val="1"/>
+          <Order val="A"/>
+        </Segment>
+      </Segments>
+    </Index>
+    <Index id="2" name="CategoriesProducts">
+      <Mode val="N"/>
+      <Order val="T"/>
+      <Range val="Q"/>
+      <IndexType val="R"/>
+      <PhysicalName val="CategoriesProducts"/>
+      <HasHint val="N"/>
+      <Clustered val="N"/>
+      <DropOnReindex val="Y"/>
+      <Primary val="N"/>
+      <Segments>
+        <Segment>
+          <Size val="4"/>
+          <Column val="4"/>
+          <Order val="A"/>
+        </Segment>
+      </Segments>
+    </Index>
+  </Indexes>
+
+  <ForeignKeys/>
+
+  <WebS/>
+
+</DataObject> 
+<DataObject FolderIsn="2" PhysicalName="Products" Public="Products" Resident="N" UniqueISNConvState="12" data_source="RIADemo" id="34" name="Products">
+
+  <Encrypt val="N"/>
+
+  <Cache val="D"/>
+
+  <IdentifyRowModifications val="U"/>
+
+  <HasHint val="N"/>
+
+  <Cursor val="D"/>
+
+  <CheckExistence val="D"/>
+
+  <ObjectType val="T"/>
+
+  <Position val="D"/>
+
+  <PositionIndex val="-2"/>
+
+  <IndexesLastIsn val="3"/>
+
+  <Columns>
+    <Column id="1" name="ProductID">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Modifiable id="53" val="Y"/>
+        <Range id="98" valUnicode="\-2147483648-2147483647"/>
+        <Picture id="157" valUnicode="N10"/>
+        <NullAllowed id="166"/>
+        <NullDefault id="169"/>
+        <DatabaseDefault id="171"/>
+        <CharSet id="172" val="1"/>
+        <StoredAs id="173" val="4"/>
+        <Size id="174" val="4"/>
+        <Definition id="175" val="2"/>
+        <DatabaseInformation id="177"/>
+        <DbColumnName id="178" val="ProductID"/>
+        <Type id="179" val="INT"/>
+        <UserType id="180"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="10"/>
+        <_Negative id="192" val="Y"/>
+        <_FieldPhysical Name="ProductID" PIC_U="N10" Size="4" SqlType="INT" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+        <PartOfDatetime id="244"/>
+      </PropertyList>
+    </Column>
+    <Column id="2" name="ProductName">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_UNICODE" id="1"/>
+        <Modifiable id="53" val="Y"/>
+        <Range id="98"/>
+        <Picture id="157" valUnicode="40"/>
+        <NullAllowed id="166"/>
+        <NullDefault id="169"/>
+        <DatabaseDefault id="171"/>
+        <CharSet id="172"/>
+        <StoredAs id="173" val="32"/>
+        <Size id="174" val="80"/>
+        <Definition id="175" val="2"/>
+        <DatabaseInformation id="177"/>
+        <DbColumnName id="178" val="ProductName"/>
+        <Type id="179" val="NVARCHAR(40)"/>
+        <UserType id="180"/>
+        <_FieldPhysical Name="ProductName" PIC_U="40" Size="80" SqlType="NVARCHAR(40)" allowed_null="N" attribute="U" context_cookies="Y" database_definition="2" id="231" storage="32"/>
+        <PartOfDatetime id="244"/>
+      </PropertyList>
+    </Column>
+    <Column id="3" name="SupplierID">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Modifiable id="53" val="Y"/>
+        <Range id="98" valUnicode="\-2147483648-2147483647"/>
+        <Picture id="157" valUnicode="N10"/>
+        <NullAllowed id="166" val="Y"/>
+        <NullDefault id="169" val="Y"/>
+        <DatabaseDefault id="171"/>
+        <CharSet id="172" val="1"/>
+        <StoredAs id="173" val="4"/>
+        <Size id="174" val="4"/>
+        <Definition id="175" val="2"/>
+        <DatabaseInformation id="177"/>
+        <DbColumnName id="178" val="SupplierID"/>
+        <Type id="179" val="INT"/>
+        <UserType id="180"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="10"/>
+        <_Negative id="192" val="Y"/>
+        <_FieldPhysical Name="SupplierID" PIC_U="N10" Size="4" SqlType="INT" allowed_null="Y" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+        <PartOfDatetime id="244"/>
+      </PropertyList>
+    </Column>
+    <Column id="4" name="CategoryID">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Modifiable id="53" val="Y"/>
+        <Range id="98" valUnicode="\-2147483648-2147483647"/>
+        <Picture id="157" valUnicode="N10"/>
+        <NullAllowed id="166" val="Y"/>
+        <NullDefault id="169" val="Y"/>
+        <DatabaseDefault id="171"/>
+        <CharSet id="172" val="1"/>
+        <StoredAs id="173" val="4"/>
+        <Size id="174" val="4"/>
+        <Definition id="175" val="2"/>
+        <DatabaseInformation id="177"/>
+        <DbColumnName id="178" val="CategoryID"/>
+        <Type id="179" val="INT"/>
+        <UserType id="180"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="10"/>
+        <_Negative id="192" val="Y"/>
+        <_FieldPhysical Name="CategoryID" PIC_U="N10" Size="4" SqlType="INT" allowed_null="Y" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+        <PartOfDatetime id="244"/>
+      </PropertyList>
+    </Column>
+    <Column id="5" name="QuantityPerUnit">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_UNICODE" id="1"/>
+        <Modifiable id="53" val="Y"/>
+        <Range id="98"/>
+        <Picture id="157" valUnicode="20"/>
+        <NullAllowed id="166" val="Y"/>
+        <NullDefault id="169" val="Y"/>
+        <DatabaseDefault id="171"/>
+        <CharSet id="172"/>
+        <StoredAs id="173" val="32"/>
+        <Size id="174" val="40"/>
+        <Definition id="175" val="2"/>
+        <DatabaseInformation id="177"/>
+        <DbColumnName id="178" val="QuantityPerUnit"/>
+        <Type id="179" val="NVARCHAR(20)"/>
+        <UserType id="180"/>
+        <_FieldPhysical Name="QuantityPerUnit" PIC_U="20" Size="40" SqlType="NVARCHAR(20)" allowed_null="Y" attribute="U" context_cookies="Y" database_definition="2" id="231" storage="32"/>
+        <PartOfDatetime id="244"/>
+      </PropertyList>
+    </Column>
+    <Column id="6" name="UnitPrice">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Modifiable id="53" val="Y"/>
+        <Picture id="157" valUnicode="N11.2"/>
+        <StoredAs id="173" val="6"/>
+        <Size id="174" val="8"/>
+        <Definition id="175" val="2"/>
+        <DatabaseInformation id="177"/>
+        <DbColumnName id="178" val="UnitPrice"/>
+        <UserType id="180"/>
+        <_Dec id="181" val="2"/>
+        <_Whole id="182" val="11"/>
+        <_Negative id="192" val="Y"/>
+        <_FieldPhysical Name="UnitPrice" PIC_U="N11.2" Size="8" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="6" translate="1"/>
+        <PartOfDatetime id="244"/>
+        <_FieldStyle id="276" val="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="7" name="UnitsInStock">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Modifiable id="53" val="Y"/>
+        <Range id="98" valUnicode="\-32768-32767"/>
+        <Picture id="157" valUnicode="N5"/>
+        <NullAllowed id="166" val="Y"/>
+        <NullDefault id="169"/>
+        <DatabaseDefault id="171" valUnicode="0"/>
+        <CharSet id="172" val="1"/>
+        <StoredAs id="173" val="4"/>
+        <Size id="174" val="2"/>
+        <Definition id="175" val="2"/>
+        <DatabaseInformation id="177"/>
+        <DbColumnName id="178" val="UnitsInStock"/>
+        <Type id="179" val="SMALLINT"/>
+        <UserType id="180"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="5"/>
+        <_Negative id="192" val="Y"/>
+        <_FieldPhysical DB_DEF_VAL_U="0" Name="UnitsInStock" PIC_U="N5" Size="2" SqlType="SMALLINT" allowed_null="Y" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+        <PartOfDatetime id="244"/>
+      </PropertyList>
+    </Column>
+    <Column id="8" name="UnitsOnOrder">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Modifiable id="53" val="Y"/>
+        <Range id="98" valUnicode="\-32768-32767"/>
+        <Picture id="157" valUnicode="N5"/>
+        <NullAllowed id="166" val="Y"/>
+        <NullDefault id="169"/>
+        <DatabaseDefault id="171" valUnicode="0"/>
+        <CharSet id="172" val="1"/>
+        <StoredAs id="173" val="4"/>
+        <Size id="174" val="2"/>
+        <Definition id="175" val="2"/>
+        <DatabaseInformation id="177"/>
+        <DbColumnName id="178" val="UnitsOnOrder"/>
+        <Type id="179" val="SMALLINT"/>
+        <UserType id="180"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="5"/>
+        <_Negative id="192" val="Y"/>
+        <_FieldPhysical DB_DEF_VAL_U="0" Name="UnitsOnOrder" PIC_U="N5" Size="2" SqlType="SMALLINT" allowed_null="Y" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+        <PartOfDatetime id="244"/>
+      </PropertyList>
+    </Column>
+    <Column id="9" name="ReorderLevel">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Modifiable id="53" val="Y"/>
+        <Range id="98" valUnicode="\-32768-32767"/>
+        <Picture id="157" valUnicode="N5"/>
+        <NullAllowed id="166" val="Y"/>
+        <NullDefault id="169"/>
+        <DatabaseDefault id="171" valUnicode="0"/>
+        <CharSet id="172" val="1"/>
+        <StoredAs id="173" val="4"/>
+        <Size id="174" val="2"/>
+        <Definition id="175" val="2"/>
+        <DatabaseInformation id="177"/>
+        <DbColumnName id="178" val="ReorderLevel"/>
+        <Type id="179" val="SMALLINT"/>
+        <UserType id="180"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="5"/>
+        <_Negative id="192" val="Y"/>
+        <_FieldPhysical DB_DEF_VAL_U="0" Name="ReorderLevel" PIC_U="N5" Size="2" SqlType="SMALLINT" allowed_null="Y" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+        <PartOfDatetime id="244"/>
+      </PropertyList>
+    </Column>
+    <Column id="10" name="Discontinued">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Modifiable id="53" val="Y"/>
+        <Picture id="157" valUnicode="1"/>
+        <StoredAs id="173" val="4"/>
+        <Size id="174" val="2"/>
+        <Definition id="175" val="2"/>
+        <DatabaseInformation id="177"/>
+        <DbColumnName id="178" val="Discontinued"/>
+        <UserType id="180"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="1"/>
+        <_Negative id="192"/>
+        <_FieldPhysical Name="Discontinued" PIC_U="1" Size="2" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+        <PartOfDatetime id="244"/>
+        <_FieldStyle id="276" val="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="11" name="RecCreated">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_DATE" id="1"/>
+        <StoredAs id="173" val="19"/>
+        <Size id="174" val="8"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="RecCreated"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="RecCreated" PIC_U="##/##/####" Size="8" allowed_null="N" attribute="D" context_cookies="Y" database_definition="2" id="231" storage="19" translate="1"/>
+        <DefaultStorage id="274" val="Y"/>
         <_FieldStyle id="276" val="1"/>
       </PropertyList>
     </Column>
